@@ -1,0 +1,1 @@
+supplier_id,product_id,name,website,country,type,legitimacy_verified,legitimacy_evidence,quality_pts,quality_basis,landed_cost,landed_label,landed_source,us_shipping_pts,response_pts,packaging_pts,tech_pts,moq,sample_price,processing_days,delivery_days_us,blind_shipping,returns_terms,contact,open_questions,checked

@@ -1,0 +1,23 @@
+product_id,scenario,field,value,label,source,checked
+example-organizer,base,price,59,ASSUMED,EXAMPLE ONLY: not real data,2026-11-13
+example-organizer,base,discount_pct,0.10,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,product_cost,11.50,ESTIMATED,EXAMPLE ONLY: supplier listing,2026-11-13
+example-organizer,base,supplier_shipping,5.80,ESTIMATED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,duties_other,0,ASSUMED,EXAMPLE ONLY: ships from a US warehouse,2026-11-13
+example-organizer,base,packaging,1.20,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,fulfillment_fee,0,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,payment_pct,0.029,ESTIMATED,EXAMPLE ONLY: Shopify Basic online card rate,2026-11-13
+example-organizer,base,payment_fixed,0.30,ESTIMATED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,refund_pct,0.06,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,base,benchmark_cpa,24,ESTIMATED,EXAMPLE ONLY: category benchmark with link,2026-11-13
+example-organizer,low,price,49,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,discount_pct,0.10,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,product_cost,,UNKNOWN,EXAMPLE ONLY: no quote yet,2026-11-13
+example-organizer,low,supplier_shipping,6.50,ESTIMATED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,duties_other,0,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,packaging,1.20,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,fulfillment_fee,0,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,payment_pct,0.029,ESTIMATED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,payment_fixed,0.30,ESTIMATED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,refund_pct,0.08,ASSUMED,EXAMPLE ONLY,2026-11-13
+example-organizer,low,benchmark_cpa,30,ESTIMATED,EXAMPLE ONLY,2026-11-13
