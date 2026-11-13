@@ -1,0 +1,1449 @@
+{
+ "method_note": "Amazon 'X bought in past month' via DataForSEO merchant/amazon/products (US, depth 40, checked 2026-11-13). Amazon shows bucketed floors (50+, 100+, 1K+, 2K+...), and listings under 50/month show no badge (counted as 0), so every figure is a LOWER BOUND on units, summed only over listings that appeared in our searches (top ~40-60 per search, sponsored included, deduplicated by ASIN, filtered by title to the component). Not total market size.",
+ "desk": {
+  "components": [
+   {
+    "component": "felt desk mat",
+    "amazon_units_month_by_band": {
+     "lt30": 4400,
+     "30to60": 200,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 42,
+     "30to60": 8,
+     "60plus": 1
+    },
+    "searches": [
+     "felt desk mat",
+     "wool felt desk mat",
+     "felt desk mat with cable holder"
+    ],
+    "top_listings": [
+     {
+      "title": "DAWNTREES Felt Desk Mat, Computer Mat for Desk, Dark Gray (36x12Inches)",
+      "price": 14.89,
+      "bought_past_month": 2000,
+      "reviews": 2300,
+      "url": "https://www.amazon.com/dp/B09MVT9Y98"
+     },
+     {
+      "title": "Nordik Felt Desk Mat - Large Felt Desk Pad - Charcoal 35 x 17 inches",
+      "price": 24.97,
+      "bought_past_month": 600,
+      "reviews": 1000,
+      "url": "https://www.amazon.com/dp/B0CQBMX7C6"
+     },
+     {
+      "title": "Nordik Felt Desk Mat - Large Felt Desk Pad - Timber Moss Green 35 x 17 in",
+      "price": 24.97,
+      "bought_past_month": 500,
+      "reviews": 1000,
+      "url": "https://www.amazon.com/dp/B0F8Q7L4CF"
+     },
+     {
+      "title": "DAWNTREES Large Felt Desk Mat, 40''x16'' Full Keyboard and Mouse Pad",
+      "price": 19.99,
+      "bought_past_month": 300,
+      "reviews": 3000,
+      "url": "https://www.amazon.com/dp/B096S2Z9Q7"
+     },
+     {
+      "title": "Graf Lantz Mosen Medium Merino Wool Felt Desk Pad, Luxury Non-Slip Desk Mat, Blotter for Office and Home, 24W x 12H, Charcoal",
+      "price": 78,
+      "bought_past_month": 0,
+      "reviews": 9,
+      "url": "https://www.amazon.com/dp/B0BXZ918JD"
+     }
+    ]
+   },
+   {
+    "component": "no-drill clamp-on under-desk cable tray",
+    "amazon_units_month_by_band": {
+     "lt30": 15550,
+     "30to60": 8250,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 43,
+     "30to60": 25,
+     "60plus": 2
+    },
+    "searches": [
+     "under desk cable management tray no drill",
+     "cable management bundle under desk",
+     "under desk cable tray steel premium",
+     "felt desk mat with cable holder"
+    ],
+    "top_listings": [
+     {
+      "title": "Under Desk Cable Management Tray No Drill, Metal Mesh Cable Management Under Desk with Clamp Mount, 2 Hole Cable Tray with Wire Management and Cord Organizer for Home Office Standing Desk",
+      "price": 13.89,
+      "bought_past_month": 5000,
+      "reviews": 3500,
+      "url": "https://www.amazon.com/dp/B0BZ3GHM8N"
+     },
+     {
+      "title": "Under Desk Cable Management Tray, 13.4\" Metal Cord Organizer, White",
+      "price": 13.89,
+      "bought_past_month": 3000,
+      "reviews": 4400,
+      "url": "https://www.amazon.com/dp/B0BPLRX32S"
+     },
+     {
+      "title": "Univivi No Drill Under Desk Cable Management Tray, 36 inch Cable Management",
+      "price": 37.99,
+      "bought_past_month": 3000,
+      "reviews": 960,
+      "url": "https://www.amazon.com/dp/B0DK13ZHNJ"
+     },
+     {
+      "title": "Cable Management, 25.3'' Under Desk Cable Management Tray No Drill",
+      "price": 23.99,
+      "bought_past_month": 2000,
+      "reviews": 368,
+      "url": "https://www.amazon.com/dp/B0FHGW9PZW"
+     },
+     {
+      "title": "Humanscale Mesh Wire Basket for Desk, Durable Wire Cable Management for Strips and Cables, Lightweight and Heavy-Duty Under Desk Organizer, Self Fastener Secure Cable Management Basket",
+      "price": 160,
+      "bought_past_month": 0,
+      "reviews": 6,
+      "url": "https://www.amazon.com/dp/B0BZ9KDLBJ"
+     },
+     {
+      "title": "StarTech 2-Pack Under Desk Cable Management Tray (S2MB-Desk-Cable-Tray)",
+      "price": 76.45,
+      "bought_past_month": 0,
+      "reviews": null,
+      "url": "https://www.amazon.com/dp/B0GQ538H1C"
+     }
+    ]
+   },
+   {
+    "component": "cable ties, clips and sleeves",
+    "amazon_units_month_by_band": {
+     "lt30": 34650,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 35,
+     "30to60": 1,
+     "60plus": 0
+    },
+    "searches": [
+     "cable management kit desk ties sleeves clips",
+     "desk mat and cable management set"
+    ],
+    "top_listings": [
+     {
+      "title": "Reusable Cable Ties, 60-Pack Adjustable Cord Management Straps",
+      "price": 6.28,
+      "bought_past_month": 10000,
+      "reviews": 14900,
+      "url": "https://www.amazon.com/dp/B081HH5X61"
+     },
+     {
+      "title": "192 PCS Cable Management Kit 4 Wire Organizer Sleeve",
+      "price": 15.95,
+      "bought_past_month": 7000,
+      "reviews": 6700,
+      "url": "https://www.amazon.com/dp/B0B687J37D"
+     },
+     {
+      "title": "50 PCS Hook and Loop Cable Ties, Under Desk Cable Management, White",
+      "price": 9.99,
+      "bought_past_month": 6000,
+      "reviews": 2300,
+      "url": "https://www.amazon.com/dp/B0DY7TLM9P"
+     },
+     {
+      "title": "[Made in the UK] 10-Pack Adjustable Elastic Adhesive Cable Clips, Wire Management Holder, Cord Organizer for Home Office, Under Desk, Behind TV, Phone Charger, Laptop, PC, HDMI, USB (Black)",
+      "price": 17.2,
+      "bought_past_month": 4000,
+      "reviews": 675,
+      "url": "https://www.amazon.com/dp/B0GHP439B2"
+     }
+    ]
+   },
+   {
+    "component": "magnetic cable holder",
+    "amazon_units_month_by_band": {
+     "lt30": 22400,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 37,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "searches": [
+     "magnetic cable holder desk"
+    ],
+    "top_listings": [
+     {
+      "title": "JOYROOM 9 Pack Magnetic Cable Clips, Cord Organizer Adhesive Wire Holder",
+      "price": 9.99,
+      "bought_past_month": 7000,
+      "reviews": 6500,
+      "url": "https://www.amazon.com/dp/B0CH159ZNT"
+     },
+     {
+      "title": "9 Pack Cord Organizer Magnetic Cable Clips Adhesive Wire Management 1s Lock",
+      "price": 8.99,
+      "bought_past_month": 2000,
+      "reviews": 6700,
+      "url": "https://www.amazon.com/dp/B0CBRK59J7"
+     },
+     {
+      "title": "6-Pack 360\u00b0Rotating Cord Holder for Nightstand, LISEN Magnetic Clips",
+      "price": 9.99,
+      "bought_past_month": 2000,
+      "reviews": 551,
+      "url": "https://www.amazon.com/dp/B0FTXCF536"
+     },
+     {
+      "title": "JOYROOM 9 Pack Magnetic Cable Clips Cord Organizer Adhesive Wire Management",
+      "price": 9.99,
+      "bought_past_month": 2000,
+      "reviews": 2300,
+      "url": "https://www.amazon.com/dp/B0CGRQYCPT"
+     }
+    ]
+   },
+   {
+    "component": "under-desk headphone hook",
+    "amazon_units_month_by_band": {
+     "lt30": 8650,
+     "30to60": 50,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 39,
+     "30to60": 1,
+     "60plus": 0
+    },
+    "searches": [
+     "under desk headphone hook"
+    ],
+    "top_listings": [
+     {
+      "title": "EURPMASK Rotating Headphone Stand,Adjustable Clamp-on Headset Holder Hanger",
+      "price": 10.99,
+      "bought_past_month": 2000,
+      "reviews": 29300,
+      "url": "https://www.amazon.com/dp/B07BVK2FQW"
+     },
+     {
+      "title": "Lamicall Headphone Stand, Sticky Headset Hanger, Adhesive Headphone Holder",
+      "price": 9.99,
+      "bought_past_month": 1000,
+      "reviews": 3300,
+      "url": "https://www.amazon.com/dp/B09TDG4T7G"
+     },
+     {
+      "title": "Aluminum Under-Desk Headphone Hanger with Strong Adhesive (1 Pack, Black)",
+      "price": 6.99,
+      "bought_past_month": 600,
+      "reviews": 1200,
+      "url": "https://www.amazon.com/dp/B0949DPF4C"
+     },
+     {
+      "title": "Headphone Hook Under Desk Holder 360-Degree Adjustable Rotation, Black",
+      "price": 9.99,
+      "bought_past_month": 500,
+      "reviews": 401,
+      "url": "https://www.amazon.com/dp/B0CT5RVQQ1"
+     }
+    ]
+   }
+  ],
+  "amazon_kit_listings_units_month_by_band": {
+   "lt30": 9300,
+   "30to60": 100,
+   "60plus": 0,
+   "note": "Listings in our desk searches whose title combines several cable parts or a mat with cable holders. Nearly all volume is the $15.95 192-piece ties/sleeves/clips kit (7,000+) and the $16.97 EVEO raceway kit (1,000+). Mat-plus-cable-holder sets: KDD 6-in-1 desk pad set $34.95 100+; Spigen desk pad with cable magnets $36.99 <50; Orbitkey Desk Mat Pro $99.90 <50 (231 ratings)."
+  },
+  "closest_existing_bundles": [
+   {
+    "seller": "Amazon generic (no brand shown) 192 PCS Cable Management Kit",
+    "what": "Ties, sleeves, clips, holders (no mat, no tray)",
+    "price": 15.95,
+    "sales_evidence": "7,000+ bought in past month on Amazon; 6,700 ratings (DataForSEO, 2026-11-13)",
+    "url": "https://www.amazon.com/dp/B0B687J37D"
+   },
+   {
+    "seller": "KDD",
+    "what": "Desk Pad Mat Set, 6 in 1 mouse mat with magnetic desktop storage accessories",
+    "price": 34.95,
+    "sales_evidence": "100+ bought in past month; 964 ratings (DataForSEO, 2026-11-13)",
+    "url": "https://www.amazon.com/dp/B0CH9Y1K2N"
+   },
+   {
+    "seller": "Orbitkey",
+    "what": "Desk Mat Pro (vegan leather + felt, magnetic cable holder, hideaway). Closest premium mat-plus-cable-holder product",
+    "price": 99.9,
+    "sales_evidence": "Amazon: under 50 bought last month (no badge), 231 ratings. Own US site: about 570 reviews at 4.8 (search snippet). Original Indiegogo campaign (2020): over 1,700 backers, more than $160,000 raised (Geeky Gadgets article)",
+    "url": "https://www.orbitkey.com/products/desk-mat"
+   },
+   {
+    "seller": "UPLIFT Desk",
+    "what": "Advanced Wire Management Kit: tray, surge strip, cord organizer, under-desk hook, mounts, ties (cable half of our kit, sold to its own desk owners)",
+    "price": 49,
+    "sales_evidence": "Review counts on UPLIFT's site are small: Basic kit 12 reviews, Ultimate kit 18 (workwhilewalking.com summary). Price from earlier research (competitors.csv / deep-desk-reset-kit.json)",
+    "url": "https://upliftdesk.com/uplift-advanced-wire-management-kit"
+   },
+   {
+    "seller": "Oakywood",
+    "what": "Sells every component separately (felt&cork mat $61-92, steel tray $93-121, magnet $31, ties $17); about $246-261 if bought together",
+    "price": null,
+    "sales_evidence": "Felt & cork mat: 4.3 stars on 613 reviews (Greenwashing Index review, single source). No tray review count found. Oakywood search on Amazon returned no Oakywood listings",
+    "url": "https://oakywood.shop/products/underdesk-organizer-tray"
+   },
+   {
+    "seller": "Setupking (CableOrganizer.com)",
+    "what": "Desk Management Kit",
+    "price": 71,
+    "sales_evidence": "Listed as sold out; no review or unit count (search snippet). Sold out is not proof of volume",
+    "url": "https://www.cableorganizer.com/products/setupking-desk-management-kit"
+   }
+  ],
+  "dtc_brands": [
+   {
+    "brand": "Orbitkey (Desk Mat Pro)",
+    "evidence": "About 570 reviews on US product page, 4.8; 606-610 on AU page (search snippets). Indiegogo 2020: 1,700+ backers, $160,000+",
+    "source": "https://www.orbitkey.com/products/desk-mat ; https://www.geeky-gadgets.com/orbitkey-desk-mat-22-07-2020/",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Oakywood (Felt & Cork Desk Mat)",
+    "evidence": "4.3 stars on 613 reviews (one third-party review site); Pinkoi brand profile 4.8 on about 232 reviews",
+    "source": "https://www.greenwashingindex.com/best-wool-felt-desk-mats-for-small-spaces/",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Grovemade (Wool Felt Desk Pad)",
+    "evidence": "No review count found (site returns 403); only blog reviews. Sales volume UNKNOWN",
+    "source": "https://thesweetsetup.com/a-quick-review-of-the-grovemade-felt-desk-pad/",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Branch Furniture (Cable Organizer)",
+    "evidence": "50 reviews, 4.3 on brand site (search snippet)",
+    "source": "https://www.branchfurniture.com/collections/desks/products/cable-organizer",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Graf Lantz (Merino felt desk pad, $78 on Amazon)",
+    "evidence": "Amazon: under 50 bought last month, 9 ratings",
+    "source": "https://www.amazon.com/dp/B0BXZ918JD",
+    "checked": "2026-11-13"
+   }
+  ],
+  "crowdfunding": [
+   {
+    "campaign": "Orbitkey Desk Mat (Indiegogo, 2020)",
+    "evidence": "1,700+ backers, $160,000+ raised",
+    "source": "https://www.geeky-gadgets.com/orbitkey-desk-mat-22-07-2020/"
+   },
+   {
+    "campaign": "Ugmonk Gather desk organizer (Kickstarter)",
+    "evidence": "$430,000+ funded (Tools & Toys)",
+    "source": "https://toolsandtoys.net/ugmonk-gather-desk-organizer-kickstarter/"
+   },
+   {
+    "campaign": "AWO: A Wire Organizer (Kickstarter)",
+    "evidence": "C$18,083 from 387 backers",
+    "source": "https://awo-a-wire-organizer.backerkit.com/preorders"
+   },
+   {
+    "campaign": "Coulf DeskDock (charger with retractable cables, Kickstarter)",
+    "evidence": "724 backers, over $1.1M raised (a charger, not cable management parts)",
+    "source": "https://www.backerkit.com/projects/coulf/coulf-deskdock-250w-gan-charger-with-4-retractable-cables-0"
+   },
+   {
+    "note": "No crowdfunding campaign found for a mat + tray + clips desk-reset kit like ours"
+   }
+  ],
+  "tiktok_shop": [
+   {
+    "note": "TikTok Shop sold counts not accessible: Kalodata/FastMoss need paid logins and search engines do not index TikTok Shop listing sold counts for this product type. No figure collected. One TikTok Shop XL desk mat page showed '2244 sold' for the whole shop, not that item (search snippet)."
+   }
+  ],
+  "etsy": [
+   {
+    "note": "Not researched for desk (Etsy blocks fetches with HTTP 403); Oakywood also sells on Etsy, count not retrieved"
+   }
+  ],
+  "photos": [
+   {
+    "file": "kitphotos/desk/01-felt-desk-mat.jpg",
+    "shows": "Component: felt desk mat (Amazon best seller in the felt band)",
+    "title": "DAWNTREES Felt Desk Mat, Computer Mat for Desk, Dark Gray (36x12Inches)",
+    "price": 14.89,
+    "bought_past_month": 2000,
+    "reviews": 2300,
+    "url": "https://www.amazon.com/dp/B09MVT9Y98",
+    "image_source": "https://m.media-amazon.com/images/I/91D-Wk4QckL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/02-no-drill-cable-tray.jpg",
+    "shows": "Component: clamp-on no-drill under-desk mesh cable tray",
+    "title": "Under Desk Cable Management Tray No Drill, Metal Mesh Cable Management Under Desk with Clamp Mount, 2 Hole Cable Tray with Wire Management and Cord Organizer for Home Office Standing Desk",
+    "price": 13.89,
+    "bought_past_month": 5000,
+    "reviews": 3500,
+    "url": "https://www.amazon.com/dp/B0BZ3GHM8N",
+    "image_source": "https://m.media-amazon.com/images/I/71PX8PprNgL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/03-cable-kit-sleeves-ties-clips.jpg",
+    "shows": "Component: ties, clips and sleeves (a 192-piece cable management kit)",
+    "title": "192 PCS Cable Management Kit 4 Wire Organizer Sleeve",
+    "price": 15.95,
+    "bought_past_month": 7000,
+    "reviews": 6700,
+    "url": "https://www.amazon.com/dp/B0B687J37D",
+    "image_source": "https://m.media-amazon.com/images/I/81F7bTfj+4L._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/04-magnetic-cable-clips.jpg",
+    "shows": "Component: magnetic cable holder/clips",
+    "title": "JOYROOM 9 Pack Magnetic Cable Clips, Cord Organizer Adhesive Wire Holder",
+    "price": 9.99,
+    "bought_past_month": 7000,
+    "reviews": 6500,
+    "url": "https://www.amazon.com/dp/B0CH159ZNT",
+    "image_source": "https://m.media-amazon.com/images/I/81yvBDKR49L._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/05-under-desk-headphone-hook.jpg",
+    "shows": "Component: clamp-on under-desk headphone hook",
+    "title": "EURPMASK Rotating Headphone Stand,Adjustable Clamp-on Headset Holder Hanger",
+    "price": 10.99,
+    "bought_past_month": 2000,
+    "reviews": 29300,
+    "url": "https://www.amazon.com/dp/B07BVK2FQW",
+    "image_source": "https://m.media-amazon.com/images/I/51qgeU3mecL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/06-eveo-under-desk-kit.jpg",
+    "shows": "Closest best-selling under-desk cable kit on Amazon: EVEO 6 adhesive cable raceway channels (not a tray)",
+    "title": "EVEO Cable Management Under Desk Kit (6 Units) - Under Desk Cable Management Cord Hider, Cable Hider Cord Management, Cable Organizer, Cable Raceway | Self-Adhesive 96'' J Channel 6X16 - Black",
+    "price": 16.97,
+    "bought_past_month": 1000,
+    "reviews": 5000,
+    "url": "https://www.amazon.com/dp/B08DG2LY5B",
+    "image_source": "https://m.media-amazon.com/images/I/71zX9yIAGwS._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/07-univivi-36in-tray.jpg",
+    "shows": "Larger no-drill tray at a higher price ($30-60 band)",
+    "title": "Univivi No Drill Under Desk Cable Management Tray, 36 inch Cable Management",
+    "price": 37.99,
+    "bought_past_month": 3000,
+    "reviews": 960,
+    "url": "https://www.amazon.com/dp/B0DK13ZHNJ",
+    "image_source": "https://m.media-amazon.com/images/I/71ujmpvYlkL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/desk/08-orbitkey-desk-mat-pro-premium.jpg",
+    "shows": "Premium brand version: Orbitkey Desk Mat Pro with magnetic cable holder",
+    "title": "Orbitkey Desk Mat Pro | Made from Premium Vegan Leather and Recycled PET Felt | Document Hideaway | Magnetic Cable Holder (Black, Large)",
+    "price": 99.9,
+    "bought_past_month": 0,
+    "reviews": 231,
+    "url": "https://www.amazon.com/dp/B08T368XSS",
+    "image_source": "https://m.media-amazon.com/images/I/616+0WPcauL._AC_SL600_.jpg"
+   }
+  ],
+  "verdict": {
+   "proven": "Every component sells in volume on Amazon right now, but at commodity prices: in our searches the no-drill tray shows 15,550+ units/month under $30 and 8,250+ at $30-60, ties/clips/sleeves 34,650+ (almost all under $30), magnetic clips 22,400+, headphone hooks 8,650+, felt mats 4,400+ under $30. A $15.95 cable kit alone sells 7,000+/month. Desk-setup buyers are real and buying.",
+   "unproven": "Nobody sells our exact mat + tray + clips + magnet + hook box at $129-139, and premium pieces barely move on Amazon: Orbitkey's $99.90 mat, Graf Lantz's $78 merino pad and $76-160 trays all show under 50/month. Premium DTC proof is review counts in the hundreds (Orbitkey ~570, Oakywood ~613), not thousands. Zero listings above $60 in the component searches show 50+ units. Demand for a $129 bundle is untested.",
+   "sales_evidence_strength": "strong for components under $40; weak for a $129 bundle"
+  }
+ },
+ "pet": {
+  "components": [
+   {
+    "component": "custom photo/portrait blanket (any subject)",
+    "amazon_units_month_by_band": {
+     "lt30": 12550,
+     "30to60": 400,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 120,
+     "30to60": 25,
+     "60plus": 3
+    },
+    "searches": [
+     "custom pet portrait blanket",
+     "custom pet blanket with picture sherpa",
+     "personalized dog blanket with photo",
+     "custom illustrated pet portrait blanket",
+     "pet memorial blanket custom"
+    ],
+    "top_listings": [
+     {
+      "title": "Custom Blanket Throws with Photos Text Personalized with Picture Customizable, Customize for Mom, Dad, Couple, Girlfriend, Boyfriend, Husband & Wife",
+      "price": 11.99,
+      "bought_past_month": 4000,
+      "reviews": 6800,
+      "url": "https://www.amazon.com/dp/B0D6Y9PF2V"
+     },
+     {
+      "title": "Custom Blanket with Picture Photo 40\"x 50\", Personalized Blankets for Adults, Customized Fleece Throw Customizable, Birthday Gifts for Women Men Mom Boyfriend Girlfriend Dad Couple Wife and Husband",
+      "price": 18.69,
+      "bought_past_month": 2000,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B0FPMBZPW1"
+     },
+     {
+      "title": "Custom Blanket with Picture Text, Personalized 1 Photo Blanket, HD Printing Customized Flannel Throw Blanket Gifts for Mom Dad Couple Girlfriend Boyfriend Wife Husband",
+      "price": 8.99,
+      "bought_past_month": 2000,
+      "reviews": 1900,
+      "url": "https://www.amazon.com/dp/B0DHV7FK6Z"
+     },
+     {
+      "title": "Bemaystar Custom Blanket with Picture and Text, Made in USA, Ships Next Day, Personalized Photo Blanket, Customized Blankets Gifts for Couples Family Mom Dad, Birthday Anniversary Christmas",
+      "price": 7.99,
+      "bought_past_month": 1000,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B0GLMTJ4YR"
+     },
+     {
+      "title": "Custom Pet Woven Blanket Personalized Dog or Cat Portrait \u2013 Premium Jacquard Floral Throw, Woven Not Printed, Memorial Gift for Pet Lovers, Made in USA (Midnight Navy Estate)",
+      "price": 65.99,
+      "bought_past_month": 0,
+      "reviews": 1,
+      "url": "https://www.amazon.com/dp/B0GC7NHCQ4"
+     },
+     {
+      "title": "IT'S A SKIN Custom Blanket Personalized Picture - Customized Blankets with Photos - Pet Photo Blanket, Photo Collage - Gift for Birthday, Christmas, Anniversary, Family - 60x80 Sherpa",
+      "price": 78.98,
+      "bought_past_month": 0,
+      "reviews": 71,
+      "url": "https://www.amazon.com/dp/B0916M14N4"
+     }
+    ]
+   },
+   {
+    "component": "custom PET-specific blanket (title names pet/dog/cat)",
+    "amazon_units_month_by_band": {
+     "lt30": 1800,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 108,
+     "30to60": 8,
+     "60plus": 3
+    },
+    "searches": [
+     "custom pet portrait blanket",
+     "custom pet blanket with picture sherpa",
+     "personalized dog blanket with photo",
+     "custom illustrated pet portrait blanket",
+     "pet memorial blanket custom"
+    ],
+    "top_listings": [
+     {
+      "title": "Custom Pet Portrait Blanket Personalized Fleece Throw Blankets with Dog Cat Watercolor Photo & Name Cute Cozy Soft Warm Unique Gift Ideas for Pets Lover Dog's Dad Mom",
+      "price": 19.54,
+      "bought_past_month": 200,
+      "reviews": 344,
+      "url": "https://www.amazon.com/dp/B0GFSJVZJS"
+     },
+     {
+      "title": "Custom Blanket with Dogs Pictures & Name Personalized Funny Dog Face Throw Blankets Soft Warm Plush Fleece Customized Blanket for Couch Bed Sofa Gifts for Dog Dad Mom Birthday Christmas",
+      "price": 19.54,
+      "bought_past_month": 200,
+      "reviews": 344,
+      "url": "https://www.amazon.com/dp/B0FX471YHD"
+     },
+     {
+      "title": "Custom Blanket with Picture 50\"\u00d760\", Photo Blankets Customized, Personalized HD-Printing Flannel Blankets Gifts for Men Women Couple Adult Kids Pets Girlfriend Boyfriend Families.",
+      "price": 15.99,
+      "bought_past_month": 200,
+      "reviews": 712,
+      "url": "https://www.amazon.com/dp/B0FS7MSWPT"
+     },
+     {
+      "title": "Custom Blanket with Pet Picture & Name, Personalized Photo Funny Cat Dog Face Throw Blanket, Printed Soft Warm Plush Fleece Customized Blanket for Couch Bed Sofa, Gifts for Dog Dad Mom Pet Lovers",
+      "price": 19.54,
+      "bought_past_month": 100,
+      "reviews": 344,
+      "url": "https://www.amazon.com/dp/B0FX49TMBT"
+     },
+     {
+      "title": "Custom Pet Woven Blanket Personalized Dog or Cat Portrait \u2013 Premium Jacquard Floral Throw, Woven Not Printed, Memorial Gift for Pet Lovers, Made in USA (Midnight Navy Estate)",
+      "price": 65.99,
+      "bought_past_month": 0,
+      "reviews": 1,
+      "url": "https://www.amazon.com/dp/B0GC7NHCQ4"
+     },
+     {
+      "title": "IT'S A SKIN Custom Blanket Personalized Picture - Customized Blankets with Photos - Pet Photo Blanket, Photo Collage - Gift for Birthday, Christmas, Anniversary, Family - 60x80 Sherpa",
+      "price": 78.98,
+      "bought_past_month": 0,
+      "reviews": 71,
+      "url": "https://www.amazon.com/dp/B0916M14N4"
+     }
+    ]
+   },
+   {
+    "component": "custom canvas print (any photo)",
+    "amazon_units_month_by_band": {
+     "lt30": 4400,
+     "30to60": 250,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 65,
+     "30to60": 13,
+     "60plus": 2
+    },
+    "searches": [
+     "custom pet portrait canvas",
+     "custom cartoon pet portrait canvas",
+     "custom pet portrait"
+    ],
+    "top_listings": [
+     {
+      "title": "Personalized Custom Canvas Prints: Photo On Canvas (Framed 11X14) Transform Your Photos into Stunning Framed Wall Art Digitally Printed Photo To Canvas Ideal for Home Decor Gifts Keepsakes",
+      "price": 19.99,
+      "bought_past_month": 2000,
+      "reviews": 4400,
+      "url": "https://www.amazon.com/dp/B07QZ43DR6"
+     },
+     {
+      "title": "Personalized Photo to Canvas Print - Canvas Prints With Your Photos on Custom Wall Art for Bedroom, Living Room, Wedding Baby Pet Family Picture Framed Wall Art (6\" W x 8\" H)",
+      "price": 10.99,
+      "bought_past_month": 600,
+      "reviews": 7300,
+      "url": "https://www.amazon.com/dp/B08P9BQXJH"
+     },
+     {
+      "title": "Custom Canvas Prints with Your Photos Framed Canvas Customized Wall Art Personalized Canvas Pictures for Pet/Family Gifts for Mom/Men/Women 8 x 10",
+      "price": 14.99,
+      "bought_past_month": 500,
+      "reviews": 1700,
+      "url": "https://www.amazon.com/dp/B0C53R66NJ"
+     },
+     {
+      "title": "Ship Next Day Custom Canvas Prints with Your Photos Personalized Canvas",
+      "price": 13.99,
+      "bought_past_month": 500,
+      "reviews": 183,
+      "url": "https://www.amazon.com/dp/B0FL7HQMRJ"
+     },
+     {
+      "title": "Aila's Art Personalized Dog Canvas Print, Gallery Wrapped Wall Art,(20x30)",
+      "price": 84.99,
+      "bought_past_month": 0,
+      "reviews": 5,
+      "url": "https://www.amazon.com/dp/B0H6QP7X2H"
+     },
+     {
+      "title": "TWING Custom Gothic Photo Canvas, Halloween Portrait Art, 24x36",
+      "price": 61.99,
+      "bought_past_month": 0,
+      "reviews": 3,
+      "url": "https://www.amazon.com/dp/B0HGL8CYX6"
+     }
+    ]
+   },
+   {
+    "component": "custom illustrated/painted pet portrait (art or digital)",
+    "amazon_units_month_by_band": {
+     "lt30": 400,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 82,
+     "30to60": 14,
+     "60plus": 1
+    },
+    "searches": [
+     "custom pet portrait",
+     "custom cartoon pet portrait canvas",
+     "custom pet portrait canvas",
+     "custom pet portrait gift set"
+    ],
+    "top_listings": [
+     {
+      "title": "Custom Pet Portrait Wall Art - Create Your Own Watercolor Painting from Your Photo - Personalized Dog, Cat Wall Decor - Keepsake for Pet Enthusiasts, Upload Image of Your Favorite Cat or Dog, USA-Made",
+      "price": 19.97,
+      "bought_past_month": 100,
+      "reviews": 70,
+      "url": "https://www.amazon.com/dp/B0DKQPDS9H"
+     },
+     {
+      "title": "HAUS AND HUES Create Your Own Custom Pet Portrait in Water Color - Upload an Image of Your Favorite Pet for a One-of-a-Kind Poster - Landscape or Horizontal - Made in the USA with Frame",
+      "price": 29.99,
+      "bought_past_month": 50,
+      "reviews": 266,
+      "url": "https://www.amazon.com/dp/B0CWVJNFC9"
+     },
+     {
+      "title": "Custom Pet Portrait Canvas Wall Art, Personalized Pet Gift Print with Photo, Funny Dog in Bubble Bathtub, with Wine or Reading Newspaper on Toilet Poster, Colorful or Black White Customize Style",
+      "price": 13.97,
+      "bought_past_month": 50,
+      "reviews": 14,
+      "url": "https://www.amazon.com/dp/B0GGH4F5RZ"
+     },
+     {
+      "title": "Custom Pet Portrait from Your Photos Watercolor Painting, Dog Memorial Gifts for Loss of Dog, Personalized Gift for Her Birthday, Pet Memorial Gift for Dogs, Cat & Dogs Portrait, Classic Watercolor",
+      "price": 14.95,
+      "bought_past_month": 50,
+      "reviews": 76,
+      "url": "https://www.amazon.com/dp/B0GM61SDHX"
+     },
+     {
+      "title": "TWING Custom Gothic Photo Canvas, Halloween Portrait Art, 24x36",
+      "price": 61.99,
+      "bought_past_month": 0,
+      "reviews": 3,
+      "url": "https://www.amazon.com/dp/B0HGL8CYX6"
+     }
+    ]
+   }
+  ],
+  "amazon_kit_listings_units_month_by_band": {
+   "lt30": 350,
+   "30to60": 100,
+   "60plus": 0,
+   "note": "Listings in our pet searches sold as sets (mostly 3-panel canvas sets and paint-by-number kits). No blanket + canvas + digital portrait bundle appeared on Amazon at any price."
+  },
+  "closest_existing_bundles": [
+   {
+    "seller": "Crown & Paw",
+    "what": "Illustrated themed pet portrait blankets ($59.95 list, from $49.95) and canvases (from $39.95), sold separately; 'Buy 2, get 10% off' in ads. Blanket + canvas about $100 before codes",
+    "price": 100,
+    "sales_evidence": "Trustpilot: 20,199 reviews, TrustScore 3.8. Site claims 'Over 850,000 Happy Customers' and '58,000+ Five Star Reviews' (crownandpaw.com/collections/blankets, fetched 2026-11-13). No per-product counts shown",
+    "url": "https://crownandpaw.com/collections/blankets"
+   },
+   {
+    "seller": "West & Willow",
+    "what": "Human-illustrated pet portrait; same art sold as blanket ($85 50x60, $110 60x80, fleece, one-sided), framed portrait from $77, digital download add-on $15",
+    "price": 85,
+    "sales_evidence": "Blanket page: 40 reviews, 5.0 (fetched 2026-11-13). Site-wide: ~22,262 reviews on some product pages; Trustpilot ~19,380 (Finnish page title); brand claims over 1 million portraits created",
+    "url": "https://westandwillow.com/products/custom-pet-blanket"
+   },
+   {
+    "seller": "Cuddle Clones",
+    "what": "Custom Pet Art Blanket, sherpa back, 'Hand Illustration' or cut-out option, 50x60 or 60x80",
+    "price": 79,
+    "sales_evidence": "Product page: 198 reviews (about 95% 5-star) (fetched 2026-11-13). Trustpilot ~1,507 reviews, 4.3-4.5. Site claims '750K+ Happy Customers'",
+    "url": "https://cuddleclones.com/product/custom-pet-blanket"
+   },
+   {
+    "seller": "Funnylife (Amazon)",
+    "what": "Custom Pet Portrait Blanket 60x80 (photo print)",
+    "price": 65.99,
+    "sales_evidence": "1,000 ratings but under 50 bought last month (DataForSEO 2026-11-13)",
+    "url": "https://www.amazon.com/dp/B0BW68NVVT"
+   },
+   {
+    "seller": "inkArts (Amazon)",
+    "what": "Upload-any-photo fleece blanket",
+    "price": 11.99,
+    "sales_evidence": "4,000+ bought in past month, 6,800 ratings (DataForSEO 2026-11-13)",
+    "url": "https://www.amazon.com/dp/B0D6Y9PF2V"
+   },
+   {
+    "seller": "StoreLoveSuna (Etsy)",
+    "what": "Custom pet photo blanket",
+    "price": 14.62,
+    "sales_evidence": "FindNiche (third-party estimate): 3,031 listing sales, 63/month, 1,471 reviews, listed 2025-10-17",
+    "url": "https://findniche.com/etsy-product/custom-pet-photo-blanket-personalized-do-4388808142"
+   }
+  ],
+  "dtc_brands": [
+   {
+    "brand": "Crown & Paw",
+    "evidence": "Trustpilot 20,199 reviews, 3.8. Site claims 850,000+ customers, 58,000+ five-star reviews",
+    "source": "https://uk.trustpilot.com/review/crownandpaw.com ; https://crownandpaw.com/collections/blankets",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "West & Willow",
+    "evidence": "Trustpilot ~19,380 reviews (page title). Product pages 19,210-22,262 reviews at 4.9. Blanket page 40 reviews. Brand claims over 1 million portraits",
+    "source": "https://fi.trustpilot.com/review/westandwillow.com ; https://westandwillow.com/products/custom-pet-blanket",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Cuddle Clones",
+    "evidence": "Trustpilot ~1,507 reviews. Pet art blanket page 198 reviews. Claims 750K+ customers (all products, mostly plush)",
+    "source": "https://www.trustpilot.com/review/cuddleclones.com ; https://cuddleclones.com/product/custom-pet-blanket",
+    "checked": "2026-11-13"
+   }
+  ],
+  "crowdfunding": [
+   {
+    "campaign": "Custom pet portrait ceramic ring dishes (Kickstarter)",
+    "evidence": "107 backers, $7,733, average pledge $72",
+    "source": "https://www.kicktraq.com/projects/penandinkdesign/make-100-custom-pet-and-animal-portrait-on-ceramic-ring-dishes/"
+   },
+   {
+    "campaign": "Petsy pet art (Indiegogo)",
+    "evidence": "22 backers, $2,042 of $10,000",
+    "source": "https://indiegogo.com/projects/petsy-pet-art-for-pet-people-cats-dogs"
+   },
+   {
+    "note": "Crowdfunding is not where this category sells; campaigns are tiny"
+   }
+  ],
+  "tiktok_shop": [
+   {
+    "note": "TikTok Shop sold counts not accessible: Kalodata/FastMoss need paid logins and search engines do not index TikTok Shop listing sold counts for this product type. No figure collected."
+   }
+  ],
+  "etsy": [
+   {
+    "shop": "StoreLoveSuna",
+    "evidence": "Pet photo blanket listing: 3,031 sales, 63/month, $14.62, 1,471 reviews (FindNiche estimate). A search summary also put the shop at ~376.1k sales (unverified)",
+    "source": "https://findniche.com/etsy-product/custom-pet-photo-blanket-personalized-do-4388808142",
+    "checked": "2026-11-13"
+   },
+   {
+    "shop": "WiloTreePress / ThreadandPawCo",
+    "evidence": "8,771 shop sales; pet portraits and personalized pet goods (search snippet; name mismatch on page)",
+    "source": "https://www.etsy.com/shop/WiloTreePress",
+    "checked": "2026-11-13"
+   },
+   {
+    "shop": "TheCustomPortraitCo",
+    "evidence": "5,281 shop sales; watercolor pet portraits (search snippet)",
+    "source": "https://www.etsy.com/mx/shop/TheCustomPortraitCo",
+    "checked": "2026-11-13"
+   },
+   {
+    "shop": "AndreasDigitalShop",
+    "evidence": "4,633 shop sales; same-day digital pet portraits from photo (search snippet)",
+    "source": "https://www.etsy.com/shop/AndreasDigitalShop",
+    "checked": "2026-11-13"
+   },
+   {
+    "shop": "Unnamed digital illustration shop",
+    "evidence": "7.5k sales, 8 years; digital illustrations $117-275, digital watercolor $150 (search snippet)",
+    "source": "https://www.etsy.com/market/custom_pet_illustration",
+    "checked": "2026-11-13"
+   },
+   {
+    "shop": "ByJasmineArt / PoppyRosePrintCo (UNVERIFIED)",
+    "evidence": "One search summary claimed ByJasmineArt ~59.2k shop sales and 1.6k reviews (pen-art pet portrait blanket, 10,143 favorites) and PoppyRosePrintCo ~52k sales; follow-up searches for both names returned nothing. Do not rely on these",
+    "source": "https://www.etsy.com/listing/1228814538 ; https://www.etsy.com/listing/834748519",
+    "checked": "2026-11-13"
+   },
+   {
+    "note": "Etsy shop and listing pages returned HTTP 403 to fetch; all Etsy figures are search-result snippets or FindNiche estimates. Etsy shows lifetime shop sales, not per-listing or per-month units. Etsy pet portrait listings price from about $4 (digital) to $275 (hand-drawn)"
+   }
+  ],
+  "photos": [
+   {
+    "file": "kitphotos/pet/01-inkarts-photo-blanket.jpg",
+    "shows": "Amazon best seller: upload-any-photo fleece blanket ($11.99). Photo print, not illustration",
+    "title": "Custom Blanket Throws with Photos Text Personalized with Picture Customizable, Customize for Mom, Dad, Couple, Girlfriend, Boyfriend, Husband & Wife",
+    "price": 11.99,
+    "bought_past_month": 4000,
+    "reviews": 6800,
+    "url": "https://www.amazon.com/dp/B0D6Y9PF2V",
+    "image_source": "https://m.media-amazon.com/images/I/71nWahoPbEL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/02-pet-portrait-fleece-blanket.jpg",
+    "shows": "Component: custom pet portrait fleece throw (pet-specific listing)",
+    "title": "Custom Pet Portrait Blanket Personalized Fleece Throw Blankets with Dog Cat Watercolor Photo & Name Cute Cozy Soft Warm Unique Gift Ideas for Pets Lover Dog's Dad Mom",
+    "price": 19.54,
+    "bought_past_month": 200,
+    "reviews": 344,
+    "url": "https://www.amazon.com/dp/B0GFSJVZJS",
+    "image_source": "https://m.media-amazon.com/images/I/71MT6s5ZCCL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/03-sherpa-photo-blanket.jpg",
+    "shows": "Component: custom sherpa photo blanket, ships next day",
+    "title": "Ships Next Day, Custom Sherpa Fleece Blanket with Photos Text Soft Warm Custom Blanket Personalized Couples Gifts for Boyfriend Girlfriend Customized Picture Blanket Gifts for Christmas Valentines Day",
+    "price": 32.99,
+    "bought_past_month": 300,
+    "reviews": 669,
+    "url": "https://www.amazon.com/dp/B0CJY3NLYX",
+    "image_source": "https://m.media-amazon.com/images/I/61KgS1HjNrL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/04-funnylife-60x80-pet-portrait-blanket.jpg",
+    "shows": "Premium-priced pet blanket on Amazon ($65.99, 60x80): a printed PHOTO of the pet, not an illustration; 1,000 ratings but under 50 bought last month",
+    "title": "Funnylife Custom Pet Portrait Blankets 60\" x 80\" Personalized Dog Photo Blanket for Dog Dad & Mom Gifts for Pet Owner",
+    "price": 65.99,
+    "bought_past_month": 0,
+    "reviews": 1000,
+    "url": "https://www.amazon.com/dp/B0BW68NVVT",
+    "image_source": "https://m.media-amazon.com/images/I/51-5a5q7cKL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/05-woven-pet-portrait-blanket-premium.jpg",
+    "shows": "Premium version: woven jacquard pet portrait blanket ($65.99)",
+    "title": "Custom Pet Woven Blanket Personalized Dog or Cat Portrait \u2013 Premium Jacquard Floral Throw, Woven Not Printed, Memorial Gift for Pet Lovers, Made in USA (Midnight Navy Estate)",
+    "price": 65.99,
+    "bought_past_month": 0,
+    "reviews": 1,
+    "url": "https://www.amazon.com/dp/B0GC7NHCQ4",
+    "image_source": "https://m.media-amazon.com/images/I/81RVdKsyq0L._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/06-custom-canvas-print-11x14.jpg",
+    "shows": "Component: custom canvas print (framed 11x14)",
+    "title": "Personalized Custom Canvas Prints: Photo On Canvas (Framed 11X14) Transform Your Photos into Stunning Framed Wall Art Digitally Printed Photo To Canvas Ideal for Home Decor Gifts Keepsakes",
+    "price": 19.99,
+    "bought_past_month": 2000,
+    "reviews": 4400,
+    "url": "https://www.amazon.com/dp/B07QZ43DR6",
+    "image_source": "https://m.media-amazon.com/images/I/918F20xp9sL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/07-watercolor-pet-portrait-art.jpg",
+    "shows": "Component: custom illustrated (watercolor-style) pet portrait wall art",
+    "title": "Custom Pet Portrait Wall Art - Create Your Own Watercolor Painting from Your Photo - Personalized Dog, Cat Wall Decor - Keepsake for Pet Enthusiasts, Upload Image of Your Favorite Cat or Dog, USA-Made",
+    "price": 19.97,
+    "bought_past_month": 100,
+    "reviews": 70,
+    "url": "https://www.amazon.com/dp/B0DKQPDS9H",
+    "image_source": "https://m.media-amazon.com/images/I/71wCpq2PdyL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/pet/08-haus-hues-pet-portrait.jpg",
+    "shows": "Custom illustrated pet portrait print (Haus and Hues)",
+    "title": "HAUS AND HUES Create Your Own Custom Pet Portrait in Water Color - Upload an Image of Your Favorite Pet for a One-of-a-Kind Poster - Landscape or Horizontal - Made in the USA with Frame",
+    "price": 29.99,
+    "bought_past_month": 50,
+    "reviews": 266,
+    "url": "https://www.amazon.com/dp/B0CWVJNFC9",
+    "image_source": "https://m.media-amazon.com/images/I/81ziSjImVuL._AC_SL600_.jpg"
+   }
+  ],
+  "verdict": {
+   "proven": "Custom pet portrait products are a large, real business: Crown & Paw (20,199 Trustpilot reviews, claims 850,000+ customers) and West & Willow (~19,000-22,000 reviews, claims 1M+ portraits) prove people pay $50-110 for illustrated pet art, and both sell it on blankets. On Amazon, photo blankets sell 12,550+ units/month in our searches, all under $30 (inkArts 4,000+ at $11.99).",
+   "unproven": "Blankets above $30 barely move on Amazon (Funnylife $65.99 60x80: 1,000 ratings but under 50/month; pet-specific blankets total only 1,800+/month). Illustrated portraits on Amazon are tiny (400+/month). No one sells our blanket + canvas + digital file bundle at $149; the closest (Crown & Paw blanket + canvas) is about $100 before discounts. The DTC leaders' blanket pages show 40-198 reviews, so blankets are a side product for them. Volume at $149 is unproven.",
+   "sales_evidence_strength": "strong for the category (DTC brands); weak for a $149 blanket bundle"
+  }
+ },
+ "espresso": {
+  "components": [
+   {
+    "component": "spring-loaded tamper",
+    "amazon_units_month_by_band": {
+     "lt30": 1500,
+     "30to60": 3150,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 24,
+     "30to60": 21,
+     "60plus": 0
+    },
+    "searches": [
+     "espresso tamper 53mm spring loaded",
+     "normcore espresso"
+    ],
+    "top_listings": [
+     {
+      "title": "V4 Coffee Tamper 53.3mm - Spring-Loaded Tamper - Barista Espresso Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Flat Base, Black",
+      "price": 42,
+      "bought_past_month": 1000,
+      "reviews": 3300,
+      "url": "https://www.amazon.com/dp/B09C5PWJXL"
+     },
+     {
+      "title": "54mm Espresso Tamper, Spring Loaded Self Leveling Coffee Tamper",
+      "price": 29.99,
+      "bought_past_month": 700,
+      "reviews": 224,
+      "url": "https://www.amazon.com/dp/B0F4RK1NCL"
+     },
+     {
+      "title": "54mm Espresso Tamper For Breville Machines Self Leveling",
+      "price": 43.99,
+      "bought_past_month": 500,
+      "reviews": 617,
+      "url": "https://www.amazon.com/dp/B0DBRW4YRB"
+     },
+     {
+      "title": "58.5mm Coffee Tamper V4 - Spring-Loaded Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Stainless Steel Flat Base,Black",
+      "price": 42.99,
+      "bought_past_month": 400,
+      "reviews": 3300,
+      "url": "https://www.amazon.com/dp/B09BTLP4P1"
+     }
+    ]
+   },
+   {
+    "component": "WDT tool",
+    "amazon_units_month_by_band": {
+     "lt30": 7850,
+     "30to60": 700,
+     "60plus": 150
+    },
+    "listings_counted_by_band": {
+     "lt30": 25,
+     "30to60": 9,
+     "60plus": 5
+    },
+    "searches": [
+     "wdt tool espresso"
+    ],
+    "top_listings": [
+     {
+      "title": "WDT Espresso Distribution Tool, Espresso Accessories with Built-in Cleaning Brush, 0.35mm 10 Needle Distributor and Extra 10 Needles for Espresso Stirrer, Aluminum Handle with Stand for Barista",
+      "price": 9.99,
+      "bought_past_month": 2000,
+      "reviews": 622,
+      "url": "https://www.amazon.com/dp/B0CPBCBT64"
+     },
+     {
+      "title": "WDT Espresso Distribution Tool Espresso Stirrer Tools for Barista, 0.35mm 7 Needles Espresso Coffee Stirrer with Extra 7 Replaceable Needles, Aluminum Alloy Handle with Stand (Black)",
+      "price": 19.99,
+      "bought_past_month": 1000,
+      "reviews": 1600,
+      "url": "https://www.amazon.com/dp/B0BW9658TW"
+     },
+     {
+      "title": "Aieve WDT Tool Espresso, Espresso Distribution Tool for Ninja Luxe Caf\u00e9",
+      "price": 8.99,
+      "bought_past_month": 1000,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B0BGKXQ2B4"
+     },
+     {
+      "title": "Zolunu Espresso Coffee Stirrer 5 Needles 0.4mm Espresso Distribution Tools, Natural Wood Handle and Stand (Walnut)",
+      "price": 5.99,
+      "bought_past_month": 1000,
+      "reviews": 1300,
+      "url": "https://www.amazon.com/dp/B0BHKGMR83"
+     },
+     {
+      "title": "Normcore 58mm Planetary WDT Tool V3, Adjustable Needle Distributor",
+      "price": 99.99,
+      "bought_past_month": 100,
+      "reviews": 10,
+      "url": "https://www.amazon.com/dp/B0H4BPKSZT"
+     },
+     {
+      "title": "MHW-3BOMBER WDT Tool Espresso 58mm, Espresso Distribution Tool with Magnetic Base for Barista, Adjustable Depth Needle Distributor Tool, 0.25mm x 14 Coffee Stirrer Tools, YU Series Cyclone, T5849",
+      "price": 98.99,
+      "bought_past_month": 50,
+      "reviews": 270,
+      "url": "https://www.amazon.com/dp/B0D2VT3552"
+     }
+    ]
+   },
+   {
+    "component": "distributor/leveler",
+    "amazon_units_month_by_band": {
+     "lt30": 1350,
+     "30to60": 1850,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 22,
+     "30to60": 11,
+     "60plus": 0
+    },
+    "searches": [
+     "espresso distributor leveler 54mm"
+    ],
+    "top_listings": [
+     {
+      "title": "MATOW 53mm Coffee Distributor and Tamper, Dual Head Coffee Leveler Compatible with Breville 54mm Portafilter, Adjustable Depth- Professional Espresso Hand Tampers",
+      "price": 35.99,
+      "bought_past_month": 700,
+      "reviews": 5100,
+      "url": "https://www.amazon.com/dp/B07ZT42HZF"
+     },
+     {
+      "title": "54mm Espresso Distribution Tool Walnut Coffee Distributor",
+      "price": 39.99,
+      "bought_past_month": 400,
+      "reviews": 461,
+      "url": "https://www.amazon.com/dp/B0CZ15JYR8"
+     },
+     {
+      "title": "58mm Coffee Distributor, Espresso Distribution Tool, Espresso Distributor Tool, Coffee Leveler 58mm",
+      "price": 18.99,
+      "bought_past_month": 400,
+      "reviews": 4900,
+      "url": "https://www.amazon.com/dp/B077BZ4CV6"
+     },
+     {
+      "title": "53mm Coffee Distributor, Espresso Distribution Tool, Coffee Leveler Compatible with Breville 54mm Portafilter",
+      "price": 17.99,
+      "bought_past_month": 300,
+      "reviews": 4900,
+      "url": "https://www.amazon.com/dp/B07CPRBS8C"
+     }
+    ]
+   },
+   {
+    "component": "magnetic dosing funnel",
+    "amazon_units_month_by_band": {
+     "lt30": 4350,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 46,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "searches": [
+     "magnetic dosing funnel 54mm"
+    ],
+    "top_listings": [
+     {
+      "title": "Breville the Dosing Funnel, 54 mm",
+      "price": 16.95,
+      "bought_past_month": 1000,
+      "reviews": 1300,
+      "url": "https://www.amazon.com/dp/B0BPBD7N2L"
+     },
+     {
+      "title": "Normcore 54mm Magnetic Dosing Funnel V2 - Espresso Coffee Dosing Ring - 18mm Anodized Aluminum with 8 Neodymium Magnets Fits 54mm Breville Portafilter",
+      "price": 23.69,
+      "bought_past_month": 800,
+      "reviews": 1300,
+      "url": "https://www.amazon.com/dp/B0BVR5QV4Q"
+     },
+     {
+      "title": "54mm Dosing Funnel for Breville, Twist-Lock Portafilter Funnel",
+      "price": 6.29,
+      "bought_past_month": 500,
+      "reviews": 82,
+      "url": "https://www.amazon.com/dp/B0GTVYDM4B"
+     },
+     {
+      "title": "54mm Espresso Dosing Funnel with Magnetic | Fits Breville 54mm Portafilter",
+      "price": 9.99,
+      "bought_past_month": 400,
+      "reviews": 75,
+      "url": "https://www.amazon.com/dp/B0FGDGYP4D"
+     }
+    ]
+   },
+   {
+    "component": "puck screen",
+    "amazon_units_month_by_band": {
+     "lt30": 6150,
+     "30to60": 0,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 50,
+     "30to60": 0,
+     "60plus": 3
+    },
+    "searches": [
+     "puck screen 53.5mm",
+     "normcore espresso"
+    ],
+    "top_listings": [
+     {
+      "title": "53.3mm Puck Screen - Lower Shower Screen - Metal Contact Screen for Espresso 54mm Portafilter Filter Basket - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
+      "price": 13.99,
+      "bought_past_month": 1000,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B09DD6F7M6"
+     },
+     {
+      "title": "53.3mm Puck Screen, 0.8mm Thickness, Lower Shower Screen, Reusable Metal Filter for Breville Sage 54mm Portafilter Basket, 316 Stainless Steel",
+      "price": 13.99,
+      "bought_past_month": 800,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B0CMX1LKST"
+     },
+     {
+      "title": "54mm Espresso Puck Screen for Breville, 2 Pack",
+      "price": 8.68,
+      "bought_past_month": 600,
+      "reviews": 224,
+      "url": "https://www.amazon.com/dp/B0FN41W1RR"
+     },
+     {
+      "title": "58.5mm Puck Screen - Lower Shower Screen - Metal Coffee Reusable Filter for Espresso Portafilter Filter Basket 58mm - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
+      "price": 13.99,
+      "bought_past_month": 500,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B09DDC7KMQ"
+     },
+     {
+      "title": "53.3mm 7-in-1 Compact Barista Kit: Coffee Tamper, Distributor Tool, WDT with Stand, Dosing funnel, Puck Screen, Tamping Mat, Portafilter Stand, Barista Essentials Kit for Breville Sage 54mm",
+      "price": 219.99,
+      "bought_past_month": 0,
+      "reviews": 55,
+      "url": "https://www.amazon.com/dp/B0CQD9FSHV"
+     },
+     {
+      "title": "Espresso Tamping Station, Natural American Walnut Coffee Tamper Station Base Holder Stand for 54/58mm Portafilter, Tamper, and Distributor, Puck Screen Espresso Accessories",
+      "price": 86.99,
+      "bought_past_month": 0,
+      "reviews": 153,
+      "url": "https://www.amazon.com/dp/B0CT8SK42G"
+     }
+    ]
+   },
+   {
+    "component": "tamping mat/station",
+    "amazon_units_month_by_band": {
+     "lt30": 1850,
+     "30to60": 1200,
+     "60plus": 0
+    },
+    "listings_counted_by_band": {
+     "lt30": 13,
+     "30to60": 15,
+     "60plus": 0
+    },
+    "searches": [
+     "espresso tamping station",
+     "normcore espresso",
+     "breville espresso accessories set"
+    ],
+    "top_listings": [
+     {
+      "title": "Espresso Tamping Mat I Food Safe Rubber Coffee Tamper Mat I Portafilter Mat For Baristas I Coffee Tamp Mat I Waterproof, Heat Resistant Tamping Pad and Tamp Station",
+      "price": 14.59,
+      "bought_past_month": 1000,
+      "reviews": 634,
+      "url": "https://www.amazon.com/dp/B098MQWN15"
+     },
+     {
+      "title": "Walnut Espresso Tamping Station 54mm for Breville",
+      "price": 59.99,
+      "bought_past_month": 500,
+      "reviews": 353,
+      "url": "https://www.amazon.com/dp/B0DBSPDVZ2"
+     },
+     {
+      "title": "Espresso Tamping Mat, Coffee Tamper Mat, Food Grade Silicone 10.43\u2033\u00d75.63\u2033 Portafilter Mat for Barista Espresso Machine Accessories, Waterproof Heat Resistant Tamp Station for counter (Black)",
+      "price": 15.99,
+      "bought_past_month": 300,
+      "reviews": 242,
+      "url": "https://www.amazon.com/dp/B0DTFG3DHF"
+     },
+     {
+      "title": "58mm Tamper Station Walnut Portafilter Holder",
+      "price": 59.99,
+      "bought_past_month": 200,
+      "reviews": 131,
+      "url": "https://www.amazon.com/dp/B0DJZR18QG"
+     }
+    ]
+   }
+  ],
+  "amazon_kit_listings_units_month_by_band": {
+   "lt30": 3750,
+   "30to60": 3800,
+   "60plus": 200,
+   "note": "Kits listing 2+ puck-prep tools across our espresso searches (107 listings). $60+ kits: IKAPE 8-in-1 53mm $98.99 50+ (122 ratings), IKAPE 8-in-1 58mm $98.99 50+, 7PCS 54mm with station $79.99 50+, IKAPE 9-in-1 58mm $172.99 50+; Normcore 7-in-1 Compact Barista Kit $219.99 under 50 (55 ratings)"
+  },
+  "closest_existing_bundles": [
+   {
+    "seller": "Reoszeank (Amazon)",
+    "what": "54mm kit: 53.3mm 30 lb spring tamper, distributor, WDT, magnetic funnel, puck screen, tamping station with knock box (nearly our exact contents)",
+    "price": 59.48,
+    "sales_evidence": "500+ bought in past month, 210 ratings (DataForSEO 2026-11-13)",
+    "url": "https://www.amazon.com/dp/B0G2MLP9Z4"
+   },
+   {
+    "seller": "troletoi (Amazon)",
+    "what": "7 PCS 53.3mm kit: spring tamper, distributor, mat, funnel, blower, puck screen, WDT",
+    "price": 39.99,
+    "sales_evidence": "500+ bought in past month, 414 ratings",
+    "url": "https://www.amazon.com/dp/B0FR4QPZBR"
+   },
+   {
+    "seller": "Amazon generic 54mm kit",
+    "what": "Distributor, tamper, WDT, funnel",
+    "price": 36.99,
+    "sales_evidence": "500+ bought in past month, 600 ratings",
+    "url": "https://www.amazon.com/dp/B0F6GZQLPX"
+   },
+   {
+    "seller": "IKAPE (Amazon)",
+    "what": "53mm Black Espresso Tool Set 8-in-1: tamper, distributor, magnetic funnel, WDT and more",
+    "price": 98.99,
+    "sales_evidence": "50+ bought in past month, 122 ratings",
+    "url": "https://www.amazon.com/dp/B0DLMYPGD5"
+   },
+   {
+    "seller": "Normcore (Amazon)",
+    "what": "53.3mm 7-in-1 Compact Barista Kit",
+    "price": 219.99,
+    "sales_evidence": "Under 50 bought last month, 55 ratings",
+    "url": "https://www.amazon.com/dp/B0CQD9FSHV"
+   },
+   {
+    "seller": "Breville (Amazon)",
+    "what": "BEA203 Distribution Duo 54mm walnut (distributor + tamper)",
+    "price": 109.95,
+    "sales_evidence": "50+ bought in past month, 38 ratings",
+    "url": "https://www.amazon.com/dp/B0DFYM19YC"
+   },
+   {
+    "seller": "Timemore (DTC)",
+    "what": "PUCKS set: orbital WDT, gravity distributor, calibrated tamper, mat (58.4mm only)",
+    "price": 199,
+    "sales_evidence": "No sales or review count found; reviewers call it expensive vs buying tools separately",
+    "url": "https://www.timemore.com/products/timemore-pucks-espresso-accessories-set"
+   }
+  ],
+  "dtc_brands": [
+   {
+    "brand": "Normcore",
+    "evidence": "Amazon V4 53.3mm tamper: 1,000+ bought/month, 3,300 ratings at $42; 53.3mm puck screen 1,000+/month; 54mm funnel 800+/month; tamping mat 1,000+/month. Own site returned 429 earlier",
+    "source": "https://www.amazon.com/dp/B09C5PWJXL",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "IKAPE",
+    "evidence": "Own-site Small Espresso Bar Puck Prep Kit: 3 reviews. Amazon 8-in-1 kits 50+/month each at $98.99; 53.3mm tamper 300+/month, 1,800 ratings",
+    "source": "https://ikapestore.com/da/collections/ikape-espresso-tools-kit/products/ikape-small-espresso-bar-puck-prep-kit ; https://www.amazon.com/dp/B0DLMYPGD5",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Timemore",
+    "evidence": "PUCKS $199: no review or sales count found on its site or retailers",
+    "source": "https://www.timemore.com/products/timemore-pucks-espresso-accessories-set",
+    "checked": "2026-11-13"
+   },
+   {
+    "brand": "Breville (first-party accessories)",
+    "evidence": "Dosing funnel 54mm $16.95 1,000+/month; Knock Box 10 $33.95 2,000+/month; walnut Distribution Duo $109.95 50+/month; walnut naked portafilter $99.95 200+/month",
+    "source": "https://www.amazon.com/dp/B0BPBD7N2L",
+    "checked": "2026-11-13"
+   }
+  ],
+  "crowdfunding": [
+   {
+    "campaign": "DuoPress universal tamper with integrated WDT (Koffee Zen, Kickstarter, Apr-May 2026)",
+    "evidence": "Snapshot: 32 backers, $1,516 of $2,000; final result unknown",
+    "source": "https://www.kicktraq.com/projects/gpg2/duopress-the-universal-tamper-integrated-wdt/"
+   },
+   {
+    "note": "No sizeable crowdfunding campaign for an espresso puck-prep kit found"
+   }
+  ],
+  "tiktok_shop": [
+   {
+    "note": "TikTok Shop sold counts not accessible: Kalodata/FastMoss need paid logins and search engines do not index TikTok Shop listing sold counts for this product type. No figure collected."
+   }
+  ],
+  "etsy": [
+   {
+    "note": "Not a meaningful channel; one Etsy espresso tool kit listing showed 'Only 7 left and in 9 carts' (search snippet, etsy.com/listing/1819016357). Not researched further"
+   }
+  ],
+  "photos": [
+   {
+    "file": "kitphotos/espresso/01-normcore-v4-tamper-53mm.jpg",
+    "shows": "Component: spring-loaded tamper 53.3mm (Normcore V4)",
+    "title": "Normcore V4 Coffee Tamper 53.3mm - Spring-Loaded Tamper - Barista Espresso Tamper with 15lb / 25lb / 30lbs Replacement Springs - Anodized Aluminum Handle and Stand - Flat Base, Black",
+    "price": 42,
+    "bought_past_month": 1000,
+    "reviews": 3300,
+    "url": "https://www.amazon.com/dp/B09C5PWJXL",
+    "image_source": "https://m.media-amazon.com/images/I/71mwEg3YmwL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/02-wdt-tool.jpg",
+    "shows": "Component: WDT tool",
+    "title": "WDT Espresso Distribution Tool, Espresso Accessories with Built-in Cleaning Brush, 0.35mm 10 Needle Distributor and Extra 10 Needles for Espresso Stirrer, Aluminum Handle with Stand for Barista",
+    "price": 9.99,
+    "bought_past_month": 2000,
+    "reviews": 622,
+    "url": "https://www.amazon.com/dp/B0CPBCBT64",
+    "image_source": "https://m.media-amazon.com/images/I/613QF14bVnL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/03-matow-distributor-tamper.jpg",
+    "shows": "Component: distributor/leveler (MATOW 53mm dual head)",
+    "title": "MATOW 53mm Coffee Distributor and Tamper, Dual Head Coffee Leveler Compatible with Breville 54mm Portafilter, Adjustable Depth- Professional Espresso Hand Tampers",
+    "price": 35.99,
+    "bought_past_month": 700,
+    "reviews": 5100,
+    "url": "https://www.amazon.com/dp/B07ZT42HZF",
+    "image_source": "https://m.media-amazon.com/images/I/61N6E6V3zWL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/04-normcore-dosing-funnel-54.jpg",
+    "shows": "Component: magnetic dosing funnel 54mm",
+    "title": "Normcore 54mm Magnetic Dosing Funnel V2 - Espresso Coffee Dosing Ring - 18mm Anodized Aluminum with 8 Neodymium Magnets Fits 54mm Breville Portafilter",
+    "price": 23.69,
+    "bought_past_month": 800,
+    "reviews": 1300,
+    "url": "https://www.amazon.com/dp/B0BVR5QV4Q",
+    "image_source": "https://m.media-amazon.com/images/I/714pu0Vv4jL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/05-normcore-puck-screen-53.jpg",
+    "shows": "Component: puck screen 53.3mm",
+    "title": "Normcore 53.3mm Puck Screen - Lower Shower Screen - Metal Contact Screen for Espresso 54mm Portafilter Filter Basket - 1.7mm Thickness 150\u03bcm - 316 Stainless Steel",
+    "price": 13.99,
+    "bought_past_month": 1000,
+    "reviews": 1100,
+    "url": "https://www.amazon.com/dp/B09DD6F7M6",
+    "image_source": "https://m.media-amazon.com/images/I/914Pd6WJSCL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/06-normcore-tamping-mat.jpg",
+    "shows": "Component: tamping mat",
+    "title": "Normcore Espresso Tamping Mat I Food Safe Rubber Coffee Tamper Mat I Portafilter Mat For Baristas I Coffee Tamp Mat I Waterproof, Heat Resistant Tamping Pad and Tamp Station",
+    "price": 14.59,
+    "bought_past_month": 1000,
+    "reviews": 634,
+    "url": "https://www.amazon.com/dp/B098MQWN15",
+    "image_source": "https://m.media-amazon.com/images/I/71Gp0w4e9eL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/07-reoszeank-54mm-kit-station.jpg",
+    "shows": "Closest existing bundle: 54mm kit with tamping station and knock box ($59.48)",
+    "title": "54mm Espresso Accessories Kit, Tamping Station, Knock Box, Tamper | Coffee Distributor Leveler, WDT Distribution Tool, Dosing Funnel, Puck Screen, fits Breville 54 mm Espresso Machines",
+    "price": 59.48,
+    "bought_past_month": 500,
+    "reviews": 210,
+    "url": "https://www.amazon.com/dp/B0G2MLP9Z4",
+    "image_source": "https://m.media-amazon.com/images/I/61CDAgEEBSL._AC_SL600_.jpg"
+   },
+   {
+    "file": "kitphotos/espresso/08-ikape-8in1-53mm-premium.jpg",
+    "shows": "Premium kit: IKAPE 8-in-1 53mm tool set ($98.99)",
+    "title": "IKAPE 53MM Black Espresso Tool Set 8 IN 1, Coffee Tamper, Distributor, Magnetic Funnel, Puck Screen, Tamper Station, Stirrer Distribution Tool, Cleaning Towel and Brush",
+    "price": 98.99,
+    "bought_past_month": 50,
+    "reviews": 122,
+    "url": "https://www.amazon.com/dp/B0DLMYPGD5",
+    "image_source": "https://m.media-amazon.com/images/I/716iUV+UdJL._AC_SL600_.jpg"
+   }
+  ],
+  "verdict": {
+   "proven": "Puck-prep tools and multi-tool kits sell every month on Amazon: 107 kit listings in our searches total 7,750+ units/month, with 3,800+ in the $30-60 band. Kits that match our contents almost exactly sell 500+/month at $37-59 (Reoszeank $59.48 with station, troletoi $39.99). Normcore's $42 tamper alone sells 1,000+/month. Real people are buying this exact bundle.",
+   "unproven": "Above $60 volume collapses: the best kits at $79-173 show only 50+/month each, and Normcore's $219.99 kit and Timemore's $199 set show under 50 or no data. Our $129 sits in a gap where Amazon evidence is thin (about 200+ units/month across all $60+ kits seen). That buyers will pay 2x Amazon for fit, finish and a quiz is unproven.",
+   "sales_evidence_strength": "strong for $30-60 kits; weak-to-moderate at $129"
+  }
+ },
+ "not_accessible": [
+  "Etsy shop and listing pages: HTTP 403 to WebFetch (used search snippets and FindNiche estimates)",
+  "TikTok Shop sold counts: Kalodata/FastMoss need paid accounts; search engines don't index item-level sold counts for these products",
+  "Trustpilot pages read via search snippets only (review totals from page titles)",
+  "Grovemade.com (403 in earlier research), normcorewares.com (429 in earlier research)",
+  "DataForSEO 'espresso tamping mat' search: 40102 No Search Results (tamping mat covered via the station and Normcore searches)",
+  "Amazon 'bought in past month' is a bucketed floor and absent under 50 units; true volumes are higher than shown but cannot be measured exactly",
+  "Claude in Chrome and Foreplay not used in this pass"
+ ],
+ "spend_usd": 0.102,
+ "spend_note": "DataForSEO: 34 Amazon product tasks, $0.075 + $0.027 (task_post costs as returned by the API)"
+}

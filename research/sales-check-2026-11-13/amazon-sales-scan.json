@@ -1,0 +1,3340 @@
+{
+ "seeds_scanned": 140,
+ "seeds_with_results": 139,
+ "spend_usd": 0.42,
+ "date": "2026-11-13",
+ "method": "DataForSEO Merchant Amazon Products (task_post + task_get/advanced), US (location 2840), en_US, depth 60, 140 buyer-phrased seeds in 28 categories; 'guitar accessories kit' returned no results (139 seeds with data). Organic and sponsored listings kept, deduped by ASIN per seed. Premium = price_from >= $60. premium_units_month = sum of Amazon's 'bought in past month' badge over premium listings. Kit = title matches kit/set/bundle/system/combo/starter/N-piece. Brand read from titles by hand for the top seeds (title-first-word guesses in proven_premium_items are approximate).",
+ "seed_table": [
+  {
+   "seed": "cat litter box self cleaning",
+   "category": "pet",
+   "listings": 58,
+   "premium_listings": 58,
+   "premium_listings_with_100plus_sold": 52,
+   "premium_units_month": 67900,
+   "median_premium_price": 169.5,
+   "top_brand_share_of_premium_units": 0.33,
+   "top_brands": "PetSafe (ScoopFree tray refills 20K/mo alone), many no-name auto boxes, PETKIT, Neakasa",
+   "exclusion": "fail: oversize, motorized pet-safety risk, high return complexity; refill trays are PetSafe-proprietary"
+  },
+  {
+   "seed": "tool kit",
+   "category": "home/cleaning",
+   "listings": 61,
+   "premium_listings": 30,
+   "premium_listings_with_100plus_sold": 29,
+   "premium_units_month": 37450,
+   "median_premium_price": 104.99,
+   "top_brand_share_of_premium_units": 0.52,
+   "top_brands": "DEWALT, Craftsman, Dremel, Amazon Basics",
+   "exclusion": "fail: dominated by tool majors, heavy, lithium batteries on power tools"
+  },
+  {
+   "seed": "trail camera",
+   "category": "winter/outdoor",
+   "listings": 62,
+   "premium_listings": 42,
+   "premium_listings_with_100plus_sold": 35,
+   "premium_units_month": 29900,
+   "median_premium_price": 100.49,
+   "top_brand_share_of_premium_units": 0.36,
+   "top_brands": "Moultrie, Tactacam, SPYPOINT, GardePro",
+   "exclusion": "risky: brand-led, needs cellular data plans; hunting niche"
+  },
+  {
+   "seed": "vlogging kit",
+   "category": "creator",
+   "listings": 64,
+   "premium_listings": 21,
+   "premium_listings_with_100plus_sold": 13,
+   "premium_units_month": 28800,
+   "median_premium_price": 129.95,
+   "top_brand_share_of_premium_units": 0.68,
+   "top_brands": "DJI (68%), AKASO, Hollyland",
+   "exclusion": "fail: one giant brand, lithium, electronics"
+  },
+  {
+   "seed": "garage organization",
+   "category": "home/cleaning",
+   "listings": 63,
+   "premium_listings": 27,
+   "premium_listings_with_100plus_sold": 22,
+   "premium_units_month": 27600,
+   "median_premium_price": 128.99,
+   "top_brand_share_of_premium_units": 0.22,
+   "top_brands": "Sterilite, Amazon Basics, IRIS, REIBII, Craftsman",
+   "exclusion": "fail: oversize/heavy steel shelving and bins"
+  },
+  {
+   "seed": "podcast equipment bundle",
+   "category": "creator",
+   "listings": 57,
+   "premium_listings": 42,
+   "premium_listings_with_100plus_sold": 11,
+   "premium_units_month": 26450,
+   "median_premium_price": 223.74,
+   "top_brand_share_of_premium_units": 0.53,
+   "top_brands": "DJI, FIFINE, Logitech/Blue, Shure",
+   "exclusion": "fail: brand-led electronics, lithium in wireless mics"
+  },
+  {
+   "seed": "streaming microphone kit",
+   "category": "creator",
+   "listings": 62,
+   "premium_listings": 24,
+   "premium_listings_with_100plus_sold": 16,
+   "premium_units_month": 24850,
+   "median_premium_price": 94.49,
+   "top_brand_share_of_premium_units": 0.4,
+   "top_brands": "DJI, FIFINE, Logitech/Blue, MAONO",
+   "exclusion": "risky: brand-led electronics; wired mic kits avoid lithium"
+  },
+  {
+   "seed": "puzzle table",
+   "category": "games/hobby",
+   "listings": 61,
+   "premium_listings": 51,
+   "premium_listings_with_100plus_sold": 38,
+   "premium_units_month": 23400,
+   "median_premium_price": 119.99,
+   "top_brand_share_of_premium_units": 0.56,
+   "top_brands": "ALL4JIG (~56%), JoyBerri, many unbranded",
+   "exclusion": "pass: watch oversize (24x33 in boards, 10-25 lb) and freight cost"
+  },
+  {
+   "seed": "dog grooming vacuum",
+   "category": "pet",
+   "listings": 60,
+   "premium_listings": 38,
+   "premium_listings_with_100plus_sold": 26,
+   "premium_units_month": 22850,
+   "median_premium_price": 69.99,
+   "top_brand_share_of_premium_units": 0.46,
+   "top_brands": "oneisall (~46%), Neakasa, Buenkee, unbranded",
+   "exclusion": "pass with flags: mains appliance (UL/ETL), motor QC"
+  },
+  {
+   "seed": "puzzle board with drawers",
+   "category": "games/hobby",
+   "listings": 60,
+   "premium_listings": 32,
+   "premium_listings_with_100plus_sold": 25,
+   "premium_units_month": 22200,
+   "median_premium_price": 79.98,
+   "top_brand_share_of_premium_units": 0.61,
+   "top_brands": "ALL4JIG (~61%), Playboda, WELGEE, unbranded",
+   "exclusion": "pass: oversize carton, freight cost"
+  },
+  {
+   "seed": "massage gun",
+   "category": "fitness/recovery",
+   "listings": 63,
+   "premium_listings": 24,
+   "premium_listings_with_100plus_sold": 21,
+   "premium_units_month": 20950,
+   "median_premium_price": 134.5,
+   "top_brand_share_of_premium_units": 0.38,
+   "top_brands": "Theragun/Therabody, RENPHO, Hyperice, Bob and Brad",
+   "exclusion": "fail: big brands, health-claim pull, lithium"
+  },
+  {
+   "seed": "dog grooming kit",
+   "category": "pet",
+   "listings": 68,
+   "premium_listings": 14,
+   "premium_listings_with_100plus_sold": 14,
+   "premium_units_month": 20400,
+   "median_premium_price": 76.49,
+   "top_brand_share_of_premium_units": 0.52,
+   "top_brands": "oneisall, Neakasa, Buenkee",
+   "exclusion": "pass with flags: same products as dog grooming vacuum"
+  },
+  {
+   "seed": "magsafe accessories",
+   "category": "phone",
+   "listings": 62,
+   "premium_listings": 4,
+   "premium_listings_with_100plus_sold": 4,
+   "premium_units_month": 20000,
+   "median_premium_price": 70.5,
+   "top_brand_share_of_premium_units": 0.5,
+   "top_brands": "Anker, Ridge",
+   "exclusion": "fail: lithium power banks, brand-led"
+  },
+  {
+   "seed": "hunting accessories",
+   "category": "winter/outdoor",
+   "listings": 61,
+   "premium_listings": 12,
+   "premium_listings_with_100plus_sold": 11,
+   "premium_units_month": 18500,
+   "median_premium_price": 119.99,
+   "top_brand_share_of_premium_units": 0.41,
+   "top_brands": "TIDEWE, Vortex, BOG, Moultrie",
+   "exclusion": "fail: shooting rests/gun clamps are weapon accessories; Meta ad restrictions"
+  },
+  {
+   "seed": "mechanical keyboard",
+   "category": "desk/tech",
+   "listings": 60,
+   "premium_listings": 31,
+   "premium_listings_with_100plus_sold": 24,
+   "premium_units_month": 16700,
+   "median_premium_price": 90.94,
+   "top_brand_share_of_premium_units": 0.46,
+   "top_brands": "AULA, Logitech, Razer, Redragon, Keychron",
+   "exclusion": "pass with flags: crowded, electronics returns, lithium on wireless models"
+  },
+  {
+   "seed": "camping cookware set",
+   "category": "winter/outdoor",
+   "listings": 62,
+   "premium_listings": 21,
+   "premium_listings_with_100plus_sold": 10,
+   "premium_units_month": 16700,
+   "median_premium_price": 89.99,
+   "top_brand_share_of_premium_units": 0.78,
+   "top_brands": "CAROTE (78%), Lodge",
+   "exclusion": "fail: really home cookware; food contact; one brand"
+  },
+  {
+   "seed": "hair styling tools set",
+   "category": "grooming/beauty",
+   "listings": 72,
+   "premium_listings": 23,
+   "premium_listings_with_100plus_sold": 14,
+   "premium_units_month": 16500,
+   "median_premium_price": 109.98,
+   "top_brand_share_of_premium_units": 0.33,
+   "top_brands": "TYMO, ELLA BELLA, Shark, many unbranded 6-in-1 air stylers",
+   "exclusion": "risky: heat appliance safety, Dyson Airwrap patent disputes on dupes"
+  },
+  {
+   "seed": "sunrise alarm clock",
+   "category": "sleep/home",
+   "listings": 54,
+   "premium_listings": 11,
+   "premium_listings_with_100plus_sold": 6,
+   "premium_units_month": 16450,
+   "median_premium_price": 163.15,
+   "top_brand_share_of_premium_units": 0.61,
+   "top_brands": "Hatch (61%), Philips, Amazon Echo",
+   "exclusion": "fail: one dominant brand plus Amazon"
+  },
+  {
+   "seed": "meat thermometer wireless",
+   "category": "grill/bbq",
+   "listings": 61,
+   "premium_listings": 27,
+   "premium_listings_with_100plus_sold": 20,
+   "premium_units_month": 15650,
+   "median_premium_price": 92.99,
+   "top_brand_share_of_premium_units": 0.37,
+   "top_brands": "CHEF iQ, ThermoMaven, MEATER",
+   "exclusion": "risky: lithium probes, food contact, app-dependent"
+  },
+  {
+   "seed": "charging station multiple devices",
+   "category": "phone",
+   "listings": 62,
+   "premium_listings": 9,
+   "premium_listings_with_100plus_sold": 9,
+   "premium_units_month": 14800,
+   "median_premium_price": 79.99,
+   "top_brand_share_of_premium_units": 0.91,
+   "top_brands": "Anker (91%), Belkin",
+   "exclusion": "fail: one dominant brand, lithium/charging electronics"
+  },
+  {
+   "seed": "dog car seat cover",
+   "category": "pet",
+   "listings": 60,
+   "premium_listings": 17,
+   "premium_listings_with_100plus_sold": 14,
+   "premium_units_month": 13000,
+   "median_premium_price": 109.9,
+   "top_brand_share_of_premium_units": 0.36,
+   "top_brands": "Back Seat Extender (Shark Tank), URPOWER, several unbranded hard-bottom extenders",
+   "exclusion": "pass: check Shark Tank brand's patent; bulky but light"
+  },
+  {
+   "seed": "edc kit",
+   "category": "edc/wallet",
+   "listings": 61,
+   "premium_listings": 6,
+   "premium_listings_with_100plus_sold": 4,
+   "premium_units_month": 12900,
+   "median_premium_price": 101.97,
+   "top_brand_share_of_premium_units": 0.78,
+   "top_brands": "OLIGHT (78%), LEATHERMAN",
+   "exclusion": "fail: one brand, lithium flashlights, blades"
+  },
+  {
+   "seed": "closet organizer system",
+   "category": "home/cleaning",
+   "listings": 62,
+   "premium_listings": 59,
+   "premium_listings_with_100plus_sold": 39,
+   "premium_units_month": 12500,
+   "median_premium_price": 154.99,
+   "top_brand_share_of_premium_units": 0.16,
+   "top_brands": "SpaceAid, VIPEK, SONGMICS, E10 (fragmented)",
+   "exclusion": "fail: oversize furniture"
+  },
+  {
+   "seed": "gaming desk setup accessories",
+   "category": "sim/gaming",
+   "listings": 61,
+   "premium_listings": 6,
+   "premium_listings_with_100plus_sold": 6,
+   "premium_units_month": 11200,
+   "median_premium_price": 109.22,
+   "top_brand_share_of_premium_units": 0.54,
+   "top_brands": "Anker, ODK",
+   "exclusion": "mixed: results are desks and power strips"
+  },
+  {
+   "seed": "shaving kit",
+   "category": "grooming/beauty",
+   "listings": 59,
+   "premium_listings": 5,
+   "premium_listings_with_100plus_sold": 4,
+   "premium_units_month": 10550,
+   "median_premium_price": 109.99,
+   "top_brand_share_of_premium_units": 0.76,
+   "top_brands": "MANSCAPED (76%), Wahl",
+   "exclusion": "fail: one dominant brand, body-trimmer"
+  },
+  {
+   "seed": "knife sharpening system",
+   "category": "kitchen",
+   "listings": 57,
+   "premium_listings": 31,
+   "premium_listings_with_100plus_sold": 18,
+   "premium_units_month": 9700,
+   "median_premium_price": 119.99,
+   "top_brand_share_of_premium_units": 0.72,
+   "top_brands": "Work Sharp (72%), SHARPAL, Tumbler",
+   "exclusion": "risky: one dominant brand; blade-adjacent"
+  },
+  {
+   "seed": "shower head filter",
+   "category": "home/cleaning",
+   "listings": 57,
+   "premium_listings": 11,
+   "premium_listings_with_100plus_sold": 9,
+   "premium_units_month": 9700,
+   "median_premium_price": 120.88,
+   "top_brand_share_of_premium_units": 0.21,
+   "top_brands": "MyHalos, Weddell, Afina, Jolie (fragmented)",
+   "exclusion": "on earlier shortlist"
+  },
+  {
+   "seed": "pizza oven accessories",
+   "category": "grill/bbq",
+   "listings": 61,
+   "premium_listings": 9,
+   "premium_listings_with_100plus_sold": 5,
+   "premium_units_month": 8550,
+   "median_premium_price": 105.99,
+   "top_brand_share_of_premium_units": 0.94,
+   "top_brands": "one 16x16 pizza steel seller (94%), HexClad, Ooni",
+   "exclusion": "fail: 17-27 lb steel slab, single seller"
+  },
+  {
+   "seed": "dj controller",
+   "category": "music",
+   "listings": 61,
+   "premium_listings": 54,
+   "premium_listings_with_100plus_sold": 17,
+   "premium_units_month": 8250,
+   "median_premium_price": 379.99,
+   "top_brand_share_of_premium_units": 0.51,
+   "top_brands": "Pioneer/AlphaTheta, Numark, Hercules",
+   "exclusion": "fail: brand-led instruments, $300+"
+  },
+  {
+   "seed": "3d printer accessories",
+   "category": "3d print/maker",
+   "listings": 61,
+   "premium_listings": 9,
+   "premium_listings_with_100plus_sold": 8,
+   "premium_units_month": 7850,
+   "median_premium_price": 89.99,
+   "top_brand_share_of_premium_units": 0.25,
+   "top_brands": "Bambu Lab, Snapmaker, Fanttik, SUNLU, Creality",
+   "exclusion": "pass for accessory/consumable kits; printers themselves fail"
+  },
+  {
+   "seed": "pet hair remover",
+   "category": "pet",
+   "listings": 62,
+   "premium_listings": 4,
+   "premium_listings_with_100plus_sold": 3,
+   "premium_units_month": 7100,
+   "median_premium_price": 134.97,
+   "top_brand_share_of_premium_units": 0.85,
+   "top_brands": "oneisall, Shark",
+   "exclusion": "see dog grooming vacuum"
+  },
+  {
+   "seed": "stream deck",
+   "category": "creator",
+   "listings": 62,
+   "premium_listings": 30,
+   "premium_listings_with_100plus_sold": 16,
+   "premium_units_month": 7000,
+   "median_premium_price": 107.99,
+   "top_brand_share_of_premium_units": 0.74,
+   "top_brands": "Elgato Stream Deck (74%)",
+   "exclusion": "fail: one brand"
+  },
+  {
+   "seed": "3d printer filament dryer",
+   "category": "3d print/maker",
+   "listings": 56,
+   "premium_listings": 31,
+   "premium_listings_with_100plus_sold": 18,
+   "premium_units_month": 6200,
+   "median_premium_price": 99.44,
+   "top_brand_share_of_premium_units": 0.44,
+   "top_brands": "SUNLU (44%), Creality, Polymaker, Comgrow, Sovol",
+   "exclusion": "pass with flags: heating appliance (UL)"
+  },
+  {
+   "seed": "espresso accessories",
+   "category": "coffee/tea",
+   "listings": 63,
+   "premium_listings": 3,
+   "premium_listings_with_100plus_sold": 3,
+   "premium_units_month": 6200,
+   "median_premium_price": 749.95,
+   "top_brand_share_of_premium_units": 0.85,
+   "top_brands": "Breville, Ninja (machines)",
+   "exclusion": "fail: machines, brands, food contact"
+  },
+  {
+   "seed": "beard grooming kit",
+   "category": "grooming/beauty",
+   "listings": 60,
+   "premium_listings": 5,
+   "premium_listings_with_100plus_sold": 5,
+   "premium_units_month": 6200,
+   "median_premium_price": 99.99,
+   "top_brand_share_of_premium_units": 0.48,
+   "top_brands": "Braun, MANSCAPED, Beard Club",
+   "exclusion": "fail: big brands"
+  },
+  {
+   "seed": "sim racing pedals",
+   "category": "sim/gaming",
+   "listings": 62,
+   "premium_listings": 56,
+   "premium_listings_with_100plus_sold": 11,
+   "premium_units_month": 6100,
+   "median_premium_price": 192.99,
+   "top_brand_share_of_premium_units": 0.61,
+   "top_brands": "Logitech, Thrustmaster, MOZA",
+   "exclusion": "fail: brand-led, $200+"
+  },
+  {
+   "seed": "lego display case",
+   "category": "games/hobby",
+   "listings": 64,
+   "premium_listings": 31,
+   "premium_listings_with_100plus_sold": 16,
+   "premium_units_month": 6050,
+   "median_premium_price": 169.99,
+   "top_brand_share_of_premium_units": 0.37,
+   "top_brands": "unbranded glass cabinets",
+   "exclusion": "fail: glass, oversize furniture"
+  },
+  {
+   "seed": "golf swing trainer",
+   "category": "golf",
+   "listings": 61,
+   "premium_listings": 22,
+   "premium_listings_with_100plus_sold": 17,
+   "premium_units_month": 5400,
+   "median_premium_price": 159.99,
+   "top_brand_share_of_premium_units": 0.43,
+   "top_brands": "Rapsodo, TRS, Orange Whip, Garmin, unbranded",
+   "exclusion": "pass with patent check (Orange Whip, Divot Board are patented)"
+  },
+  {
+   "seed": "indoor herb garden",
+   "category": "aquarium/plants",
+   "listings": 56,
+   "premium_listings": 19,
+   "premium_listings_with_100plus_sold": 10,
+   "premium_units_month": 5350,
+   "median_premium_price": 85.99,
+   "top_brand_share_of_premium_units": 0.25,
+   "top_brands": "unbranded hydroponics, LetPot, BACEKOLL",
+   "exclusion": "pass with flags: mains electrical, water"
+  },
+  {
+   "seed": "golf practice net",
+   "category": "golf",
+   "listings": 62,
+   "premium_listings": 40,
+   "premium_listings_with_100plus_sold": 16,
+   "premium_units_month": 5200,
+   "median_premium_price": 105.49,
+   "top_brand_share_of_premium_units": 0.57,
+   "top_brands": "GoSports, PowerNet, SKLZ, unbranded",
+   "exclusion": "pass: bulky carton"
+  },
+  {
+   "seed": "custom keycaps",
+   "category": "desk/tech",
+   "listings": 60,
+   "premium_listings": 2,
+   "premium_listings_with_100plus_sold": 2,
+   "premium_units_month": 5100,
+   "median_premium_price": 86.99,
+   "top_brand_share_of_premium_units": 0.98,
+   "top_brands": "AULA keyboards appear, not keycaps",
+   "exclusion": "n/a: no premium keycaps"
+  },
+  {
+   "seed": "ceramic coating kit",
+   "category": "car",
+   "listings": 60,
+   "premium_listings": 37,
+   "premium_listings_with_100plus_sold": 19,
+   "premium_units_month": 4950,
+   "median_premium_price": 101.99,
+   "top_brand_share_of_premium_units": 0.24,
+   "top_brands": "Gtechniq, Adam's, GYEON, 20H, CarPro, Cerakote (fragmented)",
+   "exclusion": "pass with flags: solvent chemicals (limited-quantity hazmat shipping, SDS), durability claims"
+  },
+  {
+   "seed": "golf training aids",
+   "category": "golf",
+   "listings": 61,
+   "premium_listings": 15,
+   "premium_listings_with_100plus_sold": 13,
+   "premium_units_month": 4900,
+   "median_premium_price": 99.99,
+   "top_brand_share_of_premium_units": 0.41,
+   "top_brands": "TRS, Orange Whip, WHYGOLF, Divot Board, 13UnderGolf",
+   "exclusion": "pass with patent check"
+  },
+  {
+   "seed": "whetstone sharpening kit",
+   "category": "kitchen",
+   "listings": 55,
+   "premium_listings": 10,
+   "premium_listings_with_100plus_sold": 6,
+   "premium_units_month": 4700,
+   "median_premium_price": 93.49,
+   "top_brand_share_of_premium_units": 0.64,
+   "top_brands": "Work Sharp, SHARPAL",
+   "exclusion": "risky: Work Sharp dominant"
+  },
+  {
+   "seed": "ring light kit",
+   "category": "creator",
+   "listings": 59,
+   "premium_listings": 19,
+   "premium_listings_with_100plus_sold": 10,
+   "premium_units_month": 4700,
+   "median_premium_price": 98.99,
+   "top_brand_share_of_premium_units": 0.39,
+   "top_brands": "NEEWER, unbranded",
+   "exclusion": "pass: commodity"
+  },
+  {
+   "seed": "monitor arm",
+   "category": "desk/tech",
+   "listings": 63,
+   "premium_listings": 23,
+   "premium_listings_with_100plus_sold": 11,
+   "premium_units_month": 3950,
+   "median_premium_price": 99.99,
+   "top_brand_share_of_premium_units": 0.53,
+   "top_brands": "HUANUO, VIVO, WALI, Ergotron",
+   "exclusion": "pass: commodity, heavy-ish"
+  },
+  {
+   "seed": "monitor light bar",
+   "category": "desk/tech",
+   "listings": 56,
+   "premium_listings": 15,
+   "premium_listings_with_100plus_sold": 10,
+   "premium_units_month": 3600,
+   "median_premium_price": 79.99,
+   "top_brand_share_of_premium_units": 0.49,
+   "top_brands": "BenQ, Quntis, Govee",
+   "exclusion": "pass: BenQ leads premium"
+  },
+  {
+   "seed": "pasta making kit",
+   "category": "kitchen",
+   "listings": 60,
+   "premium_listings": 6,
+   "premium_listings_with_100plus_sold": 6,
+   "premium_units_month": 3200,
+   "median_premium_price": 82.49,
+   "top_brand_share_of_premium_units": 0.47,
+   "top_brands": "Antree (KitchenAid attachments), MARCATO",
+   "exclusion": "risky: food contact, KitchenAid-dependent"
+  },
+  {
+   "seed": "electric spin scrubber",
+   "category": "home/cleaning",
+   "listings": 61,
+   "premium_listings": 10,
+   "premium_listings_with_100plus_sold": 7,
+   "premium_units_month": 3000,
+   "median_premium_price": 89.99,
+   "top_brand_share_of_premium_units": 0.5,
+   "top_brands": "HOTO, unbranded, SKIL, Fanttik",
+   "exclusion": "pass with flags: lithium"
+  },
+  {
+   "seed": "cocktail smoker kit",
+   "category": "home bar",
+   "listings": 69,
+   "premium_listings": 16,
+   "premium_listings_with_100plus_sold": 12,
+   "premium_units_month": 2950,
+   "median_premium_price": 104.95,
+   "top_brand_share_of_premium_units": 0.36,
+   "top_brands": "G&J's, Breville, many unbranded whiskey smoker kits",
+   "exclusion": "pass with flags: ship torch without butane (hazmat), skip glassware"
+  },
+  {
+   "seed": "sleep mask",
+   "category": "sleep/home",
+   "listings": 61,
+   "premium_listings": 2,
+   "premium_listings_with_100plus_sold": 2,
+   "premium_units_month": 2900,
+   "median_premium_price": 122.0,
+   "top_brand_share_of_premium_units": 1.0,
+   "top_brands": "Manta (100%)",
+   "exclusion": "fail: one brand"
+  },
+  {
+   "seed": "watch winder",
+   "category": "leather/watch/jewelry",
+   "listings": 62,
+   "premium_listings": 40,
+   "premium_listings_with_100plus_sold": 15,
+   "premium_units_month": 2850,
+   "median_premium_price": 142.5,
+   "top_brand_share_of_premium_units": 0.28,
+   "top_brands": "fragmented unbranded 1-6 slot winders",
+   "exclusion": "pass: small motor electronics, noise-related returns"
+  },
+  {
+   "seed": "soldering kit",
+   "category": "3d print/maker",
+   "listings": 60,
+   "premium_listings": 8,
+   "premium_listings_with_100plus_sold": 7,
+   "premium_units_month": 2850,
+   "median_premium_price": 91.99,
+   "top_brand_share_of_premium_units": 0.39,
+   "top_brands": "Weller, Fanttik, HOTO, FNIRSI",
+   "exclusion": "risky: burn hazard, lithium"
+  },
+  {
+   "seed": "sim racing wheel stand",
+   "category": "sim/gaming",
+   "listings": 58,
+   "premium_listings": 52,
+   "premium_listings_with_100plus_sold": 10,
+   "premium_units_month": 2800,
+   "median_premium_price": 105.99,
+   "top_brand_share_of_premium_units": 0.43,
+   "top_brands": "GTPLAYER, ARES, RACGTING",
+   "exclusion": "fail: heavy steel frames"
+  },
+  {
+   "seed": "aquarium kit",
+   "category": "aquarium/plants",
+   "listings": 62,
+   "premium_listings": 31,
+   "premium_listings_with_100plus_sold": 13,
+   "premium_units_month": 2750,
+   "median_premium_price": 139.99,
+   "top_brand_share_of_premium_units": 0.47,
+   "top_brands": "Tetra, Aqueon, Marineland",
+   "exclusion": "fail: glass tanks, live animals"
+  },
+  {
+   "seed": "putting mat",
+   "category": "golf",
+   "listings": 62,
+   "premium_listings": 35,
+   "premium_listings_with_100plus_sold": 13,
+   "premium_units_month": 2550,
+   "median_premium_price": 75.89,
+   "top_brand_share_of_premium_units": 0.39,
+   "top_brands": "unbranded, GimYaa, Perfect Practice, WELLPUTT (fragmented)",
+   "exclusion": "pass: long roll carton; Perfect Practice design check"
+  },
+  {
+   "seed": "car detailing kit",
+   "category": "car",
+   "listings": 60,
+   "premium_listings": 9,
+   "premium_listings_with_100plus_sold": 6,
+   "premium_units_month": 2450,
+   "median_premium_price": 104.99,
+   "top_brand_share_of_premium_units": 0.96,
+   "top_brands": "Chemical Guys (96%)",
+   "exclusion": "fail: one brand"
+  },
+  {
+   "seed": "golf launch monitor",
+   "category": "golf",
+   "listings": 57,
+   "premium_listings": 56,
+   "premium_listings_with_100plus_sold": 11,
+   "premium_units_month": 2450,
+   "median_premium_price": 517.49,
+   "top_brand_share_of_premium_units": 0.35,
+   "top_brands": "Rapsodo, Garmin, Voice Caddie",
+   "exclusion": "fail: $300+ electronics, brands"
+  },
+  {
+   "seed": "under sink organizer",
+   "category": "home/cleaning",
+   "listings": 61,
+   "premium_listings": 3,
+   "premium_listings_with_100plus_sold": 3,
+   "premium_units_month": 2400,
+   "median_premium_price": 69.99,
+   "top_brand_share_of_premium_units": 0.42,
+   "top_brands": "Kitstorack, PAKETA",
+   "exclusion": "pass: commodity"
+  },
+  {
+   "seed": "car cleaning kit",
+   "category": "car",
+   "listings": 63,
+   "premium_listings": 5,
+   "premium_listings_with_100plus_sold": 4,
+   "premium_units_month": 2200,
+   "median_premium_price": 104.99,
+   "top_brand_share_of_premium_units": 0.95,
+   "top_brands": "Chemical Guys (95%)",
+   "exclusion": "fail: one brand"
+  }
+ ],
+ "premium_kits_selling_300plus": [
+  {
+   "title": "CAROTE 21pcs Pots and Pans Set Non Stick, Detachable Handle Cookware, Black",
+   "price": 64.99,
+   "bought_past_month": 8000,
+   "reviews": 4300,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Cookware-Detachable-Induction-Dishwasher/dp/B0F7M3LVN8"
+  },
+  {
+   "title": "FIFINE AmpliGame AM8T XLR/USB Gaming Microphone Set, Dynamic PC Mic",
+   "price": 67.99,
+   "bought_past_month": 6000,
+   "reviews": 6100,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Podcasting-Voice-Over-AmpliGame-AM8T/dp/B0C74GYW3J"
+  },
+  {
+   "title": "oneisall Dog Grooming Vacuum,7 in 1 Grooming kit Tools with Low Noise",
+   "price": 84.99,
+   "bought_past_month": 6000,
+   "reviews": 14100,
+   "seed": "pet hair remover",
+   "url": "https://www.amazon.com/oneisall-Grooming-Grinder-Shedding-Cleaning/dp/B0BHYZV3HY"
+  },
+  {
+   "title": "ALL4JIG 1500 Piece Rotating Puzzle Board with 4 Drawer 24.92\"x33.58\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Birthday Gift for mom,Surface for Bricks Building",
+   "price": 71.99,
+   "bought_past_month": 5000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Drawers-Portable-Spinning/dp/B09WTSKMVW"
+  },
+  {
+   "title": "DEWALT Cordless Screwdriver, 4V USB Rechargeable Electric Screwdriver with 12 pcs Screwdriver Bit Set, LED Light, FLEXDRIVE Control, Compact, Ergonomic (DWHT66719)",
+   "price": 80.49,
+   "bought_past_month": 4000,
+   "reviews": 2300,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-Screwdriver-FLEXDRIVE-Screwdriving-DWHT66719/dp/B0DJBQ9ZBF"
+  },
+  {
+   "title": "Buenkee Dog Grooming Vacuum Kit, 15000Pa Clipper, Shedding Brush, 2L, White",
+   "price": 69.99,
+   "bought_past_month": 3000,
+   "reviews": 3700,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/buenkee-Grooming-Clipper-Shedding-Cleaning/dp/B0CQSYJ3CQ"
+  },
+  {
+   "title": "Dremel 4300-5/40 Rotary Tool Kit w/LED Light, 5 Attachments, 40 Accessories",
+   "price": 98.99,
+   "bought_past_month": 3000,
+   "reviews": 9200,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/Dremel-4300-5-Performance-Attachments-Accessories/dp/B01M1SJNVU"
+  },
+  {
+   "title": "Anker Travel Charging Station, 150W Slim USB C Charger, 4 USB C, 2 USB A | Anker Nano Fast Charging, Compact Cord, Travel Essentials, Office Accessories for MacBook, iPad, iPhone, Galaxy(Non-Battery)",
+   "price": 79.99,
+   "bought_past_month": 3000,
+   "reviews": 128,
+   "seed": "charging station multiple devices",
+   "url": "https://www.amazon.com/Anker-Travel-Charging-Station-Charger/dp/B0GS5HVBGG"
+  },
+  {
+   "title": "ALL4JIG 2000 Piece Rotating Puzzle Board with 4 Drawers and Cover, 28.5\"x40.16\" Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Boards Gift for mom,Surface for Bricks Building",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Drawers-Portable-Spinning/dp/B0BN37FZVM"
+  },
+  {
+   "title": "ALL4JIG 1500 Pieces Rotating Puzzle Board with 6 Drawers & Cover,24.92\"x33.58\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Gift for mom,Surface for Bricks Building",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Portable-Spinning-Birthday/dp/B0BXS2XY1W"
+  },
+  {
+   "title": "Neakasa P1 Pro Dog Grooming Vacuum, 6-in-1 Kit, 2-Year Protection Plan",
+   "price": 82.99,
+   "bought_past_month": 2000,
+   "reviews": 17700,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Neakasa-Grooming-Vacuum-2-Year-Protection/dp/B093KRX2K1"
+  },
+  {
+   "title": "Dog Grooming Kit with Vacuum, 12000Pa Pet Electric Clipper & Cleaning Brush",
+   "price": 66.99,
+   "bought_past_month": 2000,
+   "reviews": 158,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Grooming-Electric-Cleaning-Low-Noise-Shedding/dp/B0H4R3KCC9"
+  },
+  {
+   "title": "CAROTE 27pcs Pots and Pans Set Non Stick, Detachable Handle Cookware Set",
+   "price": 129.99,
+   "bought_past_month": 2000,
+   "reviews": 2700,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Detachable-Stackable-Dishwasher-Housewarming/dp/B0GYYH39NY"
+  },
+  {
+   "title": "Lodge Pre-Seasoned Cast Iron Skillet 3-Piece Set: 8, 10.25 & 12 inch",
+   "price": 64.9,
+   "bought_past_month": 2000,
+   "reviews": 79600,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/Piece-Skillet-Set-5SK-10SK/dp/B0BFXS6KNY"
+  },
+  {
+   "title": "CAROTE 21pcs Pots and Pans Set Non Stick, Detachable Handle Cookware",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 2700,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Detachable-Nonstick-Dishwasher-Induction/dp/B0FC6YP5LK"
+  },
+  {
+   "title": "Craftsman 262-Piece Mechanic Tool Set with 3-Drawer VERSASTACK Box, SAE and Metric Socket Set, Car and Motorcycle Tool Kit with Combination Wrenches and Spark Plug Sockets, 90-Tooth (CMMT45309)",
+   "price": 149,
+   "bought_past_month": 2000,
+   "reviews": 1500,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-262-Piece-Mechanic-VERSASTACK-CMMT45309/dp/B0CNKXHGZT"
+  },
+  {
+   "title": "DEWALT 192 Pcs. Mechanics Tool Set, 1/2, 1/4, 3/8 Socket Set, SAE and Metric Socket Wrench Set, Hard Shell Tool Box (DWMT75049)",
+   "price": 159.98,
+   "bought_past_month": 2000,
+   "reviews": 8000,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-DWMT75049-Mechanics-Tools-Piece/dp/B01BHJE0J4"
+  },
+  {
+   "title": "Amazon Basics 201-Piece Mechanic's Socket Tool Set With Case, SAE and Metric Sizes, Chrome-Vanadium Steel, Portable",
+   "price": 69.97,
+   "bought_past_month": 2000,
+   "reviews": 13200,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/AmazonBasics-Mechanics-Socket-Set-201-Piece/dp/B074MFYGSF"
+  },
+  {
+   "title": "Mount-It! in-Wall TV Cable Concealer Kit with Recessed Power \u2013 Triple Outlet, 9ft Cord, and Hand Saw \u2013 Easy, Safe Cable Management for Organized TV and Home Theater Setups",
+   "price": 66.99,
+   "bought_past_month": 2000,
+   "reviews": 649,
+   "seed": "cable management kit",
+   "url": "https://www.amazon.com/Mount-Wall-Cable-Concealer-Recessed/dp/B0DG37QGQC"
+  },
+  {
+   "title": "FIFINE AmpliTank K688CT Podcast Microphone Kit, USB/XLR Dynamic Vocal Mic | Streaming Mic with Boom Arm for PC/XLR Mixer, with Mute Button, Headphone Jack, Gain Knob, for Gaming Voice-Over Recording",
+   "price": 79.99,
+   "bought_past_month": 1000,
+   "reviews": 1400,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Headphone-Voice-Over-Streaming/dp/B0D458QDVN"
+  },
+  {
+   "title": "FIFINE AmpliGame AM8PROT Gaming Microphone Kit, XLR/USB Dynamic PC Mic",
+   "price": 79.99,
+   "bought_past_month": 1000,
+   "reviews": 321,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Recording-Jack-AmpliGame-AM8PROT/dp/B0FLDM5BSX"
+  },
+  {
+   "title": "FIFINE AmpliGame AM8TW Gaming XLR/USB Microphone Kit Streaming Dynamic Mic",
+   "price": 69.99,
+   "bought_past_month": 1000,
+   "reviews": 6100,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Streaming-Headphones-Stand-AmpliGame/dp/B0CB5HJXBM"
+  },
+  {
+   "title": "Everlit Survival Car Emergency Kit, Roadside Safety Tool Kit with Gloves,Digital Auto Air Compressor Tire Inflator, First Aid Kit, 12 Feet Jumper Cable, Tow Strap, Flashlight for Women, Men, Teenagers",
+   "price": 69.95,
+   "bought_past_month": 1000,
+   "reviews": 2900,
+   "seed": "travel accessories kit",
+   "url": "https://www.amazon.com/EVERLIT-Assistance-Multipurpose-Compressor-Flashlight/dp/B07XKGWNP8"
+  },
+  {
+   "title": "REIBII Set of 2 Garage Shelving, 2400LBS Each,Heavy Duty Storage Shelves",
+   "price": 101.99,
+   "bought_past_month": 1000,
+   "reviews": 3200,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/REIBII-Storage-Shelving-Adjustable-Basement/dp/B0D9M1WP59"
+  },
+  {
+   "title": "CRAFTSMAN VERSASTACK XL Rolling Tower Tool Storage System, 4 piece (CMST60420)",
+   "price": 159,
+   "bought_past_month": 1000,
+   "reviews": 367,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/CRAFTSMAN-CMST60420-TRADESTACKTM-Rolling-Tower/dp/B0CPT8TZR2"
+  },
+  {
+   "title": "Chemical Guys 17-Piece Car Detailing Kit, Interior & Wheel Cleaner & Wash",
+   "price": 104.99,
+   "bought_past_month": 1000,
+   "reviews": 244,
+   "seed": "car detailing kit",
+   "url": "https://www.amazon.com/Chemical-Guys-Detailing-Protectant-Accessories/dp/B0FPJLPZ2B"
+  },
+  {
+   "title": "Indoor Garden Hydroponics Growing System: 10 Pods Kit with LED",
+   "price": 65.99,
+   "bought_past_month": 1000,
+   "reviews": 3400,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/Indoor-Garden-Hydroponic-Growing-System/dp/B0B6BB4TVC"
+  },
+  {
+   "title": "Work Sharp Precision Adjust Knife Sharpener Kit, Fixed Angle System",
+   "price": 69.95,
+   "bought_past_month": 1000,
+   "reviews": 11600,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/Work-Sharp-Precision-Adjust-Sharpener/dp/B08L72P245"
+  },
+  {
+   "title": "Work Sharp MK2 Electric Knife Sharpener \u2013 Adjustable 2-Speed Knife Sharpening System for Kitchen Knives, Pocket Knives, Scissors, Axes & Garden Tools",
+   "price": 89.95,
+   "bought_past_month": 1000,
+   "reviews": 8100,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/Work-Sharp-Knife-Tool-Sharpener/dp/B08VD8ZGFZ"
+  },
+  {
+   "title": "Work Sharp MK2 Electric Knife Sharpener & Replacement Belts \u2013 Adjustable 2-Speed Knife Sharpening System for Kitchen Knives, Pocket Knives, Scissors, Axes & Garden Tools",
+   "price": 102.9,
+   "bought_past_month": 1000,
+   "reviews": 480,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/Sharp-Knife-Sharpener-extra-replacement/dp/B0F41F9BWX"
+  },
+  {
+   "title": "Playboda 1500 Pieces Puzzle Board, 35\"x27\", Tiltable & Rotating",
+   "price": 79.99,
+   "bought_past_month": 1000,
+   "reviews": 101,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Playboda-Tiltable-Rotating-Anti-Slip-Portable/dp/B0G3Q1B5LM"
+  },
+  {
+   "title": "ALL4JIG 2000 Pieces Rotating Puzzle Board with 6 Drawers and Cover,28.50\"x40.16\"Portable Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Gift for mom,Surface for Bricks Building",
+   "price": 85.99,
+   "bought_past_month": 1000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Portable-Spinning-Birthday/dp/B0BXRXFLJM"
+  },
+  {
+   "title": "ALL4JIG 1000 Pieces Rotating Puzzle Board with 6 Drawers & Cover,22.44\"x30.16\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Gift for mom,Surface for Bricks Building",
+   "price": 69.99,
+   "bought_past_month": 1000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Portable-Spinning-Birthday/dp/B0F4QTK1QF"
+  },
+  {
+   "title": "ALL4JIG 1000 Piece Rotating Puzzle Board with 4 Drawers 22.44\"x30.16\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Birthday Gift for mom,Surface for Bricks Building",
+   "price": 67.99,
+   "bought_past_month": 1000,
+   "reviews": 9800,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-1000PCS-Rotating-Jigsaw-Drawers/dp/B09684F6FL"
+  },
+  {
+   "title": "VIPEK V5 Heavy Duty Clothes Rack, Freestanding Modular Closet System, Black",
+   "price": 139.99,
+   "bought_past_month": 1000,
+   "reviews": 4600,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/VIPEK-Heavy-Duty-Clothes-Rack/dp/B09CTHYG3Z"
+  },
+  {
+   "title": "E10 Clothes Rack\uff08With Stretchable Hanger Rod\uff09Freestanding Clothing Racks for Hanging Clothes\uff0cAdjustable Closet Organizer System\uff0cPortable Garment Rack 73-97\"W x 15\" D x 72\" H\uff0cMax Load 800LBS\uff0cBlack",
+   "price": 129.99,
+   "bought_past_month": 1000,
+   "reviews": 1200,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/Ulif-Rod%EF%BC%89Freestanding-Clothes%EF%BC%8CAdjustable-System%EF%BC%8CPortable-800LBS%EF%BC%8CBlack/dp/B0C7PWN1JV"
+  },
+  {
+   "title": "TSUYAGLA 5 in 1 Automatic Curling Iron Set with 3 Interchangeable Barrels",
+   "price": 84.99,
+   "bought_past_month": 1000,
+   "reviews": 300,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Auto-Curling-Iron-Interchangeable-Barrels/dp/B0FSKC9QQN"
+  },
+  {
+   "title": "ELLA BELLA\u00ae 6 in 1 Professional Hot Air Styler & Straightener, Fast Drying",
+   "price": 149,
+   "bought_past_month": 1000,
+   "reviews": 2600,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/ELLA-Professional-Straightener-Volumizing-Straightening/dp/B0CN3XNVJT"
+  },
+  {
+   "title": "Antree 3-1 Pasta Roller & Cutter Attachment Set for KitchenAid Stand Mixers",
+   "price": 69.99,
+   "bought_past_month": 1000,
+   "reviews": 15000,
+   "seed": "pasta making kit",
+   "url": "https://www.amazon.com/ANTREE-Pasta-Attachment-KitchenAid-Fettuccine/dp/B081WXKNGC"
+  },
+  {
+   "title": "oneisall 7 in 1 Dog Grooming Vacuum Kits with Pet Clipper",
+   "price": 99.99,
+   "bought_past_month": 1000,
+   "reviews": 1500,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/oneisall-Grooming-Powerful-Clippers-BM3/dp/B0CVVWBXMT"
+  },
+  {
+   "title": "Dog Grooming Vacuum Kit with Clippers, 12000Pa Strong Suction, 2L Large Dust Cup, Low Noise <50dB, 5-in-1 Pet Hair Trimmer for Dogs Cats Shedding & Home Grooming",
+   "price": 66.49,
+   "bought_past_month": 1000,
+   "reviews": 1800,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/FIXR-Grooming-Clippers-12000Pa-Shedding/dp/B0H2V8FQVZ"
+  },
+  {
+   "title": "oneisall Dog Hair Vacuum Shedding Grooming Brush Kits for Pet Thick Coats",
+   "price": 65.99,
+   "bought_past_month": 1000,
+   "reviews": 3700,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/oneisall-Shedding-Grooming-Supplies-Cleaning/dp/B0C5DN6ZD4"
+  },
+  {
+   "title": "Cast Iron Set 6 Piece, PFAS-Free, Pre-Seasoned Pots and Pans Set",
+   "price": 98.99,
+   "bought_past_month": 1000,
+   "reviews": 209,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/Asderote-Piece-Pre-Seasoned-Cast-Cookware/dp/B0GKFZ9SRL"
+  },
+  {
+   "title": "CAROTE 25pcs Ceramic Cookware Set, Pots and Pans Set with Detachable Handle",
+   "price": 129.99,
+   "bought_past_month": 1000,
+   "reviews": 84,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Detachable-Compatible-Dishwasher-Organization/dp/B0GZ2YZG1Q"
+  },
+  {
+   "title": "SEESII 20V Power Drill Set, 183Pcs Tool Kit with Toolbox for Home DIY",
+   "price": 63.99,
+   "bought_past_month": 1000,
+   "reviews": 168,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1MTc4MjA1OTg1MjM0Nzk2OjE3OTQ2MDQyODE6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTY1NjE0NTMyMzcwMjo6MDo6&url=%2FToolbox-Battery-Flexible-Furniture-Assembly%2Fdp%2FB0FMXST3J9%2Fref%3Dsxin_15_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.7bc47535-f9ae-40a7-8852-938638102a8b%253Aamzn1.sym.7bc47535-f9ae-40a7-8852-938638102a8b%26crid%3DPUQEVWUA9GNY%26cv_ct_cx%3Dtool%2Bkit%26keywords%3Dtool%2Bkit%26pd_rd_i%3DB0FMXST3J9%26pd_rd_r%3D40a08c5c-0e8b-4be8-8062-6808bed680ae%26pd_rd_w%3DsZ94p%26pd_rd_wg%3D8nHwf%26pf_rd_p%3D7bc47535-f9ae-40a7-8852-938638102a8b%26pf_rd_r%3DTF59C2FD76GFXSK71E5Q%26qid%3D1794604281%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtool%252Bkit%252Caps%252C208%26sr%3D1-1-6024b2a3-78e4-4fed-8fed-e1613be3bcce-spons%26aref%3D31XbtWnO1m%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=31XbtWnO1m"
+  },
+  {
+   "title": "KingTool 276-Piece Tool Set Kit with 12V Cordless Power Drill (Red Black)",
+   "price": 99.99,
+   "bought_past_month": 1000,
+   "reviews": 954,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/KingTool-276-Piece-Tool-Set-Kit/dp/B0D7HC5DZQ"
+  },
+  {
+   "title": "DEKOPRO 228 Piece Socket Wrench Auto Repair Tool Combination Package Mixed Tool Set Hand Tool Kit with Plastic Toolbox Storage Case",
+   "price": 64.99,
+   "bought_past_month": 1000,
+   "reviews": 7700,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEKOPRO-Combination-Package-Plastic-Toolbox/dp/B0723914V1"
+  },
+  {
+   "title": "VEVOR Mechanics Tool Set and Socket Set, 1/4\" 3/8\" 1/2\" Drive, 450 PCS",
+   "price": 143.9,
+   "bought_past_month": 1000,
+   "reviews": 1000,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/VEVOR-Mechanics-Standard-Combination-Accessories/dp/B0CMX147Q3"
+  },
+  {
+   "title": "DEWALT Mechanics Tools Kit and Socket Set, 1/4\" & 3/8\" Drive, SAE, 108-Piece (DWMT73801)",
+   "price": 71.95,
+   "bought_past_month": 1000,
+   "reviews": 7500,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-Mechanics-Socket-108-Piece-DWMT73801/dp/B00U0P0GHM"
+  },
+  {
+   "title": "CRAFTSMAN 57 Piece Mechanics Tool Set Home Tool Set, Sockets, Ratchet, Screwdrivers, Hammer, Pliers, Hex Keys, Specialty Bits Hand Tools (CMMT99447)",
+   "price": 62.98,
+   "bought_past_month": 1000,
+   "reviews": 893,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-Piece-Mechanics-Tool-CMMT99447/dp/B0D2PN4785"
+  },
+  {
+   "title": "oneisall Dog Clippers for Grooming Thick/Matted Hair, 4-in-1 Grooming Kit",
+   "price": 65.84,
+   "bought_past_month": 1000,
+   "reviews": 872,
+   "seed": "dog grooming kit",
+   "url": "https://www.amazon.com/oneisall-Clippers-Grooming-Stainless-Cordless/dp/B0F62NXF4Z"
+  },
+  {
+   "title": "NEEWER RL-18 Ring Light 18inch Kit: 55W 5600K Professional LED with Stand",
+   "price": 112.99,
+   "bought_past_month": 1000,
+   "reviews": 66000,
+   "seed": "ring light kit",
+   "url": "https://www.amazon.com/NEEWER-RL-18-Ring-Light-18inch/dp/B01LXDNNBW"
+  },
+  {
+   "title": "Hydroponics Growing System Kit: 12 Pods with  LCD Control Panel",
+   "price": 66.49,
+   "bought_past_month": 900,
+   "reviews": 1000,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/Ahopegarden-Hydroponics-Growing-Hydroponic-Planting/dp/B0DFQ25GY5"
+  },
+  {
+   "title": "ELLA BELLA\u00ae 6 in 1 Professional Hot Air Styler & Straightener, Fast Drying",
+   "price": 149,
+   "bought_past_month": 900,
+   "reviews": 2600,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/ELLA-Professional-Straightener-Volumizing-Straightening/dp/B0D97J29XW"
+  },
+  {
+   "title": "oneisall Dog Grooming Vacuum Kit, 15000Pa, 6 Grooming Tools",
+   "price": 69.99,
+   "bought_past_month": 900,
+   "reviews": 532,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/oneisall-Grooming-Shedding-Clippers-Canister/dp/B0FQTNTB6K"
+  },
+  {
+   "title": "ALL4JIG 1500 Pieces 2-in-1 Tilting & Rotating Puzzle Board, 33.19\" x 24.53\" Adjustable Angle Puzzle Table with 4 Drawers & Clear Protective Cover, Birthday Gift for Mom",
+   "price": 79.99,
+   "bought_past_month": 800,
+   "reviews": 373,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Adjustable-Protective-Enthusiasts/dp/B0DFTMFNSQ"
+  },
+  {
+   "title": "1500 Pieces Rotating Puzzle Board with 4 Drawers,32.68\"x24.41\" Portable Wooden Jigsaw Puzzle Table with Lazy Susan Spinning Cover for Adults",
+   "price": 63.99,
+   "bought_past_month": 800,
+   "reviews": 1400,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Pieces-Rotating-Drawers-Portable-Spinning/dp/B0DQ55YNKV"
+  },
+  {
+   "title": "KingTool 325 Piece Home Repair Tool Kit, General Home/Auto Repair Tool Set, Toolbox Storage Case with Drawer, General Household Tool Kit - Perfect for Homeowner, Diyer, Handyman",
+   "price": 89.99,
+   "bought_past_month": 800,
+   "reviews": 2300,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/KingTool-General-Toolbox-Storage-Household/dp/B08VWCZ9H8"
+  },
+  {
+   "title": "EWFEN Sourdough Starter Kit with Enamel Cast Iron Pot, Complete Sourdough Bread Baking Supplies, Round & Oval Bread Proofing Basket with 34 Oz Starter Jar, Bread Making Tools Kit",
+   "price": 69.99,
+   "bought_past_month": 800,
+   "reviews": 305,
+   "seed": "sourdough starter kit",
+   "url": "https://www.amazon.com/EWFEN-Sourdough-Complete-Supplies-Proofing/dp/B0GCLLYJR8"
+  },
+  {
+   "title": "20H Professional Graphene Ceramic Coating for Cars (70ml) - 10+ Years Protection, Hydrophobic & Scratch Resistant, High Gloss Finish - Advanced Car Detailing Kit - Easy Application, Black",
+   "price": 99.99,
+   "bought_past_month": 700,
+   "reviews": 47,
+   "seed": "ceramic coating kit",
+   "url": "https://www.amazon.com/FAOGO-20H-Professional-Graphene-Ceramic/dp/B0HBB3NJ4D"
+  },
+  {
+   "title": "Puzzle Table 1500 Pieces with Wheels, Drawers & Cover, 33.58\"x24.92\" Adjustable Height & 45\u00b0 Tilting Jigsaw Board for Adults, Also Ideal as Fuse Beads Table",
+   "price": 172.99,
+   "bought_past_month": 700,
+   "reviews": 1000,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/BuilderButler-Puzzle-Drawers-Adjustable-Tilting/dp/B0D9PTR7FV"
+  },
+  {
+   "title": "Wooden Puzzle Table with Drawers, 1500 Piece Puzzles for Adults & Puzzle Enthusiasts with Adjustable Height & Tilt, Felt Surface, Metal Stand with Lockable Wheels, Puzzle Storage Box and Cover",
+   "price": 169.99,
+   "bought_past_month": 700,
+   "reviews": 40,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/QDKGH-Drawers-Enthusiasts-Adjustable-Lockable/dp/B0HJCQ3FHB"
+  },
+  {
+   "title": "Bourbon Whiskey Smoker Kit with Torch, Luxury Gift for Men | 8 Wood Chip Flavors, 200+ Drinks, Cocktail Smoker Infuser Kit, Old Fashioned & Bourbon Smoker, No Butane",
+   "price": 76.99,
+   "bought_past_month": 700,
+   "reviews": 79,
+   "seed": "cocktail kit gift",
+   "url": "https://sponsored-ads.amazon.com/clk?p=eAFdTslKw0AApRYXQl3IQSHHCh6EJtPQpLZSZCaZpqW1e7TpJWSZJsUuaTqY2kO-wt8R_AKvnrx69ip4EGyh4Ds93sZj6gev3x_ve-wh7N211Fq11gcq7qQT2eJpA3pRYSXbPX0lVQY2nU-e-gbspLKSxItSjs8VeDDY6SL7AOJeBXeqXfaM2XfJ4oHOAjalNzpYaWqN6gCrnMqcbwxzQazQ8c2AhM5sbFFijqbj0ZSYNh2yjDWxVrMp78wmHLOwHzPrcHqXTE29m5aZBDj5_Hl--3pRuaPNYGbdTx-LAABZkkRRzhbkfFZM6l21mFRaymWNvVYRVIJyNZOHMZqv4cEYtemcZuA_xMiLUTtG8I94XErx8FKD2FvaBhHvGd2nNFgUBSGKIn77WHADAQGtrrXL6Or2xgrJsARwq9k3fEczLgLXDF1zVNpGNlIw9t2wRH8Bow19nw&v=c1&r=https://www.amazon.com/TSUKIGLASS%C2%AE-Bourbon-Whiskey-Smoker-Luxury/dp/B0GLGQFB8M"
+  },
+  {
+   "title": "Kavano Dog Grooming Vacuum Kit with Clippers, 12000Pa, 2L Dust Cup",
+   "price": 69.99,
+   "bought_past_month": 700,
+   "reviews": 47,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Kavano-Grooming-Clippers-Shedding-Cleaning/dp/B0HGFZXRCL"
+  },
+  {
+   "title": "CRAFTSMAN 230 Pcs Mechanics Tool Set, Socket Wrench Set, Car Tool Kit with VERSASTACK Toolbox, SAE and Metric,1/4 in, 3/8 in, and 1/2 Drive, Short and Long Arm Hex Keys (CMMT45306)",
+   "price": 209,
+   "bought_past_month": 700,
+   "reviews": 3100,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-VERSASTACK-Mechanics-Drive-CMMT45306/dp/B0CMJF6DYD"
+  },
+  {
+   "title": "184Pcs 3D Printer Tools Kit with Hanging Organizer, 3D Printer Accessories, Cordless Rotary Tool, Heat Gun, Digital Soldering Iron, PTFE Nozzle Anti-Stick Coating, for All FDM/SLA, Bambu Lab, Ender 3",
+   "price": 67.19,
+   "bought_past_month": 600,
+   "reviews": 151,
+   "seed": "3d printer accessories",
+   "url": "https://www.amazon.com/Organizer-Accessories-Cordless-Soldering-Anti-Stick/dp/B0GW53BB43"
+  },
+  {
+   "title": "Chemical Guys, 14-Piece Arsenal Builder Car Wash Kit with Foam Blaster 6",
+   "price": 129.97,
+   "bought_past_month": 600,
+   "reviews": 9000,
+   "seed": "car detailing kit",
+   "url": "https://www.amazon.com/Chemical-Guys-Car-Wash-Foam-Gun-Kit/dp/B07FTRZLM5"
+  },
+  {
+   "title": "LetPot LPH-SE12-Pod Hydroponics Growing System Kit Smart Herb Indoor Garden",
+   "price": 119.97,
+   "bought_past_month": 600,
+   "reviews": 1800,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/LPH-SE-Hydroponics-Growing-Controlled-Automatic/dp/B0BL3GG6J3"
+  },
+  {
+   "title": "1500 Piece Wooden Jigsaw Puzzle Board - 6 Drawers, Preassembled Rotating Puzzle Table | 35\u201d X 28\u201d Jigsaw Puzzle Board | Puzzle Cover Included - Portable Tables for Adults and Kids",
+   "price": 64.99,
+   "bought_past_month": 600,
+   "reviews": 4900,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Piece-Wooden-Jigsaw-Puzzle-Table/dp/B09Z5LTP7G"
+  },
+  {
+   "title": "No-Assembly Puzzle Table, 1500Pcs 27.6\"H Puzzle Board for Adults",
+   "price": 99.99,
+   "bought_past_month": 600,
+   "reviews": 47,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/TEAKMAMA-No-Assembly-1500Pcs-Foldable-Storage/dp/B0H1RHX2GX"
+  },
+  {
+   "title": "Wooden Puzzle Table with Cover and Drawers \u2013 1500 Piece Puzzle Board with 360\u00b0 Rotating Wheels | Lightweight & Portable Jigsaw Puzzle Organizer for Adults, 35\u2019\u2019 x 27\u2019\u2019, Large",
+   "price": 89.99,
+   "bought_past_month": 600,
+   "reviews": 30,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/PETAZA-Wooden-Puzzle-Table-Drawers/dp/B0HDC6FGNT"
+  },
+  {
+   "title": "Fanttik T2 Max Soldering Iron Kit, Cordless Soldering Iron,5s Fast Heating",
+   "price": 83.99,
+   "bought_past_month": 600,
+   "reviews": 32,
+   "seed": "soldering kit",
+   "url": "https://www.amazon.com/Fanttik-T2-Max-390%C2%B0F-840%E2%84%89-Integrated/dp/B0HDNSW7QH"
+  },
+  {
+   "title": "Afloia 6-in-1 Dog Grooming Vacuum Kit, Pet Clipper & Nail Grinder, White",
+   "price": 69.99,
+   "bought_past_month": 600,
+   "reviews": 6400,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Afloia-Grooming-Electric-Clippers-Shedding/dp/B0BHNQPXPT"
+  },
+  {
+   "title": "DEWALT Mechanic Tool Set, 247-Piece, 1/4 in., 3/8 in. and 1/2 in. Drive, SAE, Ratchets, Sockets, Hex Keys, Combination Wrenches, Polish Chrome Finish (DWMT81535)",
+   "price": 177.85,
+   "bought_past_month": 600,
+   "reviews": 4300,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-DWMT81535-247Pc-Mechanics-Tool/dp/B0767PMCD8"
+  },
+  {
+   "title": "Tetra LED 10 Gallon Complete Fish Tank Kit",
+   "price": 76.74,
+   "bought_past_month": 600,
+   "reviews": 3100,
+   "seed": "aquarium kit",
+   "url": "https://www.amazon.com/Tetra-Complete-Aquarium-Filtration-Accessories/dp/B09Y7M25BT"
+  },
+  {
+   "title": "MAONO PD200XS XLR/USB Dynamic Microphone Kit, RGB Gaming Mic with Software",
+   "price": 79.99,
+   "bought_past_month": 500,
+   "reviews": 2100,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/MAONO-Microphone-Streaming-Voice-Over-Recording-PD200XS/dp/B0CN493YHF"
+  },
+  {
+   "title": "2026 New Official CREALITY Space Pi Filament Dryer Plus, 2 Spools Double 360\u00b0 160W PTC Fast Heating 3D Printer Filament Dryer Box, 4''LCD Touch Screen, One-Key Set Filament Drying for PLA PETG ABS TPU",
+   "price": 89,
+   "bought_past_month": 500,
+   "reviews": 418,
+   "seed": "3d printer accessories",
+   "url": "https://www.amazon.com/Official-CREALITY-Filament-Heating-Dehydrator/dp/B0D22D1L46"
+  },
+  {
+   "title": "Chemical Guys, 10-Piece Car Wash Kit with Foam Gun",
+   "price": 104.99,
+   "bought_past_month": 500,
+   "reviews": 11300,
+   "seed": "car detailing kit",
+   "url": "https://www.amazon.com/Chemical-Guys-Car-Wash-Foam-Gun-Kit/dp/B06Y1MGNGC"
+  },
+  {
+   "title": "Keter Stack-N-Roll Outdoor Gear Organizer, 3-Piece Rolling Storage System",
+   "price": 139.99,
+   "bought_past_month": 500,
+   "reviews": 1500,
+   "seed": "camping kitchen organizer",
+   "url": "https://www.amazon.com/Keter-Stack-N-Roll-Organizer-Equipment-Accessories/dp/B0H8Q2X23Y"
+  },
+  {
+   "title": "2000 Pieces 2-in-1 Tilting & Rotating Puzzle Board \u2013 Portable Easel Puzzle Table with 4 Drawers & Cover, 40.16\"x28.5\" for Puzzling, Fuse Beads, Diamond Painting",
+   "price": 95.99,
+   "bought_past_month": 500,
+   "reviews": 573,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/BuilderButler-Tilting-Rotating-Enthusiasts-Portable/dp/B0D9PVM99X"
+  },
+  {
+   "title": "ALL4JIG 2000 Pieces 2-in-1 Tilting&Rotating Puzzle Board for Adults,Wooden Jigsaw Puzzle Table with 4 Drawers, 28.5 \"x40.16 Portable Board with Lazy Susan and Cover,with a Tabletop Easel-Style Tilt",
+   "price": 99.99,
+   "bought_past_month": 500,
+   "reviews": 1000,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Tilting-Rotating-Drawers-Portable/dp/B0DNYCXXMD"
+  },
+  {
+   "title": "WELGEE 1500 Pieces 2-in-1 Tilting & Rotating Puzzle Board with Drawers and Cover, 35\"x27\" Portable Spinning Plastic Jigsaw Puzzle Table for Adults, Upgraded Lazy Susan",
+   "price": 69.99,
+   "bought_past_month": 500,
+   "reviews": 356,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/WELGEE-Rotating-Portable-Spinning-Upgraded/dp/B0FD3CBQRH"
+  },
+  {
+   "title": "Puzzle Board 1500 Pieces,2 in 1 Jigsaw Puzzle Table with Folding Legs",
+   "price": 74.88,
+   "bought_past_month": 500,
+   "reviews": 706,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Puzzle-Jigsaw-Drawers-Portable-Folding/dp/B0BBLPS1ZF"
+  },
+  {
+   "title": "1500 Piece Puzzle Board with 360\u00b0 Rotating Base & 3-Level Tilting Stand",
+   "price": 69.99,
+   "bought_past_month": 500,
+   "reviews": 40,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Rotating-Lightweight-Transparent-Non-Slip-Ergonomic/dp/B0GT3QBTBX"
+  },
+  {
+   "title": "8-in-1 Hair Styler & Hair Dryer Brush Set, Dual Voltage Ionic Blow Dryer with Wrap Curlers & Hair Straightener, Fast Drying Volumizing Curling Straightening, No Heat Damage, Gifts for Women",
+   "price": 122.98,
+   "bought_past_month": 500,
+   "reviews": 169,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Voltage-Curlers-Straightener-Volumizing-Straightening/dp/B0GM6V1NLS"
+  },
+  {
+   "title": "Tqcir 8 in 1 Hot Air Styler, Powerful Hair Dryer Brush with AutoWrap Curler",
+   "price": 168.99,
+   "bought_past_month": 500,
+   "reviews": 113,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Tqcir-Anti-Frizz-Straightening-Volumizing-Adjustable/dp/B0H1HCSJQM"
+  },
+  {
+   "title": "HOTO SNAPBLOQ\u2122 I-A06 Soldering Iron Kit (5-Piece), Cordless, Portable",
+   "price": 99.99,
+   "bought_past_month": 500,
+   "reviews": 74,
+   "seed": "soldering kit",
+   "url": "https://www.amazon.com/HOTO-SNAPBLOQTM-Soldering-200-840%C2%B0F-Full-Color/dp/B0H86CCCRK"
+  },
+  {
+   "title": "Buenkee Dog Grooming Vacuum & Blow Dryer Kit, Pet Clipper, 15000Pa Suction",
+   "price": 129.99,
+   "bought_past_month": 500,
+   "reviews": 66,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Buenkee-Grooming-Clipper-15000Pa-Adjustable/dp/B0H13XDKSN"
+  },
+  {
+   "title": "328 Piece Tool Kit for Home,Hand Repair Tool Set,Toolbox Storage Case with Drawer,General Household/Auto Tool Kit,Perfect for Homeowner, DIY, Handyman",
+   "price": 75.99,
+   "bought_past_month": 500,
+   "reviews": 229,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1MTc4MjA1OTg1MjM0Nzk2OjE3OTQ2MDQyODE6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMTIwNjI4MDAwNTAwMjo6MTo6&url=%2FCRESOLVIA-Toolbox-Household-Homeowner-Handyman%2Fdp%2FB0FQ64HCPQ%2Fref%3Dsxin_15_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.7bc47535-f9ae-40a7-8852-938638102a8b%253Aamzn1.sym.7bc47535-f9ae-40a7-8852-938638102a8b%26crid%3DPUQEVWUA9GNY%26cv_ct_cx%3Dtool%2Bkit%26keywords%3Dtool%2Bkit%26pd_rd_i%3DB0FQ64HCPQ%26pd_rd_r%3D40a08c5c-0e8b-4be8-8062-6808bed680ae%26pd_rd_w%3DsZ94p%26pd_rd_wg%3D8nHwf%26pf_rd_p%3D7bc47535-f9ae-40a7-8852-938638102a8b%26pf_rd_r%3DTF59C2FD76GFXSK71E5Q%26qid%3D1794604281%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dtool%252Bkit%252Caps%252C208%26sr%3D1-2-6024b2a3-78e4-4fed-8fed-e1613be3bcce-spons%26aref%3DWUqCl9NwEa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1&aref=WUqCl9NwEa"
+  },
+  {
+   "title": "VEVOR Mechanics Tool Set, 314-Piece Mechanic Tool Kit, 1/4 in, 3/8 in, and 1/2 in Drive, Metric Socket Set, Wrenches, Screwdriver Bits, Accessories, and Storage Case, for Automotive and Home Repair",
+   "price": 122.9,
+   "bought_past_month": 500,
+   "reviews": 780,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/VEVOR-Mechanics-Screwdriver-Accessories-Automotive/dp/B0GHLPD7XZ"
+  },
+  {
+   "title": "CRAFTSMAN Mechanic Tool Set 135 Pcs, 1/4, 1/2 and 3/8 Inch Drive SAE and Metric Socket Wrench Set with Case (CMMT12124)",
+   "price": 89,
+   "bought_past_month": 500,
+   "reviews": 366,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-Mechanics-Drive-Piece-CMMT12124/dp/B0CPYWHRXQ"
+  },
+  {
+   "title": "NEEWER 2 Pack Bi Color 660 LED Video Light and Stand Kit, 3200-5600K",
+   "price": 199.99,
+   "bought_past_month": 500,
+   "reviews": 3800,
+   "seed": "vlogging kit",
+   "url": "https://www.amazon.com/NEEWER-3200-5600K-Dimmable-Photography-Recording/dp/B06XW3B81V"
+  },
+  {
+   "title": "1500 Piece Jigsaw Puzzle Table with Legs, 35.43\"x27.87\" Metal Puzzle Tables for Adult (Stability Tested & Ergonomic), Adjustable Height & Tilt Angle, Wooden Puzzle Board with 4 Drawers & Cover",
+   "price": 154.99,
+   "bought_past_month": 500,
+   "reviews": 321,
+   "seed": "puzzle table",
+   "url": "https://www.amazon.com/Jigsaw-Stability-Ergonomic-Adjustable-Drawers/dp/B0F3847VLR"
+  },
+  {
+   "title": "1500 Pieces Puzzle Table, 27.6\"H Puzzle Board with Legs for Adults",
+   "price": 79.98,
+   "bought_past_month": 500,
+   "reviews": 776,
+   "seed": "puzzle table",
+   "url": "https://www.amazon.com/TEAKMAMA-Puzzle-Drawers-Folding-Jigsaw/dp/B0D4F12459"
+  },
+  {
+   "title": "Blackstone\u00ae Pro 22-Piece Griddle Tool Kit 5179",
+   "price": 65.99,
+   "bought_past_month": 500,
+   "reviews": 295,
+   "seed": "griddle accessories kit",
+   "url": "https://www.amazon.com/Blackstone-5179-Griddle-Tool-Black/dp/B07ZWRNBXM"
+  },
+  {
+   "title": "Belkin Qi2 15W Wireless Charging Station, 3 in 1 iPhone Charger",
+   "price": 89.99,
+   "bought_past_month": 500,
+   "reviews": 3700,
+   "seed": "charging station multiple devices",
+   "url": "https://www.amazon.com/Belkin-MagSafe-Compatible-Wireless-Charging-Qi2-Certified/dp/B0DL86NC5Z"
+  },
+  {
+   "title": "NEEWER 55W 18\"/45cm Ring Light Kit [New Version], with Tripod Stand, RL-18",
+   "price": 107.99,
+   "bought_past_month": 500,
+   "reviews": 10500,
+   "seed": "ring light kit",
+   "url": "https://www.amazon.com/NEEWER-Tripod-Stand-Phone-Holder/dp/B0784SSRZS"
+  },
+  {
+   "title": "18 Inch Ring Light Kit, 55W6700k Dimmable LED Light, Tripod Stand, Remote Controller,Box,CRI95,Black",
+   "price": 65,
+   "bought_past_month": 500,
+   "reviews": 215,
+   "seed": "ring light kit",
+   "url": "https://www.amazon.com/55W6700k-Dimmable-Tripod-Remote-Controller/dp/B0DPFZ4617"
+  },
+  {
+   "title": "FIFINE AmpliTank K688T Dynamic Microphone Set, Podcast XLR/USB Mic",
+   "price": 89.99,
+   "bought_past_month": 400,
+   "reviews": 259,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Recording-Streaming-Headphone/dp/B0CQ32F2Q5"
+  },
+  {
+   "title": "USA Based Overhead Garage Storage Rack, Connectable Heavy Duty Metal Ceiling Rails Garage Storage Organization Shelving System, Hanging Racks Tote Containers, Supports Up To 6 Bins, 4 Sets Black",
+   "price": 89.99,
+   "bought_past_month": 400,
+   "reviews": 633,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/HANDT-Overhead-Connectable-Organization-Containers/dp/B0D3L52XF4"
+  },
+  {
+   "title": "Hydroponics Growing System: 10 Pods Stainless Steel Garden",
+   "price": 89.97,
+   "bought_past_month": 400,
+   "reviews": 68,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/Ahopegarden-Hydroponics-Growing-System-Space-Saving/dp/B0H3V4MCTK"
+  },
+  {
+   "title": "AeroGarden Harvest Indoor Garden Hydroponic System with LED Grow Light",
+   "price": 79.99,
+   "bought_past_month": 400,
+   "reviews": 20300,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/AeroGarden-901100-1200-Harvest-Black/dp/B07CKK8Z78"
+  },
+  {
+   "title": "ESRICH 141PCS Deluxe Painting Set, Painting Supplies with 84 Paint",
+   "price": 89.99,
+   "bought_past_month": 400,
+   "reviews": 223,
+   "seed": "watercolor painting kit",
+   "url": "https://www.amazon.com/Painting-Supplies-Watercolor%EF%BC%8CAcrylic-Paintbrushes-Artists/dp/B0CTJF31ZQ"
+  },
+  {
+   "title": "SHARPAL 202H Precision Knife Sharpening System, Adjustable Angle 10\u201335\u00b0",
+   "price": 179.99,
+   "bought_past_month": 400,
+   "reviews": 624,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/SHARPAL-202H-Precision-Sharpening-System-Adjustable/dp/B0FS7ZPGCV"
+  },
+  {
+   "title": "Branch Basics Surface Cleaning Kit: 33.8 oz Concentrate, Refillable Bottles",
+   "price": 89,
+   "bought_past_month": 400,
+   "reviews": 213,
+   "seed": "cleaning kit refill",
+   "url": "https://www.amazon.com/Branch-Basics-Cleaning-Essentials-Glass/dp/B0D9WGSBK5"
+  },
+  {
+   "title": "2000 Pieces Jigsaw Puzzle Table with Drawers & Legs, 41.34\"x29.53\" Metal Adult Puzzle Table (Stability Tested & Ergonomic), Adjustable Height & Tilt Angle, Wooden Puzzle Board with Wheels & Cover",
+   "price": 184.99,
+   "bought_past_month": 400,
+   "reviews": 321,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/Pieces-Drawers-Stability-Ergonomic-Adjustable/dp/B0F8NN9BWR"
+  },
+  {
+   "title": "ClosetMaid ShelfTrack Wire Closet Organizer System, Adjustable from 4 to 6 Ft., With Shelves, Clothes Rods, Hardware, Durable Steel, White",
+   "price": 103.28,
+   "bought_past_month": 400,
+   "reviews": 1100,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/ClosetMaid-8808-ShelfTrack-Adjustable-Organizer/dp/B00CBX0SI8"
+  },
+  {
+   "title": "National Geographic Pottery Wheel for Kids Complete Beginner Kit",
+   "price": 69.99,
+   "bought_past_month": 400,
+   "reviews": 2000,
+   "seed": "pottery kit",
+   "url": "https://www.amazon.com/National-Geographic-Complete-Beginner-Sculpting/dp/B093MCN1QQ"
+  },
+  {
+   "title": "FNIRSI DWS-200 200W High Power Soldering Iron Station Kit,2 Helping Hands",
+   "price": 129.99,
+   "bought_past_month": 400,
+   "reviews": 282,
+   "seed": "soldering kit",
+   "url": "https://www.amazon.com/FNIRSI-Precision-Soldering-Temperature-Full-Color/dp/B0D8YBWWB6"
+  },
+  {
+   "title": "oneisall Dog Grooming Vacuum,7 in 1 Grooming kit Tools with Low Noise",
+   "price": 84.99,
+   "bought_past_month": 400,
+   "reviews": 14100,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/oneisall-Grooming-Clipper-Shedding-Cleaning/dp/B0C1BP3LXP"
+  },
+  {
+   "title": "PG10 Dog Grooming Vacuum with Electric Clipper & Shedding Brush, 12,000Pa Suction Pet Grooming Vacuum for Dogs, Low Noise Pet Hair Vacuum with Grooming Kit for Home Shedding and Trimming",
+   "price": 66.99,
+   "bought_past_month": 400,
+   "reviews": 80,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/AiRiOBO-Grooming-Electric-Shedding-Trimming/dp/B0H3Z6P6ZP"
+  },
+  {
+   "title": "WHYGOLF Putting System & Putting Thing \u2013 Golf Training Aid for Stroke, Accuracy & Green Reading \u2013 Adjustable Putting Gates for Home & Green Practice \u2013 Putter Teaching Tool for Better Control",
+   "price": 86,
+   "bought_past_month": 400,
+   "reviews": 274,
+   "seed": "golf training aids",
+   "url": "https://www.amazon.com/WHYGOLF-Putting-Thing-Training-Adjustable/dp/B0CMMJJWM4"
+  },
+  {
+   "title": "Tool Kit Box Drill Set\uff1aDEKOPRO Home Mechanic Toolbox with 12V Power Cordless Drill Hand Repair Tools Sets Combo Kits Storage Organizer Drawer Case for Men",
+   "price": 89.99,
+   "bought_past_month": 400,
+   "reviews": 2500,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/Set%EF%BC%9ADEKOPRO-Mechanic-Toolbox-Cordless-Organizer/dp/B0CW2PLRCT"
+  },
+  {
+   "title": "Premium 132-Piece Mechanics Tool Set, SAE/Metric 1/4\" & 3/8\" Drive Socket Set, Ratcheting Wrenches, Extensions & Adapters, Quick-Release Ratchet, Professional Auto Repair Tool Kit with Storage Case",
+   "price": 129.99,
+   "bought_past_month": 400,
+   "reviews": 109,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/132-Piece-Ratcheting-Extensions-Quick-Release-Professional/dp/B0FGNMNPZZ"
+  },
+  {
+   "title": "CRAFTSMAN 189 Piece Mechanics Tool Set, 1/4, 3/8 and 1/2 Inch Drive Socket Wrench Set with Thinner Ratchet, Steel 6 and 12-Point Sockets, Wrenches, Hex Keys and Specialty Bits, 90-Tooth (CMMT12134)",
+   "price": 199,
+   "bought_past_month": 400,
+   "reviews": 557,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-Mechanics-Drive-Piece-CMMT12134/dp/B0CPZ7RBHG"
+  },
+  {
+   "title": "Henson AL13 Safety Razor Shave Set \u2013 Includes Safety Razor, Stand & 100 Razor Blades \u2013 Gentle, Precision Shaving Kit for Men & Women \u2013 Aluminum Double Edge Razor for Smooth, Irritation-Free Shaves",
+   "price": 109.99,
+   "bought_past_month": 400,
+   "reviews": 105,
+   "seed": "safety razor kit",
+   "url": "https://www.amazon.com/Henson-AL13-Safety-Razor-Shave/dp/B0DNR5ZKW8"
+  },
+  {
+   "title": "JDO 12'' Filtered Rain Shower Head with Handheld Spray Combo Brushed Nickel",
+   "price": 69.99,
+   "bought_past_month": 400,
+   "reviews": 1400,
+   "seed": "shower head filter",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo1ODIxMjQzMDQ1MjI3OTU2OjE3OTQ2MDQyNzE6c3Bfc2VhcmNoX3RoZW1hdGljX2J0ZjozMDE1NzU5NTQ1NTUzMDI6OjM6Og&url=%2FJDO-Filtered-Handheld-Showerheads-Detachable%2Fdp%2FB0H73QYD4P%2Fref%3Dsxbs_pa_sp_search_thematic_btf_sspa%3Fcontent-id%3Damzn1.sym.230701df-77c6-4675-b11d-39cf91b8bb1b%253Aamzn1.sym.230701df-77c6-4675-b11d-39cf91b8bb1b%26crid%3D5025I5V3IVU7%26cv_ct_cx%3Dshower%2Bhead%2Bfilter%26keywords%3Dshower%2Bhead%2Bfilter%26pd_rd_i%3DB0H73QYD4P%26pd_rd_r%3D6c8d663d-b7f9-4807-af99-9e52a8d3e245%26pd_rd_w%3DrE2fh%26pd_rd_wg%3DipaSo%26pf_rd_p%3D230701df-77c6-4675-b11d-39cf91b8bb1b%26pf_rd_r%3DKAC2BZCC7YAW51VN93X6%26qid%3D1794604271%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sprefix%3Dshower%252Bhead%252Bfilter%252Caps%252C245%26sr%3D1-4-2111c337-e22b-460d-97fe-5be1c77b95e4-spons%26aref%3DgpSZJBHWuX%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm%26psc%3D1&aref=gpSZJBHWuX"
+  },
+  {
+   "title": "ALL4JIG 1500 Piece Puzzle Table with Legs, 24.53\"x33.19\"Adjustable Puzzle Table, 3-Tilting-Angle Portable Wooden Puzzle Board with 4 Drawers&Cover,Drafting&Laptop Table for Couch,for Bricks Building",
+   "price": 164.99,
+   "bought_past_month": 400,
+   "reviews": 1300,
+   "seed": "puzzle table",
+   "url": "https://www.amazon.com/ALL4JIG-Adjustable-3-Tilting-Angle-Portable-Drawers/dp/B0BKZN1D8Q"
+  },
+  {
+   "title": "FADEKING\u00ae Hair Clippers for Men, Cordless Barber Clipper & Trimmer Set",
+   "price": 64.99,
+   "bought_past_month": 400,
+   "reviews": 378,
+   "seed": "shaving kit",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMjU4MDE5MzE4NzM3MDU0OjE3OTQ2MDQyMTM6c3BfbXRmOjMwMTY3MTIyNTAwNjgwMjo6MDo6&url=%2FFADEKING%25C2%25AE-Professional-Hair-Clippers-Men%2Fdp%2FB0DKJFPPXL%2Fref%3Dsr_1_20_sspa%3Fcrid%3D3U2Z0R1B4NGR%26dib%3DeyJ2IjoiMSJ9.OxjJGTcqw0B3GKrONIys2jkFSoGaJyYCSgHvF9bG2nMcqTFs8FzawWbs5MC0n_VhOO-xFKjp5q9F_v0UQnFV3Ff4UhFqu68hWdAn4-XUI0Riamn6hVvlbPLmzxj_P4CD4F3QLnqKLu9uGmEw4rWAZXoIml1OysbYcjKjqQ36l4umlolHFCNMYrNW9RtXv8RAbeLpuIu0A74Ixm42cNLU2B-cIm-Sbs10wTdgjkl3eCuFUqKsBBgj-Vr3ZIo2L0zdgSRJ7iuO9JJ03qmmVp22kMRQjgCxtCdDgyx8OU5v3ck.zajXZ5F-2EsSKIp0uEpbSVZQvMvtr0rkqnBWgqnF4NQ%26dib_tag%3Dse%26keywords%3Dshaving%2Bkit%26qid%3D1794604213%26sprefix%3Dshaving%252Bkit%252Caps%252C236%26sr%3D8-20-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1"
+  },
+  {
+   "title": "TENLAMP G10 Creator Audio Mixer Bundle with Microphone for Streaming",
+   "price": 149.99,
+   "bought_past_month": 300,
+   "reviews": 566,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/Microphone-Equipment-Condenser-P15-Streaming/dp/B0FLD7FK7C"
+  },
+  {
+   "title": "MAONO A04 Gen2 XLR/USB Condenser Microphone Kit for PC Podcast Recording",
+   "price": 62.99,
+   "bought_past_month": 300,
+   "reviews": 19900,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/MAONO-XLR-USB-Condenser-Microphone/dp/B0FF9SM2ZD"
+  },
+  {
+   "title": "Anycubic ACE GEN2 Toolhead Assembly for Kobra X, Kobra X Combo",
+   "price": 89.99,
+   "bought_past_month": 300,
+   "reviews": 62,
+   "seed": "3d printer accessories",
+   "url": "https://www.amazon.com/Anycubic-Toolhead-Assembly-Kobra-Combo/dp/B0GRB8G6KV"
+  },
+  {
+   "title": "Indoor Garden Hydroponics Growing System: 10 Pods Kit with LED",
+   "price": 62.99,
+   "bought_past_month": 300,
+   "reviews": 3400,
+   "seed": "indoor herb garden",
+   "url": "https://www.amazon.com/Indoor-Garden-Hydroponics-Growing-System/dp/B0C7GLP26Y"
+  },
+  {
+   "title": "GEN3 Guided Knife Sharpening System, Aluminum Alloy",
+   "price": 80.09,
+   "bought_past_month": 300,
+   "reviews": 1000,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/XARILK-Sharpening-Aluminium-Professional-sharpener/dp/B0D5QQW4YD"
+  },
+  {
+   "title": "OutdoorMaster Ski Snowboard Tuning and Waxing Kit with Waxing Iron",
+   "price": 71.99,
+   "bought_past_month": 300,
+   "reviews": 736,
+   "seed": "snowboard tuning kit",
+   "url": "https://www.amazon.com/OutdoorMaster-Snowboard-Tuning-Universal-Scraper/dp/B09B1MM47D"
+  },
+  {
+   "title": "Professional Ski & Snowboard Wax Kit - All-in-One Basic Waxing & Tuning Set with Adjustable Wax Iron, All Temperature Wax, Edge Tuner, Base Cleaner, Brush, Scraper, P-tex, Tuning Stone & Storage Bag",
+   "price": 60.78,
+   "bought_past_month": 300,
+   "reviews": 90,
+   "seed": "snowboard tuning kit",
+   "url": "https://www.amazon.com/Professional-Ski-Snowboard-All-One/dp/B0FSK5CN5M"
+  },
+  {
+   "title": "Force of Nature Cleaner & Disinfectant Appliance Value Bundle - 50 Refills",
+   "price": 112,
+   "bought_past_month": 300,
+   "reviews": 370,
+   "seed": "cleaning kit refill",
+   "url": "https://www.amazon.com/Force-Nature-Disinfectant-Electrolyzed-Multi-Purpose/dp/B07YF3R66F"
+  },
+  {
+   "title": "AvalonKing Armor Shield IX \u2013 DIY Ceramic Coating Kit for Cars \u2013 High Gloss, Hydrophobic & 2-Year Protection \u2013 Easy Home Application \u2013 Paint, Glass, Rims & Trim \u2013 30ml",
+   "price": 69.99,
+   "bought_past_month": 300,
+   "reviews": 206,
+   "seed": "ceramic coating kit",
+   "url": "https://www.amazon.com/AvalonKing-Armor-Shield-High-Performance-Multi-Surface/dp/B0F8J4DVBK"
+  },
+  {
+   "title": "Mixology Bartender Kit Bar Set | 16-Piece Cocktail Shaker Set | Martini Barware Mixing Tools for Home Bartending | Incl. 35 Recipe Cards | Gift Set (28oz Boston Shaker, Silver/Black)",
+   "price": 69.99,
+   "bought_past_month": 300,
+   "reviews": 655,
+   "seed": "home bar tool set",
+   "url": "https://www.amazon.com/Mixology-Bartender-Kit-Cocktail-Shaker-Set-Shaker-Cocktail-Kit/dp/B0DFK8KPBN"
+  },
+  {
+   "title": "ALL4JIG 2000 Pieces 2-in-1 Tilting & Rotating Puzzle Board,40.16\" x 28.5\"Adjustable Angle Puzzle Board with 4 Drawers & Clear Protective Cover, Birthday Gift for mom,with a Tabletop Easel-Style Tilt",
+   "price": 95.99,
+   "bought_past_month": 300,
+   "reviews": 373,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Pieces-Tilting-Rotating-Puzzle/dp/B0DFT23B4Y"
+  },
+  {
+   "title": "PLUSINNO Fishing Backpack with Rod & Reel Combos, Fishing Gear Kit",
+   "price": 69.63,
+   "bought_past_month": 300,
+   "reviews": 231,
+   "seed": "fishing tackle box kit",
+   "url": "https://www.amazon.com/PLUSINNO-Fishing-Backpack-Combos-Waterproof/dp/B0FJLT4C3Q"
+  },
+  {
+   "title": "Aheaplus Closet System, 4-9Ft Closet Organizer with 4 Wooden Drawers, White",
+   "price": 169.97,
+   "bought_past_month": 300,
+   "reviews": 375,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/Aheaplus-Organizer-Drawers-Wardrobe-Clothes/dp/B0DNZ2153Z"
+  },
+  {
+   "title": "ClosetMaid SuiteSymphony Wood Closet Organizer System, 25-Inch Starter Kit with Tower and 3 Hang Rods and Shelving, Adjustable Shelves, Customizable Insert, Reach-in or Walk-in Closets, Pure White",
+   "price": 152.34,
+   "bought_past_month": 300,
+   "reviews": 2000,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/ClosetMaid-24869-SuiteSymphony-25-Inch-Starter/dp/B01F2II920"
+  },
+  {
+   "title": "SONGMICS Closet System, Customizable Walk-In Closet Organizer System",
+   "price": 93.99,
+   "bought_past_month": 300,
+   "reviews": 97,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/SONGMICS-Closet-System-Customizable-Organizer/dp/B0GVJNYHPP"
+  },
+  {
+   "title": "VIPEK X3 Expandable Heavy Duty Clothes Rack Closet Organizer System Black",
+   "price": 229.99,
+   "bought_past_month": 300,
+   "reviews": 352,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/VIPEK-X3-Expandable-Freestanding-Black/dp/B0DHL1QZ5N"
+  },
+  {
+   "title": "H3 Wall Mounted Closet System, Industrial Pipe Clothing Rack, Black",
+   "price": 109.99,
+   "bought_past_month": 300,
+   "reviews": 371,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/ONBRILL-Expandable-Industrial-Clothing-Organizers/dp/B0F1SZWCZC"
+  },
+  {
+   "title": "L4 Wall Mounted Heavy Duty Corner Industrial Pipe Clothing Rack | Closet Organizer and Storage System with 6 Hanging Clothes Rods ( 4 Expandable) & 8 Shelves, Large Wardrobe - Black",
+   "price": 129.99,
+   "bought_past_month": 300,
+   "reviews": 263,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/ONBRILL-Industrial-Clothing-Organizer-Expandable/dp/B0FC2Q71FC"
+  },
+  {
+   "title": "Sculpd Pottery Kit, Air Dry Clay Kit for Adults & Beginners with Tools",
+   "price": 78.99,
+   "bought_past_month": 300,
+   "reviews": 931,
+   "seed": "pottery kit",
+   "url": "https://www.amazon.com/Sculpd-Pottery-Beginners-Waterproof-Paintbrushes/dp/B0CDQXGDRT"
+  },
+  {
+   "title": "6 in 1 Hair Dryer Brush Set, Frizz-Free Air Hair Styler, No Heat Damage",
+   "price": 79.99,
+   "bought_past_month": 300,
+   "reviews": 242,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Frizz-Free-Auto-Wrap-Curlers-Volumizing-Straightening/dp/B0H7BB4JFS"
+  },
+  {
+   "title": "6 in 1 Air Hair Styler, 1400W High Speed Ionic Hair Dryer with Wrap Curlers, Blow Dryer Brush & Frizz-Free Hot Air Brush, No Heat Damage Hair Tools for Fast Drying, Curling, Smoothing & Volume",
+   "price": 89.97,
+   "bought_past_month": 300,
+   "reviews": 132,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Styler-Curlers-Frizz-Free-Curling-Smoothing/dp/B0H33VL9J1"
+  },
+  {
+   "title": "Pasta Maker Attachment for All Kitchenaid Stand Mixers, 3 PCS Kitchen Aid Pasta Attachments Included Pasta Dough Roller, Fettuccine Cutter, Spaghetti Cutter and Cleaning Brush",
+   "price": 79.99,
+   "bought_past_month": 300,
+   "reviews": 718,
+   "seed": "pasta making kit",
+   "url": "https://www.amazon.com/Attachments-Kitchenaid-Attachment-Accessories-Fettuccine/dp/B0CLVBX8R7"
+  },
+  {
+   "title": "G&J's Finest Whiskey Smoker Kit with Quad-Flame Torch, Mahogany Cocktail Smoker, 6 Wood Chip Flavors & Wooden Gift Box for Bourbon and Old Fashioned",
+   "price": 64.99,
+   "bought_past_month": 300,
+   "reviews": 547,
+   "seed": "cocktail smoker kit",
+   "url": "https://www.amazon.com/Whiskey-Smoker-Quad-Flame-Torch/dp/B0C37YKQF3"
+  },
+  {
+   "title": "Whiskey Smoker Kit with Torch and Butane and Old Fashioned Syrup",
+   "price": 89.99,
+   "bought_past_month": 300,
+   "reviews": 708,
+   "seed": "cocktail smoker kit",
+   "url": "https://www.amazon.com/Cocktail-Smoker-Kit-Drink-Bourbon/dp/B09B47CX61"
+  },
+  {
+   "title": "oneisall Dog Grooming Vacuum,7 in 1 Grooming kit Tools with Low Noise",
+   "price": 84.99,
+   "bought_past_month": 300,
+   "reviews": 14100,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/oneisall-Grooming-Clipper-Shedding-Cleaning/dp/B0C1BPZKYV"
+  },
+  {
+   "title": "Dog Grooming Vacuum and Kit, Clipper Nail Trimmer Grinder, 2.5L Dust Cup 7 Grooming Tools 11000Pa Pet Vacuum for Shedding Grooming, Dog Hair Vacuum, Home Cleaning, PG50 Plus",
+   "price": 69.99,
+   "bought_past_month": 300,
+   "reviews": 120,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Grooming-Clipper-Trimmer-Shedding-Cleaning/dp/B0DP6R2PDG"
+  },
+  {
+   "title": "PG10 Dog Grooming Vacuum with Electric Clipper & Shedding Brush, 12,000Pa Suction Pet Grooming Vacuum for Dogs, Low Noise Pet Hair Vacuum with Grooming Kit for Home Shedding and Trimming",
+   "price": 66.99,
+   "bought_past_month": 300,
+   "reviews": 72,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/AiRiOBO-Grooming-Electric-Shedding-Trimming/dp/B0H3ZH4XW3"
+  },
+  {
+   "title": "CRAFTSMAN 102-Piece Tool Kit for Home and Car, Durable Hand Tools Set with SAE and Metric Socket Set, Screwdrivers, Wrench, Hammer, Pliers, Knife, Hex Keys, Specialty Bits, Tape Measure (CMMT99449)",
+   "price": 124.98,
+   "bought_past_month": 300,
+   "reviews": 606,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-Mechanics-Socket-Metric-CMMT99449/dp/B0CYFJL7QR"
+  },
+  {
+   "title": "Prostormer 259-Piece Tool Kit, General Household Hand Tool Set, Blue",
+   "price": 79.97,
+   "bought_past_month": 300,
+   "reviews": 4700,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/Prostormer-210-Piece-Complete-Tool-Kit/dp/B07JYZVPKP"
+  },
+  {
+   "title": "WORKPRO Home Tool Set with 20V Cordless Drill, Household Repairing Tool Kit",
+   "price": 119.74,
+   "bought_past_month": 300,
+   "reviews": 1500,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/WORKPRO-Pink-Household-Drill-157PCS/dp/B09XR5T2V6"
+  },
+  {
+   "title": "RHINO RESCUE Car Tactical IFAK Trauma Kit with C-A-T Tourniquet",
+   "price": 99.99,
+   "bought_past_month": 300,
+   "reviews": 52,
+   "seed": "edc kit",
+   "url": "https://www.amazon.com/RHINO-RESCUE-Tactical-Tourniquet-Vehicles/dp/B0FVKQ6QTX"
+  },
+  {
+   "title": "Luxury Large Chess Set 17 Inch Wooden Chess Board with Metal and Acrylic Chess Pieces, 3.5\" King, 2 Extra Queens, Foldable Tournament Chess Set for Adults and Kids, Gift Display Chess Game Collection",
+   "price": 69.99,
+   "bought_past_month": 300,
+   "reviews": 102,
+   "seed": "chess set",
+   "url": "https://www.amazon.com/Acrylic-Foldable-Tournament-Display-Collection/dp/B0FS1Z7T98"
+  },
+  {
+   "title": "Luxury Large Metal & Acrylic Chess Set with Wooden Chess Board (17\u201d) \u2013 Weighted Metal Pieces with 3.5\u201d King, Foldable Tournament Chess Set for Adults & Kids, Professional Family Board Game",
+   "price": 69.99,
+   "bought_past_month": 300,
+   "reviews": 131,
+   "seed": "chess set",
+   "url": "https://www.amazon.com/Luxury-Large-Metal-Acrylic-Wooden/dp/B0FPFCGPRP"
+  },
+  {
+   "title": "CHEMEX Bundle - 8-Cup Classic Series - 100 ct Square Filters - Exclusive Packaging",
+   "price": 64.95,
+   "bought_past_month": 300,
+   "reviews": 449,
+   "seed": "pour over coffee kit",
+   "url": "https://www.amazon.com/CHEMEX-Bundle-Classic-Exclusive-Packaging/dp/B017M9TJA8"
+  },
+  {
+   "title": "Puzzle Table 2000 Pieces with Wheels, Drawers & Cover, 40.16\"x28.5\" Adjustable Height & 45\u00b0 Tilting Jigsaw Board for Adults, Also Ideal as Fuse Beads Table",
+   "price": 208.99,
+   "bought_past_month": 300,
+   "reviews": 1000,
+   "seed": "puzzle table",
+   "url": "https://www.amazon.com/BuilderButler-Pieces-Drawers-Adjustable-Tilting/dp/B0DN9T86QV"
+  },
+  {
+   "title": "ALL4JIG 1500 Pieces Puzzle Table with Legs and Wheels,24.92\"\u00d733.58\" Wooden Jigsaw Puzzle Table with 4 Drawers&Cover,Adjustable Height Table Design,Laptop Table for Couch, for Bricks Building",
+   "price": 148.99,
+   "bought_past_month": 300,
+   "reviews": 216,
+   "seed": "puzzle table",
+   "url": "https://www.amazon.com/ALL4JIG-Upgraded-Stability-Optimized-Lightweight/dp/B0FSQG59FY"
+  },
+  {
+   "title": "PLUSINNO Fly Fishing Rod and Reel Combo Kit, Fly Fishing Rod for Starters",
+   "price": 62.97,
+   "bought_past_month": 300,
+   "reviews": 546,
+   "seed": "fly fishing kit",
+   "url": "https://www.amazon.com/PLUSINNO-Lightweight-Ultra-Portable-Graphite-Complete/dp/B07VF3DX8S"
+  },
+  {
+   "title": "Tetra 20 Gallon Complete Tropical Fish Tank Kit",
+   "price": 119.14,
+   "bought_past_month": 300,
+   "reviews": 3100,
+   "seed": "aquarium kit",
+   "url": "https://www.amazon.com/Tetra-Aquarium-Gallon-Lighting-Decor/dp/B013BXDZ90"
+  },
+  {
+   "title": "Aqueon LED MiniBow Small Aquarium Fish Tank Kit with SmartClean Technology, Small Fish Tank, Black, 5 Gallon",
+   "price": 72.95,
+   "bought_past_month": 300,
+   "reviews": 5600,
+   "seed": "aquarium kit",
+   "url": "https://www.amazon.com/Aqueon-MiniBow-SmartClean-Technology-Gallon/dp/B08LKC4NLB"
+  }
+ ],
+ "kit_seeds_that_sell_only_cheap": [
+  {
+   "seed": "cat enrichment toys",
+   "all_units_month": 286150,
+   "unit_weighted_median_price": 11.99,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "makeup brush set",
+   "all_units_month": 211450,
+   "unit_weighted_median_price": 9.95,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "resistance bands set",
+   "all_units_month": 209350,
+   "unit_weighted_median_price": 11.99,
+   "premium_units_month": 100
+  },
+  {
+   "seed": "phone tripod",
+   "all_units_month": 184100,
+   "unit_weighted_median_price": 21.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "travel organizer",
+   "all_units_month": 166250,
+   "unit_weighted_median_price": 19.95,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "gift sets for men",
+   "all_units_month": 153650,
+   "unit_weighted_median_price": 24.99,
+   "premium_units_month": 150
+  },
+  {
+   "seed": "car organizer",
+   "all_units_month": 146350,
+   "unit_weighted_median_price": 12.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "nail kit manicure set",
+   "all_units_month": 145800,
+   "unit_weighted_median_price": 9.98,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "desk organizer set",
+   "all_units_month": 135900,
+   "unit_weighted_median_price": 17.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "makeup organizer",
+   "all_units_month": 127150,
+   "unit_weighted_median_price": 18.97,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "shoe care kit",
+   "all_units_month": 113500,
+   "unit_weighted_median_price": 14.96,
+   "premium_units_month": 200
+  },
+  {
+   "seed": "toiletry bag",
+   "all_units_month": 108400,
+   "unit_weighted_median_price": 12.99,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "sewing kit",
+   "all_units_month": 105500,
+   "unit_weighted_median_price": 7.98,
+   "premium_units_month": 200
+  },
+  {
+   "seed": "leather care kit",
+   "all_units_month": 91300,
+   "unit_weighted_median_price": 12.99,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "matcha kit",
+   "all_units_month": 74450,
+   "unit_weighted_median_price": 24.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "bike cleaning kit",
+   "all_units_month": 71850,
+   "unit_weighted_median_price": 7.98,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "sneaker cleaning kit",
+   "all_units_month": 68200,
+   "unit_weighted_median_price": 14.95,
+   "premium_units_month": 200
+  },
+  {
+   "seed": "watch strap set",
+   "all_units_month": 62400,
+   "unit_weighted_median_price": 9.97,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "shoe shine kit leather",
+   "all_units_month": 61350,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "camera cleaning kit",
+   "all_units_month": 52300,
+   "unit_weighted_median_price": 13.49,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "embroidery kit",
+   "all_units_month": 51600,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "cast iron care kit",
+   "all_units_month": 50700,
+   "unit_weighted_median_price": 16,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "bike phone mount",
+   "all_units_month": 50200,
+   "unit_weighted_median_price": 15.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "packing cubes",
+   "all_units_month": 49550,
+   "unit_weighted_median_price": 19.99,
+   "premium_units_month": 100
+  },
+  {
+   "seed": "dog walking kit",
+   "all_units_month": 47950,
+   "unit_weighted_median_price": 12.99,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "car seat gap filler",
+   "all_units_month": 44300,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "edc pouch",
+   "all_units_month": 42900,
+   "unit_weighted_median_price": 18.89,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "jump rope weighted",
+   "all_units_month": 42850,
+   "unit_weighted_median_price": 8.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "car trunk organizer",
+   "all_units_month": 41350,
+   "unit_weighted_median_price": 16.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "plant propagation station",
+   "all_units_month": 40200,
+   "unit_weighted_median_price": 11.97,
+   "premium_units_month": 100
+  },
+  {
+   "seed": "candle making kit",
+   "all_units_month": 38750,
+   "unit_weighted_median_price": 25.99,
+   "premium_units_month": 200
+  },
+  {
+   "seed": "controller charging station",
+   "all_units_month": 35550,
+   "unit_weighted_median_price": 20.37,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "grill accessories kit",
+   "all_units_month": 32400,
+   "unit_weighted_median_price": 29.71,
+   "premium_units_month": 50
+  },
+  {
+   "seed": "key organizer",
+   "all_units_month": 30300,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "tech organizer pouch",
+   "all_units_month": 29600,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "jewelry travel case",
+   "all_units_month": 26400,
+   "unit_weighted_median_price": 13.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "cold brew maker",
+   "all_units_month": 19650,
+   "unit_weighted_median_price": 18.99,
+   "premium_units_month": 100
+  },
+  {
+   "seed": "bike repair kit",
+   "all_units_month": 16550,
+   "unit_weighted_median_price": 14.99,
+   "premium_units_month": 150
+  },
+  {
+   "seed": "paint by numbers kit",
+   "all_units_month": 16550,
+   "unit_weighted_median_price": 9.99,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "watch travel case",
+   "all_units_month": 12900,
+   "unit_weighted_median_price": 18.99,
+   "premium_units_month": 100
+  },
+  {
+   "seed": "bonsai starter kit",
+   "all_units_month": 12550,
+   "unit_weighted_median_price": 39.98,
+   "premium_units_month": 0
+  },
+  {
+   "seed": "guitar maintenance kit",
+   "all_units_month": 12500,
+   "unit_weighted_median_price": 14.99,
+   "premium_units_month": 300
+  },
+  {
+   "seed": "calligraphy kit",
+   "all_units_month": 11700,
+   "unit_weighted_median_price": 10.99,
+   "premium_units_month": 100
+  }
+ ],
+ "proven_premium_items": [
+  {
+   "title": "PetSafe ScoopFree Disposable Crystal Cat Litter Tray, Fresh Scent, 3-Pack",
+   "brand_guess": "PetSafe",
+   "price": 73.49,
+   "bought_past_month": 20000,
+   "reviews": 33900,
+   "rating": 4.6,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/PetSafe-ScoopFree-Self-Cleaning-Refills-Non-Clumping/dp/B000FEF10A",
+   "image_url": "https://m.media-amazon.com/images/I/81b08gH2gaL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "DJI Mic Mini (2 TX + 1 RX + Charging Case), Ultralight, Detail-Rich Audio",
+   "brand_guess": "DJI",
+   "price": 99,
+   "bought_past_month": 10000,
+   "reviews": 26900,
+   "rating": 4.6,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/DJI-Microphone-Ultralight-Detail-Rich-Cancelling/dp/B0DDL8WGH5",
+   "image_url": "https://m.media-amazon.com/images/I/6132m-fHnjL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "DEWALT 20V MAX Cordless Drill and Impact Driver (DCK240C2)",
+   "brand_guess": "DEWALT",
+   "price": 149,
+   "bought_past_month": 10000,
+   "reviews": 61400,
+   "rating": 4.7,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-DCK240C2-Lithium-Driver-Impact/dp/B00IJ0ALYS",
+   "image_url": "https://m.media-amazon.com/images/I/81XPDrUh9sL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "OLIGHT ArkPro Ultra Rechargeable Flat EDC Flashlight,1700Lumens,Onyx Black",
+   "brand_guess": "OLIGHT",
+   "price": 129.99,
+   "bought_past_month": 10000,
+   "reviews": 2300,
+   "rating": 4.7,
+   "seed": "edc kit",
+   "url": "https://www.amazon.com/OLIGHT-ArkPro-Ultra-Flashlight-Rechargeable/dp/B0GHR5DXFC",
+   "image_url": "https://m.media-amazon.com/images/I/61MzEKy0vCL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Moultrie Edge 3 Cellular Trail Camera - 2-Pack, 40MP, 0.5s Trigger",
+   "brand_guess": "Moultrie",
+   "price": 99,
+   "bought_past_month": 9000,
+   "reviews": 437,
+   "rating": 4.4,
+   "seed": "trail camera",
+   "url": "https://www.amazon.com/Moultrie-Cellular-Trail-Camera-Built/dp/B0FJBHLP4M",
+   "image_url": "https://m.media-amazon.com/images/I/71NZrA2U7cL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Hatch Restore 3 | Science-Backed Sleep Audio, Circadian Lighting (Putty)",
+   "brand_guess": "Hatch",
+   "price": 169.99,
+   "bought_past_month": 8000,
+   "reviews": 3400,
+   "rating": 4.1,
+   "seed": "sunrise alarm clock",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMTU1OTUzNDkwNDI5NDE5OjE3OTQ2MDQyNjg6c3BfYXRmOjMwMTI2NTA4MDk1MDAwMjo6MDo6&url=%2FHatch-Science-Backed-Circadian-screen-free-meditations%2Fdp%2FB0DLLSCVZW%2Fref%3Dsr_1_3_sspa%3Fcrid%3DLR0UKAI2IEKA%26dib%3DeyJ2IjoiMSJ9.CCSTgky2UD3hnohe6YThMOoKO46_N9O8E4X3p2GGyMFRb7G-Z4updEK_uglm42P0vwqtVaE7PEnljHhJ7cEZjp7QAhxQK4li0H7D5ZohZ2bpSJqPzPIx5Z5k2Fs905K-vfbCxlDyTIC-7ROP3g5OlDlwHrxvvwhcIcwwPwTwglnxm_pyQgjNFXR1HmBnJxBWh2Vvsz2FlT8pc2JURUkczGcqD6KYpFwiICOPxbeQQu6G3JFi2nIm0k5YeuMnY6AmLOEDnYe16u1SQJsNj7tneIlP7_zPwODa1FaK4s3eo6o.Ci5WHkEDv_Nms41Zzk2m_xY58r4tNTzV2dTgcoBm2xI%26dib_tag%3Dse%26keywords%3Dsunrise%2Balarm%2Bclock%26qid%3D1794604268%26sprefix%3Dsunrise%252Balarm%252Bclock%252Caps%252C174%26sr%3D8-3-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+   "image_url": "https://m.media-amazon.com/images/I/81CwfQrlU7L._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "CAROTE 21pcs Pots and Pans Set Non Stick, Detachable Handle Cookware, Black",
+   "brand_guess": "CAROTE",
+   "price": 64.99,
+   "bought_past_month": 8000,
+   "reviews": 4300,
+   "rating": 4.6,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Cookware-Detachable-Induction-Dishwasher/dp/B0F7M3LVN8",
+   "image_url": "https://m.media-amazon.com/images/I/81QDn2BzpXL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "MANSCAPED\u00ae The Lawn Mower\u00ae 5.0 Ultra Groin & Body Hair Trimmer, Black",
+   "brand_guess": "MANSCAPED",
+   "price": 109.99,
+   "bought_past_month": 8000,
+   "reviews": 10900,
+   "rating": 4.2,
+   "seed": "shaving kit",
+   "url": "https://www.amazon.com/MANSCAPED%C2%AE-Dual-Head-SkinSafe%C2%AE-Waterproof-Rechargeable/dp/B0CDNQ62ML",
+   "image_url": "https://m.media-amazon.com/images/I/71iiww++UpL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Automatic Self Cleaning Litter Box, with 4 Pairs Infrared Senor, Open-Top Design for Multi-Cat Homes, Comes with Liner Bags and Cat Litter Mat, Grey",
+   "brand_guess": "Automatic",
+   "price": 109.99,
+   "bought_past_month": 7000,
+   "reviews": 483,
+   "rating": 4.4,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/Cleaning-Open-Top-Automatic-Multiple-Sensors/dp/B0F6TK43JT",
+   "image_url": "https://m.media-amazon.com/images/I/71QyAZI1KFL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "FIFINE AmpliGame AM8T XLR/USB Gaming Microphone Set, Dynamic PC Mic",
+   "brand_guess": "FIFINE",
+   "price": 67.99,
+   "bought_past_month": 6000,
+   "reviews": 6100,
+   "rating": 4.5,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/FIFINE-Microphone-Podcasting-Voice-Over-AmpliGame-AM8T/dp/B0C74GYW3J",
+   "image_url": "https://m.media-amazon.com/images/I/61-0YoCB2LL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "16\" x 16\" Pizza Steel - 1/4\" Steel, 17.6 lbs",
+   "brand_guess": "16 x",
+   "price": 79.99,
+   "bought_past_month": 6000,
+   "reviews": 439,
+   "rating": 4.7,
+   "seed": "pizza oven accessories",
+   "url": "https://www.amazon.com/ThermiChef-Pizza-Steel-Thickness-Multipurpose/dp/B0BR5ZLMFP",
+   "image_url": "https://m.media-amazon.com/images/I/61-tWj7TLQL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "oneisall Dog Grooming Vacuum,7 in 1 Grooming kit Tools with Low Noise",
+   "brand_guess": "oneisall",
+   "price": 84.99,
+   "bought_past_month": 6000,
+   "reviews": 14100,
+   "rating": 4.6,
+   "seed": "pet hair remover",
+   "url": "https://www.amazon.com/oneisall-Grooming-Grinder-Shedding-Cleaning/dp/B0BHYZV3HY",
+   "image_url": "https://m.media-amazon.com/images/I/71RIawma33L._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "Anker Nano Power Strip, Desk Clamp, 70W Max, 1500J Surge Protector, 2 USB C",
+   "brand_guess": "Anker",
+   "price": 69.99,
+   "bought_past_month": 6000,
+   "reviews": 1000,
+   "rating": 4.8,
+   "seed": "gaming desk setup accessories",
+   "url": "https://www.amazon.com/Anker-Nano-Power-Strip-Clamp/dp/B0FFGZH2S2",
+   "image_url": "https://m.media-amazon.com/images/I/81mzL+ddG4L._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Anker MagGo 2 Pro Power Bank, Qi2.2 25W 10000mAh Magnetic Portable Charger",
+   "brand_guess": "Anker",
+   "price": 109.99,
+   "bought_past_month": 6000,
+   "reviews": 751,
+   "rating": 4.4,
+   "seed": "magsafe accessories",
+   "url": "https://www.amazon.com/ANKER-10000mAh-Magnetic-Portable-Charger/dp/B0GVYMQ3GT",
+   "image_url": "https://m.media-amazon.com/images/I/61fLnuU-3iL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Ridge 20W Magnetic Power Bank Battery Pack 10,000mAh - Fast Charging - Portable Charger Flight-Safe Travel Powerbank - Built-in Cables & Magnetic Attachment (Basecamp Orange)",
+   "brand_guess": "Ridge",
+   "price": 69,
+   "bought_past_month": 6000,
+   "reviews": 2200,
+   "rating": 4.1,
+   "seed": "magsafe accessories",
+   "url": "https://www.amazon.com/Ridge-Magnetic-Power-Bank-Basecamp/dp/B0DWHDM15Q",
+   "image_url": "https://m.media-amazon.com/images/I/81AV7BtkRvL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "AULA F75 Pro Wireless Mechanical Keyboard,75% Hot Swappable Custom Keyboard with Knob,RGB Backlit,Pre-lubed Reaper Switches,Side Printed PBT Keycaps,2.4GHz/USB-C/BT5.0 Mechanical Gaming Keyboards",
+   "brand_guess": "AULA",
+   "price": 68.99,
+   "bought_past_month": 5000,
+   "reviews": 1900,
+   "rating": 4.6,
+   "seed": "mechanical keyboard",
+   "url": "https://www.amazon.com/F75-Pro/dp/B0D14N2QZF",
+   "image_url": "https://m.media-amazon.com/images/I/61MC8BK0w0L._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "TIDEWE Hunting Rangefinder, Rechargeable Camo Laser Range Finder",
+   "brand_guess": "TIDEWE",
+   "price": 64.99,
+   "bought_past_month": 5000,
+   "reviews": 6200,
+   "rating": 4.7,
+   "seed": "hunting accessories",
+   "url": "https://www.amazon.com/TIDEWE-Rangefinder-Rechargeable-Magnification-Functional/dp/B098NL8ZHD",
+   "image_url": "https://m.media-amazon.com/images/I/71VODsOfvWL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Cumrige automatic litter box,Safety Sensor,App Control,95L Large Capacity",
+   "brand_guess": "Cumrige",
+   "price": 199.93,
+   "bought_past_month": 5000,
+   "reviews": 4400,
+   "rating": 4.3,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/B0DFM4Z71X/dp/B0DFM4Z71X",
+   "image_url": "https://m.media-amazon.com/images/I/61Yg6sJAjnL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Breville BES870XL Barista Express Espresso Machine, Brushed Stainless Steel",
+   "brand_guess": "Breville",
+   "price": 685,
+   "bought_past_month": 5000,
+   "reviews": 28000,
+   "rating": 4.4,
+   "seed": "espresso accessories",
+   "url": "https://www.amazon.com/Breville-BES870XL-Barista-Express-Espresso/dp/B00CH9QWOU",
+   "image_url": "https://m.media-amazon.com/images/I/71BvCt6eAFL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "ALL4JIG 1500 Piece Rotating Puzzle Board with 4 Drawer 24.92\"x33.58\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Birthday Gift for mom,Surface for Bricks Building",
+   "brand_guess": "ALL4JIG",
+   "price": 71.99,
+   "bought_past_month": 5000,
+   "reviews": 9800,
+   "rating": 4.5,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Drawers-Portable-Spinning/dp/B09WTSKMVW",
+   "image_url": "https://m.media-amazon.com/images/I/81cqinf96iL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "TYMO CurlPro Plus Automatic Rotating Curling Iron - Upgraded Long Barrel Curling Wand for Long Hair & Loose Waves, Ceramic Hair Curler for Women, Anti-Scald, 600M Ionic, Dual Voltage, Gold, 1 1/2 Inch",
+   "brand_guess": "TYMO",
+   "price": 89.99,
+   "bought_past_month": 5000,
+   "reviews": 12100,
+   "rating": 4.4,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3ODMxMTA1NDkyMDAzMjIyOjE3OTQ2MDQyNzM6c3BfYXRmX25leHQ6MzAxMjQxNjM4Mjk0MzAyOjowOjo&url=%2FTYMO-CurlPro-Automatic-Rotating-Curling%2Fdp%2FB0GKMCP4JY%2Fref%3Dsr_1_52_sspa%3Fcrid%3DSWS267A3ZU3K%26dib%3DeyJ2IjoiMSJ9.KjV3LbITwJaXc3efbd2SNPniN6sBtjlS5GMPSGFP02aFCVznfx-J2_of5TS22OTQgOFVqwdV6yyo1R2UD041tSbjmSWQd08NQHxYPHr9dod51rhiXuJW9dnGlNqTKZPe_L99ewJyKtmNVBoZOhN3pzRegQSq697B8fsHCKsXZvyL1e6D8nsd8nUhjQMVTfcYFz_70m8F38LHg--1d_su7z6vbMvPOSS81LdiLFJQHSr8_rZRsIPfHhBFbBsXgOxPEKF4MvEH2l67K_3Z1IIABYEXvLsVmK5zBgibKdnV9SI.9Km88TVIGGi-ctd6bKvSVNmKk7KCI1RSkvLwiQpy_sY%26dib_tag%3Dse%26keywords%3Dhair%2Bstyling%2Btools%2Bset%26qid%3D1794604273%26sprefix%3Dhair%252Bstyling%252Btools%252Bset%252Caps%252C119%26sr%3D8-52-spons%26xpid%3Dn3eMCiUQBSy6M%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+   "image_url": "https://m.media-amazon.com/images/I/61fcdztKmNL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "BOG DeathGrip Hunting Tripod, 7\"-59\", Lightweight, Gun Clamp, Shooting Rest",
+   "brand_guess": "BOG",
+   "price": 159.99,
+   "bought_past_month": 4000,
+   "reviews": 12200,
+   "rating": 4.8,
+   "seed": "hunting accessories",
+   "url": "https://www.amazon.com/DeathGrip-Aluminum-Lightweight-Hands-Free-Operation/dp/B07KMPCVMH",
+   "image_url": "https://m.media-amazon.com/images/I/41WuZsfozfL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Amazon Basics 5-Shelf Adjustable Heavy Duty Steel Wire Rack, Space Saving Storage Shelving Organizer for Kitchen, Garage, No-Tool Assembly, 350 lbs Weight Capacity, 36\" x 14\" x 72\", Chrome",
+   "brand_guess": "Amazon",
+   "price": 62.99,
+   "bought_past_month": 4000,
+   "reviews": 264300,
+   "rating": 4.6,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/Amazon-Basics-Adjustable-Shelving-Organizer/dp/B01M0A4B9M",
+   "image_url": "https://m.media-amazon.com/images/I/61qw7ijg6LL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Sterilite Industrial Storage Tote with Lids for Garage, 27 Gallon, 4-Pack",
+   "brand_guess": "Sterilite",
+   "price": 77.99,
+   "bought_past_month": 4000,
+   "reviews": 415,
+   "rating": 4.8,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/Sterilite-Industrial-Storage-Heavy-Duty-Plastic/dp/B0GH9325VG",
+   "image_url": "https://m.media-amazon.com/images/I/61YizaQfy6L._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "6-in-1 Air Styler with Hair Dryer and Auto-Wrap Curlers (L/R)",
+   "brand_guess": "6-in-1",
+   "price": 93.26,
+   "bought_past_month": 4000,
+   "reviews": 1800,
+   "rating": 4.5,
+   "seed": "hair styling tools set",
+   "url": "https://www.amazon.com/Mythsight-StyleVibe-Auto-Wrap-Root-Lift-Frizz-Free/dp/B0FFLTC255",
+   "image_url": "https://m.media-amazon.com/images/I/71aQCZ-c8YL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "ODK 53\" L Shaped Gaming Desk with Shelves, LED & Outlets, Black",
+   "brand_guess": "ODK",
+   "price": 94.99,
+   "bought_past_month": 4000,
+   "reviews": 1100,
+   "rating": 4.7,
+   "seed": "gaming desk setup accessories",
+   "url": "https://www.amazon.com/ODK-Lighting-Reversible-Outlets-Computer/dp/B0DX6PLLFM",
+   "image_url": "https://m.media-amazon.com/images/I/81fJ6AvNEkL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Anker MagSafe Charger Compatible, MagGo 3-in-1 Qi2 15W Charging Station",
+   "brand_guess": "Anker",
+   "price": 71.99,
+   "bought_past_month": 4000,
+   "reviews": 2600,
+   "rating": 4.6,
+   "seed": "magsafe accessories",
+   "url": "https://www.amazon.com/Anker-MagGo-Wireless-Charging-Station/dp/B0DDQ71B9P",
+   "image_url": "https://m.media-amazon.com/images/I/71by5rKEpbL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "RIDGE 20W Magnetic Power Bank Battery Pack 10,000mAh - Fast Charging, Compatible with MagSafe - Portable Charger Flight-Safe Travel Powerbank - Built-in Cables & Magnetic Attachment (Matte Olive)",
+   "brand_guess": "RIDGE",
+   "price": 69,
+   "bought_past_month": 4000,
+   "reviews": 2200,
+   "rating": 4.1,
+   "seed": "magsafe accessories",
+   "url": "https://www.amazon.com/Ridge-Magnetic-Power-Bank-Charging/dp/B0DWHC8YHD",
+   "image_url": "https://m.media-amazon.com/images/I/61eDAP+B9-L._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "DEWALT Cordless Screwdriver, 4V USB Rechargeable Electric Screwdriver with 12 pcs Screwdriver Bit Set, LED Light, FLEXDRIVE Control, Compact, Ergonomic (DWHT66719)",
+   "brand_guess": "DEWALT",
+   "price": 80.49,
+   "bought_past_month": 4000,
+   "reviews": 2300,
+   "rating": 4.4,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/DEWALT-Screwdriver-FLEXDRIVE-Screwdriving-DWHT66719/dp/B0DJBQ9ZBF",
+   "image_url": "https://m.media-amazon.com/images/I/61qoLUXIm5L._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "AKASO EK7000 4K30FPS 20MP WiFi Action Camera with EIS Ultra HD 131FT Waterproof Underwater Camera Remote Control 4X Zoom Support External Microphone Black",
+   "brand_guess": "AKASO",
+   "price": 69.99,
+   "bought_past_month": 4000,
+   "reviews": 40100,
+   "rating": 4.4,
+   "seed": "vlogging kit",
+   "url": "https://www.amazon.com/AKASO-EK7000-Sports-Waterproof-Camcorder/dp/B01HGM33HG",
+   "image_url": "https://m.media-amazon.com/images/I/71RJPcbSoHL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "DJI Mic 3 (2 TX + 1 RX + Charging Case), Wireless Microphone",
+   "brand_guess": "DJI",
+   "price": 259,
+   "bought_past_month": 4000,
+   "reviews": 2600,
+   "rating": 4.6,
+   "seed": "podcast equipment bundle",
+   "url": "https://www.amazon.com/DJI-Charging-Microphone-Ultralight-Anti-Interference/dp/B0F995J8FR",
+   "image_url": "https://m.media-amazon.com/images/I/61JALPdLGvL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Anker Prime Charging Station, 200W 6-Port GaN Desktop Charger",
+   "brand_guess": "Anker",
+   "price": 69.99,
+   "bought_past_month": 4000,
+   "reviews": 3300,
+   "rating": 4.6,
+   "seed": "charging station multiple devices",
+   "url": "https://www.amazon.com/Anker-Charger-Charging-Station-Compatible/dp/B0CT2NQ7WG",
+   "image_url": "https://m.media-amazon.com/images/I/71-68+RF+8L._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Anker Prime Charging Station, 250W 6-Port GaN USB C Charger",
+   "brand_guess": "Anker",
+   "price": 149.99,
+   "bought_past_month": 4000,
+   "reviews": 2100,
+   "rating": 4.6,
+   "seed": "charging station multiple devices",
+   "url": "https://www.amazon.com/Anker-Charger-Charging-Ultra-Fast-Compatible/dp/B0CYLL8Y89",
+   "image_url": "https://m.media-amazon.com/images/I/81nIFsA+r9L._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Theragun Therabody Relief Massage Gun | for Daily Comfort | 3-Speed | Navy",
+   "brand_guess": "Theragun",
+   "price": 159.99,
+   "bought_past_month": 4000,
+   "reviews": 2700,
+   "rating": 4.5,
+   "seed": "massage gun",
+   "url": "https://www.amazon.com/TheraGun-Relief-Handheld-Percussion-Massage/dp/B0CNS894RH",
+   "image_url": "https://m.media-amazon.com/images/I/61f9mqZJ4rL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "RENPHO Active Thermacool 2 Massage Gun with Intuitive Heat and Cold Control",
+   "brand_guess": "RENPHO",
+   "price": 89.98,
+   "bought_past_month": 4000,
+   "reviews": 30500,
+   "rating": 4.5,
+   "seed": "massage gun",
+   "url": "https://www.amazon.com/RENPHO-Thermacool-Christmas-Percussion-Masajeador/dp/B0FF9ZCW62",
+   "image_url": "https://m.media-amazon.com/images/I/81AiwL124ZL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Vortex Triumph HD 10x42 Binoculars",
+   "brand_guess": "Vortex",
+   "price": 99,
+   "bought_past_month": 3000,
+   "reviews": 2400,
+   "rating": 4.7,
+   "seed": "hunting accessories",
+   "url": "https://www.amazon.com/Vortex-Optics-Triumph-10x42-Binoculars/dp/B0C6N72X5Y",
+   "image_url": "https://m.media-amazon.com/images/I/91zmxNywaaL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Logitech Creators Blue Yeti USB Microphone for PC, Mac, Gaming, Recording, Streaming, Podcasting, Studio and Computer Condenser Mic with Blue VO!CE effects, 4 Pickup Patterns, Plug and Play - Blackout",
+   "brand_guess": "Logitech",
+   "price": 98.99,
+   "bought_past_month": 3000,
+   "reviews": 57200,
+   "rating": 4.6,
+   "seed": "streaming microphone kit",
+   "url": "https://www.amazon.com/Blue-Microphones-Yeti-Microphone-Blackout/dp/B00N1YPXW2",
+   "image_url": "https://m.media-amazon.com/images/I/61IPJI9ezKL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Garage Shelving 5 Tier Storage Shelves Adjustable Shelf 71\"Hx31.5\"Wx13.8\"D",
+   "brand_guess": "Garage",
+   "price": 69.99,
+   "bought_past_month": 3000,
+   "reviews": 419,
+   "rating": 4,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/Shelving-Adjustable-adjustable-assembly-organization/dp/B0HF4BJLTD",
+   "image_url": "https://m.media-amazon.com/images/I/71UxgWD7CRL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "IRIS USA 6-Pack 54 Quart Storage Bins with Lids, Clear",
+   "brand_guess": "IRIS",
+   "price": 99.99,
+   "bought_past_month": 3000,
+   "reviews": 35000,
+   "rating": 4,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/Transparent-contents-blankets-clothing-storage/dp/B00CQGTGXS",
+   "image_url": "https://m.media-amazon.com/images/I/91pGS2aXj2L._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Automatic Litter Box, Self Cleaning Litter Box with Safety Sensors",
+   "brand_guess": "Automatic",
+   "price": 99.98,
+   "bought_past_month": 3000,
+   "reviews": 140,
+   "rating": 4.7,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/Automatic-protection-infrared-front-step-half-gear-limit-support/dp/B0HG8PF7GV",
+   "image_url": "https://m.media-amazon.com/images/I/71ehjqVEgAL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Automatic Self-Cleaning Cat Litter Box Open-Top Child Lock Grey",
+   "brand_guess": "Automatic",
+   "price": 99.99,
+   "bought_past_month": 3000,
+   "reviews": 111,
+   "rating": 4.3,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/Automatic-Self-Cleaning-Litter-Open-Top-sensors%EF%BC%8Cchild/dp/B0HKT3ZLCX",
+   "image_url": "https://m.media-amazon.com/images/I/71Mmd2u0CCL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "PetPivot Open Top Self Cleaning Cat Litter Box, Automatic Litter Box with 7 Pairs of Safety Sensors, Anti-Pinch Protection and Easy Access Step for Senior Cats, Dark Grey",
+   "brand_guess": "PetPivot",
+   "price": 139.97,
+   "bought_past_month": 3000,
+   "reviews": 851,
+   "rating": 4.3,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/PetPivot-Cleaning-Automatic-Anti-Pinch-Protection/dp/B0GL7Q6YXZ",
+   "image_url": "https://m.media-amazon.com/images/I/61BRzjflQnL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Amazon Echo Spot, Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Glacier White",
+   "brand_guess": "Amazon",
+   "price": 109.99,
+   "bought_past_month": 3000,
+   "reviews": 47100,
+   "rating": 4.5,
+   "seed": "sunrise alarm clock",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxMTU1OTUzNDkwNDI5NDE5OjE3OTQ2MDQyNjg6c3BfYXRmOjMwMDI3NDExNDE1NDcwMjo6MDo6&url=%2FAmazon-Echo-Spot-2024-release-Smart-alarm-clock-with-vibrant-sound-Alexa-Glacier-White%2Fdp%2FB0BFCBKXWL%2Fref%3Dsr_1_2_ffob_sspa%3Fcrid%3DLR0UKAI2IEKA%26dib%3DeyJ2IjoiMSJ9.CCSTgky2UD3hnohe6YThMOoKO46_N9O8E4X3p2GGyMFRb7G-Z4updEK_uglm42P0vwqtVaE7PEnljHhJ7cEZjp7QAhxQK4li0H7D5ZohZ2bpSJqPzPIx5Z5k2Fs905K-vfbCxlDyTIC-7ROP3g5OlDlwHrxvvwhcIcwwPwTwglnxm_pyQgjNFXR1HmBnJxBWh2Vvsz2FlT8pc2JURUkczGcqD6KYpFwiICOPxbeQQu6G3JFi2nIm0k5YeuMnY6AmLOEDnYe16u1SQJsNj7tneIlP7_zPwODa1FaK4s3eo6o.Ci5WHkEDv_Nms41Zzk2m_xY58r4tNTzV2dTgcoBm2xI%26dib_tag%3Dse%26keywords%3Dsunrise%2Balarm%2Bclock%26qid%3D1794604268%26sprefix%3Dsunrise%252Balarm%252Bclock%252Caps%252C174%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+   "image_url": "https://m.media-amazon.com/images/I/71-DxWvydgL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Philips SmartSleep Wake-up Light, Colored Sunrise and Sunset Simulation, 5 Natural Sounds, FM Radio & Reading Lamp, Tap Snooze, HF3520/60",
+   "brand_guess": "Philips",
+   "price": 120.81,
+   "bought_past_month": 3000,
+   "reviews": 14800,
+   "rating": 4.3,
+   "seed": "sunrise alarm clock",
+   "url": "https://www.amazon.com/Philips-Simulation-Headspace-Subscription-HF3520/dp/B0093162RM",
+   "image_url": "https://m.media-amazon.com/images/I/71iYjlMI6rL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Back Seat Extender for Dogs - As Seen on Shark Tank",
+   "brand_guess": "Back",
+   "price": 169.99,
+   "bought_past_month": 3000,
+   "reviews": 2200,
+   "rating": 4.5,
+   "seed": "dog car seat cover",
+   "url": "https://www.amazon.com/Ruff-Liners-Medium-Extender-Version/dp/B0DSK22N1J",
+   "image_url": "https://m.media-amazon.com/images/I/71doToaEjyL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Buenkee Dog Grooming Vacuum Kit, 15000Pa Clipper, Shedding Brush, 2L, White",
+   "brand_guess": "Buenkee",
+   "price": 69.99,
+   "bought_past_month": 3000,
+   "reviews": 3700,
+   "rating": 4.6,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/buenkee-Grooming-Clipper-Shedding-Cleaning/dp/B0CQSYJ3CQ",
+   "image_url": "https://m.media-amazon.com/images/I/71gMbCJxeZL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "SPYPOINT Flex-M Twin, Cellular Trail Camera, Night Vision, Free Photo Plan",
+   "brand_guess": "SPYPOINT",
+   "price": 79.99,
+   "bought_past_month": 3000,
+   "reviews": 2700,
+   "rating": 3.9,
+   "seed": "trail camera",
+   "url": "https://www.amazon.com/SPYPOINT-Flex-M-Cellular-Trail-Cameras/dp/B0D1TM82LK",
+   "image_url": "https://m.media-amazon.com/images/I/81DlsGrY4AL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Dremel 4300-5/40 Rotary Tool Kit w/LED Light, 5 Attachments, 40 Accessories",
+   "brand_guess": "Dremel",
+   "price": 98.99,
+   "bought_past_month": 3000,
+   "reviews": 9200,
+   "rating": 4.7,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/Dremel-4300-5-Performance-Attachments-Accessories/dp/B01M1SJNVU",
+   "image_url": "https://m.media-amazon.com/images/I/51mMEAVou0L._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "DJI Osmo Pocket 3 Creator Combo, Vlogging Camera with 1'' CMOS & 4K/120fps",
+   "brand_guess": "DJI",
+   "price": 549,
+   "bought_past_month": 3000,
+   "reviews": 7000,
+   "rating": 4.5,
+   "seed": "vlogging kit",
+   "url": "https://www.amazon.com/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
+   "image_url": "https://m.media-amazon.com/images/I/51d4Esi79-L._AC_UY218_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "DJI Osmo Mobile 8 Gimbal Stabilizer for Phone, 3-Axis Stabilization",
+   "brand_guess": "DJI",
+   "price": 129,
+   "bought_past_month": 3000,
+   "reviews": 3900,
+   "rating": 4.4,
+   "seed": "vlogging kit",
+   "url": "https://www.amazon.com/DJI-Stabilizer-Tracking-Extension-Stabilization/dp/B0FJ2L67HJ",
+   "image_url": "https://m.media-amazon.com/images/I/612zsTP6aOL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Hollyland Lark M2 Wireless Microphone for iPhone/Camera/Android/PC, 48kHz/24-bit High Fidelity Audio, 300m Range, Noise Cancelling, 40h Use, YouTube, Vlog, Streaming (Black, with Camera RX + USB-C RX)",
+   "brand_guess": "Hollyland",
+   "price": 88,
+   "bought_past_month": 3000,
+   "reviews": 14700,
+   "rating": 4.7,
+   "seed": "vlogging kit",
+   "url": "https://www.amazon.com/Hollyland-M2-Microphone-Cancelling-Streaming/dp/B0FZBS9RR4",
+   "image_url": "https://m.media-amazon.com/images/I/71pPum56+eL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Braun All-in-One Series 9 Men\u2019s Electric Beard Trimmer, Hair Clipper, Shaver & Razor for Face, Hair & Body, AIO 9535 with Gillette Labs Razor, Cordless",
+   "brand_guess": "Braun",
+   "price": 109.99,
+   "bought_past_month": 3000,
+   "reviews": 246,
+   "rating": 4.4,
+   "seed": "beard grooming kit",
+   "url": "https://www.amazon.com/Braun-Grooming-Cordless-Clippers-Gillette/dp/B0FYRRHRY6",
+   "image_url": "https://m.media-amazon.com/images/I/81ZhS8yujlL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Pioneer DJ DDJ-FLX4 2-Channel DJ Controller, 16 Pads, Graphite",
+   "brand_guess": "Pioneer",
+   "price": 329,
+   "bought_past_month": 3000,
+   "reviews": 2800,
+   "rating": 4.7,
+   "seed": "dj controller",
+   "url": "https://www.amazon.com/Pioneer-DJ-DDJ-FLX4-Rekordbox-Controller/dp/B0BK25SY9G",
+   "image_url": "https://m.media-amazon.com/images/I/51Xj2HOl-xL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Anker Travel Charging Station, 150W Slim USB C Charger, 4 USB C, 2 USB A | Anker Nano Fast Charging, Compact Cord, Travel Essentials, Office Accessories for MacBook, iPad, iPhone, Galaxy(Non-Battery)",
+   "brand_guess": "Anker",
+   "price": 79.99,
+   "bought_past_month": 3000,
+   "reviews": 128,
+   "rating": 4.7,
+   "seed": "charging station multiple devices",
+   "url": "https://www.amazon.com/Anker-Travel-Charging-Station-Charger/dp/B0GS5HVBGG",
+   "image_url": "https://m.media-amazon.com/images/I/51AcSpypJJL._AC_UL640_QL65_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "CHEF iQ Sense | Smart Wireless Meat Thermometer | 2 Ultra-Thin Probes | WiFi Unlimited Range | 1000\u00b0F Heat Safe | 5 Sensors | BBQ, Grill, Oven, Smoker, Air Fryer | Gen3",
+   "brand_guess": "CHEF",
+   "price": 109.99,
+   "bought_past_month": 3000,
+   "reviews": 2100,
+   "rating": 4.3,
+   "seed": "meat thermometer wireless",
+   "url": "https://www.amazon.com/CHEF-iQ-Thermometer-Ultra-Thin-Unlimited/dp/B0DZFNQXGL",
+   "image_url": "https://m.media-amazon.com/images/I/71DIUAu0eSL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Logitech G29 Driving Force Racing Wheel and Floor pedals for PC/Mac - Black",
+   "brand_guess": "Logitech",
+   "price": 229.99,
+   "bought_past_month": 2000,
+   "reviews": 21500,
+   "rating": 4.6,
+   "seed": "sim racing pedals",
+   "url": "https://www.amazon.com/Logitech-G29-Racing-Wheel-Pedals/dp/B00Z0UWWYC",
+   "image_url": "https://m.media-amazon.com/images/I/71ywUl+M-JL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "TIDEWE Hunting Backpack for Men, 40L Camo Hunting Pack for Deer Hunting",
+   "brand_guess": "TIDEWE",
+   "price": 71.99,
+   "bought_past_month": 2000,
+   "reviews": 1500,
+   "rating": 4.8,
+   "seed": "hunting accessories",
+   "url": "https://www.amazon.com/TIDEWE-Hunting-Backpack-Waterproof-Capacity/dp/B09YMG4J7X",
+   "image_url": "https://m.media-amazon.com/images/I/81wgGdSNvKL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Vortex Crossfire HD 10x42 Binoculars",
+   "brand_guess": "Vortex",
+   "price": 149,
+   "bought_past_month": 2000,
+   "reviews": 4000,
+   "rating": 4.8,
+   "seed": "hunting accessories",
+   "url": "https://www.amazon.com/Vortex-Optics-Crossfire-10x42-Binoculars/dp/B07V3LB5DN",
+   "image_url": "https://m.media-amazon.com/images/I/91qe50c4eJL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Bambu Lab A1 Combo + LED Lamp Kit, Multi-Color 3D Printing (with AMS lite)",
+   "brand_guess": "Bambu",
+   "price": 419,
+   "bought_past_month": 2000,
+   "reviews": 423,
+   "rating": 4.2,
+   "seed": "3d printer accessories",
+   "url": "https://www.amazon.com/Bambu-Combo-Lamp-Multi-Color-Printing/dp/B0GQMN8VLS",
+   "image_url": "https://m.media-amazon.com/images/I/71xuJ5IAKbL._AC_UY218_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "Snapmaker U1 3D Printer,4-Toolhead with 5s Toolchanger,Multi-Color Printing",
+   "brand_guess": "Snapmaker",
+   "price": 749,
+   "bought_past_month": 2000,
+   "reviews": 292,
+   "rating": 4.5,
+   "seed": "3d printer accessories",
+   "url": "https://www.amazon.com/Snapmaker-Toolchanger-Multi-Color-Multi-Material-Calibration/dp/B0GYP89RTN",
+   "image_url": "https://m.media-amazon.com/images/I/71SUewxz-kL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Large Power Tool Organizer Wall Mount with Charging Station,4 Layer Heavy Duty Metal Tool Storage Rack Loads 600lbs with 8 Cordless Drill Holder,Battery Utility Rack Loads with 4 Power Strip",
+   "brand_guess": "Large",
+   "price": 69.99,
+   "bought_past_month": 2000,
+   "reviews": 1700,
+   "rating": 4.5,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/POKIPO-Organizer-Charging-Station-Cordless/dp/B0DBHMY2T2",
+   "image_url": "https://m.media-amazon.com/images/I/81V3HmeAWgL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Sterilite 4 Shelf Cabinet, Lockable Utility Storage, Gray",
+   "brand_guess": "Sterilite",
+   "price": 129.98,
+   "bought_past_month": 2000,
+   "reviews": 6900,
+   "rating": 4.4,
+   "seed": "garage organization",
+   "url": "https://www.amazon.com/Sterilite-01423V01-Shelf-Cabinet-1-Pack/dp/B01H48094C",
+   "image_url": "https://m.media-amazon.com/images/I/61FJOtNtHvL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "PETKIT PuraMax 2 Odor Free Automatic Cat Litter Box,with 2-Year Coverage",
+   "brand_guess": "PETKIT",
+   "price": 299.99,
+   "bought_past_month": 2000,
+   "reviews": 2700,
+   "rating": 4.2,
+   "seed": "cat litter box self cleaning",
+   "url": "https://www.amazon.com/PETKIT-PuraMax-Automatic-Litter-Coverage/dp/B0DFYF2D7D",
+   "image_url": "https://m.media-amazon.com/images/I/61xbnejgZZL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "16\" x 16\" Pizza Steel - 3/8\" Steel, 27.5 lbs",
+   "brand_guess": "16 x",
+   "price": 105.99,
+   "bought_past_month": 2000,
+   "reviews": 727,
+   "rating": 4.7,
+   "seed": "pizza oven accessories",
+   "url": "https://www.amazon.com/ThermiChef-16x16-Pizza-Steel-Thick/dp/B085S8XRRB",
+   "image_url": "https://m.media-amazon.com/images/I/61jwj7bfC5L._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Stream Deck MK.2 Studio Controller, 15 Macro Keys",
+   "brand_guess": "Stream",
+   "price": 119.99,
+   "bought_past_month": 2000,
+   "reviews": 10400,
+   "rating": 4.8,
+   "seed": "stream deck",
+   "url": "https://www.amazon.com/Elgato-Stream-Deck-MK-2-Controller/dp/B09738CV2G",
+   "image_url": "https://m.media-amazon.com/images/I/61gtdFnK+UL._AC_UY218_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Work Sharp Precision Adjust Elite Knife Sharpener",
+   "brand_guess": "Work",
+   "price": 129.95,
+   "bought_past_month": 2000,
+   "reviews": 6500,
+   "rating": 4.6,
+   "seed": "knife sharpening system",
+   "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo0NzgzOTk3OTEyODU4NjE6MTc5NDYwNDIxMTpzcF9hdGY6MjAwMDUxNjg5NzUzNTk4OjowOjo&url=%2FWork-Sharp-Precision-Additional-Sharpening%2Fdp%2FB09FWWDFF9%2Fref%3Dsr_1_3_sspa%3Fcrid%3D24L6ERWPT46I%26dib%3DeyJ2IjoiMSJ9.3kaxYc1hWcaMBTMxSiF7ZqSvCCa8z4cYZuJoYEGWwwiNiIn3x2MfBgKv7e8nWZdbn9hHPKOFmNusIfyrSPYkQ2DBxQtjjS2FE4JY_LTWkW96Cx4DDk8Faf4GsXmvPMUEOC4H3dZQEUEoXwnP3ARN2uwZN4qgjEP9sVYZAh2qWX9Ij70eBTlm2boUYRcpmUQVpCFxqmvGTIvkzlJdYXA22WT3MLfCGIgXykI-WU5jv5eXDIebLpRzI9wQUIbXSIxWlBDVub2C-MBLj-DXy95FFYDlHaq9ErDvbCXPTh_tydg.wUSjDHifA0unsMsSqbyDHi_o4VQJbnxD0BU3YyYeREg%26dib_tag%3Dse%26keywords%3Dknife%2Bsharpening%2Bsystem%26qid%3D1794604211%26sprefix%3Dknife%252Bsharpening%252Bsystem%252Caps%252C256%26sr%3D8-3-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+   "image_url": "https://m.media-amazon.com/images/I/81bdjza9qIL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Hatch Restore 3 | Science-Backed Sleep Audio, Circadian Lighting (Cocoa)",
+   "brand_guess": "Hatch",
+   "price": 169.99,
+   "bought_past_month": 2000,
+   "reviews": 3400,
+   "rating": 4.1,
+   "seed": "sunrise alarm clock",
+   "url": "https://www.amazon.com/Hatch-Restore-Sunrise-Alarm-Machine/dp/B0DLLTJFJL",
+   "image_url": "https://m.media-amazon.com/images/I/81C6YcU-QxL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "URPOWER Hard Bottom Dog Car Seat Cover for Back Seat, PU Leather Hammock",
+   "brand_guess": "URPOWER",
+   "price": 65.99,
+   "bought_past_month": 2000,
+   "reviews": 46900,
+   "rating": 4.6,
+   "seed": "dog car seat cover",
+   "url": "https://www.amazon.com/URPOWER-Waterproof-Resistant-Non-Slip-Included/dp/B0FRM3X7FT",
+   "image_url": "https://m.media-amazon.com/images/I/81LgNe7oAjL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Manta Pro Sleep Mask - 100% Light Blocking Sleep Mask for Side Sleepers, Breathable and Comfortable, Spacious & Zero Pressure for Long Lashes, Perfect for Sleep/Travel/Nap/Shift Work",
+   "brand_guess": "Manta",
+   "price": 85,
+   "bought_past_month": 2000,
+   "reviews": 1800,
+   "rating": 4.2,
+   "seed": "sleep mask",
+   "url": "https://www.amazon.com/Manta-Sleep-Mask-Pro-Breathability/dp/B0C36K8SJJ",
+   "image_url": "https://m.media-amazon.com/images/I/914LjwsgplL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "ALL4JIG 2000 Piece Rotating Puzzle Board with 4 Drawers and Cover, 28.5\"x40.16\" Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Boards Gift for mom,Surface for Bricks Building",
+   "brand_guess": "ALL4JIG",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 9800,
+   "rating": 4.5,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Drawers-Portable-Spinning/dp/B0BN37FZVM",
+   "image_url": "https://m.media-amazon.com/images/I/81cqinf96iL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "ALL4JIG 1500 Pieces Rotating Puzzle Board with 6 Drawers & Cover,24.92\"x33.58\"Portable Wooden Jigsaw Puzzle Table for Adults,Lazy Susan Spinning Puzzle Boards Gift for mom,Surface for Bricks Building",
+   "brand_guess": "ALL4JIG",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 9800,
+   "rating": 4.5,
+   "seed": "puzzle board with drawers",
+   "url": "https://www.amazon.com/ALL4JIG-Rotating-Portable-Spinning-Birthday/dp/B0BXS2XY1W",
+   "image_url": "https://m.media-amazon.com/images/I/71XNUcFjlHL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "SpaceAid 7 Tier Rotating Shoe Rack Tower, Spinning Shoe Display Lazy Susan, Revolving 360 Shoe Rack Storage Round Carousel, Vertical Handbag Rotate Shoes Closet Organization (7-Tier White)",
+   "brand_guess": "SpaceAid",
+   "price": 109.96,
+   "bought_past_month": 2000,
+   "reviews": 2900,
+   "rating": 4.4,
+   "seed": "closet organizer system",
+   "url": "https://www.amazon.com/SpaceAid-Rotating-Spinning-Revolving-Organization/dp/B0CM3NGMZQ",
+   "image_url": "https://m.media-amazon.com/images/I/61sZ+uyWFOL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Golf Net with Practice Mat,Golf Hitting Aid Nets 10x7FT for Backyard Driving Chipping Training Swing with Target Mat Balls for Outdoor Indoor\uff0cGifts for Men Dad Him and Golfer",
+   "brand_guess": "Golf",
+   "price": 69.99,
+   "bought_past_month": 2000,
+   "reviews": 1500,
+   "rating": 4.1,
+   "seed": "golf practice net",
+   "url": "https://www.amazon.com/Practice-Hitting-Backyard-Chipping-Training/dp/B0DFYFM5G8",
+   "image_url": "https://m.media-amazon.com/images/I/71rkMjR2CQL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Neakasa P1 Pro Dog Grooming Vacuum, 6-in-1 Kit, 2-Year Protection Plan",
+   "brand_guess": "Neakasa",
+   "price": 82.99,
+   "bought_past_month": 2000,
+   "reviews": 17700,
+   "rating": 4.5,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Neakasa-Grooming-Vacuum-2-Year-Protection/dp/B093KRX2K1",
+   "image_url": "https://m.media-amazon.com/images/I/81V0m05cicL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "Dog Grooming Kit with Vacuum, 12000Pa Pet Electric Clipper & Cleaning Brush",
+   "brand_guess": "Dog",
+   "price": 66.99,
+   "bought_past_month": 2000,
+   "reviews": 158,
+   "rating": 4.6,
+   "seed": "dog grooming vacuum",
+   "url": "https://www.amazon.com/Grooming-Electric-Cleaning-Low-Noise-Shedding/dp/B0H4R3KCC9",
+   "image_url": "https://m.media-amazon.com/images/I/71V+OH6hWPL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "CAROTE 27pcs Pots and Pans Set Non Stick, Detachable Handle Cookware Set",
+   "brand_guess": "CAROTE",
+   "price": 129.99,
+   "bought_past_month": 2000,
+   "reviews": 2700,
+   "rating": 4.7,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Detachable-Stackable-Dishwasher-Housewarming/dp/B0GYYH39NY",
+   "image_url": "https://m.media-amazon.com/images/I/81mTwrdDbaL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "Lodge Pre-Seasoned Cast Iron Skillet 3-Piece Set: 8, 10.25 & 12 inch",
+   "brand_guess": "Lodge",
+   "price": 64.9,
+   "bought_past_month": 2000,
+   "reviews": 79600,
+   "rating": 4.7,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/Piece-Skillet-Set-5SK-10SK/dp/B0BFXS6KNY",
+   "image_url": "https://m.media-amazon.com/images/I/611HmZFScYL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "CAROTE 21pcs Pots and Pans Set Non Stick, Detachable Handle Cookware",
+   "brand_guess": "CAROTE",
+   "price": 79.99,
+   "bought_past_month": 2000,
+   "reviews": 2700,
+   "rating": 4.7,
+   "seed": "camping cookware set",
+   "url": "https://www.amazon.com/CAROTE-Detachable-Nonstick-Dishwasher-Induction/dp/B0FC6YP5LK",
+   "image_url": "https://m.media-amazon.com/images/I/81FcKfwCUeL._AC_UL320_.jpg",
+   "is_kit": true
+  },
+  {
+   "title": "Tactacam REVEAL X 3.0 Cellular Trail Camera, Night Vision, Waterproof",
+   "brand_guess": "Tactacam",
+   "price": 99.99,
+   "bought_past_month": 2000,
+   "reviews": 1000,
+   "rating": 4.4,
+   "seed": "trail camera",
+   "url": "https://www.amazon.com/TACTACAM-Cellular-Waterproof-auto-connect-multi-carrier/dp/B0D7FQNM38",
+   "image_url": "https://m.media-amazon.com/images/I/81cW05VwoYL._AC_UL320_.jpg",
+   "is_kit": false
+  },
+  {
+   "title": "Craftsman 262-Piece Mechanic Tool Set with 3-Drawer VERSASTACK Box, SAE and Metric Socket Set, Car and Motorcycle Tool Kit with Combination Wrenches and Spark Plug Sockets, 90-Tooth (CMMT45309)",
+   "brand_guess": "Craftsman",
+   "price": 149,
+   "bought_past_month": 2000,
+   "reviews": 1500,
+   "rating": 4.5,
+   "seed": "tool kit",
+   "url": "https://www.amazon.com/CRAFTSMAN-262-Piece-Mechanic-VERSASTACK-CMMT45309/dp/B0CNKXHGZT",
+   "image_url": "https://m.media-amazon.com/images/I/81hooRVuSIL._AC_UL320_.jpg",
+   "is_kit": true
+  }
+ ],
+ "new_candidate_ideas": [
+  {
+   "idea": "Adult jigsaw puzzle station (tilting/rotating board with sorting drawers and cover)",
+   "why_sales_prove_it": "Two seeds, 'puzzle table' and 'puzzle board with drawers', together show ~27,600 premium units/month (floor, deduped across both seeds) across 66 premium listings at $64-$225. ALL4JIG 1500pc rotating board with 4 drawers B09WTSKMVW $71.99, 5K+/mo, 9.8K reviews; ALL4JIG 2000pc $79.99 2K+; tilting+rotating 2-in-1 board $79.99 800+; puzzle table with wheels/drawers/cover B0D9PTR7FV $172.99 700+; JoyBerri table B0CP8FC963 $125.99-$179.99 600-1K+; metal legged 1500pc table $154.99 500+. Many sellers besides ALL4JIG at $90-$210 each moving 200-800/mo.",
+   "kit_concept": "Tilting+rotating board with 6 drawers and hard cover, plus sorting trays, a clip-on LED light bar, glue-and-frame finishing kit, and one premium 1000pc puzzle.",
+   "price_point": 149,
+   "reorder_path": "Puzzles (monthly or curated club), custom photo puzzles, frames, glue sheets, sorting trays.",
+   "software_edge": "Custom photo-to-puzzle builder with live preview; 'puzzle passport' tracker; quiz to size the board to the puzzles they buy.",
+   "risks": "Oversize carton (25x34 in, 10-25 lb) so US warehouse freight is high; ALL4JIG holds ~60% of premium units in the board seed and many factory clones exist; Q4 gifting seasonality; wood/MDF quality returns.",
+   "excluded": false
+  },
+  {
+   "idea": "Dog back-seat extender and car travel kit",
+   "why_sales_prove_it": "'dog car seat cover' seed: 13,000 premium units/month (floor), top seller share only 36%. Back Seat Extender for Dogs (as seen on Shark Tank) B0DSK22N1J $169.99 3K+/mo; URPOWER hard-bottom PU leather extender $65.99 2K+ (46.9K reviews); unbranded hard-bottom extenders at $93.49 1K+, $69.98 1K+, $69.99 1K+.",
+   "kit_concept": "Hard-bottom extender (fits most back seats) plus seatbelt tether, door guards, collapsible bowl and a fur-removal tool.",
+   "price_point": 129,
+   "reorder_path": "Replacement washable liners, second-car set, pet hair tools, travel bowls, seat protectors for the front.",
+   "software_edge": "Vehicle fit finder (make/model/year to size and photos), road-trip packing checklist.",
+   "risks": "The Shark Tank brand may hold a design patent: check. Bulky but light carton. Fit-related returns. Many hard-bottom clones from the same factories.",
+   "excluded": false
+  },
+  {
+   "idea": "Dog grooming vacuum kit (clip, brush and vacuum in one, no mess)",
+   "why_sales_prove_it": "'dog grooming vacuum' 22,850 premium units/month (floor; ~25,350 deduped with 'dog grooming kit' and 'pet hair remover'), 38 premium listings, median $69.99. oneisall 7-in-1 B0BHYZV3HY $84.99 6K+/mo (14.1K reviews); Buenkee kit B0CQSYJ3CQ $69.99 3K+; Neakasa P1 Pro B093KRX2K1 $82.99 2K+ (17.7K reviews); unbranded 12000Pa kits $66.49-$66.99 1-2K+ each; oneisall 8-in-1 vacuum+dryer $109.99 1K+.",
+   "kit_concept": "Vacuum grooming unit with clipper, deshedding brush, nozzle and comb set, plus a nail grinder and storage case.",
+   "price_point": 119,
+   "reorder_path": "Clipper blades, filters, dust-cup liners, attachments per breed.",
+   "software_edge": "Breed-based grooming schedule and attachment picker; reminder emails for blade and filter replacement.",
+   "risks": "Mains-powered appliance (needs UL/ETL listing), motor and noise QC, oneisall holds ~46% of premium units; very visible demo for UGC but heavily copied.",
+   "excluded": false
+  },
+  {
+   "idea": "Home putting and short-game practice kit",
+   "why_sales_prove_it": "Four golf seeds show ~12,150 premium units/month deduped across 102 premium listings from many sellers: putting mat 2,550 units/mo (35 premium listings, top share 39%), golf training aids 4,900, golf swing trainer 5,400, practice net 5,200. Putting Green Indoor Mat B09X1BBVM9 $75.89 600+; Perfect Practice B07YQ7935B $149.99 300+; GimYaa ball-return mats $63.96/$73.99 200+ each; TRS Slider B0DDZB6Y9Z $89.99 700+; WHYGOLF Putting System B0CMMJJWM4 $86 400+; Orange Whip $119.99 400+.",
+   "kit_concept": "Premium turf putting mat with auto ball return, alignment mirror, gate and stroke drills, and a printed 30-day practice plan.",
+   "price_point": 139,
+   "reorder_path": "Add-on drills and trainers, replacement turf, chipping net, gift sets for golfer partners.",
+   "software_edge": "Phone-based putting stats tracker and drill programme; quiz that recommends drills by handicap.",
+   "risks": "Patents: Orange Whip, Divot Board and several putting designs are patented; long roll carton; golf is crowded with known training-aid brands off Amazon.",
+   "excluded": false
+  },
+  {
+   "idea": "Watch winder and watch care set for automatic-watch owners",
+   "why_sales_prove_it": "'watch winder' 2,850 premium units/month across 40 premium listings with no brand above 28%: Automatic 4-watch winder box B0F32CJGQM $70.99 400+; 4-watch winder piano paint B0F32J9MLJ $115.99 200+; 6-watch winder + storage $85.99 200+; single winder $83.99 200+; wooden faux-ostrich winder $69.99 200+. Note: 'watch strap set' and 'watch travel case' showed almost no $60+ sales.",
+   "kit_concept": "2- or 4-slot winder in a premium finish, plus travel roll, strap-change tool and microfiber, with optional engraving.",
+   "price_point": 149,
+   "reorder_path": "Straps (cheap add-on), second winder, travel roll, gifts; low natural reorder.",
+   "software_edge": "Turns-per-day lookup by watch movement and a winder settings guide; finish/engraving configurator with preview.",
+   "risks": "Motor noise and failure returns; volume is modest; premium brands (Wolf, Versa) sell off Amazon; gift seasonality.",
+   "excluded": false
+  },
+  {
+   "idea": "Ski and snowboard home tuning and wax kit",
+   "why_sales_prove_it": "'snowboard tuning kit' 1,500 and 'ski wax kit' 1,450 premium units/month (overlapping listings), 48 premium listings, top share 33%: OutdoorMaster tuning kit with iron B09B1MM47D $71.99 300+ and $94.99 200+; Demon Complete Basic Tune Kit B00MAKO69O $79.16 200+; professional all-in-one wax kit $60.78 300+; another $69.99 200+.",
+   "kit_concept": "Wax iron, temperature waxes, scraper, edge tuner, brushes and a vise, in a roll-up case.",
+   "price_point": 119,
+   "reorder_path": "Temperature-specific wax refills every season (true consumable), scraper and brush replacements.",
+   "software_edge": "Wax recommender from the user's resort forecast; season reminder emails for refills.",
+   "risks": "Strong seasonality (Nov-Feb) though the Jan 4 test week is peak season; heated iron needs UL listing; small volume; wax can be shipped fine (not hazmat).",
+   "excluded": false
+  },
+  {
+   "idea": "Whiskey and cocktail smoker gift kit",
+   "why_sales_prove_it": "'cocktail smoker kit' 2,950 premium units/month across 16 premium listings, top share 36%, plus 'cocktail kit gift' 1,200: Bourbon Whiskey Smoker Kit with torch B0GLGQFB8M $76.99 700+; G&J's Finest B0C37YKQF3 $64.99 300+; kit with torch, butane and syrup $89.99 300+; Whiskey Cocktail Smoker Kit B09XVJ8T3R $129.99 200+; Breville Smoking Gun $109.95 300+.",
+   "kit_concept": "Hardwood smoker top, refillable torch (ships without butane), 8 wood-chip flavours, tongs, cleaning brush and recipe cards; engraved option.",
+   "price_point": 89,
+   "reorder_path": "Wood-chip flavour refills (consumable), engraved gifts, bar tools.",
+   "software_edge": "Engraving preview and gift quiz; cocktail-and-wood pairing guide.",
+   "risks": "Butane is hazmat (exclude fuel); glassware is fragile (exclude); open flame liability; very gift-seasonal, so January demand is lower; many Amazon clones at $40-60.",
+   "excluded": false
+  },
+  {
+   "idea": "Sourdough bread-baking kit",
+   "why_sales_prove_it": "'sourdough starter kit' 1,900 premium units/month, top share 42%: EWFEN kit with enamel cast-iron pot $69.99 800+ (its $26.98 no-pot version sells 3K+); kit with Dutch oven and scale B0FW5GVSQS $149.99 200+ (2.1K reviews); Nordic Ware Simply Sourdough $100 200+; Brod & Taylor Sourdough Home $165 200+.",
+   "kit_concept": "Banneton, lame with blades, dough whisk, bench scraper, starter jar with band, digital scale and proofing liners; no live starter; Dutch oven optional.",
+   "price_point": 99,
+   "reorder_path": "Lame blades, liners, rice flour, second banneton shapes, bread bags.",
+   "software_edge": "Hydration and baking-schedule calculator with timers; first-loaf guided programme.",
+   "risks": "Food-contact compliance (FDA, BPA-free); the cast-iron pot is what makes it premium but is heavy; exclude any starter culture (ingestible).",
+   "excluded": false
+  },
+  {
+   "idea": "DIY ceramic coating and maintenance kit for cars",
+   "why_sales_prove_it": "'ceramic coating kit' 4,950 premium units/month across 37 premium listings, top share 24% (fragmented): 20H graphene B0HBB3NJ4D $99.99 700+; Gtechniq Crystal Serum Light B07C4JRDY1 $74.70-$106.01 600+ each; GYEON MOHS EVO B09S5T6QS6 $94.99 500+; Adam's Graphene $124.94 300+; AvalonKing kit $69.99 300+; CarPro CQuartz $82.99 200+.",
+   "kit_concept": "Coating plus prep/panel-wipe spray, applicator blocks and suede cloths, plush towels and a maintenance topper.",
+   "price_point": 119,
+   "reorder_path": "Maintenance topper and towels every 1-3 months; re-coat yearly (true consumable).",
+   "software_edge": "Vehicle-size quantity calculator; maintenance reminder schedule; before/after gallery tooling for UGC.",
+   "risks": "Solvent-based chemicals: limited-quantity hazmat shipping, SDS, private-label blender needed; durability claims ('10 years') must be substantiated; enthusiasts are brand-loyal.",
+   "excluded": false
+  },
+  {
+   "idea": "3D-printing finishing and filament-care kit",
+   "why_sales_prove_it": "'3d printer filament dryer' 6,200 and '3d printer accessories' 7,850 premium units/month; ~12,750 deduped, ~8,750 after removing the Bambu and Snapmaker printers: Polymaker dryer B0CK1BX9G2 $71.99 600+; Creality Space Pi $65.99-$89 500+; SUNLU AMS heater B0FLP97HMW $84.99 800+; 184-piece tools kit B0GW53BB43 $67.19 600+; Fanttik Pix 3 detail sander B0H6K8SSF1 $79.99 1K+; 3D printer stand with filament drawer $139.99 600+.",
+   "kit_concept": "Finishing kit: deburr and scraper tools, nozzle set, detail sander, sealed filament boxes with humidity gauges and desiccant.",
+   "price_point": 99,
+   "reorder_path": "Nozzles, build plates, desiccant, sanding pads (true consumables).",
+   "software_edge": "Strong fit for Dhruv: filament and printer profile helper, humidity log; customer is a tech hobbyist he understands.",
+   "risks": "Cordless sanders and dryers bring lithium or heating-element safety; buyers are price-savvy Amazon shoppers; Bambu Lab ecosystem shifts fast.",
+   "excluded": false
+  },
+  {
+   "idea": "Mechanical keyboard starter build kit (wired)",
+   "why_sales_prove_it": "'mechanical keyboard' 16,700 premium units/month across 31 premium listings, top share 46%: AULA F75 Pro B0D14N2QZF $68.99 5K+; AULA F75 $65.99 1K+; AULA F99 $68.99 1K+; Logitech MX Mechanical $179.99 1K+; Redragon K768 PRO $64.99 1K+; GravaStar Mercury K1 $123.45 400+. Note: 'custom keycaps' alone showed no premium sales.",
+   "kit_concept": "75% hot-swap wired board plus keycap set, switch tester, desk mat and wrist rest, as a configured bundle.",
+   "price_point": 149,
+   "reorder_path": "Keycap sets, switch packs, cables, desk mats.",
+   "software_edge": "Visual keyboard configurator with live preview of keycaps and colours; switch quiz. Fits the desk/tech-worker customer.",
+   "risks": "Crowded with AULA/Keychron/Logitech at lower prices; electronics returns; wireless models carry lithium (start wired). Partly overlaps the earlier desk category.",
+   "excluded": false
+  },
+  {
+   "idea": "Multi-styler hot air brush set (Airwrap-style)",
+   "why_sales_prove_it": "'hair styling tools set' 16,500 premium units/month: TYMO CurlPro $89.99 5K+; unbranded 6-in-1 air styler $93.26 4K+; ELLA BELLA 6-in-1 B0CN3XNVJT $149 1K+; Shark FlexStyle $249 1K+; several unbranded 8-in-1 styler sets $109-$169 at 300-500+.",
+   "kit_concept": "Not recommended.",
+   "price_point": 129,
+   "reorder_path": "Attachments only.",
+   "software_edge": "Hair-type quiz.",
+   "risks": "Excluded: high-heat mains appliance (burn and electrical safety), Dyson has litigated Airwrap-style dupes on patents, high return rate.",
+   "excluded": true
+  }
+ ],
+ "notes": "Limitations: bought_past_month is Amazon's bucketed lower bound (50+, 100+, 1K+, 10K+ etc.), so 1000 means 'at least 1,000'; sums are floors, not totals. About a quarter of listings show no badge. Only page 1 (~60 listings) per seed, Amazon US only, one snapshot on 2026-11-13 (Q4 gifting season inflates gift categories such as cocktail smokers, puzzle tables, watch winders). price_from can be the lowest variant. Variant listings share review counts across sizes/colours, so reviews are per parent ASIN. Amazon volume proves demand at a price, not that a new Meta-funded DTC store can win it at $39-48 CPA. All figures are ESTIMATED (third-party, DataForSEO, checked 2026-11-13). Patent notes are from general knowledge and must be checked before shortlisting."
+}
