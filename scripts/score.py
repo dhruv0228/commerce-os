@@ -59,6 +59,8 @@ def score_products():
     econ = {r["product_id"]: r for r in read(DATA / "economics_outputs.csv") if r["scenario"] == "base"}
     rows = []
     for c in candidates:
+        if c.get("stage", "").strip().lower() == "rejected":
+            continue
         pid = c["product_id"]
         parts = {k: num(c.get(k), cap, f"candidates.csv {pid} {k}") for k, cap in PRODUCT_CAPS.items()}
         e = econ.get(pid)

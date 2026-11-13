@@ -1,1 +1,419 @@
 product_id,scenario,field,value,label,source,checked
+desk-reset-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+desk-reset-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+desk-reset-kit,base,product_cost,23.4,ASSUMED,"factory BOM $18.00 (felt mat ~$8 ASSUMED from $2.60-9 Alibaba mat listings, steel clamp tray ~$5 from $4.50-5.50 Jia En listing, ties/clips/sleeves/magnet ~$3 ASSUMED, headphone hook ~$2 ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated …",2026-11-13
+desk-reset-kit,base,supplier_shipping,9.0,ASSUMED,"US ground for ~2.2 kg parcel, ASSUMED",2026-11-13
+desk-reset-kit,base,duties_other,5.4,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+desk-reset-kit,base,packaging,3.5,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+desk-reset-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+desk-reset-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+desk-reset-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+desk-reset-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+desk-reset-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+standing-desk-cable-kit,base,price,119,ASSUMED,proposed kit price,2026-11-13
+standing-desk-cable-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+standing-desk-cable-kit,base,product_cost,20.8,ASSUMED,"factory BOM $16.00 (60 cm tray ~$6 ASSUMED from $4.50-9.99 Alibaba listings, spine ~$4 ASSUMED, power-strip mount ~$1.50, ties/clips/sleeves ~$3, hook ~$1.50, all ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehous…",2026-11-13
+standing-desk-cable-kit,base,supplier_shipping,10.0,ASSUMED,"US ground for ~3 kg parcel, ASSUMED",2026-11-13
+standing-desk-cable-kit,base,duties_other,4.8,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+standing-desk-cable-kit,base,packaging,3.5,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+standing-desk-cable-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+standing-desk-cable-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+standing-desk-cable-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+standing-desk-cable-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+standing-desk-cable-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+clean-desk-cable-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+clean-desk-cable-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+clean-desk-cable-kit,base,product_cost,18.2,ASSUMED,"factory BOM $14.00 (tray ~$6, ties/clips/magnets/sleeves/raceway ~$7, mount ~$1, all ASSUMED from Alibaba ranges above) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus sourcing-agent margin; no US-warehouse kit qu…",2026-11-13
+clean-desk-cable-kit,base,supplier_shipping,8.0,ASSUMED,"US ground ~2 kg, ASSUMED",2026-11-13
+clean-desk-cable-kit,base,duties_other,4.2,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+clean-desk-cable-kit,base,packaging,3.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+clean-desk-cable-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+clean-desk-cable-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+clean-desk-cable-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+clean-desk-cable-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+clean-desk-cable-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+felt-desk-mat-system,base,price,119,ASSUMED,proposed kit price,2026-11-13
+felt-desk-mat-system,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+felt-desk-mat-system,base,product_cost,22.1,ASSUMED,"factory BOM $17.00 (felt mat ~$8, sleeve ~$3, tray ~$1.50, coasters ~$0.60, cable strip + magnets ~$1.50, ASSUMED from $2.60-9 Alibaba felt listings; 100% merino may cost more) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US war…",2026-11-13
+felt-desk-mat-system,base,supplier_shipping,8.0,ASSUMED,"US ground ~1.3 kg, ASSUMED",2026-11-13
+felt-desk-mat-system,base,duties_other,5.1,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+felt-desk-mat-system,base,packaging,3.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+felt-desk-mat-system,base,fulfillment_fee,3.0,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+felt-desk-mat-system,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+felt-desk-mat-system,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+felt-desk-mat-system,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+felt-desk-mat-system,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+leather-desk-pad-kit,base,price,119,ASSUMED,proposed kit price,2026-11-13
+leather-desk-pad-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+leather-desk-pad-kit,base,product_cost,29.9,ASSUMED,"factory BOM $23.00 (full-grain pad ~$15 ASSUMED (YSAGi genuine leather retails $39.99-49.99 on Amazon), rail ~$2, coasters ~$1.50, straps ~$1.50, valet tray ~$3, all ASSUMED; no factory quote found) x 1.3 multiplier: ASSUMED allowance for consolidat…",2026-11-13
+leather-desk-pad-kit,base,supplier_shipping,8.0,ASSUMED,"US ground ~1.5 kg, ASSUMED",2026-11-13
+leather-desk-pad-kit,base,duties_other,6.9,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+leather-desk-pad-kit,base,packaging,3.5,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+leather-desk-pad-kit,base,fulfillment_fee,3.0,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+leather-desk-pad-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+leather-desk-pad-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+leather-desk-pad-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+leather-desk-pad-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+modular-desk-shelf,base,price,149,ASSUMED,proposed kit price,2026-11-13
+modular-desk-shelf,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+modular-desk-shelf,base,product_cost,46.8,ASSUMED,"factory BOM $36.00 (shelf ~$25 ASSUMED (no factory price found; Amazon wood+steel risers retail from $29.99), add-ons ~$11 ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus sourcing-agent margin; no US-ware…",2026-11-13
+modular-desk-shelf,base,supplier_shipping,22.0,ASSUMED,"US ground oversized ~7 kg, ASSUMED",2026-11-13
+modular-desk-shelf,base,duties_other,10.8,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+modular-desk-shelf,base,packaging,5.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+modular-desk-shelf,base,fulfillment_fee,4.0,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+modular-desk-shelf,base,refund_pct,0.08,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+modular-desk-shelf,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+modular-desk-shelf,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+modular-desk-shelf,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+desk-pegboard-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+desk-pegboard-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+desk-pegboard-kit,base,product_cost,22.1,ASSUMED,"factory BOM $17.00 (steel clamp pegboard ~$12 ASSUMED (no steel kit factory price found; plastic versions $1.82-7.21), 15 accessories ~$5 ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus sourcing-agent mar…",2026-11-13
+desk-pegboard-kit,base,supplier_shipping,13.0,ASSUMED,"US ground ~4 kg, ASSUMED",2026-11-13
+desk-pegboard-kit,base,duties_other,5.1,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+desk-pegboard-kit,base,packaging,4.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+desk-pegboard-kit,base,fulfillment_fee,3.0,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+desk-pegboard-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+desk-pegboard-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+desk-pegboard-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+desk-pegboard-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+under-desk-storage-kit,base,price,109,ASSUMED,proposed kit price,2026-11-13
+under-desk-storage-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+under-desk-storage-kit,base,product_cost,20.15,ASSUMED,"factory BOM $15.50 (drawer ~$8 ASSUMED (mirror listing $3.50-5.50 for a basic steel organizer; slide drawer costs more), hooks ~$2.50, tray ~$4, clips ~$1, ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus …",2026-11-13
+under-desk-storage-kit,base,supplier_shipping,9.0,ASSUMED,"US ground ~2.5 kg, ASSUMED",2026-11-13
+under-desk-storage-kit,base,duties_other,4.65,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+under-desk-storage-kit,base,packaging,3.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+under-desk-storage-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+under-desk-storage-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+under-desk-storage-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+under-desk-storage-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+under-desk-storage-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+monitor-light-bar-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+monitor-light-bar-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+monitor-light-bar-kit,base,product_cost,26.0,ASSUMED,"factory BOM $20.00 (light bar ~$15 ASSUMED midpoint of $9-29.90 Global Sources tiers, felt pad ~$3, webcam cover/clips/cloth ~$2, ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus sourcing-agent margin; no …",2026-11-13
+monitor-light-bar-kit,base,supplier_shipping,8.0,ASSUMED,"US ground ~1.2 kg, ASSUMED",2026-11-13
+monitor-light-bar-kit,base,duties_other,6.0,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+monitor-light-bar-kit,base,packaging,3.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+monitor-light-bar-kit,base,fulfillment_fee,3.0,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+monitor-light-bar-kit,base,refund_pct,0.08,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+monitor-light-bar-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+monitor-light-bar-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+monitor-light-bar-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+work-anywhere-tech-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+work-anywhere-tech-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+work-anywhere-tech-kit,base,product_cost,16.9,ASSUMED,"factory BOM $13.00 (pouch ~$4 ASSUMED (US promo tiers $6.62-9.63 incl. imprint suggest lower factory), folding stand ~$5, 2 cables ~$3, ties ~$1, all ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated freight to a US warehouse plus sourci…",2026-11-13
+work-anywhere-tech-kit,base,supplier_shipping,7.0,ASSUMED,"US ground ~0.9 kg, ASSUMED",2026-11-13
+work-anywhere-tech-kit,base,duties_other,3.9,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+work-anywhere-tech-kit,base,packaging,3.0,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+work-anywhere-tech-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+work-anywhere-tech-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+work-anywhere-tech-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+work-anywhere-tech-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+work-anywhere-tech-kit,base,benchmark_cpa,34.15,ESTIMATED,"Automotive Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+shower-filter-refill-kit,base,price,119,ASSUMED,proposed kit price,2026-11-13
+shower-filter-refill-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+shower-filter-refill-kit,base,product_cost,18.5,ESTIMATED,Alibaba listing prices via search 2026-11-13: vitamin C shower head $10.50 at 500 to 999 pcs (https://www.alibaba.com/product-introduction/Shower-Head-with-Vitamin-c-and_1601137382414.html) + 2 cartridges at $3.50 (https://www.alibaba.com/product-in…,2026-11-13
+shower-filter-refill-kit,base,supplier_shipping,9,ASSUMED,placeholder: US last-mile ground for a ~2 lb parcel plus share of inbound freight China->US warehouse; $9. No US-warehouse quote yet,2026-11-13
+shower-filter-refill-kit,base,duties_other,5.55,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+shower-filter-refill-kit,base,packaging,3,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+shower-filter-refill-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+shower-filter-refill-kit,base,refund_pct,0.08,ASSUMED,category placeholder raised from 6% for pressure/fit complaints,2026-11-13
+shower-filter-refill-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+shower-filter-refill-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+shower-filter-refill-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+waterless-diffuser-scent-kit,base,price,119,ASSUMED,proposed kit price,2026-11-13
+waterless-diffuser-scent-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+waterless-diffuser-scent-kit,base,product_cost,42,ESTIMATED,"device $30 SCENTA listing (https://www.alibaba.com/product-introduction/SCENTA-Battery-Powered-Aroma-Diffuser-Machine_62227368269.html) + 3 x 100 ml oils at ASSUMED $4 each from a US blender ($12, no quote). Factory price for device, not delivered",2026-11-13
+waterless-diffuser-scent-kit,base,supplier_shipping,10,ASSUMED,placeholder: US last-mile ground for a ~2 lb parcel plus share of inbound freight China->US warehouse; $10. No US-warehouse quote yet plus possible Limited Quantity ground surcharge,2026-11-13
+waterless-diffuser-scent-kit,base,duties_other,9,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate) (device only),2026-11-13
+waterless-diffuser-scent-kit,base,packaging,3.5,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+waterless-diffuser-scent-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+waterless-diffuser-scent-kit,base,refund_pct,0.08,ASSUMED,electronics placeholder,2026-11-13
+waterless-diffuser-scent-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+waterless-diffuser-scent-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+waterless-diffuser-scent-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+hydroponic-herb-garden-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+hydroponic-herb-garden-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+hydroponic-herb-garden-kit,base,product_cost,46,ESTIMATED,"12-pod unit $31.99 at 2 to 99 pcs (https://www.alibaba.com/product-detail/Hydroponics-Growing-System-12-pods-Indoor_1600877111148.html) + 24 seed pods ASSUMED $12 (no US pod supplier found) + nutrient ASSUMED $2. Factory price, not delivered",2026-11-13
+hydroponic-herb-garden-kit,base,supplier_shipping,14,ASSUMED,placeholder: US last-mile ground for a ~6 lb parcel plus share of inbound freight China->US warehouse; $14. No US-warehouse quote yet,2026-11-13
+hydroponic-herb-garden-kit,base,duties_other,9.6,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate) (device only),2026-11-13
+hydroponic-herb-garden-kit,base,packaging,4,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+hydroponic-herb-garden-kit,base,fulfillment_fee,4,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+hydroponic-herb-garden-kit,base,refund_pct,0.08,ASSUMED,electronics and live-plant placeholder,2026-11-13
+hydroponic-herb-garden-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+hydroponic-herb-garden-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+hydroponic-herb-garden-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+rolling-knife-sharpener-kit,base,price,109,ASSUMED,proposed kit price,2026-11-13
+rolling-knife-sharpener-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+rolling-knife-sharpener-kit,base,product_cost,20,ESTIMATED,"rolling sharpener set $16.93 top of listed range (https://www.made-in-china.com/Light-Industry-Daily-Use-Catalog/browse-Diamond-Knife-Sharpener-18202400000004.html) + leather strop ASSUMED $3. Factory price, MOQ 1200",2026-11-13
+rolling-knife-sharpener-kit,base,supplier_shipping,9,ASSUMED,placeholder: US last-mile ground for a ~2 lb parcel plus share of inbound freight China->US warehouse; $9. No US-warehouse quote yet,2026-11-13
+rolling-knife-sharpener-kit,base,duties_other,6,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+rolling-knife-sharpener-kit,base,packaging,4,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+rolling-knife-sharpener-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+rolling-knife-sharpener-kit,base,refund_pct,0.05,ASSUMED,durable gift item placeholder,2026-11-13
+rolling-knife-sharpener-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+rolling-knife-sharpener-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+rolling-knife-sharpener-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+handheld-vacuum-sealer-kit,base,price,89,ASSUMED,proposed kit price,2026-11-13
+handheld-vacuum-sealer-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+handheld-vacuum-sealer-kit,base,product_cost,25,ESTIMATED,sealer $19 low end of LANJI listing (https://www.alibaba.com/product-introduction/Handheld-USB-Rechargeable-Mini-Clip-Bag_1601403037225.html) + 30 bags and 5 lids ASSUMED $6. Factory price,2026-11-13
+handheld-vacuum-sealer-kit,base,supplier_shipping,8,ASSUMED,placeholder: US last-mile ground for a ~1.5 lb parcel plus share of inbound freight China->US warehouse; $8. No US-warehouse quote yet (lithium battery may add a carrier surcharge),2026-11-13
+handheld-vacuum-sealer-kit,base,duties_other,7.5,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+handheld-vacuum-sealer-kit,base,packaging,3,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+handheld-vacuum-sealer-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+handheld-vacuum-sealer-kit,base,refund_pct,0.07,ASSUMED,small electronics placeholder,2026-11-13
+handheld-vacuum-sealer-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+handheld-vacuum-sealer-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+handheld-vacuum-sealer-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+label-maker-pantry-kit,base,price,79,ASSUMED,proposed kit price,2026-11-13
+label-maker-pantry-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+label-maker-pantry-kit,base,product_cost,13.8,ASSUMED,mini printer $9 (Amazon retail $10 to $16 implies factory well below the $24 to $28 B1 listing; no quote) + 6 rolls at $0.80. Replace with OEM quote,2026-11-13
+label-maker-pantry-kit,base,supplier_shipping,6,ASSUMED,placeholder: US last-mile ground for a ~1 lb parcel plus share of inbound freight China->US warehouse; $6. No US-warehouse quote yet,2026-11-13
+label-maker-pantry-kit,base,duties_other,4.1,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+label-maker-pantry-kit,base,packaging,3,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+label-maker-pantry-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+label-maker-pantry-kit,base,refund_pct,0.05,ASSUMED,placeholder,2026-11-13
+label-maker-pantry-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+label-maker-pantry-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+label-maker-pantry-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+refill-cleaning-tablet-kit,base,price,49,ASSUMED,proposed kit price,2026-11-13
+refill-cleaning-tablet-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+refill-cleaning-tablet-kit,base,product_cost,9.5,ASSUMED,"3 bottles at $2 + 6 tablets at $0.25 + brush $2; no quote, MOQ thousands",2026-11-13
+refill-cleaning-tablet-kit,base,supplier_shipping,7,ASSUMED,placeholder: US last-mile ground for a ~1.5 lb parcel plus share of inbound freight China->US warehouse; $7. No US-warehouse quote yet,2026-11-13
+refill-cleaning-tablet-kit,base,duties_other,2.85,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+refill-cleaning-tablet-kit,base,packaging,3,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+refill-cleaning-tablet-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+refill-cleaning-tablet-kit,base,refund_pct,0.05,ASSUMED,placeholder,2026-11-13
+refill-cleaning-tablet-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+refill-cleaning-tablet-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+refill-cleaning-tablet-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+candle-warmer-lamp-kit,base,price,89,ASSUMED,proposed kit price,2026-11-13
+candle-warmer-lamp-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+candle-warmer-lamp-kit,base,product_cost,24,ASSUMED,lamp $9 (no factory price found; Amazon retail $16 to $22 implies low factory cost) + 2 candle tins at $7 US wholesale + bulbs $1; no quotes,2026-11-13
+candle-warmer-lamp-kit,base,supplier_shipping,11,ASSUMED,placeholder: US last-mile ground for a ~3.5 lb parcel plus share of inbound freight China->US warehouse; $11. No US-warehouse quote yet,2026-11-13
+candle-warmer-lamp-kit,base,duties_other,3,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate) (lamp and bulbs only; candles US-made),2026-11-13
+candle-warmer-lamp-kit,base,packaging,3.5,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+candle-warmer-lamp-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+candle-warmer-lamp-kit,base,refund_pct,0.07,ASSUMED,placeholder for electrical gift item,2026-11-13
+candle-warmer-lamp-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+candle-warmer-lamp-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+candle-warmer-lamp-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+garment-care-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+garment-care-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+garment-care-kit,base,product_cost,20.7,ESTIMATED,steamer $12.70 high end of listing range (https://www.alibaba.com/product-detail/Electric-Portable-Handheld-Garment-And-Fabric_1600979915776.html) + fabric shaver ASSUMED $5 + comb/brush ASSUMED $3. Factory price,2026-11-13
+garment-care-kit,base,supplier_shipping,10,ASSUMED,placeholder: US last-mile ground for a ~3 lb parcel plus share of inbound freight China->US warehouse; $10. No US-warehouse quote yet,2026-11-13
+garment-care-kit,base,duties_other,6.2,ASSUMED,placeholder 30% of factory cost for US tariffs on China-origin goods (Section 301 + other duties in force Nov 2026 not verified; confirm HTS code and current rate),2026-11-13
+garment-care-kit,base,packaging,4,ASSUMED,branded mailer/box and insert card placeholder; replace with packaging quote,2026-11-13
+garment-care-kit,base,fulfillment_fee,3.5,ASSUMED,supplier US-warehouse or 3PL pick/pack per order placeholder; replace with supplier quote,2026-11-13
+garment-care-kit,base,refund_pct,0.08,ASSUMED,electrical appliance placeholder,2026-11-13
+garment-care-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+garment-care-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+garment-care-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+espresso-puck-prep-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+espresso-puck-prep-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+espresso-puck-prep-kit,base,product_cost,18,ASSUMED,"No full-kit factory quote found. Alibaba UK leveler/tamper set listing GBP 3.02-4.53 at MOQ 1,000 (https://www.alibaba.co.uk/s-espresso-tamper_6.html) and $37-40 Amazon retail for 7-piece kits imply factory cost well under $15; assumed $18 for calib…",2026-11-13
+espresso-puck-prep-kit,base,supplier_shipping,8,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
+espresso-puck-prep-kit,base,duties_other,7,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+espresso-puck-prep-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+espresso-puck-prep-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+espresso-puck-prep-kit,base,refund_pct,0.06,ASSUMED,ASSUMED 5-10%; portafilter size mismatch is the main driver,2026-11-13
+espresso-puck-prep-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+espresso-puck-prep-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+espresso-puck-prep-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden (kitchen equipment; conservative over Toys/Art $34.85) Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+pickleball-carbon-paddle-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+pickleball-carbon-paddle-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pickleball-carbon-paddle-kit,base,product_cost,30,ASSUMED,"Paddle $21 based on Winpick thermoformed T700 $20.90-28.90 at MOQ 50 (factory listing price), plus 6 balls (~$5.40), cover ($2) and overgrips ($1.50), each assumed; no quote",2026-11-13
+pickleball-carbon-paddle-kit,base,supplier_shipping,9,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
+pickleball-carbon-paddle-kit,base,duties_other,11,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+pickleball-carbon-paddle-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+pickleball-carbon-paddle-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+pickleball-carbon-paddle-kit,base,refund_pct,0.06,ASSUMED,ASSUMED 6-8%; delamination warranty returns,2026-11-13
+pickleball-carbon-paddle-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+pickleball-carbon-paddle-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pickleball-carbon-paddle-kit,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+fly-tying-starter-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+fly-tying-starter-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+fly-tying-starter-kit,base,product_cost,24,ASSUMED,"No factory price found (Alibaba vise listings show no prices); assumed vise ~$10-12, tools ~$5, hooks/materials/organizer ~$7",2026-11-13
+fly-tying-starter-kit,base,supplier_shipping,9,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2.5 lb shipped kit; no quote,2026-11-13
+fly-tying-starter-kit,base,duties_other,9,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+fly-tying-starter-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+fly-tying-starter-kit,base,fulfillment_fee,4,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+fly-tying-starter-kit,base,refund_pct,0.04,ASSUMED,ASSUMED; hobby kits have low defect returns,2026-11-13
+fly-tying-starter-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+fly-tying-starter-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+fly-tying-starter-kit,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+safety-razor-shave-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+safety-razor-shave-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+safety-razor-shave-kit,base,product_cost,18,ASSUMED,"Razor $8 (above FYD $4-5.80 zinc-alloy factory listing, for 316L stainless), 100 quality blades ~$4 at low MOQ (PearlMax $0.01-0.02 needs MOQ 100k), stand $2, synthetic brush $2.50, blade bank $1, case $0.50; no quote",2026-11-13
+safety-razor-shave-kit,base,supplier_shipping,6,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~1 lb shipped kit; no quote,2026-11-13
+safety-razor-shave-kit,base,duties_other,7,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+safety-razor-shave-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+safety-razor-shave-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+safety-razor-shave-kit,base,refund_pct,0.05,ASSUMED,ASSUMED; grooming tools have low defect returns,2026-11-13
+safety-razor-shave-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+safety-razor-shave-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+safety-razor-shave-kit,base,benchmark_cpa,39.31,ESTIMATED,"Beauty Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+resistance-bar-band-system,base,price,129,ASSUMED,proposed kit price,2026-11-13
+resistance-bar-band-system,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+resistance-bar-band-system,base,product_cost,22,ASSUMED,"No heavy-duty bar kit factory price found (light pilates kits list $2.20-2.50); assumed solid steel bar $10, 4 heavy layered bands $8, strap/anchor/bag $4",2026-11-13
+resistance-bar-band-system,base,supplier_shipping,13,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~5 lb shipped kit; no quote,2026-11-13
+resistance-bar-band-system,base,duties_other,8,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+resistance-bar-band-system,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+resistance-bar-band-system,base,fulfillment_fee,4,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+resistance-bar-band-system,base,refund_pct,0.08,ASSUMED,ASSUMED; fitness gear 'too easy/too hard' returns,2026-11-13
+resistance-bar-band-system,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+resistance-bar-band-system,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+resistance-bar-band-system,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+hammock-camp-system,base,price,129,ASSUMED,proposed kit price,2026-11-13
+hammock-camp-system,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+hammock-camp-system,base,product_cost,20,ASSUMED,"Zhejiang Kaisi hammock + net + rain fly listing $14.98 (directory listing price); upgraded ripstop, rated carabiners and better straps assumed to bring it to ~$20",2026-11-13
+hammock-camp-system,base,supplier_shipping,9,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2.5 lb shipped kit; no quote,2026-11-13
+hammock-camp-system,base,duties_other,7,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+hammock-camp-system,base,packaging,3,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+hammock-camp-system,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+hammock-camp-system,base,refund_pct,0.06,ASSUMED,ASSUMED 5-8%,2026-11-13
+hammock-camp-system,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+hammock-camp-system,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+hammock-camp-system,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+leathercraft-starter-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+leathercraft-starter-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+leathercraft-starter-kit,base,product_cost,16,ASSUMED,Tools ~$9 (Ningbo Yifeng chisel/punch sets $2.30-12.40 listing price) + pre-cut veg-tan leather for 3 projects ~$5 + thread/needles/patterns ~$2; no quote,2026-11-13
+leathercraft-starter-kit,base,supplier_shipping,7,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
+leathercraft-starter-kit,base,duties_other,5,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+leathercraft-starter-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+leathercraft-starter-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+leathercraft-starter-kit,base,refund_pct,0.05,ASSUMED,ASSUMED; craft kits low defect returns,2026-11-13
+leathercraft-starter-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+leathercraft-starter-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+leathercraft-starter-kit,base,benchmark_cpa,34.85,ESTIMATED,"Toys, Art & Collectibles (closest to hobbies) Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+miniature-painting-starter-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+miniature-painting-starter-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+miniature-painting-starter-kit,base,product_cost,22.5,ASSUMED,No supplier found; assumed 24 paints at ~$0.60 + wet palette ~$4 + 6 brushes ~$3 + handle/minis ~$1,2026-11-13
+miniature-painting-starter-kit,base,supplier_shipping,8,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
+miniature-painting-starter-kit,base,duties_other,8,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+miniature-painting-starter-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+miniature-painting-starter-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+miniature-painting-starter-kit,base,refund_pct,0.07,ASSUMED,ASSUMED; paint-quality complaints,2026-11-13
+miniature-painting-starter-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+miniature-painting-starter-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+miniature-painting-starter-kit,base,benchmark_cpa,34.85,ESTIMATED,"Toys, Art & Collectibles (closest to hobbies) Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+camp-coffee-grinder-kit,base,price,119,ASSUMED,proposed kit price,2026-11-13
+camp-coffee-grinder-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+camp-coffee-grinder-kit,base,product_cost,22.5,ASSUMED,Grinder ~$14 (Zhongshan Liangyuan $12.14-13.50 / HIGHWIN $14.30-15.70 factory listing prices) + dripper $2 + steel mug $3 + filters $0.50 + case $3; no quote,2026-11-13
+camp-coffee-grinder-kit,base,supplier_shipping,8,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
+camp-coffee-grinder-kit,base,duties_other,8,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+camp-coffee-grinder-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
+camp-coffee-grinder-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
+camp-coffee-grinder-kit,base,refund_pct,0.06,ASSUMED,ASSUMED,2026-11-13
+camp-coffee-grinder-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+camp-coffee-grinder-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+camp-coffee-grinder-kit,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+pet-portrait-bundle,base,price,149,ASSUMED,"restructured offer: 50x60 sherpa + 8x10 canvas + free digital file, no sitewide discount",2026-11-13
+pet-portrait-bundle,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pet-portrait-bundle,base,product_cost,51.57,ESTIMATED,Printful catalog 2026-11-13: sherpa 50x60 $35.76 + canvas 8x10 $15.81,2026-11-13
+pet-portrait-bundle,base,supplier_shipping,20.88,ESTIMATED,printful.com/shipping 2026-11-13: sherpa $13.99 + small canvas additional $6.49 + $0.40 holiday surcharge (mixed-order rule ASSUMED),2026-11-13
+pet-portrait-bundle,base,duties_other,0,ESTIMATED,"made in US, no import duty",2026-11-13
+pet-portrait-bundle,base,packaging,0,ASSUMED,POD default packaging; branded inserts would add cost,2026-11-13
+pet-portrait-bundle,base,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee on standard orders,2026-11-13
+pet-portrait-bundle,base,refund_pct,0.05,ASSUMED,"personalized, reprint-only policy; run 5% and 10%",2026-11-13
+pet-portrait-bundle,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+pet-portrait-bundle,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pet-portrait-bundle,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+dog-walk-kit,base,price,89,ASSUMED,proposed kit price,2026-11-13
+dog-walk-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+dog-walk-kit,base,product_cost,14.3,ASSUMED,"placeholder: about $11 factory for leash ($4 ASSUMED) + carrier ($1.49 Alibaba) + treat pouch ($3.58 Alibaba 5-in-1 set) + 60 compostable bags ($2 ASSUMED), x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean fre…",2026-11-13
+dog-walk-kit,base,supplier_shipping,7,ASSUMED,US ground parcel ~1.5 lb from US warehouse,2026-11-13
+dog-walk-kit,base,duties_other,3.3,ASSUMED,"30% of factory, tariff placeholder",2026-11-13
+dog-walk-kit,base,packaging,3,ASSUMED,branded box,2026-11-13
+dog-walk-kit,base,fulfillment_fee,2,ASSUMED,US 3PL/dropship pick fee,2026-11-13
+dog-walk-kit,base,refund_pct,0.05,ASSUMED,"light, no sizing",2026-11-13
+dog-walk-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+dog-walk-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+dog-walk-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+packing-cube-system,base,price,109,ASSUMED,proposed kit price,2026-11-13
+packing-cube-system,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+packing-cube-system,base,product_cost,26,ASSUMED,placeholder: ~$20 factory (premium-material 6-cube set ~$12 = 3x Alibaba basic $3.50-4.20; toiletry bag $4 ASSUMED; tech pouch $4.62 promo distributor uchangepromo.com) x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.…,2026-11-13
+packing-cube-system,base,supplier_shipping,8,ASSUMED,US ground ~2 lb,2026-11-13
+packing-cube-system,base,duties_other,6,ASSUMED,30% of factory,2026-11-13
+packing-cube-system,base,packaging,3,ASSUMED,branded box,2026-11-13
+packing-cube-system,base,fulfillment_fee,2,ASSUMED,US 3PL pick fee,2026-11-13
+packing-cube-system,base,refund_pct,0.06,ASSUMED,house default,2026-11-13
+packing-cube-system,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+packing-cube-system,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+packing-cube-system,base,benchmark_cpa,48.37,ESTIMATED,"Travel Accessories & Luggage Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+carry-on-personal-item-kit,base,price,139,ASSUMED,proposed kit price,2026-11-13
+carry-on-personal-item-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+carry-on-personal-item-kit,base,product_cost,36.4,ASSUMED,"placeholder, no bag quote found: bag $18 + 3 cubes $3 + toiletry $3 + tech pouch $4 factory = $28 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factory x 0.30 placeho…",2026-11-13
+carry-on-personal-item-kit,base,supplier_shipping,10,ASSUMED,US ground ~3 lb,2026-11-13
+carry-on-personal-item-kit,base,duties_other,8.4,ASSUMED,30% of factory,2026-11-13
+carry-on-personal-item-kit,base,packaging,3,ASSUMED,poly mailer + insert,2026-11-13
+carry-on-personal-item-kit,base,fulfillment_fee,2,ASSUMED,US 3PL pick,2026-11-13
+carry-on-personal-item-kit,base,refund_pct,0.08,ASSUMED,bag fit returns,2026-11-13
+carry-on-personal-item-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+carry-on-personal-item-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+carry-on-personal-item-kit,base,benchmark_cpa,48.37,ESTIMATED,"Travel Accessories & Luggage Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+car-scent-diffuser-kit,base,price,89,ASSUMED,proposed kit price,2026-11-13
+car-scent-diffuser-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+car-scent-diffuser-kit,base,product_cost,24.05,ASSUMED,"factory $15.50 device (Alibaba upper tier) + 3 oils $3 ASSUMED = $18.50 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factory x 0.30 placeholder for China-origin tari…",2026-11-13
+car-scent-diffuser-kit,base,supplier_shipping,6,ASSUMED,US ground <1 lb (hazmat surcharge possible if oils are flammable),2026-11-13
+car-scent-diffuser-kit,base,duties_other,5.55,ASSUMED,30% of factory,2026-11-13
+car-scent-diffuser-kit,base,packaging,3,ASSUMED,branded box,2026-11-13
+car-scent-diffuser-kit,base,fulfillment_fee,2.5,ASSUMED,US 3PL pick,2026-11-13
+car-scent-diffuser-kit,base,refund_pct,0.06,ASSUMED,house default,2026-11-13
+car-scent-diffuser-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+car-scent-diffuser-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+car-scent-diffuser-kit,base,benchmark_cpa,34.15,ESTIMATED,"Automotive Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+dog-car-travel-kit,base,price,109,ASSUMED,proposed kit price,2026-11-13
+dog-car-travel-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+dog-car-travel-kit,base,product_cost,34,ESTIMATED,"Spocket Teal Simba dropship price $28.00 (spocket.co listing, 2026-11-13) + $6 ASSUMED for organizer, bowl, rubber brush",2026-11-13
+dog-car-travel-kit,base,supplier_shipping,12,ASSUMED,US ground ~5 lb; Spocket shipping cost not shown,2026-11-13
+dog-car-travel-kit,base,duties_other,0,ASSUMED,assumed included in dropship price,2026-11-13
+dog-car-travel-kit,base,packaging,3,ASSUMED,insert + outer,2026-11-13
+dog-car-travel-kit,base,fulfillment_fee,2,ASSUMED,kitting fee,2026-11-13
+dog-car-travel-kit,base,refund_pct,0.08,ASSUMED,vehicle-fit returns,2026-11-13
+dog-car-travel-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+dog-car-travel-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+dog-car-travel-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+pet-grooming-vacuum-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
+pet-grooming-vacuum-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pet-grooming-vacuum-kit,base,product_cost,48.1,ASSUMED,"factory $34 FOB (gdkaihao upper tier) + $3 spare blade/filter = $37 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factory x 0.30 placeholder for China-origin tariff s…",2026-11-13
+pet-grooming-vacuum-kit,base,supplier_shipping,16,ASSUMED,US ground ~9 lb box,2026-11-13
+pet-grooming-vacuum-kit,base,duties_other,11.1,ASSUMED,30% of factory,2026-11-13
+pet-grooming-vacuum-kit,base,packaging,3,ASSUMED,insert,2026-11-13
+pet-grooming-vacuum-kit,base,fulfillment_fee,3,ASSUMED,"US 3PL pick, heavy",2026-11-13
+pet-grooming-vacuum-kit,base,refund_pct,0.08,ASSUMED,noise/fear returns,2026-11-13
+pet-grooming-vacuum-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+pet-grooming-vacuum-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pet-grooming-vacuum-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+dog-grooming-essentials-kit,base,price,79,ASSUMED,proposed kit price,2026-11-13
+dog-grooming-essentials-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+dog-grooming-essentials-kit,base,product_cost,18.07,ASSUMED,"factory $5.90 grinder (mirror listing) + wheels $2 + deshedding $3 + slicker $2 + glove $1 (all ASSUMED) = $13.90 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factor…",2026-11-13
+dog-grooming-essentials-kit,base,supplier_shipping,6,ASSUMED,US ground ~1.5 lb,2026-11-13
+dog-grooming-essentials-kit,base,duties_other,4.17,ASSUMED,30% of factory,2026-11-13
+dog-grooming-essentials-kit,base,packaging,3,ASSUMED,case/box,2026-11-13
+dog-grooming-essentials-kit,base,fulfillment_fee,2,ASSUMED,US 3PL pick,2026-11-13
+dog-grooming-essentials-kit,base,refund_pct,0.07,ASSUMED,battery/defect returns,2026-11-13
+dog-grooming-essentials-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+dog-grooming-essentials-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+dog-grooming-essentials-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+car-interior-detail-kit,base,price,99,ASSUMED,proposed kit price,2026-11-13
+car-interior-detail-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+car-interior-detail-kit,base,product_cost,36.5,ASSUMED,"factory: brush kit $7 (Viros) + 6 towels $3 (Alibaba $0.32-0.50 ea) + mini vacuum $15 (ASSUMED, no source) = $25 x1.3 + US-filled cleaner $4 ASSUMED. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbo…",2026-11-13
+car-interior-detail-kit,base,supplier_shipping,10,ASSUMED,US ground ~3-4 lb,2026-11-13
+car-interior-detail-kit,base,duties_other,7.5,ASSUMED,30% of $25 factory,2026-11-13
+car-interior-detail-kit,base,packaging,3,ASSUMED,caddy box,2026-11-13
+car-interior-detail-kit,base,fulfillment_fee,3,ASSUMED,kitting two sources,2026-11-13
+car-interior-detail-kit,base,refund_pct,0.07,ASSUMED,vacuum defects,2026-11-13
+car-interior-detail-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+car-interior-detail-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+car-interior-detail-kit,base,benchmark_cpa,34.15,ESTIMATED,"Automotive Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+travel-tech-kit,base,price,89,ASSUMED,proposed kit price,2026-11-13
+travel-tech-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+travel-tech-kit,base,product_cost,21.61,ASSUMED,"organizer $4.62 (promo distributor) + GaN charger $9 ASSUMED + cable $2 ASSUMED + tag $1 = $16.62 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factory x 0.30 placeho…",2026-11-13
+travel-tech-kit,base,supplier_shipping,5,ASSUMED,US ground <1 lb,2026-11-13
+travel-tech-kit,base,duties_other,4.99,ASSUMED,30% of factory,2026-11-13
+travel-tech-kit,base,packaging,3,ASSUMED,box,2026-11-13
+travel-tech-kit,base,fulfillment_fee,2,ASSUMED,3PL pick,2026-11-13
+travel-tech-kit,base,refund_pct,0.07,ASSUMED,electronics,2026-11-13
+travel-tech-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+travel-tech-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+travel-tech-kit,base,benchmark_cpa,48.37,ESTIMATED,"Travel Accessories & Luggage Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
