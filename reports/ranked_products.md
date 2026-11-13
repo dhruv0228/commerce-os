@@ -4,12 +4,12 @@ Margin points come from `economics.py` (base scenario). Rows missing any score a
 
 | Rank | Product | Category | Margin /25 | Demand /20 | Supplier /20 | Diff /15 | Risk /10 | Ads /10 | Total | Economics | Cushion | Next |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Pet portrait sherpa blanket + 8x10 canvas (print on demand, restructured) | Pet (personalized gift) | 22 | 14 | 15 | 9 | 8 | 8 | **76** | preliminary | yes | investigate |
-| 2 | Desk Reset Kit (mat + cable system) | Desk setup / home office | 17 | 15 | 12 | 10 | 8 | 9 | **71** | preliminary | yes | reject |
-| 3 | Home Espresso Puck Prep Kit | Hobbies - coffee (non-glass espresso tools) | 20 | 13 | 12 | 9 | 9 | 8 | **71** | preliminary | yes | reject |
-| 4 | Filtered Shower Refill Kit | bathroom accessories | 13 | 18 | 14 | 7 | 6 | 8 | **66** | preliminary | yes | reject |
-| 5 | Wool Felt Desk System | Desk setup / home office | 14 | 15 | 13 | 8 | 9 | 6 | **65** | preliminary | yes | reject |
-| 6 | Work-Anywhere Tech Kit | Personal organization / everyday carry | 21 | 11 | 13 | 6 | 8 | 6 | **65** | preliminary | yes | reject |
+| 1 | Pet portrait sherpa blanket + 8x10 canvas (print on demand, restructured) | Pet (personalized gift) | 18 | 14 | 15 | 9 | 8 | 8 | **72** | preliminary | yes | reject |
+| 2 | Desk Reset Kit (mat + cable system) | Desk setup / home office | 12 | 15 | 12 | 10 | 8 | 9 | **66** | preliminary | no | reject |
+| 3 | Filtered Shower Refill Kit | bathroom accessories | 13 | 18 | 14 | 7 | 6 | 8 | **66** | preliminary | yes | reject |
+| 4 | Wool Felt Desk System | Desk setup / home office | 14 | 15 | 13 | 8 | 9 | 6 | **65** | preliminary | yes | reject |
+| 5 | Work-Anywhere Tech Kit | Personal organization / everyday carry | 21 | 11 | 13 | 6 | 8 | 6 | **65** | preliminary | yes | reject |
+| 6 | Home Espresso Puck Prep Kit | Hobbies - coffee (non-glass espresso tools) | 13 | 13 | 12 | 9 | 9 | 8 | **64** | preliminary | yes | reject |
 | 7 | Hammock Camp System | Sports and outdoor - camping | 22 | 10 | 13 | 5 | 6 | 7 | **63** | preliminary | yes | reject |
 | 8 | Carbon Pickleball Paddle Kit | Sports - racket sports | 12 | 18 | 15 | 4 | 6 | 7 | **62** | preliminary | no | reject |
 | 9 | Leathercraft Starter Kit | Hobbies - crafts | 20 | 8 | 11 | 9 | 7 | 7 | **62** | preliminary | yes | reject |

@@ -1,9 +1,9 @@
 product_id,scenario,field,value,label,source,checked
 desk-reset-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
 desk-reset-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
-desk-reset-kit,base,product_cost,23.4,ASSUMED,"factory BOM $18.00 (felt mat ~$8 ASSUMED from $2.60-9 Alibaba mat listings, steel clamp tray ~$5 from $4.50-5.50 Jia En listing, ties/clips/sleeves/magnet ~$3 ASSUMED, headphone hook ~$2 ASSUMED) x 1.3 multiplier: ASSUMED allowance for consolidated …",2026-11-13
-desk-reset-kit,base,supplier_shipping,9.0,ASSUMED,"US ground for ~2.2 kg parcel, ASSUMED",2026-11-13
-desk-reset-kit,base,duties_other,5.4,ASSUMED,"30% of factory BOM as a placeholder for tariffs on China-origin goods; actual HTS rate and current tariff stack UNKNOWN, verify before G2",2026-11-13
+desk-reset-kit,base,product_cost,26.0,ASSUMED,"Stage C correction: BOM raised from $18 to $20 because the tray at our volume prices at Futong's $6.99 tier (200-499), not $5; x 1.3 freight/agent multiplier kept",2026-11-13
+desk-reset-kit,base,supplier_shipping,10.1,ESTIMATED,"Stage C correction: if Amazon MCF ships the pre-kitted SKU: 4-5 lb 1-unit fee $12.45-13.15 + 3.5% surcharge = about $13.6 all-in incl. pick/pack, split as $10.1 shipping + $3.5 fulfillment_fee (unchanged). Source: https://amzprep.com/amazon-mcf-fees…",2026-11-13
+desk-reset-kit,base,duties_other,9.0,ESTIMATED,"Stage C correction: base $5.40 (30% of BOM) is too low: steel tray likely in Section 232 (25-50% of full value since Apr 6, 2026) plus Section 301 and the 12.5% PRC forced-labor tariff (July 2026); mat ~27-45%. Range $7-12; needs HTS classification …",2026-11-13
 desk-reset-kit,base,packaging,3.5,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
 desk-reset-kit,base,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
 desk-reset-kit,base,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
@@ -210,9 +210,9 @@ garment-care-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-1
 garment-care-kit,base,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
 espresso-puck-prep-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
 espresso-puck-prep-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
-espresso-puck-prep-kit,base,product_cost,18,ASSUMED,"No full-kit factory quote found. Alibaba UK leveler/tamper set listing GBP 3.02-4.53 at MOQ 1,000 (https://www.alibaba.co.uk/s-espresso-tamper_6.html) and $37-40 Amazon retail for 7-piece kits imply factory cost well under $15; assumed $18 for calib…",2026-11-13
-espresso-puck-prep-kit,base,supplier_shipping,8,ASSUMED,US last-mile from a US warehouse (USPS Ground Advantage class) for a ~2 lb shipped kit; no quote,2026-11-13
-espresso-puck-prep-kit,base,duties_other,7,ASSUMED,"ASSUMED: ocean freight to a US warehouse plus US import duty including Section 301/other China tariffs, modeled at ~35-40% of factory price; current tariff rate for this HTS code not verified",2026-11-13
+espresso-puck-prep-kit,base,product_cost,24,ASSUMED,"Stage C correction: Base $18 assumed volume pricing; the first buy will be 10-30 kits. Sum of component listing prices at low MOQ (tamper $7-11.50, WDT $3-8, distributor $4-7, funnel $2-4, 2 screens $2-4, mat $1-2, stand $4-8, papers <$1) points to …",2026-11-13
+espresso-puck-prep-kit,base,supplier_shipping,9.5,ESTIMATED,"Stage C correction: Base $8 is below the 1 lb mid-zone commercial rate; a ~2-2.5 lb kit lands ~$8.5-12 depending on zone. USPS Ground Advantage commercial: 1 lb $7.61-10.67 across zones, 5 lb $9.70 near zone to $19.19 coast-to-coast (Pirate Ship rat…",2026-11-13
+espresso-puck-prep-kit,base,duties_other,10,ASSUMED,Stage C correction: 3.7% MFN + Section 301 (7.5-25%) on $24 plus air freight ~$3-5/kit for a small batch. HTS 8210.00.00 base duty 3.7% (https://www.htshub.com/us-hs/detail/8210000000); third-party calculator shows 38.7% total for China origin (http…,2026-11-13
 espresso-puck-prep-kit,base,packaging,4,ASSUMED,ASSUMED: branded rigid/printed kit box + inserts at low MOQ,2026-11-13
 espresso-puck-prep-kit,base,fulfillment_fee,3.5,ASSUMED,"ASSUMED: US-warehouse pick/pack fee for a multi-SKU kit (CJ-style or 3PL), no quote",2026-11-13
 espresso-puck-prep-kit,base,refund_pct,0.06,ASSUMED,ASSUMED 5-10%; portafilter size mismatch is the main driver,2026-11-13
@@ -310,8 +310,8 @@ camp-coffee-grinder-kit,base,benchmark_cpa,44.53,ESTIMATED,"Sports & Outdoors Tr
 pet-portrait-bundle,base,price,149,ASSUMED,"restructured offer: 50x60 sherpa + 8x10 canvas + free digital file, no sitewide discount",2026-11-13
 pet-portrait-bundle,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
 pet-portrait-bundle,base,product_cost,51.57,ESTIMATED,Printful catalog 2026-11-13: sherpa 50x60 $35.76 + canvas 8x10 $15.81,2026-11-13
-pet-portrait-bundle,base,supplier_shipping,20.88,ESTIMATED,printful.com/shipping 2026-11-13: sherpa $13.99 + small canvas additional $6.49 + $0.40 holiday surcharge (mixed-order rule ASSUMED),2026-11-13
-pet-portrait-bundle,base,duties_other,0,ESTIMATED,"made in US, no import duty",2026-11-13
+pet-portrait-bundle,base,supplier_shipping,21.18,ESTIMATED,Stage C correction: printful.com/shipping 2026-11-13: blankets and canvas 'ship separately'; rule says add each item's single-product rate: sherpa $13.99 + small canvas $6.79 + $0.40 holiday surcharge (to Jan 17 2027) = $21.18 (was $20.88 using the …,2026-11-13
+pet-portrait-bundle,base,duties_other,5.0,ASSUMED,Stage C correction: Base was $0 and omitted art cost. ~$2 AI generation (≈50 preview images per purchase at ~$0.04) + ~$3 retouch/QC allowance. Founder may do QC himself for the first orders.,2026-11-13
 pet-portrait-bundle,base,packaging,0,ASSUMED,POD default packaging; branded inserts would add cost,2026-11-13
 pet-portrait-bundle,base,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee on standard orders,2026-11-13
 pet-portrait-bundle,base,refund_pct,0.05,ASSUMED,"personalized, reprint-only policy; run 5% and 10%",2026-11-13
@@ -417,3 +417,80 @@ travel-tech-kit,base,refund_pct,0.07,ASSUMED,electronics,2026-11-13
 travel-tech-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
 travel-tech-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
 travel-tech-kit,base,benchmark_cpa,48.37,ESTIMATED,"Travel Accessories & Luggage Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
+pet-portrait-bundle,low,price,149,ASSUMED,Offer price unchanged,2026-11-13
+pet-portrait-bundle,low,discount_pct,0.1,ASSUMED,"Pressure to match category promo culture: Crown & Paw EARLYBIRD 20% and 'extra 25% off' banners, West & Willow $20 off $75 (sites/Foreplay 2026-11-13)",2026-11-13
+pet-portrait-bundle,low,product_cost,61.88,ASSUMED,Printful catalog $51.57 (sherpa 50x60 $35.76 + canvas 8x10 $15.81) +20% for tariff/price increases; sherpa blank components sourced from China per Printful catalog,2026-11-13
+pet-portrait-bundle,low,supplier_shipping,24.36,ASSUMED,"Printful $21.18 (sherpa $13.99 + small canvas $6.79 single rates, ship separately, + $0.40 surcharge) +15% for rate increases / occasional express to hold 2-8 day promise",2026-11-13
+pet-portrait-bundle,low,duties_other,15.0,ASSUMED,"Art cost: paid human retouch on every order (~$12; Fiverr basic pet portraits run ~$50 for full art, so only touch-up is affordable) + ~$3 AI compute incl. heavy preview traffic",2026-11-13
+pet-portrait-bundle,low,packaging,2.0,ASSUMED,Branded gift card insert / pack-in,2026-11-13
+pet-portrait-bundle,low,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee (printful.com/shipping),2026-11-13
+pet-portrait-bundle,low,payment_pct,0.039,ESTIMATED,same as base: 2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+pet-portrait-bundle,low,payment_fixed,0.3,ESTIMATED,same as base: standard $0.30 card fee,2026-11-13
+pet-portrait-bundle,low,refund_pct,0.1,ASSUMED,House rule high case; 'doesn't look like my pet' reprints and chargebacks on personalized goods,2026-11-13
+pet-portrait-bundle,low,benchmark_cpa,38.51,ESTIMATED,"same as base: Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+pet-portrait-bundle,high,price,149,ASSUMED,Offer price,2026-11-13
+pet-portrait-bundle,high,discount_pct,0,ASSUMED,No sitewide discount holds,2026-11-13
+pet-portrait-bundle,high,product_cost,38.58,ESTIMATED,"Printify sherpa 50x60 ~$27.95 (low end, podvector.ai Aug 2026 third-party guide, Free plan) + Printify canvas 'from $10.63' (listingview.io); not quoted, needs dashboard check",2026-11-13
+pet-portrait-bundle,high,supplier_shipping,14.49,ESTIMATED,"~$8.50 blanket first-item (podvector.ai assumption, not a quote) + Gooten canvas 'shipping starts at $5.99' (gooten.com); low confidence",2026-11-13
+pet-portrait-bundle,high,duties_other,1.0,ASSUMED,"AI-only art with founder QC; ~25 generations per order at ~$0.04/image (FLUX Kontext pro on fal, third-party pricing pages Sep 2026)",2026-11-13
+pet-portrait-bundle,high,packaging,0,ASSUMED,POD default packaging + free packing-slip gift note,2026-11-13
+pet-portrait-bundle,high,fulfillment_fee,0,ESTIMATED,No separate POD fulfillment fee,2026-11-13
+pet-portrait-bundle,high,payment_pct,0.039,ESTIMATED,same as base: 2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+pet-portrait-bundle,high,payment_fixed,0.3,ESTIMATED,same as base: standard $0.30 card fee,2026-11-13
+pet-portrait-bundle,high,refund_pct,0.03,ASSUMED,Preview approval before print cuts likeness disputes,2026-11-13
+pet-portrait-bundle,high,benchmark_cpa,38.51,ESTIMATED,"same as base: Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+desk-reset-kit,low,price,129,ASSUMED,proposed kit price unchanged,2026-11-13
+desk-reset-kit,low,discount_pct,0.1,ASSUMED,pessimistic: the proposed no-discount policy fails and a 10% welcome code is needed to convert cold traffic (old house default),2026-11-13
+desk-reset-kit,low,product_cost,32.0,ASSUMED,"small first batch (25-50 kits): BOM $23.50 (tray $6.99 at Cangzhou Futong's 200-499 tier, likely higher below 200; 4-5 mm wool-blend mat $10; ties/clips/sleeves/magnet $4; hook $2.50) + sourcing agent kitting/QC $1.50 + air freight ~2.2 kg x ~$3.2/k…",2026-11-13
+desk-reset-kit,low,supplier_shipping,15.0,ASSUMED,"zone 8 ground, ~5 lb billable (2.2 kg kit, 17x6x6 in box) from a US 3PL or home; carrier quote not pulled",2026-11-13
+desk-reset-kit,low,duties_other,12.0,ESTIMATED,"steel tray under HTS 7326 may carry Section 232 at 50% (Annex I-A) or 25% (I-B) of full customs value from Apr 6, 2026 (gingercontrol briefing) + Section 301 + 12.5% July-2026 forced-labor tariff on PRC goods (CRS IF12990 via search) + MFN; mat and …",2026-11-13
+desk-reset-kit,low,packaging,5.0,ASSUMED,printed kit box + insert + guide at very low MOQ,2026-11-13
+desk-reset-kit,low,fulfillment_fee,5.0,ASSUMED,small 3PL pick/pack incl. receiving and storage amortized over few orders (Fulfyld publishes $7.98+ per order for 4-12 oz incl. postage; heavier kit pricing UNKNOWN),2026-11-13
+desk-reset-kit,low,payment_pct,0.039,ESTIMATED,same as base: 2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+desk-reset-kit,low,payment_fixed,0.3,ESTIMATED,same as base: standard $0.30 card fee,2026-11-13
+desk-reset-kit,low,refund_pct,0.1,ASSUMED,"house rule: run 10% when unknown; fit returns (desk thickness, bevel) and felt pilling are the main review complaints",2026-11-13
+desk-reset-kit,low,benchmark_cpa,47.93,ESTIMATED,"same as base: Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+desk-reset-kit,high,price,129,ASSUMED,proposed kit price (a $139 variant passes more comfortably; see base_corrections note),2026-11-13
+desk-reset-kit,high,discount_pct,0,ASSUMED,proposed no-discount policy holds,2026-11-13
+desk-reset-kit,high,product_cost,17.5,ASSUMED,BOM $15 (tray ~$5 per Jia En $4.50-5.50 listing / Futong $5.59 at 500+; mat $6; accessories $2.50; hook $1.50) + sea LCL ~$1.50 + agent $1 at 100-200 kit batches,2026-11-13
+desk-reset-kit,high,supplier_shipping,8.0,ASSUMED,"zone 4-5 commercial ground, 4 lb; or covered inside an MCF fee of ~$12.9 total (non-peak $12.45 for 4-5 lb + 3.5% surcharge, amzprep.com summary of 2026 rate card)",2026-11-13
+desk-reset-kit,high,duties_other,6.0,ASSUMED,"tray classified in the 25% Section 232 tier or switched to a felt/fabric tray (textile, outside 232), no extra surcharge beyond 301 + 12.5%; verify with a customs broker",2026-11-13
+desk-reset-kit,high,packaging,2.5,ASSUMED,kit box at 200+ MOQ,2026-11-13
+desk-reset-kit,high,fulfillment_fee,2.5,ESTIMATED,"survey-based guides put most B2C pick/pack at $2-3 per order (fulfill.com/3pl-pricing via search, 2026)",2026-11-13
+desk-reset-kit,high,payment_pct,0.039,ESTIMATED,same as base: 2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+desk-reset-kit,high,payment_fixed,0.3,ESTIMATED,same as base: standard $0.30 card fee,2026-11-13
+desk-reset-kit,high,refund_pct,0.04,ASSUMED,fit planner prevents most fit returns,2026-11-13
+desk-reset-kit,high,benchmark_cpa,47.93,ESTIMATED,"same as base: Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+desk-reset-kit,alt139,price,139,ASSUMED,Alternative offer: same kit at $139 (Orbitkey mat alone is $99.90; Oakywood parts ~$246 separately),2026-11-13
+desk-reset-kit,alt139,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+desk-reset-kit,alt139,product_cost,26.0,ASSUMED,"Stage C correction: BOM raised from $18 to $20 because the tray at our volume prices at Futong's $6.99 tier (200-499), not $5; x 1.3 freight/agent multiplier kept",2026-11-13
+desk-reset-kit,alt139,supplier_shipping,10.1,ESTIMATED,"Stage C correction: if Amazon MCF ships the pre-kitted SKU: 4-5 lb 1-unit fee $12.45-13.15 + 3.5% surcharge = about $13.6 all-in incl. pick/pack, split as $10.1 shipping + $3.5 fulfillment_fee (unchanged). Source: https://amzprep.com/amazon-mcf-fees…",2026-11-13
+desk-reset-kit,alt139,duties_other,9.0,ESTIMATED,"Stage C correction: base $5.40 (30% of BOM) is too low: steel tray likely in Section 232 (25-50% of full value since Apr 6, 2026) plus Section 301 and the 12.5% PRC forced-labor tariff (July 2026); mat ~27-45%. Range $7-12; needs HTS classification …",2026-11-13
+desk-reset-kit,alt139,packaging,3.5,ASSUMED,"branded mailer box + kit insert card, placeholder until packaging quote",2026-11-13
+desk-reset-kit,alt139,fulfillment_fee,3.5,ASSUMED,"US-warehouse pick/pack incl. kitting of multiple SKUs, placeholder (eprolo/CJ-style US warehouse fees not visible without login)",2026-11-13
+desk-reset-kit,alt139,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
+desk-reset-kit,alt139,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+desk-reset-kit,alt139,refund_pct,0.06,ASSUMED,house placeholder; run 5% and 10% scenarios,2026-11-13
+desk-reset-kit,alt139,benchmark_cpa,47.93,ESTIMATED,"Home & Garden Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
+espresso-puck-prep-kit,low,price,129,ASSUMED,Proposed kit price held; no evidence yet that $129 converts against $37-60 Amazon kits,2026-11-13
+espresso-puck-prep-kit,low,discount_pct,0.05,ASSUMED,Low case: an average 5% leaks through first-order or gift codes despite the no-sitewide-discount policy,2026-11-13
+espresso-puck-prep-kit,low,product_cost,32,ASSUMED,"Small-batch (10-30 kits) prices for 8 components without volume breaks, built from component listings (+~30% over corrected base). Component listings (Alibaba via search excerpts, 2026-11-13): Jiangmen Bangle 2-in-1 constant-pressure tamper+WDT $10.…",2026-11-13
+espresso-puck-prep-kit,low,supplier_shipping,13,ESTIMATED,"Zone 8 Ground Advantage for a 2.5-3 lb box plus peak/temporary surcharges. USPS Ground Advantage commercial: 1 lb $7.61-10.67 across zones, 5 lb $9.70 near zone to $19.19 coast-to-coast (Pirate Ship rate sheet eff. 2026-06-30, via https://www.ship.c…",2026-11-13
+espresso-puck-prep-kit,low,duties_other,18,ASSUMED,38.7% total China duty on $32 (~$12) plus small-batch express air freight ~$6/kit. HTS 8210.00.00 base duty 3.7% (https://www.htshub.com/us-hs/detail/8210000000); third-party calculator shows 38.7% total for China origin (https://www.tarifflens.ai/h…,2026-11-13
+espresso-puck-prep-kit,low,packaging,6,ASSUMED,Rigid printed kit box + foam insert at very low MOQ,2026-11-13
+espresso-puck-prep-kit,low,fulfillment_fee,5,ASSUMED,"No-minimum 3PL multi-pick/kitting rate; excludes any monthly minimum, which would add far more per order at test volume",2026-11-13
+espresso-puck-prep-kit,low,payment_pct,0.039,ESTIMATED,2.9% card + 1% Amboras fee (repo base),2026-11-13
+espresso-puck-prep-kit,low,payment_fixed,0.3,ESTIMATED,repo base,2026-11-13
+espresso-puck-prep-kit,low,refund_pct,0.1,ASSUMED,House rule high case; size-mismatch and 'not worth $129 vs Amazon' returns,2026-11-13
+espresso-puck-prep-kit,low,benchmark_cpa,47.93,ESTIMATED,Triple Whale Home & Garden median CPA Aug 2025-Jul 2026 (repo base),2026-11-13
+espresso-puck-prep-kit,high,price,129,ASSUMED,Proposed kit price,2026-11-13
+espresso-puck-prep-kit,high,discount_pct,0,ASSUMED,No-discount policy holds,2026-11-13
+espresso-puck-prep-kit,high,product_cost,16,ASSUMED,"Factory pricing at 100+ kits once one size is proven; component listings imply ~$14-18. Component listings (Alibaba via search excerpts, 2026-11-13): Jiangmen Bangle 2-in-1 constant-pressure tamper+WDT $10.00-11.50 at MOQ 2; Jiangmen Bangle stainles…",2026-11-13
+espresso-puck-prep-kit,high,supplier_shipping,8,ESTIMATED,"Near/mid-zone Ground Advantage for ~2 lb from a centrally placed 3PL. USPS Ground Advantage commercial: 1 lb $7.61-10.67 across zones, 5 lb $9.70 near zone to $19.19 coast-to-coast (Pirate Ship rate sheet eff. 2026-06-30, via https://www.ship.com/po…",2026-11-13
+espresso-puck-prep-kit,high,duties_other,6,ASSUMED,~25-29% duty stack (3.7% MFN + Section 301 tranche) on $16 plus consolidated sea/air freight ~$1.50-2/kit. HTS 8210.00.00 base duty 3.7% (https://www.htshub.com/us-hs/detail/8210000000); third-party calculator shows 38.7% total for China origin (htt…,2026-11-13
+espresso-puck-prep-kit,high,packaging,3,ASSUMED,Printed mailer-box kit packaging at 100+ MOQ,2026-11-13
+espresso-puck-prep-kit,high,fulfillment_fee,2.5,ESTIMATED,"ShipMonk-style $2.50 first item, kit pre-assembled so one pick (https://fitsmallbusiness.com/shipbob-vs-shipmonk/)",2026-11-13
+espresso-puck-prep-kit,high,payment_pct,0.039,ESTIMATED,repo base,2026-11-13
+espresso-puck-prep-kit,high,payment_fixed,0.3,ESTIMATED,repo base,2026-11-13
+espresso-puck-prep-kit,high,refund_pct,0.04,ASSUMED,Fit quiz + free size exchange cut size returns,2026-11-13
+espresso-puck-prep-kit,high,benchmark_cpa,47.93,ESTIMATED,repo base,2026-11-13
