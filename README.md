@@ -41,5 +41,5 @@ Discover (G1) → preliminary economics (G2) → market validation (G3) → supp
 ## Not built yet
 
 - Brand and store skill, and the growth analyst (daily performance pull). Built when a product reaches Gate 6.
-- `scripts/pull_daily.py` for Shopify and Meta numbers.
-- Permission rules in `.claude/settings.json` that force an approval prompt on Shopify, Meta and email write tools. Add once the exact tool names show up in `/mcp` on Dhruv's machine.
+- `scripts/pull_daily.py` for Amboras and Meta numbers.
+- Permission rules in `.claude/settings.json` that force an approval prompt on store, Meta and email write tools. Add once the exact tool names show up in `/mcp` on Dhruv's machine.

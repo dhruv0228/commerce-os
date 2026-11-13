@@ -9,10 +9,14 @@ This repository is the single source of truth. Read from it and write to it. Nev
 - Owner and approver: Dhruv Patel. Only he approves the actions in section 10.
 - Phase: research. No product is live.
 - Plan: no launches before Dec 31, 2026. Use Q4 for research, supplier vetting and samples. First paid test the week of Jan 4, 2027 (pending approval).
-- Platform: Shopify. Amboras is not used because agents can't operate it; re-check each quarter.
+- Platform: Amboras (decided Nov 13, 2026). Build and preview on the free tier; pay for Basic (about $49/month plus a 1% platform fee per sale, per a third-party review) only at Gate 6. Before paying, confirm with Amboras: (1) Meta and TikTok pixel plus server-side conversion events, (2) how orders reach the supplier (app, webhook, API or CSV), (3) customer and order export, (4) whether an API exists that agents can use. Until (4) is confirmed, Claude cannot operate the store: store work is drafted in `store/` and Dhruv applies it by hand.
 - Market: United States. Currency: USD.
+- Entity: Patel Software Enterprises LLC. The brand runs as a DBA under it with its own bank account and card. Product liability insurance before the first sale; consider a separate LLC once the brand is profitable.
+- Offer: kit first. Every product is evaluated as a kit or bundle (hero product plus accessories or add-ons), never as a lone item. Prefer products with a refill, consumable or replacement part people reorder.
+- Faces: Dhruv does not appear on camera. Ads use paid UGC creators filming the real sample, plus Dhruv's AI twin and voiceovers speaking as the founder. No AI person claims to have bought or used the product.
+- Dhruv's edge: software. Prefer solutions he can build (kit builder or quiz, order forwarding and delay notices, creative variant tooling, profit dashboard) over paid apps. Include a desk-setup and tech-worker category in product research, since he knows that customer first-hand.
 
-### Budget, tranche 1: $1,800 (confirm; an earlier figure was $5,000 to $10,000)
+### Budget: $1,800 total (confirmed Nov 13, 2026; there is no second tranche)
 
 | Use | Planned |
 |---|---|
@@ -28,8 +32,8 @@ These are planning allocations, not quotes. The contingency stays unspent unless
 
 ### Milestones
 
-1. Milestone 1 (tranche 1): one product with supplier quotes VERIFIED, a sample approved, positive pre-ad contribution on verified costs, and 10 customers who receive the product on time and don't ask for refunds.
-2. Milestone 2 (tranche 2, released only by Dhruv after milestone 1): evidence that cost per purchase can stay at or under target CAC. This needs roughly $1,500 to $2,250 of ad spend; $400 is not enough to measure it.
+1. Milestone 1 (the $1,800): one product with supplier quotes VERIFIED, a sample approved, positive pre-ad contribution on verified costs, and 10 customers who receive the product on time and don't ask for refunds.
+2. Milestone 2 (funded only by profit from milestone 1 plus any contingency Dhruv releases; there is no outside tranche 2): evidence that cost per purchase can stay at or under target CAC. This needs roughly $1,500 to $2,250 of ad spend; $400 is not enough to measure it, so the first test answers "will people buy the kit at this price and does the supplier deliver", not "is CAC sustainable".
 3. Stop rule: after two failed product tests in a row, stop and review the model before spending more.
 
 ## 1. Business model
@@ -87,6 +91,10 @@ Cushion rule: a product passes G2 and G5 only if its sourced category benchmark 
 
 If refund rates are unknown, label them ASSUMED and run low and high scenarios at 5% and 10%.
 
+Platform fee: Amboras charges about 1% of each sale on top of card processing. Until economics.py has its own field for it, include it in `payment_pct` (2.9% card + 1% platform = 0.039) and say so in the source column.
+
+New-store penalty: benchmark cost per purchase comes from established stores. A product should also stay profitable in the "tough" scenario (benchmark x 1.3); flag any that go negative there.
+
 Kill and scale rules (house rules, adjustable by Dhruv):
 - Pause any ad with zero purchases once its spend reaches break-even CAC.
 - Pause a product test if half its budget is spent and blended CAC is above break-even.
@@ -104,7 +112,7 @@ Never assume revenue, ROAS or gross margin equals profit.
   - ASSUMED: our own placeholder, to be replaced
   - UNKNOWN: not found; blocks any gate that depends on it
 - Write facts to the CSVs in `data/`, with label, source and date checked. Reports quote the CSVs; they don't hold facts of their own.
-- Performance numbers come from Shopify and Meta exports or connectors. Never type them from memory.
+- Performance numbers come from Amboras and Meta exports or connectors. Never type them from memory.
 - Never invent costs, shipping times, conversion rates, supplier capabilities, competitor revenue or evidence. If data is missing, write UNKNOWN and say so.
 - Never claim to have accessed a platform or metric you could not actually access.
 
@@ -117,7 +125,8 @@ Never assume revenue, ROAS or gross margin equals profit.
 | Competitor stores | Claude in Chrome, reading the live pages | Web fetch |
 | Supplier listings (Alibaba, Global Sources, Made-in-China, Syncee) | Claude in Chrome | Web search |
 | Ad and product images, video | Higgsfield MCP, using photos of our real sample | None |
-| Shopify | Shopify connector or Shopify AI Toolkit, read-only until G6 | Drafts in `store/` |
+| Search demand, Google Trends, Amazon and Google Shopping listings | DataForSEO (connected in cloud sessions; api.dataforseo.com) | Claude in Chrome, web search |
+| Store (Amboras) | No agent access confirmed yet | Drafts in `store/`; Dhruv applies them |
 | Meta ads | Meta Ads connector, campaigns created paused | None |
 
 If a tool isn't connected in this session, say which one and continue with the fallback.
@@ -149,7 +158,7 @@ Prefer manufacturers and authorized wholesalers with verified identity, samples,
 | Supplier validation | Supplier sites | `data/suppliers.csv`, `suppliers/` | Sending messages, ordering samples, agreeing to terms, payments |
 | Store teardown | Competitor sites | `research/teardowns/` | None |
 | Creative strategy | Foreplay, `research/`, `brand/` | `data/ads.csv`, `creative/` | Paid generation beyond the creative budget, any publishing |
-| Store (later) | Shopify | Drafts in `store/` | Every Shopify write, price change and publish |
+| Store (later) | Amboras (when access exists) | Drafts in `store/` | Every store write, price change and publish |
 | Ads (later) | Meta | Campaigns created paused | Publishing, any budget change |
 
 Always ask before contacting suppliers, purchases, samples, publishing store changes, changing prices, launching or increasing ad spend, refunds, inventory commitments and contracts.

@@ -21,7 +21,7 @@ Analyze each brand separately. Inspect the live pages in Chrome: homepage, produ
 3. Website and conversion: homepage structure, hero section, photography, video, navigation, product page layout, descriptions, reviews, trust elements, shipping and returns messaging, offers, checkout friction and the mobile experience. Say what each part is trying to accomplish.
 4. Marketing: Meta and TikTok ads (Foreplay first), influencer partnerships, customer content, search visibility, email and SMS capture, retention and seasonal campaigns. Separate what you observed from guesses about performance.
 5. Business model and economics: public prices, subscription structures, shipping thresholds. Estimate economics only when inputs exist. Never invent revenue, volume, margins, ad spend or supplier costs. Label every figure VERIFIED, ESTIMATED or UNKNOWN.
-6. What we should learn: five strategies worth adopting, three that won't work for an early-stage business with a $1,800 first tranche, a product strategy it suggests for us, a homepage structure, a product page structure, an offer and bundle strategy, an ad strategy, supplier requirements it implies, and possible unit economics with the missing inputs listed.
+6. What we should learn: five strategies worth adopting, three that won't work for an early-stage business with an $1,800 total budget, a product strategy it suggests for us, a homepage structure, a product page structure, an offer and bundle strategy, an ad strategy, supplier requirements it implies, and possible unit economics with the missing inputs listed.
 
 ## Output
 

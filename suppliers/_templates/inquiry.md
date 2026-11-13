@@ -19,7 +19,7 @@ Could you share:
 8. Custom packaging or branded inserts, with minimums and costs
 9. Return, defect and replacement policy
 10. Minimum order quantity and payment terms
-11. Order integration: Shopify app, API, CSV or email orders, and inventory updates
+11. Order integration: API, webhook, CSV or email orders (our store runs on Amboras), and inventory updates
 12. Certifications or test reports for this product, if any
 
 Thank you. We plan to order samples within the next two weeks.

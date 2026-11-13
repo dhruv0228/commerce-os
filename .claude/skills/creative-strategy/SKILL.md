@@ -37,7 +37,7 @@ The first test is $400 (CLAUDE.md section 0). That buys roughly 8 to 15 purchase
 - One campaign, one ad set, broad targeting, one offer, one landing page.
 - 3 to 5 ads that vary only the hook or the concept. Hold everything else constant.
 - Kill rules from CLAUDE.md section 4.
-- Save the larger testing matrix (format, offer, landing page) for tranche 2.
+- Save the larger testing matrix (format, offer, landing page) for later tests funded by profit.
 
 ## Report
 
