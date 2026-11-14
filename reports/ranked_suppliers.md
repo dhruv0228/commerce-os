@@ -12,14 +12,16 @@ Quality is capped at 15 until a sample is reviewed. Price points are relative to
 | desk-reset-kit | EPROLO (US-warehouse dropship listing: no-drill under-desk cord rack) | US-warehouse dropshipper |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
 | desk-reset-kit | Amazon Multi-Channel Fulfillment (MCF) as the US delivery path for a pre-kitted… | fulfillment service (3PL-like) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
 | desk-reset-kit | Fulfyld (small US 3PL with public pricing) | 3PL |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Qingdao Meilianjia International Trading Co. (qdulinkc) | Trading company with in-house moulding (claims) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Puyang Selfaiding Industrial Co. | Manufacturer/exporter (est. 2016) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Mokofuwa (Anhui) | Listed as trading company |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Shengzhou Tuoke Industry and Trade Co. (copperwu) | Factory (150 m2) with own brand |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | rongtengpet (Made-in-China) | UNKNOWN |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Nanjing favpet | Trading company (est. 2024) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | Amazon Multi-Channel Fulfillment (US delivery) | US fulfillment (3PL alternative) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
-| dog-car-travel-kit | US-warehouse resellers (Lehni / 'CYY US', SucceBuy) | Retail sellers shipping from US warehouses |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Qingdao Meilianjia International Trading Co., Ltd. (qdulinkc) | Trading company per listing; profile claims in-house mould development and injection moulding (claim) | 6 | 25 | 3 |  | 6 | 1 | **41** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Nanjing Fav Pet Sup Ltd. (favpet) | Trading company per listing (profile also says manufacturer); est. 2024-08-22 | 9 | 21.5 | 4 |  | 5 | 1 | **40.5** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Suzhou Offer Gifts Co., Ltd. | Promotional products supplier (trading company likely; type not stated); exporting since 2017 | 7 | 19.3 | 6 |  | 6 | 1 | **39.3** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Ningbo Haishu Mango Import & Export Co., Ltd. | Trading company (import and export; type not stated) | 6 | 21.1 | 5 |  | 4 | 1 | **37.1** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | WOR-BIZ Industrial Product Co., Ltd. (Anhui) (mokofuwa) | Trading company per listing | 5 | 20.5 | 3 |  | 4 | 1 | **33.5** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Puyang Selfaiding Industrial Co., Ltd. | Manufacturer/factory per listing (est. 2016, exporting since 2005, claim) | 7 | 13 | 7 |  | 5 | 1 | **33** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Shengzhou Tuoke Industry and Trade Co., Ltd. (copperwu) | Factory with own brand (claim); company type not stated on listing | 8 | 15 | 3 |  | 4 | 1 | **31** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Xiamen Furvorite Pet Supplies Co., Ltd. (rongtengpet) | Manufacturer with OEM/ODM per listing (factory est. 2018, brand 2023, claim) | 5 | 16.5 | 2 |  | 5 | 1 | **29.5** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | Amazon Multi-Channel Fulfillment (US delivery) | US fulfillment (3PL alternative); not a product supplier |  |  | 12 |  | 3 | 8 | **23** | proxy | fail: legitimacy not verified |
+| dog-car-travel-kit | US-warehouse resellers (Lehni / 'CYY US', SucceBuy) | Retail sellers shipping other brands from US warehouses (IBSPOT.COM Inc., Elkins Park PA: SucceBuy/LumaCS listing; Lehni) | 6 |  | 12 |  | 0 | 1 | **19** | proxy | fail: legitimacy not verified |
 | espresso-puck-prep-kit | Jiangmen Bangle Metal Products Co., Ltd. (Alibaba store jmbl01) | manufacturer (claimed: custom manufacturer) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
 | espresso-puck-prep-kit | Zhongshan Liangyuan Metal Products Co., Ltd. | manufacturer (claimed: custom OEM factory) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
 | espresso-puck-prep-kit | Bokarstar (Alibaba) | manufacturer (claimed) |  |  |  |  |  |  | **0** | proxy | fail: legitimacy not verified |
