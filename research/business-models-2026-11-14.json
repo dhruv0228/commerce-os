@@ -1,0 +1,216 @@
+{
+ "checked": "2026-11-14",
+ "comparison": [
+  {
+   "model": "1. DTC store (Amboras) + US-warehouse dropship",
+   "startup_cash": "$600-$1,000: Amboras Basic $49/mo, samples/test orders $100-$250, UGC $200-$600, first Meta test $400 (CLAUDE.md budget). No inventory.",
+   "time_to_first_sale": "3-6 weeks (supplier vetting + sample + store + ads).",
+   "typical_margin": "Thin. US-warehouse dropship landed cost is typically 1.5-2.5x factory price (ASSUMED, not sourced); after Meta CPA ($38.51 pets to $51.86 electronics, Triple Whale) most sub-$80 AOV kits are at or below break-even on first order; profit comes from repeat/upsell.",
+   "cash_flow": "Good: customer pays first (Stripe payout ~2 business days, new accounts may be held), supplier paid per order; ads are prepaid daily.",
+   "risk": "High CAC risk on $400 test (8-10 purchases at median CPA, not enough to judge); US dropship suppliers' stock/quality/blind-shipping unreliable; FTC shipping-time liability; low barrier, easy to copy.",
+   "virality_fit": "Medium: viral video drives traffic to own site, but off-platform click-out loses many impulse buyers vs in-app checkout.",
+   "scale_path": "Meta/TikTok ads scale linearly with budget; at $10k/month profit you need high contribution per order (>$15 after ads) and ~700+ orders/month; needs capital beyond $1,800 (milestone 2 needs $1.5k-$2.25k ad spend per CLAUDE.md).",
+   "evidence": "Meta CPA medians Aug 2025-Jul 2026 (Triple Whale); CLAUDE.md sales check showed cheap bundles don't earn premium price.",
+   "fit_score_0_10": 5.5
+  },
+  {
+   "model": "2. DTC store + small batch self-shipped",
+   "startup_cash": "$900-$1,400: 10-50 units air express ($10-16/kg) + duties ~23-41% for China goods + samples + packaging + store + $400 ads.",
+   "time_to_first_sale": "4-7 weeks (factory sample, production, 3-7 day air express, store).",
+   "typical_margin": "Best unit margin of any DTC path (factory COGS + air + duty, USPS GA $8-$12 for 1-2 lb zones 4-6), but same Meta CAC wall.",
+   "cash_flow": "Pay for inventory upfront (cash tied 4-8 weeks); 10-50 unit cap limits loss.",
+   "risk": "Inventory risk small (capped batch); tariff volatility (12.5% forced-labor 301 added Jul 24 2026); owner ships every order (time); quality control is in his hands (an advantage).",
+   "virality_fit": "Medium: same click-out problem as model 1, but real product in hand for genuine demo videos (required by CLAUDE.md).",
+   "scale_path": "Self-ship works to ~100 orders; then 3PL ($4.50-$7.40/order excl. shipping) or FBT/FBA; reorder by sea.",
+   "evidence": "USPS Notice 123 (Oct 4 2026); forwarder air rates 2026; China Briefing tariff stack (Jul 24 2026).",
+   "fit_score_0_10": 6.5
+  },
+  {
+   "model": "3. Amazon FBA private label",
+   "startup_cash": "$3,000-$10,000 realistic (inventory 200-500 units to rank and avoid stock-outs, inbound freight, Vine $200 + 30 free units, launch PPC, trademark, photos). $1,800 covers a micro-launch at best.",
+   "time_to_first_sale": "8-14 weeks (production, freight to FBA, check-in, listing).",
+   "typical_margin": "15% referral + FBA $5.57-$6.67 (1.5-3 lb, +3.5% surcharge, rising Jan 15 2027) + storage + PPC CPA ($13.10 pets, $17.76 home & garden, $25.02 electronics for established brands). Healthy only at $40+ price with low COGS.",
+   "cash_flow": "Worst: inventory + freight paid 2-3 months before sales; Amazon pays every ~14 days with DD+7 reserve.",
+   "risk": "Copycats and price wars, review cold start, account suspensions, 2027 fee increases (+$0.19 avg, low-inventory fee, aged storage), stock-outs kill rank.",
+   "virality_fit": "Low-medium: Amazon search intent rewards rank and reviews, not 3-second wow; external TikTok traffic to Amazon helps but is not tracked well.",
+   "scale_path": "Proven path to $10k+/month once a SKU ranks; best as phase 2 for a product already proven on TikTok/DTC (Amazon demand search is the long tail of virality).",
+   "evidence": "Amazon fee pages and Goat Consulting 2026/2027 tables; Triple Whale Amazon CPA medians; Vine fee tiers.",
+   "fit_score_0_10": 4.5
+  },
+  {
+   "model": "4. Amazon FBM (self-ship)",
+   "startup_cash": "$700-$1,200 (small batch + $39.99/mo + PPC).",
+   "time_to_first_sale": "5-8 weeks.",
+   "typical_margin": "Saves FBA fee but pays own USPS ($8-$12 for 1-2 lb) + 15% referral; similar or worse per-order than FBA for light items.",
+   "cash_flow": "Better than FBA (small batch), same Amazon payout cadence.",
+   "risk": "No Prime badge: agencies report 20-40% lower conversion; new listing with no reviews + no Prime rarely ranks; strict late-shipment/cancel metrics; Amazon prepaid return labels mandatory.",
+   "virality_fit": "Low.",
+   "scale_path": "Only as a test of Amazon demand or for heavy/oversize items; move to FBA once proven.",
+   "evidence": "FBA vs FBM conversion estimates (vendor-sourced); SFP 2026 speed rules.",
+   "fit_score_0_10": 3.5
+  },
+  {
+   "model": "5. TikTok Shop seller (self-ship small batch, later FBT/3PL) + creator affiliates",
+   "startup_cash": "$700-$1,300: small batch 30-50 units, 20-30 creator samples ($15-$75 each incl. shipping), own AI-twin/UGC videos; no monthly fee.",
+   "time_to_first_sale": "3-6 weeks (shop approval, product listing approval, samples, first creator videos).",
+   "typical_margin": "Referral 6% published / 8% reported since Aug 4 2026 (incl. payment) + affiliate 10-18% only on sales + shipping + returns (10-18% in home/electronics). Combined take ~25-30% of price (FastMoss), but acquisition is variable, not prepaid.",
+   "cash_flow": "Slow for new sellers: 31-day settlement after delivery plus possible 30-day reserve; inventory and samples are paid upfront. Plan for ~5-7 weeks of float.",
+   "risk": "Policy churn (shipping mandate on/off, fee rise to 8%), US regulatory risk to TikTok, platform dependency, returns, account-health score; creator content is uneven (60-80% of samples may yield no video per GRIN).",
+   "virality_fit": "Highest: in-feed checkout turns a 3-second wow into a purchase without click-out; US TikTok Shop GMV $15.8B 2025 -> ~$23.4B 2026 forecast.",
+   "scale_path": "Affiliates + GMV Max ($50-$200/day) scale on proof; move to FBT ($2.86-$4.28/unit) or 3PL after ~100 orders; reach $10k/month profit at roughly 1,000-1,500 orders/month at $8-$10 contribution after commissions (illustrative).",
+   "evidence": "FastMoss (Jun 2026) fee/commission data; Delzonic 8% report; SFN commission ranges; eMarketer GMV forecast.",
+   "fit_score_0_10": 8.5
+  },
+  {
+   "model": "6. TikTok Shop affiliate creator only (AI twin/UGC, no inventory)",
+   "startup_cash": "$0-$200 (AI twin/voice tooling; free samples from sellers).",
+   "time_to_first_sale": "2-8 weeks: need 1,000 followers to self-apply (30-day pilot under 5,000).",
+   "typical_margin": "Commission 5-20% of others' GMV (US avg ~13%); no COGS, no fees. Earnings are highly skewed; no reliable median found.",
+   "cash_flow": "Commissions paid after order completion/return window; no outlay.",
+   "risk": "No asset/brand built; AI content must carry disclosure; some brands ban AI content; CLAUDE.md forbids an AI person claiming to have used the product, which removes the dominant 'I tried it' format; GMV Max AI videos are eroding affiliate income (Shopifreaks).",
+   "virality_fit": "High, and it is a zero-cost way to learn which hooks and products convert in the target niches.",
+   "scale_path": "$10k/month needs ~$75k+/month of attributed GMV at 13%; possible for top accounts, not a plan. Best used as a research and audience-building lane that later sells the own product.",
+   "evidence": "Affiliate eligibility policy reviewed Aug 2026; commission averages; AI-avatar reporting 2026.",
+   "fit_score_0_10": 6.0
+  },
+  {
+   "model": "7. Print-on-demand (Etsy/Shopify/TikTok)",
+   "startup_cash": "$100-$400.",
+   "time_to_first_sale": "1-4 weeks.",
+   "typical_margin": "17-29% after ads on Printify's own examples; Etsy fees ~9.5-10% + 15% offsite ads on attributed sales.",
+   "cash_flow": "Good (made to order).",
+   "risk": "Commoditised, IP/trademark complaints, low AOV, quality control remote.",
+   "virality_fit": "Low for the brief's niches: POD products (shirts, mugs, posters) rarely have a 3-second physical wow; ceramic mugs are excluded as fragile.",
+   "scale_path": "Many designs x low margin; $10k/month profit is rare and design-volume heavy.",
+   "evidence": "Printify and calculator examples 2026; Etsy fee schedule.",
+   "fit_score_0_10": 2.5
+  },
+  {
+   "model": "8. Amazon wholesale / online arbitrage",
+   "startup_cash": "$1,000-$5,000 (wholesale typical $3k-$5k).",
+   "time_to_first_sale": "2-6 weeks.",
+   "typical_margin": "OA 10-20% net; wholesale 15-25% (vendor blogs).",
+   "cash_flow": "Inventory upfront; turns every 1-3 months.",
+   "risk": "Brand gating, IP complaints (retail receipts no longer accepted for ungating per 2026 reports), Buy Box competition; builds no brand.",
+   "virality_fit": "None.",
+   "scale_path": "Linear with capital; $10k/month profit needs ~$50k-$70k/month of revenue and matching working capital.",
+   "evidence": "beBOLD, ainfluencer 2026 guides.",
+   "fit_score_0_10": 2.0
+  },
+  {
+   "model": "9. Multi-channel hybrid: TikTok Shop for discovery + Amboras DTC for bundles/repeat + Amazon FBA later",
+   "startup_cash": "$1,000-$1,600 within the $1,800 (small batch + samples + Amboras + small retargeting budget).",
+   "time_to_first_sale": "3-6 weeks (TikTok Shop first).",
+   "typical_margin": "TikTok Shop orders: commission-based acquisition; DTC orders: no marketplace fee (3.9% payment+platform) for repeat/refill/email buyers and searchers created by viral videos; Amazon later captures search demand.",
+   "cash_flow": "Mixed: DTC pays fast, TikTok slow (31 days new seller); keep 3 weeks of reserve per CLAUDE.md.",
+   "risk": "Spread too thin if launched all at once; inventory split across channels; mitigated by sequencing (one channel at a time).",
+   "virality_fit": "Highest overall: virality monetised in-app, then captured off-platform.",
+   "scale_path": "TikTok Shop proves demand -> FBT/3PL -> DTC kit builder + refills (Dhruv's software edge) -> Amazon FBA for search demand -> Walmart (approval easier with sales history).",
+   "evidence": "Combination of above; mirrors the Quad Lock/Blueland accessory-refill lesson in CLAUDE.md.",
+   "fit_score_0_10": 9.0
+  }
+ ],
+ "ranking": [
+  {
+   "rank": 1,
+   "model": "9. Multi-channel hybrid (TikTok Shop first, DTC second, Amazon later)",
+   "fit_score_0_10": 9.0
+  },
+  {
+   "rank": 2,
+   "model": "5. TikTok Shop seller with creator affiliates",
+   "fit_score_0_10": 8.5
+  },
+  {
+   "rank": 3,
+   "model": "2. DTC store + small batch self-shipped",
+   "fit_score_0_10": 6.5
+  },
+  {
+   "rank": 4,
+   "model": "6. TikTok Shop affiliate creator only (AI twin/UGC)",
+   "fit_score_0_10": 6.0
+  },
+  {
+   "rank": 5,
+   "model": "1. DTC store + US-warehouse dropship",
+   "fit_score_0_10": 5.5
+  },
+  {
+   "rank": 6,
+   "model": "3. Amazon FBA private label (phase 2, not start)",
+   "fit_score_0_10": 4.5
+  },
+  {
+   "rank": 7,
+   "model": "4. Amazon FBM",
+   "fit_score_0_10": 3.5
+  },
+  {
+   "rank": 8,
+   "model": "7. Print-on-demand",
+   "fit_score_0_10": 2.5
+  },
+  {
+   "rank": 9,
+   "model": "8. Amazon wholesale / online arbitrage",
+   "fit_score_0_10": 2.0
+  }
+ ],
+ "best_combinations": [
+  {
+   "name": "A (recommended): TikTok Shop seller + Amboras DTC, small batch self-shipped",
+   "how": "Air-express 30-50 units of a hero kit to home; list on TikTok Shop (3% new-seller rate for 30 days); seed 20-30 creators at 12-18% open/targeted commission; post Dhruv's AI-twin/voiceover demo videos (disclosed, no 'I used it' claims) from the shop account; Amboras store carries the full kit/bundle builder, refills and email capture; Meta only for retargeting. After ~100 orders move to FBT or a 3PL, reorder by sea; add Amazon FBA once reviews/sales prove demand.",
+   "why": "Acquisition cost is a % of each sale instead of a prepaid Meta CPA of ~$39-$52, so the $1,800 buys inventory and creator reach rather than 8-10 ad-bought customers.",
+   "watch": "31-day new-seller settlement; 8% referral reported; shipping-policy churn; refund rate 10-18% in home/electronics."
+  },
+  {
+   "name": "B (zero-inventory warm-up, run in parallel): TikTok Shop affiliate account -> own product",
+   "how": "For 4-8 weeks, run an AI-twin/voiceover affiliate account in the chosen niche promoting other sellers' products that ship from US warehouses; use real commission data to see which hooks and price points convert; carry the followers and the winning formats into the own shop launch.",
+   "why": "Costs ~$0, gives real sales evidence for the 'hero first' rule and builds the audience the own product launches into.",
+   "watch": "1,000-follower gate; AI disclosure; must not claim personal use."
+  },
+  {
+   "name": "C (later scale stack): TikTok Shop + Amazon FBA + DTC refills",
+   "how": "Once a product sells 300+/month on TikTok Shop, open Amazon FBA with Brand Registry (10% back on first $50k, $200 Vine credit, $400 inbound credit) to capture search demand that the videos create; DTC holds subscriptions/refills.",
+   "why": "Viral products generate Amazon search spillover; Amazon PPC CPA medians ($13.10 pets, $17.76 home & garden) are far below Meta's.",
+   "watch": "2027 FBA increases (+$0.19 avg Jan 15 2027; low-inventory fee and aged storage from Feb 1 2027)."
+  }
+ ],
+ "sources": [
+  "/home/user/commerce-os/CLAUDE.md section 0 (Amboras ~1% platform fee per a third-party review, Nov 13 2026)",
+  "eMarketer via https://www.metaintro.com/blog/ai-avatars-tiktok-shop-23-billion-creator-jobs-2026 ; Syncly https://syncly.app/blog/tiktok-shop-affiliate-roi-in-what-the-data-actually-shows (search 2026-11-14)",
+  "https://delzonic.com/blogs/tiktok-shop-fee-increase-2026/ (Aug 28 2026; no primary TikTok source cited; fetched 2026-11-14)",
+  "https://fulfill.com/3pl-pricing ; https://eightx.co/blog/3pl-all-in-cost-per-order (search 2026-11-14)",
+  "https://marketplace.walmart.com/referral-fees/ (no date on page; fetched 2026-11-14)",
+  "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20(WFS)/WFS%20basics/WFS-fees (last updated May 27 2026; fetched 2026-11-14)",
+  "https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)",
+  "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14)",
+  "https://pe.usps.com/text/dmm300/Notice123.htm (USPS Notice 123, prices effective Oct 4 2026; fetched 2026-11-14)",
+  "https://printify.com/blog/print-on-demand-basics-to-get-started/ ; https://www.insightagent.app/tools/etsy-printify-profit-calculator (search 2026-11-14)",
+  "https://sell.amazon.com/pricing (fetched 2026-11-14)",
+  "https://sellercentral.amazon.com/gp/help/external/201119120 and https://sell.amazon.com/grow (via search 2026-11-14)",
+  "https://shortformnation.com/blog/product-seeding-for-tiktok-shop-the-roi-of-free-samples-in-2026 ; https://amplisell.com/blog-posts/30-samples-won-t-build-a-tiktok-shop-channel (search 2026-11-14)",
+  "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes (fetched 2026-11-14)",
+  "https://topgrowthmarketing.com/cost-of-creator-partnerships/ ; https://www.launchpointhq.com/guides/rates/how-much-do-ecommerce-tiktok-creators-charge (search 2026-11-14)",
+  "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14)",
+  "https://www.adbadger.com/amazon-ppc-cost/ ; https://sellermetrics.app/acos-amazon/ (search 2026-11-14)",
+  "https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)",
+  "https://www.bebolddigital.com/blog/online-arbitrage-vs-wholesale ; https://ainfluencer.com/amazon-wholesale-guide/ (search 2026-11-14)",
+  "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)",
+  "https://www.clickanalytic.com/tiktok-shop-affiliate-program/ ; https://creatorsagency.co/blog/tiktok-shop-affiliate-requirements-2026 (search 2026-11-14)",
+  "https://www.dashboardly.io/post/tiktok-shop-payout-explained-when-how-tiktok-pays-sellers and fastmoss (search 2026-11-14)",
+  "https://www.easyship.com/blog/tiktok-shop-reverses-us-shipping-mandate and https://blog.ordoro.com/2026/01/28/tiktok-shipping-2026/ (Feb 2026; search 2026-11-14)",
+  "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14)",
+  "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)",
+  "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)",
+  "https://www.junglescout.com/resources/articles/amazon-fba-vs-fbm/ ; https://www.cahoot.ai/amazon-sfp-july-2026-speed-changes/ (search 2026-11-14)",
+  "https://www.sellersprite.com/en/blog/amazon-vine-program-sellers ; https://novadata.io/resources/blog/amazon-vine-program-true-cost (search 2026-11-14)",
+  "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14)",
+  "https://www.shopifreaks.com/tiktok-shop-side-hustlers-are-losing-affiliate-income-to-ai-generated-influencer-videos-that-gmv-max-surfaces-in-the-feed/ ; https://aiweekly.co/alerts/tiktok-shop-sellers-turn-to-ai-avatars-sidelining-creators (search 2026-11-14)",
+  "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)",
+  "https://www.triplewhale.com/blog/amazon-benchmarks (Aug 2025-Jul 2026, 2,800+ brands; values from search snippets 2026-11-14)",
+  "https://www.triplewhale.com/blog/tiktok-benchmarks and https://sovran.ai/benchmarks/tiktok-ads-benchmarks (Aug 2025-Jul 2026, 5,900+ brands; snippets 2026-11-14)",
+  "https://www.troutman.com/insights/the-800-free-pass-is-gone-cit-confirms-president-can-eliminate-de-minimis-tariff-exemption/ (Aug 18 2026) ; https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/august/court-upholds-president-s-elimination-of-de-minimis-exemption-for-imports (search 2026-11-14)"
+ ]
+}

@@ -1,0 +1,1162 @@
+{
+ "checked": "2026-11-14",
+ "note": "Channel fee and cost parameters. Each value carries a label and source. Used by scripts/channels.py and scripts/opportunity.py.",
+ "params": {
+  "dtc_meta": {
+   "payment_pct": {
+    "value": 0.029,
+    "label": "ESTIMATED",
+    "source": "Stripe standard US card rate 2.9% + $0.30; Amboras checkout runs through Stripe per https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+   },
+   "payment_fixed_usd": {
+    "value": 0.3,
+    "label": "ESTIMATED",
+    "source": "Stripe standard US card rate; https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+   },
+   "platform_fee_pct": {
+    "value": 0.01,
+    "label": "ESTIMATED",
+    "source": "third-party review cited in /home/user/commerce-os/CLAUDE.md section 0 (Amboras ~1% platform fee per a third-party review, Nov 13 2026); NOT shown on amboras.com/pricing, confirm with Amboras"
+   },
+   "payment_pct_combined_for_economics_py": {
+    "value": 0.039,
+    "label": "ESTIMATED",
+    "source": "2.9% card + 1% Amboras, house rule in CLAUDE.md section 4"
+   },
+   "platform_monthly_usd": {
+    "value": 49,
+    "label": "ESTIMATED",
+    "source": "Amboras Basic $49/mo ($39/mo billed yearly); https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+   },
+   "meta_cpa_all_industry_median_usd": {
+    "value": 38.99,
+    "label": "ESTIMATED",
+    "source": "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14)"
+   },
+   "meta_cpa_pets_usd": {
+    "value": 38.51,
+    "label": "ESTIMATED",
+    "source": "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14) (+0.96% YoY)"
+   },
+   "meta_cpa_home_garden_usd": {
+    "value": 47.93,
+    "label": "ESTIMATED",
+    "source": "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14) (+6.71% YoY)"
+   },
+   "meta_cpa_electronics_usd": {
+    "value": 51.86,
+    "label": "ESTIMATED",
+    "source": "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14) (+11.74% YoY, highest)"
+   },
+   "meta_cpa_sports_outdoors_usd": {
+    "value": 44.53,
+    "label": "ESTIMATED",
+    "source": "https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14) (+1.35% YoY)"
+   },
+   "meta_cpa_toys_art_usd": {
+    "value": 34.85,
+    "label": "ESTIMATED",
+    "source": "value from brief, attributed to https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14); not re-verified (page blocked)"
+   },
+   "meta_cpa_beauty_usd": {
+    "value": 39.31,
+    "label": "ESTIMATED",
+    "source": "value from brief, attributed to https://triplewhale.com/blog/facebook-ads-benchmarks (Aug 2025-Jul 2026, 40k+ brands; page blocked by Cloudflare, values from search snippets 2026-11-14); not re-verified (page blocked)"
+   },
+   "meta_cpa_new_store_multiplier": {
+    "value": 1.3,
+    "label": "ASSUMED",
+    "source": "CLAUDE.md section 4 'tough' scenario (benchmarks come from established stores)"
+   },
+   "tiktok_ads_cpa_all_median_usd": {
+    "value": 17.07,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/tiktok-benchmarks and https://sovran.ai/benchmarks/tiktok-ads-benchmarks (Aug 2025-Jul 2026, 5,900+ brands; snippets 2026-11-14) (blended median, secondary write-up)"
+   },
+   "tiktok_ads_cpa_home_garden_usd": {
+    "value": 19.33,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/tiktok-benchmarks and https://sovran.ai/benchmarks/tiktok-ads-benchmarks (Aug 2025-Jul 2026, 5,900+ brands; snippets 2026-11-14)"
+   },
+   "tiktok_ads_cpa_electronics_usd": {
+    "value": 28.9,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/tiktok-benchmarks and https://sovran.ai/benchmarks/tiktok-ads-benchmarks (Aug 2025-Jul 2026, 5,900+ brands; snippets 2026-11-14)"
+   },
+   "tiktok_ads_cpa_pets_usd": {
+    "value": 5.46,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/tiktok-benchmarks and https://sovran.ai/benchmarks/tiktok-ads-benchmarks (Aug 2025-Jul 2026, 5,900+ brands; snippets 2026-11-14) (-75.65% YoY; looks like a small-sample anomaly, do not plan on it)"
+   },
+   "note": "Meta/TikTok-ads CPA = platform-attributed cost per purchase for established stores. Divide nothing in prose; feed into economics.py."
+  },
+  "dtc_organic": {
+   "organic_cac_usd": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "No credible, methodology-disclosed benchmark found for cost per customer from organic TikTok/UGC (searched 2026-11-14). Vendor claims (e.g. '$6 per customer' nano-creator example, 'UGC 45% lower CPA') are hypotheticals."
+   },
+   "ugc_video_cost_usd_low": {
+    "value": 200,
+    "label": "ESTIMATED",
+    "source": "https://topgrowthmarketing.com/cost-of-creator-partnerships/ ; https://www.launchpointhq.com/guides/rates/how-much-do-ecommerce-tiktok-creators-charge (search 2026-11-14) (UGC $200-$2,000 per piece; nano creators $0-$150/post or product-only)"
+   },
+   "ugc_video_cost_usd_high": {
+    "value": 2000,
+    "label": "ESTIMATED",
+    "source": "https://topgrowthmarketing.com/cost-of-creator-partnerships/ ; https://www.launchpointhq.com/guides/rates/how-much-do-ecommerce-tiktok-creators-charge (search 2026-11-14)"
+   },
+   "nano_creator_post_usd_range": {
+    "value": [
+     0,
+     150
+    ],
+    "label": "ESTIMATED",
+    "source": "https://topgrowthmarketing.com/cost-of-creator-partnerships/ ; https://www.launchpointhq.com/guides/rates/how-much-do-ecommerce-tiktok-creators-charge (search 2026-11-14)"
+   },
+   "seeding_sample_cost_usd_range": {
+    "value": [
+     15,
+     75
+    ],
+    "label": "ESTIMATED",
+    "source": "https://shortformnation.com/blog/product-seeding-for-tiktok-shop-the-roi-of-free-samples-in-2026 ; https://amplisell.com/blog-posts/30-samples-won-t-build-a-tiktok-shop-channel (search 2026-11-14) (per sample incl. product; shipping not broken out)"
+   },
+   "samples_with_zero_content_share": {
+    "value": [
+     0.6,
+     0.8
+    ],
+    "label": "ESTIMATED",
+    "source": "GRIN 2026 cited in https://shortformnation.com/blog/product-seeding-for-tiktok-shop-the-roi-of-free-samples-in-2026 ; https://amplisell.com/blog-posts/30-samples-won-t-build-a-tiktok-shop-channel (search 2026-11-14); conflicting single-brand anecdote of 90% posting"
+   },
+   "modelling_rule": {
+    "value": "Treat organic as upside, not as CAC. For planning use paid CAC (Meta or TikTok ads) or TikTok Shop affiliate commission % as the acquisition cost.",
+    "label": "ASSUMED",
+    "source": "analyst judgement 2026-11-14"
+   }
+  },
+  "amazon_fba": {
+   "professional_plan_monthly_usd": {
+    "value": 39.99,
+    "label": "ESTIMATED",
+    "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+   },
+   "individual_per_item_usd": {
+    "value": 0.99,
+    "label": "ESTIMATED",
+    "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+   },
+   "referral_fee_pct": {
+    "pet_supplies": {
+     "value": 0.15,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14) (22% veterinary diets; min $0.30)"
+    },
+    "home_and_kitchen": {
+     "value": 0.15,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "electronics_accessories": {
+     "value": {
+      "first_100_usd": 0.15,
+      "above_100_usd": 0.08
+     },
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "consumer_electronics": {
+     "value": 0.08,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "amazon_device_accessories": {
+     "value": 0.45,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "sports_and_outdoors": {
+     "value": 0.15,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "automotive_and_powersports": {
+     "value": 0.12,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "tools_and_home_improvement": {
+     "value": 0.15,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "toys_and_games": {
+     "value": 0.15,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    },
+    "minimum_per_item_usd": {
+     "value": 0.3,
+     "label": "ESTIMATED",
+     "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+    }
+   },
+   "fulfillment_fee_table_note": "Rows are [max_shipping_weight_oz, fee_usd], non-apparel, price band $10-$50, NON-PEAK, BEFORE 3.5% surcharge. Size tiers: small standard <=15x12x0.75 in and <=16 oz; large standard <=18x14x8 in and <=20 lb.",
+   "fba_fee_small_standard_2026": {
+    "value": [
+     [
+      2,
+      3.32
+     ],
+     [
+      4,
+      3.42
+     ],
+     [
+      6,
+      3.45
+     ],
+     [
+      8,
+      3.54
+     ],
+     [
+      10,
+      3.68
+     ],
+     [
+      12,
+      3.78
+     ],
+     [
+      14,
+      3.91
+     ],
+     [
+      16,
+      3.96
+     ]
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14); endpoints match https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "fba_fee_large_standard_2026": {
+    "value": [
+     [
+      4,
+      3.73
+     ],
+     [
+      8,
+      3.95
+     ],
+     [
+      12,
+      4.2
+     ],
+     [
+      16,
+      4.6
+     ],
+     [
+      20,
+      5.04
+     ],
+     [
+      24,
+      5.42
+     ],
+     [
+      28,
+      5.57
+     ],
+     [
+      32,
+      5.82
+     ],
+     [
+      36,
+      5.92
+     ],
+     [
+      40,
+      6.1
+     ],
+     [
+      44,
+      6.26
+     ],
+     [
+      48,
+      6.67
+     ]
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14); endpoints match https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "fba_fee_large_standard_3_to_20lb_2026": {
+    "value": {
+     "base_usd": 6.97,
+     "per_4oz_above_3lb_usd": 0.08
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "fba_fee_large_bulky_2026": {
+    "value": {
+     "base_usd": 9.35,
+     "per_lb_above_first_lb_usd": 0.38
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14); https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "fba_fee_small_standard_2027": {
+    "value": [
+     [
+      2,
+      3.75
+     ],
+     [
+      4,
+      3.78
+     ],
+     [
+      6,
+      3.92
+     ],
+     [
+      8,
+      3.97
+     ],
+     [
+      10,
+      4.06
+     ],
+     [
+      12,
+      4.16
+     ],
+     [
+      14,
+      4.3
+     ],
+     [
+      16,
+      4.32
+     ]
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14) (effective Jan 15 2027, announced Nov 5 2026). Use 2027 tables for any launch in 2027."
+   },
+   "fba_fee_large_standard_2027": {
+    "value": [
+     [
+      4,
+      3.79
+     ],
+     [
+      8,
+      4.01
+     ],
+     [
+      12,
+      4.26
+     ],
+     [
+      16,
+      4.67
+     ],
+     [
+      20,
+      5.19
+     ],
+     [
+      24,
+      5.57
+     ],
+     [
+      28,
+      5.72
+     ],
+     [
+      32,
+      5.98
+     ],
+     [
+      36,
+      6.08
+     ],
+     [
+      40,
+      6.26
+     ],
+     [
+      44,
+      6.42
+     ],
+     [
+      48,
+      6.85
+     ]
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14) (effective Jan 15 2027)"
+   },
+   "fba_fee_large_standard_3_to_20lb_2027": {
+    "value": {
+     "base_usd": 7.16,
+     "per_4oz_above_3lb_usd": 0.08
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "fba_fee_large_bulky_2027": {
+    "value": {
+     "base_usd": 9.88,
+     "per_lb_above_first_lb_usd": 0.39
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14) (2027 splits large bulky / extra-large bulky $10.09 + $0.39/lb)"
+   },
+   "price_band_over_50_adjustment_usd": {
+    "value": {
+     "small_standard_avg": 0.26,
+     "large_standard_avg": 0.26,
+     "example_2oz_small_std_2026": 3.58,
+     "large_std_2.75_3lb_2026": 6.93
+    },
+    "label": "ESTIMATED",
+    "source": "https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14) (over-$50 band rows: small std 2 oz $3.58, 14-16 oz $4.22; large std 1.5-1.75 lb $5.83, 2.75-3 lb $6.93, i.e. +$0.26 vs $10-50 band). 2027 adds ~+$0.70 small / +$0.47 large per https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "fuel_logistics_surcharge_pct": {
+    "value": 0.035,
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14) (on FBA fulfillment fees from Apr 17 2026; continues in 2027 per https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14))"
+   },
+   "peak_period": {
+    "value": "Oct 15 2026 - Jan 14 2027 (holiday peak fulfillment fees; amounts not published in sources)",
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "storage_per_cuft_month_standard_jan_sep": {
+    "value": 0.78,
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14); https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "storage_per_cuft_month_standard_oct_dec": {
+    "value": 2.4,
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14); https://myamazonguy.com/fba/amazon-fba-fees-and-challenges-2024/ (updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "storage_per_cuft_month_oversize_jan_sep": {
+    "value": 0.56,
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14)"
+   },
+   "storage_per_cuft_month_oversize_oct_dec": {
+    "value": 1.4,
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14)"
+   },
+   "aged_storage_2026_per_cuft": {
+    "value": {
+     "181_210d": 1.28,
+     "211_240d": 1.78,
+     "241_270d": 2.28,
+     "271_300d": 6.23,
+     "301_330d": 6.48,
+     "331_365d": 6.68
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14) (2027: 181-270d $2.78, 271d+ $6.68 from Feb 1 2027)"
+   },
+   "inbound_placement_minimal_split_per_unit_usd": {
+    "value": {
+     "small_standard_up_to_12oz": 0.27,
+     "large_standard_up_to_20lb": 0.4,
+     "large_bulky_21_50lb": 1.28
+    },
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14); $0 with Amazon-optimized split (5+ locations) per https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "returns_processing_fee": {
+    "value": "2026: charged only in apparel/shoes/watches/jewelry/handbags (= fulfillment fee). From Feb 1 2027 non-apparel above category return-rate thresholds: e.g. small std <=2 oz $1.78, large std <=4 oz $2.36 per returned unit.",
+    "label": "ESTIMATED",
+    "source": "https://novadata.io/resources/blog/amazon-fba-fees (Amazon rates checked Sep 16 2026; fetched 2026-11-14); https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14)"
+   },
+   "low_inventory_fee_2027_per_unit_usd": {
+    "value": {
+     "small_standard_lt14d": 0.89,
+     "large_standard_le3lb_lt14d": 0.97,
+     "large_standard_le3lb_21_28d": 0.36
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.goatconsulting.com/amazon-fulfillment/amazon-fba-fee-changes-for-2027 (updated Nov 9 2026; fetched 2026-11-14) (applies below 28 days of supply from Feb 1 2027; new-seller/low-volume exemptions UNKNOWN)"
+   },
+   "inbound_freight_to_amazon_per_unit_usd": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "depends on route; get forwarder quote (sea/air to FBA)"
+   },
+   "ppc_cpa_all_median_usd": {
+    "value": 13.98,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/amazon-benchmarks (Aug 2025-Jul 2026, 2,800+ brands; values from search snippets 2026-11-14)"
+   },
+   "ppc_cpa_pets_usd": {
+    "value": 13.1,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/amazon-benchmarks (Aug 2025-Jul 2026, 2,800+ brands; values from search snippets 2026-11-14) (-10.96% YoY)"
+   },
+   "ppc_cpa_home_garden_usd": {
+    "value": 17.76,
+    "label": "ESTIMATED",
+    "source": "Triple Whale Amazon benchmarks, version dated Mar 24 2026 (median CVR 7.14%, AOV $61.88); https://www.triplewhale.com/blog/amazon-benchmarks (Aug 2025-Jul 2026, 2,800+ brands; values from search snippets 2026-11-14)"
+   },
+   "ppc_cpa_electronics_usd": {
+    "value": 25.02,
+    "label": "ESTIMATED",
+    "source": "https://www.triplewhale.com/blog/amazon-benchmarks (Aug 2025-Jul 2026, 2,800+ brands; values from search snippets 2026-11-14) (+0.76% YoY)"
+   },
+   "ppc_cpa_sports_outdoors_usd": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "not surfaced in snippets; Triple Whale page blocked"
+   },
+   "ppc_acos_platform_avg": {
+    "value": 0.296,
+    "label": "ESTIMATED",
+    "source": "https://www.adbadger.com/amazon-ppc-cost/ ; https://sellermetrics.app/acos-amazon/ (search 2026-11-14) (Ad Badger 29.6%, most accounts 25-36%; Jungle Scout 2026 28.4%)"
+   },
+   "ppc_cpa_note": "These are established-brand medians; a new ASIN with 0 reviews typically runs far worse. Launch ACoS benchmark: UNKNOWN (no sourced figure found).",
+   "launch_ppc_budget_usd": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "no sourced benchmark for a new-listing launch budget found 2026-11-14; plan with a scenario, not a fact"
+   },
+   "vine_enrollment_fee_usd": {
+    "value": {
+     "1_2_units": 0,
+     "3_10_units": 75,
+     "11_30_units": 200
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.sellersprite.com/en/blog/amazon-vine-program-sellers ; https://novadata.io/resources/blog/amazon-vine-program-true-cost (search 2026-11-14) (per parent ASIN; requires Brand Registry; plus cost of free units and their FBA fees; total $650-$875 for 30 units per one guide)"
+   },
+   "new_seller_incentives": {
+    "value": {
+     "brand_registry_bonus": "10% back on first $50k branded sales, then 5% up to $1M within first year",
+     "vine_credit_usd": 200,
+     "inbound_placement_credit_usd": 400,
+     "partnered_carrier_credit_usd": 100
+    },
+    "label": "ESTIMATED",
+    "source": "https://sellercentral.amazon.com/gp/help/external/201119120 and https://sell.amazon.com/grow (via search 2026-11-14); NSI and 2026 New Selection Program do not stack"
+   },
+   "brand_registry_prereq": {
+    "value": "USPTO trademark application (pending is accepted) for Brand Registry; cost of trademark filing not researched here",
+    "label": "ESTIMATED",
+    "source": "general Amazon Brand Registry rule; verify"
+   },
+   "payout_timing": {
+    "value": "Disbursement roughly every 14 days; new accounts may face reserve holds (DD+7 policy holds funds until 7 days after delivery)",
+    "label": "ESTIMATED",
+    "source": "Amazon DD+7 reserve policy (2023 onward); not re-verified 2026-11-14"
+   }
+  },
+  "amazon_fbm": {
+   "referral_fee_pct": "same as amazon_fba.referral_fee_pct",
+   "professional_plan_monthly_usd": {
+    "value": 39.99,
+    "label": "ESTIMATED",
+    "source": "https://sell.amazon.com/pricing (fetched 2026-11-14)"
+   },
+   "own_shipping": "use ship_from_home rates",
+   "prime_badge": {
+    "value": false,
+    "label": "ESTIMATED",
+    "source": "FBM without Seller Fulfilled Prime has no Prime badge; SFP needs 1-day delivery on 40% of standard-size Prime page views from Jul 6 2026 per https://www.junglescout.com/resources/articles/amazon-fba-vs-fbm/ ; https://www.cahoot.ai/amazon-sfp-july-2026-speed-changes/ (search 2026-11-14) (not achievable from a home in practice)"
+   },
+   "conversion_lift_lost_without_prime": {
+    "value": [
+     0.2,
+     0.4
+    ],
+    "label": "ESTIMATED",
+    "source": "agency estimates of FBA/Prime vs FBM on identical SKUs; vendor-sourced, no Amazon figure; https://www.junglescout.com/resources/articles/amazon-fba-vs-fbm/ ; https://www.cahoot.ai/amazon-sfp-july-2026-speed-changes/ (search 2026-11-14)"
+   },
+   "prepaid_return_labels_required": {
+    "value": true,
+    "label": "ESTIMATED",
+    "source": "Feb 2026 mandate: seller-fulfilled orders must use Amazon prepaid return labels; https://www.junglescout.com/resources/articles/amazon-fba-vs-fbm/ ; https://www.cahoot.ai/amazon-sfp-july-2026-speed-changes/ (search 2026-11-14)"
+   },
+   "handling_time_rules": {
+    "value": "Must meet valid tracking rate, late shipment rate <4%, cancellation rate <2.5% (standard Amazon seller-fulfilled metrics)",
+    "label": "ESTIMATED",
+    "source": "Amazon account health policy; not re-verified 2026-11-14"
+   }
+  },
+  "tiktok_shop": {
+   "referral_fee_pct_published": {
+    "value": 0.06,
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14) (6% most categories, 5% jewelry/pre-owned; includes payment processing, no separate payment fee)"
+   },
+   "referral_fee_pct_reported_since_aug_4_2026": {
+    "value": 0.08,
+    "label": "ESTIMATED",
+    "source": "https://delzonic.com/blogs/tiktok-shop-fee-increase-2026/ (Aug 28 2026; no primary TikTok source cited; fetched 2026-11-14) (6%->8% most non-food; select beauty/electronics sub-categories 9.5-11%). Not confirmed on a TikTok page; USE 8% AS BASE CASE, 6% as low."
+   },
+   "referral_fee_base": {
+    "value": "customer payment + platform-funded discount - tax; shipping excluded",
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "new_seller_promo_rate": {
+    "value": 0.03,
+    "label": "ESTIMATED",
+    "source": "3% for 30 days if first sale within 60 days of onboarding; https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14); https://delzonic.com/blogs/tiktok-shop-fee-increase-2026/ (Aug 28 2026; no primary TikTok source cited; fetched 2026-11-14)"
+   },
+   "payment_processing_pct": {
+    "value": 0.0,
+    "label": "ESTIMATED",
+    "source": "bundled in referral fee per https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "monthly_fee_usd": {
+    "value": 0,
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "affiliate_commission_avg_us": {
+    "value": 0.1302,
+    "label": "ESTIMATED",
+    "source": "https://www.hamstergarage.com/article/tiktok-shop-affiliate-commission-rates-fees-payouts (2026)"
+   },
+   "affiliate_commission_open_collab": {
+    "value": {
+     "home_kitchen_standard": [
+      0.1,
+      0.12
+     ],
+     "home_kitchen_competitive": [
+      0.15,
+      0.18
+     ],
+     "pet_standard": [
+      0.12,
+      0.15
+     ],
+     "pet_competitive": [
+      0.15,
+      0.18
+     ],
+     "electronics_standard": [
+      0.05,
+      0.08
+     ],
+     "electronics_competitive": [
+      0.1,
+      0.12
+     ],
+     "sports_outdoor_median": 0.1
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14); sports median from https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "affiliate_commission_targeted_collab": {
+    "value": {
+     "home_kitchen": [
+      0.15,
+      0.22
+     ],
+     "electronics": [
+      0.1,
+      0.18
+     ]
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)"
+   },
+   "commission_vs_volume_evidence": {
+    "value": "Across 298 products, median orders ~350 at both 10% and 20% commission (higher commission did not buy more orders)",
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "shop_ads_affiliate_rate": {
+    "value": "Shop Ads commission must be at least 1/3 of the standard affiliate rate",
+    "label": "ESTIMATED",
+    "source": "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)"
+   },
+   "smart_promotion_fee_pct": {
+    "value": 0.035,
+    "label": "ESTIMATED",
+    "source": "~3.5% of GMV (+1% during campaigns), required for Flash Sales; launched Mar 2026; https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14); https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)"
+   },
+   "refund_admin_fee": {
+    "value": "20% of original referral fee, capped at $5 per SKU",
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "return_shipping_seller_share": {
+    "value": {
+     "sps_ge_4": 0.2,
+     "sps_lt_4": 0.5
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "return_rate_home_kitchen": {
+    "value": [
+     0.1,
+     0.15
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)"
+   },
+   "return_rate_electronics": {
+    "value": [
+     0.1,
+     0.18
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.shortformnation.com/blog/tiktok-shop-affiliate-commission-rates-what-brands-should-offer-2026-data (May 2026; fetched 2026-11-14)"
+   },
+   "sample_cost_per_creator_usd": {
+    "value": [
+     15,
+     75
+    ],
+    "label": "ESTIMATED",
+    "source": "https://shortformnation.com/blog/product-seeding-for-tiktok-shop-the-roi-of-free-samples-in-2026 ; https://amplisell.com/blog-posts/30-samples-won-t-build-a-tiktok-shop-channel (search 2026-11-14) (seller pays product + shipping)"
+   },
+   "samples_per_month_small_shop": {
+    "value": 30,
+    "label": "ESTIMATED",
+    "source": "brands at $0-$12.5k/mo GMV send ~30 samples/mo -> ~180 videos (single blog, Jul 2026); https://shortformnation.com/blog/product-seeding-for-tiktok-shop-the-roi-of-free-samples-in-2026 ; https://amplisell.com/blog-posts/30-samples-won-t-build-a-tiktok-shop-channel (search 2026-11-14)"
+   },
+   "fbt_fulfillment_per_unit_usd": {
+    "value": [
+     2.86,
+     4.28
+    ],
+    "label": "ESTIMATED",
+    "source": "Fulfilled by TikTok, by weight tier and units/order; 60 days free storage; FBT return handling ~$3/item; https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "shipping_options": {
+    "value": "Seller Shipping still allowed after TikTok paused its Feb 2026 mandate to force TikTok Shipping/FBT; Upgraded TikTok Shipping gives up to ~20% discounted labels but no own carrier rates. FastMoss (Jun 2026) says independent labels no longer allowed - CONFLICT, check Seller Center.",
+    "label": "ESTIMATED",
+    "source": "https://www.easyship.com/blog/tiktok-shop-reverses-us-shipping-mandate and https://blog.ordoro.com/2026/01/28/tiktok-shipping-2026/ (Feb 2026; search 2026-11-14); https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "gmv_max_min_daily_budget_usd": {
+    "value": 50,
+    "label": "ESTIMATED",
+    "source": "~$50/day to exit learning; TikTok recommends $100-$200/day; https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "gmv_max_roas": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "no methodology-disclosed benchmark; vendor claims 3-6x untraceable (search 2026-11-14)"
+   },
+   "cpm_usd_range": {
+    "value": [
+     9,
+     30
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14)"
+   },
+   "settlement_new_seller_days_after_delivery": {
+    "value": 31,
+    "label": "ESTIMATED",
+    "source": "https://www.fastmoss.com/blog/tiktok-shop-seller-costs-in-the-us-2026-fees-creator-commissions-fulfillment-returns-real-profit/ (updated Jun 12 2026; fetched 2026-11-14); https://www.dashboardly.io/post/tiktok-shop-payout-explained-when-how-tiktok-pays-sellers and fastmoss (search 2026-11-14)"
+   },
+   "settlement_established_days_after_delivery": {
+    "value": [
+     1,
+     15
+    ],
+    "label": "ESTIMATED",
+    "source": "tiers 1/5/8 days for good shops; sources conflict 7, 8 or ~15; https://www.dashboardly.io/post/tiktok-shop-payout-explained-when-how-tiktok-pays-sellers and fastmoss (search 2026-11-14)"
+   },
+   "reserve_hold_days": {
+    "value": 30,
+    "label": "ESTIMATED",
+    "source": "possible reserve released after 30 days if not used for refunds; https://www.dashboardly.io/post/tiktok-shop-payout-explained-when-how-tiktok-pays-sellers and fastmoss (search 2026-11-14)"
+   },
+   "us_gmv_2025_usd_bn": {
+    "value": 15.82,
+    "label": "ESTIMATED",
+    "source": "eMarketer via https://www.metaintro.com/blog/ai-avatars-tiktok-shop-23-billion-creator-jobs-2026 ; Syncly https://syncly.app/blog/tiktok-shop-affiliate-roi-in-what-the-data-actually-shows (search 2026-11-14)"
+   },
+   "us_gmv_2026_forecast_usd_bn": {
+    "value": 23.4,
+    "label": "ESTIMATED",
+    "source": "eMarketer forecast, +~48% YoY; eMarketer via https://www.metaintro.com/blog/ai-avatars-tiktok-shop-23-billion-creator-jobs-2026 ; Syncly https://syncly.app/blog/tiktok-shop-affiliate-roi-in-what-the-data-actually-shows (search 2026-11-14)"
+   },
+   "ai_content_rule": {
+    "value": "Fully AI content permitted with on-screen AI disclosure and no false claims; some brands ban AI content in their affiliate programs",
+    "label": "ESTIMATED",
+    "source": "https://www.shopifreaks.com/tiktok-shop-side-hustlers-are-losing-affiliate-income-to-ai-generated-influencer-videos-that-gmv-max-surfaces-in-the-feed/ ; https://aiweekly.co/alerts/tiktok-shop-sellers-turn-to-ai-avatars-sidelining-creators (search 2026-11-14)"
+   },
+   "affiliate_creator_eligibility": {
+    "value": "US, 18+, 1,000 followers to self-apply as Affiliate Creator; <5,000 followers enter 30-day Creator Pilot (limited shops). Seller-bound Official Shop accounts have no follower minimum but promote only own shop.",
+    "label": "ESTIMATED",
+    "source": "https://www.clickanalytic.com/tiktok-shop-affiliate-program/ ; https://creatorsagency.co/blog/tiktok-shop-affiliate-requirements-2026 (search 2026-11-14)"
+   }
+  },
+  "etsy": {
+   "listing_fee_usd": {
+    "value": 0.2,
+    "label": "ESTIMATED",
+    "source": "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14) (per listing, 4 months, renews on each sale)"
+   },
+   "transaction_fee_pct": {
+    "value": 0.065,
+    "label": "ESTIMATED",
+    "source": "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14) (on item price + shipping + gift wrap)"
+   },
+   "payment_processing_pct": {
+    "value": 0.03,
+    "label": "ESTIMATED",
+    "source": "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14) (US Etsy Payments; on order total incl. shipping and tax)"
+   },
+   "payment_processing_fixed_usd": {
+    "value": 0.25,
+    "label": "ESTIMATED",
+    "source": "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14)"
+   },
+   "offsite_ads_pct_under_10k_annual": {
+    "value": 0.15,
+    "label": "ESTIMATED",
+    "source": "https://www.etsy.com/legal/fees/ (403 to fetch); values via https://checkoutpage.com/blog/etsy-fees and https://blog.marmalead.com/etsy-fees-explained/ (search 2026-11-14) (mandatory for shops <$10k/yr; on attributed orders, capped at $100/order)"
+   },
+   "offsite_ads_pct_over_10k_annual": {
+    "value": 0.12,
+    "label": "ESTIMATED",
+    "source": "Etsy fees policy (12% for shops >$10k/yr, mandatory); not re-verified in this search"
+   },
+   "regulatory_operating_fee": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "applies in some non-US countries; not expected for US sellers - verify"
+   },
+   "eligibility_note": {
+    "value": "Etsy requires handmade, vintage, craft supply, or designed-by-seller (POD with production partner disclosed); generic sourced kits are not allowed",
+    "label": "ESTIMATED",
+    "source": "Etsy creativity standards; general knowledge, verify"
+   },
+   "pod_margin_after_ads_pct": {
+    "value": [
+     0.17,
+     0.29
+    ],
+    "label": "ESTIMATED",
+    "source": "Printify example $3.40-$7.02 profit per sale after $1.50 ad spend; https://printify.com/blog/print-on-demand-basics-to-get-started/ ; https://www.insightagent.app/tools/etsy-printify-profit-calculator (search 2026-11-14)"
+   }
+  },
+  "walmart": {
+   "referral_fee_pct": {
+    "value": {
+     "pet_supplies": 0.15,
+     "home_kitchen_decor_garden": 0.15,
+     "consumer_electronics": 0.08,
+     "electronics_accessories": {
+      "first_100_usd": 0.15,
+      "above_100_usd": 0.08
+     },
+     "sports_outdoors": 0.15,
+     "automotive_powersports": 0.12,
+     "tools_home_improvement": 0.15
+    },
+    "label": "ESTIMATED",
+    "source": "https://marketplace.walmart.com/referral-fees/ (no date on page; fetched 2026-11-14)"
+   },
+   "monthly_fee_usd": {
+    "value": 0,
+    "label": "ESTIMATED",
+    "source": "https://marketplace.walmart.com/referral-fees/ (no date on page; fetched 2026-11-14)"
+   },
+   "wfs_fulfillment_per_unit_usd": {
+    "value": {
+     "le_1lb": 3.45,
+     "2lb": 4.95,
+     "3lb": 5.45,
+     "4_20lb": "5.75 + 0.40/lb over 4",
+     "21_30lb": "15.55 + 0.40/lb over 21"
+    },
+    "label": "ESTIMATED",
+    "source": "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20(WFS)/WFS%20basics/WFS-fees (last updated May 27 2026; fetched 2026-11-14) (rates effective Apr 2025, page updated May 27 2026)"
+   },
+   "wfs_surcharges_usd": {
+    "value": {
+     "price_under_10": 1.0,
+     "hazmat": 0.5,
+     "oversize_1": 3.0,
+     "oversize_2": 20.0
+    },
+    "label": "ESTIMATED",
+    "source": "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20(WFS)/WFS%20basics/WFS-fees (last updated May 27 2026; fetched 2026-11-14)"
+   },
+   "wfs_storage_per_cuft_month": {
+    "value": {
+     "jan_sep": 0.75,
+     "oct_dec_first_30d": 0.75,
+     "oct_dec_over_30d": 2.25,
+     "366_450d": 2.25,
+     "gt_450d": 7.5
+    },
+    "label": "ESTIMATED",
+    "source": "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20(WFS)/WFS%20basics/WFS-fees (last updated May 27 2026; fetched 2026-11-14)"
+   },
+   "wfs_return_fee_per_unit_usd": {
+    "value": {
+     "le_1lb": 4.7,
+     "2lb": 6.2,
+     "3lb": 6.7
+    },
+    "label": "ESTIMATED",
+    "source": "https://marketplacelearn.walmart.com/guides/Walmart%20Fulfillment%20Services%20(WFS)/WFS%20basics/WFS-fees (last updated May 27 2026; fetched 2026-11-14)"
+   },
+   "new_seller_wfs_discount": {
+    "value": "25% off fulfillment and 50% off storage (up to $2,000), Feb 2 2026 - Jan 31 2027",
+    "label": "ESTIMATED",
+    "source": "https://ecomcircles.com/blog/walmart-marketplace-fees/ (third-party, unverified)"
+   },
+   "approval": {
+    "value": "Application with US business (EIN), W-9, US bank, identity verification; Walmart favours sellers with marketplace/ecommerce history; approval ~1-4 weeks; new-seller payment hold reported. No published revenue minimum.",
+    "label": "ESTIMATED",
+    "source": "https://ecomclips.com/blog/walmart-marketplace-requirements/ ; https://www.sellerapp.com/blog/get-approved-on-walmart-marketplace/ (search 2026-11-14)"
+   }
+  },
+  "ship_from_home": {
+   "usps_ground_advantage_commercial_usd": {
+    "value": {
+     "under_1lb_flat": {
+      "zone4": 7.86,
+      "zone5": 8.24,
+      "zone6": 8.41
+     },
+     "1lb": {
+      "zone4": 8.55,
+      "zone5": 9.29,
+      "zone6": 10.18
+     },
+     "2lb": {
+      "zone4": 8.91,
+      "zone5": 10.5,
+      "zone6": 12.13
+     },
+     "3lb": {
+      "zone4": 10.07,
+      "zone5": 12.12,
+      "zone6": 14.14
+     },
+     "5lb": {
+      "zone4": 11.67,
+      "zone5": 14.53,
+      "zone6": 16.94
+     }
+    },
+    "label": "ESTIMATED",
+    "source": "https://pe.usps.com/text/dmm300/Notice123.htm (USPS Notice 123, prices effective Oct 4 2026; fetched 2026-11-14). These are USPS published Commercial prices effective Oct 4 2026 and may include the holiday price adjustment that runs to Jan 17 2027. Pirate Ship (Commercial/cubic) is usually at or below these; use as a conservative ceiling."
+   },
+   "sub_1lb_ounce_pricing_note": {
+    "value": "From Jul 12 2026 USPS dropped ounce-based Commercial pricing for Ground Advantage under 1 lb (flat per zone); Pirate Ship says most contiguous shipments still get lower ounce-based pricing via its rates",
+    "label": "ESTIMATED",
+    "source": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes (fetched 2026-11-14)"
+   },
+   "dim_divisor": {
+    "value": 139,
+    "label": "ESTIMATED",
+    "source": "DIM divisor cut from 166 to 139 on Jul 12 2026; https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes (fetched 2026-11-14)"
+   },
+   "cubic_max_dimension_in": {
+    "value": 22,
+    "label": "ESTIMATED",
+    "source": "https://support.pirateship.com/en/articles/15453569-july-2026-usps-rate-and-rule-changes (fetched 2026-11-14)"
+   },
+   "pirate_ship_5lb_zone4_5_usd": {
+    "value": [
+     11.02,
+     13.48
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.ship.com/post/how-much-does-it-cost-to-ship-a-5-lb-package (platform rate card effective Jun 30 2026)"
+   },
+   "packaging_cost_per_order_usd": {
+    "value": [
+     0.75,
+     2.0
+    ],
+    "label": "ASSUMED",
+    "source": "mailer box/poly + void fill + label; replace with real supplier quote"
+   },
+   "owner_time_per_order_min": {
+    "value": 5,
+    "label": "ASSUMED",
+    "source": "pick, pack, label; not costed"
+   },
+   "delivery_days_ground_advantage": {
+    "value": [
+     2,
+     5
+    ],
+    "label": "ESTIMATED",
+    "source": "USPS Ground Advantage service standard 2-5 business days (USPS)"
+   }
+  },
+  "air_import": {
+   "express_courier_usd_per_kg_10kg": {
+    "value": [
+     10,
+     16
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14) (DHL ~$12.50/kg for 10 kg Shenzhen-NY in 2026)"
+   },
+   "express_courier_usd_per_kg_20_30kg": {
+    "value": [
+     11,
+     13
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14) (30 kg: DHL $330-390, FedEx $320-370, UPS $340-400 base, Q2 2026, excl. surcharges)"
+   },
+   "consolidated_air_forwarder_usd_per_kg": {
+    "value": [
+     3.1,
+     7.0
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14) (airport-to-airport; 10 kg air ~$7-9/kg; better above ~45 kg; add US delivery leg)"
+   },
+   "alibaba_or_aliexpress_logistics_door_to_door_usd_per_kg": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "get a quote in Alibaba Logistics / supplier quote; often DDP 'air express line' 7-12 days"
+   },
+   "volumetric_divisor_cm3_per_kg": {
+    "value": [
+     5000,
+     6000
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14) (DHL reported 4000-5000; check carrier)"
+   },
+   "transit_days_express": {
+    "value": [
+     3,
+     7
+    ],
+    "label": "ESTIMATED",
+    "source": "https://www.sendfromchina.com/NewsCenter/shipping-cost-china-to-usa-2026.html ; https://www.dtfulogistics.com/news/freight-cost-from-china-to-usa/ (Mar 2026) ; sino-shipping DHL/FedEx/UPS comparison (search 2026-11-14)"
+   },
+   "de_minimis": {
+    "value": "SUSPENDED: China/HK ended May 2 2025; worldwide Aug 29 2025. Survived the Feb 20 2026 SCOTUS IEEPA ruling; upheld by Court of International Trade Aug 13 2026. Every import pays duty.",
+    "label": "ESTIMATED",
+    "source": "https://www.troutman.com/insights/the-800-free-pass-is-gone-cit-confirms-president-can-eliminate-de-minimis-tariff-exemption/ (Aug 18 2026) ; https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/august/court-upholds-president-s-elimination-of-de-minimis-exemption-for-imports (search 2026-11-14)"
+   },
+   "duty_mfn_typical_pct": {
+    "value": 0.033,
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14) (~3.3% average, varies by HTS code; many plastic/pet/home goods 0-6.5%)"
+   },
+   "duty_section301_list_1_2_3_pct": {
+    "value": 0.25,
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "duty_section301_list_4A_pct": {
+    "value": 0.075,
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "duty_section301_forced_labor_china_pct": {
+    "value": 0.125,
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14) (effective Jul 24 2026, 'all goods, some exclusions', stacks on lists 1-4A; not on Sec 232 goods)"
+   },
+   "ieepa_fentanyl_and_reciprocal": {
+    "value": 0.0,
+    "label": "ESTIMATED",
+    "source": "voided by Supreme Court Feb 20 2026, collection stopped Feb 24 2026; https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "section122_global": {
+    "value": 0.0,
+    "label": "ESTIMATED",
+    "source": "10% surcharge Feb 24-Jul 24 2026, expired; https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "special_301_rates": {
+    "value": {
+     "lithium_ion_non_ev_batteries": 0.25,
+     "semiconductors": 0.5,
+     "permanent_magnets": 0.25
+    },
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14) (relevant to gadgets; lithium is also a safety flag in the brief)"
+   },
+   "typical_total_duty_china_list3_good_pct": {
+    "value": 0.408,
+    "label": "ESTIMATED",
+    "source": "25% + 12.5% + ~3.3% MFN per https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14) example"
+   },
+   "typical_total_duty_china_list4A_good_pct": {
+    "value": 0.233,
+    "label": "ESTIMATED",
+    "source": "7.5% + 12.5% + ~3.3% MFN; https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14)"
+   },
+   "duty_base": {
+    "value": "customs value (product + usually freight, per entry type/carrier practice); courier collects duty + brokerage/disbursement fee on delivery unless shipped DDP",
+    "label": "ESTIMATED",
+    "source": "general CBP practice; verify with carrier"
+   },
+   "informal_entry_threshold_usd": {
+    "value": 2500,
+    "label": "ESTIMATED",
+    "source": "goods under $2,500 can use informal entry (CBP); new postal informal entry rules Jun 24 2026 per https://www.troutman.com/insights/the-800-free-pass-is-gone-cit-confirms-president-can-eliminate-de-minimis-tariff-exemption/ (Aug 18 2026) ; https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/august/court-upholds-president-s-elimination-of-de-minimis-exemption-for-imports (search 2026-11-14)"
+   },
+   "courier_brokerage_fee_usd": {
+    "value": null,
+    "label": "UNKNOWN",
+    "source": "DHL/UPS/FedEx charge duty-advance/brokerage fees; budget $15-$40 per shipment ASSUMED until quoted"
+   },
+   "pending_risk": {
+    "value": "Section 301 product exclusions expired around Nov 9-10 2026; excess-capacity 301 investigations open; rates can change with little notice",
+    "label": "ESTIMATED",
+    "source": "https://www.china-briefing.com/news/us-china-tariff-rates-2025/ (last updated Jul 24 2026; fetched 2026-11-14); https://eximagent.ai/blog/us-china-trade-policy-2026-or-stalled-tariffs-force-new-strategy"
+   }
+  },
+  "us_3pl_reference": {
+   "pick_pack_first_item_usd": {
+    "value": [
+     2.75,
+     3.2
+    ],
+    "label": "ESTIMATED",
+    "source": "https://fulfill.com/3pl-pricing ; https://eightx.co/blog/3pl-all-in-cost-per-order (search 2026-11-14) (small brands $2.50-$5.00)"
+   },
+   "additional_item_usd": {
+    "value": [
+     0.48,
+     0.5
+    ],
+    "label": "ESTIMATED",
+    "source": "https://fulfill.com/3pl-pricing ; https://eightx.co/blog/3pl-all-in-cost-per-order (search 2026-11-14)"
+   },
+   "all_in_excl_shipping_usd": {
+    "value": [
+     4.5,
+     7.4
+    ],
+    "label": "ESTIMATED",
+    "source": "https://fulfill.com/3pl-pricing ; https://eightx.co/blog/3pl-all-in-cost-per-order (search 2026-11-14)"
+   },
+   "monthly_minimum_example_usd": {
+    "value": 499,
+    "label": "ESTIMATED",
+    "source": "example minimum; https://www.cahoot.ai/understanding-3pl-costs-for-ecommerce-fulfillment/"
+   }
+  }
+ }
+}
