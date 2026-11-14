@@ -1,5 +1,14 @@
 # Holistic product analysis, Nov 14, 2026
 
+> **Correction (Nov 14, later the same day, after Dhruv challenged the prices):** the first version scored each product at the median price of its busy listings. For several products that overstated what buyers pay. For example, iPad keyboard cases sell mostly at $20 to $40, not $76, and Bluetooth speakers mostly under $40, not $70. `scripts/opportunity.py` now prices each product where the median unit sells, never above the listing median. Its "proven" lens now counts only units sold at or above that price. A premium price is allowed only with band evidence (`price_override`, used for the extender kit's $130+ band).
+>
+> After the fix, **only 2 products pass both gates**:
+> - **Dog back-seat extender kit** (72.3): $41.76 per scaled order. The $130+ band sells 5,500+ units a month, mostly Ruff Liners. RuffRover sells a similar kit direct at $169.95.
+> - **Dash cam** (68.7): $12.40 per scaled order at $105. 57,150 units a month sell at $80+, with the top brand at 14%.
+>
+> The iPad keyboard case and Bluetooth speaker go negative at their real prices. The knife sharpener drops to $7.58, just under the gate. The tables below are from the first version and are kept for the record; `data/opportunities.csv` and `reports/ranked_opportunities.md` hold the corrected scores.
+
+
 Built around Dhruv's answers on Nov 14 (decisions log):
 - channels open
 - $1,800 firm

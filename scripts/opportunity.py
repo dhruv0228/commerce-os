@@ -85,10 +85,42 @@ def unit_cost(m, stage="test"):
     return landed, "small_batch_air"
 
 
+BAND_PRICE = {"<20": 15, "20-40": 30, "40-80": 60, "80-130": 105, "130+": 150}
+BAND_ORDER = ["<20", "20-40", "40-80", "80-130", "130+"]
+
+
+def volume_price(bands):
+    """Price where the median unit sells: walk the price bands until half the units are covered.
+    Returns (price, band). Uses band midpoints (ASSUMED representative)."""
+    clean = {k: num(v, 0) for k, v in (bands or {}).items() if k in BAND_PRICE}
+    total = sum(clean.values())
+    if not total:
+        return None, None
+    acc = 0
+    for b in BAND_ORDER:
+        acc += clean.get(b, 0)
+        if acc >= total / 2:
+            return BAND_PRICE[b], b
+    return None, None
+
+
+def units_at_or_above(bands, price):
+    """Units sold in bands whose midpoint is at least 80% of our price (proof people pay it)."""
+    return sum(num(v, 0) for k, v in (bands or {}).items() if k in BAND_PRICE and BAND_PRICE[k] >= 0.8 * price)
+
+
 def score(p, niche, params):
     am, m = p.get("amazon", {}), p.get("margin_inputs", {})
     vi, ac, se, ro = p.get("virality", {}), p.get("acquisition", {}), p.get("seasonality", {}), p.get("reorder", {})
-    price = num(m.get("retail_price")) or num(am.get("median_price"))
+    listing_median = num(m.get("retail_price")) or num(am.get("median_price"))
+    vprice, vband = volume_price(am.get("bands"))
+    # Price at the volume median unless the entry deliberately targets a proven premium band
+    # (price_override = true, used only with band evidence that people pay it).
+    if m.get("price_override") or vprice is None:
+        price = listing_median
+    else:  # conservative: never above the median of busy listings
+        price = min(vprice, listing_median) if listing_median else vprice
+    support = units_at_or_above(am.get("bands"), price) if am.get("bands") else num(am.get("units_month"))
     cost, cost_basis = unit_cost(m, "scale")
     test_cost, test_basis = unit_cost(m, "test")
     w = num(m.get("weight_lb"), 1.0)
@@ -96,7 +128,8 @@ def score(p, niche, params):
     dims = [num(d, 1) for d in dims] if dims else None
     row = {"niche": niche, "type": p.get("type"), "price": price, "unit_cost": cost, "cost_basis": cost_basis,
            "test_cost": test_cost, "test_basis": test_basis,
-           "weight_lb": w, "units_month": num(am.get("units_month")), "photo": p.get("photo", "")}
+           "weight_lb": w, "units_month": num(am.get("units_month")), "photo": p.get("photo", ""),
+           "listing_median": listing_median, "volume_band": vband, "units_at_price": support}
 
     # Profit (30)
     if price and cost is not None:
@@ -117,7 +150,7 @@ def score(p, niche, params):
     share = num(am.get("top_brand_share"))
     if share is not None and share > 1:
         share /= 100
-    row["s_proven"] = logp(num(am.get("units_month")), 1000, 30000, 12) + lin(num(am.get("listings_100plus")), 3, 15, 4) \
+    row["s_proven"] = logp(support, 1000, 30000, 12) + lin(num(am.get("listings_100plus")), 3, 15, 4) \
         + (4 * (1 - clamp(((share if share is not None else 0.5) - 0.3) / 0.4, 0, 1)))
 
     # Virality (20)
@@ -168,7 +201,7 @@ def main(argv=None):
                 continue
             rows.append(score(p, niche, params))
     rows.sort(key=lambda r: -r["score"])
-    cols = ["score", "niche", "type", "price", "unit_cost", "cost_basis", "best_channel", "profit", "profit_tough", "margin_pct",
+    cols = ["score", "niche", "type", "price", "listing_median", "volume_band", "units_at_price", "unit_cost", "cost_basis", "best_channel", "profit", "profit_tough", "margin_pct",
             "test_cost", "test_basis", "test_channel", "test_profit_tough",
             "tiktok_profit", "dtc_profit", "fba_profit", "units_month", "weight_lb", "s_profit", "s_proven", "s_virality",
             "s_acquisition", "s_season", "s_reorder", "photo", "exclusion"]

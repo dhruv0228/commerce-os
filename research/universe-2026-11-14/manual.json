@@ -1,11 +1,65 @@
-{"niche": "pets (manual entries from earlier deep dives)", "note": "Values from research/hero-deep-dive-2026-11-14/dog-car-travel-kit.json and the YouTube check on 2026-11-14. Factory costs are ASSUMED premium-spec ranges from that deep dive (no quotes).",
+{
+ "niche": "pets (manual entries from earlier deep dives)",
+ "note": "Values from research/hero-deep-dive-2026-11-14/dog-car-travel-kit.json and the YouTube check on 2026-11-14. Factory costs are ASSUMED premium-spec ranges from that deep dive (no quotes).",
  "products": [
-  {"type": "dog back-seat extender kit ($149, deep-dived)",
-   "amazon": {"units_month": 32000, "median_price": 69.98, "listings_100plus": 61, "top_brand_share": 0.29, "note": "hard-bottom extenders, all prices; 5,500+/mo at $130+ (mostly Ruff Liners)"},
-   "margin_inputs": {"retail_price": 149, "factory_cost_low": 20, "factory_cost_high": 26, "factory_source": "ASSUMED premium 3-panel spec at 50-200 units (deep dive); basic listings $8-15", "us_dropship": {"exists": "no"}, "weight_lb": 9, "dims_in": [20, 14, 5.5]},
-   "acquisition": {"moq": "2-500 (listings conflict)", "sample_price": "$12.50-30", "small_batch_feasible": "maybe", "certifications": "none", "ip_flags": "Ruff Liners US 12,221,024 and 4Knines US 12,409,763: avoidable by design (quick screen)"},
-   "virality": {"yt_views_top10": 48731, "foreplay_longest_days": 400, "tiktok_evidence": "TikTok Shop hard-bottom extender listing 16.6K sold (snippet 2026-11-14); RuffRover Meta ads 400+ days", "demo_score": 4, "demo_note": "dog sprawled on the platform vs squeezed in the footwell"},
-   "seasonality": {"keyword": "dog car seat cover", "peak_trough_ratio": 1.49, "jan_vs_avg": 0.84, "trend_12m_pct": -7.3},
-   "reorder": {"path": "none (bed topper and cargo liner as products 2-3)", "cadence": "none"},
-   "exclusion": "pass"}
- ]}
+  {
+   "type": "dog back-seat extender kit ($149, deep-dived)",
+   "amazon": {
+    "units_month": 32000,
+    "median_price": 69.98,
+    "listings_100plus": 61,
+    "top_brand_share": 0.29,
+    "note": "hard-bottom extenders, all prices; 5,500+/mo at $130+ (mostly Ruff Liners)",
+    "bands": {
+     "<20": 0,
+     "20-40": 9500,
+     "40-80": 11600,
+     "80-130": 5400,
+     "130+": 5500
+    }
+   },
+   "margin_inputs": {
+    "retail_price": 149,
+    "factory_cost_low": 20,
+    "factory_cost_high": 26,
+    "factory_source": "ASSUMED premium 3-panel spec at 50-200 units (deep dive); basic listings $8-15",
+    "us_dropship": {
+     "exists": "no"
+    },
+    "weight_lb": 9,
+    "dims_in": [
+     20,
+     14,
+     5.5
+    ],
+    "price_override": true,
+    "price_override_reason": "Premium kit priced in the $130+ band, where 5,500+ units/month sell (mostly Ruff Liners at $169.99-189.99); RuffRover sells a similar kit DTC at $169.95"
+   },
+   "acquisition": {
+    "moq": "2-500 (listings conflict)",
+    "sample_price": "$12.50-30",
+    "small_batch_feasible": "maybe",
+    "certifications": "none",
+    "ip_flags": "Ruff Liners US 12,221,024 and 4Knines US 12,409,763: avoidable by design (quick screen)"
+   },
+   "virality": {
+    "yt_views_top10": 48731,
+    "foreplay_longest_days": 400,
+    "tiktok_evidence": "TikTok Shop hard-bottom extender listing 16.6K sold (snippet 2026-11-14); RuffRover Meta ads 400+ days",
+    "demo_score": 4,
+    "demo_note": "dog sprawled on the platform vs squeezed in the footwell"
+   },
+   "seasonality": {
+    "keyword": "dog car seat cover",
+    "peak_trough_ratio": 1.49,
+    "jan_vs_avg": 0.84,
+    "trend_12m_pct": -7.3
+   },
+   "reorder": {
+    "path": "none (bed topper and cargo liner as products 2-3)",
+    "cadence": "none"
+   },
+   "exclusion": "pass"
+  }
+ ]
+}
