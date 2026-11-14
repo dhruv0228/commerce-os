@@ -1,6 +1,6 @@
 # Business model, Nov 14, 2026
 
-Visual version: https://claude.ai/artifact (private page "How We Make Money").
+Visual version: https://claude.ai/artifact/Xp4Zkk5XubjfGmLKBt8Uq4 (private page "How We Make Money").
 
 Sources:
 - `research/business-models-2026-11-14.json`: model comparison and fee parameters.
