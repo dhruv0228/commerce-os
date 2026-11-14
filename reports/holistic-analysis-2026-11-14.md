@@ -13,7 +13,7 @@ Data: `research/universe-2026-11-14/` (4 niche universes plus manual entries) an
 
 ## 1. Executive summary
 
-- **What was analysed:** 452 Amazon searches gave about 24,000 listings, grouped into 505 product types. 433 passed the rules. The top 30 per niche (120 products) were checked on margin, ease of getting the product, virality and seasonality. Then the deep-dived back-seat extender kit was added, for 121 products in all.
+- **What was analysed:** 462 Amazon searches gave thousands of listings (pets 5,713, home 6,503, tech 5,929, outdoor not recorded), grouped into 505 product types. 443 passed the first filters, before the exclusion checks on the top 30 per niche. The top 30 per niche (120 products) were checked on margin, ease of getting the product, virality and seasonality. Then the deep-dived back-seat extender kit was added, for 121 products in all.
 - **Only 6 of 121 pass both must-haves:**
   - a demo score of 3 or more (virality)
   - $8 or more profit per order at scale in the tough case (the floor for reaching $10k a month)
