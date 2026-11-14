@@ -13,6 +13,7 @@ This repository is the single source of truth. Read from it and write to it. Nev
 - Market: United States. Currency: USD.
 - Entity: Patel Software Enterprises LLC. The brand runs as a DBA under it with its own bank account and card. Product liability insurance before the first sale; consider a separate LLC once the brand is profitable.
 - Offer: kit first. Every product is evaluated as a kit or bundle (hero product plus accessories or add-ons), never as a lone item. Prefer products with a refill, consumable or replacement part people reorder.
+- Hero first (decided Nov 14, 2026, after the real sales check in `research/sales-check-2026-11-13/`): the kit must be built around a hero product that already sells in volume at $60 or more from several sellers. Bundling cheap parts does not earn a premium price. Every candidate needs sales evidence (Amazon "bought in past month", DTC review counts, Etsy sales, TikTok Shop sold counts), not only search volume.
 - Faces: Dhruv does not appear on camera. Ads use paid UGC creators filming the real sample, plus Dhruv's AI twin and voiceovers speaking as the founder. No AI person claims to have bought or used the product.
 - Dhruv's edge: software. Prefer solutions he can build (kit builder or quiz, order forwarding and delay notices, creative variant tooling, profit dashboard) over paid apps. Include a desk-setup and tech-worker category in product research, since he knows that customer first-hand.
 

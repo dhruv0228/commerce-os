@@ -38,7 +38,7 @@ For each product, add a row to `data/candidates.csv` with `stage=discovered`, th
 1. Drop anything that fails the exclusions or the hard rules in CLAUDE.md section 2. Set `stage=rejected` and say why in `notes`.
 2. For about 15 survivors, write base-scenario cost inputs to `data/economics_inputs.csv` (all 11 fields, each with a label and a source). Most will be ESTIMATED or ASSUMED at this stage. Use UNKNOWN when you have nothing, rather than guessing.
 3. Fill the five judged point columns, each with a one-line evidence note and link:
-   - `demand_pts` (0 to 20): independent signals such as rising search interest, marketplace rank or review volume, several advertisers running 30+ days
+   - `demand_pts` (0 to 20): sales evidence first: units sold at the proposed price band (Amazon "bought in past month" on $60+ listings, DTC review counts, Etsy sales). Search interest and long-running ads only support it. A product with strong searches but no sales evidence at a premium price scores 10 or less
    - `supplier_pts` (0 to 20): more than one plausible supplier, ideally with US stock
    - `differentiation_pts` (0 to 15): a credible way to be better than the Amazon version
    - `risk_pts` (0 to 10): 10 means light, durable, low return risk
