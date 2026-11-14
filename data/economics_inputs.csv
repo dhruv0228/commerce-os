@@ -362,28 +362,6 @@ car-scent-diffuser-kit,base,refund_pct,0.06,ASSUMED,house default,2026-11-13
 car-scent-diffuser-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
 car-scent-diffuser-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
 car-scent-diffuser-kit,base,benchmark_cpa,34.15,ESTIMATED,"Automotive Influee Facebook ads benchmarks 2026 (influee.co/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13); separate dataset from Triple Whale",2026-11-13
-dog-car-travel-kit,base,price,109,ASSUMED,proposed kit price,2026-11-13
-dog-car-travel-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
-dog-car-travel-kit,base,product_cost,34,ESTIMATED,"Spocket Teal Simba dropship price $28.00 (spocket.co listing, 2026-11-13) + $6 ASSUMED for organizer, bowl, rubber brush",2026-11-13
-dog-car-travel-kit,base,supplier_shipping,12,ASSUMED,US ground ~5 lb; Spocket shipping cost not shown,2026-11-13
-dog-car-travel-kit,base,duties_other,0,ASSUMED,assumed included in dropship price,2026-11-13
-dog-car-travel-kit,base,packaging,3,ASSUMED,insert + outer,2026-11-13
-dog-car-travel-kit,base,fulfillment_fee,2,ASSUMED,kitting fee,2026-11-13
-dog-car-travel-kit,base,refund_pct,0.08,ASSUMED,vehicle-fit returns,2026-11-13
-dog-car-travel-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
-dog-car-travel-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
-dog-car-travel-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
-pet-grooming-vacuum-kit,base,price,129,ASSUMED,proposed kit price,2026-11-13
-pet-grooming-vacuum-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
-pet-grooming-vacuum-kit,base,product_cost,48.1,ASSUMED,"factory $34 FOB (gdkaihao upper tier) + $3 spare blade/filter = $37 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factory x 0.30 placeholder for China-origin tariff s…",2026-11-13
-pet-grooming-vacuum-kit,base,supplier_shipping,16,ASSUMED,US ground ~9 lb box,2026-11-13
-pet-grooming-vacuum-kit,base,duties_other,11.1,ASSUMED,30% of factory,2026-11-13
-pet-grooming-vacuum-kit,base,packaging,3,ASSUMED,insert,2026-11-13
-pet-grooming-vacuum-kit,base,fulfillment_fee,3,ASSUMED,"US 3PL pick, heavy",2026-11-13
-pet-grooming-vacuum-kit,base,refund_pct,0.08,ASSUMED,noise/fear returns,2026-11-13
-pet-grooming-vacuum-kit,base,payment_pct,0.039,ESTIMATED,2.9% card (Shopify/Stripe-style standard rate) + 1% Amboras platform fee per ecomm.design review; confirm with Amboras,2026-11-13
-pet-grooming-vacuum-kit,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
-pet-grooming-vacuum-kit,base,benchmark_cpa,38.51,ESTIMATED,"Pets & Animals Triple Whale Meta ads benchmarks, median CPA Aug 2025 to Jul 2026 (triplewhale.com/blog/facebook-ads-benchmarks, via search excerpt, checked 2026-11-13)",2026-11-13
 dog-grooming-essentials-kit,base,price,79,ASSUMED,proposed kit price,2026-11-13
 dog-grooming-essentials-kit,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
 dog-grooming-essentials-kit,base,product_cost,18.07,ASSUMED,"factory $5.90 grinder (mirror listing) + wheels $2 + deshedding $3 + slicker $2 + glove $1 (all ASSUMED) = $13.90 x1.3. ASSUMED multiplier: US-warehouse delivered product cost = factory FOB x 1.3 (ocean freight, US inbound, storage); duties = factor…",2026-11-13
@@ -494,3 +472,135 @@ espresso-puck-prep-kit,high,payment_pct,0.039,ESTIMATED,repo base,2026-11-13
 espresso-puck-prep-kit,high,payment_fixed,0.3,ESTIMATED,repo base,2026-11-13
 espresso-puck-prep-kit,high,refund_pct,0.04,ASSUMED,Fit quiz + free size exchange cut size returns,2026-11-13
 espresso-puck-prep-kit,high,benchmark_cpa,47.93,ESTIMATED,repo base,2026-11-13
+dog-car-travel-kit,base,price,149.0,ASSUMED,kit price inside proven $130+ band below Ruff Liners $169.99 (Amazon 3K+/mo) and RuffRover $169.95 DTC kit,2026-11-14
+dog-car-travel-kit,base,discount_pct,0.0,ASSUMED,proposed no-sitewide-discount policy,2026-11-14
+dog-car-travel-kit,base,product_cost,29.0,ASSUMED,premium-spec hero $22 at 50 units (basic listings $8.14-15.00 on Made-in-China ESTIMATED; upgrade to 3-panel rigid board + quilted 600D/PU + YKK zips ASSUMED +$7-10) + add-ons $7 (tether + 2 door guards + rubber fur tool ASSUMED),2026-11-14
+dog-car-travel-kit,base,supplier_shipping,14.3,ESTIMATED,USPS Ground Advantage commercial 9 lb zone 5 peak price (Notice 123 eff. Oct 4 2026); carton must stay <=1728 cu in and <=22 in long,2026-11-14
+dog-car-travel-kit,base,duties_other,18.8,ESTIMATED,tariff ~27% of $29 FOB = $7.83 (MFN 7% HTS 6307.90.98 + Sec 301 List 4A 7.5% + Sec 301 12.5% Jul-2026; classification UNKNOWN) + sea/LCL inbound freight ~$8/unit ASSUMED + entry/broker $150 over 50 units ASSUMED,2026-11-14
+dog-car-travel-kit,base,packaging,2.5,ASSUMED,printed mailer carton + fit card,2026-11-14
+dog-car-travel-kit,base,fulfillment_fee,4.0,ASSUMED,small US 3PL pick/pack + storage amortized,2026-11-14
+dog-car-travel-kit,base,payment_pct,0.039,ASSUMED,2.9% card + 1% Amboras platform fee,2026-11-14
+dog-car-travel-kit,base,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+dog-car-travel-kit,base,refund_pct,0.08,ASSUMED,fit-driven returns on a bulky item; no category data found,2026-11-14
+dog-car-travel-kit,base,benchmark_cpa,38.51,ESTIMATED,Triple Whale Meta median Pets & Animals Aug 2025-Jul 2026,2026-11-14
+dog-car-travel-kit,low,price,129.0,ASSUMED,pessimistic: must price under $130 to convert,2026-11-14
+dog-car-travel-kit,low,discount_pct,0.0,ASSUMED,no sitewide discounts,2026-11-14
+dog-car-travel-kit,low,product_cost,34.0,ASSUMED,25-unit first batch; hero $26 + add-ons $8,2026-11-14
+dog-car-travel-kit,low,supplier_shipping,23.0,ESTIMATED,carton over 1728 cu in and over 22 in: DIM/166 ~16 lb zone 5-6 $18.99-23.64 + $4.50 length fee (Notice 123 Oct 2026),2026-11-14
+dog-car-travel-kit,low,duties_other,26.0,ESTIMATED,air freight ~$14/unit ASSUMED + tariff ~45% if List 3 (25%) applies + entry fees over 25 units,2026-11-14
+dog-car-travel-kit,low,packaging,3.5,ASSUMED,low-MOQ printed box,2026-11-14
+dog-car-travel-kit,low,fulfillment_fee,5.0,ASSUMED,3PL minimums spread over few orders,2026-11-14
+dog-car-travel-kit,low,payment_pct,0.039,ASSUMED,2.9% card + 1% Amboras platform fee,2026-11-14
+dog-car-travel-kit,low,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+dog-car-travel-kit,low,refund_pct,0.12,ASSUMED,fit returns without fit-finder,2026-11-14
+dog-car-travel-kit,low,benchmark_cpa,38.51,ESTIMATED,Triple Whale Meta median Pets & Animals,2026-11-14
+dog-car-travel-kit,high,price,159.0,ASSUMED,optimistic: kit holds $159 against $169.95-169.99 leaders,2026-11-14
+dog-car-travel-kit,high,discount_pct,0.0,ASSUMED,no sitewide discounts,2026-11-14
+dog-car-travel-kit,high,product_cost,25.0,ASSUMED,200-unit tier hero $19 + add-ons $6,2026-11-14
+dog-car-travel-kit,high,supplier_shipping,12.14,ESTIMATED,USPS GA commercial 8 lb zone 4 peak (Notice 123),2026-11-14
+dog-car-travel-kit,high,duties_other,13.0,ESTIMATED,tariff ~20% (MFN 7% + 12.5% Sec 301; List 4A not applicable) + sea freight ~$5 + entry fees spread,2026-11-14
+dog-car-travel-kit,high,packaging,2.0,ASSUMED,mailer carton,2026-11-14
+dog-car-travel-kit,high,fulfillment_fee,3.5,ASSUMED,3PL pick/pack,2026-11-14
+dog-car-travel-kit,high,payment_pct,0.039,ASSUMED,2.9% card + 1% Amboras platform fee,2026-11-14
+dog-car-travel-kit,high,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+dog-car-travel-kit,high,refund_pct,0.05,ASSUMED,fit-finder keeps fit returns low,2026-11-14
+dog-car-travel-kit,high,benchmark_cpa,38.51,ESTIMATED,Triple Whale Meta median Pets & Animals,2026-11-14
+puzzle-station-kit,base,price,149,ASSUMED,Kit price inside the $130+ band where Amazon volume is tables (JoyBerri $125.99-179.99 1.6K+/mo incl. bonus puzzle; HEBESPACE $154.99 500+; BuilderButler $172.99 700+); ALL4JIG DTC sells the board alone at $87.49-132.49 and the 2-in-1 at $107.49-144…,2026-11-14
+puzzle-station-kit,base,discount_pct,0,ASSUMED,Proposed no-sitewide-discount policy,2026-11-14
+puzzle-station-kit,base,product_cost,45,ASSUMED,"Board $24 (premium spec: pine frame, rigid cover, magnetic drawer stops, rotation lock) vs listed FOB $14.50-16.50 at MOQ 100-200 and LED board $20.70-21.70 (Qingdao Kdgarden, made-in-china.com 2026-11-14) + 8 sorting trays w/ lid $3 + USB LED bar $…",2026-11-14
+puzzle-station-kit,base,supplier_shipping,40.53,ASSUMED,"UPS Ground zone 5, carton 36x28x5 in (L+G 102 <105, no Additional Handling), billable 37 lb dim (5040/139); 2025 daily rate $39.96 x 1.059 GRI x (1-40% ASSUMED 3PL/aggregator discount) + $6.46 resi, x 1.2725 fuel (27.25% Aug 2026); see ship_calc.jso…",2026-11-14
+puzzle-station-kit,base,duties_other,27.5,ESTIMATED,Duty $6.50 = 20% of ~$32.50 China FOB content (HTS 9503.00.00 MFN 0 + 7.5% List 4A if covered + 12.5% Section 301 forced-labor tariff from 2026-07-24) + inbound LCL $21/unit for ~50 kits (~4.5 cbm: ocean $60-120/cbm + ~$450 origin/destination/custom…,2026-11-14
+puzzle-station-kit,base,packaging,3,ASSUMED,"Kit insert card, branded sticker/sleeve, corner protectors, guide",2026-11-14
+puzzle-station-kit,base,fulfillment_fee,6,ASSUMED,US 3PL pick/pack for an oversize carton + receiving/storage amortized at low volume; no quote pulled,2026-11-14
+puzzle-station-kit,base,payment_pct,0.039,ESTIMATED,2.9% card + 1% Amboras platform fee (CLAUDE.md),2026-11-14
+puzzle-station-kit,base,payment_fixed,0.3,ESTIMATED,Standard card fixed fee,2026-11-14
+puzzle-station-kit,base,refund_pct,0.08,ASSUMED,Unknown; between house 5%/10%. Oversize return shipping (~$40) not captured here,2026-11-14
+puzzle-station-kit,base,benchmark_cpa,34.85,ESTIMATED,"Toys, Art & Collectibles median Meta CPA Aug 2025-Jul 2026 (Triple Whale benchmarks, per brief)",2026-11-14
+puzzle-station-kit,low,price,149,ASSUMED,Same kit price,2026-11-14
+puzzle-station-kit,low,discount_pct,0.1,ASSUMED,"Pessimistic: no-discount policy fails, 10% welcome code needed",2026-11-14
+puzzle-station-kit,low,product_cost,55,ASSUMED,"Small first batch (30-50 kits): board $30 at sample-adjacent pricing (Kdgarden sample $20-40), trays $4, LED $6, puzzle $12.50, glue $1, QC/agent $1.50",2026-11-14
+puzzle-station-kit,low,supplier_shipping,62.07,ESTIMATED,"UPS Ground daily list zone 5, 37 lb billable incl. resi + 27.25% fuel, no discount (ship_calc.json). Zone 6 $74.78",2026-11-14
+puzzle-station-kit,low,duties_other,46.3,ESTIMATED,Duty $16.30 = 40.8% of ~$40 China FOB if classed HTS 4421.99.98 (MFN 3.3% + List 3 25% + 12.5% forced-labor 301; Kdgarden lists HS 4421999090 on one board) + inbound $30/unit for ~30 kits (LCL minimums),2026-11-14
+puzzle-station-kit,low,packaging,5,ASSUMED,Low-MOQ printed insert and extra protection,2026-11-14
+puzzle-station-kit,low,fulfillment_fee,9,ASSUMED,Oversize pick/pack + storage at very low volume,2026-11-14
+puzzle-station-kit,low,payment_pct,0.039,ESTIMATED,2.9% card + 1% Amboras platform fee,2026-11-14
+puzzle-station-kit,low,payment_fixed,0.3,ESTIMATED,Standard card fixed fee,2026-11-14
+puzzle-station-kit,low,refund_pct,0.1,ASSUMED,House rule 10% when unknown,2026-11-14
+puzzle-station-kit,low,benchmark_cpa,34.85,ESTIMATED,"Toys, Art & Collectibles median Meta CPA Aug 2025-Jul 2026 (Triple Whale benchmarks, per brief)",2026-11-14
+puzzle-station-kit,high,price,159,ASSUMED,"Upper kit price, still under JoyBerri $179.99",2026-11-14
+puzzle-station-kit,high,discount_pct,0,ASSUMED,No-discount policy holds,2026-11-14
+puzzle-station-kit,high,product_cost,38,ASSUMED,"200-kit batch: board $20, trays $2.50, LED $3.50, puzzle $10, glue $0.75, QC $1.25",2026-11-14
+puzzle-station-kit,high,supplier_shipping,32.45,ASSUMED,"UPS Ground zone 5 at 55% off base (ASSUMED negotiated 3PL rate), 37 lb billable, resi + fuel (ship_calc.json)",2026-11-14
+puzzle-station-kit,high,duties_other,16.0,ESTIMATED,"Duty $4 = 12.5% (9503, not on an active 301 list, forced-labor 301 only) + inbound $12/unit at ~200 kits (~18 cbm LCL/FCL)",2026-11-14
+puzzle-station-kit,high,packaging,2,ASSUMED,Printed insert at 200+ MOQ,2026-11-14
+puzzle-station-kit,high,fulfillment_fee,4,ASSUMED,3PL oversize pick/pack at scale,2026-11-14
+puzzle-station-kit,high,payment_pct,0.039,ESTIMATED,2.9% card + 1% Amboras platform fee,2026-11-14
+puzzle-station-kit,high,payment_fixed,0.3,ESTIMATED,Standard card fixed fee,2026-11-14
+puzzle-station-kit,high,refund_pct,0.05,ASSUMED,House rule 5% low case,2026-11-14
+puzzle-station-kit,high,benchmark_cpa,34.85,ESTIMATED,"Toys, Art & Collectibles median Meta CPA Aug 2025-Jul 2026 (Triple Whale benchmarks, per brief)",2026-11-14
+pet-grooming-vacuum-kit,base,price,119.0,ASSUMED,"Kit price inside the proven $80-130 band (11,800+ units/mo on page 1; oneisall 7-in-1 $84.99 6K+/mo, $99.99 1K+, vacuum+dryer $109.99 1K+). DataForSEO Amazon 2026-11-13/14",2026-11-14
+pet-grooming-vacuum-kit,base,discount_pct,0.0,ASSUMED,Proposed policy: no sitewide discounts,2026-11-14
+pet-grooming-vacuum-kit,base,product_cost,48.0,ESTIMATED,Hero FOB ~$38 at 200 units (Alibaba via accio.ai/find-product/pg50-series-pet-grooming-vacuum: Jiangsu Schwarzwald $33.50-53 MOQ 1; Suzhou Purolf $35-42.20 MOQ 10; Suzhou Shengkang $30.50-51.69 MOQ 200; Zhuhai Kaihao $30.50-34 MOQ 500) + add-ons ~$1…,2026-11-14
+pet-grooming-vacuum-kit,base,supplier_shipping,8.0,ASSUMED,"Inbound sea LCL China to US 3PL per kit (~0.03 m3, ~10 lb per kit); no freight quote yet",2026-11-14
+pet-grooming-vacuum-kit,base,duties_other,22.0,ESTIMATED,"37.5% of $48 FOB = $18.00 (HTS 8508.11.00.00 from CN: Free MFN + 25% 9903.88.03 + 12.5% 9903.05.31, tariffs.wove.com citing CBP HTS file Nov 9 2026) + ~$1 broker/entry + ~$3 ETL multiple-listing fee amortized over 200 units (ASSUMED)",2026-11-14
+pet-grooming-vacuum-kit,base,packaging,2.5,ASSUMED,Branded printed outer sleeve + insert card + warranty card,2026-11-14
+pet-grooming-vacuum-kit,base,fulfillment_fee,19.41,ESTIMATED,"Amazon MCF 1-unit standard: $11.75 + $0.70/lb above 3 lb, billable 13 lb (17x13x8 in carton /139 = 12.7 lb; actual ~10 lb) = $18.75 + 3.5% surcharge. amzprep.com/amazon-mcf-fees (rates Jan 15-Oct 14 2026; current peak/2027 rates unknown)",2026-11-14
+pet-grooming-vacuum-kit,base,payment_pct,0.039,ASSUMED,2.9% card + 1% Amboras platform fee (house rule),2026-11-14
+pet-grooming-vacuum-kit,base,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+pet-grooming-vacuum-kit,base,refund_pct,0.08,ASSUMED,Motorized appliance: ~6% returns/refunds + ~2% of revenue warranty replacements (assume 3% 12-month defect rate x ~$75 landed+ship replacement); no category data found,2026-11-14
+pet-grooming-vacuum-kit,base,benchmark_cpa,38.51,ESTIMATED,"Triple Whale Meta median CPA, Pets & Animals, Aug 2025-Jul 2026 (brief)",2026-11-14
+pet-grooming-vacuum-kit,low,price,109.0,ASSUMED,Pessimistic: price pressure from oneisall $84.99 and $59.98-69.99 clones,2026-11-14
+pet-grooming-vacuum-kit,low,discount_pct,0.0,ASSUMED,No sitewide discounts,2026-11-14
+pet-grooming-vacuum-kit,low,product_cost,58.0,ESTIMATED,"Hero ~$46 at 50-unit tier (upper part of $33.50-60 Alibaba ranges, e.g. Shenzhen Neakasa Technology $49-60 MOQ 50, Relipet $60 MOQ 20) + add-ons $12 ASSUMED",2026-11-14
+pet-grooming-vacuum-kit,low,supplier_shipping,15.0,ASSUMED,Part air freight for a small first buy,2026-11-14
+pet-grooming-vacuum-kit,low,duties_other,33.0,ESTIMATED,"37.5% of $58 = $21.75 + $1.25 broker + $10/unit certification cost (e.g. ~$2,000 ETL listing under our name over 200 units; epicsourcing.co ETL $1,500-8,000 per model)",2026-11-14
+pet-grooming-vacuum-kit,low,packaging,3.5,ASSUMED,Rigid printed box + case,2026-11-14
+pet-grooming-vacuum-kit,low,fulfillment_fee,22.3,ESTIMATED,MCF at billable 17 lb (18x14x9 in carton /139 = 16.3 lb): $11.75 + 0.70x14 = $21.55 + 3.5%. amzprep.com/amazon-mcf-fees,2026-11-14
+pet-grooming-vacuum-kit,low,payment_pct,0.039,ASSUMED,2.9% + 1% platform,2026-11-14
+pet-grooming-vacuum-kit,low,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+pet-grooming-vacuum-kit,low,refund_pct,0.12,ASSUMED,Pessimistic motorized-appliance refunds + defects (motor/clipper failures are the main complaint theme),2026-11-14
+pet-grooming-vacuum-kit,low,benchmark_cpa,38.51,ESTIMATED,Triple Whale Pets & Animals median,2026-11-14
+pet-grooming-vacuum-kit,high,price,129.0,ASSUMED,Top of the proven band (Buenkee vacuum+dryer $129.99 500+/mo; Prepaw PG50 Plus DTC $129.93),2026-11-14
+pet-grooming-vacuum-kit,high,discount_pct,0.0,ASSUMED,No sitewide discounts,2026-11-14
+pet-grooming-vacuum-kit,high,product_cost,42.0,ESTIMATED,Hero ~$33 at 200-500 units (Zhuhai Kaihao $30.50-34 MOQ 500; Hengxun $33-35 MOQ 1000) + add-ons $9,2026-11-14
+pet-grooming-vacuum-kit,high,supplier_shipping,6.0,ASSUMED,Sea LCL consolidated,2026-11-14
+pet-grooming-vacuum-kit,high,duties_other,17.5,ESTIMATED,37.5% of $42 = $15.75 + $0.75 broker + $1 cert amortization (supplier already ETL listed),2026-11-14
+pet-grooming-vacuum-kit,high,packaging,2.0,ASSUMED,Printed sleeve,2026-11-14
+pet-grooming-vacuum-kit,high,fulfillment_fee,17.96,ESTIMATED,MCF at billable 11 lb (oneisall LM2-size carton 16.14x12.4x7.48 in /139 = 10.8 lb; actual 8.7 lb): $17.35 + 3.5%,2026-11-14
+pet-grooming-vacuum-kit,high,payment_pct,0.039,ASSUMED,2.9% + 1% platform,2026-11-14
+pet-grooming-vacuum-kit,high,payment_fixed,0.3,ASSUMED,card fixed fee,2026-11-14
+pet-grooming-vacuum-kit,high,refund_pct,0.05,ASSUMED,Optimistic (CLAUDE.md low case),2026-11-14
+pet-grooming-vacuum-kit,high,benchmark_cpa,38.51,ESTIMATED,Triple Whale Pets & Animals median,2026-11-14
+putting-practice-kit,base,price,139.0,ASSUMED,"Between Perfect Practice $124.99-149.99 (perfectpractice.com, Amazon B07YQ7935B 300+/mo) and Wellputt 10ft $149; checked 2026-11-14",2026-11-14
+putting-practice-kit,base,discount_pct,0.0,ASSUMED,No sitewide discounts (proposed policy),2026-11-14
+putting-practice-kit,base,product_cost,40.0,ESTIMATED,"Hero $32/set at 50-99 (Nantong Enerize auto-return putting green, made-in-china.com, 2026-11-14) + add-ons $8 ASSUMED (acrylic mirror $2.66 FOB at 500 MOQ qinliwei MIC listing, small-batch ~$4; metal gate set ~$2; balls, alignment cards, printed pla…",2026-11-14
+putting-practice-kit,base,supplier_shipping,20.5,ESTIMATED,"USPS Ground Advantage Commercial, Notice 123 eff. 2026-10-04: carton 18x13x8 in (1,872 cu in >1 cu ft, dim /166 = 12 lb vs 10 lb actual) -> 12 lb zones 4/5/6 $16.94/$20.61/$23.95, avg",2026-11-14
+putting-practice-kit,base,duties_other,25.0,ASSUMED,Inbound freight China->US 3PL ~$15/kit at ~50 kits LCL (ASSUMED) + duties ~25% of $40 FOB = $10 (MFN 4.9% + Sec 301 List 4A 7.5% per CBP ruling N347439 + July 2026 Sec 301 10-12.5% China rate UNKNOWN),2026-11-14
+putting-practice-kit,base,packaging,2.5,ASSUMED,"Branded insert, practice-plan card, kraft outer",2026-11-14
+putting-practice-kit,base,fulfillment_fee,4.0,ASSUMED,US 3PL pick/pack + receiving/storage amortized; no quote yet,2026-11-14
+putting-practice-kit,base,payment_pct,0.039,ESTIMATED,2.9% card + ~1% Amboras platform fee (third-party review),2026-11-14
+putting-practice-kit,base,payment_fixed,0.3,ESTIMATED,Card fixed fee,2026-11-14
+putting-practice-kit,base,refund_pct,0.08,ASSUMED,"Bulky returns, wrinkle/creasing and ball-return complaints in reviews; between 5% and 10% house scenarios",2026-11-14
+putting-practice-kit,base,benchmark_cpa,44.53,ESTIMATED,Triple Whale Meta median CPA Sports & Outdoors Aug 2025-Jul 2026 (per brief),2026-11-14
+putting-practice-kit,low,price,139.0,ASSUMED,"Same price, pessimistic costs",2026-11-14
+putting-practice-kit,low,discount_pct,0.05,ASSUMED,Gift/first-order codes leak,2026-11-14
+putting-practice-kit,low,product_cost,65.0,ESTIMATED,"Hero $55/pc at 10-99 (Quanzhou Huangbo/Ideassky auto-return mat, made-in-china.com hbgroup, 2026-11-14) + add-ons $10 small batch",2026-11-14
+putting-practice-kit,low,supplier_shipping,30.99,ESTIMATED,"USPS GA Notice 123: 26x14x9 in roll-style carton, dim 20 lb, zones 4/5/6 avg $26.49 + $4.50 length >22 in surcharge",2026-11-14
+putting-practice-kit,low,duties_other,51.25,ASSUMED,Inbound air/LCL for 20-25 kits ~$35/kit + duties 25% of $65 = $16.25,2026-11-14
+putting-practice-kit,low,packaging,4.0,ASSUMED,Rigid gift box,2026-11-14
+putting-practice-kit,low,fulfillment_fee,6.0,ASSUMED,3PL minimums spread over few orders,2026-11-14
+putting-practice-kit,low,payment_pct,0.039,ESTIMATED,2.9% card + ~1% Amboras platform fee (third-party review),2026-11-14
+putting-practice-kit,low,payment_fixed,0.3,ESTIMATED,Card fixed fee,2026-11-14
+putting-practice-kit,low,refund_pct,0.1,ASSUMED,High house scenario,2026-11-14
+putting-practice-kit,low,benchmark_cpa,44.53,ESTIMATED,Triple Whale Meta median CPA Sports & Outdoors Aug 2025-Jul 2026 (per brief),2026-11-14
+putting-practice-kit,high,price,149.0,ASSUMED,"Perfect Practice Standard $149.99 price point, the only $130+ mat with volume (300+/mo)",2026-11-14
+putting-practice-kit,high,discount_pct,0.0,ASSUMED,No sitewide discounts (proposed policy),2026-11-14
+putting-practice-kit,high,product_cost,36.5,ESTIMATED,"Hero $30.50 at 100-499 (Nantong Enerize, MIC) + add-ons $6 at volume",2026-11-14
+putting-practice-kit,high,supplier_shipping,17.21,ESTIMATED,"USPS GA Notice 123: Perfect Practice-size box 16.3x11.5x6.5 in (<1 cu ft, actual ~9 lb ASSUMED): zones 4/5/6 $14.30/$17.16/$20.18 avg",2026-11-14
+putting-practice-kit,high,duties_other,18.18,ASSUMED,"Sea LCL ~$10/kit at 200 kits + duties 22.4% of $36.50 (wove.com total for 9506.39.0080 China, unverified)",2026-11-14
+putting-practice-kit,high,packaging,1.5,ASSUMED,Printed mailer at volume,2026-11-14
+putting-practice-kit,high,fulfillment_fee,3.0,ASSUMED,3PL at volume,2026-11-14
+putting-practice-kit,high,payment_pct,0.039,ESTIMATED,2.9% card + ~1% Amboras platform fee (third-party review),2026-11-14
+putting-practice-kit,high,payment_fixed,0.3,ESTIMATED,Card fixed fee,2026-11-14
+putting-practice-kit,high,refund_pct,0.05,ASSUMED,Low house scenario,2026-11-14
+putting-practice-kit,high,benchmark_cpa,44.53,ESTIMATED,Triple Whale Meta median CPA Sports & Outdoors Aug 2025-Jul 2026 (per brief),2026-11-14
