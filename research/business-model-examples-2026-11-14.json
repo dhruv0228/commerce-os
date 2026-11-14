@@ -1,0 +1,1391 @@
+{
+  "research_date": "2026-11-14",
+  "scope": "Real, sourced examples of six e-commerce models plus who is winning with hard-bottom dog back-seat extenders and dash cams. For a US owner with $1,800, faceless (UGC creators + AI-twin voiceover), software engineer, goal $10k+/month profit.",
+  "label_key": {
+    "VERIFIED": "Primary source: the company's own filing or platform data read directly (live TikTok Shop page, FTC filing, TikTok-published case study). Platform case studies are still promotional.",
+    "REPORTED": "Press, podcast or founder interview; or a third-party estimate (ASINSIGHT, Shark Tank recap sites). Not audited.",
+    "CLAIMED": "Self-reported marketing: a brand's own site, a vendor or agency case study, an acquirer's sales page, an operator's own field report.",
+    "UNKNOWN": "Looked for, not found."
+  },
+  "tools_used": {
+    "web": "WebSearch and WebFetch. Amazon search pages returned HTTP 503, so no Amazon 'bought in past month' figures were read directly. businessinsider.com is blocked to this agent.",
+    "foreplay": "2 searches, 20 ads total (10 'dash cam', 10 'dog back seat extender'), live, English, longest running."
+  },
+  "models": [
+    {
+      "id": 1,
+      "model": "TikTok Shop first, scaled by creator affiliates",
+      "verdict": "Works when the product demonstrates in 3 seconds and the unit economics survive 15-20% commission plus free samples. Documented failures exist: one operator spent more than $2 per $1 of GMV. Sales concentrate in a handful of creators.",
+      "examples": [
+        {
+          "brand": "MasterPieces (via Teikametrics)",
+          "category": "Board games and puzzles (low AOV, about $20)",
+          "started_small": true,
+          "steps": {
+            "product": "Existing catalog; one hero SKU drove more than 30% of sales.",
+            "sourcing": "Existing brand inventory (not disclosed).",
+            "content_ads": "Contacted 2,500+ selected creators a month, about 50 sample-based collaborations a month, 200+ affiliate videos a month; GMV Max ads boosted affiliate videos and product cards.",
+            "channels": "TikTok Shop (added to an existing brand).",
+            "offer": "Monthly promo calendar: discounts, flash sales, TikTok campaign registrations.",
+            "retention": "TikTok Shop CRM segments by purchase and engagement; open rates above 10%."
+          },
+          "numbers": [
+            {
+              "metric": "Monthly GMV",
+              "value": "0 to up to $35K",
+              "label": "CLAIMED",
+              "source": "https://www.teikametrics.com/stories/masterpieces-from-zero-to-35k-monthly-gmv-on-tiktok-shop/",
+              "source_date": "Nov 2024 to Sep 2025 data"
+            },
+            {
+              "metric": "Share of GMV from affiliate videos",
+              "value": "55%+",
+              "label": "CLAIMED",
+              "source": "https://www.teikametrics.com/stories/masterpieces-from-zero-to-35k-monthly-gmv-on-tiktok-shop/",
+              "source_date": "2025"
+            },
+            {
+              "metric": "Average conversion rate",
+              "value": "6.60%",
+              "label": "CLAIMED",
+              "source": "https://www.teikametrics.com/stories/masterpieces-from-zero-to-35k-monthly-gmv-on-tiktok-shop/",
+              "source_date": "Mar to Sep 2025"
+            },
+            {
+              "metric": "Top affiliate video",
+              "value": "1.6M views, $11K+ GMV",
+              "label": "CLAIMED",
+              "source": "https://www.teikametrics.com/stories/masterpieces-from-zero-to-35k-monthly-gmv-on-tiktok-shop/",
+              "source_date": "2025"
+            },
+            {
+              "metric": "GMV Max ROI in breakout month",
+              "value": "3.8",
+              "label": "CLAIMED",
+              "source": "https://www.teikametrics.com/stories/masterpieces-from-zero-to-35k-monthly-gmv-on-tiktok-shop/",
+              "source_date": "Feb 10 to Mar 10, 2025"
+            }
+          ],
+          "time_to_result": "Stated as five months; the data windows span about ten months.",
+          "copy_this": [
+            "A monthly outreach quota and a sample-approval process",
+            "One hero SKU carrying most promotions",
+            "Boosting proven affiliate videos with GMV Max rather than making ads from scratch",
+            "A monthly promo calendar"
+          ],
+          "cannot_copy": [
+            "Existing brand and catalog",
+            "Agency team doing daily outreach (Teikametrics is a paid vendor)"
+          ],
+          "fit_for_owner": "High as an operating template. $35K/month GMV is a realistic ceiling for a small shop and shows the volume needed to reach $10k/month profit is high."
+        },
+        {
+          "brand": "Portland Leather Goods",
+          "category": "Leather bags and accessories",
+          "started_small": false,
+          "steps": {
+            "product": "Existing DTC catalog.",
+            "sourcing": "Own production (not detailed in sources).",
+            "content_ads": "Joined TikTok Shop Feb 2026; a seven-day affiliate 'blitz' in late March 2026 incentivized about 500 creators who posted about 3,800 videos.",
+            "channels": "Own DTC site first, TikTok Shop added.",
+            "offer": "Not disclosed.",
+            "retention": "Existing DTC customer base."
+          },
+          "numbers": [
+            {
+              "metric": "Daily TikTok Shop sales",
+              "value": "$1,200/day before blitz to over $100,000/day",
+              "label": "REPORTED",
+              "source": "https://www.modernretail.co/marketing/how-portland-leather-goods-did-1m-in-sales-in-20-days-on-tiktok-shop-thanks-to-an-affiliate-blitz/",
+              "source_date": "2026-04-16"
+            },
+            {
+              "metric": "Total TikTok Shop sales",
+              "value": "$1M within 20 days of starting the blitz",
+              "label": "REPORTED",
+              "source": "https://www.modernretail.co/marketing/how-portland-leather-goods-did-1m-in-sales-in-20-days-on-tiktok-shop-thanks-to-an-affiliate-blitz/",
+              "source_date": "2026-04-16"
+            },
+            {
+              "metric": "Blitz output",
+              "value": "about 500 creators, 3,800 videos, nearly 13M views",
+              "label": "REPORTED",
+              "source": "https://www.pulse.bot/ecommerce/news/how-portland-leather-goods-did-1m-in-sales-in-20-days-on-tiktok-shop-thanks-to-an-affiliate-blitz-5ff79c7c-62d9-4828-be17-bc10a3126ec9/",
+              "source_date": "2026-04"
+            },
+            {
+              "metric": "Commission rate, samples, profit",
+              "value": "not disclosed",
+              "label": "UNKNOWN",
+              "source": "",
+              "source_date": ""
+            }
+          ],
+          "time_to_result": "About 2 months from joining TikTok Shop to $1M.",
+          "copy_this": [
+            "Concentrate creator activity into a short, dated push rather than a slow drip",
+            "Time-boxed incentive for creators"
+          ],
+          "cannot_copy": [
+            "Large existing brand, inventory and loyal audience",
+            "Budget for incentives at 500-creator scale"
+          ],
+          "fit_for_owner": "Medium. The blitz idea scales down (for example 20 to 40 creators in one week), but the result depends on a brand people already know."
+        },
+        {
+          "brand": "Mavwicks Fragrances",
+          "category": "Fragrance",
+          "started_small": true,
+          "steps": {
+            "product": "Regional fragrance brand from Texas, launched Nov 2020.",
+            "sourcing": "Not disclosed.",
+            "content_ads": "Activated top-performing affiliates; GMV Max ads and premium Shop-tab placements (TikTok case study).",
+            "channels": "TikTok Shop became the main channel.",
+            "offer": "Not disclosed.",
+            "retention": "Fragrance is a repeat purchase."
+          },
+          "numbers": [
+            {
+              "metric": "Annual sales before TikTok Shop",
+              "value": "about $300K to $400K",
+              "label": "REPORTED",
+              "source": "https://www.modernretail.co/operations/tiktok-shop-says-sales-from-u-s-small-businesses-climbed-66-in-2025/",
+              "source_date": "2026-05-19"
+            },
+            {
+              "metric": "First year on TikTok Shop",
+              "value": "$32M (founder Megan Reep, quoted)",
+              "label": "REPORTED",
+              "source": "https://www.modernretail.co/operations/tiktok-shop-says-sales-from-u-s-small-businesses-climbed-66-in-2025/",
+              "source_date": "2026-05-19"
+            },
+            {
+              "metric": "GMV Max campaign",
+              "value": "6x average ROI, +53% total GMV, +37% sales",
+              "label": "VERIFIED",
+              "source": "https://ads.tiktok.com/business/en-US/inspiration/mavwicks-fragrance-gmv-max-premium-lacements",
+              "source_date": "undated platform case study"
+            },
+            {
+              "metric": "Creators linked / affiliate share",
+              "value": "64,700+ creators; 49.74% of store sales from affiliates (does not reconcile with the $32M figure)",
+              "label": "REPORTED",
+              "source": "https://www.baijing.cn/article/55803 (citing EchoTik and Kalodata estimates)",
+              "source_date": "2026"
+            }
+          ],
+          "time_to_result": "About one year.",
+          "copy_this": [
+            "Repeat-purchase product suits TikTok Shop",
+            "Identify the few affiliates who convert and put ad budget behind their videos"
+          ],
+          "cannot_copy": [
+            "Fragrance-category tailwind on TikTok Shop",
+            "Outlier result; TikTok shared it as a showcase"
+          ],
+          "fit_for_owner": "Low on category, high as proof that a sub-$500K brand can scale on TikTok Shop."
+        },
+        {
+          "brand": "Love & Pebble",
+          "category": "Beauty (frozen facial 'beauty pops')",
+          "started_small": true,
+          "steps": {
+            "product": "Founded 2021 by Lynda and Paul Tran, launched on TikTok.",
+            "sourcing": "Not disclosed.",
+            "content_ads": "Joined TikTok Shop soon after its North America launch, used the Creator Affiliate Program, then turned the best affiliate videos into Video Shopping Ads with creator permission.",
+            "channels": "TikTok Shop, then HSN after Shark Tank (no deal).",
+            "offer": "Not disclosed.",
+            "retention": "Consumable."
+          },
+          "numbers": [
+            {
+              "metric": "Sales increase",
+              "value": "1,194%",
+              "label": "VERIFIED",
+              "source": "https://ads.tiktok.com/business/en-US/inspiration/smb-love-and-pebble-tiktok-shop-ads",
+              "source_date": "undated platform case study"
+            },
+            {
+              "metric": "Shop Ads ROAS",
+              "value": "3.2x; CPA down 409% vs business as usual; 240+ ad conversions",
+              "label": "VERIFIED",
+              "source": "https://ads.tiktok.com/business/en-US/inspiration/smb-love-and-pebble-tiktok-shop-ads",
+              "source_date": "undated"
+            },
+            {
+              "metric": "Inventory",
+              "value": "sold out twice",
+              "label": "VERIFIED",
+              "source": "https://ads.tiktok.com/business/en-US/inspiration/smb-love-and-pebble-tiktok-shop-ads",
+              "source_date": "undated"
+            },
+            {
+              "metric": "Company value",
+              "value": "estimates of $2M to $5M conflict",
+              "label": "REPORTED",
+              "source": "https://thelist.com/1316398/what-happened-love-and-pebble-after-shark-tank",
+              "source_date": "unclear"
+            }
+          ],
+          "time_to_result": "Viral videos existed before TikTok Shop; the case study gives no dates.",
+          "copy_this": [
+            "Ask affiliates for ad authorization and run their videos as Spark or Video Shopping Ads",
+            "Use in-app checkout for clean attribution"
+          ],
+          "cannot_copy": [
+            "Founder-on-camera virality before the shop existed",
+            "Shark Tank exposure"
+          ],
+          "fit_for_owner": "High on the affiliate-to-ad loop, which needs no face on camera."
+        },
+        {
+          "brand": "Swoveralls and DudeRobe (counter-example)",
+          "category": "Apparel / loungewear",
+          "started_small": false,
+          "steps": {
+            "product": "Existing DTC brands.",
+            "sourcing": "Existing.",
+            "content_ads": "Four-month affiliate push Apr to Jul 2026: 21,365 creators enrolled, 4,752 samples shipped, 12-20% commissions, five-figure incentive programs, Shop Ads.",
+            "channels": "TikTok Shop added to DTC and Amazon.",
+            "offer": "Not disclosed.",
+            "retention": "Not applicable."
+          },
+          "numbers": [
+            {
+              "metric": "Cost per $1 of TikTok Shop GMV",
+              "value": "more than $2, before cost of goods",
+              "label": "CLAIMED",
+              "source": "https://www.netinfluencer.com/swoveralls-duderobe-spent-more-than-2-usd-for-every-1-usd-in-tiktok-shop-gmv-during-four-month-affiliate-push/",
+              "source_date": "2026-09-08"
+            },
+            {
+              "metric": "Creators with zero sales",
+              "value": "about 99% of 21,365",
+              "label": "CLAIMED",
+              "source": "same",
+              "source_date": "2026-09-08"
+            },
+            {
+              "metric": "Concentration",
+              "value": "1 creator about 30% of affiliate GMV; 38 creators 80%",
+              "label": "CLAIMED",
+              "source": "same",
+              "source_date": "2026-09-08"
+            },
+            {
+              "metric": "Shop Ads return",
+              "value": "0.4x to 1.6x",
+              "label": "CLAIMED",
+              "source": "same",
+              "source_date": "2026-09-08"
+            },
+            {
+              "metric": "Amazon halo",
+              "value": "none measured",
+              "label": "CLAIMED",
+              "source": "same",
+              "source_date": "2026-09-08"
+            }
+          ],
+          "time_to_result": "Four months, then scaled back to a minimal storefront.",
+          "copy_this": [
+            "Measure halo effects instead of assuming them",
+            "Stop broad sampling once data shows the few creators who sell",
+            "License proven creator content and run it as paid media on your own store"
+          ],
+          "cannot_copy": [
+            "Not a model to copy; a list of mistakes to avoid"
+          ],
+          "fit_for_owner": "Critical. Samples are a customer-acquisition cost; budget them inside the $400 test, not on top of it."
+        }
+      ],
+      "also_seen": [
+        {
+          "brand": "Finn (pet supplements and grooming tools)",
+          "note": "5,500+ TikTok Shop purchases in weeks, 6% purchase rate, via affiliate videos plus Video and Product Shopping Ads, late 2024. Ingestibles are out of scope for us; the tactic is not.",
+          "label": "VERIFIED",
+          "source": "https://ads.tiktok.com/business/en/inspiration/finn-tiktok-shop-case-study"
+        },
+        {
+          "brand": "Behave (candy)",
+          "note": "Near bankruptcy in summer 2024 with about 60 days of cash; founder posted 4-5 videos a day, six-figure monthly TikTok Shop revenue, Target rollout to almost 2,000 stores Apr 12, 2026. Founder-on-camera.",
+          "label": "REPORTED",
+          "source": "https://www.modernretail.co/operations/candy-brand-behave-bet-everything-on-tiktok-shop-went-viral-and-secured-a-target-launch/"
+        },
+        {
+          "brand": "Wyze (smart cameras)",
+          "note": "$1.3M+ from TikTok Shop Ads in about 2 months, 9.9x ROAS, $5.65 CPA; Spark Ads on affiliate content. Large established brand.",
+          "label": "VERIFIED",
+          "source": "https://ads.tiktok.com/business/en/inspiration/wyze-shop-ads"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "model": "DTC store plus paid Meta ads (classic DTC)",
+      "verdict": "Still works, but the brands that published honest numbers needed high gross margin (59% to 80%+) and a high or growing AOV. Ridge says it now needs cost of goods under 20% and AOV over $150 to cover acquisition.",
+      "examples": [
+        {
+          "brand": "BrüMate",
+          "category": "Insulated drinkware (outdoor-adjacent)",
+          "started_small": true,
+          "steps": {
+            "product": "Koozie for 16oz cans (Hopsulator); first launch was the Winesulator, Nov 2016. Prototypes about $3,000 for 100 units; patents about $15,000.",
+            "sourcing": "Overseas molds funded by a home-equity loan; later air-freighted a $1M shipment for about $70K during a stockout.",
+            "content_ads": "Facebook lead ads to a validation page from Aug 2016 to collect pre-orders and emails, $20-30/day per audience in tests; micro-influencers, bloggers, giveaways; a Kickstarter that failed.",
+            "channels": "Own Shopify store first; Amazon about $40K/month with no ad spend; retail and wholesale about 10% of revenue (2018).",
+            "offer": "Launched around Black Friday with a 'perfect holiday gift' angle.",
+            "retention": "Email list about 250,000, about 20% of monthly revenue; ambassador program paying $20 per referral."
+          },
+          "numbers": [
+            {
+              "metric": "Starting costs",
+              "value": "about $19.1K",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018 interview"
+            },
+            {
+              "metric": "Pre-launch leads",
+              "value": "about 7,000 by Nov 2016",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Launch sales",
+              "value": "about $250,000 (Nov 24 to Dec 14, 2016)",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Revenue",
+              "value": "about $2.1M in 2017; $1.1M in June 2018",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "ROAS",
+              "value": "about 3-4x generally; 3.1x May 2018; 4x June 2018; up to 6x at Christmas",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Gross margin before ads",
+              "value": "59% (article body) vs 45% (summary box)",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Bottom line after ad spend",
+              "value": "about 30% (33% June 2018, 26% May 2018)",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "AOV / conversion rate",
+              "value": "$65-70 / about 4%",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Repeat customer rate",
+              "value": "14-15%",
+              "label": "REPORTED",
+              "source": "https://www.starterstory.com/brumate",
+              "source_date": "2018"
+            },
+            {
+              "metric": "Later revenue",
+              "value": "about $35M+ in 2018 (founder, 2019 interview)",
+              "label": "REPORTED",
+              "source": "https://mywifequitherjob.com/episode346/",
+              "source_date": "2019"
+            }
+          ],
+          "time_to_result": "About 10 months from idea to launch; about 2 years to $1M/month.",
+          "copy_this": [
+            "Validate with cheap Meta lead ads and a pre-order or waitlist page before buying inventory",
+            "Launch into a gifting season",
+            "Build email from day one; it carried about 20% of revenue",
+            "Track profit after ad spend, not ROAS"
+          ],
+          "cannot_copy": [
+            "2016-2018 Meta CPMs (Ridge says clicks rose from about $0.20 to $2.50+)",
+            "Patented design and $15K patent spend",
+            "Home-equity loan for molds"
+          ],
+          "fit_for_owner": "High. Pre-validation with small ad tests matches the $1,800 budget."
+        },
+        {
+          "brand": "Ridge",
+          "category": "Minimalist wallets (EDC, tech-adjacent)",
+          "started_small": true,
+          "steps": {
+            "product": "Metal wallet, $75 to $175; later expanded into adjacent products.",
+            "sourcing": "Not detailed.",
+            "content_ads": "Meta ads plus about 750 YouTube influencers in 2020, $250-300 per video, paid upfront, target CPM $3-7, no content approval; hundreds of ad variations a week later on.",
+            "channels": "Kickstarter 2014, own Shopify stores (US, CA, UK, EU), Amazon eight figures in 2020.",
+            "offer": "Premium price, lifetime-warranty positioning.",
+            "retention": "Add-on products to raise AOV."
+          },
+          "numbers": [
+            {
+              "metric": "Revenue",
+              "value": "about $50M in 2020, growing about 50% a year",
+              "label": "REPORTED",
+              "source": "https://www.practicalecommerce.com/ridge-wallet-hits-50-million-with-influencer-marketing",
+              "source_date": "2021-02-12"
+            },
+            {
+              "metric": "Influencer spend",
+              "value": "$3.9M on about 750 influencers, about 3,000 videos (2020)",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2021-02-12"
+            },
+            {
+              "metric": "Amazon",
+              "value": "eight figures in 2020",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2021-02-12"
+            },
+            {
+              "metric": "Break-even MER",
+              "value": "1.4 (total revenue / total marketing)",
+              "label": "REPORTED",
+              "source": "https://sacra.com/research/sean-frank-ridge-ecommerce-post-covid/",
+              "source_date": "post-2022 interview"
+            },
+            {
+              "metric": "Economics now needed",
+              "value": "cost of goods under 20% and AOV above $150",
+              "label": "REPORTED",
+              "source": "https://sacra.com/chat/h/79d2e0ed-21b8-4705-a007-45ea8c580d36/",
+              "source_date": "summary of interview"
+            },
+            {
+              "metric": "Later revenue",
+              "value": "over $100M, later cited over $200M a year",
+              "label": "REPORTED",
+              "source": "https://www.shopify.com/blog/ridge-growth",
+              "source_date": "various"
+            }
+          ],
+          "time_to_result": "About 6 years to $50M; bootstrapped, no investors.",
+          "copy_this": [
+            "Pay small creators a flat fee and judge by CPM",
+            "Use MER as the master metric",
+            "Push AOV with bundles and add-ons"
+          ],
+          "cannot_copy": [
+            "2014-2019 cheap paid social",
+            "Years of compounding brand search",
+            "Patent and IP portfolio"
+          ],
+          "fit_for_owner": "Medium. The numbers explain why a sub-$60 single product rarely survives Meta CPMs today."
+        },
+        {
+          "brand": "Pupnaps / Calming Blankets / The Oodie (Davie Fogarty, Australia)",
+          "category": "Pet beds and home textiles",
+          "started_small": true,
+          "steps": {
+            "product": "After about six failed ventures, launched Calming Blankets, then The Oodie (wearable blanket, about 2019) and Pupnaps (calming dog beds).",
+            "sourcing": "Overseas manufacturing.",
+            "content_ads": "Facebook and Google ads as the core channel; later TikTok and influencers. The Oodie had zero sales in its first month.",
+            "channels": "Own DTC stores in several countries.",
+            "offer": "Not detailed in sources.",
+            "retention": "Product range expansion."
+          },
+          "numbers": [
+            {
+              "metric": "Davie Group revenue",
+              "value": "$182M (AUD) FY2020-21; The Oodie $155M",
+              "label": "REPORTED",
+              "source": "https://www.smartcompany.com.au/startupsmart/advice/startupsmart-growth/upskilling-the-oodie-david-fogarty/",
+              "source_date": "2023-02-27"
+            },
+            {
+              "metric": "The Oodie lifetime",
+              "value": "8.1M units, about $500M revenue",
+              "label": "REPORTED",
+              "source": "https://www.dynamicbusiness.com/featured/founder-friday/from-cafe-failure-to-multi-million-dollar-success-meet-davie-fogarty.html",
+              "source_date": "2023-11-03"
+            },
+            {
+              "metric": "Pupnaps monthly sales",
+              "value": "passed $1M a month",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2023-11-03"
+            }
+          ],
+          "time_to_result": "About 3.5 years from Oodie launch to the 2023 figures.",
+          "copy_this": [
+            "Test a product cheaply on paid social before committing to stock",
+            "Do not over-capitalise before product-market fit (his own advice)",
+            "Pet comfort products (calming beds) can carry DTC ads"
+          ],
+          "cannot_copy": [
+            "2020 lockdown demand for at-home comfort goods",
+            "Australian market start"
+          ],
+          "fit_for_owner": "Medium-high on the pet angle; the scale is an outlier."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "model": "Amazon FBA private label, started small",
+      "verdict": "Small starts are documented (500 units for about $2,500), but most winners already knew demand existed (affiliate data, search data) before ordering. Payout lag and inventory cash are the constraint.",
+      "examples": [
+        {
+          "brand": "WeLoveDoodles (Garrett Yamasaki)",
+          "category": "Pet products for doodle owners",
+          "started_small": true,
+          "steps": {
+            "product": "Picked the first SKU from his own Amazon affiliate reports: an item he already sold at 3% commission.",
+            "sourcing": "500 units from Alibaba with small handle mold changes.",
+            "content_ads": "Content site started 2018 (1M+ monthly page views) drove demand; no paid social described.",
+            "channels": "Amazon (own ASIN) plus the content site.",
+            "offer": "Not detailed.",
+            "retention": "Planned 10 more products from affiliate data and keyword research."
+          },
+          "numbers": [
+            {
+              "metric": "First order cost",
+              "value": "about $2,500 for 500 units including shipping",
+              "label": "REPORTED",
+              "source": "https://mywifequitherjob.com/episode447/",
+              "source_date": "podcast #447"
+            },
+            {
+              "metric": "Result",
+              "value": "sold out; 2-3 months out of stock waiting for a second run",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "podcast #447"
+            },
+            {
+              "metric": "Margin",
+              "value": "about 60% on own product vs 3% affiliate commission",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "podcast #447"
+            },
+            {
+              "metric": "Revenue",
+              "value": "seven figures within a year of launching physical products",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "podcast #447"
+            }
+          ],
+          "time_to_result": "Years of content first; about 1 year from first product to seven figures.",
+          "copy_this": [
+            "Choose the product from real sales data you control (affiliate or marketplace data), not hunches",
+            "Small first order, accept a stockout over overstock"
+          ],
+          "cannot_copy": [
+            "A content site with 1M+ monthly page views",
+            "Earlier, cheaper Amazon competition"
+          ],
+          "fit_for_owner": "High on method: Dhruv's software skill can build the demand-data layer (DataForSEO, TikTok Shop sold counts) in place of a content site."
+        },
+        {
+          "brand": "Angry Orange (Adam St. George)",
+          "category": "Pet odor eliminator (cleaning)",
+          "started_small": true,
+          "steps": {
+            "product": "Citrus pet-odor spray; sold mainly on Amazon FBA for 4 years.",
+            "sourcing": "Contract manufacturing.",
+            "content_ads": "Amazon PPC; after the 2018 sale the buyer added Facebook, Google, influencers and DTC.",
+            "channels": "Amazon, then retail (Target, Walmart, Ace, True Value) under the acquirer.",
+            "offer": "Concentrate plus ready-to-use and gallon refills after acquisition.",
+            "retention": "Refill sizes."
+          },
+          "numbers": [
+            {
+              "metric": "Revenue at sale",
+              "value": "more than $2M a year after 4 years on Amazon",
+              "label": "CLAIMED",
+              "source": "https://www.thrasio.com/for-sellers/case-studies/angry-orange",
+              "source_date": "acquired Nov 2018"
+            },
+            {
+              "metric": "After acquisition",
+              "value": "trailing 12-month revenue $2.5M to $23.1M",
+              "label": "CLAIMED",
+              "source": "https://www.thrasio.com/for-sellers/case-studies/angry-orange",
+              "source_date": "to Oct 2021"
+            },
+            {
+              "metric": "What moved sales",
+              "value": "repositioned from 'enzymatic cleaner' to 'odor eliminator' (the search term shoppers use); new bottle chosen by a PickFu poll",
+              "label": "REPORTED",
+              "source": "https://www.helium10.com/blog/how-to-grow-a-brand-to-20m-on-amazon/",
+              "source_date": "webinar summary"
+            },
+            {
+              "metric": "Recall",
+              "value": "about 1.5M Angry Orange enzyme stain removers recalled Jan 2026 for possible bacterial contamination",
+              "label": "REPORTED",
+              "source": "search summary; verify on cpsc.gov",
+              "source_date": "2026-01"
+            }
+          ],
+          "time_to_result": "4 years to $2M a year as a solo Amazon brand.",
+          "copy_this": [
+            "Name the product with the words buyers search, not the technical term",
+            "Test packaging and images with paid polls before launch",
+            "Refills turn a one-time buy into repeat orders"
+          ],
+          "cannot_copy": [
+            "Aggregator capital and retail distribution after the sale"
+          ],
+          "fit_for_owner": "High for the pet-cleaning category; the recall is a reminder that chemical products carry safety risk."
+        },
+        {
+          "brand": "Real Men Apparel (Jared Mortensen)",
+          "category": "Men's underwear",
+          "started_small": true,
+          "steps": {
+            "product": "Found fit gaps by reading competitor reviews; sampled with about 50 Alibaba factories in 2021.",
+            "sourcing": "Alibaba factories.",
+            "content_ads": "Heavy Amazon PPC on long-tail keywords; from Nov 2023 TikTok Shop live selling 4-5 hours a day plus an agency doing affiliate outreach (about 100 samples a week).",
+            "channels": "Amazon first, TikTok Shop second.",
+            "offer": "Flash deals in lives (for example 5 units at 60% off with a countdown).",
+            "retention": "Loyal customers act as unpaid live moderators."
+          },
+          "numbers": [
+            {
+              "metric": "First 11 months on Amazon",
+              "value": "about $1M revenue; profitable about 6 months after launch",
+              "label": "REPORTED",
+              "source": "https://www.helium10.com/podcast/7-figures-of-tiktok-shop-live-sales/",
+              "source_date": "2025-06-07"
+            },
+            {
+              "metric": "Amazon payout lag",
+              "value": "about 3 months",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2025-06-07"
+            },
+            {
+              "metric": "TikTok Shop revenue",
+              "value": "just under $2M total; lives 50-70% of it",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2025-06-07"
+            },
+            {
+              "metric": "Inventory mistake",
+              "value": "overstocked about 1,000 SKUs in Q4 2023, tying up cash",
+              "label": "REPORTED",
+              "source": "same",
+              "source_date": "2025-06-07"
+            }
+          ],
+          "time_to_result": "About 6 months to profit, 11 months to $1M.",
+          "copy_this": [
+            "Mine competitor reviews for the product gap",
+            "Long-tail keywords first on Amazon",
+            "Use TikTok Shop as a second channel for the same SKU"
+          ],
+          "cannot_copy": [
+            "Live selling depends on a person on camera for hours a day"
+          ],
+          "fit_for_owner": "Medium. Lives conflict with the no-face rule, though hand-only lives exist."
+        }
+      ],
+      "also_seen": [
+        {
+          "brand": "4Knines (Jim and Maggie Umlauf, Phoenix)",
+          "note": "Dog seat covers since 2013 after 11 prototype iterations; used FBA by 2017; says it holds 20+ patents; now in Mopar's MoPaw OEM line. Sources are its own pages and sponsored releases.",
+          "label": "CLAIMED",
+          "source": "https://4knines.com/pages/about-4knines ; https://buzzsprout.com/840565/episodes/16942142-0605-4knines-with-jim-umlauf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "model": "Hybrid / omnichannel: TikTok or DTC first, then Amazon and retail",
+      "verdict": "The most common path among the named brands. Each one had a hero product with a visible demo, then added marketplaces and retail once demand was proven. TV (Shark Tank, QVC) was the accelerant for several and cannot be planned.",
+      "examples": [
+        {
+          "brand": "Ruff Liners (Brandon Himmel, Houston TX)",
+          "category": "Pet / car: hard-bottom dog back-seat extenders and covers",
+          "started_small": true,
+          "steps": {
+            "product": "Founder sewed a cover for his own truck and two dogs; friends asked for one. One piece covering seats, floor and doors; window inserts sold as a replacement part.",
+            "sourcing": "Not disclosed (UNKNOWN).",
+            "content_ads": "Meta video ads ('Protect Your Car From Your Dog'), Shark Tank Season 16 Episode 16, press (Car and Driver, CNN Underscored).",
+            "channels": "Own site (US only), Amazon (US, plus Canada and Mexico), TikTok Shop (US), wholesale/dealers.",
+            "offer": "Hard Bottom Backseat Extender from $169.99 (regular $189.99); XL Floor Cover from $159.99; Soft Hammock $109.99; Travel Dog Bed from $69.99; save 15% on a pair; 10% off first order for email; free US shipping; 30-day refund; 90-day warranty extendable to 1 year by registering.",
+            "retention": "Warranty registration captures email; replacement window inserts; second car, second cover."
+          },
+          "numbers": [
+            {
+              "metric": "Founded",
+              "value": "2021 (about page) vs launched Dec 2022 (Shark Tank recap)",
+              "label": "CLAIMED",
+              "source": "https://ruffliners.com/pages/about-us",
+              "source_date": "2026"
+            },
+            {
+              "metric": "Shark Tank air date",
+              "value": "Apr 11, 2025 (ABC)",
+              "label": "REPORTED",
+              "source": "https://abc13.com/post/ruff-liners-is-fetching-deal-shark-tank/16153469",
+              "source_date": "2025-04-10"
+            },
+            {
+              "metric": "Ask / deal",
+              "value": "$200K for 5%; closed with Robert Herjavec at $200K for 10% plus $1/unit royalty until $200K repaid",
+              "label": "REPORTED",
+              "source": "https://www.sharktankblog.com/business/ruff-liners",
+              "source_date": "updated 2025-06-23"
+            },
+            {
+              "metric": "Sales",
+              "value": "about $1.25M in 2023; $3.1M in 2025",
+              "label": "REPORTED (2023) / CLAIMED (2025, brand blog)",
+              "source": "https://www.sharktankblog.com/business/ruff-liners ; https://ruffliners.com/blogs/news/ruff-liners-on-shark-tank-the-dog-seat-cover-that-protects-your-truck-inside-and-out",
+              "source_date": "2025-2026"
+            },
+            {
+              "metric": "Gross margin stated in pitch",
+              "value": "73%",
+              "label": "REPORTED",
+              "source": "https://www.sharktankblog.com/business/ruff-liners",
+              "source_date": "2025"
+            },
+            {
+              "metric": "Reviews on site",
+              "value": "2,109 on the extender; 5,617 across four products; 3,000+ 'verified' per about page",
+              "label": "VERIFIED (read from live site)",
+              "source": "https://ruffliners.com/",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "Live Meta ads",
+              "value": "10 live video ad variants, same copy, started about Oct 27, 2026, Facebook/Instagram/Audience Network/Threads, all linking to the medium hard-bottom extender page",
+              "label": "VERIFIED (Foreplay index of Meta Ad Library)",
+              "source": "https://app.foreplay.co/discovery?ad=zuAXSItKlo0DAtOE88s2",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "TikTok Shop and Amazon unit sales",
+              "value": "not found",
+              "label": "UNKNOWN",
+              "source": "Amazon returned 503",
+              "source_date": ""
+            }
+          ],
+          "time_to_result": "About 1-2 years to $1.25M; about 4 years from first prototype to Shark Tank.",
+          "copy_this": [
+            "Hero at $150-190 with accessories and a replacement part, which is our kit-first rule",
+            "Pair discount for two-car households",
+            "Warranty registration for email capture",
+            "Own store plus Amazon plus TikTok Shop, same SKU"
+          ],
+          "cannot_copy": [
+            "Patent-pending door-panel protection: check their claims before designing ours",
+            "Shark Tank exposure",
+            "Founder's own story and brand name"
+          ],
+          "fit_for_owner": "Very high: this is our candidate product, and the incumbent leaves the TikTok Shop sold-count gap unproven."
+        },
+        {
+          "brand": "Quad Lock (Chris Peters and Rob Ward, Australia)",
+          "category": "Phone mounts and cases (car, bike, moto, desk)",
+          "started_small": true,
+          "steps": {
+            "product": "Bike phone mount; then a lock-in system: case plus many mounts.",
+            "sourcing": "Contract manufacturing.",
+            "content_ads": "Kickstarter press in Dec 2011; online sales; ambassadors and events later.",
+            "channels": "Six currency-specific DTC sites, then dealers and retail.",
+            "offer": "System: buy the case once, add mounts for each use.",
+            "retention": "Every new mount or new phone is another order."
+          },
+          "numbers": [
+            {
+              "metric": "Revenue 2016",
+              "value": "$8.8M (AUD) with a three-person team; 3-year growth 211%; about 80% international",
+              "label": "REPORTED",
+              "source": "https://www.smartcompany.com.au/entrepreneurs/team-behind-quad-lock-phone-products-stayed-small-despite-200-growth-8-8-million-sales/",
+              "source_date": "2016-11-23"
+            },
+            {
+              "metric": "Revenue 2020-21 to 2022-23",
+              "value": "$88M to $153.9M (AUD); 84 staff",
+              "label": "REPORTED",
+              "source": "https://www.smartcompany.com.au/smart50-awards-2023/22-quad-lock/",
+              "source_date": "2023"
+            },
+            {
+              "metric": "Funding",
+              "value": "self-funded; Kickstarter used to test demand and fund the first run",
+              "label": "REPORTED",
+              "source": "https://www.smartcompany.com.au/startupsmart/how-the-power-of-focus-quadrupled-this-self-funded-start-ups-sales",
+              "source_date": "undated"
+            }
+          ],
+          "time_to_result": "About 5 years to $8.8M; about 11 years to $150M+.",
+          "copy_this": [
+            "Design the second and third product as add-ons to the first",
+            "Pre-sell (Kickstarter or waitlist) before tooling"
+          ],
+          "cannot_copy": [
+            "2011 Kickstarter novelty",
+            "Patented locking mechanism"
+          ],
+          "fit_for_owner": "High as a structure for products 2 and 3."
+        },
+        {
+          "brand": "ROVE (ROVE Innotech, Orlando FL)",
+          "category": "Dash cams",
+          "started_small": true,
+          "steps": {
+            "product": "Dash cams 'at a lower price than big-name brands'; began from home (no founding story beyond that).",
+            "sourcing": "Contract manufacturing (assumed; not stated).",
+            "content_ads": "Affiliate, influencer and military-discount programs; Facebook community of 25K+ members; Slickdeals price drops.",
+            "channels": "Amazon (top dash-cam listing), own site, official TikTok Shop (seller Aarna Sales Corporation), eBay.",
+            "offer": "$119.99 single to $399.99 three-channel; bundles up to $749.97; SD cards $34.99-$59.99 and mounts as add-ons; open-box from $14.99.",
+            "retention": "Accessories, SD cards, multi-camera upgrades."
+          },
+          "numbers": [
+            {
+              "metric": "Amazon top listing",
+              "value": "about 10K units in July 2026 at $107.99; 24.4% of top-10 volume for 'dash cam'",
+              "label": "REPORTED (ASINSIGHT estimate)",
+              "source": "https://www.asinsight.com/market-analysis/US/dash-cam",
+              "source_date": "2026-07"
+            },
+            {
+              "metric": "TikTok Shop R2-4K",
+              "value": "$119.99, 7.1K sold lifetime, 4.5 stars from 632 reviews, free shipping",
+              "label": "VERIFIED (live page snapshot)",
+              "source": "https://shop.tiktok.com/us/pdp/rove-r2-4k-dash-cam-with-4k-ultra-hd-gps-wi-fi-6-night-vision/1729410325836108646",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "TikTok Shop store total",
+              "value": "10.8K sold, 800+ followers",
+              "label": "VERIFIED (live page snapshot)",
+              "source": "same",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "Revenue",
+              "value": "only a modeled estimate exists; not used",
+              "label": "UNKNOWN",
+              "source": "",
+              "source_date": ""
+            }
+          ],
+          "time_to_result": "Founded about 2015 per a low-quality database (UNKNOWN).",
+          "copy_this": [
+            "Win Amazon on price-to-spec plus reviews, then use TikTok Shop as a secondary channel",
+            "Accessories and storage add-ons to raise AOV"
+          ],
+          "cannot_copy": [
+            "Years of Amazon review history"
+          ],
+          "fit_for_owner": "Shows that for $100+ dash cams, Amazon outsells TikTok Shop by a wide margin: about 10K a month on Amazon vs 7.1K lifetime on TikTok Shop."
+        },
+        {
+          "brand": "Scrub Daddy (Aaron Krause)",
+          "category": "Cleaning sponges",
+          "started_small": true,
+          "steps": {
+            "product": "Temperature-reactive sponge with a smiley face (a built-in demo).",
+            "sourcing": "Own US manufacturing.",
+            "content_ads": "Shark Tank, QVC, then a humorous brand TikTok account with millions of followers.",
+            "channels": "QVC, then mass retail, Amazon, TikTok.",
+            "offer": "Multipacks and a growing product family.",
+            "retention": "Consumable."
+          },
+          "numbers": [
+            {
+              "metric": "Shark Tank deal",
+              "value": "$200K for 20% with Lori Greiner, aired Oct 2012",
+              "label": "REPORTED",
+              "source": "https://en.wikipedia.org/wiki/Scrub_Daddy",
+              "source_date": ""
+            },
+            {
+              "metric": "QVC debut",
+              "value": "42,000 sponges in under 7 minutes",
+              "label": "REPORTED",
+              "source": "https://en.wikipedia.org/wiki/Scrub_Daddy",
+              "source_date": ""
+            },
+            {
+              "metric": "Lifetime sales",
+              "value": "$209M by Oct 2019",
+              "label": "REPORTED",
+              "source": "https://www.cnbc.com/2019/10/14/best-selling-shark-tank-products.html",
+              "source_date": "2019-10-14"
+            },
+            {
+              "metric": "TikTok followers",
+              "value": "about 4.45M",
+              "label": "REPORTED",
+              "source": "https://www.ignitesocialmedia.com/social-media-stats/home-cleaning-social-media-benchmarks-scrub-daddy-method-safely/",
+              "source_date": "2026"
+            }
+          ],
+          "time_to_result": "About 7 years to $209M.",
+          "copy_this": [
+            "A product whose demo is the ad",
+            "Entertainment-first brand content"
+          ],
+          "cannot_copy": [
+            "QVC and Lori Greiner's retail access",
+            "Own factory"
+          ],
+          "fit_for_owner": "Low on copyability, high on the 'demo is the ad' lesson."
+        }
+      ],
+      "also_seen": [
+        {
+          "brand": "Drop Stop (car seat gap filler)",
+          "note": "Shark Tank deal with Lori Greiner; her site says $60M in retail sales in 9 years since airing; its own site now points buyers to Amazon.",
+          "label": "CLAIMED",
+          "source": "https://lorigreiner.com/newsroom/products_cpt/drop-stop/"
+        },
+        {
+          "brand": "The Pink Stuff (Star Brands, UK)",
+          "note": "US Amazon sales rose from about 50,000 to 350,000 units a month from organic social (2021 report); about $125M annual sales per NYT; no traditional advertising. Corporate brand with decades of retail distribution.",
+          "label": "REPORTED",
+          "source": "https://entrepreneur.com/business-news/how-tiktok-turned-the-pink-stuff-into-cleaning-product-gold/469604"
+        },
+        {
+          "brand": "Bissell Little Green",
+          "note": "Organic TikTok virality repeatedly sold it out; 57,000+ Amazon five-star reviews per press. No primary sales figures found. Corporate brand; not a model a newcomer can copy.",
+          "label": "REPORTED",
+          "source": "https://www.apartmenttherapy.com/bissell-little-green-machine-review-36900194"
+        },
+        {
+          "brand": "Beyond Braid (Ryan Maya)",
+          "note": "Started 2020 on Shopify, then Amazon, joined TikTok Shop at launch and reached multi-seven-figure TikTok Shop sales; posts 1-3 shoppable videos a day; about 100 hooks tested, 5-10 convert long term; AOV about $54.",
+          "label": "REPORTED",
+          "source": "https://www.helium10.com/podcast/from-zero-to-tiktok-shop-hero/"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "model": "General-store dropshipping / AI-ad testing ('24 hour online business' Reels)",
+      "verdict": "No primary-sourced evidence was found of a general store sustaining profit. The documented money in this genre is in course and coaching sales, and the FTC has shut down several e-commerce 'AI store' schemes. The legitimate use is as a short test step before a branded product, which is what the successful brands describe.",
+      "ftc_position": {
+        "rule": "The Business Opportunity Rule and Section 5 of the FTC Act: any earnings claim must be non-misleading and substantiated in writing when made; sellers of covered opportunities must give an earnings claim statement.",
+        "proposed_expansion": "Jan 13, 2025: FTC proposed expanding the Business Opportunity Rule to money-making opportunities including business coaching (NPRM) and a new earnings-claim rule for MLMs. Final status not found (UNKNOWN).",
+        "cases": [
+          {
+            "metric": "Automators AI",
+            "value": "Filed Aug 2023; Feb 27, 2024 order: lifetime ban on selling e-commerce business opportunities or coaching for most defendants; judgment $21,765,902.65, partly suspended; Amazon and Walmart routinely suspended clients' stores",
+            "label": "VERIFIED",
+            "source": "https://www.ftc.gov/news-events/news/press-releases/2024/02/ftc-action-leads-ban-owners-automators-ai-e-commerce-money-making-scheme",
+            "source_date": "2024-02-27"
+          },
+          {
+            "metric": "Passive Scaling / FBA Machine",
+            "value": "Alleged consumer losses over $15.9M; part of Operation AI Comply; later permanent ban",
+            "label": "VERIFIED",
+            "source": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes",
+            "source_date": "2024-09"
+          },
+          {
+            "metric": "Ascend Ecom",
+            "value": "Alleged losses at least $25M from 'AI-powered' storefronts; order banning business-opportunity marketing",
+            "label": "VERIFIED",
+            "source": "https://www.ftc.gov/news-events/news/press-releases/2025/06/ftc-case-leads-order-banning-ascend-ecom-its-owners-business-opportunity-marketing",
+            "source_date": "2025-06"
+          },
+          {
+            "metric": "Click Profit",
+            "value": "At least $14M; $45,000+ management fee; per FTC store data more than 1/5 of stores earned nothing after Amazon fees, another 1/3 had under $2,500 lifetime gross sales, about 95% blocked or suspended by Amazon; promised Amazon, Walmart and TikTok stores",
+            "label": "VERIFIED",
+            "source": "https://www.ftc.gov/news-events/news/press-releases/2025/03/ftc-acts-stop-click-profit-online-business-opportunity-has-cost-consumers-least-14-million",
+            "source_date": "2025-03-18"
+          },
+          {
+            "metric": "Click Profit outcome",
+            "value": "Operators permanently banned from the industry",
+            "label": "VERIFIED",
+            "source": "https://www.ftc.gov/news-events/news/press-releases/2025/08/ftc-case-against-e-commerce-business-opportunity-scheme-its-operators-results-permanent-ban-industry",
+            "source_date": "2025-08"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "brand": "RuffRover (ruffrover.com)",
+          "category": "Hard-bottom dog back-seat extender",
+          "started_small": true,
+          "steps": {
+            "product": "RuffRover 2.0 hard-bottom protector, single-seat extender, Luxe Dog Bed, DoorGuard 2-pack, booster seat, dog stairs.",
+            "sourcing": "'Stocked in the US. On its way in days.' Supplier UNKNOWN.",
+            "content_ads": "UNKNOWN (no ads pulled in our 20-ad Foreplay sample).",
+            "channels": "Shopify-style store with Loox reviews.",
+            "offer": "Protector regular $159.95 (sale display inconsistent); historically bundled with a FREE dog bed; 'Save 56%' Black Friday banner; lifetime warranty; 30-day money-back.",
+            "retention": "Accessories: bed, door guards, stairs."
+          },
+          "numbers": [
+            {
+              "metric": "Loox reviews",
+              "value": "3,735 store reviews; 4.8 rating claimed",
+              "label": "VERIFIED (review platform)",
+              "source": "https://loox.io/s/GaEQSLccV_",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "Store history signal",
+              "value": "the same Loox review account includes reviews for unrelated gift items (Enchanted Galaxy Forever Rose, Galaxy Bear, moon lamp) alongside RuffRover products, consistent with a general or gift store that pivoted to one hero product. This is our inference.",
+              "label": "VERIFIED (review pages) / inference",
+              "source": "https://loox.io/s/GaEQSLccV_?page=12 ; https://loox.io/s/GaEQSLccV_?page=6",
+              "source_date": "2026-11-14"
+            },
+            {
+              "metric": "Revenue",
+              "value": "not found",
+              "label": "UNKNOWN",
+              "source": "",
+              "source_date": ""
+            }
+          ],
+          "time_to_result": "Review photos run from about Apr 2023 to Oct 2026.",
+          "copy_this": [
+            "Pivot from testing to one hero product plus accessories",
+            "US stock with a delivery promise",
+            "Free-gift bundle instead of a discount"
+          ],
+          "cannot_copy": [
+            "Nothing proprietary; which is also its weakness"
+          ],
+          "fit_for_owner": "Direct competitor. Inflated 'sale' pricing and the gift-store history are trust gaps a premium brand can exploit."
+        },
+        {
+          "brand": "Davie Fogarty (The Oodie, Pupnaps)",
+          "category": "Home textiles, pet beds",
+          "started_small": true,
+          "steps": {
+            "product": "Tested products on paid social before building brands.",
+            "sourcing": "Overseas manufacturing.",
+            "content_ads": "Facebook and Google ads.",
+            "channels": "Own stores.",
+            "offer": "Not detailed.",
+            "retention": "Range expansion."
+          },
+          "numbers": [
+            {
+              "metric": "View on dropshipping",
+              "value": "use it only short term for testing; calls traditional dropshipping 'inherently flawed' (slow shipping, few repeat purchases)",
+              "label": "REPORTED (secondary summaries of his own tutorial)",
+              "source": "https://jingsourcing.com/fb-oodie-blanket ; https://sozai.app/transcript/beginners-complete-dropshipping-tutorial-2025/",
+              "source_date": "2025"
+            },
+            {
+              "metric": "Primary press on a 'general store' start",
+              "value": "not mentioned in SmartCompany (2023) or Dynamic Business (2023) profiles",
+              "label": "UNKNOWN",
+              "source": "",
+              "source_date": ""
+            }
+          ],
+          "time_to_result": "See model 2.",
+          "copy_this": [
+            "Dropship only to test; own the product once it sells"
+          ],
+          "cannot_copy": [
+            "See model 2."
+          ],
+          "fit_for_owner": "Matches our 'test before stock' rule."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "model": "TikTok Shop affiliate-only creators (commission on others' products)",
+      "verdict": "Real for a few, near zero for most. One operator's data: about 99% of 21,365 enrolled creators made no sales. Useful to us mainly as the supply of creators we pay, not as our business.",
+      "examples": [
+        {
+          "brand": "Brandy Leigh (Indiana)",
+          "category": "Fashion, beauty, toys (affiliate creator)",
+          "started_small": true,
+          "steps": {
+            "product": "Tested products on camera",
+            "sourcing": "Free samples from sellers",
+            "content_ads": "Started with about 1,000 followers",
+            "channels": "TikTok Shop affiliate",
+            "offer": "n/a",
+            "retention": "n/a"
+          },
+          "numbers": [
+            {
+              "metric": "Commissions",
+              "value": "$95,000 between May and Oct 2024",
+              "label": "REPORTED",
+              "source": "https://www.tubefilter.com/2024/12/10/tiktok-wants-to-turn-millions-of-americans-into-paid-shopping-influencers/ (citing Rest of World)",
+              "source_date": "2024-12-10"
+            }
+          ],
+          "time_to_result": "About 6 months.",
+          "copy_this": [
+            "Volume of honest product-test videos"
+          ],
+          "cannot_copy": [
+            "On-camera personality"
+          ],
+          "fit_for_owner": "Low as a business for Dhruv (no face); high as a profile of the creator we want to recruit."
+        },
+        {
+          "brand": "'Hurricane' Liz Herrera",
+          "category": "Affiliate creator (also an Amazon seller)",
+          "started_small": true,
+          "steps": {
+            "product": "Promotes others' products",
+            "sourcing": "Samples",
+            "content_ads": "Ramp posting from a few a day up by 5 a week; recommends POV or hand-only videos for camera-shy sellers; faceless lives",
+            "channels": "TikTok Shop",
+            "offer": "n/a",
+            "retention": "n/a"
+          },
+          "numbers": [
+            {
+              "metric": "Creator commissions",
+              "value": "about $800,000",
+              "label": "REPORTED (self-reported on podcast)",
+              "source": "https://www.helium10.com/podcast/from-zero-to-tiktok-shop-hero/",
+              "source_date": "2025-11-18"
+            }
+          ],
+          "time_to_result": "Not stated.",
+          "copy_this": [
+            "Hand-only / POV formats for faceless content"
+          ],
+          "cannot_copy": [
+            "Her following and consistency"
+          ],
+          "fit_for_owner": "Format lesson for our own brand account."
+        }
+      ],
+      "distribution_evidence": [
+        {
+          "metric": "Creators with no sales in a 4-month push",
+          "value": "about 99% of 21,365",
+          "label": "CLAIMED (operator report)",
+          "source": "https://www.netinfluencer.com/swoveralls-duderobe-spent-more-than-2-usd-for-every-1-usd-in-tiktok-shop-gmv-during-four-month-affiliate-push/",
+          "source_date": "2026-09-08"
+        },
+        {
+          "metric": "Affiliates above $1K GMV",
+          "value": "1.6% of a 3.3M-creator database",
+          "label": "CLAIMED (vendor)",
+          "source": "https://www.linkedin.com/posts/sohun-sanka_only-16-of-tiktok-shop-affiliates-drive-activity-7401650316624113664-ujjT",
+          "source_date": "2025"
+        },
+        {
+          "metric": "Typical commission guidance",
+          "value": "about 15-20%",
+          "label": "REPORTED",
+          "source": "https://www.helium10.com/podcast/from-zero-to-tiktok-shop-hero/",
+          "source_date": "2025-11-18"
+        },
+        {
+          "metric": "Orca payouts",
+          "value": "processes affiliate earnings for about 20,000 creators a month; 'some' reach six figures",
+          "label": "REPORTED",
+          "source": "https://www.tubefilter.com/2024/12/10/tiktok-wants-to-turn-millions-of-americans-into-paid-shopping-influencers/",
+          "source_date": "2024-12-10"
+        },
+        {
+          "metric": "US small sellers on TikTok Shop",
+          "value": "about 215,000; their sales up 66% in 2025 (TikTok's figures)",
+          "label": "REPORTED",
+          "source": "https://www.modernretail.co/operations/tiktok-shop-says-sales-from-u-s-small-businesses-climbed-66-in-2025/",
+          "source_date": "2026-05-19"
+        }
+      ]
+    }
+  ],
+  "product_specific": {
+    "hard_bottom_dog_back_seat_extenders": {
+      "summary": "Ruff Liners is the visible US winner: premium price ($169.99 extender), DTC + Meta video ads + Amazon + TikTok Shop, Shark Tank. RuffRover runs a US-stocked Shopify store with a free-bed bundle. 4Knines is the patent-heavy incumbent with OEM deals. URPOWER and others compete on Amazon at lower prices. No TikTok Shop sold counts were found for any extender brand.",
+      "brands": [
+        {
+          "brand": "Ruff Liners",
+          "channels": "Own site, Amazon, TikTok Shop, dealers",
+          "price": "$169.99 extender (reg $189.99); $159.99 XL floor cover; $109.99 hammock; $69.99 travel bed",
+          "creator_strategy": "Meta video ads (10 live variants, same copy, from Oct 27, 2026); press reviews; Shark Tank",
+          "public_numbers": "$1.25M 2023 (REPORTED), $3.1M 2025 (CLAIMED), 73% gross margin (REPORTED), $200K for 10% + royalty (REPORTED)",
+          "label": "see model 4"
+        },
+        {
+          "brand": "RuffRover",
+          "channels": "Own Shopify store",
+          "price": "$159.95 regular; free dog bed bundle historically",
+          "creator_strategy": "UNKNOWN",
+          "public_numbers": "3,735 Loox reviews (VERIFIED)",
+          "label": "see model 5"
+        },
+        {
+          "brand": "4Knines",
+          "channels": "Own site, Amazon (FBA), Chewy, Mopar OEM",
+          "price": "UNKNOWN in this pass",
+          "creator_strategy": "Founder-run YouTube live-stream replays; GRIN creator platform listing",
+          "public_numbers": "Founded 2013, 20+ patents (CLAIMED)",
+          "label": "CLAIMED"
+        },
+        {
+          "brand": "URPOWER",
+          "channels": "Amazon",
+          "price": "UNKNOWN",
+          "creator_strategy": "UNKNOWN",
+          "public_numbers": "none found",
+          "label": "UNKNOWN"
+        }
+      ],
+      "market_prices_seen": [
+        {
+          "metric": "VEVOR hard-bottom extender at Target",
+          "value": "$65.99",
+          "label": "REPORTED (search snippet)",
+          "source": "https://www.target.com/p/-/A-1002449497",
+          "source_date": "2026"
+        },
+        {
+          "metric": "Walmart Dogjog extender",
+          "value": "$56.98, 950 reviews",
+          "label": "REPORTED (search snippet)",
+          "source": "https://www.walmart.com/ip/Back-Seat-Extender-Large-Dogs-Welcome-Dogjog-Hard-Bottom-Supports-330-lb-600D-Oxford-Waterproof-Nonslip-Durable-Dog-Car-Seat-Cover-Back-Seat-Seat-Cov/14890167903",
+          "source_date": "2026"
+        },
+        {
+          "metric": "Smatto extender",
+          "value": "$39.99",
+          "label": "REPORTED (search snippet)",
+          "source": "https://shop.mountup.com/products/smatto-dog-car-seat-cover-for-back-seat-hard-bottom-back-seat-extender-supports-400lbs-waterproof-rear-seat-pet-cover-dog-hammock-with-mesh-window-for-car-suv",
+          "source_date": "2026"
+        },
+        {
+          "metric": "PetSuite hard-bottom protector",
+          "value": "$185.00",
+          "label": "REPORTED (search snippet)",
+          "source": "https://seatcoversolutions.com/products/luxury-hard-bottom-dog-car-seat-cover",
+          "source_date": "2026"
+        }
+      ],
+      "unknowns": [
+        "TikTok Shop sold counts for any extender",
+        "Amazon 'bought in past month' for Ruff Liners and URPOWER (Amazon returned 503)",
+        "Ruff Liners' supplier and whose patent-pending design applies"
+      ]
+    },
+    "dash_cams": {
+      "summary": "Amazon is the main channel for $100+ dash cams (REDTIGER and ROVE lead). TikTok Shop dash-cam volume goes to cheap no-name units ($20-$50) sold by China/HK sellers through affiliate videos; ROVE's official TikTok Shop has sold 7.1K of its hero in total. Wolfbox runs gifted creator posts on TikTok. Vantrue share data was not found.",
+      "brands": [
+        {
+          "brand": "REDTIGER",
+          "channels": "Amazon, Best Buy, Walmart, own site",
+          "price": "$119.99-$169.99 on Amazon",
+          "public_numbers": "31.7% of top-10 'dash cam' volume, about 13K units across 3 ASINs, July 2026",
+          "label": "REPORTED (ASINSIGHT estimate)",
+          "source": "https://www.asinsight.com/market-analysis/US/dash-cam"
+        },
+        {
+          "brand": "ROVE",
+          "channels": "Amazon, own site, official TikTok Shop, eBay",
+          "price": "$107.99 Amazon; $119.99 TikTok Shop",
+          "public_numbers": "about 10K units July 2026 on Amazon (REPORTED); 7.1K sold lifetime on TikTok Shop (VERIFIED snapshot)",
+          "label": "mixed",
+          "source": "see model 4"
+        },
+        {
+          "brand": "VIOFO",
+          "channels": "Amazon, own site, specialist retailers",
+          "price": "$169.98",
+          "public_numbers": "about 4K units July 2026",
+          "label": "REPORTED (ASINSIGHT estimate)",
+          "source": "https://www.asinsight.com/market-analysis/US/dash-cam"
+        },
+        {
+          "brand": "Wolfbox",
+          "channels": "Amazon, own site, Newegg, TikTok creators",
+          "price": "$139.99 Amazon top listing",
+          "public_numbers": "about 3K units July 2026 (REPORTED); 20 sponsored TikTok creator posts Oct 2-28, 2026, views 1.5K to 1.1M, gifted product and discount codes (REPORTED, Modash)",
+          "label": "REPORTED",
+          "source": "https://www.modash.io/content-library/brands/wolfbox-examples"
+        },
+        {
+          "brand": "Vantrue",
+          "channels": "Amazon, Newegg, specialist retailers",
+          "price": "UNKNOWN",
+          "public_numbers": "not found",
+          "label": "UNKNOWN",
+          "source": ""
+        },
+        {
+          "brand": "BCUOZ (no-name, HK seller)",
+          "channels": "TikTok Shop",
+          "price": "$45.98 (was $69.99) plus $8.99 shipping",
+          "public_numbers": "94.7K sold, 3.9 stars from 8,054 reviews; shop total 140.8K sold",
+          "label": "VERIFIED (live page snapshot)",
+          "source": "https://shop.tiktok.com/us/pdp/bcuoz-4-lens-1080p-car-dvr-with-64gb-night-vision/1731387112716145405"
+        }
+      ],
+      "category_numbers": [
+        {
+          "metric": "Amazon 'dash cam' keyword",
+          "value": "543,698 queries; top-50 ASINs about $7.63M revenue; average price $126.65 (July 2026)",
+          "label": "REPORTED (ASINSIGHT estimate)",
+          "source": "https://www.asinsight.com/market-analysis/US/dash-cam",
+          "source_date": "2026-07"
+        }
+      ]
+    }
+  },
+  "foreplay_ad_evidence": {
+    "searches": [
+      "dash cam (live, English, longest running, 10 ads)",
+      "dog back seat extender (live, English, longest running, 10 ads)"
+    ],
+    "findings": [
+      "Dog extender: all 10 results were Ruff Liners Meta video ads, identical copy ('Dog owners, this is one of those purchases you'll wish you made sooner...'), headline 'Protect Your Car From Your Dog', started about Oct 27, 2026, on Facebook, Instagram, Audience Network and Threads, all linking to the medium hard-bottom extender page. Ten creative variants behind one message suggests creative testing at the video level.",
+      "Dash cam: all 10 results were TikTok creator videos, not brand ads: mirror dash cams tagged #tiktokshopcreatorpicks, a Wolfbox G840S creator install, and a price-anchor hook ('under $20... at Best Buy it was almost $100'). The TikTok angle in this category is cheap price plus install demo."
+    ],
+    "ad_links": [
+      "https://app.foreplay.co/discovery?ad=zuAXSItKlo0DAtOE88s2",
+      "https://app.foreplay.co/discovery?ad=x2Lpw6hEdsJWgG3xxQeF",
+      "https://app.foreplay.co/discovery?ad=oQ3Oeb8z0yfYzVr7CjN2",
+      "https://app.foreplay.co/discovery?ad=bxmuRhAIKwzlQeazAOdr"
+    ]
+  },
+  "top3_for_owner": [
+    {
+      "rank": 1,
+      "example": "Ruff Liners",
+      "why": "Same product and customer; a US founder from a hand-sewn prototype to $1.25M (2023, REPORTED) with a $170 hero, accessories, a replacement part, a pair discount, Meta video ads, Amazon and TikTok Shop. It is the kit-first, hero-first template, and its Meta ads are live to study."
+    },
+    {
+      "rank": 2,
+      "example": "MasterPieces playbook, read with the Swoveralls counter-data",
+      "why": "A process a solo operator can run (outreach quota, samples to vetted creators, boost proven affiliate videos), with a realistic $35K/month GMV ceiling (CLAIMED). Swoveralls shows the failure mode: more than $2 spent per $1 of GMV and about 99% of creators selling nothing, so gate samples and track contribution per creator."
+    },
+    {
+      "rank": 3,
+      "example": "BrüMate",
+      "why": "Validated demand with $20-30/day Meta lead-ad tests and pre-orders before inventory, then reported about 30% profit after ads with email at about 20% of revenue (REPORTED). This fits the $1,800 budget and Dhruv's software edge (landing pages, email, dashboards)."
+    }
+  ]
+}
