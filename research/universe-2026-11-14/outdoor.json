@@ -1,0 +1,5394 @@
+{
+ "niche": "car, outdoor and fitness",
+ "date": "2026-11-14",
+ "seeds": [
+  "car phone mount",
+  "magnetic car phone mount",
+  "car seat gap filler",
+  "car trunk organizer",
+  "car back seat organizer",
+  "car trash can",
+  "car cup holder expander",
+  "car vacuum cordless",
+  "car detailing brush kit",
+  "car cleaning gel",
+  "car interior cleaning kit",
+  "microfiber towels for cars",
+  "car wash kit",
+  "foam cannon",
+  "car drying towel",
+  "car seat covers",
+  "car floor mats all weather",
+  "steering wheel cover",
+  "car sun shade windshield",
+  "car headrest hook",
+  "car tissue holder",
+  "car air freshener vent clip",
+  "car organizer front seat",
+  "car cup holder tray",
+  "car visor organizer",
+  "car door step",
+  "car roof bag cargo carrier",
+  "jump starter portable",
+  "tire inflator portable",
+  "car emergency kit",
+  "dash cam",
+  "car seat cushion for driving",
+  "car neck pillow headrest",
+  "backseat car organizer with tablet holder",
+  "car accessories gifts for men",
+  "car accessories tiktok",
+  "camping lantern",
+  "camping chair",
+  "camping hammock",
+  "camping cookware set",
+  "camping gear gifts",
+  "hiking backpack",
+  "hydration pack",
+  "trekking poles",
+  "headlamp rechargeable",
+  "portable camping shower",
+  "camping blanket waterproof",
+  "sleeping pad",
+  "camping pillow",
+  "tent",
+  "pop up beach tent",
+  "beach umbrella",
+  "cooler bag",
+  "insulated water bottle",
+  "water filter straw",
+  "survival kit",
+  "fire starter",
+  "multitool",
+  "paracord bracelet",
+  "fishing tackle box",
+  "fishing rod and reel combo",
+  "fishing lures kit",
+  "fishing gifts for men",
+  "bike phone mount",
+  "bike lights front and back",
+  "bike lock",
+  "bike repair kit",
+  "cycling gloves",
+  "bike seat cushion",
+  "bike bag frame",
+  "resistance bands set",
+  "pull up bar doorway",
+  "ab roller wheel",
+  "jump rope",
+  "adjustable dumbbells",
+  "kettlebell",
+  "yoga mat",
+  "foam roller",
+  "massage gun",
+  "massage ball lacrosse",
+  "push up board",
+  "gym bag",
+  "weightlifting belt",
+  "lifting straps",
+  "wrist wraps",
+  "home gym equipment",
+  "pilates bar kit",
+  "ankle weights",
+  "grip strengthener",
+  "stretching strap",
+  "balance board",
+  "agility ladder",
+  "soccer training equipment",
+  "basketball training aid",
+  "baseball training aid",
+  "golf training aids",
+  "golf accessories for men",
+  "golf ball retriever",
+  "golf towel",
+  "golf putting mat",
+  "golf rangefinder",
+  "pickleball paddles set",
+  "pickleball balls",
+  "pickleball bag",
+  "tennis ball machine",
+  "running belt",
+  "running armband phone",
+  "running vest",
+  "reflective running gear",
+  "sports water bottle squeeze",
+  "cold plunge tub",
+  "sauna blanket"
+ ],
+ "spend_usd": 0.579,
+ "spend_breakdown": {
+  "amazon_listings": 0.336,
+  "amazon_asin": 0.045,
+  "youtube": 0.018,
+  "search_volume": 0.18
+ },
+ "foreplay_ads_used": 25,
+ "asins_deduped": 6414,
+ "types_total": 126,
+ "survivors": 120,
+ "survivors_after_exclusions": 108,
+ "excluded_survivors": {
+  "excluded: ingestible/medical": "fail: ingestibles/medical (electrolytes, first aid, braces)",
+  "portable jump starter": "fail: lithium-heavy high-discharge pack (UN3480 hazmat to air-ship a batch; brief flags lithium-heavy gadgets)",
+  "water filter straw": "fail: drinking-water safety claims (EPA pesticidal-device/NSF claims), ingestion-adjacent health claim",
+  "gym/fitness home equipment": "fail: heavy/bulky equipment",
+  "adjustable dumbbells": "fail: heavy weights (niche rule)",
+  "multitool": "fail: bladed tools (weapons exclusion, shipping restrictions)",
+  "car air freshener": "fail: fragrance chemical consumable (niche rule: no hazmat chemicals shipped); Little Trees-dominated",
+  "kettlebell": "fail: heavy weights (niche rule)",
+  "excluded: kids": "fail: children's products",
+  "lighter (butane/arc)": "fail: butane hazmat / lithium arc lighters",
+  "golf accessories (misc)": "fail: grab-bag of tees/gloves/socks, not one product type",
+  "weighted vest (heavy)": "fail: heavy weights"
+ },
+ "method": "Listings deduped by ASIN (max bought_past_month kept), grouped into buyer-named types with ordered title regex rules (outdoor/rules.py); survivors = >=1,000 units/month and >=3 listings with 100+ units; ranked by units x median price of 100+ listings; top 30 after exclusions. Near-duplicate groups capped at 5 (phone mounts 3, lights 2, car cleaning 3).",
+ "caveats": [
+  "bought_past_month is a bucketed floor (e.g. '10K+'), so units understate sales",
+  "type assignment is rule-based on titles; some types mix adjacent products (noted per type)",
+  "factory costs are listing snippets from web search, not quotes",
+  "US dropship availability could not be verified (CJ blocks bots); all marked unknown except one Doba band set",
+  "trend_12m compares Aug-Oct 2026 with Nov 2025-Jan 2026 (holiday-heavy), which biases giftable items negative"
+ ],
+ "products": [
+  {
+   "rank": 1,
+   "type": "dash cam",
+   "amazon": {
+    "units_month": 71600,
+    "bands": {
+     "<20": 0,
+     "20-40": 1500,
+     "40-80": 10950,
+     "80-130": 24000,
+     "130+": 33150
+    },
+    "median_price": 109.99,
+    "listings_100plus": 46,
+    "listings_total": 57,
+    "top_brand": "rove",
+    "top_brand_share": 0.14,
+    "sales_floor_usd_month": 7875284,
+    "leader": {
+     "title": "ROVE R2-4K Dual Dash Cam Front and Rear, STARVIS 2 Sensor, Free 128GB Card",
+     "price": 149.99,
+     "units": 8000,
+     "reviews": 15000,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B0D6J5B98H",
+     "asin": "B0D6J5B98H",
+     "image_url": "https://m.media-amazon.com/images/I/81ockFWJLsL._AC_UY218_.jpg",
+     "bsr": "#248 in Electronics ( See Top 100 in Electronics )"
+    },
+    "top3": [
+     {
+      "title": "ROVE R2-4K Dual Dash Cam Front and Rear, STARVIS 2 Sensor, Free 128GB Card",
+      "price": 149.99,
+      "units": 8000,
+      "reviews": 15000,
+      "url": "https://www.amazon.com/dp/B0D6J5B98H",
+      "asin": "B0D6J5B98H"
+     },
+     {
+      "title": "4K Dash Cam Front, 5GHz WiFi, 32GB Card Included, Mini Dashcam",
+      "price": 55.99,
+      "units": 5000,
+      "reviews": 1700,
+      "url": "https://www.amazon.com/dp/B0F1N2HHKP",
+      "asin": "B0F1N2HHKP"
+     },
+     {
+      "title": "WOLFBOX G840S 12\" 4K Mirror Dash Cam Backup Camera with 32GB Card and GPS",
+      "price": 139.99,
+      "units": 4000,
+      "reviews": 15000,
+      "url": "https://www.amazon.com/dp/B0811Q28N6",
+      "asin": "B0811Q28N6"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 109.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 27.5,
+    "factory_cost_high": 72.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba listings for 4K front+rear dash cams: mini dual 4K $35 (1-499 pcs) to $27.50 (2,000+), alibaba.fr/product-detail/2-Inch-Mini-Dual-Front-and_1601561098391.html; dual 4K+2K GPS $38.70-42.30 MOQ 1, alibaba.com/product-detail/_1600663711823.html; ETH-rear model ~$69-72, alibaba.fr/product-detail/Dual-Car-Dashcam-Front-and-ETH_1601404462119.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": [
+     1.45,
+     3.64,
+     2.5
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0D6J5B98H: dims_raw='1.45\"D x 3.64\"W x 2.5\"H', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1 to 100 pcs (listing snippets)",
+    "sample_price": "~$35-45 single unit (MOQ-1 listings)",
+    "small_batch_feasible": "maybe",
+    "certifications": "FCC Part 15 (Wi-Fi radio needs FCC ID), UN38.3 if Li-ion (many use supercapacitors); app/firmware support burden",
+    "ip_flags": "Trademark only (Rove, Vantrue, VIOFO). No patent flag found in top titles."
+   },
+   "virality": {
+    "yt_keyword": "best dash cam",
+    "yt_views_top10": 7147594,
+    "yt_max": 2027871,
+    "yt_shorts": 0,
+    "yt_recent_12m": 10,
+    "yt_top_title": "Please Stop WASTING Money on CRAPPY Dashcams",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 30,
+    "foreplay_ads": 2,
+    "foreplay_examples": [
+     "Redtiger Dash Cam 30d live https://app.foreplay.co/discovery?ad=tr62Kp6f19nniP8YlbSo"
+    ],
+    "foreplay_note": "min-150 query returned an unrelated Rossmonster ad",
+    "tiktok_evidence": "ROVE R2-4K TikTok Shop listing shows 7,500+ sold (seller-reported, undated): tiktokshop.com/pdp/rove-r2-4k-dash-cam-with-4k-ultra-hd-gps-wi-fi-6-night-vision/1729410325836108646; News12 reported demand surge after a viral insurance-scam TikTok.",
+    "demo_score": 3,
+    "demo_note": "Benefit shown through captured road footage (crash/scam clips) rather than the product itself; strong hook but not a 3-second product transformation."
+   },
+   "seasonality": {
+    "keyword": "dash cam",
+    "avg_monthly_volume": 135000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 165000
+     },
+     {
+      "month": "2025-12",
+      "volume": 201000
+     },
+     {
+      "month": "2026-01",
+      "volume": 135000
+     },
+     {
+      "month": "2026-02",
+      "volume": 110000
+     },
+     {
+      "month": "2026-03",
+      "volume": 110000
+     },
+     {
+      "month": "2026-04",
+      "volume": 110000
+     },
+     {
+      "month": "2026-05",
+      "volume": 110000
+     },
+     {
+      "month": "2026-06",
+      "volume": 110000
+     },
+     {
+      "month": "2026-07",
+      "volume": 110000
+     },
+     {
+      "month": "2026-08",
+      "volume": 110000
+     },
+     {
+      "month": "2026-09",
+      "volume": 110000
+     },
+     {
+      "month": "2026-10",
+      "volume": 135000
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.83,
+    "jan_vs_avg": 1.07,
+    "trend_12m_pct": -29.1,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "microSD card replacement (high-endurance) and hardwire kit add-on",
+    "price": 15,
+    "cadence": "card every 1-2 years (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: electronics/FCC, returns)",
+   "notes": "Highest sales floor among passing types; electronics returns/tech support risk; Amazon median $110 leaves room for a kit (cam + 128GB card + hardwire kit + CPL).",
+   "photo": "photos/outdoor-01.jpg"
+  },
+  {
+   "rank": 2,
+   "type": "portable tire inflator",
+   "amazon": {
+    "units_month": 187400,
+    "bands": {
+     "<20": 10850,
+     "20-40": 129950,
+     "40-80": 37150,
+     "80-130": 9350,
+     "130+": 0
+    },
+    "median_price": 39.99,
+    "listings_100plus": 48,
+    "listings_total": 59,
+    "top_brand": "astroai",
+    "top_brand_share": 0.378,
+    "sales_floor_usd_month": 7494126,
+    "leader": {
+     "title": "AstroAI L7 Tire Inflator Portable Air Compressor,150 PSI Cordless Bike Pump",
+     "price": 21.83,
+     "units": 40000,
+     "reviews": 20800,
+     "rating": 4.3,
+     "url": "https://www.amazon.com/dp/B0CS3B7MD8",
+     "asin": "B0CS3B7MD8",
+     "image_url": "https://m.media-amazon.com/images/I/71E8Cc-0ctL._AC_UL320_.jpg",
+     "bsr": "#13 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "AstroAI L7 Tire Inflator Portable Air Compressor,150 PSI Cordless Bike Pump",
+      "price": 21.83,
+      "units": 40000,
+      "reviews": 20800,
+      "url": "https://www.amazon.com/dp/B0CS3B7MD8",
+      "asin": "B0CS3B7MD8"
+     },
+     {
+      "title": "OlarHike Tire Inflator Portable Air Compressor,Dual Power-3*2000mAh &12V DC",
+      "price": 29.99,
+      "units": 30000,
+      "reviews": 7600,
+      "url": "https://www.amazon.com/dp/B0FDWMP57L",
+      "asin": "B0FDWMP57L"
+     },
+     {
+      "title": "AstroAI AIRUN H Tire Inflator Portable Air Compressor, 12V DC Tire Inflator, Auto Shut-Off with Digital Pressure Gauge & LED Light, Fast Inflation for Car, Motorcycle, Bike Tires, 9.8Ft Cord, Yellow",
+      "price": 30.39,
+      "units": 10000,
+      "reviews": 107300,
+      "url": "https://www.amazon.com/dp/B07QR4Q42L",
+      "asin": "B07QR4Q42L"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 39.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 7.5,
+    "factory_cost_high": 12.55,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba cordless mini inflator ATJ-8466 $9.00 (10-99 pcs) to $7.50 (5,000+); 3600mAh wireless model $12.55 (10-499 pcs): alibaba.com/product-introduction/Automatic-Rechargeable-Mini-Wireless-Portable-Cordless_1600655140337.html, alibaba.co.uk/product-detail/Mini-Wireless-Electric-Portable-Rechargeable-Car_1601522016636.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check; a Spocket listing exists for a 120W inflator (origin not shown): spocket.co/dropship/categories/automotive/compact-120w-electric-tire-inflator-portable-air-compresor"
+    },
+    "weight_lb": 0.96,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0CS3B7MD8: dims_raw='None', weight_raw='15.36 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "10 pcs (listing)",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "FCC Part 15B, UN38.3 + MSDS for Li-ion pack; air-shipping a batch needs DG-capable forwarder",
+    "ip_flags": "No patent flag in top titles; AstroAI/Fanttik trademarks."
+   },
+   "virality": {
+    "yt_keyword": "portable tire inflator",
+    "yt_views_top10": 2961361,
+    "yt_max": 1042637,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Amazon Tire Inflators SCAM Exposed",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 0,
+    "foreplay_ads": 0,
+    "foreplay_examples": [
+     "VEVOR tire bead seater (adjacent, not an inflator) 66d https://app.foreplay.co/discovery?ad=xXGVY6TjqSfUkzf9UKOQ"
+    ],
+    "foreplay_note": "no relevant inflator ad in 2 results",
+    "tiktok_evidence": "Rhino USA 150 PSI inflator TikTok Shop listing 1.9K sold (tiktokshop.com/pdp/air-compressor-by-rhino-usa-150-psi-portable-tire-inflator/1730072299180101716); EchoTik reported Fanttik (inflators among products) in TikTok Shop US weekly top 4.",
+    "demo_score": 4,
+    "demo_note": "Flat tire to target PSI with auto shut-off on a digital screen is clear in seconds."
+   },
+   "seasonality": {
+    "keyword": "tire inflator",
+    "avg_monthly_volume": 33100,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 60500
+     },
+     {
+      "month": "2026-01",
+      "volume": 40500
+     },
+     {
+      "month": "2026-02",
+      "volume": 27100
+     },
+     {
+      "month": "2026-03",
+      "volume": 27100
+     },
+     {
+      "month": "2026-04",
+      "volume": 27100
+     },
+     {
+      "month": "2026-05",
+      "volume": 27100
+     },
+     {
+      "month": "2026-06",
+      "volume": 27100
+     },
+     {
+      "month": "2026-07",
+      "volume": 27100
+     },
+     {
+      "month": "2026-08",
+      "volume": 27100
+     },
+     {
+      "month": "2026-09",
+      "volume": 27100
+     },
+     {
+      "month": "2026-10",
+      "volume": 40500
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 2.23,
+    "jan_vs_avg": 1.19,
+    "trend_12m_pct": -37.1,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "tire plug repair kit / gauge add-on (consumable plugs)",
+    "price": 12,
+    "cadence": "occasional (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: lithium pack)",
+   "notes": "Lithium flag (brief). Core of a 'car emergency kit' bundle (inflator + gauge + plug kit + light).",
+   "photo": "photos/outdoor-02.jpg"
+  },
+  {
+   "rank": 3,
+   "type": "car vacuum",
+   "amazon": {
+    "units_month": 169850,
+    "bands": {
+     "<20": 8600,
+     "20-40": 79000,
+     "40-80": 59500,
+     "80-130": 7550,
+     "130+": 15000
+    },
+    "median_price": 39.99,
+    "listings_100plus": 49,
+    "listings_total": 56,
+    "top_brand": "black+decker",
+    "top_brand_share": 0.371,
+    "sales_floor_usd_month": 6792302,
+    "leader": {
+     "title": "BLACK+DECKER dustbuster Cordless Handheld Vacuum, Portable Car Vacuum Cordless Rechargeable, Wall Mount, Strong Suction QuickClean (HNVC215B10)",
+     "price": 32.99,
+     "units": 30000,
+     "reviews": 49600,
+     "rating": 4.3,
+     "url": "https://www.amazon.com/dp/B07KG2X2GZ",
+     "asin": "B07KG2X2GZ",
+     "image_url": "https://m.media-amazon.com/images/I/51O-5anSyWL._AC_UY218_.jpg",
+     "bsr": "#846 in Home & Kitchen ( See Top 100 in Home & Kitchen )"
+    },
+    "top3": [
+     {
+      "title": "BLACK+DECKER dustbuster Cordless Handheld Vacuum, Portable Car Vacuum Cordless Rechargeable, Wall Mount, Strong Suction QuickClean (HNVC215B10)",
+      "price": 32.99,
+      "units": 30000,
+      "reviews": 49600,
+      "url": "https://www.amazon.com/dp/B07KG2X2GZ",
+      "asin": "B07KG2X2GZ"
+     },
+     {
+      "title": "BLACK+DECKER dustbuster AdvancedClean Handheld Vacuum Cordless, Compact Home and Car Vacuum with Crevice Tool, Rotating Nozzle and Charging Station, Large Dust Bowl (CHV1410L)",
+      "price": 49.99,
+      "units": 20000,
+      "reviews": 112200,
+      "url": "https://www.amazon.com/dp/B006LXOJC0",
+      "asin": "B006LXOJC0"
+     },
+     {
+      "title": "KMM Handheld Car Vacuum Cleaner, Hand Held Vacuum Cleaner and Air Duster",
+      "price": 22.42,
+      "units": 10000,
+      "reviews": 12600,
+      "url": "https://www.amazon.com/dp/B0BYD5XB67",
+      "asin": "B0BYD5XB67"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 39.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 3.9,
+    "factory_cost_high": 11.9,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba cordless car vacuums $3.90-5.20 (MOQ 20) up to $9.90-11.90 (MOQ 100 sets); $5.80-6.50 at MOQ 1 (search snippet summary of alibaba.com/product-detail/_1601062821594.html, _1601045252115.html and similar). Brushless 'Fanttik-class' units likely higher (UNKNOWN).",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 1.4,
+    "dims_in": [
+     17.1,
+     4.5,
+     5.5
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B07KG2X2GZ: dims_raw='17.1\"L x 4.5\"W x 5.5\"H', weight_raw='1.4 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1 to 2,000 pcs depending on listing",
+    "sample_price": "~$6-20 (one Ionvac-style sample listed at $20)",
+    "small_batch_feasible": "yes",
+    "certifications": "FCC Part 15B, UN38.3 for Li-ion; Amazon may ask for UL/ETL on charger",
+    "ip_flags": "BLACK+DECKER/Dyson/Fanttik trademarks; no patent flag in top titles."
+   },
+   "virality": {
+    "yt_keyword": "car vacuum cordless",
+    "yt_views_top10": 1314107,
+    "yt_max": 872288,
+    "yt_shorts": 0,
+    "yt_recent_12m": 8,
+    "yt_top_title": "Don\u2019t Buy a Handheld Cordless Vacuum Until You See This Test!",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 171,
+    "foreplay_ads": 3,
+    "foreplay_examples": [
+     "Choosemuc wireless car vacuum 171d live https://app.foreplay.co/discovery?ad=ro1vr2eAlBief12FYGhn",
+     "Buyistry amazon car gadgets 83d live https://app.foreplay.co/discovery?ad=sIhSWueHL6BaHnZigUyb"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "Buzzfeed 'TikTok made me buy it' car lists include car vacuums; Yahoo tested viral Airify/Fanttik car vacuums (au.lifestyle.yahoo.com/the-viral-airify-and-fanttik-car-vacuums-disappointed--heres-what-id-buy-instead-193028304.html). Foreplay: Choosemuc car-vacuum ad live 171 days.",
+    "demo_score": 4,
+    "demo_note": "Crumbs/sand/pet hair vanish from seat seams: before/after in 3 seconds."
+   },
+   "seasonality": {
+    "keyword": "car vacuum",
+    "avg_monthly_volume": 40500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 60500
+     },
+     {
+      "month": "2026-01",
+      "volume": 33100
+     },
+     {
+      "month": "2026-02",
+      "volume": 33100
+     },
+     {
+      "month": "2026-03",
+      "volume": 49500
+     },
+     {
+      "month": "2026-04",
+      "volume": 40500
+     },
+     {
+      "month": "2026-05",
+      "volume": 40500
+     },
+     {
+      "month": "2026-06",
+      "volume": 40500
+     },
+     {
+      "month": "2026-07",
+      "volume": 40500
+     },
+     {
+      "month": "2026-08",
+      "volume": 40500
+     },
+     {
+      "month": "2026-09",
+      "volume": 40500
+     },
+     {
+      "month": "2026-10",
+      "volume": 49500
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Jan 2026",
+    "peak_trough_ratio": 1.83,
+    "jan_vs_avg": 0.77,
+    "trend_12m_pct": -8.8,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "HEPA filter replacements",
+    "price": 10,
+    "cadence": "every 3-6 months (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: lithium pack)",
+   "notes": "Branded leaders (BLACK+DECKER dustbuster) hold the top units; 'car vacuum + air duster' 2-in-1s are rising (WOLFBOX MF60 30k/mo, classified separately). Lithium flag.",
+   "photo": "photos/outdoor-03.jpg"
+  },
+  {
+   "rank": 4,
+   "type": "rechargeable headlamp",
+   "amazon": {
+    "units_month": 226750,
+    "bands": {
+     "<20": 144800,
+     "20-40": 70400,
+     "40-80": 9800,
+     "80-130": 1600,
+     "130+": 0
+    },
+    "median_price": 25.95,
+    "listings_100plus": 67,
+    "listings_total": 77,
+    "top_brand": "lhknl",
+    "top_brand_share": 0.321,
+    "sales_floor_usd_month": 5884162,
+    "leader": {
+     "title": "LHKNL Headlamp Flashlight, Lumen Bright Head Lamps LED Rechargeable Camping",
+     "price": 19.99,
+     "units": 70000,
+     "reviews": 37900,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B08D66HCXW",
+     "asin": "B08D66HCXW",
+     "image_url": "https://m.media-amazon.com/images/I/71DxWxvCwlL._AC_UL320_.jpg",
+     "bsr": "#6 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "LHKNL Headlamp Flashlight, Lumen Bright Head Lamps LED Rechargeable Camping",
+      "price": 19.99,
+      "units": 70000,
+      "reviews": 37900,
+      "url": "https://www.amazon.com/dp/B08D66HCXW",
+      "asin": "B08D66HCXW"
+     },
+     {
+      "title": "Headlamp Rechargeable, 230\u00b0 Wide Beam Head Lamp LED with Motion Sensor for Adults - Camping Accessories Gear, Waterproof Head Light Flashlight for Hiking, Running, Repairing, Fishing, Cycling",
+      "price": 13.99,
+      "units": 20000,
+      "reviews": 17700,
+      "url": "https://www.amazon.com/dp/B0B4KJ3MWK",
+      "asin": "B0B4KJ3MWK"
+     },
+     {
+      "title": "Headlamp Rechargeable 2PCS, 230\u00b0 Wide Beam Head Lamp LED with Motion Sensor for Adults - Camping Accessories Gear, Waterproof Head Light Flashlight for Hiking, Running, Repairing, Fishing, Cycling",
+      "price": 24.99,
+      "units": 10000,
+      "reviews": 17700,
+      "url": "https://www.amazon.com/dp/B0B4KK73NB",
+      "asin": "B0B4KK73NB"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 25.95,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 1.9,
+    "factory_cost_high": 3.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: 230-degree 350lm motion-sensor headlamp $1.90-2.50 (china.org.ru/product/1600943703376, mirror of Alibaba listing); generic USB headlamp $2.90-3.00 MOQ 2,000 (alibaba.com/discover/projection-headlamp.html)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.12,
+    "dims_in": [
+     1.5,
+     2.35,
+     1.75
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B08D66HCXW: dims_raw='1.5\"D x 2.35\"W x 1.75\"H', weight_raw='1.87 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2,000 pcs for the $2.90 listing; others not shown",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "yes",
+    "certifications": "UN38.3 small Li-ion cell (PI 967 Section II small-cell rules), FCC Part 15B",
+    "ip_flags": "One 'patented 210-degree lens' listing (Orbit); generic 230-degree COB band design widely copied: check before shortlisting."
+   },
+   "virality": {
+    "yt_keyword": "rechargeable headlamp",
+    "yt_views_top10": 1316439,
+    "yt_max": 1099063,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "Best Headlamp? Let's Find Out!",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 60,
+    "foreplay_ads": 2,
+    "foreplay_examples": [
+     "WUBEN E7 headlamp 60d live https://app.foreplay.co/discovery?ad=yzpfmM7Ex8qb3so2zMWX"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "No specific viral headlamp found; motion-sensor 230-degree headlamps sold widely (BGR/Buzzfeed gadget lists).",
+    "demo_score": 3,
+    "demo_note": "Wave-to-turn-on motion sensor and 230-degree wide beam are visible instantly in the dark."
+   },
+   "seasonality": {
+    "keyword": "headlamp",
+    "avg_monthly_volume": 33100,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 74000
+     },
+     {
+      "month": "2025-12",
+      "volume": 49500
+     },
+     {
+      "month": "2026-01",
+      "volume": 33100
+     },
+     {
+      "month": "2026-02",
+      "volume": 22200
+     },
+     {
+      "month": "2026-03",
+      "volume": 27100
+     },
+     {
+      "month": "2026-04",
+      "volume": 22200
+     },
+     {
+      "month": "2026-05",
+      "volume": 22200
+     },
+     {
+      "month": "2026-06",
+      "volume": 27100
+     },
+     {
+      "month": "2026-07",
+      "volume": 27100
+     },
+     {
+      "month": "2026-08",
+      "volume": 33100
+     },
+     {
+      "month": "2026-09",
+      "volume": 33100
+     },
+     {
+      "month": "2026-10",
+      "volume": 49500
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 3.33,
+    "jan_vs_avg": 0.95,
+    "trend_12m_pct": -26.1,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none (rechargeable)",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: small lithium cell)",
+   "notes": "Huge units (227k/mo) but low price ($26 median, multipacks); premium story hard. Kit fit: camping/car emergency kits.",
+   "photo": "photos/outdoor-04.jpg"
+  },
+  {
+   "rank": 5,
+   "type": "massage gun",
+   "amazon": {
+    "units_month": 103900,
+    "bands": {
+     "<20": 7650,
+     "20-40": 64450,
+     "40-80": 15050,
+     "80-130": 7500,
+     "130+": 9250
+    },
+    "median_price": 49.99,
+    "listings_100plus": 51,
+    "listings_total": 63,
+    "top_brand": "toloco",
+    "top_brand_share": 0.321,
+    "sales_floor_usd_month": 5193961,
+    "leader": {
+     "title": "TOLOCO Massage Gun, Christmas Ideal Gifts for Women Men, Deep Tissue Back Massage for Athletes for Pain Relief, Percussion Massager with 10 Massage Heads & Silent Brushless Motor, Black",
+     "price": 39.99,
+     "units": 20000,
+     "reviews": 62500,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B083L8RNJR",
+     "asin": "B083L8RNJR",
+     "image_url": "https://m.media-amazon.com/images/I/71Jot9nj6qL._AC_UL320_.jpg",
+     "bsr": "#630 in Health & Household ( See Top 100 in Health & Household )  #1 in Electric Back Massagers"
+    },
+    "top3": [
+     {
+      "title": "TOLOCO Massage Gun, Christmas Ideal Gifts for Women Men, Deep Tissue Back Massage for Athletes for Pain Relief, Percussion Massager with 10 Massage Heads & Silent Brushless Motor, Black",
+      "price": 39.99,
+      "units": 20000,
+      "reviews": 62500,
+      "url": "https://www.amazon.com/dp/B083L8RNJR",
+      "asin": "B083L8RNJR"
+     },
+     {
+      "title": "Massage Gun with Heat Massager Deep Tissue Muscle Massager Gifts for Men",
+      "price": 39.99,
+      "units": 10000,
+      "reviews": 21600,
+      "url": "https://www.amazon.com/dp/B0DB86TWRJ",
+      "asin": "B0DB86TWRJ"
+     },
+     {
+      "title": "Elefor Massage Gun Deep Tissue,Percussion Back Massager Gun for Athletes Muscle Massage Gun for Pain Relief with 8 Massage Heads & 20 Speeds (Matte Black)",
+      "price": 26.99,
+      "units": 8000,
+      "reviews": 23300,
+      "url": "https://www.amazon.com/dp/B09JBCSC7H",
+      "asin": "B09JBCSC7H"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 49.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 6.65,
+    "factory_cost_high": 30.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Global Sources massage guns $6.65-30/pc, MOQ 1-2,000 (globalsources.com/category/massage-guns-for-sale-price_50938/); Shenzhen Cherigion $6.90-9.50 MOQ 100; Kingstar MOQ 50 $15.99-26.59",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 1.95,
+    "dims_in": [
+     9.8,
+     3.94,
+     7.87
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B083L8RNJR: dims_raw='9.8 x 3.94 x 7.87 inches; 1.95 pounds', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "50 to 2,000 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "FCC Part 15B, UN38.3; marketing must avoid health/therapy claims (brief excludes health claims)",
+    "ip_flags": "Theragun/Hyperice designs and trademarks; check mini-gun designs."
+   },
+   "virality": {
+    "yt_keyword": "massage gun",
+    "yt_views_top10": 7330253,
+    "yt_max": 2837751,
+    "yt_shorts": 4,
+    "yt_recent_12m": 3,
+    "yt_top_title": "Why you should NEVER massage gun your neck!",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 0,
+    "foreplay_ads": 0,
+    "foreplay_examples": [],
+    "foreplay_note": "3 results were recovery sleeve, tendinopathy, weighted vest ads: none relevant",
+    "tiktok_evidence": "TikTok Shop listings small (14-151 sold per listing per search snapshot); no strong viral seller found. Foreplay: no relevant long-running ad in 3 results.",
+    "demo_score": 3,
+    "demo_note": "Slow-mo muscle ripple is eye-catching but drifts toward health claims."
+   },
+   "seasonality": {
+    "keyword": "massage gun",
+    "avg_monthly_volume": 135000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 201000
+     },
+     {
+      "month": "2025-12",
+      "volume": 301000
+     },
+     {
+      "month": "2026-01",
+      "volume": 110000
+     },
+     {
+      "month": "2026-02",
+      "volume": 110000
+     },
+     {
+      "month": "2026-03",
+      "volume": 110000
+     },
+     {
+      "month": "2026-04",
+      "volume": 110000
+     },
+     {
+      "month": "2026-05",
+      "volume": 90500
+     },
+     {
+      "month": "2026-06",
+      "volume": 90500
+     },
+     {
+      "month": "2026-07",
+      "volume": 90500
+     },
+     {
+      "month": "2026-08",
+      "volume": 90500
+     },
+     {
+      "month": "2026-09",
+      "volume": 90500
+     },
+     {
+      "month": "2026-10",
+      "volume": 90500
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "May 2026",
+    "peak_trough_ratio": 3.33,
+    "jan_vs_avg": 0.89,
+    "trend_12m_pct": -55.6,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement heads",
+    "price": 10,
+    "cadence": "rare (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flags: lithium; health-claim risk)",
+   "notes": "Health-claim and lithium flags; search trend -56% (window artifact partly). Lower priority.",
+   "photo": "photos/outdoor-05.jpg"
+  },
+  {
+   "rank": 6,
+   "type": "resistance bands",
+   "amazon": {
+    "units_month": 207150,
+    "bands": {
+     "<20": 149800,
+     "20-40": 54950,
+     "40-80": 2250,
+     "80-130": 100,
+     "130+": 0
+    },
+    "median_price": 21.99,
+    "listings_100plus": 89,
+    "listings_total": 143,
+    "top_brand": "resistance",
+    "top_brand_share": 0.431,
+    "sales_floor_usd_month": 4555228,
+    "leader": {
+     "title": "Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
+     "price": 8.48,
+     "units": 20000,
+     "reviews": 137500,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B01AVDVHTI",
+     "asin": "B01AVDVHTI",
+     "image_url": "https://m.media-amazon.com/images/I/71S4-NjoTDL._AC_UL320_.jpg",
+     "bsr": "#21 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
+      "price": 8.48,
+      "units": 20000,
+      "reviews": 137500,
+      "url": "https://www.amazon.com/dp/B01AVDVHTI",
+      "asin": "B01AVDVHTI"
+     },
+     {
+      "title": "Resistance Bands for Working Out, Physical Therapy, Exercise, Pilates, Yoga",
+      "price": 11.99,
+      "units": 20000,
+      "reviews": 8100,
+      "url": "https://www.amazon.com/dp/B0C5M1YDKQ",
+      "asin": "B0C5M1YDKQ"
+     },
+     {
+      "title": "Resistance Bands Exercise Bands Set, 5-Levels for Home Gym, Yoga & Pilates",
+      "price": 7.98,
+      "units": 10000,
+      "reviews": 28200,
+      "url": "https://www.amazon.com/dp/B08DLXZKF7",
+      "asin": "B08DLXZKF7"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 21.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.75,
+    "factory_cost_high": 3.3,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba fabric loop band sets $0.75-1.15/pc MOQ 100 (LADYGLOW), Jinhua Youfei booty set $2.88-3.30 MOQ 2 sets, Boer Gym 5-pc set $1.20-1.40 MOQ 10: alibaba.com/discover/resistence-loop-bands.html, alibaba.com/product-introduction/Low-MOQ-Factory-Price-Custom-Color_62413720859.html",
+    "us_dropship": {
+     "exists": "yes",
+     "price": "UNKNOWN",
+     "source": "Doba lists a 5-pack band set with US warehouse origin, avg 4.23 days domestic delivery (price not shown): doba.com/product/NJFHQYcUbCVa/...; Spocket band bundles exist (spocket.co/dropship/sports-outdoors/muscle-recovery-3-pack-resistance-band-bundle)"
+    },
+    "weight_lb": 0.22,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B01AVDVHTI: dims_raw='12\"L x 3\"W', weight_raw='3.5 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2 sets to 100 pcs; logo 500 pcs",
+    "sample_price": "~$3",
+    "small_batch_feasible": "yes",
+    "certifications": "Latex allergy warning if latex; Prop 65 labeling",
+    "ip_flags": "Bodylastics 'patented' snap-reduction tube sets: avoid that design."
+   },
+   "virality": {
+    "yt_keyword": "resistance bands workout",
+    "yt_views_top10": 23883707,
+    "yt_max": 6345095,
+    "yt_shorts": 0,
+    "yt_recent_12m": 0,
+    "yt_top_title": "30 Minute Full Body Resistance Band Workout - Exercise Band Workouts for Women & Men",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 60,
+    "foreplay_ads": 1,
+    "foreplay_examples": [
+     "Home Pro Gym resistance bands set 60d live https://app.foreplay.co/discovery?ad=pi5K6UIctIAAZomWTXlm"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "TikTok Shop pedal resistance trainer listing 45.0K sold; figure-8 bands 1.7K sold (seller-reported, undated).",
+    "demo_score": 2,
+    "demo_note": "Workout demo, no instant transformation."
+   },
+   "seasonality": {
+    "keyword": "resistance bands",
+    "avg_monthly_volume": 74000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 60500
+     },
+     {
+      "month": "2025-12",
+      "volume": 74000
+     },
+     {
+      "month": "2026-01",
+      "volume": 90500
+     },
+     {
+      "month": "2026-02",
+      "volume": 74000
+     },
+     {
+      "month": "2026-03",
+      "volume": 74000
+     },
+     {
+      "month": "2026-04",
+      "volume": 74000
+     },
+     {
+      "month": "2026-05",
+      "volume": 74000
+     },
+     {
+      "month": "2026-06",
+      "volume": 74000
+     },
+     {
+      "month": "2026-07",
+      "volume": 74000
+     },
+     {
+      "month": "2026-08",
+      "volume": 90500
+     },
+     {
+      "month": "2026-09",
+      "volume": 74000
+     },
+     {
+      "month": "2026-10",
+      "volume": 90500
+     }
+    ],
+    "peak_month": "Jan 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 1.18,
+    "trend_12m_pct": 13.3,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement bands / add-on handles, door anchor",
+    "price": 15,
+    "cadence": "yearly (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Very cheap to source and light; price competition intense ($22 median). Kit-friendly (bands + door anchor + handles + app/program).",
+   "photo": "photos/outdoor-06.jpg"
+  },
+  {
+   "rank": 7,
+   "type": "insulated water bottle / tumbler",
+   "amazon": {
+    "units_month": 160450,
+    "bands": {
+     "<20": 40450,
+     "20-40": 112500,
+     "40-80": 2500,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 26.99,
+    "listings_100plus": 61,
+    "listings_total": 77,
+    "top_brand": "owala",
+    "top_brand_share": 0.511,
+    "sales_floor_usd_month": 4330546,
+    "leader": {
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+     "price": 29.99,
+     "units": 10000,
+     "reviews": 145700,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B0BZYCJK89",
+     "asin": "B0BZYCJK89",
+     "image_url": "https://m.media-amazon.com/images/I/61Gvw0-b0eL._AC_UL320_.jpg",
+     "bsr": "#1 in Kitchen & Dining ( See Top 100 in Kitchen & Dining )"
+    },
+    "top3": [
+     {
+      "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+      "price": 29.99,
+      "units": 10000,
+      "reviews": 145700,
+      "url": "https://www.amazon.com/dp/B0BZYCJK89",
+      "asin": "B0BZYCJK89"
+     },
+     {
+      "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Shy Marshmallow",
+      "price": 29.99,
+      "units": 10000,
+      "reviews": 145700,
+      "url": "https://www.amazon.com/dp/B085DV8T75",
+      "asin": "B085DV8T75"
+     },
+     {
+      "title": "Owala FreeSip Stainless Steel Water Bottle 32 oz Very, Very Dark",
+      "price": 34.97,
+      "units": 10000,
+      "reviews": 145700,
+      "url": "https://www.amazon.com/dp/B085DVHQ57",
+      "asin": "B085DVHQ57"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 26.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.8,
+    "factory_cost_high": 8.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Everich 32oz Keep Cold bottle $3.20 (2-999 pcs) to $3.05 (3,000+), alibaba.com/product-introduction/Keep-Cold-24H-Custom-Logo-Double_1600247542501.html; Ningbo 32oz $5.50-8 MOQ 10",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.88,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0BZYCJK89: dims_raw='3.24\"W x 10.68\"H', weight_raw='0.4 kg' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2 to 500 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "FDA food-contact (21 CFR) materials, Prop 65 (lead in vacuum seal dot), BPA-free lids",
+    "ip_flags": "Owala FreeSip lid is patented/trademarked; Stanley/Owala dominate (top brand share 0.51)."
+   },
+   "virality": {
+    "yt_keyword": "insulated water bottle",
+    "yt_views_top10": 7116318,
+    "yt_max": 3669274,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Best Insulated Water Bottle? Yeti vs Hydro Flask vs 12 Other Brands!  Let's find out!",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 66,
+    "foreplay_ads": 1,
+    "foreplay_examples": [
+     "Bentgo Lift chug-lid bottle 66d https://app.foreplay.co/discovery?ad=cbmkWYgKCr9r3wcl6mzv"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "Owala/Stanley TikTok trend is brand-driven; not searched further.",
+    "demo_score": 2,
+    "demo_note": "Ice-still-there test; brand-led category."
+   },
+   "seasonality": {
+    "keyword": "insulated water bottle",
+    "avg_monthly_volume": 40500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 165000
+     },
+     {
+      "month": "2025-12",
+      "volume": 110000
+     },
+     {
+      "month": "2026-01",
+      "volume": 49500
+     },
+     {
+      "month": "2026-02",
+      "volume": 22200
+     },
+     {
+      "month": "2026-03",
+      "volume": 33100
+     },
+     {
+      "month": "2026-04",
+      "volume": 22200
+     },
+     {
+      "month": "2026-05",
+      "volume": 27100
+     },
+     {
+      "month": "2026-06",
+      "volume": 22200
+     },
+     {
+      "month": "2026-07",
+      "volume": 22200
+     },
+     {
+      "month": "2026-08",
+      "volume": 33100
+     },
+     {
+      "month": "2026-09",
+      "volume": 14800
+     },
+     {
+      "month": "2026-10",
+      "volume": 14800
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Sep 2026",
+    "peak_trough_ratio": 11.15,
+    "jan_vs_avg": 1.11,
+    "trend_12m_pct": -80.7,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement lids/straws",
+    "price": 10,
+    "cadence": "6-12 months (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: brand-dominated, Owala FreeSip lid IP)",
+   "notes": "Brand-dominated (Owala ~half of units); search trend -81% because Nov 2025 spike. Not a fit for an unknown brand.",
+   "photo": "photos/outdoor-07.jpg"
+  },
+  {
+   "rank": 8,
+   "type": "camping lantern",
+   "amazon": {
+    "units_month": 136450,
+    "bands": {
+     "<20": 32300,
+     "20-40": 80650,
+     "40-80": 11000,
+     "80-130": 500,
+     "130+": 0
+    },
+    "median_price": 28.49,
+    "listings_100plus": 54,
+    "listings_total": 62,
+    "top_brand": "collapsible",
+    "top_brand_share": 0.154,
+    "sales_floor_usd_month": 3887460,
+    "leader": {
+     "title": "Collapsible Portable LED Camping Lantern XTAUTO Lightweight Waterproof Solar USB Rechargeable LED Flashlight Survival Kits for Indoor Outdoor Home Emergency Light Power Outages Hiking Hurricane 4-Pack",
+     "price": 37.99,
+     "units": 20000,
+     "reviews": 13000,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B0915B6X66",
+     "asin": "B0915B6X66",
+     "image_url": "https://m.media-amazon.com/images/I/71fAPuDi5lL._AC_UL320_.jpg",
+     "bsr": "#24 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Collapsible Portable LED Camping Lantern XTAUTO Lightweight Waterproof Solar USB Rechargeable LED Flashlight Survival Kits for Indoor Outdoor Home Emergency Light Power Outages Hiking Hurricane 4-Pack",
+      "price": 37.99,
+      "units": 20000,
+      "reviews": 13000,
+      "url": "https://www.amazon.com/dp/B0915B6X66",
+      "asin": "B0915B6X66"
+     },
+     {
+      "title": "Etekcity LED Camping Lanterns, Battery Operated, 2 Pack",
+      "price": null,
+      "units": 10000,
+      "reviews": 50200,
+      "url": "https://www.amazon.com/dp/B00XM8HTIS",
+      "asin": "B00XM8HTIS"
+     },
+     {
+      "title": "Lichamp LED Camping Lantern, 4 Pack Battery Powered Flashlight for Power Outages, Portable Collapsible Hanging Light Essential for Home, Outdoor, Emergency Lamp Survival Kit Gear for Hurricane, Gray",
+      "price": 32.99,
+      "units": 10000,
+      "reviews": 11000,
+      "url": "https://www.amazon.com/dp/B08WWX5GTZ",
+      "asin": "B08WWX5GTZ"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 28.49,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.0,
+    "factory_cost_high": 6.62,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba collapsible solar/USB lantern $6.62 (50-299) to $5.12 (1,000+); 36-LED rechargeable $3.75 (1,000+); emergency collapsible $1.99-2.35 MOQ 500: alibaba.com/product-detail/Solar-Camping-Lantern-Micro-USB-Rechargeable_1600573369724.html, alibaba.com/product-introduction/36-LED-Rechargeable-Camping-Lantern-with_62226586324.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": [
+     3.54,
+     3.54,
+     7.68
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0915B6X66: dims_raw='3.54\"L x 3.54\"W x 7.68\"H', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1 to 1,000 pcs",
+    "sample_price": "~$3-7",
+    "small_batch_feasible": "yes",
+    "certifications": "UN38.3 if rechargeable; FCC Part 15B",
+    "ip_flags": "No patent flag in top titles."
+   },
+   "virality": {
+    "yt_keyword": "camping lantern",
+    "yt_views_top10": 313248,
+    "yt_max": 147283,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "REI Co-op Gear Guide: Best Camping Lanterns",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 67,
+    "foreplay_ads": 2,
+    "foreplay_examples": [
+     "Flextail Zero Lantern 67d live https://app.foreplay.co/discovery?ad=DeYE4XMfcYtfwKigAxXO"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "No TikTok-specific evidence found. Foreplay: Flextail Zero Lantern ads live 67 days.",
+    "demo_score": 3,
+    "demo_note": "Collapsible pop-up lantern lighting a dark tent; decent visual."
+   },
+   "seasonality": {
+    "keyword": "camping lantern",
+    "avg_monthly_volume": 8100,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 6600
+     },
+     {
+      "month": "2025-12",
+      "volume": 6600
+     },
+     {
+      "month": "2026-01",
+      "volume": 14800
+     },
+     {
+      "month": "2026-02",
+      "volume": 5400
+     },
+     {
+      "month": "2026-03",
+      "volume": 6600
+     },
+     {
+      "month": "2026-04",
+      "volume": 6600
+     },
+     {
+      "month": "2026-05",
+      "volume": 8100
+     },
+     {
+      "month": "2026-06",
+      "volume": 8100
+     },
+     {
+      "month": "2026-07",
+      "volume": 8100
+     },
+     {
+      "month": "2026-08",
+      "volume": 8100
+     },
+     {
+      "month": "2026-09",
+      "volume": 8100
+     },
+     {
+      "month": "2026-10",
+      "volume": 8100
+     }
+    ],
+    "peak_month": "Jan 2026",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 2.74,
+    "jan_vs_avg": 1.87,
+    "trend_12m_pct": -13.2,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Units 136k/mo but $28 median; good kit component (power outage / camping kit).",
+   "photo": "photos/outdoor-08.jpg"
+  },
+  {
+   "rank": 9,
+   "type": "car seat cushion",
+   "amazon": {
+    "units_month": 110650,
+    "bands": {
+     "<20": 26600,
+     "20-40": 54350,
+     "40-80": 28700,
+     "80-130": 1000,
+     "130+": 0
+    },
+    "median_price": 32.99,
+    "listings_100plus": 63,
+    "listings_total": 84,
+    "top_brand": "seat",
+    "top_brand_share": 0.233,
+    "sales_floor_usd_month": 3650344,
+    "leader": {
+     "title": "Everlasting Comfort Doctor Recommended Memory Foam Seat Cushion for Office Chairs & Car - Ergonomic Office Desk Accessories - Cushions for Tailbone Pain Relief, Sciatica (Black, Large)",
+     "price": 47.98,
+     "units": 10000,
+     "reviews": 106000,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B01EBDV9BU",
+     "asin": "B01EBDV9BU",
+     "image_url": "https://m.media-amazon.com/images/I/81y9bKjCpaL._AC_UL320_.jpg",
+     "bsr": "#166 in Office Products ( See Top 100 in Office Products )"
+    },
+    "top3": [
+     {
+      "title": "Everlasting Comfort Doctor Recommended Memory Foam Seat Cushion for Office Chairs & Car - Ergonomic Office Desk Accessories - Cushions for Tailbone Pain Relief, Sciatica (Black, Large)",
+      "price": 47.98,
+      "units": 10000,
+      "reviews": 106000,
+      "url": "https://www.amazon.com/dp/B01EBDV9BU",
+      "asin": "B01EBDV9BU"
+     },
+     {
+      "title": "Seat Cushion, Memory Foam Office Chair Cushion - Grey, Large",
+      "price": 21.99,
+      "units": 10000,
+      "reviews": 29700,
+      "url": "https://www.amazon.com/dp/B0B5SW6381",
+      "asin": "B0B5SW6381"
+     },
+     {
+      "title": "BlissTrends Memory Foam Seat Cushion for Car Seat & Office Chair, Black",
+      "price": 19.98,
+      "units": 10000,
+      "reviews": 9400,
+      "url": "https://www.amazon.com/dp/B0BZCJRJML",
+      "asin": "B0BZCJRJML"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 32.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 3.0,
+    "factory_cost_high": 5.7,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: swivel memory foam car cushion $3.36 (30-599) to $2.95; mesh-cover coccyx car cushion $5.29-5.70 MOQ 500 (china.org.ru/product/60830909460): alibaba.com/product-introduction/Portable-Swivel-Cushion-360-Degree-Rotating_1601205360675.html. Wedge car cushion price not found (UNKNOWN).",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 1.5,
+    "dims_in": [
+     17.3,
+     14.0,
+     3.15
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B01EBDV9BU: dims_raw='17.3\"L x 14\"W x 3.15\"H', weight_raw='680 g' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "30 to 500 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "yes",
+    "certifications": "Prop 65; avoid 'sciatica/pain relief' medical claims",
+    "ip_flags": "Cushion Lab 'Patented Pressure Relief' design (7k/mo): do not copy its shape."
+   },
+   "virality": {
+    "yt_keyword": "car seat cushion",
+    "yt_views_top10": 1185193,
+    "yt_max": 952319,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "Cushion Challenge! Egg Sitter vs Amazon Best Seller vs Purple",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 191,
+    "foreplay_ads": 3,
+    "foreplay_examples": [
+     "Cushion Lab pressure-relief car seat cushion 191d live https://app.foreplay.co/discovery?ad=Pcml5Ih84NWkfgWwMjxS",
+     "Przytulny cooling car seat cushion 61d live https://app.foreplay.co/discovery?ad=zcI4Yfuxf5ZEHrkiryXC"
+    ],
+    "foreplay_note": "",
+    "tiktok_evidence": "TikTok Shop: Everlasting Comfort shop 17.5K sold; New Pioneers non-slip cushion 6.4K sold. Foreplay: Cushion Lab car cushion ad live 191 days; Przytulny cooling car cushion 61 days.",
+    "demo_score": 2,
+    "demo_note": "Comfort is felt, not seen; 'see over the dash' height demo is the only quick visual."
+   },
+   "seasonality": {
+    "keyword": "car seat cushion",
+    "avg_monthly_volume": 18100,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 18100
+     },
+     {
+      "month": "2025-12",
+      "volume": 18100
+     },
+     {
+      "month": "2026-01",
+      "volume": 14800
+     },
+     {
+      "month": "2026-02",
+      "volume": 14800
+     },
+     {
+      "month": "2026-03",
+      "volume": 18100
+     },
+     {
+      "month": "2026-04",
+      "volume": 18100
+     },
+     {
+      "month": "2026-05",
+      "volume": 18100
+     },
+     {
+      "month": "2026-06",
+      "volume": 18100
+     },
+     {
+      "month": "2026-07",
+      "volume": 18100
+     },
+     {
+      "month": "2026-08",
+      "volume": 22200
+     },
+     {
+      "month": "2026-09",
+      "volume": 18100
+     },
+     {
+      "month": "2026-10",
+      "volume": 22200
+     }
+    ],
+    "peak_month": "Aug 2026",
+    "trough_month": "Jan 2026",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 0.81,
+    "trend_12m_pct": 22.5,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement cover",
+    "price": 15,
+    "cadence": "yearly (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: avoid pain-relief claims)",
+   "notes": "Category overlaps office chair cushions; health-claim language is endemic, must be avoided. Longest-running ads in this niche set (191 days).",
+   "photo": "photos/outdoor-09.jpg"
+  },
+  {
+   "rank": 10,
+   "type": "fire starter",
+   "amazon": {
+    "units_month": 133750,
+    "bands": {
+     "<20": 45200,
+     "20-40": 84900,
+     "40-80": 3550,
+     "80-130": 100,
+     "130+": 0
+    },
+    "median_price": 21.84,
+    "listings_100plus": 50,
+    "listings_total": 62,
+    "top_brand": "4\"",
+    "top_brand_share": 0.15,
+    "sales_floor_usd_month": 2921100,
+    "leader": {
+     "title": "4\" Survival Ferro Rod Drilled Flint Fire Starter and Striker Kit",
+     "price": 25.99,
+     "units": 20000,
+     "reviews": 12800,
+     "rating": 4.7,
+     "url": "https://www.amazon.com/dp/B00PSGOM32",
+     "asin": "B00PSGOM32",
+     "image_url": "https://m.media-amazon.com/images/I/81b4zjefE-L._AC_UY218_.jpg",
+     "bsr": "#108 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "4\" Survival Ferro Rod Drilled Flint Fire Starter and Striker Kit",
+      "price": 25.99,
+      "units": 20000,
+      "reviews": 12800,
+      "url": "https://www.amazon.com/dp/B00PSGOM32",
+      "asin": "B00PSGOM32"
+     },
+     {
+      "title": "Billy Buckskin 10lb Fatwood Fire Starter Sticks, 100% Natural Firestarter",
+      "price": 32.9,
+      "units": 10000,
+      "reviews": 8600,
+      "url": "https://www.amazon.com/dp/B09C2KFLC5",
+      "asin": "B09C2KFLC5"
+     },
+     {
+      "title": "HGD Fire Starter, Mini Natural Fire Starters for Campfires, BBQ Grill, Charcoal Chimney, Outdoor Pit, Indoor Fireplace, Wood Stove - Water Resistant Firestarter Sticks - Camping Accessories Essentials",
+      "price": 5.99,
+      "units": 10000,
+      "reviews": 1800,
+      "url": "https://www.amazon.com/dp/B0CR6G7GX4",
+      "asin": "B0CR6G7GX4"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 21.84,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.5,
+    "factory_cost_high": 1.6,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba ferro rod $0.50-0.70 MOQ 2; magnesium ferro rod $0.86-1.10 MOQ 200; survival fire kit $1.60 (100-499) to $1.20: alibaba.com/product-introduction/Feuerstarter-Outdoor-Camping-Emergency-Survival-Tool_60752423362.html, alibaba.com/product-introduction/Ferrocerium_60503495479.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.15,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B00PSGOM32: dims_raw='None', weight_raw='2.46 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2 to 200 pcs",
+    "sample_price": "<$2",
+    "small_batch_feasible": "yes",
+    "certifications": "Ferro rods fine; fire-starter cubes/plugs can be flammable solids (hazmat) - avoid shipping those",
+    "ip_flags": "Black Beard fire plugs/rope are branded; no patent flag found."
+   },
+   "virality": {
+    "yt_keyword": "fire starter camping",
+    "yt_views_top10": 2801212,
+    "yt_max": 1107757,
+    "yt_shorts": 0,
+    "yt_recent_12m": 4,
+    "yt_top_title": "DIY Coffee Ground Fire Starters | Easy, Cheap & Effective",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": 60,
+    "foreplay_ads": 0,
+    "foreplay_examples": [
+     "Colitt outdoorsman advent calendar (adjacent gift box) 60d https://app.foreplay.co/discovery?ad=w9jS4rvOgHCnH1QlYCO6"
+    ],
+    "foreplay_note": "no fire-starter-specific ad",
+    "tiktok_evidence": "Not searched individually (UNKNOWN). YouTube top video is a DIY fire starter (1.1M views).",
+    "demo_score": 4,
+    "demo_note": "Spark shower to flame in seconds is satisfying."
+   },
+   "seasonality": {
+    "keyword": "fire starter",
+    "avg_monthly_volume": 60500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 110000
+     },
+     {
+      "month": "2025-12",
+      "volume": 74000
+     },
+     {
+      "month": "2026-01",
+      "volume": 90500
+     },
+     {
+      "month": "2026-02",
+      "volume": 49500
+     },
+     {
+      "month": "2026-03",
+      "volume": 49500
+     },
+     {
+      "month": "2026-04",
+      "volume": 40500
+     },
+     {
+      "month": "2026-05",
+      "volume": 49500
+     },
+     {
+      "month": "2026-06",
+      "volume": 40500
+     },
+     {
+      "month": "2026-07",
+      "volume": 49500
+     },
+     {
+      "month": "2026-08",
+      "volume": 40500
+     },
+     {
+      "month": "2026-09",
+      "volume": 40500
+     },
+     {
+      "month": "2026-10",
+      "volume": 110000
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Apr 2026",
+    "peak_trough_ratio": 2.72,
+    "jan_vs_avg": 1.46,
+    "trend_12m_pct": -30.4,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "tinder/fatwood refills",
+    "price": 12,
+    "cadence": "per camping season (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: exclude flammable-solid cubes; ferro rods only)",
+   "notes": "Type mixes fatwood bags, ferro rods, cubes; $22 median. Better as a kit component.",
+   "photo": "photos/outdoor-10.jpg"
+  },
+  {
+   "rank": 11,
+   "type": "cooler bag",
+   "amazon": {
+    "units_month": 93550,
+    "bands": {
+     "<20": 72500,
+     "20-40": 14900,
+     "40-80": 4450,
+     "80-130": 1300,
+     "130+": 400
+    },
+    "median_price": 29.99,
+    "listings_100plus": 47,
+    "listings_total": 59,
+    "top_brand": "hotor",
+    "top_brand_share": 0.321,
+    "sales_floor_usd_month": 2805564,
+    "leader": {
+     "title": "HOTOR Insulated Lunch Box Men Women Leak-Proof Cooler Lunch Bag 9L",
+     "price": 7.99,
+     "units": 30000,
+     "reviews": 10100,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B0DBDKT4QC",
+     "asin": "B0DBDKT4QC",
+     "image_url": "https://m.media-amazon.com/images/I/7114mj4izqL._AC_UL320_.jpg",
+     "bsr": "#36 in Kitchen & Dining ( See Top 100 in Kitchen & Dining )"
+    },
+    "top3": [
+     {
+      "title": "HOTOR Insulated Lunch Box Men Women Leak-Proof Cooler Lunch Bag 9L",
+      "price": 7.99,
+      "units": 30000,
+      "reviews": 10100,
+      "url": "https://www.amazon.com/dp/B0DBDKT4QC",
+      "asin": "B0DBDKT4QC"
+     },
+     {
+      "title": "Lifewit Medium Lunch Bag, Insulated Lunch Box, Soft Cooler Cooling Tote for Adult Men Women, Black 12-Can (9L)",
+      "price": 7.99,
+      "units": 20000,
+      "reviews": 65000,
+      "url": "https://www.amazon.com/dp/B0B56CHMSC",
+      "asin": "B0B56CHMSC"
+     },
+     {
+      "title": "Healthy Packers Ice Packs for Lunch Boxes & Coolers - Freezer Packs - Original Cool Pack | Cooler Accessories for Beach, Camping & Fishing | Slim & Long-Lasting Reusable Ice Pack for Cooler",
+      "price": 15.99,
+      "units": 10000,
+      "reviews": 31800,
+      "url": "https://www.amazon.com/dp/B01M06AQLF",
+      "asin": "B01M06AQLF"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 29.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 6.0,
+    "factory_cost_high": 14.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Global Sources 24-can style soft cooler $6-9 MOQ 500; Alibaba rolling cooler backpack $14 (50-499) to $13: alibaba.com/product-introduction/Insulated-Rolling-cooler-backpack-bag-with_1600430336220.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.62,
+    "dims_in": [
+     8.5,
+     6.9,
+     8.5
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0DBDKT4QC: dims_raw='8.5\"D x 6.9\"W x 8.5\"H', weight_raw='0.28 kg' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "50 to 500 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "FDA food-contact lining; Prop 65",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "cooler bag",
+    "yt_views_top10": 330594,
+    "yt_max": 114897,
+    "yt_shorts": 0,
+    "yt_recent_12m": 4,
+    "yt_top_title": "Best SOFT Coolers From $30 and Up (HANDS-ON)",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 2,
+    "demo_note": "Ice retention test only."
+   },
+   "seasonality": {
+    "keyword": "cooler bag",
+    "avg_monthly_volume": 22200,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 18100
+     },
+     {
+      "month": "2025-12",
+      "volume": 18100
+     },
+     {
+      "month": "2026-01",
+      "volume": 12100
+     },
+     {
+      "month": "2026-02",
+      "volume": 14800
+     },
+     {
+      "month": "2026-03",
+      "volume": 22200
+     },
+     {
+      "month": "2026-04",
+      "volume": 22200
+     },
+     {
+      "month": "2026-05",
+      "volume": 27100
+     },
+     {
+      "month": "2026-06",
+      "volume": 40500
+     },
+     {
+      "month": "2026-07",
+      "volume": 40500
+     },
+     {
+      "month": "2026-08",
+      "volume": 33100
+     },
+     {
+      "month": "2026-09",
+      "volume": 22200
+     },
+     {
+      "month": "2026-10",
+      "volume": 22200
+     }
+    ],
+    "peak_month": "Jun 2026",
+    "trough_month": "Jan 2026",
+    "peak_trough_ratio": 3.35,
+    "jan_vs_avg": 0.5,
+    "trend_12m_pct": 60.5,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "ice packs",
+    "price": 10,
+    "cadence": "occasional (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Type includes lunch bags (leader $7.99 lunch bag); summer-peaked (Jun peak, Jan 0.5x avg).",
+   "photo": "photos/outdoor-11.jpg"
+  },
+  {
+   "rank": 12,
+   "type": "microfiber towels",
+   "amazon": {
+    "units_month": 140700,
+    "bands": {
+     "<20": 123300,
+     "20-40": 15400,
+     "40-80": 2000,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 18.99,
+    "listings_100plus": 38,
+    "listings_total": 40,
+    "top_brand": "usanooks",
+    "top_brand_share": 0.355,
+    "sales_floor_usd_month": 2671893,
+    "leader": {
+     "title": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
+     "price": 7.98,
+     "units": 50000,
+     "reviews": 25900,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B08BRJHJF9",
+     "asin": "B08BRJHJF9",
+     "image_url": "https://m.media-amazon.com/images/I/A1U4ZA-OJmS._AC_UL320_.jpg",
+     "bsr": "#3 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "USANOOKS Microfiber Cleaning Cloth Grey - 12 Pcs (12.5\"x12.5\") - High Performance - 1200 Washes, Ultra Absorbent Microfiber Towel Weave Grime & Liquid for Streak-Free Mirror Shine - Car Washing Cloth",
+      "price": 7.98,
+      "units": 50000,
+      "reviews": 25900,
+      "url": "https://www.amazon.com/dp/B08BRJHJF9",
+      "asin": "B08BRJHJF9"
+     },
+     {
+      "title": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack",
+      "price": 13.99,
+      "units": 20000,
+      "reviews": 105600,
+      "url": "https://www.amazon.com/dp/B07HRCDDL1",
+      "asin": "B07HRCDDL1"
+     },
+     {
+      "title": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack",
+      "price": 16.75,
+      "units": 10000,
+      "reviews": 105600,
+      "url": "https://www.amazon.com/dp/B09FX7TFJV",
+      "asin": "B09FX7TFJV"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 18.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.15,
+    "factory_cost_high": 1.75,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba seller blog: terry microfiber $0.15-0.22/pc, flatweave drying towels $0.45-0.60; 1000 GSM drying towel $1.20-1.75 MOQ 1,500 (seller.alibaba.com/blogs/2026/southeast-asia/automotive-accessories/microfiber-car-cleaning-cloth-specifications-guide-alibaba-b2b)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.96,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B08BRJHJF9: dims_raw='12.5\"L x 12.5\"W', weight_raw='15.36 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "500-1,500 pcs typical",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "microfiber towels car",
+    "yt_views_top10": 2281183,
+    "yt_max": 1800111,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "Are You Washing Your Microfiber Towels Wrong?",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 3,
+    "demo_note": "Wipe-to-streak-free is decent but generic."
+   },
+   "seasonality": {
+    "keyword": "microfiber towels",
+    "avg_monthly_volume": 49500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 49500
+     },
+     {
+      "month": "2026-01",
+      "volume": 60500
+     },
+     {
+      "month": "2026-02",
+      "volume": 49500
+     },
+     {
+      "month": "2026-03",
+      "volume": 49500
+     },
+     {
+      "month": "2026-04",
+      "volume": 49500
+     },
+     {
+      "month": "2026-05",
+      "volume": 60500
+     },
+     {
+      "month": "2026-06",
+      "volume": 60500
+     },
+     {
+      "month": "2026-07",
+      "volume": 49500
+     },
+     {
+      "month": "2026-08",
+      "volume": 60500
+     },
+     {
+      "month": "2026-09",
+      "volume": 49500
+     },
+     {
+      "month": "2026-10",
+      "volume": 60500
+     }
+    ],
+    "peak_month": "Jan 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 1.22,
+    "jan_vs_avg": 1.12,
+    "trend_12m_pct": 6.9,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement towels",
+    "price": 15,
+    "cadence": "6-12 months (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Pure consumable add-on for a car detailing kit; low price ($19 median).",
+   "photo": "photos/outdoor-12.jpg"
+  },
+  {
+   "rank": 13,
+   "type": "hiking backpack",
+   "amazon": {
+    "units_month": 85000,
+    "bands": {
+     "<20": 37450,
+     "20-40": 37350,
+     "40-80": 5950,
+     "80-130": 3650,
+     "130+": 550
+    },
+    "median_price": 30.58,
+    "listings_100plus": 72,
+    "listings_total": 101,
+    "top_brand": "military",
+    "top_brand_share": 0.141,
+    "sales_floor_usd_month": 2599300,
+    "leader": {
+     "title": "Taygeer Travel Backpack for Women, TSA Carry On Backpack Flight Approved",
+     "price": 19.99,
+     "units": 10000,
+     "reviews": 31600,
+     "rating": 4.7,
+     "url": "https://www.amazon.com/dp/B09MQWWP87",
+     "asin": "B09MQWWP87",
+     "image_url": "https://m.media-amazon.com/images/I/71K30PIVQmL._AC_UL320_.jpg",
+     "bsr": "#1 in Laptop Backpacks"
+    },
+    "top3": [
+     {
+      "title": "Taygeer Travel Backpack for Women, TSA Carry On Backpack Flight Approved",
+      "price": 19.99,
+      "units": 10000,
+      "reviews": 31600,
+      "url": "https://www.amazon.com/dp/B09MQWWP87",
+      "asin": "B09MQWWP87"
+     },
+     {
+      "title": "MalloMe Smores Sticks for Fire Pit Long - Marshmallow Roasting Sticks Smores Kit - Smore Skewers Hot Dog Fork Campfire Cooking Equipment, Camping Essentials S'mores Gear Outdoor Accessories 32\" 5 Pack",
+      "price": 9.99,
+      "units": 10000,
+      "reviews": 14500,
+      "url": "https://www.amazon.com/dp/B07VDKMGPM",
+      "asin": "B07VDKMGPM"
+     },
+     {
+      "title": "Military Tactical Backpack for Men and Women 45L Army 3 Days Assault Pack Bag Large Rucksack with Molle System Black",
+      "price": 27.99,
+      "units": 10000,
+      "reviews": 1500,
+      "url": "https://www.amazon.com/dp/B0C13GFY7N",
+      "asin": "B0C13GFY7N"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 30.58,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 5.38,
+    "factory_cost_high": 11.8,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: packable daypacks ~$5.38-5.44 (Accio table of Alibaba listings, accio.com/biz-cheap/inexpensive-backpacking-packs); Global Sources packable daypack $11.40-11.80 MOQ 500",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 1.74,
+    "dims_in": [
+     7.0,
+     11.0,
+     16.8
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B09MQWWP87: dims_raw='7\"D x 11\"W x 16.8\"H', weight_raw='0.79 kg' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "500 pcs (Global Sources)",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "yes",
+    "certifications": "Prop 65",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "hiking backpack",
+    "yt_views_top10": 4092858,
+    "yt_max": 1923465,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Beginner's Guide to Solo Backpacking: Essential Gear and Setup for Your First Adventure",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 1,
+    "demo_note": "No 3-second wow."
+   },
+   "seasonality": {
+    "keyword": "hiking backpack",
+    "avg_monthly_volume": 40500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 33100
+     },
+     {
+      "month": "2025-12",
+      "volume": 33100
+     },
+     {
+      "month": "2026-01",
+      "volume": 40500
+     },
+     {
+      "month": "2026-02",
+      "volume": 33100
+     },
+     {
+      "month": "2026-03",
+      "volume": 40500
+     },
+     {
+      "month": "2026-04",
+      "volume": 40500
+     },
+     {
+      "month": "2026-05",
+      "volume": 49500
+     },
+     {
+      "month": "2026-06",
+      "volume": 49500
+     },
+     {
+      "month": "2026-07",
+      "volume": 49500
+     },
+     {
+      "month": "2026-08",
+      "volume": 49500
+     },
+     {
+      "month": "2026-09",
+      "volume": 40500
+     },
+     {
+      "month": "2026-10",
+      "volume": 49500
+     }
+    ],
+    "peak_month": "May 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 0.96,
+    "trend_12m_pct": 30.7,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Leader is a laptop backpack (#1 Laptop Backpacks) - category blends travel/laptop bags.",
+   "photo": "photos/outdoor-13.jpg"
+  },
+  {
+   "rank": 14,
+   "type": "magnetic car phone mount",
+   "amazon": {
+    "units_month": 142350,
+    "bands": {
+     "<20": 107450,
+     "20-40": 33600,
+     "40-80": 1200,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 15.99,
+    "listings_100plus": 56,
+    "listings_total": 69,
+    "top_brand": "lisen",
+    "top_brand_share": 0.246,
+    "sales_floor_usd_month": 2276176,
+    "leader": {
+     "title": "Miracase for MagSafe Car Mount[3800gf Strong Magnet & 90+LBS Suction Base]Magnetic Phone Holders for Your Car, 360\u00b0 Adjustable Dash& Windshield Wall Mount with Adhesive Suction Cup for All Smartphones",
+     "price": 24.99,
+     "units": 10000,
+     "reviews": 65600,
+     "rating": 4.3,
+     "url": "https://www.amazon.com/dp/B0GHY6D5B2",
+     "asin": "B0GHY6D5B2",
+     "image_url": "https://m.media-amazon.com/images/I/91JKc2qfwCL._AC_UY218_.jpg",
+     "bsr": "#161 in Cell Phones & Accessories ( See Top 100 in Cell Phones & Accessories )"
+    },
+    "top3": [
+     {
+      "title": "Miracase for MagSafe Car Mount[3800gf Strong Magnet & 90+LBS Suction Base]Magnetic Phone Holders for Your Car, 360\u00b0 Adjustable Dash& Windshield Wall Mount with Adhesive Suction Cup for All Smartphones",
+      "price": 24.99,
+      "units": 10000,
+      "reviews": 65600,
+      "url": "https://www.amazon.com/dp/B0GHY6D5B2",
+      "asin": "B0GHY6D5B2"
+     },
+     {
+      "title": "for Magsafe Car Mount\u3010Strong Magnet\u3011 Magnetic Phone Holder for Car Phone Holder Mount Dash Mounted Holders Phone Holders for Your Car Accessories for Women Men for iPhone 18 Pro Max 17 16 15",
+      "price": 9.99,
+      "units": 10000,
+      "reviews": 33600,
+      "url": "https://www.amazon.com/dp/B0C1Y8Z6VT",
+      "asin": "B0C1Y8Z6VT"
+     },
+     {
+      "title": "Compact Foldable Car Phone Holder for Magsafe [78+LBS Strongest Suction & 3900gf Strongest Magnetic] 360\u00b0 Adjustable Car Phone Mount, Bedstand & Desk Mounts for iPhone 18-12 Pro Max (Carbon Fiber)",
+      "price": 19.99,
+      "units": 10000,
+      "reviews": 31400,
+      "url": "https://www.amazon.com/dp/B0DN1S1YLV",
+      "asin": "B0DN1S1YLV"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 15.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.6,
+    "factory_cost_high": 10.5,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba vacuum-magnetic holders $2.85-3.60 MOQ 10 (Yiwu Chongteng), metal magnetic 15W $2.60-5.60 MOQ 10, Shenzhen 15W suction $9.50-10.50 MOQ 100 (electronics.alibaba.com/product/auto-phone-cradle, alibaba.com/product-introduction/JOKADE-Popular-Super-stable-Wireless-Magnetic_1600889599361.html)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0GHY6D5B2: dims_raw='None', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1-100 pcs",
+    "sample_price": "~$3-6",
+    "small_batch_feasible": "yes",
+    "certifications": "FCC Part 15 if wireless charging (Qi2 certification for 'MagSafe compatible' claims); magnets only = none",
+    "ip_flags": "'MagSafe' is an Apple trademark: use 'magnetic'/'Qi2' wording; vacuum-suction mount designs may be patented (check)."
+   },
+   "virality": {
+    "yt_keyword": "magnetic car phone mount",
+    "yt_views_top10": 490654,
+    "yt_max": 157205,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "Vacuum Magnetic Suction Phone Holder, Foldable and Retractable Hands-Free Suction Cup Phone Mount",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "TikTok Shop CARACCESS vacuum magnetic car mount 18.2K sold; Qianfeng foldable vacuum magnetic stand 544 sold (tiktokshop.com/pdp/magnetic-car-phone-holder-by-precision-vacuum-suction-360-rotation/1730958985308967792).",
+    "demo_score": 4,
+    "demo_note": "Vacuum suction 'pull test' and one-hand snap-on are instant."
+   },
+   "seasonality": {
+    "keyword": "magnetic car phone mount",
+    "avg_monthly_volume": 4400,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 8100
+     },
+     {
+      "month": "2025-12",
+      "volume": 4400
+     },
+     {
+      "month": "2026-01",
+      "volume": 5400
+     },
+     {
+      "month": "2026-02",
+      "volume": 3600
+     },
+     {
+      "month": "2026-03",
+      "volume": 3600
+     },
+     {
+      "month": "2026-04",
+      "volume": 2900
+     },
+     {
+      "month": "2026-05",
+      "volume": 3600
+     },
+     {
+      "month": "2026-06",
+      "volume": 2900
+     },
+     {
+      "month": "2026-07",
+      "volume": 2900
+     },
+     {
+      "month": "2026-08",
+      "volume": 3600
+     },
+     {
+      "month": "2026-09",
+      "volume": 2900
+     },
+     {
+      "month": "2026-10",
+      "volume": 3600
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Apr 2026",
+    "peak_trough_ratio": 2.79,
+    "jan_vs_avg": 1.36,
+    "trend_12m_pct": -43.6,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement magnetic rings / adhesive plates",
+    "price": 8,
+    "cadence": "occasional (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "142k units/mo at $16 median; needs a bundle to reach a premium price. Leader weight not returned (UNKNOWN).",
+   "photo": "photos/outdoor-14.jpg"
+  },
+  {
+   "rank": 15,
+   "type": "car floor mats",
+   "amazon": {
+    "units_month": 35650,
+    "bands": {
+     "<20": 3800,
+     "20-40": 21200,
+     "40-80": 4150,
+     "80-130": 4000,
+     "130+": 2500
+    },
+    "median_price": 61.45,
+    "listings_100plus": 52,
+    "listings_total": 77,
+    "top_brand": "motor",
+    "top_brand_share": 0.279,
+    "sales_floor_usd_month": 2190692,
+    "leader": {
+     "title": "Motor Trend FlexTough Floor Mats for Cars, Black Deep Dish All-Weather Car Mats, Waterproof Trim-to Fit Automotive Floor Mats for Cars Trucks SUV, Universal Floor Liner Car Accessories",
+     "price": 34.49,
+     "units": 8000,
+     "reviews": 122000,
+     "rating": 4.3,
+     "url": "https://www.amazon.com/dp/B01A5TLGJ4",
+     "asin": "B01A5TLGJ4",
+     "image_url": "https://m.media-amazon.com/images/I/71tAwSrkwfL._AC_UL320_.jpg",
+     "bsr": "#100 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "Motor Trend FlexTough Floor Mats for Cars, Black Deep Dish All-Weather Car Mats, Waterproof Trim-to Fit Automotive Floor Mats for Cars Trucks SUV, Universal Floor Liner Car Accessories",
+      "price": 34.49,
+      "units": 8000,
+      "reviews": 122000,
+      "url": "https://www.amazon.com/dp/B01A5TLGJ4",
+      "asin": "B01A5TLGJ4"
+     },
+     {
+      "title": "CAR PASS Waterproof Universal Fit Car Floor Mats, Faux Leather Car Carpet Mats, Black Car Mats with Anti-Slip Nibbs Backing & Driver Heel Pad Fit for SUV,Vans,sedans, Trucks,Set of 4pcs(All Black)",
+      "price": 19.92,
+      "units": 3000,
+      "reviews": 6100,
+      "url": "https://www.amazon.com/dp/B0B5ZKF1ZK",
+      "asin": "B0B5ZKF1ZK"
+     },
+     {
+      "title": "BDK Floor Mats, 4-Piece All-Weather Car Mat with Universal Fit Design, Durable Rubber Car Floor Mats with Capture Ridges, Waterproof for Cars Trucks SUV (Black)",
+      "price": 23.48,
+      "units": 2000,
+      "reviews": 14400,
+      "url": "https://www.amazon.com/dp/B0741GVLY6",
+      "asin": "B0741GVLY6"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 61.45,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 4.45,
+    "factory_cost_high": 39.5,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Jinke universal TPE set $39.50 (50-199 sets) to $35 (1,000+): alibaba.com/product-introduction/Jinke-Automotive-part-for-inner-space_1600372690467.html; model-specific 3D TPE $9.99-23.99/set MOQ 30; generic TPE mat $4.45-4.55",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 6.0,
+    "dims_in": [
+     27.0,
+     20.0,
+     1.0
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B01A5TLGJ4: dims_raw='27\"L x 20\"W x 1\"Th', weight_raw='6 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "10-50 sets per model",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "no",
+    "certifications": "Vehicle fit per model; FMVSS 302 flammability expected for interior materials",
+    "ip_flags": "WeatherTech/3D MAXpider trademarks and fit designs."
+   },
+   "virality": {
+    "yt_keyword": "car floor mats",
+    "yt_views_top10": 1855961,
+    "yt_max": 798036,
+    "yt_shorts": 0,
+    "yt_recent_12m": 3,
+    "yt_top_title": "The Best Floor Mats in the World and Why",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 3,
+    "demo_note": "Spill-pour containment test works on video."
+   },
+   "seasonality": {
+    "keyword": "car floor mats",
+    "avg_monthly_volume": 14800,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 14800
+     },
+     {
+      "month": "2025-12",
+      "volume": 18100
+     },
+     {
+      "month": "2026-01",
+      "volume": 14800
+     },
+     {
+      "month": "2026-02",
+      "volume": 14800
+     },
+     {
+      "month": "2026-03",
+      "volume": 14800
+     },
+     {
+      "month": "2026-04",
+      "volume": 14800
+     },
+     {
+      "month": "2026-05",
+      "volume": 14800
+     },
+     {
+      "month": "2026-06",
+      "volume": 12100
+     },
+     {
+      "month": "2026-07",
+      "volume": 12100
+     },
+     {
+      "month": "2026-08",
+      "volume": 12100
+     },
+     {
+      "month": "2026-09",
+      "volume": 12100
+     },
+     {
+      "month": "2026-10",
+      "volume": 12100
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Jun 2026",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 1.06,
+    "trend_12m_pct": -23.9,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: per-vehicle fit, 6 lb)",
+   "notes": "Fit-per-vehicle SKU explosion and 6 lb, 27x20 in package: poor for small batch.",
+   "photo": "photos/outdoor-15.jpg"
+  },
+  {
+   "rank": 16,
+   "type": "car phone mount (clamp)",
+   "amazon": {
+    "units_month": 125850,
+    "bands": {
+     "<20": 78750,
+     "20-40": 47100,
+     "40-80": 0,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 15.99,
+    "listings_100plus": 33,
+    "listings_total": 36,
+    "top_brand": "qifutan",
+    "top_brand_share": 0.159,
+    "sales_floor_usd_month": 2012342,
+    "leader": {
+     "title": "VANMASS\u301085+LBS Strongest Suction & Military-Grade Ultimate Car Phone Mount\u3010Patent Safety Certs\u3011 Cell Phone Holder for Dash Windshield Vent for iPhone 18 17 Pro Max Automobile Interior Sets, Ink Black",
+     "price": 25.99,
+     "units": 10000,
+     "reviews": 59900,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B07G61YN8K",
+     "asin": "B07G61YN8K",
+     "image_url": "https://m.media-amazon.com/images/I/71CYf43UpHL._AC_UY218_.jpg",
+     "bsr": "#82 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "VANMASS\u301085+LBS Strongest Suction & Military-Grade Ultimate Car Phone Mount\u3010Patent Safety Certs\u3011 Cell Phone Holder for Dash Windshield Vent for iPhone 18 17 Pro Max Automobile Interior Sets, Ink Black",
+      "price": 25.99,
+      "units": 10000,
+      "reviews": 59900,
+      "url": "https://www.amazon.com/dp/B07G61YN8K",
+      "asin": "B07G61YN8K"
+     },
+     {
+      "title": "[True Military-Grade] Car Phone Holder VANMASS [Upgraded Strongest Suction&Clip] Cell Phone Mount for Dashboard Windshield Vent Kit, Truck Cradle Stand for iPhone 18 Pro Max 17 16 15 Android,Ink Black",
+      "price": 25.98,
+      "units": 10000,
+      "reviews": 53500,
+      "url": "https://www.amazon.com/dp/B08DKHHTFX",
+      "asin": "B08DKHHTFX"
+     },
+     {
+      "title": "VANMASS Car Phone Holder 2026 Ultimate True Military-Grade\u3010Upgraded Strongest Suction & Clip\u3011 Truck Windshield Dashboard Vent Cell Phone Speaker Mounts for iPhone 18 Pro Max 17 16 15 14 Android",
+      "price": 27.99,
+      "units": 10000,
+      "reviews": 50900,
+      "url": "https://www.amazon.com/dp/B09CMV7YVJ",
+      "asin": "B09CMV7YVJ"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 15.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.5,
+    "factory_cost_high": 4.5,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Alibaba dashboard/vent holders $0.50-0.81; dashboard mount $0.98 (2-99) to $0.78 (3,000+); Yesido $2.99 (10-2,999); MOQ-1 listings $1.85-4.50: alibaba.com/product-introduction/Universal-Cheap-Mobile-Cellphone-Accessories-Dashboard_1600951127042.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.51,
+    "dims_in": [
+     4.96,
+     3.62,
+     4.53
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B07G61YN8K: dims_raw='4.96 x 3.62 x 4.53 inches', weight_raw='8.2 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1-100 pcs",
+    "sample_price": "~$2-5",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "VANMASS claims 'Patent Safety Certs'; iOttie/Lamicall trademarks."
+   },
+   "virality": {
+    "yt_keyword": "car phone mount",
+    "yt_views_top10": 755294,
+    "yt_max": 387709,
+    "yt_shorts": 0,
+    "yt_recent_12m": 8,
+    "yt_top_title": "5 Cheap Car Phone Holders Compared and Tested! (2022)",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched separately (see magnetic mount).",
+    "demo_score": 3,
+    "demo_note": "Clamp grip shake test."
+   },
+   "seasonality": {
+    "keyword": "car phone holder",
+    "avg_monthly_volume": 40500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 60500
+     },
+     {
+      "month": "2026-01",
+      "volume": 40500
+     },
+     {
+      "month": "2026-02",
+      "volume": 33100
+     },
+     {
+      "month": "2026-03",
+      "volume": 33100
+     },
+     {
+      "month": "2026-04",
+      "volume": 40500
+     },
+     {
+      "month": "2026-05",
+      "volume": 40500
+     },
+     {
+      "month": "2026-06",
+      "volume": 40500
+     },
+     {
+      "month": "2026-07",
+      "volume": 40500
+     },
+     {
+      "month": "2026-08",
+      "volume": 40500
+     },
+     {
+      "month": "2026-09",
+      "volume": 33100
+     },
+     {
+      "month": "2026-10",
+      "volume": 49500
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.83,
+    "jan_vs_avg": 0.97,
+    "trend_12m_pct": -18.2,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Near-duplicate of magnetic mount; commodity ($16 median).",
+   "photo": "photos/outdoor-16.jpg"
+  },
+  {
+   "rank": 17,
+   "type": "golf rangefinder",
+   "amazon": {
+    "units_month": 21950,
+    "bands": {
+     "<20": 0,
+     "20-40": 7000,
+     "40-80": 8050,
+     "80-130": 3050,
+     "130+": 3850
+    },
+    "median_price": 88.98,
+    "listings_100plus": 40,
+    "listings_total": 57,
+    "top_brand": "acer",
+    "top_brand_share": 0.328,
+    "sales_floor_usd_month": 1953111,
+    "leader": {
+     "title": "Acer Golf Rangefinder with Slope Switch, Pin Lock Vibration, 800/1200 Yard",
+     "price": 69.98,
+     "units": 6000,
+     "reviews": 2000,
+     "rating": 4.7,
+     "url": "https://www.amazon.com/dp/B0DNZDYSTP",
+     "asin": "B0DNZDYSTP",
+     "image_url": "https://m.media-amazon.com/images/I/71HYX--xCkL._AC_UL320_.jpg",
+     "bsr": "#347 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Acer Golf Rangefinder with Slope Switch, Pin Lock Vibration, 800/1200 Yard",
+      "price": 69.98,
+      "units": 6000,
+      "reviews": 2000,
+      "url": "https://www.amazon.com/dp/B0DNZDYSTP",
+      "asin": "B0DNZDYSTP"
+     },
+     {
+      "title": "REVASRI Range Finder for Golf, Slope, Pin Lock Vibration 1000Y Rangefinder",
+      "price": 37.49,
+      "units": 3000,
+      "reviews": 6000,
+      "url": "https://www.amazon.com/dp/B09GLP62SS",
+      "asin": "B09GLP62SS"
+     },
+     {
+      "title": "Callaway 300 Pro Golf Laser Rangefinder (with External Slope Switch)",
+      "price": 194.95,
+      "units": 1000,
+      "reviews": 12200,
+      "url": "https://www.amazon.com/dp/B01KP195PY",
+      "asin": "B01KP195PY"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 88.98,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 35.0,
+    "factory_cost_high": 60.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: SNDWAY 600m $59 (1-9) to $53 (100+) (alibaba.fr/product-detail/Hot-Sale-Golf-Rangefinder-SNDWAY-Golf_62080961447.html); Bosean 600m $54 MOQ 1 and slope models ~$35-50 (accio.com/biz-cheap/best-cheap-range-finder); Imeter slope $45-60",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.7,
+    "dims_in": [
+     4.2,
+     2.5,
+     1.5
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0DNZDYSTP: dims_raw='4.2\"L x 2.5\"W x 1.5\"H', weight_raw='11.2 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1 pc (some listings)",
+    "sample_price": "~$45-60",
+    "small_batch_feasible": "yes",
+    "certifications": "FDA CDRH laser product report/accession number required to import (21 CFR 1040.10, Class 1); CR2 lithium primary battery; FCC if Bluetooth",
+    "ip_flags": "Bushnell 'PinSeeker/Slope' trademarks and patents on slope switch/jolt tech: verify before copying features."
+   },
+   "virality": {
+    "yt_keyword": "golf rangefinder",
+    "yt_views_top10": 547369,
+    "yt_max": 182941,
+    "yt_shorts": 0,
+    "yt_recent_12m": 9,
+    "yt_top_title": "Golf Rangefinder Tutorial",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "No TikTok Shop sales evidence found; Golf Digest viral-golf-products roundup did not list a rangefinder.",
+    "demo_score": 3,
+    "demo_note": "Through-the-lens pin lock + vibration readout works on video, but not a transformation."
+   },
+   "seasonality": {
+    "keyword": "golf rangefinder",
+    "avg_monthly_volume": 27100,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 60500
+     },
+     {
+      "month": "2025-12",
+      "volume": 49500
+     },
+     {
+      "month": "2026-01",
+      "volume": 18100
+     },
+     {
+      "month": "2026-02",
+      "volume": 18100
+     },
+     {
+      "month": "2026-03",
+      "volume": 22200
+     },
+     {
+      "month": "2026-04",
+      "volume": 22200
+     },
+     {
+      "month": "2026-05",
+      "volume": 22200
+     },
+     {
+      "month": "2026-06",
+      "volume": 27100
+     },
+     {
+      "month": "2026-07",
+      "volume": 27100
+     },
+     {
+      "month": "2026-08",
+      "volume": 18100
+     },
+     {
+      "month": "2026-09",
+      "volume": 9900
+     },
+     {
+      "month": "2026-10",
+      "volume": 9900
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Sep 2026",
+    "peak_trough_ratio": 6.11,
+    "jan_vs_avg": 0.71,
+    "trend_12m_pct": -70.4,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "CR2 batteries, case, magnetic cart strap",
+    "price": 10,
+    "cadence": "per season (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: FDA CDRH laser filing)",
+   "notes": "Only high-ticket type here that is light (0.7 lb, 4.2x2.5x1.5 in) and small-batch friendly; seasonal (Nov holiday peak 6.1x trough). Gift buyer.",
+   "photo": "photos/outdoor-17.jpg"
+  },
+  {
+   "rank": 18,
+   "type": "foam roller",
+   "amazon": {
+    "units_month": 68850,
+    "bands": {
+     "<20": 29100,
+     "20-40": 35150,
+     "40-80": 3500,
+     "80-130": 0,
+     "130+": 100
+    },
+    "median_price": 25.91,
+    "listings_100plus": 46,
+    "listings_total": 54,
+    "top_brand": "amazon",
+    "top_brand_share": 0.552,
+    "sales_floor_usd_month": 1783904,
+    "leader": {
+     "title": "Amazon Basics High-Density Foam Roller for Exercise and Recovery, 18 Inches, Black",
+     "price": 15.29,
+     "units": 20000,
+     "reviews": 17100,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B00XM2MXK8",
+     "asin": "B00XM2MXK8",
+     "image_url": "https://m.media-amazon.com/images/I/81WJm2tVAOL._AC_UL320_.jpg",
+     "bsr": "#32 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Amazon Basics High-Density Foam Roller for Exercise and Recovery, 18 Inches, Black",
+      "price": 15.29,
+      "units": 20000,
+      "reviews": 17100,
+      "url": "https://www.amazon.com/dp/B00XM2MXK8",
+      "asin": "B00XM2MXK8"
+     },
+     {
+      "title": "Amazon Basics High-Density Foam Roller for Exercise, Stretching and Muscle Recovery, 36 Inches, Black",
+      "price": 22.69,
+      "units": 10000,
+      "reviews": 31800,
+      "url": "https://www.amazon.com/dp/B00XM2MRGI",
+      "asin": "B00XM2MRGI"
+     },
+     {
+      "title": "TriggerPoint Grid 1.0 Foam Roller - 13\" Multi-Density Massage Roller for Deep Tissue & Muscle Recovery - Relieves Tight, Sore Muscles & Kinks, Improves Mobility & Circulation - Targets Key Body Parts",
+      "price": 39.95,
+      "units": 6000,
+      "reviews": 23700,
+      "url": "https://www.amazon.com/dp/B0040EGNIU",
+      "asin": "B0040EGNIU"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 25.91,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 1.9,
+    "factory_cost_high": 3.5,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: high-density EVA roller $2.20 (200-499) to $1.90 (10,000+): alibaba.com/product-introduction/Factory-Price-Home-Exercise-Muscle-Relax_1600767006886.html; aggregator $2.50-3.50 MOQ 20-500",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.6,
+    "dims_in": [
+     18.0,
+     6.0,
+     6.0
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B00XM2MXK8: dims_raw='18 x 6 x 6 inches', weight_raw='0.27 kg' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "20-500 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "None (avoid therapy claims)",
+    "ip_flags": "321 STRONG 'Patented 3-Zone' roller: avoid that surface pattern."
+   },
+   "virality": {
+    "yt_keyword": "foam roller",
+    "yt_views_top10": 3297935,
+    "yt_max": 1027521,
+    "yt_shorts": 0,
+    "yt_recent_12m": 0,
+    "yt_top_title": "10 minute Full Body Foam Roller Routine I FOLLOW ALONG",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "No foam-roller-specific TikTok Shop evidence found.",
+    "demo_score": 1,
+    "demo_note": "No instant visual."
+   },
+   "seasonality": {
+    "keyword": "foam roller",
+    "avg_monthly_volume": 60500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 60500
+     },
+     {
+      "month": "2026-01",
+      "volume": 49500
+     },
+     {
+      "month": "2026-02",
+      "volume": 49500
+     },
+     {
+      "month": "2026-03",
+      "volume": 60500
+     },
+     {
+      "month": "2026-04",
+      "volume": 60500
+     },
+     {
+      "month": "2026-05",
+      "volume": 49500
+     },
+     {
+      "month": "2026-06",
+      "volume": 49500
+     },
+     {
+      "month": "2026-07",
+      "volume": 49500
+     },
+     {
+      "month": "2026-08",
+      "volume": 135000
+     },
+     {
+      "month": "2026-09",
+      "volume": 60500
+     },
+     {
+      "month": "2026-10",
+      "volume": 74000
+     }
+    ],
+    "peak_month": "Aug 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 2.73,
+    "jan_vs_avg": 0.79,
+    "trend_12m_pct": 69.0,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Bulky (18x6x6 in) for value; $26 median.",
+   "photo": "photos/outdoor-18.jpg"
+  },
+  {
+   "rank": 19,
+   "type": "pull-up bar",
+   "amazon": {
+    "units_month": 41250,
+    "bands": {
+     "<20": 250,
+     "20-40": 31250,
+     "40-80": 5000,
+     "80-130": 1750,
+     "130+": 3000
+    },
+    "median_price": 37.99,
+    "listings_100plus": 42,
+    "listings_total": 60,
+    "top_brand": "ally",
+    "top_brand_share": 0.424,
+    "sales_floor_usd_month": 1567088,
+    "leader": {
+     "title": "Ally Peaks Pull Up Bar for Doorway | Thickened Steel Max Limit 440 lbs Upper Body Fitness Workout Bar| Multi-Grip Strength for Doorway | Indoor Chin-Up Bar Fitness Trainer for Home Gym Portable",
+     "price": 28.99,
+     "units": 10000,
+     "reviews": 14300,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B08MY13HYC",
+     "asin": "B08MY13HYC",
+     "image_url": "https://m.media-amazon.com/images/I/619ozwh22nS._AC_UL320_.jpg",
+     "bsr": "#52 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Ally Peaks Pull Up Bar for Doorway | Thickened Steel Max Limit 440 lbs Upper Body Fitness Workout Bar| Multi-Grip Strength for Doorway | Indoor Chin-Up Bar Fitness Trainer for Home Gym Portable",
+      "price": 28.99,
+      "units": 10000,
+      "reviews": 14300,
+      "url": "https://www.amazon.com/dp/B08MY13HYC",
+      "asin": "B08MY13HYC"
+     },
+     {
+      "title": "Sportneer Pull Up Bar for Doorway, No-Drill, 29.5-37 in, 440 lb",
+      "price": 39.99,
+      "units": 5000,
+      "reviews": 8400,
+      "url": "https://www.amazon.com/dp/B09JC86WNK",
+      "asin": "B09JC86WNK"
+     },
+     {
+      "title": "Ally Peaks Pull Up Bar for Doorway | Thickened Steel Max Limit 440 lbs Upper Body Fitness Workout Bar| Multi-Grip Strength for Doorway | Indoor Chin-Up Bar Fitness Trainer for Home Gym Portable",
+      "price": 30.89,
+      "units": 4000,
+      "reviews": 14300,
+      "url": "https://www.amazon.com/dp/B08MY2Y338",
+      "asin": "B08MY2Y338"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 37.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 5.85,
+    "factory_cost_high": 7.5,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: CHENGMO SPORTS doorway bar $6.50-7.50 MOQ 12 (alibaba.com/product-introduction/CHENGMO-SPORTS-Factory-Direct-Adjustable-Doorway_1600203050610.html); no-screw mirror listing $5.85-5.90",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B08MY13HYC: dims_raw='37\"W x 20.2\"H', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "12 pcs; logo 500",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "Load-bearing liability (fall injuries) - needs product liability cover",
+    "ip_flags": "'USA Original Patent' multi-grip bar in top listings: check claims."
+   },
+   "virality": {
+    "yt_keyword": "doorway pull up bar",
+    "yt_views_top10": 656385,
+    "yt_max": 220145,
+    "yt_shorts": 0,
+    "yt_recent_12m": 3,
+    "yt_top_title": "The 10 BEST Door Pull-Up Bars At Home | Comparison",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 2,
+    "demo_note": "Install-without-screws demo only."
+   },
+   "seasonality": {
+    "keyword": "pull up bar",
+    "avg_monthly_volume": 90500,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 110000
+     },
+     {
+      "month": "2025-12",
+      "volume": 110000
+     },
+     {
+      "month": "2026-01",
+      "volume": 110000
+     },
+     {
+      "month": "2026-02",
+      "volume": 74000
+     },
+     {
+      "month": "2026-03",
+      "volume": 90500
+     },
+     {
+      "month": "2026-04",
+      "volume": 90500
+     },
+     {
+      "month": "2026-05",
+      "volume": 90500
+     },
+     {
+      "month": "2026-06",
+      "volume": 90500
+     },
+     {
+      "month": "2026-07",
+      "volume": 90500
+     },
+     {
+      "month": "2026-08",
+      "volume": 110000
+     },
+     {
+      "month": "2026-09",
+      "volume": 90500
+     },
+     {
+      "month": "2026-10",
+      "volume": 90500
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.49,
+    "jan_vs_avg": 1.15,
+    "trend_12m_pct": -11.8,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: load-bearing injury liability)",
+   "notes": "37 in long package; safety-risk product.",
+   "photo": "photos/outdoor-19.jpg"
+  },
+  {
+   "rank": 20,
+   "type": "yoga mat",
+   "amazon": {
+    "units_month": 61500,
+    "bands": {
+     "<20": 11500,
+     "20-40": 49150,
+     "40-80": 650,
+     "80-130": 0,
+     "130+": 200
+    },
+    "median_price": 24.99,
+    "listings_100plus": 51,
+    "listings_total": 62,
+    "top_brand": "gaiam",
+    "top_brand_share": 0.293,
+    "sales_floor_usd_month": 1536885,
+    "leader": {
+     "title": "18 Pcs EVA Foam Floor Tiles, Puzzle Exercise Mat Set for Gym",
+     "price": 24.99,
+     "units": 7000,
+     "reviews": 1300,
+     "rating": 4.2,
+     "url": "https://www.amazon.com/dp/B0GLQH4453",
+     "asin": "B0GLQH4453",
+     "image_url": "https://m.media-amazon.com/images/I/713U7n-k-3L._AC_UL320_.jpg",
+     "bsr": "#336 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "18 Pcs EVA Foam Floor Tiles, Puzzle Exercise Mat Set for Gym",
+      "price": 24.99,
+      "units": 7000,
+      "reviews": 1300,
+      "url": "https://www.amazon.com/dp/B0GLQH4453",
+      "asin": "B0GLQH4453"
+     },
+     {
+      "title": "Amazon Basics Extra Thick Exercise Yoga Mat with Carrying Strap",
+      "price": 19.09,
+      "units": 6000,
+      "reviews": 71000,
+      "url": "https://www.amazon.com/dp/B01LP0U5X0",
+      "asin": "B01LP0U5X0"
+     },
+     {
+      "title": "Gaiam Thick Yoga Mat, Exercise & Fitness Mat with Easy-Cinch Carrying Strap",
+      "price": 21.23,
+      "units": 5000,
+      "reviews": 46900,
+      "url": "https://www.amazon.com/dp/B07H9PDL2Y",
+      "asin": "B07H9PDL2Y"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 24.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.8,
+    "factory_cost_high": 6.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: 6mm double-layer TPE mat $3.90 (2-99) to $2.80 (6,000+): alibaba.com/product-introduction/6MM-Double-layers-TPE-Custom-Print_60747200979.html; mirror listing $5-6",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 2.8,
+    "dims_in": [
+     12.6,
+     12.6,
+     0.4
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0GLQH4453: dims_raw='12.6\"L x 12.6\"W x 0.4\"Th', weight_raw='2.8 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2 pcs",
+    "sample_price": "~$4-6",
+    "small_batch_feasible": "maybe",
+    "certifications": "Prop 65; REACH/phthalate-free claims if made",
+    "ip_flags": "Lululemon/Manduka trademarks."
+   },
+   "virality": {
+    "yt_keyword": "yoga mat",
+    "yt_views_top10": 953006,
+    "yt_max": 516598,
+    "yt_shorts": 0,
+    "yt_recent_12m": 4,
+    "yt_top_title": "Yoga Mat Buyer\u2019s Guide - Our 10 Favorite Yoga Mats On the Market",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 1,
+    "demo_note": "No 3-second wow."
+   },
+   "seasonality": {
+    "keyword": "yoga mat",
+    "avg_monthly_volume": 110000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 135000
+     },
+     {
+      "month": "2025-12",
+      "volume": 135000
+     },
+     {
+      "month": "2026-01",
+      "volume": 135000
+     },
+     {
+      "month": "2026-02",
+      "volume": 90500
+     },
+     {
+      "month": "2026-03",
+      "volume": 90500
+     },
+     {
+      "month": "2026-04",
+      "volume": 90500
+     },
+     {
+      "month": "2026-05",
+      "volume": 90500
+     },
+     {
+      "month": "2026-06",
+      "volume": 90500
+     },
+     {
+      "month": "2026-07",
+      "volume": 90500
+     },
+     {
+      "month": "2026-08",
+      "volume": 110000
+     },
+     {
+      "month": "2026-09",
+      "volume": 110000
+     },
+     {
+      "month": "2026-10",
+      "volume": 135000
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.49,
+    "jan_vs_avg": 1.24,
+    "trend_12m_pct": -12.3,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "mat cleaner spray (liquid), strap",
+    "price": 12,
+    "cadence": "quarterly (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "2.8 lb; commodity at $25.",
+   "photo": "photos/outdoor-20.jpg"
+  },
+  {
+   "rank": 21,
+   "type": "camping cookware set",
+   "amazon": {
+    "units_month": 41250,
+    "bands": {
+     "<20": 900,
+     "20-40": 38100,
+     "40-80": 2050,
+     "80-130": 200,
+     "130+": 0
+    },
+    "median_price": 35.99,
+    "listings_100plus": 31,
+    "listings_total": 43,
+    "top_brand": "gas",
+    "top_brand_share": 0.727,
+    "sales_floor_usd_month": 1484588,
+    "leader": {
+     "title": "Gas One GS-3400P Propane or Butane Stove Dual Fuel Stove Portable Camping Stove - Patented - with Carrying Case Great for Emergency Preparedness Kit",
+     "price": 29.99,
+     "units": 30000,
+     "reviews": 15400,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B01HQRD8EO",
+     "asin": "B01HQRD8EO",
+     "image_url": "https://m.media-amazon.com/images/I/61XKJ6Mfa3L._AC_UL320_.jpg",
+     "bsr": "#57 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Gas One GS-3400P Propane or Butane Stove Dual Fuel Stove Portable Camping Stove - Patented - with Carrying Case Great for Emergency Preparedness Kit",
+      "price": 29.99,
+      "units": 30000,
+      "reviews": 15400,
+      "url": "https://www.amazon.com/dp/B01HQRD8EO",
+      "asin": "B01HQRD8EO"
+     },
+     {
+      "title": "17pcs Camping Cookware Mess Kit,for Camping,Backpacking,Picnic",
+      "price": 35.99,
+      "units": 3000,
+      "reviews": 1400,
+      "url": "https://www.amazon.com/dp/B0D2KF98MC",
+      "asin": "B0D2KF98MC"
+     },
+     {
+      "title": "MalloMe Camping Cookware Mess Kit for Backpacking Gear \u2013 Camping Cooking Set - Camping Pots and Pans Set - Backpacking Stove/Portable Stove Compatible - Camp Kitchen Equipment Accessories Pot",
+      "price": 33.99,
+      "units": 1000,
+      "reviews": 9500,
+      "url": "https://www.amazon.com/dp/B0H2J39VHD",
+      "asin": "B0H2J39VHD"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 35.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 3.9,
+    "factory_cost_high": 6.85,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: aluminum mess kits $3.90-4.65 (Yiwu Kongbo, MOQ 1) to $6.50-6.85 (Ningbo, MOQ 1) (alibaba.com/category/Outdoor-Cookware_201468405.html). Leader is a Gas One dual-fuel stove (stove factory cost not searched, UNKNOWN).",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 3.1,
+    "dims_in": [
+     13.5,
+     11.0,
+     4.45
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B01HQRD8EO: dims_raw='13.5\"L x 11\"W x 4.45\"H', weight_raw='3.1 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1 pc (listings)",
+    "sample_price": "~$4-7",
+    "small_batch_feasible": "maybe",
+    "certifications": "FDA food contact for cookware; camp stoves need CSA/ANSI Z21.72 type certification; fuel canisters are hazmat (cannot ship)",
+    "ip_flags": "Gas One stove listed as 'Patented'."
+   },
+   "virality": {
+    "yt_keyword": "camping cookware set",
+    "yt_views_top10": 585894,
+    "yt_max": 189585,
+    "yt_shorts": 0,
+    "yt_recent_12m": 8,
+    "yt_top_title": "The most versatile piece of camp cookware you can carry! With Dave Canterbury ",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 2,
+    "demo_note": "Nesting pack-down is mildly satisfying."
+   },
+   "seasonality": {
+    "keyword": "camping cookware",
+    "avg_monthly_volume": 4400,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 3600
+     },
+     {
+      "month": "2025-12",
+      "volume": 3600
+     },
+     {
+      "month": "2026-01",
+      "volume": 3600
+     },
+     {
+      "month": "2026-02",
+      "volume": 3600
+     },
+     {
+      "month": "2026-03",
+      "volume": 4400
+     },
+     {
+      "month": "2026-04",
+      "volume": 4400
+     },
+     {
+      "month": "2026-05",
+      "volume": 5400
+     },
+     {
+      "month": "2026-06",
+      "volume": 5400
+     },
+     {
+      "month": "2026-07",
+      "volume": 5400
+     },
+     {
+      "month": "2026-08",
+      "volume": 5400
+     },
+     {
+      "month": "2026-09",
+      "volume": 4400
+     },
+     {
+      "month": "2026-10",
+      "volume": 4400
+     }
+    ],
+    "peak_month": "May 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 0.81,
+    "trend_12m_pct": 31.5,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "butane/propane fuel (hazmat - cannot be shipped by us)",
+    "price": "UNKNOWN",
+    "cadence": "per trip",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: stoves need certification; fuel is hazmat)",
+   "notes": "Type mixes stoves and mess kits; leader is a stove (30k/mo). Top brand share 0.73.",
+   "photo": "photos/outdoor-21.jpg"
+  },
+  {
+   "rank": 22,
+   "type": "grip strengthener",
+   "amazon": {
+    "units_month": 77500,
+    "bands": {
+     "<20": 58550,
+     "20-40": 17300,
+     "40-80": 1650,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 17.49,
+    "listings_100plus": 58,
+    "listings_total": 64,
+    "top_brand": "fitbeast",
+    "top_brand_share": 0.374,
+    "sales_floor_usd_month": 1355475,
+    "leader": {
+     "title": "FitBeast Grip Strengthener Forearm Strengthener Hand Grips Strengthener Kit - 5 Pack Adjustable Resistance",
+     "price": 9.99,
+     "units": 10000,
+     "reviews": 33100,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B07G824Z3V",
+     "asin": "B07G824Z3V",
+     "image_url": "https://m.media-amazon.com/images/I/718tBdzFF6L._AC_UL320_.jpg",
+     "bsr": "#68 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "FitBeast Grip Strengthener Forearm Strengthener Hand Grips Strengthener Kit - 5 Pack Adjustable Resistance",
+      "price": 9.99,
+      "units": 10000,
+      "reviews": 33100,
+      "url": "https://www.amazon.com/dp/B07G824Z3V",
+      "asin": "B07G824Z3V"
+     },
+     {
+      "title": "AIXPI Grip Strength Trainer, Hand Grip Exerciser Strengthener with Adjustable Resistance 11-132 Lbs (5-60kg), Forearm Strengthener, Hand Exerciser for Muscle Building and Injury Recover 1 PACK",
+      "price": 6.29,
+      "units": 6000,
+      "reviews": 7400,
+      "url": "https://www.amazon.com/dp/B09W8V6Q6F",
+      "asin": "B09W8V6Q6F"
+     },
+     {
+      "title": "Grip Strength Trainer (8 Pack), Complete Hand Strengthening Devices",
+      "price": 9.99,
+      "units": 5000,
+      "reviews": 5800,
+      "url": "https://www.amazon.com/dp/B08393YG7B",
+      "asin": "B08393YG7B"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 17.49,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.38,
+    "factory_cost_high": 3.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Lovegym 5-pack kit $2.38-2.57 MOQ 300; CHENGMO 5-in-1 set $2.99 (1-199) to $2.39 (5,000+): alibaba.com/product-introduction/CHENGMO-SPORTS-Factory-Price-Finger-Exerciser_1600406514155.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.82,
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B07G824Z3V: dims_raw='6.18\"L x 4.53\"W', weight_raw='13.12 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "1-300 sets",
+    "sample_price": "~$3",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "grip strengthener",
+    "yt_views_top10": 2731856,
+    "yt_max": 1113435,
+    "yt_shorts": 0,
+    "yt_recent_12m": 5,
+    "yt_top_title": "I Used Grip Trainers Everyday for 30 Days!",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "TikTok Shop grip trainer kit listing 25.0K sold; Limysss 5-in-1 kit 5.3K sold (seller-reported).",
+    "demo_score": 2,
+    "demo_note": "Counter/gripper demo only."
+   },
+   "seasonality": {
+    "keyword": "grip strengthener",
+    "avg_monthly_volume": 22200,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 22200
+     },
+     {
+      "month": "2025-12",
+      "volume": 22200
+     },
+     {
+      "month": "2026-01",
+      "volume": 22200
+     },
+     {
+      "month": "2026-02",
+      "volume": 22200
+     },
+     {
+      "month": "2026-03",
+      "volume": 22200
+     },
+     {
+      "month": "2026-04",
+      "volume": 22200
+     },
+     {
+      "month": "2026-05",
+      "volume": 22200
+     },
+     {
+      "month": "2026-06",
+      "volume": 18100
+     },
+     {
+      "month": "2026-07",
+      "volume": 18100
+     },
+     {
+      "month": "2026-08",
+      "volume": 22200
+     },
+     {
+      "month": "2026-09",
+      "volume": 22200
+     },
+     {
+      "month": "2026-10",
+      "volume": 27100
+     }
+    ],
+    "peak_month": "Oct 2026",
+    "trough_month": "Jun 2026",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 1.01,
+    "trend_12m_pct": 7.4,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Cheap kit ($17 median); low premium potential.",
+   "photo": "photos/outdoor-22.jpg"
+  },
+  {
+   "rank": 23,
+   "type": "bike phone mount",
+   "amazon": {
+    "units_month": 79400,
+    "bands": {
+     "<20": 61100,
+     "20-40": 17700,
+     "40-80": 500,
+     "80-130": 100,
+     "130+": 0
+    },
+    "median_price": 16.99,
+    "listings_100plus": 75,
+    "listings_total": 122,
+    "top_brand": "lamicall",
+    "top_brand_share": 0.293,
+    "sales_floor_usd_month": 1349006,
+    "leader": {
+     "title": "Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable",
+     "price": 15.99,
+     "units": 10000,
+     "reviews": 69500,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B085DMV7XD",
+     "asin": "B085DMV7XD",
+     "image_url": "https://m.media-amazon.com/images/I/711bZ97mpyL._AC_UL320_.jpg",
+     "bsr": "#61 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "Lamicall Bike Phone Holder Motorcycle Mount - One-Hand Operation, Lockable",
+      "price": 15.99,
+      "units": 10000,
+      "reviews": 69500,
+      "url": "https://www.amazon.com/dp/B085DMV7XD",
+      "asin": "B085DMV7XD"
+     },
+     {
+      "title": "Ascher Ultra Bright USB Rechargeable Bike Light Set, Powerful Bicycle Front Headlight and Back Taillight, 4 Light Modes, Easy to Install for Men Women Kids Road Mountain Cycling",
+      "price": 16.99,
+      "units": 10000,
+      "reviews": 32800,
+      "url": "https://www.amazon.com/dp/B07FC9NRRR",
+      "asin": "B07FC9NRRR"
+     },
+     {
+      "title": "LISEN Bike Phone Holder, [Super Easy Install] Motorcycle Phone Mount Ebike Accessories Bicycle Handlebar Holder Mount Gifts for Adults Kids Men Mountain Mini Bike Scooter Gear Accessories, Black",
+      "price": 9.99,
+      "units": 6000,
+      "reviews": 7700,
+      "url": "https://www.amazon.com/dp/B0CJTGQVKC",
+      "asin": "B0CJTGQVKC"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 16.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 1.25,
+    "factory_cost_high": 7.78,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: JOKADE handlebar mount $1.56 (80-799) to $1.25 (1,600+) (alibaba.com/product-introduction/JOKADE-universal-bike-Handlebar-Mount-Adjustable_1600642283358.html); 360-degree mount $5.80 (5-499); Motowolf-style $6.98-7.78 MOQ 10",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.44,
+    "dims_in": [
+     6.38,
+     3.78,
+     1.81
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B085DMV7XD: dims_raw='6.38 x 3.78 x 1.81 inches', weight_raw='7 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "5-80 pcs",
+    "sample_price": "~$2-8",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "Quad Lock / Peak Design mounting systems are patented: avoid their interface."
+   },
+   "virality": {
+    "yt_keyword": "bike phone mount",
+    "yt_views_top10": 2063716,
+    "yt_max": 1825744,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Tested brutally! Bicycle smartphone handlebar mounts",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 3,
+    "demo_note": "Rough-road shake test."
+   },
+   "seasonality": {
+    "keyword": "bike phone mount",
+    "avg_monthly_volume": 6600,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 5400
+     },
+     {
+      "month": "2025-12",
+      "volume": 4400
+     },
+     {
+      "month": "2026-01",
+      "volume": 4400
+     },
+     {
+      "month": "2026-02",
+      "volume": 4400
+     },
+     {
+      "month": "2026-03",
+      "volume": 6600
+     },
+     {
+      "month": "2026-04",
+      "volume": 8100
+     },
+     {
+      "month": "2026-05",
+      "volume": 9900
+     },
+     {
+      "month": "2026-06",
+      "volume": 9900
+     },
+     {
+      "month": "2026-07",
+      "volume": 9900
+     },
+     {
+      "month": "2026-08",
+      "volume": 9900
+     },
+     {
+      "month": "2026-09",
+      "volume": 8100
+     },
+     {
+      "month": "2026-10",
+      "volume": 6600
+     }
+    ],
+    "peak_month": "May 2026",
+    "trough_month": "Dec 2025",
+    "peak_trough_ratio": 2.25,
+    "jan_vs_avg": 0.6,
+    "trend_12m_pct": 73.2,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Seasonal (May peak), $17 median.",
+   "photo": "photos/outdoor-23.jpg"
+  },
+  {
+   "rank": 24,
+   "type": "camping chair",
+   "amazon": {
+    "units_month": 26150,
+    "bands": {
+     "<20": 0,
+     "20-40": 12650,
+     "40-80": 7600,
+     "80-130": 5900,
+     "130+": 0
+    },
+    "median_price": 49.99,
+    "listings_100plus": 45,
+    "listings_total": 55,
+    "top_brand": "gci",
+    "top_brand_share": 0.245,
+    "sales_floor_usd_month": 1307238,
+    "leader": {
+     "title": "GCI Outdoor Comfort Pro Rocker Camping Chair - Indigo Blue",
+     "price": 75,
+     "units": 2000,
+     "reviews": 4100,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B097C3NP57",
+     "asin": "B097C3NP57",
+     "image_url": "https://m.media-amazon.com/images/I/71z766FPnVL._AC_UL320_.jpg",
+     "bsr": "#522 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "GCI Outdoor Comfort Pro Rocker Camping Chair - Indigo Blue",
+      "price": 75,
+      "units": 2000,
+      "reviews": 4100,
+      "url": "https://www.amazon.com/dp/B097C3NP57",
+      "asin": "B097C3NP57"
+     },
+     {
+      "title": "ONETIGRIS Tigerblade Camping Chair, Lightweight Folding Backpacking Hiking Chair, Compact Portable 330 lbs Capacity",
+      "price": 39.98,
+      "units": 2000,
+      "reviews": 1700,
+      "url": "https://www.amazon.com/dp/B0CQJR8NLW",
+      "asin": "B0CQJR8NLW"
+     },
+     {
+      "title": "2 Pack Lightweight Camping Chairs for Adults & Teens, Capacity Foldable Portable Chairs with Carry Bag, Compact Design for Camping, Beach, Picnics, and Outdoor Events",
+      "price": 36.99,
+      "units": 2000,
+      "reviews": 1100,
+      "url": "https://www.amazon.com/dp/B0C4NK8HD2",
+      "asin": "B0C4NK8HD2"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 49.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 3.6,
+    "factory_cost_high": 25.99,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: cup-holder folding chair $25.99 (2-99) to $15.11 (10,000+); basic folding chair $4.80 to $3.60; Global Sources $3.10-3.50 MOQ 50: alibaba.com/product-introduction/Portable-Wholesale-China-OEM-Outdoor-Cheap_1600450638261.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 11.2,
+    "dims_in": [
+     25.8,
+     36.2,
+     38.2
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B097C3NP57: dims_raw='25.8\"D x 36.2\"W x 38.2\"H', weight_raw='11.2 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2-50 pcs",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "no",
+    "certifications": "Load rating; Prop 65",
+    "ip_flags": "Helinox/Kermit chair designs (design patents) - avoid copies."
+   },
+   "virality": {
+    "yt_keyword": "camping chair",
+    "yt_views_top10": 1162167,
+    "yt_max": 469676,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "The Best Camping Chairs Ranked by Real People (and Butts)",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 2,
+    "demo_note": "Setup speed only."
+   },
+   "seasonality": {
+    "keyword": "camping chair",
+    "avg_monthly_volume": 74000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 49500
+     },
+     {
+      "month": "2025-12",
+      "volume": 40500
+     },
+     {
+      "month": "2026-01",
+      "volume": 27100
+     },
+     {
+      "month": "2026-02",
+      "volume": 33100
+     },
+     {
+      "month": "2026-03",
+      "volume": 74000
+     },
+     {
+      "month": "2026-04",
+      "volume": 90500
+     },
+     {
+      "month": "2026-05",
+      "volume": 110000
+     },
+     {
+      "month": "2026-06",
+      "volume": 135000
+     },
+     {
+      "month": "2026-07",
+      "volume": 110000
+     },
+     {
+      "month": "2026-08",
+      "volume": 90500
+     },
+     {
+      "month": "2026-09",
+      "volume": 90500
+     },
+     {
+      "month": "2026-10",
+      "volume": 60500
+     }
+    ],
+    "peak_month": "Jun 2026",
+    "trough_month": "Jan 2026",
+    "peak_trough_ratio": 4.98,
+    "jan_vs_avg": 0.36,
+    "trend_12m_pct": 106.2,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: bulky 11 lb)",
+   "notes": "11.2 lb, 26x36x38 in leader: fails small-batch criteria; summer peak (Jan 0.36x avg).",
+   "photo": "photos/outdoor-24.jpg"
+  },
+  {
+   "rank": 25,
+   "type": "car windshield cleaner tool",
+   "amazon": {
+    "units_month": 67650,
+    "bands": {
+     "<20": 63600,
+     "20-40": 4050,
+     "40-80": 0,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 18.99,
+    "listings_100plus": 11,
+    "listings_total": 13,
+    "top_brand": "astroai",
+    "top_brand_share": 0.532,
+    "sales_floor_usd_month": 1284674,
+    "leader": {
+     "title": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
+     "price": 15.98,
+     "units": 30000,
+     "reviews": 25900,
+     "rating": 4.4,
+     "url": "https://www.amazon.com/dp/B08C7K99WW",
+     "asin": "B08C7K99WW",
+     "image_url": "https://m.media-amazon.com/images/I/816cjzjicOL._AC_UL320_.jpg",
+     "bsr": "#12 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "AstroAI Windshield Cleaner Tool & Car Interior Detailing Kit, Blue, 21 in",
+      "price": 15.98,
+      "units": 30000,
+      "reviews": 25900,
+      "url": "https://www.amazon.com/dp/B08C7K99WW",
+      "asin": "B08C7K99WW"
+     },
+     {
+      "title": "XINDELL Interior Windshield Cleaner Tool \u2013 Car Interior Window Cleaning Kit with Extendable Handle & 4 Microfiber Pads, Auto Wiper Inside Compact Windshield Brush for Car & Home Windows",
+      "price": 17.69,
+      "units": 20000,
+      "reviews": 25900,
+      "url": "https://www.amazon.com/dp/B07SGQJ6C9",
+      "asin": "B07SGQJ6C9"
+     },
+     {
+      "title": "XINDELL 24-inch Windshield Cleaner Tool \u2013 Upgrade Large Head Car Interior&Exterior Window Cleaning Kit with Extendable Handle & 4 Microfiber Pads, Auto Wiper Brush for Car, Trucks, SUVs, RVs & Home",
+      "price": 18.49,
+      "units": 7000,
+      "reviews": 25900,
+      "url": "https://www.amazon.com/dp/B0995X5WN1",
+      "asin": "B0995X5WN1"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 18.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.54,
+    "factory_cost_high": 9.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED/weak: Alibaba windshield cleaning wand listings show no price in search (alibaba.com/product-introduction/Windshield-Cleaning-Tool-Windshield-Cleaning-Wand_1600994206836.html); only a related telescopic-brush ranking page cites $0.54-9 wholesale. Treat as UNKNOWN until quoted.",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 0.79,
+    "dims_in": [
+     9.45,
+     6.1,
+     1.97
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B08C7K99WW: dims_raw='9.45 x 6.1 x 1.97 inches', weight_raw='12.6 ounces' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "UNKNOWN",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "Invisible Glass 'Reach and Clean' is a branded design (check patents); AstroAI leader."
+   },
+   "virality": {
+    "yt_keyword": "windshield cleaner tool",
+    "yt_views_top10": 20729771,
+    "yt_max": 12101901,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "A Ridiculously Easy Way to Clean the INSIDE of Your Windshield  (NO Haze or Streaks)",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "YouTube 'A Ridiculously Easy Way to Clean the INSIDE of Your Windshield' 12.1M views; Daily Dot covered a viral Dollar Tree squeegee windshield TikTok.",
+    "demo_score": 5,
+    "demo_note": "Hazy streaked inside glass to crystal clear in one pass: obvious before/after."
+   },
+   "seasonality": {
+    "keyword": "windshield cleaner tool",
+    "avg_monthly_volume": 1600,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 2400
+     },
+     {
+      "month": "2025-12",
+      "volume": 2400
+     },
+     {
+      "month": "2026-01",
+      "volume": 1600
+     },
+     {
+      "month": "2026-02",
+      "volume": 880
+     },
+     {
+      "month": "2026-03",
+      "volume": 1000
+     },
+     {
+      "month": "2026-04",
+      "volume": 1000
+     },
+     {
+      "month": "2026-05",
+      "volume": 720
+     },
+     {
+      "month": "2026-06",
+      "volume": 720
+     },
+     {
+      "month": "2026-07",
+      "volume": 880
+     },
+     {
+      "month": "2026-08",
+      "volume": 1300
+     },
+     {
+      "month": "2026-09",
+      "volume": 1900
+     },
+     {
+      "month": "2026-10",
+      "volume": 3600
+     }
+    ],
+    "peak_month": "Oct 2026",
+    "trough_month": "May 2026",
+    "peak_trough_ratio": 5.0,
+    "jan_vs_avg": 1.04,
+    "trend_12m_pct": 6.2,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "replacement microfiber pads",
+    "price": 9,
+    "cadence": "every few months (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "67k units/mo but $19 median and AstroAI has 53% of units; ideal hook item inside a car-detailing kit.",
+   "photo": "photos/outdoor-25.jpg"
+  },
+  {
+   "rank": 26,
+   "type": "car cup holder expander/tray",
+   "amazon": {
+    "units_month": 59600,
+    "bands": {
+     "<20": 41200,
+     "20-40": 15300,
+     "40-80": 3100,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 20.99,
+    "listings_100plus": 47,
+    "listings_total": 95,
+    "top_brand": "singaro",
+    "top_brand_share": 0.336,
+    "sales_floor_usd_month": 1251004,
+    "leader": {
+     "title": "SINGARO Car Cup Holder Coaster, Silicone Cup Holder Insert, Universal Non-Slip Cup Holders, Car Accessories Interior for Women and Man Interior Sets 4 Pack Black",
+     "price": 6.99,
+     "units": 20000,
+     "reviews": 14100,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B0CWQ8QMKT",
+     "asin": "B0CWQ8QMKT",
+     "image_url": "https://m.media-amazon.com/images/I/71jM9zMPowL._AC_UL320_.jpg",
+     "bsr": "#25 in Automotive ( See Top 100 in Automotive )"
+    },
+    "top3": [
+     {
+      "title": "SINGARO Car Cup Holder Coaster, Silicone Cup Holder Insert, Universal Non-Slip Cup Holders, Car Accessories Interior for Women and Man Interior Sets 4 Pack Black",
+      "price": 6.99,
+      "units": 20000,
+      "reviews": 14100,
+      "url": "https://www.amazon.com/dp/B0CWQ8QMKT",
+      "asin": "B0CWQ8QMKT"
+     },
+     {
+      "title": "23.4\" Foldable Lap Desk Bed Table with Cup Holder Tray Black",
+      "price": 29.71,
+      "units": 7000,
+      "reviews": 4800,
+      "url": "https://www.amazon.com/dp/B0FQW29RCV",
+      "asin": "B0FQW29RCV"
+     },
+     {
+      "title": "Car Cup Holder Expander, Extender for Car with Adjustable Base",
+      "price": 9.99,
+      "units": 5000,
+      "reviews": 3200,
+      "url": "https://www.amazon.com/dp/B0C7SVNF9H",
+      "asin": "B0C7SVNF9H"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 20.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 2.61,
+    "factory_cost_high": 5.8,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Dongguan Joyart expander $3.65-4.60 MOQ 20; Shenzhen Kapole $3.98-4.80 MOQ 2; 2-in-1 adjustable $2.61-2.91 MOQ 100 (carinterior.alibaba.com/product/car-cup-holders)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0CWQ8QMKT: dims_raw='3.15\"L x 3.15\"W', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "2-100 pcs",
+    "sample_price": "~$4-5",
+    "small_batch_feasible": "yes",
+    "certifications": "None",
+    "ip_flags": "GORILLA GRIP 'Patented adjustable cup holder expander' in top listings: check claims."
+   },
+   "virality": {
+    "yt_keyword": "car cup holder expander",
+    "yt_views_top10": 28226,
+    "yt_max": 10467,
+    "yt_shorts": 0,
+    "yt_recent_12m": 4,
+    "yt_top_title": "Large cup holder extender expander Seven Sparta vs Swigzy",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Buzzfeed/Yahoo/SlashGear roundups of TikTok-famous cup holder expanders (OFY, Tykor); a McDonald's tray hack TikTok 480K+ views.",
+    "demo_score": 3,
+    "demo_note": "Big 40oz bottle that didn't fit now sits upright."
+   },
+   "seasonality": {
+    "keyword": "cup holder expander",
+    "avg_monthly_volume": 2400,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 2900
+     },
+     {
+      "month": "2025-12",
+      "volume": 3600
+     },
+     {
+      "month": "2026-01",
+      "volume": 2900
+     },
+     {
+      "month": "2026-02",
+      "volume": 1900
+     },
+     {
+      "month": "2026-03",
+      "volume": 2400
+     },
+     {
+      "month": "2026-04",
+      "volume": 2400
+     },
+     {
+      "month": "2026-05",
+      "volume": 2400
+     },
+     {
+      "month": "2026-06",
+      "volume": 2400
+     },
+     {
+      "month": "2026-07",
+      "volume": 2400
+     },
+     {
+      "month": "2026-08",
+      "volume": 2900
+     },
+     {
+      "month": "2026-09",
+      "volume": 2400
+     },
+     {
+      "month": "2026-10",
+      "volume": 2400
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.89,
+    "jan_vs_avg": 1.12,
+    "trend_12m_pct": -18.1,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Leader $6.99; type median $21. Weight/dims not returned (UNKNOWN).",
+   "photo": "photos/outdoor-26.jpg"
+  },
+  {
+   "rank": 27,
+   "type": "car seat covers",
+   "amazon": {
+    "units_month": 39250,
+    "bands": {
+     "<20": 2200,
+     "20-40": 28450,
+     "40-80": 7400,
+     "80-130": 300,
+     "130+": 900
+    },
+    "median_price": 30.92,
+    "listings_100plus": 53,
+    "listings_total": 66,
+    "top_brand": "car",
+    "top_brand_share": 0.341,
+    "sales_floor_usd_month": 1213610,
+    "leader": {
+     "title": "Dog Car Seat Cover, 600D Heavy Dute Car Seat Cover for Dogs Pets, 100% Waterproof Anti-Scratch Nonslip Dog Hammock for Cars, Seat Covers Protector with SeatBelt for Sedan SUV Truck Standard Black",
+     "price": 25.98,
+     "units": 8000,
+     "reviews": 4300,
+     "rating": 4.6,
+     "url": "https://www.amazon.com/dp/B0CLVCMLCK",
+     "asin": "B0CLVCMLCK",
+     "image_url": "https://m.media-amazon.com/images/I/81HpR1UA03L._AC_UL320_.jpg",
+     "bsr": "#1,050 in Pet Supplies ( See Top 100 in Pet Supplies )"
+    },
+    "top3": [
+     {
+      "title": "Dog Car Seat Cover, 600D Heavy Dute Car Seat Cover for Dogs Pets, 100% Waterproof Anti-Scratch Nonslip Dog Hammock for Cars, Seat Covers Protector with SeatBelt for Sedan SUV Truck Standard Black",
+      "price": 25.98,
+      "units": 8000,
+      "reviews": 4300,
+      "url": "https://www.amazon.com/dp/B0CLVCMLCK",
+      "asin": "B0CLVCMLCK"
+     },
+     {
+      "title": "CAR PASS Universal FIT Piping Leather Two Front Seat Covers, Waterproof Faux Leather for SUV Sedan Van Truck, Airbag Compatible,Reserved Opening Holes for Headrest Covers. (Black red)",
+      "price": 28.68,
+      "units": 3000,
+      "reviews": 7300,
+      "url": "https://www.amazon.com/dp/B0752DMH6S",
+      "asin": "B0752DMH6S"
+     },
+     {
+      "title": "BDK PolyPro Car Seat Covers Full Set in Charcoal on Black \u2013 Front and Rear Split Bench for Cars, Easy to Install Cover Set, Accessories Auto Trucks Van SUV",
+      "price": 29.99,
+      "units": 2000,
+      "reviews": 126600,
+      "url": "https://www.amazon.com/dp/B01FKQVZOS",
+      "asin": "B01FKQVZOS"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 30.92,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 19.8,
+    "factory_cost_high": 43.0,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Xiangta universal PVC leather set $26.80 (4-99) to $19.80; EKR universal set $43 (50-99) to $37 (alibaba.com/product-introduction/Xiangta-Luxury-Custom-Full-Set-SUV_1600483429360.html)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B0CLVCMLCK: dims_raw='None', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "4-50 sets",
+    "sample_price": "UNKNOWN",
+    "small_batch_feasible": "maybe",
+    "certifications": "Airbag-compatible side seams for front covers (safety)",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "car seat covers",
+    "yt_views_top10": 755831,
+    "yt_max": 147018,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "Seat Covers Installation Instructions",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 3,
+    "demo_note": "Dog-hair/mud before/after for pet covers."
+   },
+   "seasonality": {
+    "keyword": "car seat covers",
+    "avg_monthly_volume": 74000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 90500
+     },
+     {
+      "month": "2025-12",
+      "volume": 90500
+     },
+     {
+      "month": "2026-01",
+      "volume": 74000
+     },
+     {
+      "month": "2026-02",
+      "volume": 60500
+     },
+     {
+      "month": "2026-03",
+      "volume": 74000
+     },
+     {
+      "month": "2026-04",
+      "volume": 74000
+     },
+     {
+      "month": "2026-05",
+      "volume": 74000
+     },
+     {
+      "month": "2026-06",
+      "volume": 74000
+     },
+     {
+      "month": "2026-07",
+      "volume": 74000
+     },
+     {
+      "month": "2026-08",
+      "volume": 90500
+     },
+     {
+      "month": "2026-09",
+      "volume": 74000
+     },
+     {
+      "month": "2026-10",
+      "volume": 90500
+     }
+    ],
+    "peak_month": "Nov 2025",
+    "trough_month": "Feb 2026",
+    "peak_trough_ratio": 1.5,
+    "jan_vs_avg": 0.94,
+    "trend_12m_pct": 0.0,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Leader is actually a pet back-seat cover (#1,050 Pet Supplies); type blends pet covers and full seat-cover sets. Dims/weight not returned (UNKNOWN).",
+   "photo": "photos/outdoor-27.jpg"
+  },
+  {
+   "rank": 28,
+   "type": "tent",
+   "amazon": {
+    "units_month": 16550,
+    "bands": {
+     "<20": 1200,
+     "20-40": 8450,
+     "40-80": 1900,
+     "80-130": 2750,
+     "130+": 2200
+    },
+    "median_price": 70.61,
+    "listings_100plus": 38,
+    "listings_total": 62,
+    "top_brand": "night",
+    "top_brand_share": 0.133,
+    "sales_floor_usd_month": 1168596,
+    "leader": {
+     "title": "Wakeman Outdoors 2 Person Camping Tent with Rain Fly & Carrying Bag Shelter",
+     "price": 25.54,
+     "units": 1000,
+     "reviews": 18000,
+     "rating": 4.2,
+     "url": "https://www.amazon.com/dp/B01IVRSGT0",
+     "asin": "B01IVRSGT0",
+     "image_url": "https://m.media-amazon.com/images/I/81o-djfhJHL._AC_UY218_.jpg",
+     "bsr": "#2,013 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Wakeman Outdoors 2 Person Camping Tent with Rain Fly & Carrying Bag Shelter",
+      "price": 25.54,
+      "units": 1000,
+      "reviews": 18000,
+      "url": "https://www.amazon.com/dp/B01IVRSGT0",
+      "asin": "B01IVRSGT0"
+     },
+     {
+      "title": "WolfWise Pop Up Shower Tent for Camping Essentials, Compact & Lightweight",
+      "price": 37.99,
+      "units": 1000,
+      "reviews": 9400,
+      "url": "https://www.amazon.com/dp/B0G4CSRLHV",
+      "asin": "B0G4CSRLHV"
+     },
+     {
+      "title": "Pop Up Pod - Privacy Shower Tent, Dressing Room, or Portable Toilet Stall with Carry Bag for Camping, Beach, or Tailgate by Wakeman Outdoors (Black)",
+      "price": 38.99,
+      "units": 1000,
+      "reviews": 8500,
+      "url": "https://www.amazon.com/dp/B07WWYQS7B",
+      "asin": "B07WWYQS7B"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 70.61,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 13.0,
+    "factory_cost_high": 39.3,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Global Sources camping tents $13-15 MOQ 100; JWJ-001 2-person tent $34.50-39.30 (accio.com/biz-cheap/cheap-hiking-tent); Eaglesight 2P ultralight MOQ 200, price not shown",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": 3.3,
+    "dims_in": [
+     77.0,
+     57.0,
+     40.0
+    ],
+    "dims_weight_source": "DataForSEO amazon/asin for leader B01IVRSGT0: dims_raw='77\"L x 57\"W x 40\"H', weight_raw='3.3 pounds' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "100-200 pcs",
+    "sample_price": "$50 (one listing)",
+    "small_batch_feasible": "maybe",
+    "certifications": "CPAI-84 flammability labeling expected by several US states",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "camping tent",
+    "yt_views_top10": 4958266,
+    "yt_max": 1993893,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Torrential Rain & THUNDER on a Camping Tent-Lost in the Forest-Sleep to Rain Sounds in the WILD",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN).",
+    "demo_score": 2,
+    "demo_note": "Instant pop-up variants have a wow; dome tents do not."
+   },
+   "seasonality": {
+    "keyword": "tent",
+    "avg_monthly_volume": 165000,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 110000
+     },
+     {
+      "month": "2025-12",
+      "volume": 110000
+     },
+     {
+      "month": "2026-01",
+      "volume": 110000
+     },
+     {
+      "month": "2026-02",
+      "volume": 110000
+     },
+     {
+      "month": "2026-03",
+      "volume": 165000
+     },
+     {
+      "month": "2026-04",
+      "volume": 165000
+     },
+     {
+      "month": "2026-05",
+      "volume": 201000
+     },
+     {
+      "month": "2026-06",
+      "volume": 246000
+     },
+     {
+      "month": "2026-07",
+      "volume": 246000
+     },
+     {
+      "month": "2026-08",
+      "volume": 201000
+     },
+     {
+      "month": "2026-09",
+      "volume": 201000
+     },
+     {
+      "month": "2026-10",
+      "volume": 165000
+     }
+    ],
+    "peak_month": "Jun 2026",
+    "trough_month": "Nov 2025",
+    "peak_trough_ratio": 2.24,
+    "jan_vs_avg": 0.65,
+    "trend_12m_pct": 71.8,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "stakes/footprint",
+    "price": 15,
+    "cadence": "rare (ASSUMED)",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Leader dims are pitched-tent size (77x57x40 in), not package. Summer peak; low type concentration (0.13).",
+   "photo": "photos/outdoor-28.jpg"
+  },
+  {
+   "rank": 29,
+   "type": "retractable car charger",
+   "amazon": {
+    "units_month": 45400,
+    "bands": {
+     "<20": 23800,
+     "20-40": 21600,
+     "40-80": 0,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 22.99,
+    "listings_100plus": 13,
+    "listings_total": 14,
+    "top_brand": "lisen",
+    "top_brand_share": 0.396,
+    "sales_floor_usd_month": 1043746,
+    "leader": {
+     "title": "LISEN Retractable Car Charger, 84W Car Charger USB C Fast Charge, 4 in 1",
+     "price": 16.99,
+     "units": 10000,
+     "reviews": 25700,
+     "rating": 4.5,
+     "url": "https://www.amazon.com/dp/B0D4215HCX",
+     "asin": "B0D4215HCX",
+     "image_url": "https://m.media-amazon.com/images/I/71Ryl5xKbuL._AC_UL320_.jpg",
+     "bsr": "UNKNOWN"
+    },
+    "top3": [
+     {
+      "title": "LISEN Retractable Car Charger, 84W Car Charger USB C Fast Charge, 4 in 1",
+      "price": 16.99,
+      "units": 10000,
+      "reviews": 25700,
+      "url": "https://www.amazon.com/dp/B0D4215HCX",
+      "asin": "B0D4215HCX"
+     },
+     {
+      "title": "for MagSafe Car Mount Charger, 15W Fast Charging Magnetic Wireless Car Charger, Vacuum Magnetic Phone Holder [120LBS Ultra Suction Cup & 3000gf Magnet ] 780\u00b0 Dashboard Car Bracket for iPhone & Android",
+      "price": 26.99,
+      "units": 10000,
+      "reviews": 2000,
+      "url": "https://www.amazon.com/dp/B0FLYFFR66",
+      "asin": "B0FLYFFR66"
+     },
+     {
+      "title": "Retractable Car Charger,4 in 1 Fast Charging Car Charger with USB-C & USB-A",
+      "price": 15.99,
+      "units": 8000,
+      "reviews": 3700,
+      "url": "https://www.amazon.com/dp/B0DFLVGQX5",
+      "asin": "B0DFLVGQX5"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 22.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 3.52,
+    "factory_cost_high": 10.9,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: 4-in-1 60W retractable $9 (5-49) to $7.80 (100+); Mcdodo 100W $3.52 MOQ 1; Dianningmeng 100W 4-in-1 $8.90-10.90 MOQ 100: alibaba.com/product-introduction/Retractable-Car-Charger-USB-Type-C_10000017898701.html",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin returned: no file"
+   },
+   "acquisition": {
+    "moq": "1-100 pcs",
+    "sample_price": "~$4-9",
+    "small_batch_feasible": "yes",
+    "certifications": "FCC Part 15B; UL 2089 recommended (vehicle adapters); USB-PD compliance",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "retractable car charger",
+    "yt_views_top10": 56877,
+    "yt_max": 14543,
+    "yt_shorts": 0,
+    "yt_recent_12m": 7,
+    "yt_top_title": "Stop Buying Bad Car Chargers! \ud83d\udd25 Top 5 Best Car Chargers 2026",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "TikTok Shop QGX 4-in-1 retractable 66W charger 11.6K sold, 1.2k reviews (tiktokshop.com/pdp/car-charger-with-starlight-4-in-1-retractable-66w-usb-c-charger/1730660487117640191).",
+    "demo_score": 3,
+    "demo_note": "Pull-out/snap-back cables are tidy and clear on video."
+   },
+   "seasonality": {
+    "keyword": "retractable car charger",
+    "avg_monthly_volume": 1900,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 2900
+     },
+     {
+      "month": "2025-12",
+      "volume": 3600
+     },
+     {
+      "month": "2026-01",
+      "volume": 1600
+     },
+     {
+      "month": "2026-02",
+      "volume": 1600
+     },
+     {
+      "month": "2026-03",
+      "volume": 1600
+     },
+     {
+      "month": "2026-04",
+      "volume": 1600
+     },
+     {
+      "month": "2026-05",
+      "volume": 1600
+     },
+     {
+      "month": "2026-06",
+      "volume": 1900
+     },
+     {
+      "month": "2026-07",
+      "volume": 1900
+     },
+     {
+      "month": "2026-08",
+      "volume": 1600
+     },
+     {
+      "month": "2026-09",
+      "volume": 1600
+     },
+     {
+      "month": "2026-10",
+      "volume": 1900
+     }
+    ],
+    "peak_month": "Dec 2025",
+    "trough_month": "Jan 2026",
+    "peak_trough_ratio": 2.25,
+    "jan_vs_avg": 0.82,
+    "trend_12m_pct": -37.0,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass",
+   "notes": "Leader ASIN details not returned by API (40102); weight/dims UNKNOWN. Good add-on for a car kit.",
+   "photo": "photos/outdoor-29.jpg"
+  },
+  {
+   "rank": 30,
+   "type": "emergency mylar blanket",
+   "amazon": {
+    "units_month": 42900,
+    "bands": {
+     "<20": 40000,
+     "20-40": 2800,
+     "40-80": 100,
+     "80-130": 0,
+     "130+": 0
+    },
+    "median_price": 23.99,
+    "listings_100plus": 6,
+    "listings_total": 6,
+    "top_brand": "emergency",
+    "top_brand_share": 0.977,
+    "sales_floor_usd_month": 1029171,
+    "leader": {
+     "title": "Emergency Blanket Mylar Thermal Space Survival Gear & Supplies 4-Pack Foil",
+     "price": 13.49,
+     "units": 30000,
+     "reviews": 5600,
+     "rating": 4.7,
+     "url": "https://www.amazon.com/dp/B098KJMMGC",
+     "asin": "B098KJMMGC",
+     "image_url": "https://m.media-amazon.com/images/I/71eCGdR7nfL._AC_UL320_.jpg",
+     "bsr": "#59 in Sports & Outdoors ( See Top 100 in Sports & Outdoors )"
+    },
+    "top3": [
+     {
+      "title": "Emergency Blanket Mylar Thermal Space Survival Gear & Supplies 4-Pack Foil",
+      "price": 13.49,
+      "units": 30000,
+      "reviews": 5600,
+      "url": "https://www.amazon.com/dp/B098KJMMGC",
+      "asin": "B098KJMMGC"
+     },
+     {
+      "title": "Emergency Mylar Thermal Blankets 4 Packs Survival Kit 84''x55''",
+      "price": 16.99,
+      "units": 10000,
+      "reviews": 8500,
+      "url": "https://www.amazon.com/dp/B07GLCYR5S",
+      "asin": "B07GLCYR5S"
+     },
+     {
+      "title": "Emergency Sleeping Bag Survival Bag, Cymuber Portable Waterproof Thermal Bivy Sacks Tac Bivvy Bags,Camping Mylar Sleeping Bag Survival Gear Emergency Blankets Survival Shelter",
+      "price": 23.99,
+      "units": 1000,
+      "reviews": 605,
+      "url": "https://www.amazon.com/dp/B0DKDVY9C7",
+      "asin": "B0DKDVY9C7"
+     }
+    ],
+    "label": "ESTIMATED",
+    "source": "DataForSEO merchant/amazon/products (US, depth 60, 112 seeds), Nov 14 2026; units = sum of Amazon 'bought in past month' bucket floors (ESTIMATED floor)"
+   },
+   "margin_inputs": {
+    "retail_price": 23.99,
+    "retail_price_label": "ESTIMATED (median price of Amazon listings with 100+ units/month)",
+    "factory_cost_low": 0.1,
+    "factory_cost_high": 0.2,
+    "factory_cost_label": "ESTIMATED (listing snippets, not quotes)",
+    "factory_source": "ESTIMATED: Wenzhou Shengkai aluminized mylar blanket $0.10-0.20 MOQ 100 (wzsky.en.alibaba.com/company_profile.html)",
+    "us_dropship": {
+     "exists": "unknown",
+     "price": "UNKNOWN",
+     "source": "CJ/Spocket US-warehouse stock not confirmable from web search (CJ site is bot-blocked); needs a logged-in CJ/Spocket check"
+    },
+    "weight_lb": "UNKNOWN",
+    "dims_in": "UNKNOWN",
+    "dims_weight_source": "DataForSEO amazon/asin for leader B098KJMMGC: dims_raw='82\"L x 52\"W', weight_raw='None' (item dimensions; package dimensions not returned)"
+   },
+   "acquisition": {
+    "moq": "100 pcs",
+    "sample_price": "<$1",
+    "small_batch_feasible": "yes",
+    "certifications": "Avoid medical/first-aid claims",
+    "ip_flags": "No flag."
+   },
+   "virality": {
+    "yt_keyword": "emergency mylar blanket",
+    "yt_views_top10": 5387844,
+    "yt_max": 3396814,
+    "yt_shorts": 0,
+    "yt_recent_12m": 6,
+    "yt_top_title": "German Military Special Forces Mylar Blanket Survival Shelter | Survivalist & Emergency",
+    "yt_source": "DataForSEO serp/youtube/organic (US), first 10 video results, Nov 14 2026",
+    "foreplay_longest_days": "not checked (top 10 only)",
+    "foreplay_ads": "not checked (top 10 only)",
+    "foreplay_examples": [],
+    "foreplay_note": "",
+    "tiktok_evidence": "Not searched individually (UNKNOWN). YouTube survival videos 5.4M views top 10.",
+    "demo_score": 2,
+    "demo_note": "Crinkly foil wrap; no transformation."
+   },
+   "seasonality": {
+    "keyword": "emergency blanket",
+    "avg_monthly_volume": 9900,
+    "monthly": [
+     {
+      "month": "2025-11",
+      "volume": 12100
+     },
+     {
+      "month": "2025-12",
+      "volume": 14800
+     },
+     {
+      "month": "2026-01",
+      "volume": 22200
+     },
+     {
+      "month": "2026-02",
+      "volume": 8100
+     },
+     {
+      "month": "2026-03",
+      "volume": 9900
+     },
+     {
+      "month": "2026-04",
+      "volume": 9900
+     },
+     {
+      "month": "2026-05",
+      "volume": 8100
+     },
+     {
+      "month": "2026-06",
+      "volume": 6600
+     },
+     {
+      "month": "2026-07",
+      "volume": 6600
+     },
+     {
+      "month": "2026-08",
+      "volume": 6600
+     },
+     {
+      "month": "2026-09",
+      "volume": 9900
+     },
+     {
+      "month": "2026-10",
+      "volume": 14800
+     }
+    ],
+    "peak_month": "Jan 2026",
+    "trough_month": "Jun 2026",
+    "peak_trough_ratio": 3.36,
+    "jan_vs_avg": 2.06,
+    "trend_12m_pct": -36.3,
+    "trend_method": "last 3 months (Aug-Oct 2026) vs first 3 months (Nov 2025-Jan 2026) of the 12-month window; only 12 months returned, so not a same-season YoY comparison",
+    "source": "DataForSEO keywords_data/google_ads/search_volume (US), Nov 14 2026; window Nov 2025-Oct 2026"
+   },
+   "reorder": {
+    "path": "none",
+    "price": "none",
+    "cadence": "none",
+    "label": "ASSUMED"
+   },
+   "exclusion": "pass (flag: one brand holds 98% of units)",
+   "notes": "Top brand share 0.98 (one brand); 6 listings with 100+. Only useful as a kit filler.",
+   "photo": "photos/outdoor-30.jpg"
+  }
+ ],
+ "honorable_mentions_outside_top30": [
+  {
+   "type": "foam cannon",
+   "units_month": 24900,
+   "median_price": 32.99,
+   "listings_100plus": 51,
+   "top_brand_share": 0.323,
+   "sales_floor_usd_month": 821451,
+   "why": "satisfying snow-foam demo; 51 listings with 100+",
+   "leader": {
+    "title": "Tool Daily Foam Cannon with 1/4 Inch Quick Connector 1 Liter, 5 Nozzle Tips",
+    "price": 17.99,
+    "units": 6000,
+    "url": "https://www.amazon.com/dp/B07HC898GM"
+   }
+  },
+  {
+   "type": "car seat gap filler",
+   "units_month": 45450,
+   "median_price": 15.99,
+   "listings_100plus": 37,
+   "top_brand_share": 0.556,
+   "sales_floor_usd_month": 726746,
+   "why": "classic TikTok car gadget; cheap ($16 median)",
+   "leader": {
+    "title": "Drop Stop \u2013 2 Original Car Seat Gap Fillers (Shark Tank) + Dash Pad + Light",
+    "price": 24.99,
+    "units": 10000,
+    "url": "https://www.amazon.com/dp/B00BYH6C1E"
+   }
+  },
+  {
+   "type": "golf putting mat/green",
+   "units_month": 8700,
+   "median_price": 60.98,
+   "listings_100plus": 36,
+   "top_brand_share": 0.23,
+   "sales_floor_usd_month": 530526,
+   "why": "$61 median, gift/desk-adjacent",
+   "leader": {
+    "title": "PUTT-A-BOUT Par Three Golf Putting Green (3' x 9')",
+    "price": 39.99,
+    "units": 1000,
+    "url": "https://www.amazon.com/dp/B001B6CH0S"
+   }
+  },
+  {
+   "type": "pickleball paddle set",
+   "units_month": 20950,
+   "median_price": 39.99,
+   "listings_100plus": 39,
+   "top_brand_share": 0.279,
+   "sales_floor_usd_month": 837790,
+   "why": "$40 median, growing sport",
+   "leader": {
+    "title": "MTEN Pickleball Paddles Set of 2/4/1, USAPA Approved Fiberglass Rackets",
+    "price": 32.99,
+    "units": 3000,
+    "url": "https://www.amazon.com/dp/B0BYV7P9X7"
+   }
+  },
+  {
+   "type": "pop-up beach tent / sun shelter",
+   "units_month": 10300,
+   "median_price": 84.99,
+   "listings_100plus": 17,
+   "top_brand_share": 0.243,
+   "sales_floor_usd_month": 875397,
+   "why": "$85 median, instant pop-up demo; bulky",
+   "leader": {
+    "title": "CROWN SHADES 10x10 Pop Up Canopy Tent with One Push Setup, Grid White",
+    "price": 139.99,
+    "units": 1000,
+    "url": "https://www.amazon.com/dp/B078XR1CS8"
+   }
+  },
+  {
+   "type": "car detailing brush kit",
+   "units_month": 36150,
+   "median_price": 22.74,
+   "listings_100plus": 48,
+   "top_brand_share": 0.249,
+   "sales_floor_usd_month": 822051,
+   "why": "kit component for a car-detailing bundle",
+   "leader": {
+    "title": "Holikme 6Pc Drill Brush Set - Soft Bristles with Extension for Home Clean",
+    "price": 8.99,
+    "units": 9000,
+    "url": "https://www.amazon.com/dp/B07G7XG6BV"
+   }
+  },
+  {
+   "type": "car drying towel",
+   "units_month": 31400,
+   "median_price": 25.98,
+   "listings_100plus": 42,
+   "top_brand_share": 0.178,
+   "sales_floor_usd_month": 815772,
+   "why": "kit component; $26 median",
+   "leader": {
+    "title": "2-Pack 1200 GSM Car Drying Towels \u2013 Microfiber Towels for Cars (36\" x 24\"), Ultra-Absorbent, Streak-Free, Scratch-Free, No Water Spots, Double-Twist Pile & Edgeless Design",
+    "price": 26.99,
+    "units": 4000,
+    "url": "https://www.amazon.com/dp/B0DPZTLVHL"
+   }
+  }
+ ],
+ "all_types_file": "outdoor/types.json (all 126 types with bands, leaders); raw API responses in outdoor/raw/"
+}
