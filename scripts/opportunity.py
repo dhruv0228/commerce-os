@@ -62,19 +62,26 @@ def logp(x, x0, x1, p):
     return clamp((math.log10(x) - math.log10(x0)) / (math.log10(x1) - math.log10(x0)), 0, 1) * p
 
 
-def unit_cost(m):
-    """Landed unit cost at the owner's door: a priced US dropship source if one exists,
-    else the factory price (midpoint) brought in by express air with duty."""
+def unit_cost(m, stage="test"):
+    """Landed unit cost.
+    test:  a priced US dropship source if one exists, else the factory price (midpoint) brought in
+           by express air with duty (a 10-50 unit batch to the owner's home).
+    scale: the lower factory price (volume tier) by sea freight into a US 3PL, with duty.
+    """
     us = m.get("us_dropship") or {}
-    if str(us.get("exists", "")).lower() == "yes" and num(us.get("price")):
-        return num(us["price"]), "us_dropship"
     lo, hi = num(m.get("factory_cost_low")), num(m.get("factory_cost_high"))
-    if lo is None and hi is None:
-        return None, "unknown"
-    fc = (lo + hi) / 2 if lo is not None and hi is not None else (lo if lo is not None else hi)
     w = num(m.get("weight_lb"), 1.0)
     dims = m.get("dims_in") if isinstance(m.get("dims_in"), list) and len(m.get("dims_in")) == 3 else None
-    landed, _ = channels.landed_small_batch(fc, w, [num(d, 1) for d in dims] if dims else None, DUTY_DEFAULT)
+    dims = [num(d, 1) for d in dims] if dims else None
+    if stage == "test" and str(us.get("exists", "")).lower() == "yes" and num(us.get("price")):
+        return num(us["price"]), "us_dropship"
+    if lo is None and hi is None:
+        return None, "unknown"
+    if stage == "scale":
+        landed, _ = channels.landed_at_scale(lo if lo is not None else hi, w, dims, DUTY_DEFAULT)
+        return landed + channels.HOUSE["scale_3pl_per_order"], "sea_3pl"
+    fc = (lo + hi) / 2 if lo is not None and hi is not None else (lo if lo is not None else hi)
+    landed, _ = channels.landed_small_batch(fc, w, dims, DUTY_DEFAULT)
     return landed, "small_batch_air"
 
 
@@ -82,20 +89,26 @@ def score(p, niche, params):
     am, m = p.get("amazon", {}), p.get("margin_inputs", {})
     vi, ac, se, ro = p.get("virality", {}), p.get("acquisition", {}), p.get("seasonality", {}), p.get("reorder", {})
     price = num(m.get("retail_price")) or num(am.get("median_price"))
-    cost, cost_basis = unit_cost(m)
+    cost, cost_basis = unit_cost(m, "scale")
+    test_cost, test_basis = unit_cost(m, "test")
     w = num(m.get("weight_lb"), 1.0)
     dims = m.get("dims_in") if isinstance(m.get("dims_in"), list) and len(m.get("dims_in")) == 3 else None
     dims = [num(d, 1) for d in dims] if dims else None
     row = {"niche": niche, "type": p.get("type"), "price": price, "unit_cost": cost, "cost_basis": cost_basis,
+           "test_cost": test_cost, "test_basis": test_basis,
            "weight_lb": w, "units_month": num(am.get("units_month")), "photo": p.get("photo", "")}
 
     # Profit (30)
     if price and cost is not None:
-        res = channels.channel_economics(params, price, cost, w, dims, NICHE_CATEGORY.get(niche, "auto"))
+        res = channels.channel_economics(params, price, cost, w, dims, NICHE_CATEGORY.get(niche, "auto"), stage="scale")
         name, best = channels.best_channel(res)
         row.update(best_channel=name, profit=best["profit"], profit_tough=best["profit_tough"], margin_pct=best["margin_pct"],
                    fba_profit=res["amazon_fba"]["profit"], dtc_profit=res["dtc_meta"]["profit"], tiktok_profit=res["tiktok_aff"]["profit"])
         row["s_profit"] = lin(best["profit_tough"], 0, 25, 20) + lin(best["margin_pct"], 0, 0.25, 10)
+        if test_cost is not None:
+            t = channels.channel_economics(params, price, test_cost, w, dims, NICHE_CATEGORY.get(niche, "auto"))
+            tn, tb = channels.best_channel(t)
+            row.update(test_channel=tn, test_profit_tough=tb["profit_tough"])
     else:
         row.update(best_channel="", profit=None, profit_tough=None, margin_pct=None, fba_profit=None, dtc_profit=None, tiktok_profit=None)
         row["s_profit"] = 0.0
@@ -147,14 +160,16 @@ def main(argv=None):
     rows = []
     for f in a.files:
         d = json.loads(pathlib.Path(f).read_text())
-        niche = d.get("niche", pathlib.Path(f).stem).split()[0].lower().strip(",")
-        niche = next((k for k in NICHE_CATEGORY if k in niche), niche)
+        raw = (d.get("niche") or pathlib.Path(f).stem).lower()
+        niche = ("pets" if "pet" in raw else "tech" if "tech" in raw else "home" if "home" in raw
+                 else "outdoor" if ("outdoor" in raw or "car" in raw or "fitness" in raw) else pathlib.Path(f).stem)
         for p in d.get("products", []):
             if str(p.get("exclusion", "pass")).lower().startswith("fail"):
                 continue
             rows.append(score(p, niche, params))
     rows.sort(key=lambda r: -r["score"])
     cols = ["score", "niche", "type", "price", "unit_cost", "cost_basis", "best_channel", "profit", "profit_tough", "margin_pct",
+            "test_cost", "test_basis", "test_channel", "test_profit_tough",
             "tiktok_profit", "dtc_profit", "fba_profit", "units_month", "weight_lb", "s_profit", "s_proven", "s_virality",
             "s_acquisition", "s_season", "s_reorder", "photo", "exclusion"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
@@ -162,17 +177,17 @@ def main(argv=None):
         w.writeheader()
         w.writerows(rows)
     lines = ["# Ranked opportunities", "", "Scores from `scripts/opportunity.py`; profit from `scripts/channels.py` (tough case, best launch channel).", "",
-             "| # | Score | Niche | Product type | Price | Unit cost | Best channel | Profit/order (tough) | Units/mo | Profit /30 | Proven /20 | Viral /20 | Acquire /15 | Season /10 | Reorder /5 |",
-             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+             "| # | Score | Niche | Product type | Price | Unit cost at scale | Best channel | Profit/order at scale (tough) | Test-batch profit (tough) | Units/mo | Profit /30 | Proven /20 | Viral /20 | Acquire /15 | Season /10 | Reorder /5 |",
+             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for i, r in enumerate(rows, 1):
         f = lambda x: "" if x is None else (f"{x:,.2f}" if isinstance(x, float) else str(x))
         lines.append(f"| {i} | **{r['score']}** | {r['niche']} | {r['type']} | {f(r['price'])} | {f(r['unit_cost'])} | {r['best_channel']} | "
-                     f"{f(r['profit_tough'])} | {f(r['units_month'])} | {f(r['s_profit'])} | {f(r['s_proven'])} | {f(r['s_virality'])} | "
+                     f"{f(r['profit_tough'])} | {f(r.get('test_profit_tough'))} | {f(r['units_month'])} | {f(r['s_profit'])} | {f(r['s_proven'])} | {f(r['s_virality'])} | "
                      f"{f(r['s_acquisition'])} | {f(r['s_season'])} | {f(r['s_reorder'])} |")
     pathlib.Path(a.report).write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"{len(rows)} products scored -> {a.out}, {a.report}")
     for r in rows[:15]:
-        print(f"{r['score']:>6}  {r['niche']:<8} {str(r['type'])[:42]:<42} ${r['price']}  {r['best_channel']:<11} tough ${r['profit_tough']}")
+        print(f"{r['score']:>6}  {r['niche']:<8} {str(r['type'])[:40]:<40} ${r['price']}  {r['best_channel']:<11} scale ${r['profit_tough']}  test ${r.get('test_profit_tough')}")
 
 
 if __name__ == "__main__":

@@ -39,6 +39,12 @@ HOUSE = {
     "amazon_inbound_per_unit": 1.00,# freight from home to an Amazon warehouse (ASSUMED; source UNKNOWN)
     "amazon_storage_per_unit": 0.30,# about one month of storage for a small box (ASSUMED)
     "ship_zone": "zone5",
+    "sea_usd_per_cbm": 200.0,       # LCL sea freight China to US West Coast incl. drayage (ASSUMED; verify with a forwarder)
+    "scale_3pl_per_order": 3.00,    # pick/pack at a US 3PL once scaled (ESTIMATED range 2.75-3.20)
+    # At scale (stage="scale"): negotiated 3PL / TikTok Shipping rates and fewer samples per order.
+    "scale_ship_mult": 0.75,        # ASSUMED: 3PL and Upgraded TikTok Shipping discounts (TikTok cites up to ~20%)
+    "scale_samples_per_order": 0.10,# ASSUMED
+    "scale_packaging": 0.75,        # ASSUMED (low end of 0.75-2.00)
 }
 
 # Category -> keys used to look up fees. Unknown categories fall back to "all".
@@ -97,6 +103,18 @@ def landed_small_batch(factory_cost, weight_lb, dims_in, duty_pct):
     return factory_cost + freight + duty + HOUSE["brokerage_per_unit"], {"freight": freight, "duty": duty}
 
 
+def landed_at_scale(factory_cost, weight_lb, dims_in, duty_pct):
+    """Per-unit landed cost once volume justifies sea freight (LCL) into a US 3PL."""
+    if dims_in:
+        l, w, h = (d * 0.0254 for d in dims_in)
+        cbm = l * w * h
+    else:
+        cbm = max(weight_lb, 0.5) * 0.004  # rough: 4 litres per lb when dims are unknown (ASSUMED)
+    freight = cbm * HOUSE["sea_usd_per_cbm"]
+    duty = factory_cost * duty_pct
+    return factory_cost + freight + duty, {"freight": freight, "duty": duty}
+
+
 def fba_fee(params, weight_lb, dims_in):
     fba = params["amazon_fba"]
     oz = (weight_lb + 0.2) * 16
@@ -129,14 +147,21 @@ def referral_pct(params, key, price, table="amazon_fba"):
     return node
 
 
-def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, category="all"):
+def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, category="all", stage="test"):
     """Return {channel: {...}} with revenue, costs, acquisition and profit per order.
 
     unit_cost is the landed cost of one unit at the owner's home or US warehouse.
+    stage "test": retail postage from home, 0.3 creator samples per order.
+    stage "scale": negotiated shipping, 0.1 samples per order, cheaper packaging (all ASSUMED).
     """
     cat = CATEGORY_MAP.get(category, CATEGORY_MAP["auto"])
     ship = ship_from_home(params, weight_lb, dims_in)
     pack = HOUSE["packaging"]
+    samples_per_order = HOUSE["samples_per_order"]
+    if stage == "scale":
+        ship *= HOUSE["scale_ship_mult"]
+        pack = HOUSE["scale_packaging"]
+        samples_per_order = HOUSE["scale_samples_per_order"]
     out = {}
 
     # Own store + Meta ads
@@ -154,13 +179,13 @@ def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, categor
     ref = v(tt["referral_fee_pct_reported_since_aug_4_2026"])
     aff_node = v(tt["affiliate_commission_open_collab"])[cat["aff"]]
     aff = sum(aff_node) / 2 if isinstance(aff_node, list) else aff_node
-    samples = HOUSE["samples_per_order"] * (unit_cost + ship + pack)
+    samples = samples_per_order * (unit_cost + ship + pack)
     refunds_tt = price * HOUSE["refund_pct_tiktok"]
     pre_tt = price - unit_cost - ship - pack - price * ref - refunds_tt
     acq_aff = price * aff + samples
     out["tiktok_aff"] = {"pre_acq": pre_tt, "acq": acq_aff, "acq_tough": price * min(aff + 0.05, 0.30) + samples * 1.5,
                          "profit": pre_tt - acq_aff, "profit_tough": pre_tt - (price * min(aff + 0.05, 0.30) + samples * 1.5),
-                         "note": f"referral {ref:.0%}, commission {aff:.0%}, samples {HOUSE['samples_per_order']}/order"}
+                         "note": f"referral {ref:.0%}, commission {aff:.0%}, samples {samples_per_order}/order"}
 
     # TikTok Shop + ads
     # Category medians from established advertisers; the pets figure ($5.46) looks implausibly low,
