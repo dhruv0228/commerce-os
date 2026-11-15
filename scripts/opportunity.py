@@ -109,6 +109,24 @@ def units_at_or_above(bands, price):
     return sum(num(v, 0) for k, v in (bands or {}).items() if k in BAND_PRICE and BAND_PRICE[k] >= 0.8 * price)
 
 
+def fee_category(p, niche):
+    """Fee/benchmark category: explicit p["fee_category"], else the niche, else keywords in the type."""
+    if p.get("fee_category") in channels.CATEGORY_MAP:
+        return p["fee_category"]
+    if niche in NICHE_CATEGORY:
+        return NICHE_CATEGORY[niche]
+    t = str(p.get("type", "")).lower()
+    if any(k in t for k in ("dog", "cat", "pet", "puppy")):
+        return "pets"
+    if any(k in t for k in ("desk", "keyboard", "mouse", "monitor", "usb", "charger", "carplay", "speaker", "headphone", "cam")):
+        return "tech"
+    if any(k in t for k in ("kitchen", "home", "bed", "pillow", "storage", "clean", "garden", "closet", "blanket")):
+        return "home"
+    if any(k in t for k in ("camp", "hik", "fitness", "golf", "bike", "fishing", "kayak", "sport", "backpack")):
+        return "outdoor"
+    return "auto"
+
+
 def score(p, niche, params):
     am, m = p.get("amazon", {}), p.get("margin_inputs", {})
     vi, ac, se, ro = p.get("virality", {}), p.get("acquisition", {}), p.get("seasonality", {}), p.get("reorder", {})
@@ -133,13 +151,13 @@ def score(p, niche, params):
 
     # Profit (30)
     if price and cost is not None:
-        res = channels.channel_economics(params, price, cost, w, dims, NICHE_CATEGORY.get(niche, "auto"), stage="scale")
+        res = channels.channel_economics(params, price, cost, w, dims, fee_category(p, niche), stage="scale")
         name, best = channels.best_channel(res)
         row.update(best_channel=name, profit=best["profit"], profit_tough=best["profit_tough"], margin_pct=best["margin_pct"],
                    fba_profit=res["amazon_fba"]["profit"], dtc_profit=res["dtc_meta"]["profit"], tiktok_profit=res["tiktok_aff"]["profit"])
         row["s_profit"] = lin(best["profit_tough"], 0, 25, 20) + lin(best["margin_pct"], 0, 0.25, 10)
         if test_cost is not None:
-            t = channels.channel_economics(params, price, test_cost, w, dims, NICHE_CATEGORY.get(niche, "auto"))
+            t = channels.channel_economics(params, price, test_cost, w, dims, fee_category(p, niche))
             tn, tb = channels.best_channel(t)
             row.update(test_channel=tn, test_profit_tough=tb["profit_tough"])
     else:
@@ -154,8 +172,10 @@ def score(p, niche, params):
         + (4 * (1 - clamp(((share if share is not None else 0.5) - 0.3) / 0.4, 0, 1)))
 
     # Virality (20)
-    tik = str(vi.get("tiktok_evidence", "")).lower()
-    tik_pts = 0 if (not tik or any(x in tik for x in ("none", "no evidence", "not found", "unknown"))) else 2
+    tik = str(vi.get("tiktok_evidence", "")).lower().strip()
+    tik_neg = (not tik) or tik.startswith(("no", "none", "unknown", "not ", "n/a")) or any(
+        x in tik for x in ("no evidence", "not found", "unknown", "not checked", "no tiktok"))
+    tik_pts = 0 if tik_neg else 2
     row["s_virality"] = lin(num(vi.get("demo_score")), 0, 5, 9) + logp(num(vi.get("yt_views_top10")), 10_000, 2_000_000, 5) \
         + lin(num(vi.get("foreplay_longest_days")), 0, 120, 4) + tik_pts
 
@@ -164,8 +184,19 @@ def score(p, niche, params):
     sb = str(ac.get("small_batch_feasible", "")).lower()
     cert = str(ac.get("certifications", "")).lower()
     ip = str(ac.get("ip_flags", "")).lower()
-    clean = lambda t: (not t) or any(x in t for x in ("none", "no ", "n/a", "not required", "pass"))
-    row["s_acquisition"] = (4 if us else 0) + {"yes": 5, "maybe": 2.5}.get(sb, 0) + (3 if clean(cert) else 0) + (3 if clean(ip) else 0)
+    risk_words = ("fcc", "ul ", "ul/", "ul-", "etl", "lithium", "li-ion", "un38", "fda", "nsf", "patent", "trademark",
+                  "carb", "cpsia", "ptcrb", "unknown", "food contact", "food-contact")
+    def clean(t):
+        """Clean only when nothing risky or unknown is mentioned ("no patent flag found" counts as clean)."""
+        t = t.replace("no patent flag", "").replace("no patents found", "").replace("patent search found none", "")
+        return (not t.strip()) or not any(w in t for w in risk_words)
+    lithium = any(x in " ".join([cert, str(p.get("exclusion", "")).lower(), str(p.get("notes", "")).lower()])
+                  for x in ("lithium", "li-ion", "un38", "un3480", "un3481"))
+    if lithium and sb == "yes":
+        sb = "maybe"  # battery shipping rules (UN3480/3481) restrict ordinary express air for small batches
+    row["s_acquisition"] = max(0, (4 if us else 0) + {"yes": 5, "maybe": 2.5}.get(sb, 0) + (3 if clean(cert) else 0)
+                               + (3 if clean(ip) else 0) - (2 if lithium else 0))
+    row["lithium"] = lithium
 
     # Season (10)
     ratio, jan, trend = num(se.get("peak_trough_ratio")), num(se.get("jan_vs_avg")), num(se.get("trend_12m_pct"))
@@ -204,7 +235,7 @@ def main(argv=None):
     cols = ["score", "niche", "type", "price", "listing_median", "volume_band", "units_at_price", "unit_cost", "cost_basis", "best_channel", "profit", "profit_tough", "margin_pct",
             "test_cost", "test_basis", "test_channel", "test_profit_tough",
             "tiktok_profit", "dtc_profit", "fba_profit", "units_month", "weight_lb", "s_profit", "s_proven", "s_virality",
-            "s_acquisition", "s_season", "s_reorder", "photo", "exclusion"]
+            "s_acquisition", "s_season", "s_reorder", "lithium", "photo", "exclusion"]
     with open(a.out, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
         w.writeheader()
