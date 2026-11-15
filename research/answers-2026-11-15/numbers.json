@@ -1,0 +1,365 @@
+{
+ "extender_test": {
+  "dtc_meta": {
+   "label": "Own store (Amboras) + Meta ads",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 73.06
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 20.55
+    },
+    {
+     "item": "Packaging",
+     "usd": 1.25
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Amboras platform fee 1%",
+     "usd": 1.49
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "fees_only": 75.37,
+   "profit": 0.57,
+   "profit_tough": -10.98,
+   "pre_acq": 39.08
+  },
+  "tiktok_aff": {
+   "label": "TikTok Shop + creator affiliates",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 73.06
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 20.55
+    },
+    {
+     "item": "Packaging",
+     "usd": 1.25
+    },
+    {
+     "item": "TikTok referral fee 8%",
+     "usd": 11.92
+    },
+    {
+     "item": "Refund allowance 10%",
+     "usd": 14.9
+    },
+    {
+     "item": "Creator commission 13.5%",
+     "usd": 20.12
+    },
+    {
+     "item": "Free samples to creators (0.3 per order)",
+     "usd": 28.46
+    }
+   ],
+   "fees_only": 97.2,
+   "profit": -21.26,
+   "profit_tough": -42.94,
+   "pre_acq": 27.31
+  },
+  "amazon_fba": {
+   "label": "Amazon FBA",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 73.06
+    },
+    {
+     "item": "Amazon referral fee 15%",
+     "usd": 22.35
+    },
+    {
+     "item": "FBA pick, pack and ship fee",
+     "usd": 13.22
+    },
+    {
+     "item": "Freight to Amazon warehouse",
+     "usd": 1.0
+    },
+    {
+     "item": "Storage",
+     "usd": 0.3
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.62
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Amazon PPC per sale (category median)",
+     "usd": 13.1
+    }
+   ],
+   "fees_only": 59.53,
+   "profit": 16.41,
+   "profit_tough": 9.86,
+   "pre_acq": 29.51
+  }
+ },
+ "extender_scale": {
+  "dtc_meta": {
+   "label": "Own store (Amboras) + Meta ads",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 46.51
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 15.42
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.75
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Amboras platform fee 1%",
+     "usd": 1.49
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "fees_only": 69.73,
+   "profit": 32.76,
+   "profit_tough": 21.21,
+   "pre_acq": 71.27
+  },
+  "tiktok_aff": {
+   "label": "TikTok Shop + creator affiliates",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 46.51
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 15.42
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.75
+    },
+    {
+     "item": "TikTok referral fee 8%",
+     "usd": 11.92
+    },
+    {
+     "item": "Refund allowance 10%",
+     "usd": 14.9
+    },
+    {
+     "item": "Creator commission 13.5%",
+     "usd": 20.12
+    },
+    {
+     "item": "Free samples to creators (0.1 per order)",
+     "usd": 6.27
+    }
+   ],
+   "fees_only": 69.37,
+   "profit": 33.12,
+   "profit_tough": 22.54,
+   "pre_acq": 59.5
+  },
+  "amazon_fba": {
+   "label": "Amazon FBA",
+   "price": 149.0,
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 46.51
+    },
+    {
+     "item": "Amazon referral fee 15%",
+     "usd": 22.35
+    },
+    {
+     "item": "FBA pick, pack and ship fee",
+     "usd": 13.22
+    },
+    {
+     "item": "Freight to Amazon warehouse",
+     "usd": 1.0
+    },
+    {
+     "item": "Storage",
+     "usd": 0.3
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.38
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Amazon PPC per sale (category median)",
+     "usd": 13.1
+    }
+   ],
+   "fees_only": 59.28,
+   "profit": 43.21,
+   "profit_tough": 36.66,
+   "pre_acq": 56.31
+  }
+ },
+ "dashcam": [
+  {
+   "case": "$105, realistic kit, test batch",
+   "landed": 79.68,
+   "profit": {
+    "dtc_meta": -50.61,
+    "tiktok_aff": -46.42,
+    "amazon_fba": -29.35
+   },
+   "profit_tough": {
+    "dtc_meta": -66.16,
+    "tiktok_aff": -65.62,
+    "amazon_fba": -41.86
+   }
+  },
+  {
+   "case": "$105, realistic kit, at scale (sea)",
+   "landed": 79.08,
+   "profit": {
+    "dtc_meta": -46.47,
+    "tiktok_aff": -23.26,
+    "amazon_fba": -28.5
+   },
+   "profit_tough": {
+    "dtc_meta": -62.03,
+    "tiktok_aff": -32.96,
+    "amazon_fba": -41.01
+   }
+  },
+  {
+   "case": "$105, cheapest $30 camera, at scale",
+   "landed": 64.33,
+   "profit": {
+    "dtc_meta": -31.72,
+    "tiktok_aff": -7.04,
+    "amazon_fba": -13.75
+   },
+   "profit_tough": {
+    "dtc_meta": -47.28,
+    "tiktok_aff": -16.0,
+    "amazon_fba": -26.26
+   }
+  },
+  {
+   "case": "$129, realistic kit, at scale",
+   "landed": 79.08,
+   "profit": {
+    "dtc_meta": -24.85,
+    "tiktok_aff": -6.22,
+    "amazon_fba": -7.86
+   },
+   "profit_tough": {
+    "dtc_meta": -40.41,
+    "tiktok_aff": -17.12,
+    "amazon_fba": -20.37
+   }
+  },
+  {
+   "case": "$149, realistic kit, at scale",
+   "landed": 79.08,
+   "profit": {
+    "dtc_meta": -6.83,
+    "tiktok_aff": 7.98,
+    "amazon_fba": 9.34
+   },
+   "profit_tough": {
+    "dtc_meta": -22.39,
+    "tiktok_aff": -3.92,
+    "amazon_fba": -3.17
+   }
+  }
+ ],
+ "timeline": {
+  "start": "2026-11-17",
+  "best_kits_home": "2026-12-17",
+  "best_first_sale": "2027-01-04",
+  "typical_kits_home": "2027-01-16",
+  "typical_first_sale": "2027-02-01"
+ },
+ "cash_plan": {
+  "kits": 12,
+  "lines": [
+   [
+    "2 samples (h6 + h9) with express courier",
+    185.0,
+    "ESTIMATED top of $125-185"
+   ],
+   [
+    "First batch: 12 kits by duties-paid air at $73.06",
+    876.72,
+    "ESTIMATED base; high case $109.71/kit"
+   ],
+   [
+    "Plain boxes, printed fit cards and stickers",
+    40.0,
+    "ASSUMED"
+   ],
+   [
+    "Store, domain and software",
+    100.0,
+    "budget line"
+   ],
+   [
+    "Creative (creators are paid in product + commission)",
+    100.0,
+    "budget line"
+   ],
+   [
+    "Boost the best creator video (Spark ads)",
+    150.0,
+    "ASSUMED, down from $400"
+   ],
+   [
+    "Refund and chargeback reserve",
+    250.0,
+    "budget line"
+   ]
+  ],
+  "total": 1701.72,
+  "left": 98.27999999999997,
+  "high_case_extra": 439.7999999999999
+ },
+ "fees_platform_and_creator_tiktok_scale": 53.2
+}
