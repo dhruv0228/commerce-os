@@ -147,7 +147,7 @@ def referral_pct(params, key, price, table="amazon_fba"):
     return node
 
 
-def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, category="all", stage="test"):
+def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, category="all", stage="test", ship_cost=None):
     """Return {channel: {...}} with revenue, costs, acquisition and profit per order.
 
     unit_cost is the landed cost of one unit at the owner's home or US warehouse.
@@ -158,7 +158,9 @@ def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, categor
     ship = ship_from_home(params, weight_lb, dims_in)
     pack = HOUSE["packaging"]
     samples_per_order = HOUSE["samples_per_order"]
-    if stage == "scale":
+    if ship_cost is not None:  # supplier ships direct to the customer at a quoted price (dropship)
+        ship, pack = ship_cost, 0.0
+    if stage == "scale" and ship_cost is None:
         ship *= HOUSE["scale_ship_mult"]
         pack = HOUSE["scale_packaging"]
         samples_per_order = HOUSE["scale_samples_per_order"]
@@ -229,9 +231,10 @@ def main():
     ap.add_argument("--weight", type=float, required=True, help="lb")
     ap.add_argument("--dims", type=float, nargs=3)
     ap.add_argument("--category", default="auto", choices=sorted(CATEGORY_MAP))
+    ap.add_argument("--ship", type=float, help="supplier's direct-to-customer shipping price (dropship)")
     a = ap.parse_args()
     params = load_params()
-    res = channel_economics(params, a.price, a.cost, a.weight, a.dims, a.category)
+    res = channel_economics(params, a.price, a.cost, a.weight, a.dims, a.category, ship_cost=a.ship)
     print(f"{'channel':<12}{'pre-acq':>9}{'acq':>8}{'profit':>9}{'tough':>9}{'margin':>8}")
     for k, r in res.items():
         print(f"{k:<12}{r['pre_acq']:>9.2f}{r['acq']:>8.2f}{r['profit']:>9.2f}{r['profit_tough']:>9.2f}{r['margin_pct']:>8.1%}  {r['note']}")
