@@ -197,7 +197,7 @@ def main(argv=None):
         niche = ("pets" if "pet" in raw else "tech" if "tech" in raw else "home" if "home" in raw
                  else "outdoor" if ("outdoor" in raw or "car" in raw or "fitness" in raw) else pathlib.Path(f).stem)
         for p in d.get("products", []):
-            if str(p.get("exclusion", "pass")).lower().startswith("fail"):
+            if str(p.get("exclusion", "pass")).lower().startswith(("fail", "exclude")):
                 continue
             rows.append(score(p, niche, params))
     rows.sort(key=lambda r: -r["score"])
