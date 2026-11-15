@@ -1,0 +1,1218 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "author": "Claude (subagent), sourcing plan; nothing sent, ordered or paid",
+  "repo_inputs": [
+   "CLAUDE.md",
+   "reports/suppliers-dog-car-travel-kit-2026-11-14.md",
+   "data/suppliers.csv rows dog-car-trav-h1..h10",
+   "research/hero-deep-dive-2026-11-14/dog-car-travel-kit.json",
+   "research/universe-2026-11-14/outdoor.json (dash cam margin_inputs)",
+   "reports/decisions.md"
+  ],
+  "math_note": "Landed figures computed by a scratch script (scratchpad/sourcing2/calc.py), not scripts/economics.py. They are sourcing estimates for planning, not quotes; margins/CAC must still be run through economics.py.",
+  "status": "Planning only. G4 (supplier outreach and samples) is still pending Dhruv's decision in reports/decisions.md."
+ },
+ "extender": {
+  "spec_basis": {
+   "value": {
+    "kit_carton_in": "20 x 14 x 5.5",
+    "kit_weight_lb": 9,
+    "carton_cm3": 25236.08,
+    "actual_kg": 4.08,
+    "express_chargeable_kg_div5000": 5.05,
+    "air_chargeable_kg_div6000": 4.21,
+    "cbm_per_kit_incl_10pct_master_carton": 0.0278
+   },
+   "label": "ASSUMED",
+   "source": "target carton from deep dive (ASSUMED); divisors 5000 express / 6000 air per carrier practice and goodhopefreight DDP page",
+   "checked": "2026-11-15"
+  },
+  "freight": [
+   {
+    "mode": "express courier (DHL/UPS/FedEx via Alibaba.com Logistics or forwarder account)",
+    "use_for": "samples and a 15-25 kit first batch",
+    "rate_usd_per_kg": {
+     "value": {
+      "low": 6,
+      "base": 8,
+      "high": 12
+     },
+     "label": "ESTIMATED",
+     "source": "Forwarder guides: $6-9.50/kg standard express 100 kg (sendfromchina/forwarder blogs via search, 2026); $6-12/kg forwarder reseller rates; $7-15/kg for 5-20 kg parcels (sino-shipping, DHL ~$12.50/kg for 10 kg Shenzhen-NY in 2026); one forwarder 'USA express line' $17.11/kg 21kg+. No official DHL/UPS China-origin 21kg+ tariff found.",
+     "checked": "2026-11-15"
+    },
+    "chargeable_kg_per_kit": 5.05,
+    "freight_per_kit_usd": {
+     "value": {
+      "low": 30.28,
+      "base": 40.38,
+      "high": 60.57
+     },
+     "label": "ESTIMATED",
+     "source": "rate x 5.05 kg dim weight (scratch calc)",
+     "checked": "2026-11-15"
+    },
+    "batch_20_kits_freight_usd": {
+     "value": {
+      "low": 606,
+      "base": 808,
+      "high": 1211
+     },
+     "label": "ESTIMATED",
+     "source": "scratch calc",
+     "checked": "2026-11-15"
+    },
+    "transit_days": {
+     "value": "3-5 business days door to door incl. clearance; packages over ~68-70 kg must be split",
+     "label": "ESTIMATED",
+     "source": "forwarder guides via search 2026",
+     "checked": "2026-11-15"
+    },
+    "customs": {
+     "value": "Courier clears as broker. Since Aug 2025 DHL runs all US shipments through formal import process; receiver pays duty + DHL duty/tax processing charge $17.50 or 2% of duty (higher). Entry under $2,500 = informal; MPF informal ~$2.77 (FY2027).",
+     "label": "ESTIMATED",
+     "source": "dhl.com/us-en customs services; Mohawk Global FY2027 user fees (eff. Oct 1 2026)",
+     "checked": "2026-11-15"
+    },
+    "sample_courier_per_kit_usd": {
+     "value": "about $50-75 for one ~5 kg kit at small-parcel express rates ($10-15/kg); repo ASSUMED $40-70 is consistent",
+     "label": "ESTIMATED",
+     "source": "sino-shipping $7-15/kg 5-20 kg + minimums; scratch calc",
+     "checked": "2026-11-15"
+    }
+   },
+   {
+    "mode": "consolidated air / DDP air (duties-paid line, UPS/FedEx final mile to a US residential address)",
+    "use_for": "first batch if forwarder quotes under express",
+    "rate_usd_per_kg": {
+     "value": {
+      "low": 6,
+      "base": 10,
+      "high": 18
+     },
+     "label": "ESTIMATED",
+     "source": "Published DDP air ranges conflict: $5-8/kg 3-7 days, $5-12/kg, and $12-18/kg (welltrans-logistics/dantful/hongocean guides via search, 2026). Goodhope Freight DDP air channel (powder cargo, nearest published table) RMB 46-58/kg at 21kg+, RMB 38.5-50.5/kg at 501kg+, incl. clearance + duty + UPS delivery, divisor 6000, min 21 kg, valid to Oct 31 2026; general-cargo table not published.",
+     "checked": "2026-11-15"
+    },
+    "chargeable_kg_per_kit": 4.21,
+    "freight_per_kit_usd": {
+     "value": {
+      "low": 25.24,
+      "base": 42.06,
+      "high": 75.71
+     },
+     "label": "ESTIMATED",
+     "source": "rate x 4.21 kg (scratch calc); assumes duty included in the per-kg rate",
+     "checked": "2026-11-15"
+    },
+    "transit_days": {
+     "value": "7-14 days door: 3-7 days air + pickup at LAX + UPS 1-6 days (West 1-3, Central 3-4, East 4-6)",
+     "label": "ESTIMATED",
+     "source": "goodhopefreight DDP page (UPS legs); forwarder guides",
+     "checked": "2026-11-15"
+    },
+    "warnings": [
+     "Many DDP lines quote a flat per-kg rate built on old duty assumptions; with the 27% stack confirm in writing that duty is included and the declared value is the true invoice value. Under-declaration is a customs-fraud risk even when the forwarder is importer of record.",
+     "Ask who is importer of record (IOR). If we are IOR we need a customs bond and our own entry; if forwarder is IOR we get no entry paperwork for our books.",
+     "Minimum chargeable weight typically 21 kg (met by 15+ kits)."
+    ]
+   },
+   {
+    "mode": "sea LCL (self-cleared via a customs broker) for the 100-200 kit reorder",
+    "rate": {
+     "value": {
+      "ocean_cfs_1cbm_shanghai_la_usd": 501.82,
+      "ocean_base_per_cbm_usd": "40-95",
+      "transit_port_to_port_days": "Shanghai-LA 18, Shenzhen-LA 24, Ningbo-LA 24, Shanghai-Chicago 28, Shanghai-NY 30 (board), Ningbo-NY up to 55"
+     },
+     "label": "ESTIMATED",
+     "source": "Gateway Lines LCL rate board read Nov 2 2026 (1 CBM CFS-CFS, Shanghai-LA $501.82); 2026 rate guides $40-80/CBM China-US, $45-80 to LA, $60-95 to NY (suaidglobal/exfreight via search)",
+     "checked": "2026-11-15"
+    },
+    "per_shipment_assumptions": {
+     "value": {
+      "extra_cbm_usd": 120,
+      "customs_broker_usd": 200,
+      "isf_filing_usd": 45,
+      "single_entry_bond_usd": 60,
+      "cfs_to_door_delivery_liftgate_usd": 350,
+      "mpf": "0.3464% (min $34.58, max $670.86 FY2027)",
+      "hmf": "0.125% of value (ocean)"
+     },
+     "label": "ASSUMED",
+     "source": "ASSUMED except MPF (Mohawk FY2027) and HMF (CBP)",
+     "checked": "2026-11-15"
+    },
+    "per_kit_freight_and_fees_usd": {
+     "value": {
+      "100_kits": 14.06,
+      "150_kits": 10.49,
+      "200_kits": 8.71
+     },
+     "label": "ESTIMATED",
+     "source": "scratch calc: CBM x rates above",
+     "checked": "2026-11-15"
+    },
+    "cbm": {
+     "100_kits": 2.78,
+     "150_kits": 4.16,
+     "200_kits": 5.55
+    },
+    "transit_days": {
+     "value": "28-45 days factory to US door (18-24 days ocean to LA + 5-10 days CFS + customs + truck; East Coast longer). LA/LB dwell 4-6 days in 2026.",
+     "label": "ESTIMATED",
+     "source": "Gateway board Nov 2026; epicsourcing/suaidglobal 2026 guides via search",
+     "checked": "2026-11-15"
+    },
+    "alternative": {
+     "value": {
+      "mode": "DDP sea (Matson, tax included)",
+      "usd_per_kg": "1.43-2.03 (12kg+ / 51kg+ breaks) to West/Central/East Amazon FBA warehouses; >100 kg discounts on request",
+      "transit_days": "16-28",
+      "per_kit_est_150_kits_incl_assumed_$3_last_mile": 36.99
+     },
+     "label": "ESTIMATED",
+     "source": "goodhopefreight.com/shipping-to-usa/usa-ddp-ddu.html (rates to FBA warehouses; issue date not shown, 30-day validity); residential delivery not quoted",
+     "checked": "2026-11-15"
+    }
+   }
+  ],
+  "duties": {
+   "hts_candidates": [
+    {
+     "value": {
+      "code": "6307.90.9891 (6307.90.98 Other made up textile articles)",
+      "mfn": "7%",
+      "sec301_list": "List 4A 9903.88.15 +7.5%",
+      "sec301_forced_labor_2026": "9903.05.31 +12.5% (eff. Jul 24 2026)",
+      "total": "27%"
+     },
+     "label": "ESTIMATED",
+     "source": "tariffs.wove.com/us/tariff/6307.90.98 (CBP HTS file Nov 9 2026); CBP ruling N015530 (2007) put a pet car seat cover in 6307.90.9889 at 7%; recent pet-bed rulings use 6307.90.9891 + 9903.88.15",
+     "checked": "2026-11-15"
+    },
+    {
+     "value": {
+      "code": "8708.99.81 (motor vehicle parts, other)",
+      "mfn": "2.5%",
+      "sec301": "9903.88.03 +25%",
+      "other": "9903.82.09 +25% listed (metal derivative note); 9903.05.90 vehicle parts 0% on the 12.5% layer",
+      "total": "up to 52.5%",
+      "why": "CBP N015530-era rulings split: one 2014 ruling classed a rear car-seat protector as 8708.99.8180. Rigid boards + fitted straps make a 'vehicle part' argument possible."
+     },
+     "label": "ESTIMATED",
+     "source": "tariffs.wove.com/us/tariff/8708.99.81 (Nov 9 2026 HTS file); open-gov.usebase.io ruling summaries via search",
+     "checked": "2026-11-15"
+    },
+    {
+     "value": {
+      "code": "4202 / 9403 / 9404.90",
+      "note": "4202 (cases/containers) and 9403 (furniture) do not fit a seat cover; 9404.90 (bedding/cushion articles) is used on h1's listing. Treat as unlikely; ask the broker."
+     },
+     "label": "ASSUMED",
+     "source": "listings h1/h4/h5 HS fields (data/suppliers.csv); judgement",
+     "checked": "2026-11-15"
+    }
+   ],
+   "working_assumption": {
+    "value": "6307.90.98 at 27% of FOB; risk case 8708.99.81 at 52.5%. Classification UNKNOWN until a broker review or a CBP binding ruling (free, ~30 days, filed via eRulings).",
+    "label": "ESTIMATED",
+    "source": "as above",
+    "checked": "2026-11-15"
+   },
+   "tariff_stack_nov_2026": {
+    "value": {
+     "ieepa_fentanyl_reciprocal": "not collected since Feb 24 2026 (Supreme Court ruling); refunds via CBP CAPE for importer of record",
+     "section_122_10pct": "ran Feb 24-Jul 24 2026, expired",
+     "section_301_lists": "List 1-3 25%, List 4A 7.5% remain",
+     "section_301_forced_labor": "12.5% on PRC goods from Jul 24 2026, outside the truce",
+     "section_301_exclusions_178_lines": "extended to Jan 9 2027 per Nov 10 update (sources conflicted; not relevant to our codes)",
+     "excess_capacity_301": "reported 7.5% not in force",
+     "us_china_truce": "Busan arrangement extended to Jan 10 2027",
+     "de_minimis": "gone for all low-value shipments (EO 14388 reimposed suspension Feb 24 2026; CIT upheld Aug 13 2026; statutory repeal Jul 1 2027)"
+    },
+    "label": "ESTIMATED",
+    "source": "freightfigures.com (Sep 24 2026, updated Nov 10 2026); airliftusa.com (Sep 27 2026); Troutman/Zonos (Aug-Oct 2026) via search",
+    "checked": "2026-11-15"
+   },
+   "who_pays": {
+    "value": {
+     "express_DAP": "Receiver (Patel Software Enterprises LLC DBA) pays duty + courier processing fee on delivery; courier is broker.",
+     "ddp": "Forwarder or supplier is (usually) importer of record and pays duty up front, rebilled inside the per-kg rate or as a separate line. Confirm IOR, true declared value and HTS code in writing.",
+     "fob_lcl": "We are importer of record: need customs bond, broker, ISF (ocean), and pay duty + MPF + HMF."
+    },
+    "label": "ESTIMATED",
+    "source": "CBP practice; DHL US customs page",
+    "checked": "2026-11-15"
+   },
+   "per_kit_at_27pct": {
+    "value": {
+     "20_kit_batch_fob_31": 8.37,
+     "150_kit_fob_26": 7.02
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc",
+    "checked": "2026-11-15"
+   }
+  },
+  "protections": [
+   {
+    "item": "Platform escrow",
+    "detail": "Shortlisted sellers are on Made-in-China.com, so Alibaba Trade Assurance does not apply. Use Made-in-China.com Secured Trading Service (escrow; free to buyer, a transaction fee applies on online payment; only some commodities qualify, so confirm the listing is eligible). If a supplier is also on Alibaba, Trade Assurance covers quality/shipping-date terms written into the order, up to the supplier's cap; claims ~30 days after delivery (some sources say 60); off-platform T/T is not covered.",
+    "label": "ESTIMATED",
+    "source": "m.made-in-china.com/trade/agreement.html (2025 terms); guidedimports/fulfillbot/epicsourcing TA guides via search, 2026"
+   },
+   {
+    "item": "Sample first, golden sample",
+    "detail": "Order 2 samples (h6 $15, h9 $30 listing fees; courier ~$50-75 each). Approve one in writing, keep a signed/photographed golden sample, and write the spec (3-panel rigid board, sag under 10 mm at 150 lb, fold <=20 in, YKK zips, metal buckles) into the order.",
+    "label": "ESTIMATED/ASSUMED",
+    "source": "data/suppliers.csv h6/h9; hero deep dive spec"
+   },
+   {
+    "item": "Pre-shipment inspection",
+    "detail": "Third-party PSI runs $250-400 per man-day in China (QIMA cited from $299/man-day; realistic all-in $199-268 elsewhere). For a 15-25 kit batch this is about 30-50% of order value, so use supplier photo/video QC against a checklist plus Dhruv's 100% inspection on arrival (he repacks every kit). Book a PSI (AQL 2.5 major / 4.0 minor) from the 100-200 kit reorder.",
+    "label": "ESTIMATED",
+    "source": "sino-shipping/supplyia/metricrig 2026 QC cost pages via search; QIMA publishes no price"
+   },
+   {
+    "item": "Payment terms",
+    "detail": "Samples: 100% via platform escrow or PayPal. First batch (<$1,000): 100% via escrow, released on delivery. Reorder: 30% deposit / 70% after PSI pass, inside Trade Assurance or Secured Trading; never off-platform T/T to a new supplier. Match business-licence name to payee.",
+    "label": "ASSUMED",
+    "source": "standard practice; repo legitimacy rule (report section 2)"
+   },
+   {
+    "item": "Written defect and return terms",
+    "detail": "In the PO: replacement or refund for any unit failing the golden-sample spec reported with photos within 14 days of delivery; supplier pays return or reships free; 2-3 spare boards, buckles and straps per 20 kits; no supplier branding, invoices or prices in the box; HTS code and true value on commercial invoice; design-around confirmation (no window inserts, door guards not attached to extender).",
+    "label": "ASSUMED",
+    "source": "CLAUDE.md section 2 hard rules; IP section of deep dive"
+   },
+   {
+    "item": "Logo and packaging minimums",
+    "detail": "Custom printed corrugated mailers from Chinese factories list about $0.70-0.95/unit at 500-999 pcs, $0.45-0.75 at 1,000+, 7-15 day lead time (small-box listings; our 20x14x5.5 in box likely costs more, ASSUMED $1.50-2.50). US short-run printers start at MOQ 100. Product logo (woven label/embroidery) is typically 50-500 pcs; MOQ UNKNOWN for h6/h9 (asked in inquiries). First batch: plain kraft box + printed sleeve/sticker + printed fit card to avoid MOQs; go custom at the 200-kit reorder.",
+    "label": "ESTIMATED",
+    "source": "Global Sources and Made-in-China mailer box listings via search (Nov 2026); PackMojo MOQ 100"
+   },
+   {
+    "item": "Barcode / GS1",
+    "detail": "GS1 US single GTIN $30 one-time (no renewal); 10-GTIN prefix $250 + $50/yr; Amazon checks GTINs against the GS1 database and brand owner. Extender needs 2 GTINs (Standard, XL), so 2 single GTINs ($60) or a 10-prefix if the dash cam is added. TikTok Shop GTIN requirement: UNKNOWN (not found). Own store: not required.",
+    "label": "ESTIMATED",
+    "source": "barcode.graphics / Feedvisor / AURI pricing via search (prices not confirmed on gs1us.org)"
+   },
+   {
+    "item": "Legitimacy checks",
+    "detail": "Verify SGS QIP-ASI2442110 (h6) and TUV MIC-ASR2441327 (h9) on the agencies' sites, match licence name to payee, ask for the real factory name. Required before legitimacy_verified=yes.",
+    "label": "ASSUMED",
+    "source": "reports/suppliers-dog-car-travel-kit-2026-11-14.md section 2"
+   },
+   {
+    "item": "Country-of-origin marking",
+    "detail": "Mark 'Made in China' on product/label near any US brand name or address (19 CFR 134).",
+    "label": "ESTIMATED",
+    "source": "CBP ruling N015530 marking note"
+   }
+  ],
+  "us_stock_options": [
+   {
+    "name": "IBSPOT.COM Inc. (SucceBuy/LumaCS honeycomb extender)",
+    "price": {
+     "value": "$70.45 retail; wholesale UNKNOWN",
+     "label": "ESTIMATED",
+     "source": "IBSPOT listing read 2026-11-14 (data/suppliers.csv h8)",
+     "checked": "2026-11-15"
+    },
+    "delivery": "3-10 business days",
+    "fit": "Other brand: test only, never the hero (CLAUDE.md s.1)"
+   },
+   {
+    "name": "Lehni via 'CYY US' seller",
+    "price": {
+     "value": "$30.58 retail (third-party mirror page); seller/warehouse unconfirmed; no wholesale found",
+     "label": "ESTIMATED",
+     "source": "ventari mirror page via search 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "fit": "Other brand; unverified"
+   },
+   {
+    "name": "VEVOR hard-bottom extender (Target)",
+    "price": {
+     "value": "$44.64 retail, in stock",
+     "label": "ESTIMATED",
+     "source": "hero deep dive (Target) + search 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "fit": "Other brand; retail benchmark only"
+   },
+   {
+    "name": "4Knines on Faire",
+    "price": {
+     "value": "$189.99 MSRP, $100 order minimum, wholesale price not visible (page 403)",
+     "label": "ESTIMATED",
+     "source": "Faire listings via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "Other brand and patent holder we design around; not a source"
+   },
+   {
+    "name": "CJdropshipping",
+    "price": {
+     "value": "No hard-bottom extender with a US warehouse found; only soft covers (e.g. $13.75, warehouse unstated) and a pet seat cushion in a US warehouse",
+     "label": "ESTIMATED",
+     "source": "cjdropshipping.com listings via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "none"
+   },
+   {
+    "name": "Walmart/eBay marketplace sellers",
+    "price": {
+     "value": "$40-90 retail for Chinese-brand hard-bottom extenders shipped from US",
+     "label": "ESTIMATED",
+     "source": "walmart.com/ebay listings via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "retail only"
+   }
+  ],
+  "us_stock_conclusion": "No US-warehouse wholesaler or white-label source for a hard-bottom extender was found. Own-brand stock has to come from China. A US-stock other-brand unit can only serve a benchmark or a Dhruv-approved test.",
+  "cost_per_kit_landed_estimates": {
+   "definition": "Per kit delivered to Dhruv's home, before USPS outbound, packaging and returns. FOB = premium-spec hero + add-ons ($29 low / $31 base / $34 high for 15-25 kits; $25-27 at 100-200 kits), all ASSUMED from the deep dive. Duty 27% (6307.90.98).",
+   "express": {
+    "value": {
+     "low": 68.13,
+     "base": 80.76,
+     "high": 104.76,
+     "base_if_classed_8708_52.5pct": 88.67,
+     "batch_cash_20_kits_base": 1615.2
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: FOB + 5.05 kg x $6/8/12 + 27% duty + ($17.50 courier duty fee + $2.77 MPF)/20",
+    "checked": "2026-11-15"
+   },
+   "ddp_air": {
+    "value": {
+     "low": 54.24,
+     "base": 73.06,
+     "high": 109.71,
+     "base_if_duty_billed_on_top": 81.43
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: FOB + 4.21 kg x $6/10/18 (duty assumed inside the rate)",
+    "checked": "2026-11-15"
+   },
+   "sea": {
+    "value": {
+     "lcl_100_kits": 48.35,
+     "lcl_150_kits": 43.51,
+     "lcl_200_kits": 40.46,
+     "ddp_sea_matson_150_kits": 36.99
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: FOB $27/$26/$25 + LCL freight and fees per kit + 27% duty",
+    "checked": "2026-11-15"
+   },
+   "finding": "Air freight for this bulky 9 lb kit costs about $25-76 per kit, versus the $14/kit ASSUMED in data/suppliers.csv landed_cost and the deep dive's low scenario. Every first-batch landed figure in the supplier rows is understated by roughly $15-45 per kit. The economics.py base case assumes sea freight, so it stays valid only for reorders. Run economics.py on an air-batch scenario before G5."
+  },
+  "timeline": {
+   "best_days": 30,
+   "typical_days": 58,
+   "typical_days_ddp_air": 62,
+   "reorder_sea_days_from_po": "55-75",
+   "steps": [
+    {
+     "step": "Dhruv answers pre-send questions + approves G4; inquiries sent",
+     "best": 0,
+     "typical": 2,
+     "label": "ASSUMED"
+    },
+    {
+     "step": "Supplier replies",
+     "best": 1,
+     "typical": 3,
+     "label": "ASSUMED",
+     "note": "MIC sellers usually reply within 24-48 h"
+    },
+    {
+     "step": "Spec confirmation (3-panel board, 20-in fold, door guards standalone)",
+     "best": 2,
+     "typical": 5,
+     "label": "ASSUMED"
+    },
+    {
+     "step": "Sample production (modified board likely)",
+     "best": 3,
+     "typical": 8,
+     "label": "ASSUMED",
+     "note": "h4 lists sample in 3-5 days for stock"
+    },
+    {
+     "step": "Sample express courier incl. customs",
+     "best": 4,
+     "typical": 6,
+     "label": "ESTIMATED",
+     "note": "express 3-5 business days"
+    },
+    {
+     "step": "Sample review: fit in 2 cars, sag test, filming; written approval",
+     "best": 2,
+     "typical": 4,
+     "label": "ASSUMED"
+    },
+    {
+     "step": "Order + escrow payment",
+     "best": 1,
+     "typical": 2,
+     "label": "ASSUMED"
+    },
+    {
+     "step": "Batch production",
+     "best": 12,
+     "typical": 22,
+     "label": "ESTIMATED",
+     "note": "claims: h2 15 workdays, h9 20 days, h10 ~15 days, h6 ~1 month"
+    },
+    {
+     "step": "Photo/video QC + packing",
+     "best": 1,
+     "typical": 2,
+     "label": "ASSUMED"
+    },
+    {
+     "step": "Freight + customs to US home (express)",
+     "best": 4,
+     "typical": 6,
+     "label": "ESTIMATED",
+     "note": "DDP air adds about 4 days typical; LCL 28-45 days"
+    }
+   ],
+   "calendar_check": "If inquiries go out Nov 17 2026: best case kits land about Dec 17; typical about Jan 14 2027, after the planned Jan 4 test. Hitting Jan 4 needs the best case or a pre-production sample approved by ~Dec 5. Chinese New Year 2027 is Feb 6 (factories close about late Jan to late Feb, ASSUMED). The 100-200 kit sea reorder must be placed by early January or it slips to March."
+  }
+ },
+ "dashcam": {
+  "target_spec": "Front 4K (Sony STARVIS 2 IMX678 or IMX675) + rear 2K, 5 GHz Wi-Fi, GPS optional, supercapacitor (no Li-ion), app, parking mode; kit = camera + 128GB high-endurance microSD + hardwire kit + CPL filter; retail ~$105 (data/opportunities.csv).",
+  "suppliers": [
+   {
+    "name": "Guangzhou Xingchi Automotive Electronics Co., Ltd.",
+    "platform": "Alibaba (custom manufacturer, 4 yrs, verified) + HKTDC",
+    "model": "EM60-BFR128 (Alibaba); HKTDC 4K+2K dual 'STARVIS2 IMX678' supercap Wi-Fi GPS",
+    "chipset": "UNKNOWN",
+    "sensors": "front 3840x2160 STARVIS 2 (IMX678 per HKTDC), rear 2560x1440",
+    "power": "supercapacitor (HKTDC); Alibaba listing does not say",
+    "price": {
+     "value": {
+      "1": "UNKNOWN (MOQ 5)",
+      "5-19": 142,
+      "20-499": 138,
+      "500+": 133,
+      "hktdc_range": "192-206"
+     },
+     "label": "ESTIMATED",
+     "source": "alibaba.it product 1601583453771; sourcing.hktdc.com 1Z03LSUMC, read 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": 5,
+    "sample_price": "UNKNOWN",
+    "logo_moq": "50 sets from $1/set",
+    "fcc": {
+     "value": "Grantee code 2BDFQ (FCC ID 2BDFQ-T2, dash cam model T2, granted 2026-06-02, 2.4 GHz). HKTDC lists FCC authorization 2023. EM60 FCC ID UNKNOWN.",
+     "label": "ESTIMATED",
+     "source": "fccid.io/2BDFQ-T2 via search",
+     "checked": "2026-11-15"
+    },
+    "app": "UNKNOWN",
+    "warranty": "1 year (listing)",
+    "lead_time": "7 days for 1-100",
+    "us_warehouse": "no",
+    "verdict": "Best spec evidence and FCC grantee, but price is above the $105 retail target. Sample only if Dhruv reprices to $149+."
+   },
+   {
+    "name": "BEPO International Co., Ltd. (HK; Guangdong origin; 'BEPOCAM')",
+    "platform": "Alibaba (manufacturer + trading, 2 yrs, 4.8/5 from 62)",
+    "model": "ZD58A (4K + 1080P, supercap, 2.4/5G Wi-Fi, ext. GPS opt.); ZD72P (4K+4K, supercap, 5G Wi-Fi, GPS, 3.19 in); ZD72S (front IMX678, supercap); 3-channel IMX678 + IMX335 on Novatek 98529",
+    "chipset": "Novatek 98529 on the 3-ch model; others UNKNOWN",
+    "sensors": "IMX678 front (ZD72S/3-ch); others not stated",
+    "power": "supercapacitor",
+    "price": {
+     "value": {
+      "ZD58A_100-499": 50.75,
+      "ZD58A_500-999": 49.45,
+      "ZD58A_sample": 50.75,
+      "ZD72P_1-499": 71.87,
+      "ZD72P_500-999": 69.11,
+      "ZD72P_1000+": 64.68,
+      "ZD72S_sample_gbp": 44.84
+     },
+     "label": "ESTIMATED",
+     "source": "alibaba.fr 1601401726252, alibaba.fr 1601455276599, alibaba.co.uk 1601402901461 (ZD72P+256G $77.78), search snippets; read 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": "1 (ZD72P) / 100 (ZD58A)",
+    "sample_price": "$50.75 (ZD58A); GBP 44.84 (ZD72S)",
+    "logo_moq": "logo, packaging, graphic 500 sets; firmware 1,000; new mould 50,000",
+    "fcc": "not listed: UNKNOWN",
+    "app": "UNKNOWN",
+    "warranty": "1 year",
+    "lead_time": "7 days 1-5 sets; 30 days to 500",
+    "us_warehouse": "no",
+    "verdict": "Shortlist for samples (ZD72S IMX678 supercap). Some listings show out of stock; 2-year-old company."
+   },
+   {
+    "name": "Dongguan Lingdu Electronic Technology Co., Ltd. (LINGDU / LNDU)",
+    "platform": "Alibaba (manufacturer, 6 yrs, verified, 320+ staff, 11,000+ m2, 5.0 from 500)",
+    "model": "V820 4K dual, Starvis 2, 4G/GPS; LD06 2CH",
+    "chipset": "UNKNOWN",
+    "sensors": "Starvis 2 (model not stated)",
+    "power": "UNKNOWN",
+    "price": {
+     "value": {
+      "20+": "94.99-106.99"
+     },
+     "label": "ESTIMATED",
+     "source": "electronics.alibaba.com dash cam listing page, read 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": 20,
+    "sample_price": "UNKNOWN",
+    "logo_moq": "UNKNOWN",
+    "fcc": {
+     "value": "Own grantee codes: 2BEAP (Dongguan Lingdu: 2BEAP-M360, 2BEAP-LD06-2CH) and 2ASWV (Shenzhen Lingdu: 2ASWV-LS09, 2ASWV-M330)",
+     "label": "ESTIMATED",
+     "source": "fccid.io / fcc.report via search",
+     "checked": "2026-11-15"
+    },
+    "app": "UNKNOWN (own brand app)",
+    "warranty": "UNKNOWN",
+    "us_warehouse": "UNKNOWN",
+    "verdict": "Most credible real factory with its own FCC grants and US brand presence. Too expensive for $105 at the V820 spec; ask for a non-4G 4K+2K supercap model."
+   },
+   {
+    "name": "Shenzhen Zhongxiang Technology Co., Ltd. (Carlover)",
+    "platform": "Alibaba (custom manufacturer, 7 yrs, verified)",
+    "model": "S2 4K dual (EEASY chipset, supercap, Wi-Fi, GPS optional); also 4K HDR IMX675 front / 1080p rear, ADAS",
+    "chipset": "EEASY (S2)",
+    "sensors": "S2 not stated; IMX675 on HDR model",
+    "power": "supercapacitor (S2)",
+    "price": {
+     "value": {
+      "S2_20-499": 29,
+      "S2_500-999": 28,
+      "S2_1000+": 27,
+      "IMX675_model_20+": "53-57"
+     },
+     "label": "ESTIMATED",
+     "source": "alibaba.fr 1601516341511; electronics.alibaba.com listing page; read 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": 20,
+    "sample_price": "UNKNOWN",
+    "logo_moq": "500 pcs from $0.01",
+    "fcc": "CE, RoHS, FCC, PSE claimed on listing; FCC ID UNKNOWN",
+    "app": "UNKNOWN",
+    "warranty": "1 year",
+    "lead_time": "7 days 1-100",
+    "us_warehouse": "no",
+    "verdict": "Budget candidate. S2 misses the Sony sensor spec. IMX675 model is a mid option."
+   },
+   {
+    "name": "Guangzhou Junbei Electronics Co., Ltd.",
+    "platform": "Alibaba (1 yr, not verified)",
+    "model": "IMX678 4K+2K front and rear (one listing); another lists IMX335 4K+1K",
+    "chipset": "UNKNOWN",
+    "sensors": "IMX678 claimed; listings conflict",
+    "power": "UNKNOWN",
+    "price": {
+     "value": {
+      "20+": "53-57",
+      "other_listing_10+": "50-57.20"
+     },
+     "label": "ESTIMATED",
+     "source": "Alibaba search snippets / electronics.alibaba.com, 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": "10-20",
+    "sample_price": "UNKNOWN",
+    "fcc": "UNKNOWN",
+    "verdict": "Cheapest IMX678 4K+2K claim; young, unverified, conflicting titles. Sample only with a sensor-ID check."
+   },
+   {
+    "name": "Shenzhen Shanhai IoT Technology Co., Ltd.",
+    "platform": "Alibaba (8-11 yrs, one listing verified)",
+    "model": "Premium 4K+2K dual lens, GPS, Wi-Fi",
+    "sensors": "Starvis CMOS (model not stated)",
+    "price": {
+     "value": {
+      "2+": "54-68"
+     },
+     "label": "ESTIMATED",
+     "source": "electronics.alibaba.com listing page 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": 2,
+    "sample_price": "UNKNOWN",
+    "fcc": "UNKNOWN",
+    "verdict": "Mid candidate; ask for sensor, supercap and FCC ID."
+   },
+   {
+    "name": "Aoedi Technology (Huizhou) Co., Ltd.",
+    "platform": "Alibaba (4 yrs, verified)",
+    "model": "3-channel Starvis night vision; also lists REDTIGER F4 Pro (Hangzhou Tanlink also lists F4 Pro at $111.56, MOQ 50)",
+    "price": {
+     "value": {
+      "2+": 67.5
+     },
+     "label": "ESTIMATED",
+     "source": "electronics.alibaba.com listing page 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "moq": 2,
+    "fcc": "UNKNOWN",
+    "verdict": "Possible ODM behind a known US-selling brand; branded REDTIGER units cannot be white-labelled. Ask for OEM of the same platform."
+   },
+   {
+    "name": "Shenzhen Tengyue Chuangyi Technology / Shenzhen Woyin Electronics / Shenzhen Fisang Electronics",
+    "platform": "Alibaba",
+    "model": "Tengyue S856 4K 2-ch Starvis 2 ($35, MOQ 2); Woyin 4K HDR Starvis 2 GPS ($35.99, MOQ 500; also 3-ch Novatek IMX678); Fisang 4K + 2.5K 5.8G Wi-Fi ($41.99-44.50, MOQ 100)",
+    "price": {
+     "value": "35-44.50",
+     "label": "ESTIMATED",
+     "source": "electronics.alibaba.com listing page 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "fcc": "UNKNOWN",
+    "verdict": "Price band that fits a $105 kit. Sensor claims unverified ('Starvis 2' tags only)."
+   },
+   {
+    "name": "OFIRST (G900-96) and Shenzhen Jado / Dongguan Haotai (Global Sources OEM makers)",
+    "platform": "Global Sources",
+    "model": "OFIRST G900-96 4K front + 2K/1080P rear, Wi-Fi, ext. GPS opt., OEM/ODM, free samples (freight paid by buyer); Jado: ODM/OEM car DVR maker, private-mould 4K GPS Wi-Fi, MOQ 500-1,000; Haotai: ODM/OEM with Sony sensors, serves Polaroid, PAPAGO, Skypix",
+    "price": {
+     "value": {
+      "OFIRST_small_qty": 31.49,
+      "OFIRST_5000-9999": 29.99,
+      "Jado": "UNKNOWN",
+      "Haotai": "UNKNOWN"
+     },
+     "label": "ESTIMATED",
+     "source": "globalsources.com search snippets 2026-11-15 (product pages returned HTTP 429)",
+     "checked": "2026-11-15"
+    },
+    "fcc": "UNKNOWN",
+    "verdict": "Scale-up and backup candidates; Jado/Haotai MOQs are too high for the first test."
+   }
+  ],
+  "fcc_reseller_rules": {
+   "value": {
+    "same_fcc_id": "47 CFR 2.924: the grantee may market electrically identical devices under different trade names and model numbers on the same FCC ID without new authorization. A rebrand by anyone other than the grantee must be done by, or with authorization of, the grantee under 2.933 (new application for a change in FCC ID if we want our own ID: original ID, grant date, statement of no change, new label photos). Practical path: factory marks our private-label unit with its own FCC ID and gives a written letter that the unit is electrically identical to the granted model.",
+    "how_to_check": "FCC ID search (fcc.gov/oet/ea/fccid, fccid.io): confirm the grantee code and model on the label, the frequency bands (2.4 vs 5 GHz Wi-Fi both listed), the internal photos match the sample, and the grant is active.",
+    "sdoc_vs_certification": "Wi-Fi radio = intentional radiator, so needs Certification (FCC ID via a TCB). The camera's digital circuitry (unintentional radiator) is covered by SDoC, and the SDoC responsible party must be located in the US (2.909(b)); for the imported private-label unit that is us unless the factory has a US party. Grantees must designate a US agent for service of process (2.911).",
+    "bad_labs_rule": "Since Sep 2025 the FCC bars test labs and TCBs tied to prohibited entities (Covered List, Entity List, etc.); ask which lab tested the grant. Covered List also bars Hikvision/Dahua video equipment and (since Mar 2026) foreign-made routers; a dash cam is not a router, but avoid any Hikvision-made platform."
+   },
+   "label": "ESTIMATED",
+   "source": "eCFR 2.924/2.933 copies (law.cornell.edu, hallikainen); compliancegate SDoC guide; Wiley/Mondaq on FCC bad-labs order (May-Oct 2025); search 2026-11-15",
+   "checked": "2026-11-15"
+  },
+  "us_stock_options": [
+   {
+    "name": "CJdropshipping 4K/1080P dual dash cam",
+    "price": {
+     "value": "$64.73; US warehouse not confirmed",
+     "label": "ESTIMATED",
+     "source": "search snippet 2026-11-15 (CJ site bot-blocked)",
+     "checked": "2026-11-15"
+    },
+    "fit": "generic, unknown sensor"
+   },
+   {
+    "name": "WOLFBOX distributor / dealer program (US-facing, +1 888 296 8399)",
+    "price": {
+     "value": "UNKNOWN; program says flexible quantities; a search snippet said drop-ship of single units is offered (not on the page read)",
+     "label": "ESTIMATED",
+     "source": "business.wolfbox.com, read 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "fit": "Other brand (G900 Pro IMX678). Test only with Dhruv's waiver."
+   },
+   {
+    "name": "Blumaple (GMAIPOP brand) 'USA Warehouse' 4K+1080P dual",
+    "price": {
+     "value": "UNKNOWN (snippet showed only 'save 35%')",
+     "label": "ESTIMATED",
+     "source": "blumaple.com via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "generic, unknown sensor"
+   },
+   {
+    "name": "IBSPOT JOMISE 4K+4K",
+    "price": {
+     "value": "$283.19 retail, US warehouse, 3-7 days",
+     "label": "ESTIMATED",
+     "source": "ibspot.com via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "retail only"
+   },
+   {
+    "name": "BlackboxMyCar dealer program (VIOFO, Thinkware; North America distributor)",
+    "price": {
+     "value": "UNKNOWN; dealer application",
+     "label": "ESTIMATED",
+     "source": "blackboxmycar.com support page via search",
+     "checked": "2026-11-15"
+    },
+    "fit": "Other brands; reseller margins only"
+   }
+  ],
+  "us_stock_conclusion": "No white-label dash cam with confirmed US stock found. US options are other brands (WOLFBOX, VIOFO via distributor), allowed only as a test under CLAUDE.md s.1.",
+  "accessories": [
+   {
+    "item": "128GB high-endurance microSD",
+    "oem_cost": {
+     "value": "$4.54-4.60 (Silicon Power HE / Juxing listings, MOQ 5); cheaper no-name $0.55-3 listings carry fake-capacity risk",
+     "label": "ESTIMATED",
+     "source": "electronics.alibaba.com 128GB listings via search 2026-11-15",
+     "checked": "2026-11-15"
+    },
+    "branded_option": {
+     "value": "Samsung PRO Endurance 128GB about $25-30 retail (EU EUR 25.49-25.70, UK GBP 21.99 low); US wholesale UNKNOWN",
+     "label": "ESTIMATED",
+     "source": "pricespy/retailers via search",
+     "checked": "2026-11-15"
+    },
+    "recommendation": "For the first batch, buy a branded card in the US (no import duty, no fake risk) or test every OEM card with h2testw/F3. Planning cost $5 OEM / ~$18 branded (ASSUMED)."
+   },
+   {
+    "item": "Hardwire kit (12-24V to 5V USB-C, low-voltage cutoff)",
+    "oem_cost": {
+     "value": "$4.90-5.20 (Global Sources OEM micro-USB kit, lead time 25-30 days); retail Type-C kits about $10-20",
+     "label": "ESTIMATED",
+     "source": "globalsources.com hardwire kit listing via search; Newegg/desertcart retail",
+     "checked": "2026-11-15"
+    },
+    "recommendation": "Order from the camera factory, matched to its connector and current draw; planning $5."
+   },
+   {
+    "item": "CPL filter",
+    "oem_cost": {
+     "value": "OEM UNKNOWN; ASSUMED $2-4. Retail: VIOFO CPL $12.99-16.99, 70mai CPL $14.99-27.99, NEEWER $19.99",
+     "label": "ASSUMED",
+     "source": "viofo.com, blackboxmycar.com, 70mai.store via search",
+     "checked": "2026-11-15"
+    },
+    "recommendation": "Must be the factory's own clip-on CPL for that lens barrel; planning $3."
+   }
+  ],
+  "compliance": {
+   "fcc": "Wi-Fi model needs Certification (FCC ID) from the factory; verify the ID and model on fccid.io before the sample; get a written statement that the private-label unit is electrically identical (2.924). Label: FCC ID on the device (or e-label); manual carries Part 15 statements. Camera digital part: SDoC, US responsible party (likely us).",
+   "battery_shipping": {
+    "value": "Supercapacitor (EDLC) at or under 0.3 Wh is not subject to IATA/ICAO DG rules (Special Provision A186/361); a dash-cam supercap is typically far below this, so it ships as general cargo by express or air. A Li-ion dash cam ships under UN3481 (PI 967 Section II); many DDP lines surcharge or refuse battery cargo, and Li-ion degrades in parked-car heat.",
+    "label": "ESTIMATED",
+    "source": "ICAO DGP working paper (A186 text) via search; goodhope DG page",
+    "checked": "2026-11-15"
+   },
+   "prop65": {
+    "value": "Businesses with fewer than 10 employees are exempt by law, but retailers and marketplaces can require warnings by contract; the brand owner selling under its own name is the responsible party once over 10 employees. PVC cables can contain DEHP. Ask the factory for a Prop 65 / RoHS / REACH test report; add a CA warning at checkout if any listed chemical is above safe harbor.",
+    "label": "ESTIMATED",
+    "source": "p65warnings.ca.gov FAQ; compliancegate guide via search",
+    "checked": "2026-11-15"
+   },
+   "other": "CE/RoHS claims are irrelevant in the US except as quality signals. Camera recording laws (audio consent by state) belong in the manual. No safety certification needed for a 5 V device; the hardwire kit touches vehicle wiring, so include a fuse and low-voltage cutoff.",
+   "label": "ESTIMATED"
+  },
+  "freight": {
+   "unit_basis": {
+    "value": {
+     "retail_box_cm": "20 x 15 x 8 (ASSUMED)",
+     "chargeable_kg_per_kit": 0.8,
+     "cbm_per_kit_incl_15pct_master": 0.0028
+    },
+    "label": "ASSUMED",
+    "source": "ASSUMED; leader ROVE R2-4K item dims 1.45x3.64x2.5 in (DataForSEO)",
+    "checked": "2026-11-15"
+   },
+   "express": {
+    "value": "$6-12/kg, 3-5 days: about $5-10 per kit; a 20-unit batch (~16 kg) costs about $100-190 plus the $17.50+ courier duty fee",
+    "label": "ESTIMATED",
+    "source": "same sources as extender",
+    "checked": "2026-11-15"
+   },
+   "ddp_air": {
+    "value": "$8-14/kg excluding duty (dense electronics: DDP lines usually rebill duty at the true value); 7-14 days",
+    "label": "ESTIMATED",
+    "source": "forwarder guides",
+    "checked": "2026-11-15"
+   },
+   "sea": {
+    "value": "Not worth it below ~1 CBM; 200 kits = 0.55 CBM still pays the LCL minimum (~$500 CFS-CFS + ~$650 broker/ISF/bond/delivery). DDP sea (Matson) at $1.43-2.03/kg is the cheap reorder path.",
+    "label": "ESTIMATED",
+    "source": "Gateway board Nov 2026; goodhopefreight DDP sea page",
+    "checked": "2026-11-15"
+   }
+  },
+  "duties": {
+   "value": {
+    "hts": "8525.89.50.50 (television/digital/video cameras, Other; UK classes dash cams in 8525.89) likely; 8525.89.30 possible",
+    "mfn": "Free",
+    "sec301": "9903.88.03 +25%",
+    "sec301_forced_labor": "9903.05.31 +12.5%",
+    "total": "37.5%",
+    "accessories": "microSD 8523.51, hardwire kit 8544.42, CPL filter 9002.20: rates not checked; ASSUMED same 37.5% for planning (or buy the card in the US)",
+    "section_232_semiconductors": "Jan 14 2026 proclamation covers advanced chips in 8471/8473, not 8525 (ESTIMATED)",
+    "who_pays": "same as extender: receiver under express DAP, forwarder under DDP (rebilled), us under FOB/LCL"
+   },
+   "label": "ESTIMATED",
+   "source": "tariffs.wove.com/us/tariff/8525.89.50 (CBP HTS file Nov 9 2026); CBP N345949 (2025) and N327879 (2022) camera rulings (8525.89.30 + 9903.88.03); UK ruling on dash cam 8525890000; EY/White & Case on Sec 232 semis",
+   "checked": "2026-11-15"
+  },
+  "timeline": {
+   "best_days": 24,
+   "typical_days": 51,
+   "steps": [
+    {
+     "step": "Shortlist + inquiries (spec sheet, FCC ID, sensor proof, app name, supercap, OEM MOQs)",
+     "best": 1,
+     "typical": 2
+    },
+    {
+     "step": "Replies",
+     "best": 1,
+     "typical": 3
+    },
+    {
+     "step": "Samples from stock (2-3 suppliers) ship",
+     "best": 2,
+     "typical": 4
+    },
+    {
+     "step": "Sample express",
+     "best": 4,
+     "typical": 6
+    },
+    {
+     "step": "Test: day/night 4K footage, plate legibility, app pairing on iOS + Android, 24h parking mode on hardwire, heat soak, FCC ID label vs fccid.io",
+     "best": 5,
+     "typical": 10
+    },
+    {
+     "step": "Order + escrow",
+     "best": 1,
+     "typical": 2
+    },
+    {
+     "step": "Production (stock, neutral box; logo/box needs 50-500 MOQ and ~30 days)",
+     "best": 7,
+     "typical": 20
+    },
+    {
+     "step": "Express + customs",
+     "best": 3,
+     "typical": 4
+    }
+   ],
+   "label": "ESTIMATED/ASSUMED",
+   "note": "Listings state 7-day lead time for 1-100 pcs (Xingchi, Zhongxiang, BEPO 1-5)."
+  },
+  "landed_estimates": {
+   "definition": "Per kit (camera + OEM card $5 + hardwire $5 + CPL $3) at a US home, 50-unit batch unless noted; duty 37.5% on FOB.",
+   "express": {
+    "value": {
+     "low_cam_30": 64.33,
+     "mid_cam_40": 79.68,
+     "base_cam_55_IMX678_4K2K": 100.31,
+     "high_cam_72": 126.88,
+     "base_with_US_bought_branded_card": 111.43
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: FOB + 0.8 kg x $6/8/8/12 + 37.5% duty + courier fees/50",
+    "checked": "2026-11-15"
+   },
+   "ddp_air": {
+    "value": {
+     "low_cam30": 63.92,
+     "mid_cam40": 80.88,
+     "base_cam55": 101.5,
+     "high_cam72": 128.07
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: FOB + 0.8 kg x $6-14 + duty rebilled",
+    "checked": "2026-11-15"
+   },
+   "sea_200": {
+    "value": {
+     "mid_cam_40": 76.08,
+     "base_cam_50": 89.86,
+     "freight_and_fees_per_unit": 5.95
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc: LCL minimum + fees over 200 units",
+    "checked": "2026-11-15"
+   },
+   "batch_cash": {
+    "value": {
+     "20_units_mid": 1594,
+     "50_units_mid": 3984.0
+    },
+    "label": "ESTIMATED",
+    "source": "scratch calc",
+    "checked": "2026-11-15"
+   },
+   "finding": "At the full STARVIS 2 4K+2K supercap spec ($53-75 FOB), landed cost is about $100-127 against a ~$105 retail price, because the 37.5% tariff stack applies. Only the $30-40 FOB tier lands at $64-81. Either pick a $35-45 factory model and prove its sensor, or reprice toward ROVE's $149.99. Rerun economics.py with these inputs before G2 for product 2."
+  }
+ },
+ "difficulty": {
+  "extender": {
+   "score_1_to_10": 7,
+   "why": "No listing matches the spec (3-panel rigid board, 20-in fold), so it is a semi-custom build from trading companies. The kit is bulky, so air costs $25-76 per kit. HTS is ambiguous (27% vs 52.5%), there are patents to design around, and timing is tight against Jan 4 and Chinese New Year. No certification needed.",
+   "riskiest_step": "Getting a production batch that matches an approved sample on board rigidity and the 20-inch fold. If the fold fails, both the USPS cost and the air-freight cost jump. Verify on the sample and again by photo/video before the balance is released."
+  },
+  "dashcam": {
+   "score_1_to_10": 6,
+   "why": "Many stock OEM models at MOQ 1-20 with 7-day lead times, light and dense freight, and the supercap avoids battery DG rules. Hard parts: sensor and spec claims are often false, FCC ID must match the exact unit, generic apps rate poorly (Viidure 4.0-4.4 from ~26-28K ratings; Kacam ~2.1, RoadCam 2.2), firmware support and tech-support returns, and the 37.5% tariff squeezes the $105 price.",
+   "riskiest_step": "Sample verification: confirm the real sensor (IMX678/675 via footage tests and a teardown photo), the supercap, the FCC grant for that exact model, and app reliability before paying for a batch. A wrong pick here means returns and support load at launch."
+  },
+  "label": "ASSUMED (judgement from the evidence above)"
+ },
+ "recommended_routes": {
+  "extender": "Samples from h6 + h9 by express, then a 15-20 kit first batch by express or DDP air (whichever quotes lower all-in, with true declared value), Dhruv ships by USPS. Then a 100-200 kit sea reorder (LCL or Matson DDP sea) placed before CNY with a third-party PSI.",
+  "dashcam": "Sample 3 stock models (BEPO ZD72S IMX678 supercap; one $35-45 tier such as Tengyue S856 or Fisang; Zhongxiang IMX675) plus fccid.io checks. Then a 15-20 unit neutral-box batch by express; buy branded microSD cards in the US. Logo, box and app branding only at the 200+ reorder by sea or DDP sea."
+ },
+ "sources": [
+  {
+   "url": "https://gatewaylines.com/news/november-2026-lcl-rates-us-subtitle",
+   "what": "LCL board Nov 2 2026: Shanghai-LA 1 CBM $501.82, 18 days",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://goodhopefreight.com/shipping-to-usa/air-powder-ddp-rates.html",
+   "what": "DDP air channel table (powder), RMB/kg by 21/71/101/501 kg breaks, divisor 6000, valid to Oct 31 2026",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://goodhopefreight.com/shipping-to-usa/usa-ddp-ddu.html",
+   "what": "Matson DDP sea $1.43-2.03/kg, tax included, 16-28 days",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.sendfromchina.com/NewsCenter/dhl-shipping-rates-2026.html",
+   "what": "DHL 2026 increase context, fuel surcharge (Feb 6 2026)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.sino-shipping.com/da/ekspres-kurer-forsendelse-fra-kina/omkostninger/dhl-vs-fedex-vs-ups-prissammenligning/",
+   "what": "Express $7-15/kg 5-20 kg; DHL ~$12.50/kg 10 kg; FedEx 8-12% under DHL at 21-100 kg",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://welltrans-logistics.com/?p=5451",
+   "what": "DDP air $5-8/kg 3-7 days (search snippet; page body empty on fetch)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.freightfigures.com/articles/us-china-truce-extended-january-10-2027-november-10-exclusions-port-fees-excess-capacity-importer-playbook",
+   "what": "Tariff stack, 12.5% Sec 301 from Jul 24 2026, truce to Jan 10 2027, exclusions to Jan 9 2027 (updated Nov 10 2026)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://airliftusa.com/blog/12/where-us-china-tariffs-stand-in-september-2026",
+   "what": "IEEPA ended Feb 24 2026; Sec 122 Feb 24-Jul 24 2026; Lists 1-3 25%, 4A 7.5%",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://zonos.com/us-tariff-updates",
+   "what": "De minimis gone (Oct 14 2026 tracker)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.troutman.com/insights/the-800-free-pass-is-gone-cit-confirms-president-can-eliminate-de-minimis-tariff-exemption/",
+   "what": "CIT Aug 13 2026 upholds de minimis elimination",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://tariffs.wove.com/us/tariff/6307.90.98",
+   "what": "6307.90.98 China: 7% + 7.5% + 12.5% = 27% (CBP HTS file Nov 9 2026)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://tariffs.wove.com/us/tariff/8708.99.81",
+   "what": "8708.99.81 China: 2.5% + 25% + 25% = 52.5%",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://tariffs.wove.com/us/tariff/8525.89.50",
+   "what": "8525.89.50 China: Free + 25% + 12.5% = 37.5%",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://open-gov.usebase.io/rulings/N015530",
+   "what": "CBP 2007 ruling: pet car seat cover 6307.90.9889 at 7%",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://open-gov.usebase.io/rulings/N345949",
+   "what": "CBP 2025 camera ruling 8525.89.30 + 9903.88.03",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.mohawkglobal.com/trade-translation/cbp-adjusts-customs-user-fees-for-fiscal-year-2027-10-1-2026/",
+   "what": "MPF FY2027 min $34.58 / max $670.86 / informal $2.77",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.dhl.com/us-en/home/express/products-and-solutions/products-and-services-overview/customs-services.html",
+   "what": "DHL duty tax processing $17.50 or 2%",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.v-trust.com/QualityControl/PreShipmentInspection.aspx",
+   "what": "PSI service reference; man-day $250-400 range from sino-shipping/supplyia/metricrig 2026 pages",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://m.made-in-china.com/trade/agreement.html",
+   "what": "Made-in-China.com Secured Trading Service terms (escrow)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://guidedimports.com/blog/alibaba-trade-assurance-overview/",
+   "what": "Trade Assurance coverage caps, on-platform payment only",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.barcode.graphics/gs1-us-gtin-upc-barcodes/",
+   "what": "GS1 US single GTIN $30",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://insights.fetchingpack.com/china-moq-guide-for-custom-printed-mailer-boxes",
+   "what": "Custom mailer MOQ guide; listing prices $0.45-0.95 at 500-5,000",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://ibspot.com/products/succebuy-dog-back-seat-extender-with-hard-bottom-mesh-window-storage-pocket",
+   "what": "US-stock other-brand extender $70.45",
+   "checked": "2026-11-14"
+  },
+  {
+   "url": "https://cjdropshipping.com/product/protective-cover-for-car-seat-dogs-and-cats-p-1835550617226858496.html",
+   "what": "CJ soft pet seat cover $13.75 (no hard-bottom US stock found)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://sourcing.hktdc.com/en/Product-Detail/4K-Dual-Channel-Dash-Cam-Built-in-Wi-Fi-GPS-4K-2K-Front-and-Rear-Dashcam-Supercapacitor-Parking-Mode-STARVIS2-Night-Vision-1Z03LSUMC",
+   "what": "Guangzhou Xingchi 4K+2K IMX678 supercap $192-206",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.alibaba.it/product-detail/New-Model-4K-Dual-Lens-Starvis_1601583453771.html",
+   "what": "Xingchi EM60 $133-142, MOQ 5, logo MOQ 50",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.alibaba.fr/product-detail/Dash-Cam-4K-2-Lens-Front_1601401726252.html",
+   "what": "BEPO ZD58A supercap $50.75 sample, logo MOQ 500",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.alibaba.fr/product-detail/4K-Dashcam-Dual-Lens-Front-and_1601455276599.html",
+   "what": "BEPO ZD72P supercap $64.68-71.87",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.alibaba.co.uk/product-detail/Custom-Dual-4K-Front-4K-Rear_1601402901461.html",
+   "what": "BEPO ZD72P+256G $75.79-77.78; OEM MOQs logo 500, firmware 1,000, mould 50,000",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.alibaba.fr/product-detail/Carlover-WiFi-4k-Dash-Cam-Front_1601516341511.html",
+   "what": "Shenzhen Zhongxiang S2 supercap $27-29, MOQ 20, FCC claimed",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://electronics.alibaba.com/product/descam-camera",
+   "what": "26 dash cam supplier listings with prices/MOQs (Lingdu, Aoedi, Junbei, Shanhai, Tengyue, Woyin, Fisang, Vehicle Tech)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.globalsources.com/products/HK/oem-4k-front-2k-rear-dash-camera-car-video-recorder-wifi-driving-record-g-sensor-parking-mode-emergency-accident-lock-dash-cam_1239316492/",
+   "what": "OEM 4K+2K listing (snippet only; page 429)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://fccid.io/2BDFQ-T2",
+   "what": "Guangzhou Xingchi dash cam grant 2026-06-02",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://fccid.io/2BEAPM360/Test-Report/Test-Report-WIFI-02-8758997",
+   "what": "Dongguan Lingdu grantee 2BEAP",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.law.cornell.edu/cfr/text/47/2.924",
+   "what": "47 CFR 2.924 multiple trade names under one FCC ID",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://compliancegate.com/fcc-sdoc",
+   "what": "SDoC responsible party must be in US (2.909)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.wiley.law/alert-FCC-Bans-Bad-Labs-Connected-to-Foreign-Adversaries-Seeks-Comment-on-Additional-Restrictions-for-Equipment-Authorization-Program",
+   "what": "FCC bad-labs order (2025)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.icao.int/sites/default/files/DangerousGoods/DGP%20Meeting%20Documentation/DGP-30/Working%20%20papers/English/WP-35.pdf",
+   "what": "EDLC <=0.3 Wh not subject to DG instructions (A186/361)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.p65warnings.ca.gov/businesses/frequently-asked-questions-businesses",
+   "what": "Prop 65 fewer-than-10-employees exemption",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://apps.appfollow.io/ios/viidure/1489090807?country=us",
+   "what": "Viidure iOS 4.4, ~10K ratings",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://apps.apple.com/us/app/kacam/id1472471482",
+   "what": "Kacam generic dash cam app, low rating",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://business.wolfbox.com/blogs/news/drive-your-business-forward-with-wolfbox-dash-cam-wholesale-program",
+   "what": "WOLFBOX distributor program (terms not public)",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.viofo.com/products/viofo-cpl-600-rear-filter-anti-glare-circular-polarizing-lens-for-rtc420-rc320-a329s-a329t-a229-ultra-series",
+   "what": "VIOFO CPL retail $12.99-16.99",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://www.globalsources.com/Automotive-wire/wire-1203026989p.htm",
+   "what": "OEM hardwire kit $4.90-5.20",
+   "checked": "2026-11-15"
+  },
+  {
+   "url": "https://taxnews.ey.com/news/2026-0209-us-section-232-proclamation-imposes-25-percent-tariff-on-certain-semiconductors",
+   "what": "Sec 232 semis narrow (8471/8473)",
+   "checked": "2026-11-15"
+  }
+ ],
+ "not_accessible": [
+  "Global Sources product pages: HTTP 429 (rate-limited) on every fetch; used search snippets only",
+  "Several Alibaba product pages returned 'Product Not Available' (1601276788610, 1601570440316, 1601430525622-family, 1601755953661, 1601238835687 Taiwan supplier, 1601364878442); Haishanding storefront returned empty",
+  "Faire product pages: HTTP 403 (wholesale prices not visible without login)",
+  "tarifflens.ai: HTTP 403; HKTDC product 1Z03LOU20: 404; welltrans-logistics and ship4wd articles returned empty bodies",
+  "CJdropshipping: no US-warehouse hard-bottom extender or dash cam found via search; site search/product pages not reachable as a logged-in user",
+  "No live carrier rate tools (DHL/UPS/Alibaba Logistics quotes need an account); no published QIMA price; no official GS1 2026 price sheet; TikTok Shop GTIN rule not found",
+  "Claude in Chrome, Alibaba buyer login and Made-in-China messaging were not used; DataForSEO not used in this pass",
+  "Spocket, Syncee, Doba US-warehouse catalogs not reachable via search",
+  "FCC ID for most shortlisted dash cam models (BEPO, Zhongxiang, Junbei, Shanhai, Aoedi) not found; must be requested from suppliers"
+ ]
+}
