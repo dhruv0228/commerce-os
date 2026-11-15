@@ -1,0 +1,256 @@
+{
+ "top5": [
+  "Wagabond",
+  "Furfender",
+  "Scruffbound",
+  "Tailgait",
+  "Barkfare"
+ ],
+ "names": [
+  [
+   "Road trip + dog (closest to RuffRover's feel)",
+   [
+    [
+     "Wagabond",
+     "wagabondco.com",
+     "co",
+     "wag + vagabond"
+    ],
+    [
+     "Tailgait",
+     "tailgaitco.com",
+     "co",
+     "tail + tailgate"
+    ],
+    [
+     "Copawlot",
+     "copawlotco.com",
+     "co",
+     "co-pilot with paws"
+    ],
+    [
+     "Shotgun Pup",
+     "shotgunpupco.com",
+     "co",
+     "riding shotgun"
+    ],
+    [
+     "Pawsenger",
+     "pawsengerco.com",
+     "co",
+     "paw + passenger (an old Class 35 filing exists)"
+    ],
+    [
+     "Barkfare",
+     "barkfare.com",
+     "exact",
+     "bark + fare"
+    ],
+    [
+     "Wagfare",
+     "wagfare.com",
+     "exact",
+     "wag + fare"
+    ],
+    [
+     "Barkmile",
+     "barkmile.com",
+     "exact",
+     "every mile with your dog"
+    ],
+    [
+     "Fetchmile",
+     "fetchmile.com",
+     "exact",
+     "fetch + mile"
+    ],
+    [
+     "Howlway",
+     "howlway.com",
+     "exact",
+     "howl + highway"
+    ],
+    [
+     "Snouthaul",
+     "snouthaul.com",
+     "exact",
+     "snout + long haul"
+    ],
+    [
+     "Barkrove",
+     "barkrove.com",
+     "exact",
+     "bark + rove (close to 'Rover', so riskier)"
+    ]
+   ]
+  ],
+  [
+   "Car part + dog (says what it does)",
+   [
+    [
+     "Furfender",
+     "furfender.com",
+     "exact",
+     "fur + fender"
+    ],
+    [
+     "Fenderhound",
+     "fenderhound.com",
+     "exact",
+     "fender + hound"
+    ],
+    [
+     "Fendermutt",
+     "fendermutt.com",
+     "exact",
+     "fender + mutt"
+    ],
+    [
+     "Bumperpaw",
+     "bumperpaw.com",
+     "exact",
+     "bumper + paw"
+    ],
+    [
+     "Hatchmutt",
+     "hatchmutt.com",
+     "exact",
+     "hatchback + mutt"
+    ],
+    [
+     "Tailhitch",
+     "tailhitch.com",
+     "exact",
+     "tail + trailer hitch"
+    ],
+    [
+     "Woofhitch",
+     "woofhitch.com",
+     "exact",
+     "woof + hitch"
+    ],
+    [
+     "Houndseat",
+     "houndseat.com",
+     "exact",
+     "hound + seat"
+    ]
+   ]
+  ],
+  [
+   "Made-up heritage words (the Trovestead style)",
+   [
+    [
+     "Scruffbound",
+     "scruffbound.com",
+     "exact",
+     "scruff + outward bound"
+    ],
+    [
+     "Scruffstead",
+     "scruffstead.com",
+     "exact",
+     "scruff + homestead"
+    ],
+    [
+     "Snoutstead",
+     "snoutstead.com",
+     "exact",
+     "snout + homestead"
+    ],
+    [
+     "Howlstead",
+     "howlstead.com",
+     "exact",
+     "howl + homestead"
+    ],
+    [
+     "Fetchstead",
+     "fetchstead.com",
+     "exact",
+     "fetch + homestead"
+    ],
+    [
+     "Hounderby",
+     "hounderby.com",
+     "exact",
+     "hound + derby"
+    ],
+    [
+     "Pawlander",
+     "pawlander.com",
+     "exact",
+     "paw + highlander"
+    ],
+    [
+     "Heelward",
+     "heelward.com",
+     "exact",
+     "heel (the command) + homeward"
+    ],
+    [
+     "Muttlow",
+     "muttlow.com",
+     "exact",
+     "mutt + meadow-like ending"
+    ],
+    [
+     "Muddlepaw",
+     "muddlepaw.com",
+     "exact",
+     "muddle + muddy paw (playful)"
+    ]
+   ]
+  ]
+ ],
+ "road": [
+  [
+   "Real factory costs",
+   1.0,
+   "Pull prices from Alibaba, 1688 and Made-in-China by spec, not the cheapest snippet. Auto-calculate landed cost: freight by box size, tariff by product code. Finalists get quotes from 3 suppliers (drafted, you approve).",
+   "The dash cam miss: $42 assumed, about $80 real."
+  ],
+  [
+   "Sales from every channel",
+   0.8,
+   "Add TikTok Shop sold counts (EchoTik, Kalodata or FastMoss), Amazon sales history (Keepa), Walmart and Etsy.",
+   "Today it only sees Amazon."
+  ],
+  [
+   "Sales trend, not a snapshot",
+   0.4,
+   "Save every weekly scan so it sees rising vs fading products, plus Google Trends.",
+   "Catches winners early and avoids fads."
+  ],
+  [
+   "Virality measured, not judged",
+   0.4,
+   "Count TikTok views, creators posting, and how long ads keep running (Foreplay) per product.",
+   "Today the '3-second wow' score is my judgment."
+  ],
+  [
+   "Competition and moat",
+   0.2,
+   "Top-brand share, review counts, number of sellers, price wars.",
+   "Avoids markets one brand owns."
+  ],
+  [
+   "Clean data",
+   0.2,
+   "Real package weight and size for every product, never a 1 lb default.",
+   "Bulky items get the right shipping cost."
+  ],
+  [
+   "Patent and safety checks",
+   0.2,
+   "Google Patents, USPTO trademarks, CPSC recalls and FCC IDs checked automatically.",
+   "Stops copycat and recall risks early."
+  ],
+  [
+   "Learns from our own launches",
+   0.3,
+   "After every test, compare what it predicted with what happened (sales, cost per customer, returns) and re-weight.",
+   "The only way to reach a true 10: it has to be right for us."
+  ]
+ ]
+}
