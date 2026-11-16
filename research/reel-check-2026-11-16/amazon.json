@@ -1,0 +1,104 @@
+{
+ "cervical neck pillow for sleeping": {
+  "units_total": 221450,
+  "bands": {
+   "<20": 1000,
+   "20-40": 150350,
+   "40-60": 64500,
+   "60-80": 500,
+   "80+": 5100
+  },
+  "median_price_100plus": 39.98,
+  "n_100plus": 52,
+  "top": [
+   [
+    39.98,
+    40000,
+    "Ultra Pain Relief Cooling Pillow for Neck Support, Adjustable Cervical"
+   ],
+   [
+    39.98,
+    30000,
+    "Ultra Pain Relief Cooling Pillow for Neck Support, Adjustable Cervical"
+   ],
+   [
+    58.99,
+    20000,
+    "Mellow CloudAlign Memory Foam Pillow for Neck & Shoulder Support, Stan"
+   ],
+   [
+    39.98,
+    10000,
+    "Ultra Pain Relief Cooling Pillow for Neck Support, Adjustable Cervical"
+   ]
+  ]
+ },
+ "tummy control flare leggings": {
+  "units_total": 39350,
+  "bands": {
+   "<20": 28400,
+   "20-40": 10950,
+   "40-60": 0,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 16.99,
+  "n_100plus": 47,
+  "top": [
+   [
+    15.99,
+    7000,
+    "Womens Flared Yoga Pants with Pockets, High Waisted Flare Leggings Bel"
+   ],
+   [
+    13.99,
+    7000,
+    "Yoga Pants Women, Flare Leggings for Women with Pockets Crossover High"
+   ],
+   [
+    23.99,
+    2000,
+    "Flare Leggings for Women, Crossover Yoga Pants with Tummy Control"
+   ],
+   [
+    17.99,
+    2000,
+    "Women's Flare Leggings with Pockets Crossover High Waisted Yoga Pants"
+   ]
+  ]
+ },
+ "automatic hair curler": {
+  "units_total": 95350,
+  "bands": {
+   "<20": 450,
+   "20-40": 9900,
+   "40-60": 54200,
+   "60-80": 24700,
+   "80+": 6100
+  },
+  "median_price_100plus": 48.5,
+  "n_100plus": 40,
+  "top": [
+   [
+    59.97,
+    10000,
+    "TYMO Automatic Rotating Curling Iron, TYMO CURLPRO Beach Waves Hair Cu"
+   ],
+   [
+    56.99,
+    10000,
+    "TYMO Automatic Rotating Curling Iron, TYMO CURLPRO Beach Waves Hair Cu"
+   ],
+   [
+    79.99,
+    10000,
+    "TYMO CurlPro Plus Automatic Rotating Curling Iron - Upgraded Long Barr"
+   ],
+   [
+    59.99,
+    9000,
+    "TYMO Automatic Rotating Curling Iron, TYMO CURLPRO Beach Waves Hair Cu"
+   ]
+  ]
+ }
+}

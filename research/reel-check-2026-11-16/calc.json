@@ -1,0 +1,50 @@
+[
+ {
+  "product": "Automatic curling iron",
+  "aliexpress": 10.33,
+  "her_price": 60,
+  "her_claim_profit": 49.67,
+  "market_avg_price": 43.0,
+  "landed_cost_assumed": 13.43,
+  "her_price_dtc_meta": 1.34,
+  "her_price_dtc_meta_tough": -10.36,
+  "her_price_tiktok_aff": 25.74,
+  "her_price_meta_cpa": 38.99,
+  "market_price_dtc_meta": -13.98,
+  "market_price_dtc_meta_tough": -25.67,
+  "market_price_tiktok_aff": 13.5,
+  "market_price_meta_cpa": 38.99
+ },
+ {
+  "product": "Tummy-control flare leggings",
+  "aliexpress": 5.54,
+  "her_price": 50,
+  "her_claim_profit": 44.46,
+  "market_avg_price": 28.9,
+  "landed_cost_assumed": 7.2,
+  "her_price_dtc_meta": -1.44,
+  "her_price_dtc_meta_tough": -13.14,
+  "her_price_tiktok_aff": 26.64,
+  "her_price_meta_cpa": 38.99,
+  "market_price_dtc_meta": -20.45,
+  "market_price_dtc_meta_tough": -32.15,
+  "market_price_tiktok_aff": 11.45,
+  "market_price_meta_cpa": 38.99
+ },
+ {
+  "product": "Neck alignment pillow",
+  "aliexpress": 11.55,
+  "her_price": 80,
+  "her_claim_profit": 68.45,
+  "market_avg_price": 31.3,
+  "landed_cost_assumed": 15.02,
+  "her_price_dtc_meta": 8.83,
+  "her_price_dtc_meta_tough": -5.54,
+  "her_price_tiktok_aff": 37.28,
+  "her_price_meta_cpa": 47.93,
+  "market_price_dtc_meta": -35.04,
+  "market_price_dtc_meta_tough": -49.42,
+  "market_price_tiktok_aff": 2.7,
+  "market_price_meta_cpa": 47.93
+ }
+]
