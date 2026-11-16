@@ -8,7 +8,7 @@ This repository is the single source of truth. Read from it and write to it. Nev
 
 - Owner and approver: Dhruv Patel. Only he approves the actions in section 10.
 - Phase: research. No product is live.
-- Plan: no launches before Dec 31, 2026. Use Q4 for research, supplier vetting and samples. First paid test the week of Jan 4, 2027 (pending approval).
+- Plan (changed Nov 16, 2026): sales as fast as possible. December sales are allowed. The first order is a 5-kit mini batch by express (no separate samples); the first kit opened is the sample. Bulk only after 10 happy customers.
 - Platform: Amboras (decided Nov 13, 2026). Build and preview on the free tier; pay for Basic (about $49/month plus a 1% platform fee per sale, per a third-party review) only at Gate 6. Before paying, confirm with Amboras: (1) Meta and TikTok pixel plus server-side conversion events, (2) how orders reach the supplier (app, webhook, API or CSV), (3) customer and order export, (4) whether an API exists that agents can use. Until (4) is confirmed, Claude cannot operate the store: store work is drafted in `store/` and Dhruv applies it by hand.
 - Market: United States. Currency: USD.
 - Home base: Dhruv's home in Florida (ZIP given in chat Nov 16, 2026; kept out of the repo until Dhruv OKs it). Samples and the first test batch ship there, and self-shipped orders go out from there (USPS). Supplier send-from address: Dhruv's personal Gmail (chosen Nov 16, 2026; not stored in the repo), or a brand address once the domain is bought.
