@@ -20,7 +20,7 @@ Could you share:
 
 Thank you.
 
-[Name]
+Dhruv Patel
 [Brand name]
 [Business email]
 

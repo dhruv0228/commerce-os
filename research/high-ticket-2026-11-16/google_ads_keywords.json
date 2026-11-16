@@ -1,0 +1,195 @@
+{
+ "checked": "2026-11-16",
+ "source": "DataForSEO google_ads/search_volume/live, US",
+ "rows": [
+  {
+   "keyword": "barrel sauna",
+   "search_volume": 18100,
+   "cpc": 3.37,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.05,
+   "high_top_of_page_bid": 4.3
+  },
+  {
+   "keyword": "outdoor sauna",
+   "search_volume": 33100,
+   "cpc": 4.28,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.29,
+   "high_top_of_page_bid": 4.81
+  },
+  {
+   "keyword": "infrared sauna",
+   "search_volume": 110000,
+   "cpc": 5.92,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 2.11,
+   "high_top_of_page_bid": 6.18
+  },
+  {
+   "keyword": "home sauna",
+   "search_volume": 33100,
+   "cpc": 3.74,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.68,
+   "high_top_of_page_bid": 4.45
+  },
+  {
+   "keyword": "golf simulator",
+   "search_volume": 165000,
+   "cpc": 4.5,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.33,
+   "high_top_of_page_bid": 5.64
+  },
+  {
+   "keyword": "golf simulator package",
+   "search_volume": 1600,
+   "cpc": 7.02,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.54,
+   "high_top_of_page_bid": 7.5
+  },
+  {
+   "keyword": "home golf simulator",
+   "search_volume": 22200,
+   "cpc": 4.31,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.13,
+   "high_top_of_page_bid": 5.04
+  },
+  {
+   "keyword": "cold plunge tub",
+   "search_volume": 27100,
+   "cpc": 6.95,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.71,
+   "high_top_of_page_bid": 8.06
+  },
+  {
+   "keyword": "cold plunge",
+   "search_volume": 60500,
+   "cpc": 9.71,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 3.8,
+   "high_top_of_page_bid": 10.14
+  },
+  {
+   "keyword": "massage chair",
+   "search_volume": 110000,
+   "cpc": 2.63,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.49,
+   "high_top_of_page_bid": 2.64
+  },
+  {
+   "keyword": "electric fireplace",
+   "search_volume": 135000,
+   "cpc": 1.4,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.24,
+   "high_top_of_page_bid": 1.61
+  },
+  {
+   "keyword": "home gym equipment",
+   "search_volume": 74000,
+   "cpc": 3.86,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.45,
+   "high_top_of_page_bid": 3.55
+  },
+  {
+   "keyword": "power rack",
+   "search_volume": 18100,
+   "cpc": 3.2,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.62,
+   "high_top_of_page_bid": 3.37
+  },
+  {
+   "keyword": "swim spa",
+   "search_volume": 40500,
+   "cpc": 4.39,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.09,
+   "high_top_of_page_bid": 5.85
+  },
+  {
+   "keyword": "hot tub",
+   "search_volume": 201000,
+   "cpc": 3.3,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 1.53,
+   "high_top_of_page_bid": 5.68
+  },
+  {
+   "keyword": "sauna kit",
+   "search_volume": 6600,
+   "cpc": 3.7,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.85,
+   "high_top_of_page_bid": 3.93
+  },
+  {
+   "keyword": "dog seat extender",
+   "search_volume": 480,
+   "cpc": 1.64,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.45,
+   "high_top_of_page_bid": 2.3
+  },
+  {
+   "keyword": "back seat extender for dogs",
+   "search_volume": 1300,
+   "cpc": 2.08,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.47,
+   "high_top_of_page_bid": 2.44
+  },
+  {
+   "keyword": "dog car seat cover",
+   "search_volume": 12100,
+   "cpc": 2.18,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.5,
+   "high_top_of_page_bid": 2.31
+  },
+  {
+   "keyword": "hard bottom dog car seat cover",
+   "search_volume": 170,
+   "cpc": 3.07,
+   "competition": "HIGH",
+   "competition_index": 99,
+   "low_top_of_page_bid": 0.69,
+   "high_top_of_page_bid": 2.86
+  },
+  {
+   "keyword": "dog car hammock",
+   "search_volume": 4400,
+   "cpc": 2.18,
+   "competition": "HIGH",
+   "competition_index": 100,
+   "low_top_of_page_bid": 0.6,
+   "high_top_of_page_bid": 2.3
+  }
+ ]
+}

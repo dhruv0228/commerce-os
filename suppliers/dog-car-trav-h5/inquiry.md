@@ -28,7 +28,7 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 
 1. Can you make this kit (or your closest model, with a link), and which parts do you make in your own factory? If you are a trading company, please name the factory.
 2. Unit price for the **full kit** (platform + 2 door guards + tether + fur tool + bag, packed as one SKU) at **15, 50, 200 and 500 kits**, Standard and XL separately. If you only make the platform, please price the platform alone and say where the add-ons would come from.
-3. Sample: price, lead time and express shipping cost of one Standard kit to US ZIP [ZIP CODE], DDP if possible.
+3. Sample: price, lead time and express shipping cost of one Standard kit to US ZIP [HOME ZIP, Florida; given in chat Nov 16], DDP if possible.
 4. Folded carton dimensions and gross weight for each size (full kit packed).
 5. Load rating and sag test: what load, where, and the measured deflection. A short video of the test is welcome.
 6. Materials: board type and thickness, panel count, fabric and coating, buckles, zip brand. Any fabric test report (AZO dyes, heavy metals)?
@@ -44,12 +44,12 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
-[Name]
+Dhruv Patel
 [Brand name]
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Low MOQ (2) fits a small batch; spec and package are weak fits.
-- Fill [ZIP CODE], [Name], [Brand name], [Business email] after Dhruv answers the pre-send questions in reports/suppliers-dog-car-travel-kit-2026-11-14.md.
+- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.

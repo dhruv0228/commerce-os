@@ -1,0 +1,32 @@
+[
+ {
+  "case": "Outdoor barrel sauna, $4,000",
+  "gross_margin_assumed": 0.25,
+  "pre_ad_contribution": 643.7,
+  "break_even_cac": 643.7,
+  "target_cac": 482.78,
+  "cpc": 4.28,
+  "clicks_affordable_per_sale_at_target": 112,
+  "conversion_rate_needed_at_target": 0.0089
+ },
+ {
+  "case": "Golf simulator package, $5,000",
+  "gross_margin_assumed": 0.2,
+  "pre_ad_contribution": 554.7,
+  "break_even_cac": 554.7,
+  "target_cac": 416.03,
+  "cpc": 7.02,
+  "clicks_affordable_per_sale_at_target": 59,
+  "conversion_rate_needed_at_target": 0.0169
+ },
+ {
+  "case": "Cold plunge tub, $3,000",
+  "gross_margin_assumed": 0.25,
+  "pre_ad_contribution": 482.7,
+  "break_even_cac": 482.7,
+  "target_cac": 362.03,
+  "cpc": 6.95,
+  "clicks_affordable_per_sale_at_target": 52,
+  "conversion_rate_needed_at_target": 0.0192
+ }
+]

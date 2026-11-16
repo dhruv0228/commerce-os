@@ -24,6 +24,6 @@ Could you share:
 
 Thank you. We plan to order samples within the next two weeks.
 
-[Name]
+Dhruv Patel
 [Brand name]
 [Business email]
