@@ -18,10 +18,12 @@ Could you share:
 7. Defect, return and replacement terms for wholesale buyers.
 8. Who manufactures the product (factory name), and whether the design is covered by any patent or design registration you know of.
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---

@@ -41,14 +41,16 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 13. Your profile mentions in-house moulding: can you make a 3-panel PP honeycomb board to our sizes, and what tooling cost (if any) applies?
 14. Your listing uses HS 9404.90.40. Is that the code you would declare for the US?
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Listing gives no board spec, package size or sample price. Cheapest landed estimate, but that rank assumes our target carton.
-- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
+- ZIP and name filled 2026-11-16. Still to fill at send time: brand name (filled: Barkfare, approved Nov 16) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.

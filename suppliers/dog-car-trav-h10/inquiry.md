@@ -43,14 +43,16 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 15. What is the folded size and weight of one unit (the 50 x 50 x 50 cm listed looks like a master carton)?
 16. Which factory makes this model?
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Sample $50 per listing (highest). Comparison quote.
-- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
+- ZIP and name filled 2026-11-16. Still to fill at send time: brand name (filled: Barkfare, approved Nov 16) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.

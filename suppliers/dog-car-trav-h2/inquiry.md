@@ -43,14 +43,16 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 15. Your FAQ mentions a trademark authorization letter for logos. Our brand is not yet registered: what do you need from us?
 16. Your listing shows MOQ 2 but the FAQ says 200 for standard styles. Which applies to a custom-logo kit?
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Free sample under 3 pcs (freight paid by buyer) per listing. Strong legitimacy signals (SGS audit, 33 reviews) but no rigid board and a very bulky package.
-- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
+- ZIP and name filled 2026-11-16. Still to fill at send time: brand name (filled: Barkfare, approved Nov 16) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.

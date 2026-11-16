@@ -1,0 +1,410 @@
+{
+ "korean sunscreen": {
+  "units_total": 361100,
+  "bands": {
+   "<20": 270600,
+   "20-40": 38500,
+   "40-60": 52000,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 18.85,
+  "n_100plus": 59,
+  "top": [
+   [
+    46.0,
+    40000,
+    "EltaMD UV Clear Face Sunscreen with Zinc Oxide, Oil-Free, SPF 46 and S"
+   ],
+   [
+    17.89,
+    30000,
+    "SKIN1004 Hyalu-Cica Water-Fit Sun Serum UV, SPF 50 Sunscreen, 1.69 fl."
+   ],
+   [
+    17.89,
+    30000,
+    "SKIN1004 Hyalu-Cica Water-Fit Sun Serum UV, SPF 50 Sunscreen, 1.69 fl."
+   ],
+   [
+    17.89,
+    30000,
+    "SKIN1004 Hyalu-Cica Water-Fit Sun Serum UV, SPF 50 Sunscreen, 1.69 fl."
+   ]
+  ]
+ },
+ "lip oil": {
+  "units_total": 339800,
+  "bands": {
+   "<20": 251300,
+   "20-40": 83500,
+   "40-60": 5000,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 9.99,
+  "n_100plus": 57,
+  "top": [
+   [
+    6.19,
+    60000,
+    "Aquaphor Lip Repair Stick, Value Pack, 2 x 0.17 OZ"
+   ],
+   [
+    10.48,
+    50000,
+    "Burt's Bees 100% Natural Moisturizing Lip Balm (Original Beeswax)"
+   ],
+   [
+    24.0,
+    20000,
+    "EADEM Tinted Lip Balm, Moisturizing Lip Gloss Tube for Women, Butter M"
+   ],
+   [
+    25.0,
+    20000,
+    "Clinique Almost Lipstick Tinted Lip Balm in Black Honey | Sheer + Ligh"
+   ]
+  ]
+ },
+ "golf training aid": {
+  "units_total": 30800,
+  "bands": {
+   "<20": 9300,
+   "20-40": 9300,
+   "40-60": 300,
+   "60-80": 8100,
+   "80+": 3800
+  },
+  "median_price_100plus": 37.49,
+  "n_100plus": 45,
+  "top": [
+   [
+    69.98,
+    6000,
+    "Acer Golf Rangefinder with Slope Switch, Pin Lock Vibration, 800/1200 "
+   ],
+   [
+    9.99,
+    4000,
+    "SlopeMaster ProGreen Reader - Golf Ball Marker with High Precision Gre"
+   ],
+   [
+    37.49,
+    3000,
+    "REVASRI Range Finder for Golf, Slope, Pin Lock Vibration 1000Y Rangefi"
+   ],
+   [
+    69.99,
+    2000,
+    "Golf Net with Practice Mat,Golf Hitting Aid Nets 10x7FT for Backyard D"
+   ]
+  ]
+ },
+ "snail mucin essence": {
+  "units_total": 291000,
+  "bands": {
+   "<20": 215150,
+   "20-40": 35850,
+   "40-60": 40000,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 17.25,
+  "n_100plus": 40,
+  "top": [
+   [
+    15.99,
+    50000,
+    "COSRX Snail Mucin 96% Repairing Face Serum, Korean Skin Care 3.38 Fl O"
+   ],
+   [
+    15.99,
+    50000,
+    "COSRX Snail Mucin 96% Repairing Face Serum, Korean Skin Care 3.38 Fl O"
+   ],
+   [
+    59.99,
+    40000,
+    "JIYU Toner Pads - Korean Skincare for Dark Spots, Wrinkles & Dull Skin"
+   ],
+   [
+    17.5,
+    30000,
+    "COSRX Peptide Collagen Serum Toner for Face, Skin Prep Booster, 5.07 F"
+   ]
+  ]
+ },
+ "pickleball paddle set": {
+  "units_total": 27550,
+  "bands": {
+   "<20": 1050,
+   "20-40": 18300,
+   "40-60": 5450,
+   "60-80": 750,
+   "80+": 2000
+  },
+  "median_price_100plus": 39.99,
+  "n_100plus": 43,
+  "top": [
+   [
+    23.09,
+    6000,
+    "Franklin Sports X-40 Outdoor Pickleballs - USAP Approved"
+   ],
+   [
+    32.99,
+    2000,
+    "MTEN Pickleball Paddles Set of 2/4/1, USAPA Approved Fiberglass Racket"
+   ],
+   [
+    49.95,
+    1000,
+    "Pickleball Paddles Set of 2 or 4, USAPA Approved Fiberglass Pickleball"
+   ],
+   [
+    23.93,
+    1000,
+    "Pickleball Paddles Set of 4, Wood Pickleball Set with Comfort Grip | 4"
+   ]
+  ]
+ },
+ "rice toner korean": {
+  "units_total": 204250,
+  "bands": {
+   "<20": 117350,
+   "20-40": 46900,
+   "40-60": 40000,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 18.9,
+  "n_100plus": 49,
+  "top": [
+   [
+    59.99,
+    40000,
+    "JIYU Toner Pads - Korean Skincare for Dark Spots, Wrinkles & Dull Skin"
+   ],
+   [
+    17.5,
+    30000,
+    "COSRX Peptide Collagen Serum Toner for Face, Skin Prep Booster, 5.07 F"
+   ],
+   [
+    14.99,
+    20000,
+    "BYOMA Milky Toner - Hydrating Face Toner, Moisturizing, Korean Skincar"
+   ],
+   [
+    20.9,
+    10000,
+    "Anua Rice 70 Glow Milky Toner, Non Comedogenic, Korean Skincare, 8.45 "
+   ]
+  ]
+ },
+ "led face mask": {
+  "units_total": 80300,
+  "bands": {
+   "<20": 0,
+   "20-40": 48400,
+   "40-60": 6000,
+   "60-80": 3300,
+   "80+": 22600
+  },
+  "median_price_100plus": 104.73,
+  "n_100plus": 50,
+  "top": [
+   [
+    31.99,
+    20000,
+    "LED Light Up Mask with Gesture Sensing, Kids Toys Gifts for Boys"
+   ],
+   [
+    31.99,
+    10000,
+    "LED Mask Face-Transforming Light up Mask Cool Gifts for Boys"
+   ],
+   [
+    31.99,
+    8000,
+    "Led Mask Light up Mask Gesture Sensing, Kids Cool Toy Teen Boys Gift"
+   ],
+   [
+    31.99,
+    8000,
+    "LED Light Up Mask with Gesture Sensing,Perfect Gifts for Teen Boys"
+   ]
+  ]
+ },
+ "korean skincare set": {
+  "units_total": 911250,
+  "bands": {
+   "<20": 436300,
+   "20-40": 387700,
+   "40-60": 80450,
+   "60-80": 500,
+   "80+": 6300
+  },
+  "median_price_100plus": 25.0,
+  "n_100plus": 55,
+  "top": [
+   [
+    19.0,
+    100000,
+    "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea)"
+   ],
+   [
+    24.0,
+    100000,
+    "Anua PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz"
+   ],
+   [
+    18.9,
+    100000,
+    "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care"
+   ],
+   [
+    22.0,
+    80000,
+    "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum, 1.01 fl oz"
+   ]
+  ]
+ },
+ "hair growth oil": {
+  "units_total": 587300,
+  "bands": {
+   "<20": 286300,
+   "20-40": 180500,
+   "40-60": 10500,
+   "60-80": 20000,
+   "80+": 90000
+  },
+  "median_price_100plus": 18.99,
+  "n_100plus": 60,
+  "top": [
+   [
+    88.0,
+    90000,
+    "Nutrafol Women's Balance Hair Growth Supplements, Age 45+, 1-Month Bot"
+   ],
+   [
+    11.99,
+    80000,
+    "Bare Anatomy Nature x Science Rosemary Water Spray with Rice Water | T"
+   ],
+   [
+    8.84,
+    50000,
+    "Mielle Organics Rosemary Mint Hair Oil with Biotin, 2 oz"
+   ],
+   [
+    27.99,
+    50000,
+    "Biotin, Collagen & Keratin + Full B-Complex - Hair Growth Support - 60"
+   ]
+  ]
+ },
+ "gua sha facial tool": {
+  "units_total": 148950,
+  "bands": {
+   "<20": 100950,
+   "20-40": 34000,
+   "40-60": 12800,
+   "60-80": 1000,
+   "80+": 200
+  },
+  "median_price_100plus": 9.98,
+  "n_100plus": 58,
+  "top": [
+   [
+    29.9,
+    30000,
+    "medicube PDRN Collagen Gua Sha Neck Wrinkle Cream - Firming, Contour C"
+   ],
+   [
+    6.99,
+    10000,
+    "Rena Chris Gua Sha Facial Tools, Stainless Steel Guasha - Silver"
+   ],
+   [
+    12.99,
+    10000,
+    "Kitsch Stainless Steel Guasha Tool for Face - Silver"
+   ],
+   [
+    7.99,
+    10000,
+    "BAIMEI IcyMe Gua Sha & Jade Roller Set for Facial Sculpting and Relaxa"
+   ]
+  ]
+ },
+ "massage gun": {
+  "units_total": 102600,
+  "bands": {
+   "<20": 6700,
+   "20-40": 61750,
+   "40-60": 12300,
+   "60-80": 4550,
+   "80+": 17300
+  },
+  "median_price_100plus": 59.99,
+  "n_100plus": 50,
+  "top": [
+   [
+    39.99,
+    20000,
+    "TOLOCO Massage Gun, Christmas Ideal Gifts for Women Men, Deep Tissue B"
+   ],
+   [
+    39.99,
+    10000,
+    "Massage Gun with Heat Massager Deep Tissue Muscle Massager Gifts for M"
+   ],
+   [
+    26.99,
+    8000,
+    "Elefor Massage Gun Deep Tissue,Percussion Back Massager Gun for Athlet"
+   ],
+   [
+    19.49,
+    6000,
+    "Massage Gun Deep Tissue Mini Muscle Massager for Pain Relief, Blue"
+   ]
+  ]
+ },
+ "weighted vest": {
+  "units_total": 40450,
+  "bands": {
+   "<20": 18200,
+   "20-40": 14550,
+   "40-60": 4050,
+   "60-80": 1150,
+   "80+": 2500
+  },
+  "median_price_100plus": 39.96,
+  "n_100plus": 38,
+  "top": [
+   [
+    22.99,
+    8000,
+    "ZELUS Weighted Vest, 6lb/8lb/12lb/16lb/20lb/25lb/30lb Weight Vest with"
+   ],
+   [
+    14.99,
+    6000,
+    "Weighted Vest, 6/8/10/12/15/18/20/24/30LB for Men Women"
+   ],
+   [
+    19.99,
+    3000,
+    "Weighted Vest, 6/8/10/12/15/18/20/24/30LB for Men Women"
+   ],
+   [
+    52.99,
+    3000,
+    "ZELUS Weighted Vest, 6lb/8lb/12lb/16lb/20lb/25lb/30lb Weight Vest with"
+   ]
+  ]
+ }
+}

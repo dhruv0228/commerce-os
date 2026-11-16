@@ -42,14 +42,16 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 14. Your package is 50 x 40 x 30 cm. Can the kit fold to 20 in (51 cm) long and under 28,300 cm3?
 15. Your listed peak lead time is 1-3 months. What would it be for 15 to 50 kits ordered in late November?
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Low MOQ (2) fits a small batch; spec and package are weak fits.
-- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
+- ZIP and name filled 2026-11-16. Still to fill at send time: brand name (filled: Barkfare, approved Nov 16) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.

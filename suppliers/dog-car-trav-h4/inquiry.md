@@ -44,14 +44,16 @@ Our first order is small (15 to 50 kits) by air to our US address, then sea frei
 16. Please share the terms of your 1-year warranty.
 17. Your listing uses HS 4201. Is that the code you would declare for the US?
 
+One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
+
 Thank you. Photos or a video of your current platform folded in its carton would help us decide quickly.
 
 Dhruv Patel
-[Brand name]
+Barkfare
 [Business email]
 
 ---
 Internal notes (delete before sending):
 - Sample $30 in 3-5 days per listing. Lead time is the main problem for a Jan 4 test.
-- ZIP and name filled 2026-11-16. Still to fill at send time: [Brand name] (Barkfare favored, not final) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
+- ZIP and name filled 2026-11-16. Still to fill at send time: brand name (filled: Barkfare, approved Nov 16) and [Business email] (Dhruv chose his personal Gmail; kept out of the repo on purpose).
 - Do not agree to any price, payment, or sample order in the reply thread without Dhruv's approval.
