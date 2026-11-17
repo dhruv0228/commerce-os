@@ -28,3 +28,16 @@ Order matters least; the two recommended sample suppliers are h6 and h9.
 - Claude compares quotes, flags red flags and recommends the 2 samples (target: h6 Nanjing Fav Pet, sample about $15, and h9 Suzhou Offer Gifts, sample about $30, plus express shipping; total cap $200, paid through platform escrow or PayPal).
 - Dhruv approves the sample orders (a separate approval).
 - Samples arrive in about 1 to 2 weeks. Dhruv tests fit in the car, kneels on the platform (sag test), checks the 20-inch fold and films it.
+
+
+## Added 2026-11-17 (send these too)
+
+| # | Supplier | Where to send | Draft | Why |
+|---|---|---|---|---|
+| 10 | Guangzhou Doglemi | Alibaba message on its listing | `suppliers/doglemi/inquiry.md` | Minimum order 5: fastest own-brand option |
+| 11 | Huizhou Ouqi Intelligent Technology | Alibaba message on its listing | `suppliers/huizhou-ouqi/inquiry.md` | Minimum order 2: fast own-brand option |
+| 12 | Ningbo Inbest Homeware | search the company name on Alibaba or Made-in-China | `suppliers/ningbo-inbest/inquiry.md` | Customs records show it supplies 4Knines: proven, for the bigger order |
+| 13 | Zhejiang Treasureland Auto | Alibaba message on its listing | `suppliers/zhejiang-treasureland/inquiry.md` | Customs records show it supplies Ruff Liners: proven, for the bigger order |
+| 14 | AliExpress seller with US stock (item 3256812096596227) | AliExpress "Message" button | `suppliers/ali-us-76/inquiry.md` | Fast lane: ships from the US, but only 9 sold, so buy 1 to inspect |
+
+Alibaba needs a free buyer account, like Made-in-China.

@@ -42,3 +42,4 @@ Every gate decision and approval, newest at the bottom. Agents add questions wit
 | 2026-11-16 | Plan | Lift the "no launches before Dec 31" rule so the first sales can happen in December, if the kits arrive in time | A (recommended): lift / B: keep Jan 4 | pending | | CLAUDE.md section 0 |
 | 2026-11-16 | G4 (revised) | 5-kit mini batch instead of separate samples | | approved: A | Dhruv | Chat, Nov 16 |
 | 2026-11-16 | Plan | Lift the Dec 31 rule; December sales allowed | | approved: A | Dhruv | Chat, Nov 16 |
+| 2026-11-17 | G4 | Final plan: fast lane (buy 1 AliExpress US-stock unit, $76.99, after messaging the seller) and own-brand lane (send 13 inquiries; order 5 units from the best low-minimum quote). See reports/final-plan-2026-11-17.md | A (recommended): both lanes / B: own-brand lane only / C: pause | pending | | reports/ranked_suppliers_speed_2026-11-17.md |
