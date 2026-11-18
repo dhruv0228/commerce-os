@@ -39,6 +39,7 @@ def breakdown(params, price, unit_cost, weight_lb, dims_in=None, category="all",
     if stage == "scale" and ship_cost is None:
         ship *= H["scale_ship_mult"]
         pack = H["scale_packaging"]
+    if stage == "scale":
         spo = H["scale_samples_per_order"]
 
     out = {}

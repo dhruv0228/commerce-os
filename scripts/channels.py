@@ -163,6 +163,7 @@ def channel_economics(params, price, unit_cost, weight_lb, dims_in=None, categor
     if stage == "scale" and ship_cost is None:
         ship *= HOUSE["scale_ship_mult"]
         pack = HOUSE["scale_packaging"]
+    if stage == "scale":  # fewer creator samples per order at scale, whoever ships
         samples_per_order = HOUSE["scale_samples_per_order"]
     out = {}
 

@@ -1,0 +1,274 @@
+{
+ "dog seat belt for car": {
+  "units_total": 31850,
+  "bands": {
+   "<20": 27350,
+   "20-40": 2400,
+   "40-60": 2100,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 12.99,
+  "n_100plus": 46,
+  "top": [
+   [
+    6.99,
+    4000,
+    "COOYOO Dog Seat Belt, Durability Retractable Dog Car Harness Adjustabl"
+   ],
+   [
+    9.99,
+    3000,
+    "COOYOO Dog Seat Belt,3 Piece Set Retractable Dog Car Harness Adjustabl"
+   ],
+   [
+    7.98,
+    2000,
+    "2 Pack Dog Seat Belt Adjustable Dog Car Seatbelts for Vehicle Nylon Pe"
+   ],
+   [
+    15.99,
+    2000,
+    "Mighty Paw Dog Seat Belt for Car, Heavy-Duty Aviation Aluminum Carabin"
+   ]
+  ]
+ },
+ "collapsible dog bowl travel": {
+  "units_total": 21050,
+  "bands": {
+   "<20": 19350,
+   "20-40": 1700,
+   "40-60": 0,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 9.99,
+  "n_100plus": 47,
+  "top": [
+   [
+    6.98,
+    3000,
+    "Dog Bowl Pet Collapsible Bowls, 2 Pack for Cats Dogs, Portable Pet Fee"
+   ],
+   [
+    13.98,
+    2000,
+    "Dog Water Bottle Portable with Food Container & Filter for Travel"
+   ],
+   [
+    5.88,
+    1000,
+    "SLSON Collapsible Dog Bowl Silicone, 2Pack Macaron Color Pet Travel Bo"
+   ],
+   [
+    9.99,
+    1000,
+    "Large Collapsible Dog Bowls 2 Pack, 34oz Foldable Dog Travel Bowl"
+   ]
+  ]
+ },
+ "dog bed for car back seat": {
+  "units_total": 64450,
+  "bands": {
+   "<20": 10400,
+   "20-40": 28700,
+   "40-60": 11650,
+   "60-80": 5500,
+   "80+": 8200
+  },
+  "median_price_100plus": 55.14,
+  "n_100plus": 48,
+  "top": [
+   [
+    19.99,
+    10000,
+    "KSIIA Washable Dog Bed Medium Size Dog Crate Bed Plush Pet Mat 35\"x23\""
+   ],
+   [
+    29.99,
+    8000,
+    "URPOWER Dog Car Seat Cover for Back Seat, 100% Waterproof Hammock for "
+   ],
+   [
+    25.98,
+    7000,
+    "Dog Car Seat Cover, 600D Heavy Dute Car Seat Cover for Dogs Pets, 100%"
+   ],
+   [
+    39.99,
+    5000,
+    "URPOWER Hard Bottom Dog Car Seat Cover, Back Seat Extender for Cars & "
+   ]
+  ]
+ },
+ "dog car ramp for suv": {
+  "units_total": 20100,
+  "bands": {
+   "<20": 0,
+   "20-40": 200,
+   "40-60": 7600,
+   "60-80": 6500,
+   "80+": 5800
+  },
+  "median_price_100plus": 82.43,
+  "n_100plus": 38,
+  "top": [
+   [
+    59.99,
+    3000,
+    "PetSafe Happy Ride Folding Dog Ramp"
+   ],
+   [
+    59.99,
+    3000,
+    "PetSafe Happy Ride Folding Dog Ramp"
+   ],
+   [
+    79.98,
+    2000,
+    "Dog Ramp for Car 63\" L \u00d7 17\" W, Pet Ramp for Truck Foldable"
+   ],
+   [
+    65.99,
+    1000,
+    "Extra Wide 20\" Dog Stairs for Large Dogs, Dog Steps for Car 4 Steps | "
+   ]
+  ]
+ },
+ "dog paw wipes": {
+  "units_total": 233550,
+  "bands": {
+   "<20": 155750,
+   "20-40": 77600,
+   "40-60": 200,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 20.18,
+  "n_100plus": 58,
+  "top": [
+   [
+    9.99,
+    50000,
+    "Earth Rated Dog Wipes for Paws & Butt, Deodorizing, Unscented, 100ct"
+   ],
+   [
+    34.99,
+    20000,
+    "Earth Rated Dog Wipes for Paws & Butt, Deodorizing, Unscented, 400ct"
+   ],
+   [
+    19.99,
+    20000,
+    "Douxo S3 PYO Pads, 3% Chlorhexidine Wipes for Dogs and Cats, 30 Pads"
+   ],
+   [
+    9.98,
+    10000,
+    "Earth Rated Dog Wipes for Paws & Butt, Deodorizing, Lavender, 100ct"
+   ]
+  ]
+ },
+ "dog cargo liner suv": {
+  "units_total": 16350,
+  "bands": {
+   "<20": 200,
+   "20-40": 8800,
+   "40-60": 2600,
+   "60-80": 1000,
+   "80+": 3750
+  },
+  "median_price_100plus": 39.99,
+  "n_100plus": 24,
+  "top": [
+   [
+    25.98,
+    7000,
+    "Dog Car Seat Cover, 600D Heavy Dute Car Seat Cover for Dogs Pets, 100%"
+   ],
+   [
+    169.99,
+    3000,
+    "Back Seat Extender for Dogs - As Seen on Shark Tank | Hard bottom adds"
+   ],
+   [
+    44.99,
+    1000,
+    "SUV Cargo Liner for Dogs, Trunk Cover with Bumper Flap Protector"
+   ],
+   [
+    69.99,
+    1000,
+    "Dog Car Seat Cover for Back Seat, PU Leather Back Seat Extender"
+   ]
+  ]
+ },
+ "dog car door protector": {
+  "units_total": 10000,
+  "bands": {
+   "<20": 900,
+   "20-40": 8600,
+   "40-60": 200,
+   "60-80": 100,
+   "80+": 200
+  },
+  "median_price_100plus": 26.99,
+  "n_100plus": 15,
+  "top": [
+   [
+    39.99,
+    5000,
+    "URPOWER Hard Bottom Dog Car Seat Cover, Back Seat Extender for Cars & "
+   ],
+   [
+    25.99,
+    1000,
+    "Dog Car Door Protector 2-Pack, Protects Doors from Dog Scratches, 900D"
+   ],
+   [
+    19.99,
+    500,
+    "Dog Car Door Protector, 2 Pcs PU Leather Pet Car Door Cover, Waterproo"
+   ],
+   [
+    24.99,
+    400,
+    "2026 Version-2X Extra Durable Premium Interior Car Door Protector from"
+   ]
+  ]
+ },
+ "pet odor eliminator for car": {
+  "units_total": 357000,
+  "bands": {
+   "<20": 199000,
+   "20-40": 150500,
+   "40-60": 7500,
+   "60-80": 0,
+   "80+": 0
+  },
+  "median_price_100plus": 17.41,
+  "n_100plus": 59,
+  "top": [
+   [
+    23.92,
+    60000,
+    "Rocco & Roxie Enzyme Stain & Odor Eliminator, 32 Fl Oz"
+   ],
+   [
+    2.0,
+    30000,
+    "Zep ZUAIR32 Air and Fabric Odor Eliminator 32 oz"
+   ],
+   [
+    6.77,
+    30000,
+    "Amazon Basics Gel Odor Eliminator, Activated Charcoal, Fragrance Free,"
+   ],
+   [
+    21.99,
+    20000,
+    "Activated Charcoal Odor Absorber for Strong Odors in Car, Closet, Shoe"
+   ]
+  ]
+ }
+}

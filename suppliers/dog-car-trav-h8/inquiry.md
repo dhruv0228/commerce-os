@@ -20,6 +20,8 @@ Could you share:
 
 One more question: do you (or a partner) keep ready stock of this platform in a US warehouse that can ship single orders to US customers in 2 to 5 days in plain packaging? If yes, please share the unit price, the per-order shipping cost and the warehouse state. Please also quote the 2 door guards on their own (price per pair), since we may sell them separately.
 
+Also, please quote a washable quilted bed topper sized to fit on top of the platform (price at 10, 50 and 200 units), since we may offer it as an option.
+
 Thank you.
 
 Dhruv Patel

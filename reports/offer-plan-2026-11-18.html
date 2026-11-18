@@ -1,0 +1,90 @@
+<title>Barkfare Offer Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a menu board. Offer cards up top, the product ladder as numbered rungs, verdict colors carry go / careful / cut. */
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1b2130;--muted:#5f6675;--line:#dedbd3;--go:#1f7a55;--go-soft:#dcf1e7;--warn:#a85e06;--warn-soft:#fbefdc;--stop:#b23a33;--stop-soft:#f9e1df;--acc:#2f5bd3;--acc-soft:#e3eafc;
+--display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Inter",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1a1f29;--ink:#e8ebf2;--muted:#a0a7b5;--line:#2b3240;--go:#4cc58c;--go-soft:#12352a;--warn:#f0a24a;--warn-soft:#3a2a14;--stop:#f2776f;--stop-soft:#3e1d1c;--acc:#7b9cff;--acc-soft:#1d2a4d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151c;--card:#1a1f29;--ink:#e8ebf2;--muted:#a0a7b5;--line:#2b3240;--go:#4cc58c;--go-soft:#12352a;--warn:#f0a24a;--warn-soft:#3a2a14;--stop:#f2776f;--stop-soft:#3e1d1c;--acc:#7b9cff;--acc-soft:#1d2a4d;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:980px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:34px}
+h1,h2{font-family:var(--display);margin:0;line-height:1.15;text-wrap:balance} h1{font-size:clamp(1.9rem,5vw,2.6rem);font-weight:800} h2{font-size:1.4rem;font-weight:800}
+p{margin:0;max-width:68ch} .muted{color:var(--muted)}
+section{display:flex;flex-direction:column;gap:14px}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.big>div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:.9rem;display:flex;flex-direction:column;gap:4px}
+.big b{font-family:var(--display);font-size:1.1rem}
+.oc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px} .oc.rec{border:2px solid var(--go)}
+.oh{display:flex;gap:12px;align-items:flex-start} .oh .k{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;font-family:var(--display);font-weight:800;background:var(--line);flex:0 0 auto}
+.oc.rec .k{background:var(--go);color:var(--card)} .oh b{font-family:var(--display);font-size:1.15rem}
+.pill{margin-left:8px;font-family:var(--mono);font-size:.7rem;background:var(--go-soft);color:var(--go);padding:2px 8px;border-radius:99px}
+.oc ul{margin:0;padding-left:1.1em;font-size:.9rem;display:flex;flex-direction:column;gap:2px}
+.tbl{overflow-x:auto} table{border-collapse:collapse;width:100%;min-width:560px;font-size:.88rem}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)} th{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums} .pos{color:var(--go)} .neg{color:var(--stop)}
+.ls{display:grid;grid-template-columns:40px 1fr;gap:12px;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--line);border-radius:12px;padding:12px 14px}
+.ls.go{border-left-color:var(--go)} .ls.warn{border-left-color:var(--warn)} .ls.stop{border-left-color:var(--stop)}
+.lnum{font-family:var(--display);font-weight:800;font-size:1.5rem;color:var(--muted);line-height:1}
+.lb{display:flex;flex-direction:column;gap:3px;font-size:.9rem;min-width:0} .lt{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lb b{font-family:var(--display);font-size:1.05rem}
+.verdict{align-self:flex-start;font-family:var(--mono);font-size:.74rem;padding:2px 9px;border-radius:99px;margin-top:2px}
+.verdict.go{background:var(--go-soft);color:var(--go)} .verdict.warn{background:var(--warn-soft);color:var(--warn)} .verdict.stop{background:var(--stop-soft);color:var(--stop)}
+.ladder{display:flex;flex-direction:column;gap:8px}
+.note{background:var(--warn-soft);border-radius:12px;padding:14px 16px;font-size:.9rem} .note ul{margin:6px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:4px}
+.bible{background:var(--acc-soft);border-radius:12px;padding:14px 16px;font-size:.92rem;display:flex;flex-direction:column;gap:6px}
+.bible ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:3px}
+.opt{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.92rem} .opt.rec{border:2px solid var(--go)}
+footer{font-size:.78rem;color:var(--muted)}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:10px">
+<h1>Our offer plan: 3 offer stacks and the product ladder</h1>
+<p class="muted">Davie's step 1, done for our dog extender. Every number comes from our fee scripts. Product costs are estimates until suppliers quote.</p>
+</header>
+<section><h2>The short version</h2>
+<div class="big">
+<div><b>Offer B wins</b>3 tiers with the kit + bed topper pre-selected. Bigger orders make more per sale.</div>
+<div><b>Two-car pack is the best tier</b>+$78.21 a sale at scale, and the only tier with real profit (+$13.83) even in the air-freight test.</div>
+<div><b>Our reorder item is weak</b>Unlike supplements, dog owners don't run out of much. Paw wipes only work as a checkout add-on.</div>
+<div><b>Product bible written</b>The facts every ad and page must stick to, including the claims we never make.</div>
+</div></section>
+
+<section><h2>3 offer stacks</h2>
+<p>Profit per sale after product, shipping, fees, refunds and the cost of getting the customer. “Test batch” is the first small batch flown in by air; “at scale” is the sea-freight batch.</p>
+<div class="oc"><div class="oh"><span class="k">A</span><div><b>Simple</b><br><span class="muted">One kit, everything included</span></div></div>
+<ul><li>Platform + 2 door guards + seat-belt tether + fur tool + bag</li><li>Printed fit card and install video</li><li>Free shipping</li><li>Fit guarantee: wrong fit, we pay the return</li><li>1-year warranty, no registration</li></ul>
+<div class="tbl"><table><tr><th>Tier</th><th>Price</th><th>Test batch, own store</th><th>At scale, own store</th><th>At scale, TikTok</th></tr><tr><td><b>Kit</b></td><td class='num'>$149</td><td class='num pos'>+$0.57</td><td class='num pos'>+$32.76</td><td class='num pos'>+$33.12</td></tr></table></div></div><div class="oc rec"><div class="oh"><span class="k">B</span><div><b>Three tiers</b><span class="pill">My pick</span><br><span class="muted">Best one pre-selected (Davie&#x27;s style)</span></div></div>
+<ul><li>Same kit as A in every tier</li><li>Middle tier pre-selected and marked “most popular”</li><li>Checkout add-ons: extra door guards $29.99, paw wipes $12.99</li><li>Same guarantee and warranty</li><li>Price shown per year of use, not just the total</li></ul>
+<div class="tbl"><table><tr><th>Tier</th><th>Price</th><th>Test batch, own store</th><th>At scale, own store</th><th>At scale, TikTok</th></tr><tr><td><b>Kit only</b></td><td class='num'>$149</td><td class='num pos'>+$0.57</td><td class='num pos'>+$32.76</td><td class='num pos'>+$33.12</td></tr><tr><td><b>Kit + bed topper ★ pre-selected</b></td><td class='num'>$189</td><td class='num pos'>+$3.18</td><td class='num pos'>+$45.48</td><td class='num pos'>+$34.86</td></tr><tr><td><b>Two-car pack (2 kits)</b></td><td class='num'>$269</td><td class='num pos'>+$13.83</td><td class='num pos'>+$78.21</td><td class='num pos'>+$46.38</td></tr></table></div></div><div class="oc"><div class="oh"><span class="k">C</span><div><b>Heavy stack</b><br><span class="muted">Lots included, one price</span></div></div>
+<ul><li>Kit + bed topper + paw wipes</li><li>Free digital extras: road-trip checklist, car-cleaning guide, fit finder</li><li>Same guarantee and warranty</li><li>Simple to advertise: one big “what&#x27;s in the box” photo</li></ul>
+<div class="tbl"><table><tr><th>Tier</th><th>Price</th><th>Test batch, own store</th><th>At scale, own store</th><th>At scale, TikTok</th></tr><tr><td><b>Kit + bed + paw wipes</b></td><td class='num'>$199</td><td class='num pos'>+$8.19</td><td class='num pos'>+$51.49</td><td class='num pos'>+$38.41</td></tr></table></div></div>
+<div class="note"><b>Reading the numbers</b><ul>
+<li>The first air-freight batch barely makes money on any tier. That's expected: it's a test. The tiers matter most once we ship by sea.</li>
+<li>TikTok at test stage includes free creator samples, so it looks worse there. At scale, TikTok and our own store come out about the same.</li>
+<li>Bed topper cost is a guess ($25 test, $17 at scale). I've added it to all 13 supplier messages so we get real quotes.</li></ul></div>
+</section>
+
+<section><h2>The product ladder: what we sell next, in order</h2>
+<p>Like Young Supplements: one customer, a hero first, then more for the same dog owner. Amazon demand checked Nov 18, 2026.</p>
+<div class="ladder"><div class="ls go"><span class="lnum">1</span><div class="lb"><span class="lt">Hero</span><b>Back-seat extender kit</b><span class="muted">$149</span><span>Proven: about 5,500 a month sell at $130+ on Amazon.</span><span class="verdict go">Go · +$32.76 a sale at scale</span></div></div><div class="ls go"><span class="lnum">2</span><div class="lb"><span class="lt">Add-on and tier</span><b>Bed topper for the platform</b><span class="muted">$49 add-on / $189 tier</span><span>Back-seat dog beds: 64,450 a month, median $55.14.</span><span class="verdict go">Go · +$24.15 per add-on at scale</span></div></div><div class="ls go"><span class="lnum">3</span><div class="lb"><span class="lt">Bundle</span><b>Two-car pack</b><span class="muted">$269</span><span>Every competitor sells one size per car; families with 2 cars buy twice.</span><span class="verdict go">Go · +$78.21 a sale at scale</span></div></div><div class="ls go"><span class="lnum">4</span><div class="lb"><span class="lt">Add-on</span><b>Extra door guards (pair)</b><span class="muted">$29.99</span><span>Dog car door protectors: 10,000 a month, median $26.99.</span><span class="verdict go">Go · +$18.02 per add-on</span></div></div><div class="ls warn"><span class="lnum">5</span><div class="lb"><span class="lt">Reorder</span><b>Paw wipes (100ct)</b><span class="muted">$12.99 add-on</span><span>Huge demand (233,550 a month) but cheap. Shipped alone, a refill loses $2.02; a quarterly 4-pack makes only +$5.77.</span><span class="verdict warn">Add-on only · +$7.70 per add-on</span></div></div><div class="ls warn"><span class="lnum">6</span><div class="lb"><span class="lt">Next hero</span><b>Dog car ramp or stairs</b><span class="muted">$99.99</span><span>Car ramps: 20,100 a month, median $82.43. 15 lb, so postage hurts.</span><span class="verdict warn">Later, Amazon only · Amazon +$18.39, own store −$5.98 (cost is an estimate)</span></div></div><div class="ls stop"><span class="lnum">✕</span><div class="lb"><span class="lt">Cut</span><b>Seat belt, travel bowl</b><span class="muted">under $20</span><span>Seat belts sell mostly under $20 (31,850 a month); bowls too.</span><span class="verdict stop">Include free · Too cheap to sell alone; put them in the kit</span></div></div></div>
+</section>
+
+<section><h2>The product bible</h2>
+<div class="bible"><b>Saved as <code>brand/product-bible.md</code>.</b> Every ad, page and AI prompt reads it first. What it holds:<ul>
+<li>Who it's for, the one-line promise, the brand voice.</li>
+<li>The kit spec, each item marked as assumed until the sample proves it.</li>
+<li>Claims we can make only after filming proof (no sag, fit, waterproof), and claims we never make (crash safety, health, fake “was” prices, “free $40” before we've sold it).</li>
+<li>Guarantee, returns and warranty drafts. The patents to stay clear of.</li>
+<li>Faces: creators with the real sample; your AI twin as voice only, never claiming use.</li></ul></div>
+</section>
+
+<section><h2>What's next</h2>
+<div class="opt rec"><b>A (recommended):</b> I build the product page mockup for Offer B in 3 versions, using placeholder photos clearly labeled, like the one in Davie's video. Ready for real photos the day the kits land.</div>
+<div class="opt"><b>B:</b> Change the offer first (tell me which tier or price to adjust).</div>
+<p class="muted">Still waiting on you: the 13 supplier messages plus 1 AliExpress question (now also asking for a bed topper quote), and the brand name (Barkfare or Barkseat Driver).</p>
+</section>
+<footer>Sources: scripts/offer_check.py and research/offers-2026-11-18/ (offer_inputs.json with labeled costs, offer_economics.json, ladder_extras.json, addon_amazon_bands.json from DataForSEO, Nov 18, 2026). Competitor prices: research/teardowns/ (Nov 15, 2026).</footer>
+</div>

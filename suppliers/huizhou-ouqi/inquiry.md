@@ -17,6 +17,8 @@ We are a US pet brand (Barkfare) launching a dog back-seat platform kit. We want
 6. Defect and replacement terms in writing, and payment by Alibaba Trade Assurance.
 7. Logo on the product and a printed box: minimum quantity and cost (for later orders).
 
+Also, please quote a washable quilted bed topper sized to fit on top of the platform (price at 10, 50 and 200 units), since we may offer it as an option.
+
 Thank you.
 
 Dhruv Patel

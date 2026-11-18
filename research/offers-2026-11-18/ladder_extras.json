@@ -1,0 +1,66 @@
+{
+ "wipes_refill_test": {
+  "price": 10.99,
+  "cost": 4.0,
+  "ship": 10.5,
+  "pack": 1.25,
+  "fees": 0.73,
+  "profit": -6.15
+ },
+ "wipes_refill_scale": {
+  "price": 10.99,
+  "cost": 3.0,
+  "ship": 7.88,
+  "pack": 0.75,
+  "fees": 0.73,
+  "profit": -2.02
+ },
+ "wipes_refill_2pack_scale": {
+  "price": 19.99,
+  "cost": 6.0,
+  "ship": 10.9,
+  "profit": 0.06
+ },
+ "ramp_79_scale": {
+  "dtc_meta": {
+   "profit": -24.0,
+   "tough": -35.55
+  },
+  "tiktok_aff": {
+   "profit": -8.19,
+   "tough": -15.06
+  },
+  "amazon_fba": {
+   "profit": 2.59,
+   "tough": -3.96
+  }
+ },
+ "ramp_99_scale": {
+  "dtc_meta": {
+   "profit": -5.98,
+   "tough": -17.53
+  },
+  "tiktok_aff": {
+   "profit": 5.51,
+   "tough": -2.36
+  },
+  "amazon_fba": {
+   "profit": 18.39,
+   "tough": 11.84
+  }
+ },
+ "wipes_4pack_quarterly_scale": {
+  "price": 34.99,
+  "cost": 12.0,
+  "ship": 12.7,
+  "profit": 5.77,
+  "label": "cost ASSUMED $3/pack"
+ },
+ "wipes_6pack_scale": {
+  "price": 44.99,
+  "cost": 18.0,
+  "ship": 15.42,
+  "profit": 6.07,
+  "label": "cost ASSUMED $3/pack"
+ }
+}

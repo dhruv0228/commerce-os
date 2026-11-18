@@ -1,0 +1,21 @@
+{
+ "note": "Costs per unit delivered to Florida (test = small air batch or US wholesale) or to a US 3PL (scale = sea freight). Labels per CLAUDE.md s.5. All to be replaced by supplier quotes.",
+ "components": {
+  "kit": {"landed_test": 73.06, "landed_scale": 46.51, "label": "ESTIMATED", "source": "research/sourcing-2026-11-15/plan.json: DDP air base $73.06; sea LCL 150 kits $43.51 + $3 3PL"},
+  "bed_topper": {"landed_test": 25.0, "landed_scale": 17.0, "label": "ASSUMED", "source": "No quote yet. Test: a generic washable car/crate mat bought US-wholesale (retail anchor KSIIA $19.99, 10,000/mo on Amazon); scale: factory FOB ~$12 + 27% duty + sea share. Ask suppliers."},
+  "paw_wipes_100": {"landed_test": 4.0, "landed_scale": 3.0, "label": "ASSUMED", "source": "No quote yet. Unscented paw wipes 100ct, US wholesale or private label; retail anchor Earth Rated 100ct $9.99 (50,000/mo on Amazon)."},
+  "door_guards_pair": {"landed_test": 8.0, "landed_scale": 5.08, "label": "ASSUMED", "source": "Hero deep dive ASSUMED $4 FOB + duty + freight share; quote asked in supplier messages (Nov 17)."}
+ },
+ "tiers": [
+  {"offer": "A simple", "name": "Kit (everything included)", "price": 149, "items": {"kit": 1}, "boxes": [[9, [20, 14, 5.5]]]},
+  {"offer": "B tiers", "name": "Kit only", "price": 149, "items": {"kit": 1}, "boxes": [[9, [20, 14, 5.5]]]},
+  {"offer": "B tiers", "name": "Kit + bed topper (most popular)", "price": 189, "items": {"kit": 1, "bed_topper": 1}, "boxes": [[11, [20, 14, 8]]]},
+  {"offer": "B tiers", "name": "Two-car pack (2 kits)", "price": 269, "items": {"kit": 2}, "boxes": [[9, [20, 14, 5.5]], [9, [20, 14, 5.5]]]},
+  {"offer": "C heavy", "name": "Kit + bed + paw wipes", "price": 199, "items": {"kit": 1, "bed_topper": 1, "paw_wipes_100": 1}, "boxes": [[12.5, [20, 14, 8]]]}
+ ],
+ "addons": [
+  {"name": "Bed topper added at checkout", "item": "bed_topper", "price": 49, "extra_ship_usd": 3.0, "extra_ship_label": "ASSUMED (same box, more weight)"},
+  {"name": "Paw wipes 100ct added at checkout", "item": "paw_wipes_100", "price": 12.99, "extra_ship_usd": 1.0, "extra_ship_label": "ASSUMED"},
+  {"name": "Extra door guards (2) added at checkout", "item": "door_guards_pair", "price": 29.99, "extra_ship_usd": 1.0, "extra_ship_label": "ASSUMED"}
+ ]
+}

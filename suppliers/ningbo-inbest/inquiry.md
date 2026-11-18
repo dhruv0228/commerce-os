@@ -17,6 +17,8 @@ We are a US pet brand (Barkfare) launching a dog back-seat platform kit. We unde
 6. We need our own door guard design (standalone, strap-hung, no window inserts) and must not copy any customer's patented or registered design. Please confirm.
 7. Payment terms (we prefer Alibaba Trade Assurance or another protected method) and written defect terms.
 
+Also, please quote a washable quilted bed topper sized to fit on top of the platform (price at 10, 50 and 200 units), since we may offer it as an option.
+
 Thank you.
 
 Dhruv Patel
