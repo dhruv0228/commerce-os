@@ -1,0 +1,301 @@
+<title>Barkfare Page Mockups</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a review desk. Three phone-width product pages for one offer, each opening differently, with notes beside them.
+   The mock store itself uses the Barkfare direction: deep green, warm cream, a rust accent. */
+:root{
+  --desk:#eef0f3;--desk-ink:#1a2030;--desk-muted:#5d6576;--desk-line:#d6dbe3;--desk-card:#ffffff;--pick:#1f7a55;--pick-soft:#dcf1e7;
+  --s-bg:#fbf8f2;--s-ink:#1f2a22;--s-muted:#5e6a60;--s-line:#e4ddd0;--s-green:#1f3b2d;--s-green-soft:#e3ece6;--s-rust:#c8642b;--s-rust-soft:#f7e6da;--s-ph:#e9e2d4;--s-ph-ink:#7a6f5c;
+  --display:"Fraunces",Georgia,serif;--body:"Inter",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --desk:#11151c;--desk-ink:#e7ebf2;--desk-muted:#9ea6b5;--desk-line:#2a3240;--desk-card:#181e28;--pick:#4cc58c;--pick-soft:#12352a;
+  --s-bg:#1a1d18;--s-ink:#eee9df;--s-muted:#b3ad9f;--s-line:#34372f;--s-green:#9cc7ad;--s-green-soft:#24322a;--s-rust:#e88a52;--s-rust-soft:#3b281d;--s-ph:#2b2d26;--s-ph-ink:#a59c88;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --desk:#11151c;--desk-ink:#e7ebf2;--desk-muted:#9ea6b5;--desk-line:#2a3240;--desk-card:#181e28;--pick:#4cc58c;--pick-soft:#12352a;
+  --s-bg:#1a1d18;--s-ink:#eee9df;--s-muted:#b3ad9f;--s-line:#34372f;--s-green:#9cc7ad;--s-green-soft:#24322a;--s-rust:#e88a52;--s-rust-soft:#3b281d;--s-ph:#2b2d26;--s-ph-ink:#a59c88;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--desk);color:var(--desk-ink);font-family:var(--body);font-size:16px;line-height:1.5;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:26px}
+h1{font-family:var(--display);font-size:clamp(1.8rem,4.5vw,2.5rem);margin:0;line-height:1.15;text-wrap:balance}
+.lede{color:var(--desk-muted);max-width:70ch;margin:0}
+.tabs{display:flex;flex-wrap:wrap;gap:8px}
+.tabs button{font:inherit;font-size:.92rem;border:1px solid var(--desk-line);background:var(--desk-card);color:var(--desk-ink);border-radius:999px;padding:8px 14px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--desk-ink);color:var(--desk);border-color:var(--desk-ink)}
+.tabs button:focus-visible,.store button:focus-visible,.store input:focus-visible,.store select:focus-visible{outline:2px solid var(--pick);outline-offset:2px}
+.stage{display:grid;grid-template-columns:400px minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:900px){.stage{grid-template-columns:1fr}}
+.phone{width:100%;max-width:400px;border:10px solid #1c1f26;border-radius:34px;overflow:hidden;background:var(--s-bg);box-shadow:0 8px 30px rgba(0,0,0,.12)}
+.screen{height:760px;overflow-y:auto}
+.notes{display:flex;flex-direction:column;gap:12px;min-width:0}
+.nc{background:var(--desk-card);border:1px solid var(--desk-line);border-radius:12px;padding:14px 16px;font-size:.92rem;display:flex;flex-direction:column;gap:6px}
+.nc h3{margin:0;font-family:var(--display);font-size:1.15rem}
+.nc ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:3px}
+.nc.rec{border:2px solid var(--pick)}
+.lab{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--desk-muted)}
+.pickb{font:inherit;font-weight:600;border:0;border-radius:10px;padding:10px 14px;background:var(--pick);color:#fff;cursor:pointer;align-self:flex-start}
+.pickb[aria-pressed="true"]{background:var(--desk-ink)}
+.status{font-size:.86rem;color:var(--pick)}
+/* the mock store */
+.store{color:var(--s-ink);font-size:14px}
+.store .bar{background:var(--s-green);color:var(--s-bg);font-size:11.5px;text-align:center;padding:6px 10px}
+.store .nav{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--s-line)}
+.store .logo{font-family:var(--display);font-weight:700;font-size:20px;color:var(--s-green)}
+.store .sec{padding:16px;display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--s-line)}
+.ph{background:var(--s-ph);color:var(--s-ph-ink);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:10px;position:relative;overflow:hidden}
+.ph svg{width:84%;height:auto}
+.ph .tagp{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;background:var(--s-bg);border-radius:4px;padding:2px 6px}
+.ph .cap{font-size:11.5px;max-width:30ch}
+.thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.thumbs div{background:var(--s-ph);border-radius:8px;aspect-ratio:1/1;font-size:9px;color:var(--s-ph-ink);display:grid;place-items:center;text-align:center;padding:4px}
+.store h2{font-family:var(--display);font-size:24px;line-height:1.15;margin:0;color:var(--s-ink)}
+.store h4{font-family:var(--display);font-size:19px;margin:0}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--s-rust)}
+.sm{color:var(--s-muted);font-size:12.5px}
+.ticks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:13px}
+.ticks li::before{content:"\2713  ";color:var(--s-green);font-weight:700}
+.tier{display:grid;grid-template-columns:20px 1fr auto;gap:8px;align-items:start;border:1.5px solid var(--s-line);border-radius:12px;padding:12px;cursor:pointer;background:var(--s-bg)}
+.tier.on{border:2px solid var(--s-green);background:var(--s-green-soft)}
+.tier input{margin-top:3px;accent-color:var(--s-green)}
+.tier .tn{font-weight:700;font-size:14px}
+.tier .tp{font-weight:700;font-size:15px;text-align:right}
+.badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--s-rust);color:#fff;border-radius:4px;padding:2px 6px;margin-bottom:4px}
+.inc{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px}
+.inc div{background:var(--s-bg);border:1px solid var(--s-line);border-radius:8px;font-size:10px;text-align:center;padding:6px 3px;line-height:1.25}
+.addon{display:flex;gap:8px;align-items:center;font-size:13px;border:1px dashed var(--s-line);border-radius:10px;padding:10px}
+.addon input{accent-color:var(--s-green)}
+.addon b{margin-left:auto}
+.cta{font:inherit;font-weight:700;font-size:15px;border:0;border-radius:999px;padding:14px;background:var(--s-green);color:var(--s-bg);cursor:pointer;width:100%}
+.guar{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.guar div{background:var(--s-green-soft);border-radius:10px;padding:10px;font-size:12px}
+.guar b{display:block;font-size:13px}
+.fit{background:var(--s-green-soft);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.fit .row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px}
+.fit select,.fit input{font:inherit;font-size:12.5px;padding:8px;border:1px solid var(--s-line);border-radius:8px;background:var(--s-bg);color:var(--s-ink);width:100%;min-width:0}
+.fit .res{font-size:12.5px;background:var(--s-bg);border-radius:8px;padding:8px 10px}
+.fit .res b{color:var(--s-green)}
+.cmp{width:100%;border-collapse:collapse;font-size:12px}
+.cmp th,.cmp td{padding:7px 6px;border-bottom:1px solid var(--s-line);text-align:left}
+.cmp td:last-child,.cmp th:last-child{background:var(--s-green-soft);text-align:center}
+.cmp td:nth-child(2),.cmp th:nth-child(2){text-align:center;color:var(--s-muted)}
+.steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.steps3 div{background:var(--s-bg);border:1px solid var(--s-line);border-radius:10px;padding:8px;font-size:11.5px;text-align:center}
+.steps3 b{display:block;font-family:var(--display);font-size:18px;color:var(--s-rust)}
+.rv{border:1px dashed var(--s-line);border-radius:10px;padding:12px;font-size:12.5px;color:var(--s-muted);text-align:center}
+.faq details{border-bottom:1px solid var(--s-line);padding:9px 0;font-size:13px} .faq summary{cursor:pointer;font-weight:600}
+.hero2{background:var(--s-green);color:var(--s-bg);padding:18px 16px;display:flex;flex-direction:column;gap:8px}
+.hero2 h2{color:var(--s-bg)} .hero2 .sm{color:var(--s-green-soft)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.ba .ph{min-height:120px}
+.sticky{position:sticky;bottom:0;background:var(--s-bg);border-top:1px solid var(--s-line);padding:10px 16px;display:flex;align-items:center;gap:10px}
+.sticky .tot{font-weight:700;font-size:15px;white-space:nowrap}
+.sticky .cta{padding:11px}
+footer{font-size:.8rem;color:var(--desk-muted)}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:10px">
+<span class="lab">Offer B · product page mockups · placeholders only</span>
+<h1>3 ways to open the same product page</h1>
+<p class="lede">Same offer in all three: kit $149, kit + bed topper $189 (pre-selected), two-car pack $269, plus checkout add-ons. Only the opening and the order of the page change. Click the tiers and add-ons; the price updates. Every grey photo box describes the real shot we'll take of our sample. The brand name is a placeholder until you pick one.</p>
+</header>
+
+<div class="tabs" role="tablist" aria-label="Page versions">
+<button role="tab" id="t1" aria-selected="true" aria-controls="v1">Version 1 · Fit first</button>
+<button role="tab" id="t2" aria-selected="false" aria-controls="v2">Version 2 · Problem first</button>
+<button role="tab" id="t3" aria-selected="false" aria-controls="v3">Version 3 · Offer first</button>
+</div>
+
+<!-- shared SVG illustration used in placeholders -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="car" viewBox="0 0 300 150">
+  <rect x="10" y="20" width="60" height="100" rx="14" fill="currentColor" opacity=".25"/>
+  <rect x="230" y="20" width="60" height="100" rx="14" fill="currentColor" opacity=".25"/>
+  <rect x="64" y="96" width="172" height="10" rx="4" fill="currentColor" opacity=".7"/>
+  <rect x="70" y="106" width="160" height="34" rx="6" fill="currentColor" opacity=".12"/>
+  <ellipse cx="150" cy="82" rx="46" ry="15" fill="currentColor" opacity=".55"/>
+  <circle cx="198" cy="72" r="13" fill="currentColor" opacity=".55"/>
+  <path d="M206 62 l9 -8 l2 12 z" fill="currentColor" opacity=".55"/>
+ </symbol>
+</svg>
+
+<section class="stage" id="v1" role="tabpanel" aria-labelledby="t1">
+<div class="phone"><div class="screen store" data-v="1">
+ <div class="bar">Ships from the USA · Fits your car or we pay the return</div>
+ <div class="nav"><span class="logo">Barkfare</span><span class="sm">Cart (0)</span></div>
+ <div class="sec">
+  <div class="ph" style="aspect-ratio:4/3"><svg><use href="#car"/></svg><span class="tagp">Placeholder photo</span><span class="cap">Our sample in an SUV back seat, a real dog lying flat, door guards on, daylight</span></div>
+  <div class="thumbs"><div>Kneel test</div><div>Folded in bag</div><div>Door guard close-up</div><div>Install, 3 steps</div></div>
+  <span class="eyebrow">Hard-bottom back-seat extender</span>
+  <h2>Will it fit your car? Check in 30 seconds.</h2>
+ </div>
+ <div class="sec"><div class="fit">
+  <b>Fit check</b>
+  <div class="row">
+   <select aria-label="Year" id="fy"><option>2021</option><option>2022</option><option>2023</option><option selected>2024</option><option>2025</option></select>
+   <select aria-label="Make" id="fm"><option>Toyota</option><option>Honda</option><option>Ford</option><option>Subaru</option></select>
+   <select aria-label="Model" id="fmod"><option>RAV4</option><option>CR-V</option><option>F-150</option><option>Outback</option></select>
+  </div>
+  <div class="row" style="grid-template-columns:1fr 1fr">
+   <input id="fw" aria-label="Seat width in inches" inputmode="decimal" placeholder="Seat width (in)" value="54">
+   <input id="fd" aria-label="Seat to front seat gap in inches" inputmode="decimal" placeholder="Gap to front seat (in)" value="23">
+  </div>
+  <div class="res" id="fres" aria-live="polite"></div>
+  <span class="sm">Demo only. The real fit finder uses measured data for each car.</span>
+ </div></div>
+ <div class="sec" data-tiers></div>
+ <div class="sec"><div class="guar">
+  <div><b>Fit guarantee</b>Doesn't fit the car you entered? We pay the return.</div>
+  <div><b>1-year warranty</b>No registration needed.</div>
+  <div><b>30-day returns</b>On every order.</div>
+  <div><b>Ships from the USA</b>Delivery times added after our test order.</div>
+ </div></div>
+ <div class="sec"><span class="eyebrow">See it hold</span><h4>Kneel on it. It doesn't sag.</h4>
+  <div class="ph" style="aspect-ratio:16/9"><svg><use href="#car"/></svg><span class="tagp">Placeholder video</span><span class="cap">Adult kneels on our sample; measured sag shown on screen</span></div></div>
+ <div class="sec"><span class="eyebrow">Reviews</span><div class="rv">Reviews from real buyers appear here after launch. We ask every customer, and we show the bad ones too.</div></div>
+ <div class="sec faq">
+  <details><summary>Will it fit my truck?</summary><p class="sm">Use the fit check above. The XL size fits crew cabs and full-size SUVs.</p></details>
+  <details><summary>Do the door guards go in the window seal?</summary><p class="sm">No. They hang from the window frame by a strap and never touch the seal.</p></details>
+  <details><summary>How fast does it ship?</summary><p class="sm">Placeholder until our test order confirms real delivery times.</p></details>
+ </div>
+ <div class="sticky"><span class="tot" data-total></span><button class="cta" type="button">Add to cart</button></div>
+</div></div>
+<div class="notes">
+ <div class="nc"><span class="lab">Version 1</span><h3>Fit first</h3><p>Opens with “Will it fit your car?” and a fit check before the price.</p>
+  <ul><li><b>Why it could win:</b> fit is the #1 worry in this category's reviews. None of RuffRover, Ruff Liners or 4Knines has a measured fit check.</li><li><b>Your edge:</b> this is the software piece only you can build.</li><li><b>Risk:</b> a form at the top slows impulse buyers from TikTok.</li></ul></div>
+ <div class="nc"><span class="lab">Best for</span><p>Google and Meta traffic from people already shopping, who want to be sure before paying $149+.</p></div>
+ <button class="pickb" type="button" data-pick="1" aria-pressed="false">Pick version 1</button>
+</div>
+</section>
+
+<section class="stage" id="v2" role="tabpanel" aria-labelledby="t2" hidden>
+<div class="phone"><div class="screen store" data-v="2">
+ <div class="bar">Ships from the USA · Fits your car or we pay the return</div>
+ <div class="nav"><span class="logo">Barkfare</span><span class="sm">Cart (0)</span></div>
+ <div class="hero2"><span class="eyebrow" style="color:var(--s-rust-soft)">For dogs who go places</span><h2>Your back seat wasn't built for a dog. Now it is.</h2><span class="sm">No more sliding into the footwell. No more scratched doors.</span></div>
+ <div class="sec"><div class="ba">
+  <div class="ph"><span class="tagp">Before</span><span class="cap">Dog slipping into the footwell on a soft hammock</span></div>
+  <div class="ph"><span class="tagp">After</span><span class="cap">Same dog lying flat on our platform</span></div>
+ </div></div>
+ <div class="sec"><span class="eyebrow">Why it works</span>
+  <div class="steps3"><div><b>1</b>Rigid board bridges the footwell</div><div><b>2</b>Door guards hang by a strap, never in the seal</div><div><b>3</b>Folds into a bag in seconds</div></div></div>
+ <div class="sec"><span class="eyebrow">Compared</span>
+  <table class="cmp"><tr><th></th><th>Soft hammock</th><th>Ours</th></tr>
+  <tr><td>Hard bottom over the footwell</td><td>✕</td><td>✓</td></tr>
+  <tr><td>Door guards included</td><td>Sold extra</td><td>✓</td></tr>
+  <tr><td>Fit check before you buy</td><td>✕</td><td>✓</td></tr>
+  <tr><td>Fit guarantee</td><td>✕</td><td>✓</td></tr></table>
+  <span class="sm">Every row must be proven on our sample before launch.</span></div>
+ <div class="sec" data-tiers></div>
+ <div class="sec"><div class="guar">
+  <div><b>Fit guarantee</b>Doesn't fit the car you entered? We pay the return.</div>
+  <div><b>1-year warranty</b>No registration needed.</div>
+ </div></div>
+ <div class="sec"><span class="eyebrow">Reviews</span><div class="rv">Reviews from real buyers appear here after launch.</div></div>
+ <div class="sticky"><span class="tot" data-total></span><button class="cta" type="button">Add to cart</button></div>
+</div></div>
+<div class="notes">
+ <div class="nc"><span class="lab">Version 2</span><h3>Problem first</h3><p>Opens with the pain and a before-and-after, then explains, compares, and only then shows the price.</p>
+  <ul><li><b>Why it could win:</b> it matches the ads that ran longest for competitors (“Does your dog slide around?”), so the page continues the ad's story.</li><li><b>Risk:</b> the price sits further down, and some people scroll away first.</li></ul></div>
+ <div class="nc"><span class="lab">Best for</span><p>TikTok and Reels traffic: people who saw a video of the problem and want to see it solved.</p></div>
+ <button class="pickb" type="button" data-pick="2" aria-pressed="false">Pick version 2</button>
+</div>
+</section>
+
+<section class="stage" id="v3" role="tabpanel" aria-labelledby="t3" hidden>
+<div class="phone"><div class="screen store" data-v="3">
+ <div class="bar">Ships from the USA · Fits your car or we pay the return</div>
+ <div class="nav"><span class="logo">Barkfare</span><span class="sm">Cart (0)</span></div>
+ <div class="sec">
+  <div class="ph" style="aspect-ratio:1/1"><svg><use href="#car"/></svg><span class="tagp">Placeholder photo</span><span class="cap">Everything in the box laid out: platform, 2 door guards, tether, fur tool, bag, fit card</span></div>
+  <span class="eyebrow">Hard-bottom back-seat extender kit</span>
+  <h2>The whole back-seat setup, in one box</h2>
+  <ul class="ticks"><li>Rigid board: your dog lies flat, no footwell</li><li>2 door guards and a seat-belt tether included</li><li>Fits your car, or we pay the return</li></ul>
+ </div>
+ <div class="sec" data-tiers></div>
+ <div class="sec"><span class="eyebrow">What's in the box</span>
+  <div class="inc" style="grid-template-columns:repeat(3,1fr)"><div>Platform<br>(Standard or XL)</div><div>2 door guards</div><div>Seat-belt tether</div><div>Fur tool</div><div>Travel bag</div><div>Fit card + install video</div></div></div>
+ <div class="sec"><div class="guar">
+  <div><b>Fit guarantee</b>Wrong fit? We pay the return.</div><div><b>1-year warranty</b>No registration.</div>
+  <div><b>30-day returns</b>On every order.</div><div><b>Ships from the USA</b>Times confirmed after our test order.</div>
+ </div></div>
+ <div class="sec"><span class="eyebrow">Reviews</span><div class="rv">Reviews from real buyers appear here after launch.</div></div>
+ <div class="sticky"><span class="tot" data-total></span><button class="cta" type="button">Add to cart</button></div>
+</div></div>
+<div class="notes">
+ <div class="nc rec"><span class="lab">Version 3 · my pick to test first</span><h3>Offer first</h3><p>Davie's and Young Supplements' layout: the tiers right under the photo, the best tier pre-selected, everything included shown as tiles.</p>
+  <ul><li><b>Why it could win:</b> it's the pattern Davie used to get his client profitable, and it puts the two-car pack (our best tier) in front of everyone.</li><li><b>Risk:</b> it explains the product less, so it leans on the video ad doing that job.</li></ul></div>
+ <div class="nc"><span class="lab">Best for</span><p>Paid ads where the video already showed the problem. Easiest to split-test against version 1 or 2.</p></div>
+ <button class="pickb" type="button" data-pick="3" aria-pressed="false">Pick version 3</button>
+</div>
+</section>
+
+<div class="nc"><span class="lab">Honest-selling checks built in</span>
+<ul>
+<li>No crossed-out “was” prices. The two-car pack shows its real saving against buying 2 kits at $149.</li>
+<li>Door guards say “included,” not “free $40,” until we've sold them on their own.</li>
+<li>No reviews until real buyers leave them. Delivery times stay a placeholder until our test order.</li>
+<li>Every photo box is a shot list for the real sample. None of it goes live as shown.</li>
+</ul></div>
+<p class="status" id="pickstatus" aria-live="polite"></p>
+<footer>Prices and tiers from reports/offer-plan-2026-11-18.html (scripts/offer_check.py). Claims follow brand/product-bible.md. Your pick is saved in this browser only; tell me in chat which version you chose.</footer>
+</div>
+
+<script>
+(function(){
+  var TIERS=[
+    {id:'kit',name:'Kit',sub:'Platform + 2 door guards + tether + fur tool + bag',price:149},
+    {id:'bed',name:'Kit + bed topper',sub:'Everything in the kit, plus a washable quilted topper',price:189,badge:'Most popular'},
+    {id:'two',name:'Two-car pack',sub:'2 kits, one for each car',price:269,save:'Save $29 vs 2 kits'}
+  ];
+  var ADDONS=[{id:'dg',name:'Extra door guards (pair)',price:29.99},{id:'pw',name:'Paw wipes, 100 count',price:12.99}];
+  var state={};
+  function money(x){return '$'+x.toFixed(2).replace(/\.00$/,'');}
+  document.querySelectorAll('.screen').forEach(function(scr){
+    var v=scr.getAttribute('data-v'); state[v]={tier:'bed',add:{}};
+    var box=scr.querySelector('[data-tiers]');
+    var h='<span class="eyebrow">Choose your setup</span>';
+    TIERS.forEach(function(t){
+      h+='<label class="tier" data-t="'+t.id+'"><input type="radio" name="tier'+v+'" value="'+t.id+'"'+(t.id==='bed'?' checked':'')+'><span>'+(t.badge?'<span class="badge">'+t.badge+'</span><br>':'')+'<span class="tn">'+t.name+'</span><br><span class="sm">'+t.sub+'</span>'+(t.save?'<br><span class="sm" style="color:var(--s-green);font-weight:600">'+t.save+'</span>':'')+'</span><span class="tp">'+money(t.price)+'</span></label>';
+    });
+    h+='<span class="sm">All tiers: free shipping, fit guarantee, 1-year warranty.</span><span class="eyebrow" style="margin-top:6px">Add to your order</span>';
+    ADDONS.forEach(function(a){h+='<label class="addon"><input type="checkbox" value="'+a.id+'"> '+a.name+' <b>+'+money(a.price)+'</b></label>';});
+    box.innerHTML=h;
+    function paint(){
+      var s=state[v], t=TIERS.filter(function(x){return x.id===s.tier;})[0], tot=t.price;
+      ADDONS.forEach(function(a){if(s.add[a.id]) tot+=a.price;});
+      box.querySelectorAll('.tier').forEach(function(l){l.classList.toggle('on',l.getAttribute('data-t')===s.tier);});
+      scr.querySelector('[data-total]').textContent='Total '+money(Math.round(tot*100)/100);
+    }
+    box.addEventListener('change',function(e){
+      if(e.target.type==='radio') state[v].tier=e.target.value;
+      if(e.target.type==='checkbox') state[v].add[e.target.value]=e.target.checked;
+      paint();
+    });
+    paint();
+  });
+  // fit check demo
+  function fit(){
+    var w=parseFloat(document.getElementById('fw').value), d=parseFloat(document.getElementById('fd').value);
+    var car=document.getElementById('fy').value+' '+document.getElementById('fm').value+' '+document.getElementById('fmod').value;
+    var r=document.getElementById('fres');
+    if(isNaN(w)||isNaN(d)){r.textContent='Enter both measurements.';return;}
+    var size=w>=57?'XL':'Standard';
+    r.innerHTML='<b>'+size+' size</b> looks right for a '+car+' (demo rule: seat width '+w+' in). A real result would come from measured data.';
+  }
+  ['fw','fd','fy','fm','fmod'].forEach(function(id){document.getElementById(id).addEventListener('input',fit);document.getElementById(id).addEventListener('change',fit);});
+  fit();
+  // tabs
+  var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+  function show(id){tabs.forEach(function(t){var on=t.id===id;t.setAttribute('aria-selected',on);document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});}
+  tabs.forEach(function(t){t.addEventListener('click',function(){show(t.id);});});
+  // pick
+  var KEY='barkfare-pdp-pick', st=document.getElementById('pickstatus');
+  function mark(n){document.querySelectorAll('[data-pick]').forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-pick')===n);b.textContent=b.getAttribute('data-pick')===n?'Picked':'Pick version '+b.getAttribute('data-pick');});st.textContent=n?'You picked version '+n+'. Tell me in chat and I’ll build it out.':'';}
+  document.querySelectorAll('[data-pick]').forEach(function(b){b.addEventListener('click',function(){var n=b.getAttribute('data-pick');try{localStorage.setItem(KEY,n);}catch(e){}mark(n);});});
+  try{var saved=localStorage.getItem(KEY);if(saved)mark(saved);}catch(e){}
+})();
+</script>
