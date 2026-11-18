@@ -1,0 +1,364 @@
+[
+ {
+  "video_id": "AdCZUaxu1VA",
+  "se_domain": "youtube.com",
+  "location_code": 2840,
+  "language_code": "en",
+  "check_url": "https://www.youtube.com/watch?v=AdCZUaxu1VA",
+  "datetime": "2026-11-18 17:28:28 +00:00",
+  "spell": null,
+  "item_types": [
+   "youtube_video_info"
+  ],
+  "items_count": 1,
+  "items": [
+   {
+    "type": "youtube_video_info",
+    "rank_group": 1,
+    "rank_absolute": 1,
+    "video_id": "AdCZUaxu1VA",
+    "title": "If I Wanted to Hit $1M/Month in Ecommerce, I'd Do This",
+    "url": "https://www.youtube.com/watch?v=AdCZUaxu1VA",
+    "thumbnail_url": "https://i.ytimg.com/vi_webp/AdCZUaxu1VA/maxresdefault.webp?v=6afa2599",
+    "channel_id": "UCRxQIZXV8w76t693nxP2Gaw",
+    "channel_name": "Davie Fogarty Mentors",
+    "channel_url": "https://www.youtube.com/channel/UCRxQIZXV8w76t693nxP2Gaw",
+    "channel_logo": "https://yt3.ggpht.com/HTFqHHFbugZ9v1EfBRzo9oNQp0U56AwyDokQW5Jyt0pX8869S1uY5gciXS9-q4Q4B9K0qnI=s176-c-k-c0x00ffffff-no-rj",
+    "description": "DM me \"PROFIT\" for my free daily P&L tracker: https://www.instagram.com/daviefogarty/\n\nUnlock advanced education from $100M+ founders.\nJoin my mentorship program here: https://lp.dailymentor.co/1mm\n\nI\u2019ve done over $1B in Shopify sales and helped hundreds of brands grow. If I wanted to get an ecommerce store to $1M a month, these are the three steps I\u2019d follow.\n\nIn this video, I break down how to fix your offer and product page with Claude Code, how to set and track a weekly ad volume target, and how to track your profit every single day.\n\nDisclaimer: This content is for educational purposes only and does not constitute professional advice. Conduct your own research before making decisions. This information is not a guarantee of success and results may vary.\nThe creator is not liable for any actions taken based on this content.",
+    "views_count": 44219,
+    "likes_count": 795,
+    "comments_count": 16,
+    "channel_subscribers_count": {
+     "displayed_count": "38.1K subscribers",
+     "count": 38100
+    },
+    "publication_date": "Premiered Nov 15, 2026",
+    "timestamp": "2026-11-15 10:00:06 +00:00",
+    "keywords": [
+     "how to scale ecommerce",
+     "how to scale a shopify store",
+     "grow shopify store",
+     "how to get to 1 million a month",
+     "ai for ecommerce",
+     "ecommerce",
+     "shopify",
+     "ecommerce growth",
+     "davie fogarty",
+     "daily mentor"
+    ],
+    "category": "Education",
+    "is_live": false,
+    "is_embeddable": true,
+    "duration_time": "08:44",
+    "duration_time_seconds": 524,
+    "subtitles": [
+     {
+      "language": "ar",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "bn",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "nl",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "en",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "fr",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "de",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "iw",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "hi",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "id",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "it",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "ja",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "ko",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "ml",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "pl",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "pt",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "pa",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "ru",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "es",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "ta",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "te",
+      "is_translatable": true,
+      "is_auto_generated": true
+     },
+     {
+      "language": "uk",
+      "is_translatable": true,
+      "is_auto_generated": true
+     }
+    ],
+    "streaming_quality": [
+     {
+      "type": "streaming_quality_element",
+      "label": "2160p",
+      "width": 3840,
+      "height": 2160,
+      "bitrate": 17652037,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "2160p",
+      "width": 3840,
+      "height": 2160,
+      "bitrate": 9278060,
+      "mime_type": "video/mp4; codecs=\"av01.0.12M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "1440p",
+      "width": 2560,
+      "height": 1440,
+      "bitrate": 7924437,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "1440p",
+      "width": 2560,
+      "height": 1440,
+      "bitrate": 3480392,
+      "mime_type": "video/mp4; codecs=\"av01.0.12M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "1080p",
+      "width": 1920,
+      "height": 1080,
+      "bitrate": 2580951,
+      "mime_type": "video/mp4; codecs=\"avc1.640028\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "1080p",
+      "width": 1920,
+      "height": 1080,
+      "bitrate": 1912916,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "1080p",
+      "width": 1920,
+      "height": 1080,
+      "bitrate": 2197593,
+      "mime_type": "video/mp4; codecs=\"av01.0.08M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "720p",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1090978,
+      "mime_type": "video/mp4; codecs=\"avc1.4D401F\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "720p",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1080134,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "720p",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1728050,
+      "mime_type": "video/mp4; codecs=\"av01.0.05M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "480p",
+      "width": 854,
+      "height": 480,
+      "bitrate": 539088,
+      "mime_type": "video/mp4; codecs=\"avc1.4D401F\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "480p",
+      "width": 854,
+      "height": 480,
+      "bitrate": 527885,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "480p",
+      "width": 854,
+      "height": 480,
+      "bitrate": 545710,
+      "mime_type": "video/mp4; codecs=\"av01.0.04M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "360p",
+      "width": 640,
+      "height": 360,
+      "bitrate": 322737,
+      "mime_type": "video/mp4; codecs=\"avc1.4D401E\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "360p",
+      "width": 640,
+      "height": 360,
+      "bitrate": 337389,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "360p",
+      "width": 640,
+      "height": 360,
+      "bitrate": 313042,
+      "mime_type": "video/mp4; codecs=\"av01.0.01M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "240p",
+      "width": 426,
+      "height": 240,
+      "bitrate": 192136,
+      "mime_type": "video/mp4; codecs=\"avc1.4D4015\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "240p",
+      "width": 426,
+      "height": 240,
+      "bitrate": 156540,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "240p",
+      "width": 426,
+      "height": 240,
+      "bitrate": 197372,
+      "mime_type": "video/mp4; codecs=\"av01.0.00M.08\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "144p",
+      "width": 256,
+      "height": 144,
+      "bitrate": 105002,
+      "mime_type": "video/mp4; codecs=\"avc1.4D400C\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "144p",
+      "width": 256,
+      "height": 144,
+      "bitrate": 82708,
+      "mime_type": "video/webm; codecs=\"vp9\"",
+      "fps": 30
+     },
+     {
+      "type": "streaming_quality_element",
+      "label": "144p",
+      "width": 256,
+      "height": 144,
+      "bitrate": 113255,
+      "mime_type": "video/mp4; codecs=\"av01.0.00M.08\"",
+      "fps": 30
+     }
+    ]
+   }
+  ]
+ }
+]

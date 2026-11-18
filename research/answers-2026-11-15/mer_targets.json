@@ -1,0 +1,26 @@
+{
+ "extender_test.dtc_meta": {
+  "price": 149.0,
+  "pre_ad_contribution": 39.08,
+  "break_even_MER": 3.81,
+  "target_MER_25pct_cushion": 5.08
+ },
+ "extender_test.amazon_fba": {
+  "price": 149.0,
+  "pre_ad_contribution": 29.51,
+  "break_even_MER": 5.05,
+  "target_MER_25pct_cushion": 6.73
+ },
+ "extender_scale.dtc_meta": {
+  "price": 149.0,
+  "pre_ad_contribution": 71.27,
+  "break_even_MER": 2.09,
+  "target_MER_25pct_cushion": 2.79
+ },
+ "extender_scale.amazon_fba": {
+  "price": 149.0,
+  "pre_ad_contribution": 56.31,
+  "break_even_MER": 2.65,
+  "target_MER_25pct_cushion": 3.53
+ }
+}
