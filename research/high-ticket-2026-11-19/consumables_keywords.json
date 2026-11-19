@@ -1,0 +1,60 @@
+{
+ "checked": "2026-11-19",
+ "source": "DataForSEO google_ads/search_volume/live, US",
+ "rows": [
+  {
+   "keyword": "creatine",
+   "search_volume": 823000,
+   "cpc": 2.77,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "collagen powder",
+   "search_volume": 60500,
+   "cpc": 3.15,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "magnesium glycinate",
+   "search_volume": 1000000,
+   "cpc": 1.97,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "hyaluronic acid serum",
+   "search_volume": 135000,
+   "cpc": 2.52,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "snail mucin",
+   "search_volume": 33100,
+   "cpc": 0.43,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "korean skincare",
+   "search_volume": 90500,
+   "cpc": 2.4,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "skincare set",
+   "search_volume": 8100,
+   "cpc": 1.52,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "dog car seat cover",
+   "search_volume": 12100,
+   "cpc": 2.18,
+   "competition": "HIGH"
+  },
+  {
+   "keyword": "back seat extender for dogs",
+   "search_volume": 1300,
+   "cpc": 2.08,
+   "competition": "HIGH"
+  }
+ ]
+}
