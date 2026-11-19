@@ -1,0 +1,184 @@
+{
+ "note": "Business-model comparison inputs for scripts/model_compare.py. Labels per CLAUDE.md section 5. Skincare and supplement rows are illustrations built from third-party examples and our assumptions, not quotes. Checked 2026-11-19.",
+ "repeat": {
+  "consumable_reorders_per_customer_12mo": {
+   "value": 0.5,
+   "label": "ASSUMED",
+   "source": "about 25% of buyers reorder in year 1 (new-brand target 25-30%, finsi.ai/blog/beauty-repeat-purchase-rate-2026, ESTIMATED) x about 2 reorders each (ASSUMED)"
+  },
+  "consumable_reorders_strong": {
+   "value": 1.2,
+   "label": "ASSUMED",
+   "source": "a strong subscription brand: about 45% reorder (eightx.co/blog/skincare-financial-benchmark, ESTIMATED) x about 2.7 reorders (ASSUMED)"
+  },
+  "extender_reorders_per_customer_12mo": {
+   "value": 0.0,
+   "label": "ASSUMED",
+   "source": "one-time purchase; add-ons (door guards, wipes) not counted here"
+  }
+ },
+ "models": [
+  {
+   "id": "ext_dropship",
+   "group": "Barkfare extender",
+   "name": "Dropship (fast lane)",
+   "brand": "theirs (generic)",
+   "who_ships": "AliExpress US seller",
+   "price": 149,
+   "unit_cost": 83.69,
+   "ship_cost": 0.0,
+   "category": "pets",
+   "weight_lb": 9,
+   "dims": [
+    20,
+    14,
+    5.5
+   ],
+   "stage": "test",
+   "reorders": "extender_reorders_per_customer_12mo",
+   "cash_up_front": 0,
+   "cash_label": "pay per order",
+   "source": "research/money-math-2026-11-19/inputs.json fast_lane"
+  },
+  {
+   "id": "ext_home",
+   "group": "Barkfare extender",
+   "name": "Own brand, ship from home (5-kit trial)",
+   "brand": "yours",
+   "who_ships": "you, by USPS",
+   "price": 149,
+   "unit_cost": 80.76,
+   "ship_cost": null,
+   "category": "pets",
+   "weight_lb": 9,
+   "dims": [
+    20,
+    14,
+    5.5
+   ],
+   "stage": "test",
+   "reorders": "extender_reorders_per_customer_12mo",
+   "cash_up_front": 403.8,
+   "cash_label": "5 kits (money_math.py)",
+   "source": "research/money-math-2026-11-19/inputs.json trial_express"
+  },
+  {
+   "id": "ext_3pl",
+   "group": "Barkfare extender",
+   "name": "Own brand, US warehouse (3PL)",
+   "brand": "yours",
+   "who_ships": "3PL warehouse",
+   "price": 149,
+   "unit_cost": 46.51,
+   "ship_cost": null,
+   "category": "pets",
+   "weight_lb": 9,
+   "dims": [
+    20,
+    14,
+    5.5
+   ],
+   "stage": "scale",
+   "reorders": "extender_reorders_per_customer_12mo",
+   "cash_up_front": 6976,
+   "cash_label": "150 kits (money_math.py)",
+   "source": "research/money-math-2026-11-19/inputs.json bulk_sea"
+  },
+  {
+   "id": "ext_fba",
+   "group": "Barkfare extender",
+   "name": "Own brand, Amazon FBA",
+   "brand": "yours",
+   "who_ships": "Amazon",
+   "price": 149,
+   "unit_cost": 46.51,
+   "ship_cost": null,
+   "category": "pets",
+   "weight_lb": 9,
+   "dims": [
+    20,
+    14,
+    5.5
+   ],
+   "stage": "scale",
+   "channel": "amazon_fba",
+   "reorders": "extender_reorders_per_customer_12mo",
+   "cash_up_front": 6976,
+   "cash_label": "150 kits, same as 3PL",
+   "source": "channels.py amazon_fba with the bulk landed cost"
+  },
+  {
+   "id": "skin_resell",
+   "group": "Skincare / repeat products",
+   "name": "Resell a known K-beauty brand (wholesale), ship from home",
+   "brand": "theirs",
+   "who_ships": "you",
+   "price": 25,
+   "unit_cost": 12.5,
+   "ship_cost": 5.5,
+   "category": "beauty",
+   "stage": "test",
+   "reorders": "consumable_reorders_per_customer_12mo",
+   "cash_up_front": 150,
+   "cash_label": "first wholesale order (Faire minimums $100-200, ESTIMATED)",
+   "source": "price: COSRX-type item MSRP about $25 (faire.com listing, ESTIMATED); cost: 50% of MSRP ASSUMED (Closo guide: resellers keep 35-55%, ESTIMATED); ship $5.50 ASSUMED"
+  },
+  {
+   "id": "skin_pl",
+   "group": "Skincare / repeat products",
+   "name": "Own-brand skincare, US maker ships each order (print-on-demand style)",
+   "brand": "yours (their formula)",
+   "who_ships": "US maker",
+   "price": 35,
+   "unit_cost": 12.0,
+   "ship_cost": 6.0,
+   "category": "beauty",
+   "stage": "test",
+   "reorders": "consumable_reorders_per_customer_12mo",
+   "cash_up_front": 100,
+   "cash_label": "samples + app fee, ASSUMED",
+   "source": "cost ASSUMED from Blanka's $5 lipstick example and Supliful's $15 incl. fulfillment example (blankabrand.com blog; nerdbot.com Aug 2026, ESTIMATED); ship ASSUMED"
+  },
+  {
+   "id": "skin_pl_bundle",
+   "group": "Skincare / repeat products",
+   "name": "Own-brand skincare 3-step set, US maker ships",
+   "brand": "yours (their formula)",
+   "who_ships": "US maker",
+   "price": 69,
+   "unit_cost": 30.0,
+   "ship_cost": 7.0,
+   "category": "beauty",
+   "stage": "test",
+   "reorders": "consumable_reorders_per_customer_12mo",
+   "cash_up_front": 100,
+   "cash_label": "samples + app fee, ASSUMED",
+   "source": "3 items at the ASSUMED $10 each from the single-item row; ship ASSUMED. Bundling to lift the order value, as CLAUDE.md's kit-first rule asks"
+  },
+  {
+   "id": "supp_pl",
+   "group": "Skincare / repeat products",
+   "name": "Own-brand supplement, US maker ships each order",
+   "brand": "yours (their formula)",
+   "who_ships": "US maker",
+   "price": 39,
+   "unit_cost": 15.0,
+   "ship_cost": 6.0,
+   "category": "all",
+   "stage": "test",
+   "reorders": "consumable_reorders_per_customer_12mo",
+   "cash_up_front": 100,
+   "cash_label": "samples + plan fee ($39-49/mo, ESTIMATED)",
+   "out_of_scope": "Supplements are out of scope in CLAUDE.md section 2",
+   "source": "Supliful example $39 retail, $15 product + fulfillment (nerdbot.com Aug 2026, ESTIMATED hypothetical); ship ASSUMED"
+  }
+ ],
+ "affiliate": {
+  "price": 25,
+  "commission_pct": {
+   "value": 0.15,
+   "label": "ASSUMED",
+   "source": "TikTok Shop open-collab beauty commissions commonly 10-20% (ASSUMED midpoint)"
+  }
+ }
+}

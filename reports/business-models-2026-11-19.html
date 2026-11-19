@@ -1,0 +1,187 @@
+<title>Barkfare Business Models</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: two questions frame the page (whose brand, who ships), then one flow diagram per model, then the money, then the honest answers. */
+:root{--bg:#f5f6f3;--card:#fff;--ink:#16191d;--muted:#5a6068;--line:#dde0da;--accent:#2d5f8a;--soft:#e7eef5;
+--you:#dfeafc;--you-ink:#1d4f9a;--them:#f1efe9;--cust:#e2f2ea;--cust-ink:#17663f;
+--s1:#2a78d6;--s2:#eb6834;--good:#008300;--bad:#c62f2e;--warn-soft:#fbefdc;
+--display:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;--body:"Inter",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121417;--card:#1b1e23;--ink:#eceef1;--muted:#a3a9b2;--line:#2c3138;--accent:#7fb0dc;--soft:#1e2a36;
+--you:#1c2c45;--you-ink:#9cc1f5;--them:#26282c;--cust:#163224;--cust-ink:#7dd3a5;--s1:#3987e5;--s2:#d95926;--good:#3fb950;--bad:#f07171;--warn-soft:#3a2a14;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121417;--card:#1b1e23;--ink:#eceef1;--muted:#a3a9b2;--line:#2c3138;--accent:#7fb0dc;--soft:#1e2a36;
+--you:#1c2c45;--you-ink:#9cc1f5;--them:#26282c;--cust:#163224;--cust-ink:#7dd3a5;--s1:#3987e5;--s2:#d95926;--good:#3fb950;--bad:#f07171;--warn-soft:#3a2a14;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:940px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.15;text-wrap:balance} h1{font-size:clamp(1.9rem,5vw,2.6rem)} h2{font-size:1.45rem} h3{font-size:1.05rem}
+p{margin:0;max-width:70ch} section{display:flex;flex-direction:column;gap:14px} .muted{color:var(--muted)} .note{font-size:.82rem;color:var(--muted)}
+.lede{font-size:1.1rem}
+.qs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.q b.big{font-family:var(--display);font-size:1.1rem}
+.opts{display:flex;flex-wrap:wrap;gap:6px} .opts span{font-size:.84rem;background:var(--soft);border-radius:6px;padding:3px 8px}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.84rem;color:var(--muted)} .key span{display:inline-flex;gap:6px;align-items:center} .key i{width:14px;height:14px;border-radius:4px;display:inline-block;border:1px solid var(--line)}
+.archs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.arch{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.arch header{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.tag{font-family:var(--mono);font-size:.72rem;padding:2px 8px;border-radius:99px;background:var(--soft);color:var(--accent);white-space:nowrap}
+.flow{display:flex;flex-direction:column;align-items:stretch;gap:0}
+.node{border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;font-size:.9rem;border:1px solid var(--line)}
+.node span{font-size:.76rem;color:var(--muted)}
+.node.you{background:var(--you);border-color:transparent} .node.you b{color:var(--you-ink)}
+.node.you2,.node.cust{background:var(--cust);border-color:transparent} .node.cust b,.node.you2 b{color:var(--cust-ink)}
+.node.them{background:var(--them)}
+.edge{display:flex;align-items:center;gap:8px;padding:3px 0 3px 14px;font-size:.76rem;color:var(--muted);position:relative}
+.edge::before{content:"";width:2px;height:20px;background:var(--muted);opacity:.5}
+.edge::after{content:"";position:absolute;left:10px;bottom:0;border:5px solid transparent;border-top-color:var(--muted);border-bottom:0;opacity:.7}
+.money{font-size:.86rem;background:var(--soft);border-radius:8px;padding:6px 10px}
+dl{margin:0;display:grid;grid-template-columns:minmax(0,1fr);gap:6px;font-size:.86rem} dl div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px}
+dt{color:var(--muted)} dd{margin:0}
+.verdict{font-size:.88rem;border-top:1px solid var(--line);padding-top:8px}
+.ruff{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:20px;align-items:start}
+.ruff ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:4px;font-size:.92rem}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.85rem;color:var(--muted)} .legend span{display:inline-flex;gap:6px;align-items:center} .legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.crow{display:grid;grid-template-columns:200px minmax(0,1fr) 84px;gap:12px;align-items:center}
+.cl{font-size:.88rem;font-weight:500} .oos{font-style:normal;font-size:.7rem;color:var(--bad);display:block;font-weight:400}
+.ct{position:relative;display:flex;flex-direction:column;gap:2px}
+.lane{position:relative;height:12px}
+.b{position:absolute;top:0;height:100%;border-radius:3px} .b.s1{background:var(--s1)} .b.s2{background:var(--s2)}
+.zero{position:absolute;top:-4px;bottom:-4px;width:1px;background:var(--ink);z-index:1}
+.cv{display:flex;flex-direction:column;text-align:right;font-family:var(--mono);font-size:.78rem;font-variant-numeric:tabular-nums}
+.axis{position:relative;height:16px;margin-left:212px;margin-right:96px;font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.tick{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:.8rem;padding:4px 8px;border-radius:6px;font-family:var(--mono);z-index:20}
+.tbl{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:.84rem;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap} th[scope=row],thead th:first-child{text-align:left}
+thead th{font-size:.72rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em} tr:last-child th,tr:last-child td{border-bottom:0}
+details summary{cursor:pointer;color:var(--accent);font-size:.9rem}
+.qa{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.qa div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;font-size:.92rem}
+.qa b{font-family:var(--display);font-size:1rem}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.pick ol{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:6px}
+.opt{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;font-size:.92rem} .opt b.l{font-family:var(--mono)}
+.rec{background:var(--warn-soft);border-radius:8px;padding:8px 10px}
+footer{font-size:.78rem;color:var(--muted)}
+@media (max-width:760px){.qs,.archs,.qa,.ruff{grid-template-columns:minmax(0,1fr)} .crow{grid-template-columns:minmax(0,1fr) 76px} .crow .ct{grid-column:1/-1;grid-row:2} .axis{margin-left:0;margin-right:0}}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:12px">
+<h1>How the business works</h1>
+<p class="lede">Every e-commerce business answers two questions: <b>whose brand is on the product</b>, and <b>who holds the stock and ships it</b>. Below is each answer drawn out from your side, then the money for each one, run through the repo's scripts.</p>
+</header>
+
+<section><h2>The two questions</h2>
+<div class="qs">
+<div class="q"><b class="big">Whose brand?</b><div class="opts"><span>Theirs: resell or affiliate</span><span>Yours: private label</span></div><p class="muted" style="font-size:.9rem">With your own brand, you set the price and build something you can sell later. With theirs, you're a middleman.</p></div>
+<div class="q"><b class="big">Who holds and ships the stock?</b><div class="opts"><span>Supplier (dropship)</span><span>You (from home)</span><span>A warehouse company (3PL)</span><span>Amazon (FBA)</span></div><p class="muted" style="font-size:.9rem">Farris's "3PL" means third-party logistics: a warehouse you pay to store your stock and ship each order. It's like Amazon FBA, but for orders from your own website.</p></div>
+</div>
+</section>
+
+<section><h2>Who ships: 4 ways, drawn from your end</h2>
+<div class="key"><span><i style="background:var(--you)"></i>You</span><span><i style="background:var(--them)"></i>Someone you pay</span><span><i style="background:var(--cust)"></i>Customer</span></div>
+<div class="archs"><article class="arch"><header><h3>1. Dropshipping</h3><span class="tag">No stock</span></header>
+<div class="flow"><div class="node you2"><b>Customer</b><span>pays you $149</span></div><div class="edge"><span>order + $84</span></div><div class="node you"><b>You</b><span>your Shopify store</span></div><div class="edge"><span>you buy 1</span></div><div class="node them"><b>Supplier with US stock</b><span>AliExpress seller</span></div><div class="edge"><span>ships 4 to 6 days</span></div><div class="node cust"><b>Customer</b></div></div><p class="money"><b>Money:</b> Customer pays you. You pay the supplier per order. You keep the difference.</p>
+<dl><div><dt>Your job</dt><dd>Run ads, copy each order to the supplier, send tracking, answer emails.</dd></div><div><dt>Cash up front</dt><dd>$0</dd></div></dl>
+<p class="verdict">Cheapest way to test if people buy. You can't check quality, and it's not your product.</p></article><article class="arch"><header><h3>2. Ship from home</h3><span class="tag">You hold a few</span></header>
+<div class="flow"><div class="node them"><b>Factory</b><span>China</span></div><div class="edge"><span>express, about 5 days</span></div><div class="node you"><b>Your home</b><span>Florida</span></div><div class="edge"><span>you pack + USPS</span></div><div class="node cust"><b>Customer</b><span>2 to 5 days</span></div></div><p class="money"><b>Money:</b> You pay the factory first (5 kits about $404). Customers pay you later.</p>
+<dl><div><dt>Your job</dt><dd>Store the boxes, print labels, drop parcels at USPS (about 10 minutes an order).</dd></div><div><dt>Cash up front</dt><dd>$403.80 for 5 kits</dd></div></dl>
+<p class="verdict">You see every kit before it ships. Fine for the first 30 to 100 orders, too much work after that.</p></article><article class="arch"><header><h3>3. US warehouse (3PL)</h3><span class="tag">You own stock, they ship</span></header>
+<div class="flow"><div class="node them"><b>Factory</b><span>China</span></div><div class="edge"><span>sea, 5 to 7 weeks</span></div><div class="node them"><b>3PL warehouse</b><span>e.g. in Texas or Florida</span></div><div class="edge"><span>picks, packs, ships</span></div><div class="node cust"><b>Customer</b><span>2 to 5 days</span></div></div><p class="money"><b>Money:</b> You pay for 150 kits up front. Each order, the 3PL charges about $3 to pack plus postage.</p>
+<dl><div><dt>Your job</dt><dd>Ads, customer emails, reorder stock. Orders flow from Shopify to the 3PL automatically.</dd></div><div><dt>Cash up front</dt><dd>$6,976 for 150 kits</dd></div></dl>
+<p class="verdict">This is what Ruff Liners and most real brands do. It's FBA, but for your own website.</p></article><article class="arch"><header><h3>4. Amazon FBA</h3><span class="tag">You own stock, Amazon ships</span></header>
+<div class="flow"><div class="node them"><b>Factory</b><span>China</span></div><div class="edge"><span>sea, 5 to 7 weeks</span></div><div class="node them"><b>Amazon warehouse</b><span>FBA</span></div><div class="edge"><span>Prime, 1 to 2 days</span></div><div class="node cust"><b>Amazon customer</b></div></div><p class="money"><b>Money:</b> Amazon collects the money, keeps about 15% plus a shipping fee, and pays you every 2 weeks.</p>
+<dl><div><dt>Your job</dt><dd>Listing, photos, Amazon ads, send stock in.</dd></div><div><dt>Cash up front</dt><dd>$6,976 (same stock)</dd></div></dl>
+<p class="verdict">Buyers already search there, so ads cost less. Amazon owns the customer, not you.</p></article></div>
+<p class="note">Our plan uses 1 or 2 to test, then 3 and 4 together once 10 customers are happy. Times and costs are estimates until a test order proves them.</p>
+</section>
+
+<section><h2>Whose brand: 3 more ways</h2>
+<div class="archs"><article class="arch"><header><h3>5. Resell a known brand</h3><span class="tag">Their brand</span></header>
+<div class="flow"><div class="node them"><b>Brand or distributor</b><span>e.g. a K-beauty brand</span></div><div class="edge"><span>you buy wholesale</span></div><div class="node you"><b>You</b><span>home or 3PL</span></div><div class="edge"><span>you ship</span></div><div class="node cust"><b>Customer</b></div></div><p class="money"><b>Money:</b> You buy at about half of retail and sell at retail. The brand sets the price.</p>
+<dl><div><dt>Your job</dt><dd>Buy stock, ship, compete with the brand's own site and Amazon on the same item.</dd></div><div><dt>Cash up front</dt><dd>$150.00+</dd></div></dl>
+<p class="verdict">Proven product, no quality worry. Thin margin, and the brand can cut you off.</p></article><article class="arch"><header><h3>6. Affiliate</h3><span class="tag">Their brand, no stock</span></header>
+<div class="flow"><div class="node you"><b>You</b><span>make videos and posts</span></div><div class="edge"><span>link</span></div><div class="node cust"><b>Customer</b></div><div class="edge"><span>buys from</span></div><div class="node them"><b>Brand</b><span>ships it</span></div></div><p class="money"><b>Money:</b> The brand pays you 10 to 20% of each sale you send.</p>
+<dl><div><dt>Your job</dt><dd>Make content every day. No customer service, no stock.</dd></div><div><dt>Cash up front</dt><dd>$0</dd></div></dl>
+<p class="verdict">Works with free content. With paid ads, the commission doesn't cover the ad cost.</p></article><article class="arch"><header><h3>7. Your brand, made on demand in the US</h3><span class="tag">Your label, no stock</span></header>
+<div class="flow"><div class="node you"><b>You</b><span>your Shopify store</span></div><div class="edge"><span>order + about $12</span></div><div class="node them"><b>US maker</b><span>e.g. Blanka, Supliful</span></div><div class="edge"><span>labels + ships</span></div><div class="node cust"><b>Customer</b><span>3 to 7 days</span></div></div><p class="money"><b>Money:</b> Customer pays you. The maker charges you per item, plus shipping.</p>
+<dl><div><dt>Your job</dt><dd>Brand, store, ads, customer emails. The maker handles quality and shipping.</dd></div><div><dt>Cash up front</dt><dd>about $100 (samples)</dd></div></dl>
+<p class="verdict">Like dropshipping, but your name is on it and it ships from the US. Their formulas, so others sell the same thing under other names.</p></article></div>
+</section>
+
+<section><h2>How Ruff Liners does it</h2>
+<div class="ruff"><div><div class="flow"><div class="node you"><b>Their own design</b><span>patented door guards</span></div><div class="edge"><span>made by</span></div><div class="node them"><b>Factory in China</b><span>Zhejiang Treasureland (customs records)</span></div><div class="edge"><span>sea freight</span></div><div class="node them"><b>US warehouse</b></div><div class="edge"><span>ships to</span></div><div class="node cust"><b>Customers</b><span>own site + Amazon</span></div></div></div>
+<ul><li>Own brand, own patented design, made by a Chinese factory (found through US customs records).</li><li>Shipped by sea to a US warehouse: model 3, plus Amazon (model 4).</li><li>Sells at $169.99 and runs about 1,133 active Meta ads (checked Nov 18). That's what selling a one-time product with ads looks like at scale.</li><li>We can't copy their design. We can sell a different design for less, with a fit guarantee.</li></ul></div>
+</section>
+
+<section><h2>The money: first order vs a whole year per customer</h2>
+<p>Every model pays about $39 in ads to win a new customer (the category average). The question is whether the first order covers that, or whether reorders have to.</p>
+<div class="legend"><span><i style="background:var(--s1)"></i>Profit on the first order</span><span><i style="background:var(--s2)"></i>Profit per customer over 12 months (incl. reorders)</span></div>
+<div class="chart"><div class="crow"><div class="cl">Extender: dropship</div>
+<div class="ct" role="img" aria-label="Extender: dropship: first order +$13.24, 12 months +$13.24"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:44.44%;width:14.71%" data-tip="+$13.24"></span></div><div class="lane"><span class="b s2" style="left:44.44%;width:14.71%" data-tip="+$13.24"></span></div></div>
+<div class="cv"><span class="pos">+$13.24</span><span class="pos">+$13.24</span></div></div><div class="crow"><div class="cl">Extender: ship from home</div>
+<div class="ct" role="img" aria-label="Extender: ship from home: first order -$5.64, 12 months -$5.64"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:38.18%;width:6.27%" data-tip="-$5.64"></span></div><div class="lane"><span class="b s2" style="left:38.18%;width:6.27%" data-tip="-$5.64"></span></div></div>
+<div class="cv"><span class="neg">-$5.64</span><span class="neg">-$5.64</span></div></div><div class="crow"><div class="cl">Extender: 3PL</div>
+<div class="ct" role="img" aria-label="Extender: 3PL: first order +$34.25, 12 months +$34.25"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:44.44%;width:38.06%" data-tip="+$34.25"></span></div><div class="lane"><span class="b s2" style="left:44.44%;width:38.06%" data-tip="+$34.25"></span></div></div>
+<div class="cv"><span class="pos">+$34.25</span><span class="pos">+$34.25</span></div></div><div class="crow"><div class="cl">Extender: Amazon FBA</div>
+<div class="ct" role="img" aria-label="Extender: Amazon FBA: first order +$43.21, 12 months +$43.21"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:44.44%;width:48.01%" data-tip="+$43.21"></span></div><div class="lane"><span class="b s2" style="left:44.44%;width:48.01%" data-tip="+$43.21"></span></div></div>
+<div class="cv"><span class="pos">+$43.21</span><span class="pos">+$43.21</span></div></div><div class="crow"><div class="cl">Resell K-beauty ($25)</div>
+<div class="ct" role="img" aria-label="Resell K-beauty ($25): first order -$34.84, 12 months -$32.61"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:5.73%;width:38.71%" data-tip="-$34.84"></span></div><div class="lane"><span class="b s2" style="left:8.21%;width:36.23%" data-tip="-$32.61"></span></div></div>
+<div class="cv"><span class="neg">-$34.84</span><span class="neg">-$32.61</span></div></div><div class="crow"><div class="cl">Affiliate ($25 item)</div>
+<div class="ct" role="img" aria-label="Affiliate ($25 item): first order -$35.56, 12 months -$35.56"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:4.93%;width:39.51%" data-tip="-$35.56"></span></div><div class="lane"><span class="b s2" style="left:4.93%;width:39.51%" data-tip="-$35.56"></span></div></div>
+<div class="cv"><span class="neg">-$35.56</span><span class="neg">-$35.56</span></div></div><div class="crow"><div class="cl">Own skincare ($35)</div>
+<div class="ct" role="img" aria-label="Own skincare ($35): first order -$25.73, 12 months -$18.94"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:15.86%;width:28.59%" data-tip="-$25.73"></span></div><div class="lane"><span class="b s2" style="left:23.40%;width:21.04%" data-tip="-$18.94"></span></div></div>
+<div class="cv"><span class="neg">-$25.73</span><span class="neg">-$18.94</span></div></div><div class="crow"><div class="cl">Own skincare set ($69)</div>
+<div class="ct" role="img" aria-label="Own skincare set ($69): first order -$13.75, 12 months -$0.97"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:29.17%;width:15.28%" data-tip="-$13.75"></span></div><div class="lane"><span class="b s2" style="left:43.37%;width:1.08%" data-tip="-$0.97"></span></div></div>
+<div class="cv"><span class="neg">-$13.75</span><span class="neg">-$0.97</span></div></div><div class="crow"><div class="cl">Own supplement ($39) <em class="oos">out of scope</em></div>
+<div class="ct" role="img" aria-label="Own supplement ($39): first order -$24.76, 12 months -$17.65"><span class="zero" style="left:44.44%"></span>
+<div class="lane"><span class="b s1" style="left:16.93%;width:27.51%" data-tip="-$24.76"></span></div><div class="lane"><span class="b s2" style="left:24.83%;width:19.61%" data-tip="-$17.65"></span></div></div>
+<div class="cv"><span class="neg">-$24.76</span><span class="neg">-$17.65</span></div></div><div class="axis"><span class="tick" style="left:22.22%">-$20</span><span class="tick" style="left:44.44%">$0</span><span class="tick" style="left:66.67%">+$20</span><span class="tick" style="left:88.89%">+$40</span></div></div>
+<p class="note">Reorders assumed: 0.5 per customer in year one for skincare and supplements (about 25% of buyers come back, about twice each). A strong subscription brand gets more: see the table. Left of the black line means a loss.</p>
+<details><summary>Show as a table</summary><div class="tbl" style="margin-top:8px"><table><thead><tr><th>Model</th><th>Price</th><th>Left before ads</th><th>Ads per customer</th><th>First order</th><th>Reorders / yr</th><th>12 months</th><th>12 mo, strong brand</th><th>Cash up front</th></tr></thead><tbody><tr><th scope="row">Extender: dropship</th><td>$149.00</td><td>$51.75</td><td>$38.51</td><td class="pos">+$13.24</td><td>0.0</td><td class="pos">+$13.24</td><td>+$13.24</td><td>$0.00</td></tr><tr><th scope="row">Extender: ship from home</th><td>$149.00</td><td>$32.87</td><td>$38.51</td><td class="neg">-$5.64</td><td>0.0</td><td class="neg">-$5.64</td><td>-$5.64</td><td>$403.80</td></tr><tr><th scope="row">Extender: 3PL</th><td>$149.00</td><td>$72.76</td><td>$38.51</td><td class="pos">+$34.25</td><td>0.0</td><td class="pos">+$34.25</td><td>+$34.25</td><td>$6,976</td></tr><tr><th scope="row">Extender: Amazon FBA</th><td>$149.00</td><td>$56.31</td><td>$13.10</td><td class="pos">+$43.21</td><td>0.0</td><td class="pos">+$43.21</td><td>+$43.21</td><td>$6,976</td></tr><tr><th scope="row">Resell K-beauty ($25)</th><td>$25.00</td><td>$4.47</td><td>$39.31</td><td class="neg">-$34.84</td><td>0.5</td><td class="neg">-$32.61</td><td>-$29.48</td><td>$150.00</td></tr><tr><th scope="row">Affiliate ($25 item)</th><td>$25.00</td><td>$3.75</td><td>$39.31</td><td class="neg">-$35.56</td><td>0</td><td class="neg">-$35.56</td><td>-$35.56</td><td>$0.00</td></tr><tr><th scope="row">Own skincare ($35)</th><td>$35.00</td><td>$13.59</td><td>$39.31</td><td class="neg">-$25.73</td><td>0.5</td><td class="neg">-$18.94</td><td>-$9.42</td><td>$100.00</td></tr><tr><th scope="row">Own skincare set ($69)</th><td>$69.00</td><td>$25.56</td><td>$39.31</td><td class="neg">-$13.75</td><td>0.5</td><td class="neg">-$0.97</td><td>+$16.92</td><td>$100.00</td></tr><tr><th scope="row">Own supplement ($39)</th><td>$39.00</td><td>$14.23</td><td>$38.99</td><td class="neg">-$24.76</td><td>0.5</td><td class="neg">-$17.65</td><td>-$7.68</td><td>$100.00</td></tr></tbody></table></div></details>
+<p><b>What this shows:</b> a cheap repeat product loses money on the first order when you buy customers with ads, and only earns it back months later if they reorder. That works for brands with cash to wait. With $1,800, a $149 product that pays for itself on order 1 is safer.</p>
+</section>
+
+<section><h2>Your questions, answered straight</h2>
+<div class="qa">
+<div><b>Am I storing and shipping it myself?</b><p>Only for the first 5 kits, so you can check quality. After 10 happy customers, a 3PL warehouse ships for you and Amazon ships Amazon orders. You never pack thousands of boxes.</p></div>
+<div><b>Wouldn't repeat products be better?</b><p>Yes, eventually, which is why the plan adds door guards and paw wipes for the same customer. But the chart shows cheap repeat items lose money at first. The math only works with a bundle ($69 skincare set: roughly break-even over a year) and strong retention.</p></div>
+<div><b>Partner with a brand, or my own brand?</b><p>Your own brand. Reselling someone else's product leaves about $4 per $25 sale before ads, the brand sets your price, and you compete with their own store and Amazon. Affiliate works only with free content.</p></div>
+<div><b>Supplements and K-beauty from US suppliers?</b><p>US on-demand makers (Blanka, Supliful) do ship direct with no stock, and quality is easier. But supplements are out of scope in our rules (FDA and FTC claim risk). Skincare is allowed but crowded, and it's a different customer, so it would be a separate brand.</p></div>
+<div><b>Quality on a big, heavy product?</b><p>A real risk. That's why the first order is only 5 kits, paid through escrow, and you test kit 1 before anyone buys. Nothing goes live until it passes.</p></div>
+<div><b>No repeat buys, so it's all ads. Is that OK?</b><p>It's the trade-off. A $149 price leaves room to pay for ads and still profit on order 1 at bulk costs. Add-ons, the two-car pack and Amazon (where ads cost less) raise what each customer is worth.</p></div>
+<div><b>People don't think to buy it.</b><p>True, so it sells through video that shows the problem (dog sliding into the footwell) and the fix. Our earlier research found about 5,500 sold per month on Amazon at $130+, so the demand exists.</p></div>
+<div><b>Ruff Liners is strong.</b><p>They prove the market. We compete on price ($149 vs $169.99), a design without window inserts, and a fit guarantee. If the 5-kit test shows nobody buys from us, we stop at a small loss.</p></div>
+</div>
+</section>
+
+<section><h2>My pick</h2>
+<div class="pick">
+<p>Own brand, tested small, then a 3PL and Amazon. For this budget, a high-price product that profits on the first order is the safest path.</p>
+<div class="opt"><b class="l">A</b><span class="rec"><b>Recommended.</b> Keep the extender as test 1: 5-kit trial (plus the optional dropship fast lane), then 3PL and Amazon after 10 happy customers. Add door guards and paw wipes as repeat add-ons.</span></div>
+<div class="opt"><b class="l">B</b><span>Switch to an own-brand skincare set made on demand by a US maker. No stock, US shipping, repeat buyers, but loses money on the first order and needs strong retention.</span></div>
+<div class="opt"><b class="l">C</b><span>Run both, splitting the $1,800. Two half-funded tests.</span></div>
+<div class="opt"><b class="l">D</b><span>Resell or promote an existing brand. Lowest risk, lowest upside.</span></div>
+</div>
+</section>
+<footer>Math: scripts/model_compare.py and scripts/money_math.py, inputs in research/models-2026-11-19/inputs.json (every number labeled). Skincare and supplement costs are illustrations from published examples (Blanka blog; Nerdbot on Supliful, Aug 2026) and our assumptions, not quotes. Repeat rates: finsi.ai and eightx.co 2026 benchmarks (vendor blogs). Ad costs: Triple Whale category medians. Checked 2026-11-19.</footer>
+</div>
+<div id="tip" hidden></div>
+<script>
+(function(){var tip=document.getElementById('tip');
+document.querySelectorAll('.b').forEach(function(s){
+ s.addEventListener('mousemove',function(e){tip.textContent=s.dataset.tip;tip.hidden=false;tip.style.left=Math.min(e.clientX+12,window.innerWidth-120)+'px';tip.style.top=(e.clientY+14)+'px';});
+ s.addEventListener('mouseleave',function(){tip.hidden=true;});});})();
+</script>

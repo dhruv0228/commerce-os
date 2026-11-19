@@ -1,0 +1,433 @@
+[
+ {
+  "id": "ext_dropship",
+  "group": "Barkfare extender",
+  "name": "Dropship (fast lane)",
+  "brand": "theirs (generic)",
+  "who_ships": "AliExpress US seller",
+  "price": 149,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 83.69
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 0.0
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.0
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 4.62
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 8.94
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 38.51
+   }
+  ],
+  "pre_ad": 51.75,
+  "ad_cost": 38.51,
+  "first_order_profit": 13.24,
+  "first_order_profit_tough": 1.69,
+  "cash_up_front": 0,
+  "cash_label": "pay per order",
+  "source": "research/money-math-2026-11-19/inputs.json fast_lane",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": 13.24,
+  "reorders_12mo": 0.0,
+  "profit_per_customer_12mo_strong": 13.24,
+  "reorders_12mo_strong": 0.0,
+  "reorders_to_cover_ads": 0
+ },
+ {
+  "id": "ext_home",
+  "group": "Barkfare extender",
+  "name": "Own brand, ship from home (5-kit trial)",
+  "brand": "yours",
+  "who_ships": "you, by USPS",
+  "price": 149,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 80.76
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 20.55
+   },
+   {
+    "item": "Packaging",
+    "usd": 1.25
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 4.62
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 8.94
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 38.51
+   }
+  ],
+  "pre_ad": 32.87,
+  "ad_cost": 38.51,
+  "first_order_profit": -5.64,
+  "first_order_profit_tough": -17.19,
+  "cash_up_front": 403.8,
+  "cash_label": "5 kits (money_math.py)",
+  "source": "research/money-math-2026-11-19/inputs.json trial_express",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": -5.64,
+  "reorders_12mo": 0.0,
+  "profit_per_customer_12mo_strong": -5.64,
+  "reorders_12mo_strong": 0.0,
+  "reorders_to_cover_ads": 0.17
+ },
+ {
+  "id": "ext_3pl",
+  "group": "Barkfare extender",
+  "name": "Own brand, US warehouse (3PL)",
+  "brand": "yours",
+  "who_ships": "3PL warehouse",
+  "price": 149,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 46.51
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 15.42
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.75
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 4.62
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 8.94
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 38.51
+   }
+  ],
+  "pre_ad": 72.76,
+  "ad_cost": 38.51,
+  "first_order_profit": 34.25,
+  "first_order_profit_tough": 22.7,
+  "cash_up_front": 6976,
+  "cash_label": "150 kits (money_math.py)",
+  "source": "research/money-math-2026-11-19/inputs.json bulk_sea",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": 34.25,
+  "reorders_12mo": 0.0,
+  "profit_per_customer_12mo_strong": 34.25,
+  "reorders_12mo_strong": 0.0,
+  "reorders_to_cover_ads": 0
+ },
+ {
+  "id": "ext_fba",
+  "group": "Barkfare extender",
+  "name": "Own brand, Amazon FBA",
+  "brand": "yours",
+  "who_ships": "Amazon",
+  "price": 149,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 46.51
+   },
+   {
+    "item": "Amazon referral fee 15%",
+    "usd": 22.35
+   },
+   {
+    "item": "FBA pick, pack and ship fee",
+    "usd": 13.22
+   },
+   {
+    "item": "Freight to Amazon warehouse",
+    "usd": 1.0
+   },
+   {
+    "item": "Storage",
+    "usd": 0.3
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.38
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 8.94
+   },
+   {
+    "item": "Amazon PPC per sale (category median)",
+    "usd": 13.1
+   }
+  ],
+  "pre_ad": 56.31,
+  "ad_cost": 13.1,
+  "first_order_profit": 43.21,
+  "first_order_profit_tough": 36.66,
+  "cash_up_front": 6976,
+  "cash_label": "150 kits, same as 3PL",
+  "source": "channels.py amazon_fba with the bulk landed cost",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": 43.21,
+  "reorders_12mo": 0.0,
+  "profit_per_customer_12mo_strong": 43.21,
+  "reorders_12mo_strong": 0.0,
+  "reorders_to_cover_ads": 0
+ },
+ {
+  "id": "skin_resell",
+  "group": "Skincare / repeat products",
+  "name": "Resell a known K-beauty brand (wholesale), ship from home",
+  "brand": "theirs",
+  "who_ships": "you",
+  "price": 25,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 12.5
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 5.5
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.0
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 1.03
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 1.5
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 39.31
+   }
+  ],
+  "pre_ad": 4.47,
+  "ad_cost": 39.31,
+  "first_order_profit": -34.84,
+  "first_order_profit_tough": -46.63,
+  "cash_up_front": 150,
+  "cash_label": "first wholesale order (Faire minimums $100-200, ESTIMATED)",
+  "source": "price: COSRX-type item MSRP about $25 (faire.com listing, ESTIMATED); cost: 50% of MSRP ASSUMED (Closo guide: resellers keep 35-55%, ESTIMATED); ship $5.50 ASSUMED",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": -32.61,
+  "reorders_12mo": 0.5,
+  "profit_per_customer_12mo_strong": -29.48,
+  "reorders_12mo_strong": 1.2,
+  "reorders_to_cover_ads": 7.79
+ },
+ {
+  "id": "skin_pl",
+  "group": "Skincare / repeat products",
+  "name": "Own-brand skincare, US maker ships each order (print-on-demand style)",
+  "brand": "yours (their formula)",
+  "who_ships": "US maker",
+  "price": 35,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 12.0
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 6.0
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.0
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 1.32
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 2.1
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 39.31
+   }
+  ],
+  "pre_ad": 13.59,
+  "ad_cost": 39.31,
+  "first_order_profit": -25.73,
+  "first_order_profit_tough": -37.52,
+  "cash_up_front": 100,
+  "cash_label": "samples + app fee, ASSUMED",
+  "source": "cost ASSUMED from Blanka's $5 lipstick example and Supliful's $15 incl. fulfillment example (blankabrand.com blog; nerdbot.com Aug 2026, ESTIMATED); ship ASSUMED",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": -18.94,
+  "reorders_12mo": 0.5,
+  "profit_per_customer_12mo_strong": -9.42,
+  "reorders_12mo_strong": 1.2,
+  "reorders_to_cover_ads": 1.89
+ },
+ {
+  "id": "skin_pl_bundle",
+  "group": "Skincare / repeat products",
+  "name": "Own-brand skincare 3-step set, US maker ships",
+  "brand": "yours (their formula)",
+  "who_ships": "US maker",
+  "price": 69,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 30.0
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 7.0
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.0
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 2.3
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 4.14
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 39.31
+   }
+  ],
+  "pre_ad": 25.56,
+  "ad_cost": 39.31,
+  "first_order_profit": -13.75,
+  "first_order_profit_tough": -25.54,
+  "cash_up_front": 100,
+  "cash_label": "samples + app fee, ASSUMED",
+  "source": "3 items at the ASSUMED $10 each from the single-item row; ship ASSUMED. Bundling to lift the order value, as CLAUDE.md's kit-first rule asks",
+  "out_of_scope": null,
+  "profit_per_customer_12mo": -0.97,
+  "reorders_12mo": 0.5,
+  "profit_per_customer_12mo_strong": 16.92,
+  "reorders_12mo_strong": 1.2,
+  "reorders_to_cover_ads": 0.54
+ },
+ {
+  "id": "supp_pl",
+  "group": "Skincare / repeat products",
+  "name": "Own-brand supplement, US maker ships each order",
+  "brand": "yours (their formula)",
+  "who_ships": "US maker",
+  "price": 39,
+  "lines": [
+   {
+    "item": "Product (landed)",
+    "usd": 15.0
+   },
+   {
+    "item": "Shipping to customer",
+    "usd": 6.0
+   },
+   {
+    "item": "Packaging",
+    "usd": 0.0
+   },
+   {
+    "item": "Card processing 2.9% + $0.30",
+    "usd": 1.43
+   },
+   {
+    "item": "Platform fee (0% on Shopify Payments)",
+    "usd": 0.0
+   },
+   {
+    "item": "Refund allowance 6%",
+    "usd": 2.34
+   },
+   {
+    "item": "Meta ads per purchase (category median)",
+    "usd": 38.99
+   }
+  ],
+  "pre_ad": 14.23,
+  "ad_cost": 38.99,
+  "first_order_profit": -24.76,
+  "first_order_profit_tough": -36.46,
+  "cash_up_front": 100,
+  "cash_label": "samples + plan fee ($39-49/mo, ESTIMATED)",
+  "source": "Supliful example $39 retail, $15 product + fulfillment (nerdbot.com Aug 2026, ESTIMATED hypothetical); ship ASSUMED",
+  "out_of_scope": "Supplements are out of scope in CLAUDE.md section 2",
+  "profit_per_customer_12mo": -17.65,
+  "reorders_12mo": 0.5,
+  "profit_per_customer_12mo_strong": -7.68,
+  "reorders_12mo_strong": 1.2,
+  "reorders_to_cover_ads": 1.74
+ },
+ {
+  "id": "affiliate",
+  "group": "Skincare / repeat products",
+  "name": "Affiliate: promote another brand for a commission",
+  "brand": "theirs",
+  "who_ships": "the brand",
+  "price": 25,
+  "pre_ad": 3.75,
+  "ad_cost": 39.31,
+  "first_order_profit": -35.56,
+  "first_order_profit_tough": -47.35,
+  "profit_per_customer_12mo": -35.56,
+  "profit_per_customer_12mo_strong": -35.56,
+  "reorders_12mo": 0,
+  "cash_up_front": 0,
+  "cash_label": "none",
+  "note": "Reorders usually go to the brand, not to you. Affiliates live on free content, not paid ads.",
+  "source": "TikTok Shop open-collab beauty commissions commonly 10-20% (ASSUMED midpoint)"
+ }
+]
