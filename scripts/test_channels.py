@@ -15,7 +15,7 @@ def test_ship_tiers():
 def test_dtc_math_by_hand():
     r = c.channel_economics(P, 100, 20, 0.5, [8, 6, 2], "pets")["dtc_meta"]
     ship = c.ship_from_home(P, 0.5, [8, 6, 2])
-    expected_pre = 100 - 20 - ship - c.HOUSE["packaging"] - (100 * 0.039 + 0.30) - 100 * c.HOUSE["refund_pct_dtc"]
+    expected_pre = 100 - 20 - ship - c.HOUSE["packaging"] - (100 * 0.029 + 0.30) - 100 * c.HOUSE["refund_pct_dtc"]
     assert abs(r["pre_acq"] - expected_pre) < 1e-9
     assert abs(r["profit"] - (expected_pre - 38.51)) < 1e-9
 

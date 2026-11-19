@@ -1,32 +1,32 @@
 {
- "checked": "2026-11-14",
+ "checked": "2026-11-19",
  "note": "Channel fee and cost parameters. Each value carries a label and source. Used by scripts/channels.py and scripts/opportunity.py.",
  "params": {
   "dtc_meta": {
    "payment_pct": {
     "value": 0.029,
     "label": "ESTIMATED",
-    "source": "Stripe standard US card rate 2.9% + $0.30; Amboras checkout runs through Stripe per https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+    "source": "Shopify Basic with Shopify Payments, US online cards 2.9% + $0.30, no extra platform fee when using Shopify Payments (per CLAUDE.md section 0, Nov 18 2026; verify at signup)"
    },
    "payment_fixed_usd": {
     "value": 0.3,
     "label": "ESTIMATED",
-    "source": "Stripe standard US card rate; https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+    "source": "Shopify Basic with Shopify Payments, US online cards 2.9% + $0.30, no extra platform fee when using Shopify Payments (per CLAUDE.md section 0, Nov 18 2026; verify at signup)"
    },
    "platform_fee_pct": {
-    "value": 0.01,
+    "value": 0.0,
     "label": "ESTIMATED",
-    "source": "third-party review cited in /home/user/commerce-os/CLAUDE.md section 0 (Amboras ~1% platform fee per a third-party review, Nov 13 2026); NOT shown on amboras.com/pricing, confirm with Amboras"
+    "source": "Shopify charges no extra transaction fee when Shopify Payments is used (switched from Amboras 1% on 2026-11-18; verify at signup)"
    },
    "payment_pct_combined_for_economics_py": {
-    "value": 0.039,
+    "value": 0.029,
     "label": "ESTIMATED",
-    "source": "2.9% card + 1% Amboras, house rule in CLAUDE.md section 4"
+    "source": "2.9% card, no platform fee on Shopify Payments; CLAUDE.md section 4"
    },
    "platform_monthly_usd": {
-    "value": 49,
+    "value": 39,
     "label": "ESTIMATED",
-    "source": "Amboras Basic $49/mo ($39/mo billed yearly); https://www.amboras.com/pricing (fetched 2026-11-14; shows plan prices, no transaction-fee %)"
+    "source": "Shopify Basic about $39/month, $1/month for the first 3 months (CLAUDE.md section 0; verify at signup)"
    },
    "meta_cpa_all_industry_median_usd": {
     "value": 38.99,

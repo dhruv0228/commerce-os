@@ -1,0 +1,26 @@
+{
+ "note": "Inputs for scripts/money_math.py. Every number carries a label and source (CLAUDE.md section 5). Nothing here is a supplier quote yet.",
+ "price": {"value": 149, "label": "ASSUMED", "source": "Offer B kit price, reports/offer-plan-2026-11-18.html"},
+ "box": {"weight_lb": 9, "dims_in": [20, 14, 5.5], "label": "ASSUMED", "source": "brand/product-bible.md target carton"},
+ "scenarios": [
+  {"id": "fast_lane", "name": "Fast lane: AliExpress US-stock unit, seller ships to the customer (dropship)", "stage": "test",
+   "unit_cost": 83.69, "ship_cost": 0.0, "price": 149,
+   "label": "card price $76.99 with free US shipping VERIFIED on the listing card 2026-11-17; +$6.70 add-ons ASSUMED", "source": "data/supplier_rank_inputs.csv ali-us-76"},
+  {"id": "trial_express", "name": "5-kit trial: factory to Florida by express, Dhruv ships each order by USPS", "stage": "test",
+   "unit_cost": 80.76, "ship_cost": null, "price": 149,
+   "label": "ESTIMATED base for a 20-kit express batch at 27% duty; a 5-kit batch costs more per kit (UNKNOWN until quotes)", "source": "research/sourcing-2026-11-15/plan.json cost_per_kit_landed_estimates.express.base"},
+  {"id": "trial_express_high_duty", "name": "Same 5-kit trial if customs classes it as a car accessory (52.5% duty)", "stage": "test",
+   "unit_cost": 88.67, "ship_cost": null, "price": 149,
+   "label": "ESTIMATED risk case", "source": "research/sourcing-2026-11-15/plan.json express.base_if_classed_8708_52.5pct; reports/How sellers contact suppliers.md"},
+  {"id": "bulk_sea", "name": "Bulk: 150 kits by sea to a US warehouse (3PL) that ships each order", "stage": "scale",
+   "unit_cost": 46.51, "ship_cost": null, "price": 149,
+   "label": "ESTIMATED: sea LCL 150 kits $43.51 + $3 3PL pick and pack", "source": "research/offers-2026-11-18/offer_inputs.json components.kit.landed_scale"},
+  {"id": "bulk_sea_bundle", "name": "Bulk, kit + bed topper bundle at $189", "stage": "scale",
+   "unit_cost": 63.51, "ship_cost": null, "price": 189, "weight_lb": 11, "dims_in": [20, 14, 8],
+   "label": "ESTIMATED kit + ASSUMED topper $17", "source": "research/offers-2026-11-18/offer_inputs.json"}
+ ],
+ "trial": {"kits_bought": 5, "kits_kept_as_sample": 1, "ad_budget_usd": 400,
+   "label": "5 kits APPROVED plan (CLAUDE.md section 0); $400 ad line from the CLAUDE.md budget table", "source": "CLAUDE.md section 0"},
+ "goal": {"monthly_profit_usd": 10000, "fixed_monthly_usd": 100,
+   "label": "goal from CLAUDE.md section 0; fixed costs ASSUMED = the $100 store and software line (Shopify about $39 plus apps)", "source": "CLAUDE.md section 0"}
+}

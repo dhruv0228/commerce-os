@@ -1,0 +1,260 @@
+{
+ "scenarios": [
+  {
+   "id": "fast_lane",
+   "name": "Fast lane: AliExpress US-stock unit, seller ships to the customer (dropship)",
+   "price": 149,
+   "stage": "test",
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 83.69
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 0.0
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.0
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Platform fee (0% on Shopify Payments)",
+     "usd": 0.0
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "pre_ad": 51.75,
+   "break_even_cac": 51.75,
+   "target_cac": 38.81,
+   "break_even_roas": 2.88,
+   "meta_cpa_benchmark": 38.51,
+   "profit_after_ads": 13.24,
+   "profit_after_ads_tough": 1.69,
+   "passes_cushion": true,
+   "label": "card price $76.99 with free US shipping VERIFIED on the listing card 2026-11-17; +$6.70 add-ons ASSUMED",
+   "source": "data/supplier_rank_inputs.csv ali-us-76"
+  },
+  {
+   "id": "trial_express",
+   "name": "5-kit trial: factory to Florida by express, Dhruv ships each order by USPS",
+   "price": 149,
+   "stage": "test",
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 80.76
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 20.55
+    },
+    {
+     "item": "Packaging",
+     "usd": 1.25
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Platform fee (0% on Shopify Payments)",
+     "usd": 0.0
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "pre_ad": 32.87,
+   "break_even_cac": 32.87,
+   "target_cac": 24.65,
+   "break_even_roas": 4.53,
+   "meta_cpa_benchmark": 38.51,
+   "profit_after_ads": -5.64,
+   "profit_after_ads_tough": -17.19,
+   "passes_cushion": false,
+   "label": "ESTIMATED base for a 20-kit express batch at 27% duty; a 5-kit batch costs more per kit (UNKNOWN until quotes)",
+   "source": "research/sourcing-2026-11-15/plan.json cost_per_kit_landed_estimates.express.base"
+  },
+  {
+   "id": "trial_express_high_duty",
+   "name": "Same 5-kit trial if customs classes it as a car accessory (52.5% duty)",
+   "price": 149,
+   "stage": "test",
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 88.67
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 20.55
+    },
+    {
+     "item": "Packaging",
+     "usd": 1.25
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Platform fee (0% on Shopify Payments)",
+     "usd": 0.0
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "pre_ad": 24.96,
+   "break_even_cac": 24.96,
+   "target_cac": 18.72,
+   "break_even_roas": 5.97,
+   "meta_cpa_benchmark": 38.51,
+   "profit_after_ads": -13.55,
+   "profit_after_ads_tough": -25.1,
+   "passes_cushion": false,
+   "label": "ESTIMATED risk case",
+   "source": "research/sourcing-2026-11-15/plan.json express.base_if_classed_8708_52.5pct; reports/How sellers contact suppliers.md"
+  },
+  {
+   "id": "bulk_sea",
+   "name": "Bulk: 150 kits by sea to a US warehouse (3PL) that ships each order",
+   "price": 149,
+   "stage": "scale",
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 46.51
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 15.42
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.75
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 4.62
+    },
+    {
+     "item": "Platform fee (0% on Shopify Payments)",
+     "usd": 0.0
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 8.94
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "pre_ad": 72.76,
+   "break_even_cac": 72.76,
+   "target_cac": 54.57,
+   "break_even_roas": 2.05,
+   "meta_cpa_benchmark": 38.51,
+   "profit_after_ads": 34.25,
+   "profit_after_ads_tough": 22.7,
+   "passes_cushion": true,
+   "label": "ESTIMATED: sea LCL 150 kits $43.51 + $3 3PL pick and pack",
+   "source": "research/offers-2026-11-18/offer_inputs.json components.kit.landed_scale"
+  },
+  {
+   "id": "bulk_sea_bundle",
+   "name": "Bulk, kit + bed topper bundle at $189",
+   "price": 189,
+   "stage": "scale",
+   "lines": [
+    {
+     "item": "Product (landed)",
+     "usd": 63.51
+    },
+    {
+     "item": "Shipping to customer",
+     "usd": 21.74
+    },
+    {
+     "item": "Packaging",
+     "usd": 0.75
+    },
+    {
+     "item": "Card processing 2.9% + $0.30",
+     "usd": 5.78
+    },
+    {
+     "item": "Platform fee (0% on Shopify Payments)",
+     "usd": 0.0
+    },
+    {
+     "item": "Refund allowance 6%",
+     "usd": 11.34
+    },
+    {
+     "item": "Meta ads per purchase (category median)",
+     "usd": 38.51
+    }
+   ],
+   "pre_ad": 85.88,
+   "break_even_cac": 85.88,
+   "target_cac": 64.41,
+   "break_even_roas": 2.2,
+   "meta_cpa_benchmark": 38.51,
+   "profit_after_ads": 47.37,
+   "profit_after_ads_tough": 35.81,
+   "passes_cushion": true,
+   "label": "ESTIMATED kit + ASSUMED topper $17",
+   "source": "research/offers-2026-11-18/offer_inputs.json"
+  }
+ ],
+ "inputs": "research/money-math-2026-11-19/inputs.json",
+ "trial": {
+  "kits_bought": 5,
+  "kits_sold": 4,
+  "cash_for_kits": 403.8,
+  "revenue_if_all_sold": 596,
+  "pre_ad_contribution_if_all_sold": 131.48,
+  "ad_budget": 400,
+  "sample_kit_cost": 80.76,
+  "ads_to_sell_them_at_benchmark": 154.04,
+  "net_at_benchmark_ads": -103.32,
+  "net_at_tough_ads": -149.53,
+  "ad_spend_per_sale_to_break_even": 32.87,
+  "note": "Each sale's pre-ad contribution is after its own kit cost; the sample kit is an extra cost. Ads stop once the kits are sold."
+ },
+ "goal": {
+  "monthly_profit_target": 10000,
+  "profit_per_order_at_scale": 34.25,
+  "orders_per_month": 295,
+  "orders_per_day": 9.8,
+  "revenue_per_month": 43939,
+  "ad_spend_per_month": 11356,
+  "inventory_cash_for_one_month": 13715,
+  "cash_for_first_bulk_order_150": 6976,
+  "orders_per_month_tough": 445
+ }
+}

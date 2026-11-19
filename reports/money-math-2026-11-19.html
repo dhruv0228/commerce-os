@@ -1,0 +1,140 @@
+<title>Barkfare Money Math</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single ledger column. The business model first, then one $149 order split into where the money goes, then the trial and the goal. */
+:root{--bg:#f5f6f3;--card:#fff;--ink:#16191d;--muted:#5a6068;--line:#dde0da;--accent:#2d5f8a;--soft:#e7eef5;
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--good:#008300;--bad:#c62f2e;--good-soft:#e3f2e3;--bad-soft:#fbe6e6;
+--display:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;--body:"Inter",ui-sans-serif,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121417;--card:#1b1e23;--ink:#eceef1;--muted:#a3a9b2;--line:#2c3138;--accent:#7fb0dc;--soft:#1e2a36;
+--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--good:#3fb950;--bad:#f07171;--good-soft:#16301b;--bad-soft:#3a1c1c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121417;--card:#1b1e23;--ink:#eceef1;--muted:#a3a9b2;--line:#2c3138;--accent:#7fb0dc;--soft:#1e2a36;
+--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--good:#3fb950;--bad:#f07171;--good-soft:#16301b;--bad-soft:#3a1c1c;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:900px;margin:0 auto;padding-block:36px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.15;text-wrap:balance} h1{font-size:clamp(1.9rem,5vw,2.6rem)} h2{font-size:1.4rem} h3{font-size:1.02rem}
+p{margin:0;max-width:68ch} .muted{color:var(--muted)} section{display:flex;flex-direction:column;gap:14px}
+.lede{font-size:1.1rem}
+.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.step .when{font-family:var(--mono);font-size:.74rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+.chain{display:flex;flex-direction:column;gap:4px;font-size:.88rem}
+.chain span{background:var(--soft);border-radius:6px;padding:4px 8px}
+.chain i{font-style:normal;color:var(--muted);font-size:.78rem;padding-left:8px}
+.step .verdict{font-size:.86rem;color:var(--muted)}
+.tag{align-self:flex-start;font-family:var(--mono);font-size:.72rem;padding:2px 8px;border-radius:99px;background:var(--soft);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.85rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px} .legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:16px;position:relative}
+.row{display:grid;grid-template-columns:190px minmax(0,1fr) 92px;gap:12px;align-items:center}
+.rl{display:flex;flex-direction:column;min-width:0} .rl b{font-size:.95rem} .rl span{font-size:.78rem;color:var(--muted)}
+.track{position:relative;display:flex;gap:2px;height:30px}
+.seg{height:100%;cursor:default} .seg:first-child{border-radius:4px 0 0 4px} .seg:last-of-type{border-radius:0 4px 4px 0}
+.prod{background:var(--s1)} .ship{background:var(--s2)} .fees{background:var(--s3)} .ads{background:var(--s4)}
+.profit{background:repeating-linear-gradient(135deg,var(--good) 0 3px,var(--good-soft) 3px 6px)}
+.price{position:absolute;top:-5px;bottom:-5px;width:2px;background:var(--ink)}
+.rv{text-align:right;display:flex;flex-direction:column;font-variant-numeric:tabular-nums} .rv b{font-family:var(--mono);font-size:1rem} .rv span{font-size:.72rem;color:var(--muted)}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+.note{font-size:.82rem;color:var(--muted)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:.8rem;padding:4px 8px;border-radius:6px;font-family:var(--mono);z-index:20}
+.tbl{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap} th[scope=row],thead th:first-child{text-align:left}
+thead th{font-size:.74rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+tr:last-child th,tr:last-child td{border-bottom:0}
+.pill{font-size:.74rem;font-weight:600;padding:2px 8px;border-radius:99px} .pill.ok{background:var(--good-soft);color:var(--good)} .pill.bad{background:var(--bad-soft);color:var(--bad)}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.tile b{font-family:var(--mono);font-size:1.25rem;font-variant-numeric:tabular-nums} .tile span{font-size:.8rem;color:var(--muted)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+details summary{cursor:pointer;color:var(--accent);font-size:.9rem}
+footer{font-size:.78rem;color:var(--muted)}
+@media (max-width:700px){.flow,.tiles{grid-template-columns:minmax(0,1fr) minmax(0,1fr)} .flow{grid-template-columns:minmax(0,1fr)} .row{grid-template-columns:minmax(0,1fr) 84px} .row .track{grid-column:1/-1;grid-row:2}}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:12px">
+<h1>Barkfare money math</h1>
+<p class="lede">A $149 kit makes about <b class="pos">$34.25</b> profit per order once we buy in bulk. The 5-kit trial loses a little money on purpose: it buys proof that people will pay $149 and that the supplier delivers.</p>
+<p class="muted" style="font-size:.88rem">All numbers come from <code>scripts/money_math.py</code>. Costs are estimates until suppliers quote. Ads use the pet-category average of $38.51 per sale from established stores.</p>
+</header>
+
+<section><h2>Is this dropshipping?</h2>
+<p>Only at the very start, and only as a test. Classic dropshipping means a supplier in China mails each order from China after the customer pays, and the parcel takes 2 to 4 weeks. We don't do that. Here is how an order moves at each stage:</p>
+<div class="flow">
+<div class="step"><span class="when">Now · optional</span><h3>Fast lane</h3><span class="tag">This one is dropshipping</span>
+<div class="chain"><span>Customer pays us $149</span><i>we order 1 from</i><span>AliExpress seller with US stock</span><i>ships in 4 to 6 days to</i><span>Customer</span></div>
+<p class="verdict">No stock to buy. But it's a generic product, not ours yet, and we can't check it before it ships.</p></div>
+<div class="step"><span class="when">Next · 5 kits</span><h3>Trial</h3><span class="tag">We hold the stock</span>
+<div class="chain"><span>Factory makes 5 with our logo</span><i>express, about 5 days, to</i><span>Your home in Florida</span><i>you open kit 1 and test it, then</i><span>You mail each order by USPS</span></div>
+<p class="verdict">You see the product before anyone buys it. Shipping from home costs more per order.</p></div>
+<div class="step"><span class="when">After 10 happy customers</span><h3>Bulk</h3><span class="tag">Our own brand at scale</span>
+<div class="chain"><span>Factory makes 150 by sea</span><i>about 5 to 7 weeks, to</i><span>US warehouse (3PL)</span><i>picks, packs and ships each order in 2 to 5 days to</i><span>Customer</span></div>
+<p class="verdict">Lowest cost per kit and fastest delivery. Needs about $6,976 of cash up front for 150 kits.</p></div>
+</div>
+<p class="note">Delivery times are estimates until a test order proves them. We only promise customers times we have proven (FTC Mail Order Rule).</p>
+</section>
+
+<section><h2>Where one order's money goes</h2>
+<div class="legend"><span><i class="prod"></i>Product</span><span><i class="ship"></i>Shipping + box</span><span><i class="fees"></i>Card fees + refunds</span><span><i class="ads"></i>Ads</span><span><i class="profit"></i>Profit</span><span><i style="background:var(--ink);width:2px;height:14px;border-radius:0"></i>Sale price</span></div>
+<div class="chart" id="chart"><div class="row"><div class="rl"><b>Fast lane</b><span>AliExpress US seller ships to the customer</span></div>
+<div class="track" role="img" aria-label="Fast lane: price $149.00, costs $135.76, profit $13.24"><span class="seg prod" style="width:44.280%" data-tip="Product: $83.69"></span><span class="seg fees" style="width:7.175%" data-tip="Card fees + refunds: $13.56"></span><span class="seg ads" style="width:20.376%" data-tip="Ads: $38.51"></span><span class="seg profit" style="width:7.005%" data-tip="Profit: $13.24"></span><span class="price" style="left:78.836%" aria-hidden="true"></span></div>
+<div class="rv pos"><b>+$13.24</b><span>per order</span></div></div><div class="row"><div class="rl"><b>5-kit trial</b><span>Factory to your home by express, you ship by USPS</span></div>
+<div class="track" role="img" aria-label="5-kit trial: price $149.00, costs $154.63, profit -$5.64"><span class="seg prod" style="width:42.730%" data-tip="Product: $80.76"></span><span class="seg ship" style="width:11.534%" data-tip="Shipping + box: $21.80"></span><span class="seg fees" style="width:7.175%" data-tip="Card fees + refunds: $13.56"></span><span class="seg ads" style="width:20.376%" data-tip="Ads: $38.51"></span><span class="price" style="left:78.836%" aria-hidden="true"></span></div>
+<div class="rv neg"><b>-$5.64</b><span>per order</span></div></div><div class="row"><div class="rl"><b>5-kit trial, high duty</b><span>Same, if customs charges 52.5%</span></div>
+<div class="track" role="img" aria-label="5-kit trial, high duty: price $149.00, costs $162.54, profit -$13.55"><span class="seg prod" style="width:46.915%" data-tip="Product: $88.67"></span><span class="seg ship" style="width:11.534%" data-tip="Shipping + box: $21.80"></span><span class="seg fees" style="width:7.175%" data-tip="Card fees + refunds: $13.56"></span><span class="seg ads" style="width:20.376%" data-tip="Ads: $38.51"></span><span class="price" style="left:78.836%" aria-hidden="true"></span></div>
+<div class="rv neg"><b>-$13.55</b><span>per order</span></div></div><div class="row"><div class="rl"><b>Bulk</b><span>150 kits by sea to a US warehouse that ships for us</span></div>
+<div class="track" role="img" aria-label="Bulk: price $149.00, costs $114.75, profit $34.25"><span class="seg prod" style="width:24.608%" data-tip="Product: $46.51"></span><span class="seg ship" style="width:8.556%" data-tip="Shipping + box: $16.17"></span><span class="seg fees" style="width:7.175%" data-tip="Card fees + refunds: $13.56"></span><span class="seg ads" style="width:20.376%" data-tip="Ads: $38.51"></span><span class="seg profit" style="width:18.122%" data-tip="Profit: $34.25"></span><span class="price" style="left:78.836%" aria-hidden="true"></span></div>
+<div class="rv pos"><b>+$34.25</b><span>per order</span></div></div><div class="row"><div class="rl"><b>Bulk bundle ($189)</b><span>Kit + bed topper, same warehouse</span></div>
+<div class="track" role="img" aria-label="Bulk bundle ($189): price $189.00, costs $141.63, profit $47.37"><span class="seg prod" style="width:33.603%" data-tip="Product: $63.51"></span><span class="seg ship" style="width:11.899%" data-tip="Shipping + box: $22.49"></span><span class="seg fees" style="width:9.058%" data-tip="Card fees + refunds: $17.12"></span><span class="seg ads" style="width:20.376%" data-tip="Ads: $38.51"></span><span class="seg profit" style="width:25.063%" data-tip="Profit: $47.37"></span><span class="price" style="left:100.000%" aria-hidden="true"></span></div>
+<div class="rv pos"><b>+$47.37</b><span>per order</span></div></div></div>
+<p class="note">When the colored bar runs past the black line, the costs are bigger than the price: that order loses money. Hover a segment for its amount.</p>
+<details><summary>Show as a table</summary><div class="tbl" style="margin-top:8px"><table><thead><tr><th>Route</th><th>Price</th><th>Product</th><th>Ship + box</th><th>Fees + refunds</th><th>Ads</th><th>Profit</th><th>New-store case</th></tr></thead><tbody><tr><th scope="row">Fast lane</th><td>$149.00</td><td>$83.69</td><td>$0.00</td><td>$13.56</td><td>$38.51</td><td class="pos">+$13.24</td><td>+$1.69</td></tr><tr><th scope="row">5-kit trial</th><td>$149.00</td><td>$80.76</td><td>$21.80</td><td>$13.56</td><td>$38.51</td><td class="neg">-$5.64</td><td>-$17.19</td></tr><tr><th scope="row">5-kit trial, high duty</th><td>$149.00</td><td>$88.67</td><td>$21.80</td><td>$13.56</td><td>$38.51</td><td class="neg">-$13.55</td><td>-$25.10</td></tr><tr><th scope="row">Bulk</th><td>$149.00</td><td>$46.51</td><td>$16.17</td><td>$13.56</td><td>$38.51</td><td class="pos">+$34.25</td><td>+$22.70</td></tr><tr><th scope="row">Bulk bundle ($189)</th><td>$189.00</td><td>$63.51</td><td>$22.49</td><td>$17.12</td><td>$38.51</td><td class="pos">+$47.37</td><td>+$35.81</td></tr></tbody></table></div></details>
+</section>
+
+<section><h2>How much we can pay for each sale</h2>
+<p>Money left after everything except ads is the most we can spend on ads to win one sale. Our rule is to aim for 75% of that, so there's a cushion.</p>
+<div class="tbl"><table><thead><tr><th>Route</th><th>Break-even ad cost</th><th>Target ad cost</th><th>Typical ad cost</th><th>Break-even ROAS</th><th>Cushion rule</th></tr></thead><tbody><tr><th scope="row">Fast lane</th><td>$51.75</td><td>$38.81</td><td>$38.51</td><td>2.88</td><td><span class="pill ok">Pass</span></td></tr><tr><th scope="row">5-kit trial</th><td>$32.87</td><td>$24.65</td><td>$38.51</td><td>4.53</td><td><span class="pill bad">Fail</span></td></tr><tr><th scope="row">5-kit trial, high duty</th><td>$24.96</td><td>$18.72</td><td>$38.51</td><td>5.97</td><td><span class="pill bad">Fail</span></td></tr><tr><th scope="row">Bulk</th><td>$72.76</td><td>$54.57</td><td>$38.51</td><td>2.05</td><td><span class="pill ok">Pass</span></td></tr><tr><th scope="row">Bulk bundle ($189)</th><td>$85.88</td><td>$64.41</td><td>$38.51</td><td>2.2</td><td><span class="pill ok">Pass</span></td></tr></tbody></table></div>
+<p class="note">ROAS here means sales divided by ad spend. Below the break-even number, every order loses money.</p>
+</section>
+
+<section><h2>The 5-kit trial in dollars</h2>
+<div class="tiles">
+<div class="tile"><span>Cash for 5 kits</span><b>$403.80</b><span>kit 1 is our sample</span></div>
+<div class="tile"><span>Sales from 4 kits</span><b>$596.00</b><span>at $149 each</span></div>
+<div class="tile"><span>Ads to sell them</span><b>$154.04</b><span>at the typical cost</span></div>
+<div class="tile"><span>Net result</span><b class="neg">-$103.32</b><span>-$149.53 if ads cost 30% more</span></div>
+</div>
+<p>That loss is the price of proof. What we get: a real kit to photograph and film, 4 real customers and reviews, and real numbers to replace these estimates. Ads stop once the 4 kits sell, so we don't spend the full $400.</p>
+</section>
+
+<section><h2>What $10,000 a month takes</h2>
+<div class="tiles">
+<div class="tile"><span>Orders a month</span><b>295</b><span>about 9.8 a day</span></div>
+<div class="tile"><span>Sales a month</span><b>$43,939</b><span>at $149 a kit</span></div>
+<div class="tile"><span>Ad spend a month</span><b>$11,356</b><span>at the typical cost</span></div>
+<div class="tile"><span>Stock for 1 month</span><b>$13,715</b><span>bought before it sells</span></div>
+</div>
+<p>At $34.25 profit per order we need about 295 orders a month. If ads cost 30% more, as they often do for a new store, it's about 445. Selling the $189 bundle to more buyers lowers the count. The big catch is cash: stock and ads are paid before customer money arrives, so we grow in steps, funded by profit.</p>
+</section>
+
+<section><h2>What could change these numbers</h2>
+<div class="box"><ul>
+<li><b>Product cost</b> is an estimate. Supplier quotes replace it. For 5 kits it may be higher per kit than shown.</li>
+<li><b>Import duty</b> could be 27% or 52.5%, depending on how customs classifies the kit. The third row of the chart shows the high case.</li>
+<li><b>Shipping from home</b> ($20.55 by USPS) is an estimate for a 9 lb box. The real box size from the supplier changes it.</li>
+<li><b>Refunds</b> are assumed at 6%.</li>
+<li><b>Ad cost</b> is the category average for established stores. A new store usually pays more at first.</li>
+<li><b>The fast lane</b> looks cheapest because the seller's price includes shipping. It's an unverified seller with 9 sales, and the product isn't ours, so it's a test, not the business.</li>
+</ul></div>
+</section>
+<footer>Inputs: research/money-math-2026-11-19/inputs.json · Outputs: outputs.json · Script: scripts/money_math.py (built on fee_breakdown.py and channels.py). Shopify fees: 2.9% + $0.30, no platform fee. Checked 2026-11-19.</footer>
+</div>
+<div id="tip" hidden></div>
+<script>
+(function(){var tip=document.getElementById('tip');
+document.querySelectorAll('.seg').forEach(function(s){
+ s.addEventListener('mousemove',function(e){tip.textContent=s.dataset.tip;tip.hidden=false;tip.style.left=Math.min(e.clientX+12,window.innerWidth-180)+'px';tip.style.top=(e.clientY+14)+'px';});
+ s.addEventListener('mouseleave',function(){tip.hidden=true;});});})();
+</script>

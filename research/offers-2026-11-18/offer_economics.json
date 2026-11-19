@@ -7,9 +7,9 @@
    "price": 149,
    "landed_cost": 73.06,
    "ship_and_pack": 21.8,
-   "dtc_meta": 0.57,
-   "dtc_meta_tough": -10.98,
-   "dtc_meta_pre_ad": 39.08,
+   "dtc_meta": 2.06,
+   "dtc_meta_tough": -9.49,
+   "dtc_meta_pre_ad": 40.57,
    "tiktok_aff": -21.26,
    "tiktok_aff_tough": -42.94,
    "tiktok_aff_pre_ad": 27.31
@@ -21,9 +21,9 @@
    "price": 149,
    "landed_cost": 46.51,
    "ship_and_pack": 16.17,
-   "dtc_meta": 32.76,
-   "dtc_meta_tough": 21.21,
-   "dtc_meta_pre_ad": 71.27,
+   "dtc_meta": 34.25,
+   "dtc_meta_tough": 22.7,
+   "dtc_meta_pre_ad": 72.76,
    "tiktok_aff": 33.12,
    "tiktok_aff_tough": 22.54,
    "tiktok_aff_pre_ad": 59.5
@@ -35,9 +35,9 @@
    "price": 149,
    "landed_cost": 73.06,
    "ship_and_pack": 21.8,
-   "dtc_meta": 0.57,
-   "dtc_meta_tough": -10.98,
-   "dtc_meta_pre_ad": 39.08,
+   "dtc_meta": 2.06,
+   "dtc_meta_tough": -9.49,
+   "dtc_meta_pre_ad": 40.57,
    "tiktok_aff": -21.26,
    "tiktok_aff_tough": -42.94,
    "tiktok_aff_pre_ad": 27.31
@@ -49,9 +49,9 @@
    "price": 149,
    "landed_cost": 46.51,
    "ship_and_pack": 16.17,
-   "dtc_meta": 32.76,
-   "dtc_meta_tough": 21.21,
-   "dtc_meta_pre_ad": 71.27,
+   "dtc_meta": 34.25,
+   "dtc_meta_tough": 22.7,
+   "dtc_meta_pre_ad": 72.76,
    "tiktok_aff": 33.12,
    "tiktok_aff_tough": 22.54,
    "tiktok_aff_pre_ad": 59.5
@@ -63,9 +63,9 @@
    "price": 189,
    "landed_cost": 98.06,
    "ship_and_pack": 30.24,
-   "dtc_meta": 3.18,
-   "dtc_meta_tough": -8.37,
-   "dtc_meta_pre_ad": 41.69,
+   "dtc_meta": 5.07,
+   "dtc_meta_tough": -6.48,
+   "dtc_meta_pre_ad": 43.58,
    "tiktok_aff": -37.33,
    "tiktok_aff_tough": -66.02,
    "tiktok_aff_pre_ad": 26.68
@@ -77,9 +77,9 @@
    "price": 189,
    "landed_cost": 63.51,
    "ship_and_pack": 22.49,
-   "dtc_meta": 45.48,
-   "dtc_meta_tough": 33.92,
-   "dtc_meta_pre_ad": 83.99,
+   "dtc_meta": 47.37,
+   "dtc_meta_tough": 35.81,
+   "dtc_meta_pre_ad": 85.88,
    "tiktok_aff": 34.86,
    "tiktok_aff_tough": 21.11,
    "tiktok_aff_pre_ad": 68.98
@@ -91,9 +91,9 @@
    "price": 269,
    "landed_cost": 146.12,
    "ship_and_pack": 43.61,
-   "dtc_meta": 13.83,
-   "dtc_meta_tough": 2.28,
-   "dtc_meta_pre_ad": 52.34,
+   "dtc_meta": 16.52,
+   "dtc_meta_tough": 4.97,
+   "dtc_meta_pre_ad": 55.03,
    "tiktok_aff": -62.38,
    "tiktok_aff_tough": -104.29,
    "tiktok_aff_pre_ad": 30.85
@@ -105,9 +105,9 @@
    "price": 269,
    "landed_cost": 93.02,
    "ship_and_pack": 32.33,
-   "dtc_meta": 78.21,
-   "dtc_meta_tough": 66.65,
-   "dtc_meta_pre_ad": 116.72,
+   "dtc_meta": 80.9,
+   "dtc_meta_tough": 69.34,
+   "dtc_meta_pre_ad": 119.41,
    "tiktok_aff": 46.38,
    "tiktok_aff_tough": 26.66,
    "tiktok_aff_pre_ad": 95.23
@@ -119,9 +119,9 @@
    "price": 199,
    "landed_cost": 102.06,
    "ship_and_pack": 30.24,
-   "dtc_meta": 8.19,
-   "dtc_meta_tough": -3.36,
-   "dtc_meta_pre_ad": 46.7,
+   "dtc_meta": 10.18,
+   "dtc_meta_tough": -1.37,
+   "dtc_meta_pre_ad": 48.69,
    "tiktok_aff": -35.68,
    "tiktok_aff_tough": -65.47,
    "tiktok_aff_pre_ad": 30.88
@@ -133,9 +133,9 @@
    "price": 199,
    "landed_cost": 66.51,
    "ship_and_pack": 22.49,
-   "dtc_meta": 51.49,
-   "dtc_meta_tough": 39.93,
-   "dtc_meta_pre_ad": 90.0,
+   "dtc_meta": 53.48,
+   "dtc_meta_tough": 41.92,
+   "dtc_meta_pre_ad": 91.99,
    "tiktok_aff": 38.41,
    "tiktok_aff_tough": 24.01,
    "tiktok_aff_pre_ad": 74.18
@@ -148,9 +148,9 @@
    "price": 49,
    "landed_cost": 25.0,
    "extra_ship": 3.0,
-   "fees": 1.91,
+   "fees": 1.42,
    "refunds": 2.94,
-   "profit_per_addon": 16.15
+   "profit_per_addon": 16.64
   },
   {
    "addon": "Bed topper added at checkout",
@@ -158,9 +158,9 @@
    "price": 49,
    "landed_cost": 17.0,
    "extra_ship": 3.0,
-   "fees": 1.91,
+   "fees": 1.42,
    "refunds": 2.94,
-   "profit_per_addon": 24.15
+   "profit_per_addon": 24.64
   },
   {
    "addon": "Paw wipes 100ct added at checkout",
@@ -168,9 +168,9 @@
    "price": 12.99,
    "landed_cost": 4.0,
    "extra_ship": 1.0,
-   "fees": 0.51,
+   "fees": 0.38,
    "refunds": 0.78,
-   "profit_per_addon": 6.7
+   "profit_per_addon": 6.83
   },
   {
    "addon": "Paw wipes 100ct added at checkout",
@@ -178,9 +178,9 @@
    "price": 12.99,
    "landed_cost": 3.0,
    "extra_ship": 1.0,
-   "fees": 0.51,
+   "fees": 0.38,
    "refunds": 0.78,
-   "profit_per_addon": 7.7
+   "profit_per_addon": 7.83
   },
   {
    "addon": "Extra door guards (2) added at checkout",
@@ -188,9 +188,9 @@
    "price": 29.99,
    "landed_cost": 8.0,
    "extra_ship": 1.0,
-   "fees": 1.17,
+   "fees": 0.87,
    "refunds": 1.8,
-   "profit_per_addon": 18.02
+   "profit_per_addon": 18.32
   },
   {
    "addon": "Extra door guards (2) added at checkout",
@@ -198,9 +198,9 @@
    "price": 29.99,
    "landed_cost": 5.08,
    "extra_ship": 1.0,
-   "fees": 1.17,
+   "fees": 0.87,
    "refunds": 1.8,
-   "profit_per_addon": 20.94
+   "profit_per_addon": 21.24
   }
  ]
 }

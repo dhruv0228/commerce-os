@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import channels as ch  # noqa: E402
 
 LABELS = {
-    "dtc_meta": "Own store (Amboras) + Meta ads",
+    "dtc_meta": "Own store (Shopify) + Meta ads",
     "tiktok_aff": "TikTok Shop + creator affiliates",
     "tiktok_ads": "TikTok Shop + TikTok ads",
     "amazon_fba": "Amazon FBA",
@@ -48,7 +48,7 @@ def breakdown(params, price, unit_cost, weight_lb, dims_in=None, category="all",
     platform = price * ch.v(meta["platform_fee_pct"])
     out["dtc_meta"] = [
         ("Product (landed)", unit_cost), ("Shipping to customer", ship), ("Packaging", pack),
-        ("Card processing 2.9% + $0.30", card), ("Amboras platform fee 1%", platform),
+        ("Card processing 2.9% + $0.30", card), ("Platform fee (0% on Shopify Payments)", platform),
         (f"Refund allowance {H['refund_pct_dtc']:.0%}", price * H["refund_pct_dtc"]),
         ("Meta ads per purchase (category median)", res["dtc_meta"]["acq"]),
     ]

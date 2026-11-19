@@ -7,7 +7,7 @@ caller (scripts/opportunity.py or tests). Nothing here is a quote: results are o
 good as their inputs, and every output says which inputs were ASSUMED.
 
 Channels modelled
-- dtc_meta      own store (Amboras) + paid Meta ads, shipped from home or a 3PL
+- dtc_meta      own store (Shopify) + paid Meta ads, shipped from home or a 3PL
 - tiktok_aff    TikTok Shop, creator affiliates paid a commission per sale, seller ships
 - tiktok_ads    TikTok Shop, paid TikTok ads instead of affiliates
 - amazon_fba    Amazon, Fulfilled by Amazon, paid with PPC

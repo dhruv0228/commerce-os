@@ -95,7 +95,7 @@ Cushion rule: a product passes G2 and G5 only if its sourced category benchmark 
 
 If refund rates are unknown, label them ASSUMED and run low and high scenarios at 5% and 10%.
 
-Platform fee: Amboras charges about 1% of each sale on top of card processing. Until economics.py has its own field for it, include it in `payment_pct` (2.9% card + 1% platform = 0.039) and say so in the source column.
+Platform fee: Shopify charges no extra fee per sale when Shopify Payments is used, so `payment_pct` is 0.029 (2.9% card; plus $0.30 per order). If we ever use a third-party payment gateway, add Shopify's extra transaction fee to `payment_pct` and say so in the source column.
 
 New-store penalty: benchmark cost per purchase comes from established stores. A product should also stay profitable in the "tough" scenario (benchmark x 1.3); flag any that go negative there.
 
@@ -116,7 +116,7 @@ Never assume revenue, ROAS or gross margin equals profit.
   - ASSUMED: our own placeholder, to be replaced
   - UNKNOWN: not found; blocks any gate that depends on it
 - Write facts to the CSVs in `data/`, with label, source and date checked. Reports quote the CSVs; they don't hold facts of their own.
-- Performance numbers come from Amboras and Meta exports or connectors. Never type them from memory.
+- Performance numbers come from Shopify and Meta exports or connectors. Never type them from memory.
 - Never invent costs, shipping times, conversion rates, supplier capabilities, competitor revenue or evidence. If data is missing, write UNKNOWN and say so.
 - Never claim to have accessed a platform or metric you could not actually access.
 
@@ -130,7 +130,7 @@ Never assume revenue, ROAS or gross margin equals profit.
 | Supplier listings (Alibaba, Global Sources, Made-in-China, Syncee) | Claude in Chrome | Web search |
 | Ad and product images, video | Higgsfield MCP, using photos of our real sample | None |
 | Search demand, Google Trends, Amazon and Google Shopping listings | DataForSEO (connected in cloud sessions; api.dataforseo.com) | Claude in Chrome, web search |
-| Store (Amboras) | No agent access confirmed yet | Drafts in `store/`; Dhruv applies them |
+| Store (Shopify) | No agent access yet (Admin API once Dhruv grants it) | Drafts in `store/`; Dhruv applies them |
 | Meta ads | Meta Ads connector, campaigns created paused | None |
 
 If a tool isn't connected in this session, say which one and continue with the fallback.
@@ -162,7 +162,7 @@ Prefer manufacturers and authorized wholesalers with verified identity, samples,
 | Supplier validation | Supplier sites | `data/suppliers.csv`, `suppliers/` | Sending messages, ordering samples, agreeing to terms, payments |
 | Store teardown | Competitor sites | `research/teardowns/` | None |
 | Creative strategy | Foreplay, `research/`, `brand/` | `data/ads.csv`, `creative/` | Paid generation beyond the creative budget, any publishing |
-| Store (later) | Amboras (when access exists) | Drafts in `store/` | Every store write, price change and publish |
+| Store (later) | Shopify (when access exists) | Drafts in `store/` | Every store write, price change and publish |
 | Ads (later) | Meta | Campaigns created paused | Publishing, any budget change |
 
 Always ask before contacting suppliers, purchases, samples, publishing store changes, changing prices, launching or increasing ad spend, refunds, inventory commitments and contracts.
