@@ -1,0 +1,31 @@
+{
+ "note": "Inputs for scripts/opportunity_rank.py. Facts come from niches.json, consumables.json and research/models-2026-11-19 (each with its own label and source). Judged points carry a reason. Checked 2026-11-19.",
+ "budget_usd": {"value": 2000, "label": "Dhruv, chat 2026-11-19 ($2,000 or less)"},
+ "setup_usd": {"value": 300, "label": "ASSUMED: Shopify $1 intro, domain, business phone line, logo, first month of apps; excludes liability insurance some suppliers require"},
+ "high_ticket_assumptions": {
+  "dropship_fee_usd": {"value": 15, "label": "ESTIMATED range $0-25 per order (system_and_mechanics.md)"},
+  "refund_damage_pct_parcel": {"value": 0.03, "label": "ASSUMED"},
+  "refund_damage_pct_ltl": {"value": 0.05, "label": "ASSUMED (LTL damage about 1.2% plus returns; system_and_mechanics.md)"},
+  "conversion_by_aov": {"value": [[1000, 0.012], [3000, 0.008], [999999999, 0.005]], "label": "ASSUMED within secondary-source range 0.3-1.5%, lower for >$3,000 (system_and_mechanics.md); a new store's real rate is UNKNOWN"},
+  "margin_if_unknown_pct": {"value": 20, "label": "ASSUMED conservative floor where no dealer margin was found"}
+ },
+ "judged": {
+  "infrared-sauna":          {"margin_pct": 25, "supplier": 9, "risk": 6, "longterm": 5, "why": "Golden Designs/Dynamic likely accept online dealers; LTL freight, 240V on large units, health-claim temptation; same SKUs at Costco and Wayfair"},
+  "barrel-sauna":            {"margin_pct": 25, "supplier": 8, "risk": 4, "longterm": 5, "why": "Dundalk non-showroom tier 25%; 800-1,500 lb kits, fire and permit risk, long assembly"},
+  "cold-plunge":             {"margin_pct": null, "supplier": 3, "risk": 4, "longterm": 4, "why": "No dealer program found for major brands; highest CPC; Costco pushing prices down; water plus electricity"},
+  "golf-simulator":          {"margin_pct": null, "supplier": 8, "risk": 9, "longterm": 6, "why": "Rain or Shine and Shop Indoor Golf work with online resellers; parcel shipping; big specialist dealers dominate; SkyTrak refuses dropship"},
+  "home-gym":                {"margin_pct": 25, "supplier": 4, "risk": 6, "longterm": 4, "why": "Top garage-gym brands DTC only (REP says no); injury liability; heavy returns"},
+  "massage-chair":           {"margin_pct": 25, "supplier": 9, "risk": 7, "longterm": 4, "why": "Osaki/Titan run a dropship model (2012 source, confirm); plug-in; 25% restocking terms; brand service reputation weak"},
+  "hot-tub-swim-spa":        {"margin_pct": 40, "supplier": 1, "risk": 1, "longterm": 4, "why": "Local territory dealers, hardwiring, site prep, drowning risk; not workable online-only"},
+  "standing-desk-ergo-chair":{"margin_pct": null, "supplier": 5, "risk": 12, "longterm": 6, "why": "Parcel, low risk, Dhruv knows the buyer; dealer access UNKNOWN; Amazon flooded with cheap desks"},
+  "pizza-oven":              {"margin_pct": 30, "supplier": 7, "risk": 10, "longterm": 4, "why": "Ooni dealer form exists; parcel; low ticket for this model; frequent brand sales"},
+  "outdoor-kitchen-grill":   {"margin_pct": 30, "supplier": 4, "risk": 4, "longterm": 5, "why": "Authorized-dealer gating; gas install; BBQGuys dominates; off season"},
+  "pergola-outdoor-furniture":{"margin_pct": 30, "supplier": 3, "risk": 4, "longterm": 4, "why": "Install crews required for premium; permits; off season (Dec/Jan index 0.59)"},
+  "e-bike":                  {"margin_pct": 25, "supplier": 2, "risk": 2, "longterm": 4, "why": "Brands DTC-first; lithium battery fire risk, CPSC rule pending; Rad Power bankruptcy"},
+  "espresso-machine":        {"margin_pct": 25, "supplier": 4, "risk": 8, "longterm": 6, "why": "Entrenched specialists; service-heavy; repeat sales of beans and parts possible"},
+  "electric-fireplace":      {"margin_pct": 30, "supplier": 6, "risk": 10, "longterm": 5, "why": "Parcel, plug-in, strongest Dec/Jan (1.67); dealer terms UNKNOWN; big-box competition; 38-40% figure is dated so 30% used"},
+  "portable-power-station":  {"margin_pct": null, "supplier": 4, "risk": 5, "longterm": 4, "why": "Brands discount DTC constantly; lithium dangerous goods"},
+  "fire-pit-table":          {"margin_pct": 30, "supplier": 6, "risk": 7, "longterm": 4, "why": "Many small dealers carry OGC; gas fittings; off season"},
+  "pool-table":              {"margin_pct": 35, "supplier": 1, "risk": 3, "longterm": 3, "why": "Needs local installer network"}
+ }
+}

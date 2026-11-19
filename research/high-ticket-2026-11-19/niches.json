@@ -1,0 +1,835 @@
+[
+ {
+  "id": "infrared-sauna",
+  "name": "Infrared saunas (indoor)",
+  "price_low": 1500,
+  "price_high": 9000,
+  "typical_aov": 4000,
+  "aov_label": "ASSUMED (midpoint judgment from sourced listings, not a sales figure)",
+  "price_source": "ESTIMATED: peaksaunas.com/pages/infrared-sauna-cost (1-2 person far-IR $1,500-4,000, vendor); 2-person quality $4,800-9,000 and Sun Home Equinox 2 $6,099 (sunhomesaunas.com, vendor); Dynamic Barcelona about $1,800 (retailer listing)",
+  "margin_low_pct": 20,
+  "margin_high_pct": 35,
+  "margin_label": "ESTIMATED (weak)",
+  "margin_source": "No infrared brand published dealer terms. Proxies: Dundalk LeisureCraft Canadian dealer terms 25% off MSRP without showroom, 35% with showroom (search snippet of dealers.leisurecraft.com terms PDF; PDF itself blocked); course-seller/affiliate guides 20-35% (dropshippingchampions.com, salehoo.com; COURSE-SELLER/AFFILIATE)",
+  "freight": "ltl",
+  "shipping_note": "LTL curbside, typically 300-700 lb crates (ASSUMED typical; confirm per SKU). Damage and return freight are the main risks. Larger units need a dedicated 240V circuit (electrician); some 1-2 person units are 120V plug-in (Sun Home Equinox 2 listed as 120V plug-in).",
+  "suppliers": [
+   {
+    "name": "Clearlight (Jacuzzi Saunas)",
+    "url": "https://infraredsauna.com/business-benefits",
+    "program": "Dealer page aimed at bath/spa retailers",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Golden Designs / Dynamic / Maxxus",
+    "url": "https://goldendesigninc.com/pages/about-us",
+    "program": "Sold via Costco, Wayfair and many online-only 'authorized dealers' (e.g. Blue Sky Fit Supply, Recovery for Athletes); no public dealer terms found",
+    "accepts_new_online_dealers": "LIKELY (inferred from many online-only dealers; terms UNKNOWN)"
+   },
+   {
+    "name": "Sun Home Saunas",
+    "url": "https://sunhomesaunas.com/pages/commercial-saunas-cold-plunges",
+    "program": "'Become a dealer or wholesale partner' inquiry form",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Finnleo",
+    "url": "https://www.finnleo.com/become-a-dealer",
+    "program": "Become-a-dealer application",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Sunlighten",
+    "url": "https://www.sunlighten.com/referral/",
+    "program": "Referral program only found; no dealer program found",
+    "accepts_new_online_dealers": "NO PROGRAM FOUND"
+   },
+   {
+    "name": "Health Mate",
+    "url": "https://www.flexoffers.com/affiliate-programs/health-mate-sauna-affiliate-program",
+    "program": "Affiliate program only found",
+    "accepts_new_online_dealers": "NO PROGRAM FOUND"
+   }
+  ],
+  "keyword": "infrared sauna",
+  "search_volume": 110000,
+  "cpc": 5.92,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16 (research/high-ticket-2026-11-16/google_ads_keywords.json)",
+  "competition_note": "Costco and Wayfair carry Golden Designs/Dynamic; dozens of online 'authorized dealers' sell the same SKUs with price-match guarantees; brand DTC (Sunlighten, Clearlight, Sun Home). Same-SKU competition is heavy; MAP caps price.",
+  "seasonality_note": "Google Trends Dec-Jan about 1.45x the Nov 2024-Oct 2025 average (peak Jan). Dec/Jan is the best season. infrared sauna blanket (Google Ads) Dec-Jan 2.27x average.",
+  "risk_note": "Electrical install (240V dedicated circuit on larger units), burn/fire liability, EMF and health-claim temptation (no health claims allowed under CLAUDE.md). Freight damage claims.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "barrel-sauna",
+  "name": "Outdoor and barrel saunas",
+  "price_low": 2700,
+  "price_high": 8500,
+  "typical_aov": 5500,
+  "aov_label": "ASSUMED (midpoint of sourced 4-6 person band)",
+  "price_source": "ESTIMATED: topture.com outdoor sauna cost guide ($3,799-8,499+, most 4-6 person $4,500-7,500, retailer); Duthss barrel $2,699.99 (review site); saunaplungedirect.com 6-person $7,000-8,140 (retailer)",
+  "margin_low_pct": 25,
+  "margin_high_pct": 35,
+  "margin_label": "ESTIMATED",
+  "margin_source": "Dundalk LeisureCraft Canadian dealer terms: 25% off MSRP without showroom, 35% with showroom; new dealers pay at order (search snippet of dealers.leisurecraft.com Terms & Conditions Canada 2.0; PDF fetch blocked; US terms may differ)",
+  "freight": "ltl",
+  "shipping_note": "LTL, often 800-1,500 lb kits (ASSUMED typical; confirm per SKU), curbside, customer assembles over 1-2 days. Electric heaters usually 240V hardwired by an electrician; wood-fired avoids wiring. Returns of opened kits are close to impossible.",
+  "suppliers": [
+   {
+    "name": "Dundalk LeisureCraft",
+    "url": "https://leisurecraft.com/dealer",
+    "program": "Trade-only dealer program, US/Canada/EU retailers; non-showroom tier exists in Canadian terms",
+    "accepts_new_online_dealers": "POSSIBLE (non-showroom tier in Canadian terms)"
+   },
+   {
+    "name": "Almost Heaven Saunas",
+    "url": "https://almostheaven.com",
+    "program": "Sold through dealers; no public dealer application found",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Golden Designs (barrel line)",
+    "url": "https://goldendesigninc.com/pages/about-us",
+    "program": "As infrared row",
+    "accepts_new_online_dealers": "LIKELY (inferred; terms UNKNOWN)"
+   },
+   {
+    "name": "Finnleo",
+    "url": "https://www.finnleo.com/become-a-dealer",
+    "program": "Become-a-dealer application",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "outdoor sauna",
+  "search_volume": 33100,
+  "cpc": 4.28,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16 (barrel sauna 18,100 at $3.37)",
+  "competition_note": "Many online-only sauna stores (Topture, Haven of Heat, Sauna Place, Sauna Plunge Direct) list the same Dundalk, Almost Heaven and Golden Designs SKUs; Home Depot lists barrels too.",
+  "seasonality_note": "Google Trends Dec-Jan about 1.30x average for outdoor sauna and 1.38x for barrel sauna (peak Dec). Good in Dec/Jan, though outdoor assembly in northern winter is harder.",
+  "risk_note": "Fire risk (wood/electric heater), electrical install, possible local permits/setbacks for outdoor structures, long delivery and assembly, freight damage on large kits.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "cold-plunge",
+  "name": "Cold plunges",
+  "price_low": 400,
+  "price_high": 14500,
+  "typical_aov": 4500,
+  "aov_label": "ASSUMED (inside the $3,000-8,000 chiller-tub band most guides cite)",
+  "price_source": "ESTIMATED: Costco LifeTrend Classic with chiller $399.97-899.99 in 2026 (warehouserunner.com, slickdeals.net); litmethod.com 2026 guide $3,000-8,000 for chiller tubs and $9,000-14,500 premium (vendor blog)",
+  "margin_low_pct": null,
+  "margin_high_pct": null,
+  "margin_label": "UNKNOWN",
+  "margin_source": "No dealer margin found. Plunge pays affiliates $250 per order (fmtc.co), which is a referral fee, not a dealer margin.",
+  "freight": "ltl",
+  "shipping_note": "Hard tubs with chillers ship LTL; inflatable/drop-stitch tubs and chillers can ship parcel (Costco LifeTrend ships free). Chiller units are the failure point (warranty claims).",
+  "suppliers": [
+   {
+    "name": "Plunge",
+    "url": "https://www.fmtc.co/fmtc-featured-merchant-plunge/",
+    "program": "Affiliate on Impact, $250/order, 30-day cookie; no dealer program found",
+    "accepts_new_online_dealers": "NO PROGRAM FOUND"
+   },
+   {
+    "name": "Sun Home",
+    "url": "https://sunhomesaunas.com/pages/commercial-saunas-cold-plunges",
+    "program": "Dealer/wholesale inquiry form",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Dundalk LeisureCraft (The Flow, Baltic plunge)",
+    "url": "https://leisurecraft.com/dealer",
+    "program": "Same trade dealer program as saunas",
+    "accepts_new_online_dealers": "POSSIBLE"
+   },
+   {
+    "name": "Hot Spring (Vigor)",
+    "url": "https://www.hotspring.com/soul",
+    "program": "Local spa dealers only",
+    "accepts_new_online_dealers": "UNLIKELY"
+   },
+   {
+    "name": "Ice Barrel, BlueCube, Renu Therapy, Dragon Plunge",
+    "url": "",
+    "program": "No dealer program found in searches",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "cold plunge",
+  "search_volume": 60500,
+  "cpc": 9.71,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16 (cold plunge tub 27,100 at $6.95)",
+  "competition_note": "Highest CPC in the set. Costco sells chiller tubs at $400-900 in 2026 and clearance pricing is pulling buyer price expectations down; many DTC brands (Plunge, Ice Barrel, BlueCube) sell direct.",
+  "seasonality_note": "Google Trends Dec-Jan about 1.15x average; fairly flat year round (summer also strong). Dec/Jan acceptable, not special.",
+  "risk_note": "Water plus electricity (GFCI), cold-shock/health claims risk (no health claims allowed), chiller failures and warranty service, freight returns of water equipment.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "golf-simulator",
+  "name": "Golf simulators, launch monitors and enclosures",
+  "price_low": 800,
+  "price_high": 48499,
+  "typical_aov": 6000,
+  "aov_label": "ASSUMED (inside the $6,000-9,000 'where most buyers land' figure from an affiliate guide)",
+  "price_source": "ESTIMATED: golfersauthority.com (Foresight $3,799 to $48,499 packages, affiliate); Garmin R10 budget setup $800-1,800 and SkyTrak builds $3,000-6,500 (austads.com, retailer); Costco RSG Pro Studio bundle $7,999.99 (slickdeals.net, undated)",
+  "margin_low_pct": null,
+  "margin_high_pct": null,
+  "margin_label": "UNKNOWN",
+  "margin_source": "No published dealer margin for launch monitors or enclosures. Rain or Shine Golf says wholesale pricing 'unlocks bigger margins' without numbers.",
+  "freight": "parcel",
+  "shipping_note": "Launch monitors, projectors, screens and enclosure kits ship parcel in multiple boxes (low damage risk relative to freight). High value per box means theft/loss insurance matters.",
+  "suppliers": [
+   {
+    "name": "SkyTrak",
+    "url": "https://skytrakgolf.com/pages/dealer-application",
+    "program": "Dealer application; credit review; minimum order requirements; 'does not accept accounts looking to use drop shipping'",
+    "accepts_new_online_dealers": "NO for dropship (stated)"
+   },
+   {
+    "name": "Shop Indoor Golf (SIGPRO)",
+    "url": "https://partners.shopindoorgolf.com",
+    "program": "Partner portal: wholesale and drop ship for SIGPRO products; business account application",
+    "accepts_new_online_dealers": "UNKNOWN (dropship offered; online-only not stated)"
+   },
+   {
+    "name": "Rain or Shine Golf",
+    "url": "https://rainorshinegolf.com/pages/become-a-reseller",
+    "program": "Authorized reseller program for its screens, nets, mats, enclosures; names 'e-commerce or brick-and-mortar'",
+    "accepts_new_online_dealers": "YES (e-commerce named; terms UNKNOWN)"
+   },
+   {
+    "name": "Carl's Place",
+    "url": "https://carlofet.com/become-a-reseller",
+    "program": "Wholesale pricing on screens, enclosures, mats",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "The SportScreen",
+    "url": "https://thesportscreen.com/blogs/news/become-a-golf-simulator-reseller-with-the-sportscreen",
+    "program": "Verified reseller application (Feb 27, 2026); reviews territory overlap",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "GOLFZON",
+    "url": "https://www.golfzongolf.com/dealers",
+    "program": "Dealer program via application and agreement; showroom/demo plans asked",
+    "accepts_new_online_dealers": "UNLIKELY for online-only (inferred)"
+   },
+   {
+    "name": "Foresight, Uneekor, TrackMan",
+    "url": "https://www.playbetter.com",
+    "program": "Sell through authorized dealers (PlayBetter, The Indoor Golf Shop for TrackMan); terms not found",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "golf simulator",
+  "search_volume": 165000,
+  "cpc": 4.5,
+  "keyword_source": "DataForSEO Google Ads, US: golf simulator checked 2026-11-16; launch monitor 9,900 at $2.64 and golf simulator enclosure 3,600 at $4.35 checked 2026-11-19",
+  "competition_note": "Large specialist e-commerce dealers (Shop Indoor Golf, PlayBetter, Rain or Shine, Carl's Place) who also sell their own private-label enclosures; Costco bundles; Amazon for monitors; brand DTC (Garmin, Bushnell).",
+  "seasonality_note": "Google Trends Dec-Jan about 1.22x average (peak Jan); golf simulator enclosure (Google Ads) Dec-Jan 1.34x, peak Nov. Strong Q4/Q1 (indoor season, gifts).",
+  "risk_note": "Low electrical risk (plug-in). Liability from ball rebound injuries and property damage if the enclosure is mis-sized; room-size fit returns. Monitor brands restrict dropship (SkyTrak).",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "home-gym",
+  "name": "Home gym equipment (treadmills, rowers, power racks)",
+  "price_low": 240,
+  "price_high": 4300,
+  "typical_aov": 1500,
+  "aov_label": "ASSUMED (judgment; no sourced AOV)",
+  "price_source": "ESTIMATED: Sole F63 $1,099.99, NordicTrack X24 $4,299, Horizon 7.0 AT $799 (affiliate/brand blogs); Concept2 RowErg $990 MSRP (dupple.com Nov 2026, frontdeskreview.com Sep 2026); budget rowers $240-310 (dupple.com). Power rack prices not found (UNKNOWN).",
+  "margin_low_pct": 25,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (dated)",
+  "margin_source": "NSGA specialty fitness retailer gross margin 38.2% (2001 and 2003, sgbonline.com, OLD); one Iowa dealer 45-50% on $1,200-4,000 equipment (runninginsight.com, anecdote); Nautilus retail segment 24.9%-32% is manufacturer-side (2013, 2018). Treadmills sit at the low end.",
+  "freight": "ltl",
+  "shipping_note": "Treadmills and racks usually LTL or heavy parcel; rowers parcel. White-glove assembly is common upsell. Returns of 250-400 lb treadmills are expensive.",
+  "suppliers": [
+   {
+    "name": "REP Fitness",
+    "url": "https://repfitness.com/pages/authorized-distributors",
+    "program": "No authorized US resellers; affiliate up to 8%",
+    "accepts_new_online_dealers": "NO (stated)"
+   },
+   {
+    "name": "SOLE Fitness",
+    "url": "https://www.soletreadmills.com/pages/international-distributors",
+    "program": "International distributors; US affiliate listing may be inactive",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Body-Solid",
+    "url": "https://www.bodysolid.com/resources/files/bodysolid-times-2021_v9.pdf",
+    "program": "Dealer network with MAP on 375+ items (2021)",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Life Fitness",
+    "url": "https://www.surveymonkey.com/r/7N532RS",
+    "program": "Dealer application form includes a dropship option",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "GoFit",
+    "url": "https://cdn.shopify.com/s/files/1/0073/0005/5111/files/Dealer_Program_Details1.pdf",
+    "program": "Dealer program open to resellers with own e-commerce store (not Amazon/eBay); MAP",
+    "accepts_new_online_dealers": "YES (stated; low-ticket brand)"
+   }
+  ],
+  "keyword": "treadmill",
+  "search_volume": 301000,
+  "cpc": 3.6,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19 (rowing machine 110,000 at $3.49; home gym 49,500 at $3.90); 2026-11-16: home gym equipment 74,000 at $3.86, power rack 18,100 at $3.20",
+  "competition_note": "Amazon, Costco, Dick's, brand DTC (Rogue, REP, Peloton, NordicTrack) and big specialists (Fitness Factory, Johnson Fitness stores). Top garage-gym brands sell DTC only.",
+  "seasonality_note": "Strong January: treadmill Dec-Jan 1.33x average (peak Jan 2026), rowing machine 1.16x, home gym 1.27x. Dec/Jan is the best window.",
+  "risk_note": "Injury liability (treadmills, racks), freight damage, assembly complaints; treadmills need dedicated outlets on some models.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "massage-chair",
+  "name": "Massage chairs",
+  "price_low": 800,
+  "price_high": 12000,
+  "typical_aov": 3000,
+  "aov_label": "ASSUMED (inside the $2,500-4,500 band a 2026 guide cites)",
+  "price_source": "ESTIMATED: Costco $800-4,500 (warehouserunner.com price tracker; Osaki OS-4000XT $1,500 Feb 2026 slickdeals); latestcost.com $800-12,000, many $2,500-4,500 (low-quality guide)",
+  "margin_low_pct": 20,
+  "margin_high_pct": 40,
+  "margin_label": "ESTIMATED",
+  "margin_source": "Osaki franchise listing: 20-50% of retail (businessbroker.net, sales pitch); dealer blog 25-40% under MAP (massagespa.blogspot.com, 2008, OLD)",
+  "freight": "ltl",
+  "shipping_note": "LTL freight 200-300 lb (ASSUMED typical), white glove optional. Example dealer terms: 25% restocking fee plus customer pays all freight and white-glove both ways (recoveryforathletes.com); Human Touch and Cozzia 15%, Synca 20% per same page.",
+  "suppliers": [
+   {
+    "name": "Osaki / Titan Chair (Carrollton, TX)",
+    "url": "https://osakiusa.com/pages/q-a",
+    "program": "Dropship wholesaler model (dealer holds no stock, Osaki ships and handles warranty; 2012 press release, OLD); Faire listing invites 'become authorized dealer', 60-day terms",
+    "accepts_new_online_dealers": "LIKELY (dropship model stated, 2012; confirm now)"
+   },
+   {
+    "name": "Cozzia",
+    "url": "https://cozzia.com/pages/dealer-inquiry",
+    "program": "Dealer inquiry form",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Infinity",
+    "url": "https://infinitymassagechairs.com/chiropractor-program",
+    "program": "Retail dealer network plus chiropractor program",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Kyota, Luraco, Human Touch",
+    "url": "",
+    "program": "Sold via online dealers; programs not found",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "massage chair",
+  "search_volume": 110000,
+  "cpc": 2.63,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16",
+  "competition_note": "Costco, Amazon, Newegg, Walmart marketplace and dozens of online dealers sell the same Osaki/Titan SKUs; Titan Chair Trustpilot 2.5/5 (service risk lands on the dealer).",
+  "seasonality_note": "Google Trends Dec-Jan about 1.18x average (peak Dec, gift season). Good in December.",
+  "risk_note": "Electrical appliance (plug-in, low install risk), pinch/injury claims, brand warranty quality (Titan Trustpilot 2.5), costly freight returns. Must avoid health/medical claims.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "hot-tub-swim-spa",
+  "name": "Hot tubs and swim spas",
+  "price_low": 4000,
+  "price_high": 70000,
+  "typical_aov": 9000,
+  "aov_label": "ASSUMED (judgment; plug-and-play to mid-range)",
+  "price_source": "ESTIMATED: Leisure Time Inc plug-and-play $4,000-7,000 and swim spas $15,000-70,000+ (retailer); Jacuzzi Mood 110V from $5,495 (brand); Sundance $8,000 to over $20,000 (brand)",
+  "margin_low_pct": 40,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (dated; showroom dealer target, not online)",
+  "margin_source": "Pool & Spa News 2017: experts advise aiming for 40-50% dealer margin (poolspanews.com, OLD). No current survey found.",
+  "freight": "ltl",
+  "shipping_note": "Flatbed/LTL, 500-1,000+ lb dry (ASSUMED typical), often crane or skid delivery; site prep (pad) and 240V/50A hardwiring by electrician except 110V plug-and-play. Returns are effectively impossible.",
+  "suppliers": [
+   {
+    "name": "Bullfrog, Master Spas, Jacuzzi, Hot Spring, Sundance",
+    "url": "https://www.bullfrogspas.com",
+    "program": "Local dealer networks with territories",
+    "accepts_new_online_dealers": "UNLIKELY (inferred: territory model; Hydropool says it does not sell online)"
+   },
+   {
+    "name": "Wellis",
+    "url": "https://wellisspa.com/?p=120",
+    "program": "Dealer application page",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Arctic Spas",
+    "url": "https://www.arcticspas.com/hot-tub-franchise-alternative/",
+    "program": "Dealer program pitched as franchise alternative",
+    "accepts_new_online_dealers": "UNLIKELY for online-only (inferred)"
+   }
+  ],
+  "keyword": "hot tub",
+  "search_volume": 201000,
+  "cpc": 3.3,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16 (swim spa 40,500 at $4.39)",
+  "competition_note": "Costco, Home Depot, Lowe's, factory-direct online brands and entrenched local dealers who control service; Aqua 2026 report: nearly three-quarters of pool/spa retailers saw more price sensitivity.",
+  "seasonality_note": "Google Trends hot tub flat (Dec-Jan 1.02x average); swim spa summer-peaking (Dec-Jan 0.69x). Dec/Jan weak for swim spas.",
+  "risk_note": "Highest install and liability risk in the set: electrical hardwiring, drowning/entrapment, water chemistry, site prep. Needs local service network. Poor fit for a solo online dealer.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "standing-desk-ergo-chair",
+  "name": "Standing desks and ergonomic office chairs",
+  "price_low": 249,
+  "price_high": 2350,
+  "typical_aov": 750,
+  "aov_label": "ESTIMATED (median standing desk price $744 across 20 desks, frontdeskreview.com, 2026-07-09)",
+  "price_source": "ESTIMATED: frontdeskreview.com 20-desk median $744, range $249-2,350 (2026-07-09); UPLIFT V2 $569-899 (upliftdesk.com via affiliate pages). Premium chair prices (Aeron, Leap) not found: UNKNOWN.",
+  "margin_low_pct": null,
+  "margin_high_pct": null,
+  "margin_label": "UNKNOWN",
+  "margin_source": "No dealer margin found. MillerKnoll 39.2% and HNI about 41% are manufacturer gross margins, not dealer margins.",
+  "freight": "parcel",
+  "shipping_note": "Desks ship parcel in 2-3 boxes (frame plus top), chairs parcel. Lowest damage/return-freight risk in the set.",
+  "suppliers": [
+   {
+    "name": "UPLIFT Desk",
+    "url": "https://www.upliftdesk.com/business-office-solutions/",
+    "program": "'Corporate, Government, Educational, and Reseller Accounts' plus trade program for designers/dealers",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "iMovR",
+    "url": "https://www.imovr.com/dealers-resellers",
+    "program": "Dealer/reseller program aimed at contract furniture dealers; affiliate invitation",
+    "accepts_new_online_dealers": "UNKNOWN (contract dealers targeted)"
+   },
+   {
+    "name": "Vivo",
+    "url": "https://vivo-us.com/pages/wholesale",
+    "program": "Wholesale inquiries by email",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Vari",
+    "url": "https://www.vari.com/corporate-programs.html",
+    "program": "Corporate buyer programs, not resale",
+    "accepts_new_online_dealers": "NO PROGRAM FOUND"
+   },
+   {
+    "name": "Herman Miller / Steelcase",
+    "url": "https://www.steelcase.com/unauthorized-dealers-faqs/",
+    "program": "Brand-selected authorized resellers; Steelcase publishes a gray-market seller list",
+    "accepts_new_online_dealers": "UNLIKELY (inferred)"
+   }
+  ],
+  "keyword": "standing desk",
+  "search_volume": 135000,
+  "cpc": 5.18,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19 (ergonomic office chair 135,000 at $3.67)",
+  "competition_note": "Amazon flooded with cheap desks (Flexispot, Vivo, many unbranded); brand DTC (UPLIFT, Vari, Fully/Herman Miller); Costco and Staples. Low ticket for this model.",
+  "seasonality_note": "standing desk flat (Dec-Jan 0.96x average); ergonomic office chair Dec-Jan 1.54x (peak Nov 2025). OK in Dec/Jan.",
+  "risk_note": "Low regulatory risk. Tip-over/pinch from motorized frames; chair cylinder failures. Dhruv knows the tech-worker buyer, but ticket and dealer access are weak.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "pizza-oven",
+  "name": "Outdoor pizza ovens",
+  "price_low": 349,
+  "price_high": 2000,
+  "typical_aov": 600,
+  "aov_label": "ASSUMED (judgment; Karu 2 $449 to Dome about $1,800)",
+  "price_source": "ESTIMATED: Ooni Karu 2 $449 (tomsguide.com), $349 Prime Day June 2026; Karu 2 Pro about $799-849; Gozney Dome Gen 2 $1,799.99-1,999.99 (deal listings); Roccbox $399.99-499.99",
+  "margin_low_pct": 30,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (category proxy, dated)",
+  "margin_source": "Trade article: independent outdoor-category margins about 30-50%, grill accessories about 50% (builderonline.com / hfbusiness.com, date uncertain, likely OLD). No Ooni/Gozney figure found.",
+  "freight": "parcel",
+  "shipping_note": "Parcel. Low damage risk except stone baking boards.",
+  "suppliers": [
+   {
+    "name": "Ooni",
+    "url": "https://ooni.com/pages/become-a-dealer",
+    "program": "Become-a-dealer sign-up form; retailer team asks about 'your store or website'",
+    "accepts_new_online_dealers": "POSSIBLE (form mentions website)"
+   },
+   {
+    "name": "Gozney",
+    "url": "https://gwstore.com/collections/gozney",
+    "program": "Authorized US dealers exist; no application page found",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Alfa Forni",
+    "url": "https://alfaforni.com/us/?p=9450",
+    "program": "North America dealer form",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "pizza oven",
+  "search_volume": 110000,
+  "cpc": 1.15,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19",
+  "competition_note": "Amazon, Costco, Williams Sonoma, Home Depot and brand DTC with frequent sales; ticket under $2,000, so this is mid-ticket rather than high-ticket.",
+  "seasonality_note": "pizza oven Dec-Jan 1.21x average (peak Dec 2025, gift season). Good in December.",
+  "risk_note": "Gas/wood fire and burn risk, propane appliance certification; low install risk.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "outdoor-kitchen-grill",
+  "name": "Outdoor kitchens and premium grills",
+  "price_low": 5399,
+  "price_high": 17423,
+  "typical_aov": 9000,
+  "aov_label": "ASSUMED (judgment from BBQGuys island listings)",
+  "price_source": "ESTIMATED: BBQGuys complete islands $5,399.10-17,422.66 (retailer listings); lawnlove.com 2026 average outdoor kitchen project $13,180 (installed, includes labor)",
+  "margin_low_pct": 30,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (category proxy, dated)",
+  "margin_source": "Same trade source as pizza ovens: outdoor/grill category 30-50%, accessories about 50% (likely OLD). No Blaze/Napoleon dealer figure found.",
+  "freight": "ltl",
+  "shipping_note": "Islands and built-in grills ship LTL on pallets; standalone grills heavy parcel/LTL. Gas line/hookup by a licensed installer.",
+  "suppliers": [
+   {
+    "name": "Blaze Grills",
+    "url": "https://www.blazegrills.com/?p=102787",
+    "program": "Authorized dealers only; warranty void via unauthorized sellers; names Discount Bandit, Greentoe, Wholesale BBQ Outlets, Price Waiter as unauthorized",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Napoleon",
+    "url": "https://pricebook.napoleon.com",
+    "program": "Dealer MAP policy restricting free add-ons like shipping/assembly",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Starfire Direct",
+    "url": "https://starfiredirect.com/pages/become-a-pro",
+    "program": "B2B trade program",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "outdoor kitchen",
+  "search_volume": 60500,
+  "cpc": 4.58,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19 (pellet grill 74,000 at $1.03)",
+  "competition_note": "BBQGuys, bbqgrills.com, Best of Backyard, Lowe's/Home Depot and local hearth/patio dealers sell the same Blaze/Napoleon SKUs.",
+  "seasonality_note": "outdoor kitchen Dec-Jan 0.79x average (peak Mar-Jun); pellet grill 0.98x. Dec/Jan below average.",
+  "risk_note": "Gas plumbing, fire, CO near structures; install by licensed trades; freight damage on stainless islands.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "pergola-outdoor-furniture",
+  "name": "Pergolas and outdoor furniture",
+  "price_low": 1299,
+  "price_high": 55000,
+  "typical_aov": 4000,
+  "aov_label": "ASSUMED (judgment; kit tier, not custom installed)",
+  "price_source": "ESTIMATED: Costco Mirador 8.8x8.2 aluminum BBQ pergola $1,299.99-1,899.99 (warehouserunner.com); Sam's Club Mirador 5x10 $1,499; louvered kits $10,000-15,000 and custom $13,100-55,000+ (theluxurypergola.com, vendor). Outdoor furniture prices not collected: UNKNOWN.",
+  "margin_low_pct": 30,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (category proxy, dated)",
+  "margin_source": "Trade articles: independent outdoor category 30-50%; specialists advised to target 40-50% (hfbusiness.com, builderonline.com; likely OLD)",
+  "freight": "ltl",
+  "shipping_note": "LTL or multi-box heavy parcel; customer or contractor installs; louvered systems need footings and possibly permits.",
+  "suppliers": [
+   {
+    "name": "The Luxury Pergola",
+    "url": "https://theluxurypergola.com/pages/dealer-program-the-luxury-pergola",
+    "program": "Free dealer program; requires own installation crew, active website, 5+ reviews averaging 4 stars",
+    "accepts_new_online_dealers": "NO for online-only (install crew required)"
+   },
+   {
+    "name": "Renson",
+    "url": "https://renson.net/en-us/become-a-renson-dealer",
+    "program": "Dealer application",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Mirador",
+    "url": "https://miradoroutdoor.com/pages/dealer-program",
+    "program": "Dealer program for store owners and general contractors",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Sunset Pergola Kits",
+    "url": "https://sunsetpergolakits.com/pages/become-an-area-rep",
+    "program": "Area rep program; territory conflict review",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Toja Grid, Backyard Discovery, Polywood",
+    "url": "",
+    "program": "No program found in searches",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "pergola",
+  "search_volume": 301000,
+  "cpc": 3.18,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19 (outdoor furniture 165,000 at $3.31)",
+  "competition_note": "Costco, Sam's, Home Depot, Wayfair, Amazon at the kit tier; local contractors at the custom tier.",
+  "seasonality_note": "pergola Dec-Jan 0.59x average and outdoor furniture 0.47x (peaks Apr-May). Dec/Jan is the worst window.",
+  "risk_note": "Wind/snow load failures, permits, installation injury; heavy freight.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "e-bike",
+  "name": "E-bikes",
+  "price_low": 999,
+  "price_high": 2499,
+  "typical_aov": 2000,
+  "aov_label": "ESTIMATED (levyelectric.com 'typical purchase about $2,000', brand blog)",
+  "price_source": "ESTIMATED: Lectric XP4 $999; Aventon $999-1,999 and Velotric $1,299-1,899 (wetried.it); Upway $2,000-3,000 with accessories (reseller blog)",
+  "margin_low_pct": 20,
+  "margin_high_pct": 45,
+  "margin_label": "ESTIMATED",
+  "margin_source": "Australian complete bikes 20-45%, high-end e-bikes lowest (flowmountainbike.com, not US); NBDA guidance: do not sell below 41% (showdaily.net, July 2025, a target not an average)",
+  "freight": "parcel",
+  "shipping_note": "Oversize parcel (about 50-80 lb boxed, ASSUMED typical). Lithium batteries are regulated dangerous goods in transport (general knowledge; confirm carrier rules). Assembly/tuning needed.",
+  "suppliers": [
+   {
+    "name": "Aventon",
+    "url": "https://aventon.com/pages/become-a-dealer",
+    "program": "Dealer application asks shop name and address; warranty labor reimbursement",
+    "accepts_new_online_dealers": "UNLIKELY for online-only (inferred)"
+   },
+   {
+    "name": "Velotric",
+    "url": "https://www.velotricbike.com/pages/find-a-dealer",
+    "program": "Dealers are test-ride locations",
+    "accepts_new_online_dealers": "UNLIKELY (inferred)"
+   },
+   {
+    "name": "Radio Flyer (Flyer e-bikes)",
+    "url": "https://flyer.radioflyer.com//dealer-application",
+    "program": "Not opening new drop-shipping accounts; requires walk-in location",
+    "accepts_new_online_dealers": "NO (stated)"
+   },
+   {
+    "name": "Emmo",
+    "url": "https://emmo.ca/pages/become-a-dealer",
+    "program": "Works with brick-and-mortar and e-commerce (Canadian brand)",
+    "accepts_new_online_dealers": "YES (stated; Canada)"
+   }
+  ],
+  "keyword": "electric bike",
+  "search_volume": 1500000,
+  "cpc": 1.1,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19",
+  "competition_note": "DTC-first brands (Lectric, Aventon, Velotric, Rad), Amazon and Walmart flooded with cheap imports, Costco, Best Buy, local bike shops. Rad Power Bikes went through Chapter 11 (Dec 15, 2025) and was sold to Life EV for $13.2M (bicycleretailer.com, Mar 2026): sign of margin pressure.",
+  "seasonality_note": "electric bike Dec-Jan 0.68x average (peak Apr-Oct). Dec/Jan weak except gifts.",
+  "risk_note": "Highest product-safety risk in the set: lithium battery fires. CPSC proposed mandatory battery rule (16 CFR 1265, NPRM June 24, 2026, comments closed Aug 24, 2026; no final rule found) referencing UL 2849. Crash liability; state and city e-bike rules not researched here. Rad could not afford a battery recall before bankruptcy.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "espresso-machine",
+  "name": "Prosumer and commercial espresso machines",
+  "price_low": 1747,
+  "price_high": 8820,
+  "typical_aov": 2500,
+  "aov_label": "ASSUMED (judgment; Rocket Appartamento about $2,100 to Profitec Pro 600 about $2,500)",
+  "price_source": "ESTIMATED: 57 dual-boiler machines $1,747-8,820 (select.keenable.ai, 2026); La Marzocco Micra $3,672, Linea Mini R $6,588 (retailer via aggregator); Rocket Appartamento about $2,100. Commercial machine prices not collected (UNKNOWN).",
+  "margin_low_pct": 20,
+  "margin_high_pct": 35,
+  "margin_label": "ESTIMATED (weak)",
+  "margin_source": "Generated pricing report: commercial dealer/distributor margin 'est. 20-35%' (storage.googleapis.com unspsc report, low reliability); consumer blog claims 40-60% retail markup (baristalife.co, marketing)",
+  "freight": "parcel",
+  "shipping_note": "Prosumer machines ship parcel (heavy, 50-80 lb, ASSUMED typical); commercial units LTL. Used machines are hard to resell, so retailers restrict returns.",
+  "suppliers": [
+   {
+    "name": "La Marzocco Home (US)",
+    "url": "https://clivecoffee.com/blogs/learn/where-to-buy-a-la-marzocco-espresso-machine-in-the-us-clive-coffee",
+    "program": "Network of authorized US dealers",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Rocket, Profitec, ECM (via US distributors)",
+    "url": "https://cliffandpebble.com/pages/authorized-dealer",
+    "program": "Dealer status confirmed by manufacturer/distributor; price-match only vs authorized dealers",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Breville",
+    "url": "https://metricscart.com",
+    "program": "MAP monitored (third-party MAP compliance reports)",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "espresso machine",
+  "search_volume": 368000,
+  "cpc": 1.12,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19 (commercial espresso machine 14,800 at $3.70)",
+  "competition_note": "Entrenched specialists (Whole Latte Love, Seattle Coffee Gear, Clive, Cliff & Pebble, Espresso Parts) plus Amazon/Williams Sonoma for Breville. Head keyword is dominated by sub-$500 machines.",
+  "seasonality_note": "espresso machine Dec-Jan 1.23x average (peak Nov 2025); commercial flat (1.08x). Good in Nov/Dec.",
+  "risk_note": "Scald/pressure-vessel risk, electrical (some 20A or 240V commercial), service-heavy category (repairs, descaling) that favors established dealers.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "electric-fireplace",
+  "name": "Electric fireplaces (added)",
+  "price_low": 670,
+  "price_high": 8999,
+  "typical_aov": 1500,
+  "aov_label": "ASSUMED (judgment; mid-range linear units $1,000-2,500)",
+  "price_source": "ESTIMATED: Napoleon Purview from $669 (fireplacesdirect.com); Dimplex 42-inch $1,304.99 (efireplacestore.com); Modern Flames price guide effective 05/01/2025 Orion $4,799-6,499 (modernflames.com, OLD); Dimplex Opti-myst 66-inch $8,999",
+  "margin_low_pct": 38,
+  "margin_high_pct": 40,
+  "margin_label": "ESTIMATED (dated, all hearth products)",
+  "margin_source": "Hearth & Home survey: 2014 hearth retailer target gross margin 40%, actual 38% (hearthandhome.m.xtenit.com, OLD; not electric-specific)",
+  "freight": "parcel",
+  "shipping_note": "Most wall/insert units ship parcel; mantel units heavier. Touchstone states buyer unpacks and installs.",
+  "suppliers": [
+   {
+    "name": "Dimplex",
+    "url": "https://www.dimplex.com/en-us/flame/where-to-buy",
+    "program": "Authorized dealers plus Home Depot, Lowe's, Amazon",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Modern Flames",
+    "url": "https://modernflames.com",
+    "program": "Dealer locator; public price guide",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Napoleon",
+    "url": "https://pricebook.napoleon.com/en/ufhx/hearth/fireplaces/wall-hanging-electric-fireplaces/allure-vertical-series",
+    "program": "Dealer price book; MAP policy",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Touchstone",
+    "url": "https://www.touchstonehomeproducts.com/pages/electric-fireplace-ground-shipping",
+    "program": "Sells DTC and on marketplaces; no reseller page found",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "electric fireplace",
+  "search_volume": 135000,
+  "cpc": 1.4,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-16",
+  "competition_note": "Home Depot, Lowe's, Amazon, Wayfair and brand DTC; low CPC but many cheap units in the head term.",
+  "seasonality_note": "Most seasonal in the set: Google Trends Dec-Jan 1.67x average, peak Nov. Nov-Jan is prime; this year's peak is already starting.",
+  "risk_note": "120V plug-in on most units (some hardwired 240V); fire/heater safety listings (UL/ETL); low install risk.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "portable-power-station",
+  "name": "Home backup power stations (added)",
+  "price_low": 299,
+  "price_high": 6199,
+  "typical_aov": 2000,
+  "aov_label": "ASSUMED (judgment; Anker F3800 about $1,800-2,200)",
+  "price_source": "ESTIMATED: EcoFlow sale 'from $299' (9to5toys.com Oct 2026); Anker Solix F3800 $1,799.99-2,199.99 (tracker, Oct 2026); EcoFlow Delta Pro Ultra $4,099-4,849, with extra battery $6,199 (deal/review sites)",
+  "margin_low_pct": null,
+  "margin_high_pct": null,
+  "margin_label": "UNKNOWN",
+  "margin_source": "No dealer margin found.",
+  "freight": "parcel",
+  "shipping_note": "Parcel, but lithium batteries are regulated dangerous goods in transport; large units 100+ lb (ASSUMED). Whole-home kits need a transfer switch/panel installed by an electrician.",
+  "suppliers": [
+   {
+    "name": "Bluetti",
+    "url": "https://bluetti.com/?p=26",
+    "program": "Authorized distributors get training; installer/dealer package",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Jackery",
+    "url": "https://www.jackery.com/pages/where-to-buy",
+    "program": "Authorized dealer list; warranty only via authorized dealers",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "EcoFlow",
+    "url": "https://ui.awin.com/merchant-profile-terms/59181",
+    "program": "Affiliate program found; dealers advertise price match",
+    "accepts_new_online_dealers": "UNKNOWN"
+   }
+  ],
+  "keyword": "portable power station",
+  "search_volume": 246000,
+  "cpc": 0.89,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19",
+  "competition_note": "Brand DTC with deep, frequent discounts, Amazon, Costco, Home Depot, Best Buy; constant sales make MAP margin thin (inferred).",
+  "seasonality_note": "Dec-Jan 1.27x average (peak Jan 2026, plus storm-driven spikes). Good in winter.",
+  "risk_note": "Lithium battery fire risk, electrical install for home backup (transfer switch), dangerous-goods shipping.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "fire-pit-table",
+  "name": "Gas fire pit tables (added)",
+  "price_low": 399,
+  "price_high": 4499,
+  "typical_aov": 2000,
+  "aov_label": "ASSUMED (judgment; Outdoor GreatRoom $999-4,499)",
+  "price_source": "ESTIMATED: Outdoor GreatRoom Stonefire 31-inch $999, Cove 36-inch $2,499, Edison $2,999-3,199, Key Largo 42-inch $4,499 (retailer listings, undated); Breeo X Series 24 $599 list (Jan 2026), Breeo raised prices July 2026",
+  "margin_low_pct": 30,
+  "margin_high_pct": 50,
+  "margin_label": "ESTIMATED (category proxy, dated)",
+  "margin_source": "Same outdoor-category trade source: 30-50% (likely OLD). No brand figure found.",
+  "freight": "ltl",
+  "shipping_note": "Smaller tables parcel, larger tables LTL (mixed). Natural-gas conversion needs a licensed installer.",
+  "suppliers": [
+   {
+    "name": "Outdoor GreatRoom Company (HNI)",
+    "url": "https://outdoorrooms.com/blogs/blog/hearth-retailers-how-increase-sales",
+    "program": "Dealer sign-up; early-buy program for trade partners (2023-2024 doc)",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Breeo",
+    "url": "https://breeo.com/collections",
+    "program": "'Want to be a Dealer?' program link",
+    "accepts_new_online_dealers": "UNKNOWN"
+   },
+   {
+    "name": "Solo Stove",
+    "url": "https://faire.com/brand/b_5eo1sh6qxt",
+    "program": "Wholesale via Faire marketplace",
+    "accepts_new_online_dealers": "POSSIBLE via Faire (Faire blocked to fetch)"
+   }
+  ],
+  "keyword": "fire pit table",
+  "search_volume": 18100,
+  "cpc": 1.62,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19",
+  "competition_note": "BBQGuys, Shoppers Choice, Home Depot, Lowe's, Wayfair and many small dealers carry the same OGC SKUs.",
+  "seasonality_note": "Dec-Jan 0.70x average (peak May). Dec/Jan weak.",
+  "risk_note": "Gas fire and burn risk, propane/natural-gas fittings, CSA certification.",
+  "checked": "2026-11-19"
+ },
+ {
+  "id": "pool-table",
+  "name": "Slate pool tables and game room (added)",
+  "price_low": 2000,
+  "price_high": 12000,
+  "typical_aov": 5000,
+  "aov_label": "ESTIMATED (generic 2026 guide 'average $5,000', low-quality source)",
+  "price_source": "ESTIMATED: slate tables $2,000-12,000, average about $4,000-5,000 (risingsunartscentre.org guides, low quality); Olhausen retailer listings from $5,195-6,195 incl. delivery (everythingbilliards.net)",
+  "margin_low_pct": 35,
+  "margin_high_pct": 40,
+  "margin_label": "ESTIMATED (forum anecdote)",
+  "margin_source": "AZ Billiards forum: dealers say 35%+ to 40% achievable (forums.azbilliards.com; anecdote)",
+  "freight": "ltl",
+  "shipping_note": "LTL plus professional installation (slate leveling, felt); delivery and setup $350-1,500 for Olhausen per one guide. Needs a local installer network.",
+  "suppliers": [
+   {
+    "name": "Olhausen Billiards",
+    "url": "https://www.olhausenbilliards.com/wp-content/uploads/2023/08/Olhausen_Billiards_MSRP_2023.pdf",
+    "program": "Dealer network with MSRP/MAP and wholesale spec manual",
+    "accepts_new_online_dealers": "UNLIKELY for online-only (install network; inferred)"
+   }
+  ],
+  "keyword": "pool table",
+  "search_volume": 201000,
+  "cpc": 1.5,
+  "keyword_source": "DataForSEO Google Ads, US, checked 2026-11-19",
+  "competition_note": "Local billiards dealers (installation), Costco, Amazon/Wayfair for non-slate tables.",
+  "seasonality_note": "Dec-Jan 1.37x average (peak Dec 2025). Good in Dec/Jan.",
+  "risk_note": "Very heavy freight, install dependence, damage on delivery; low electrical risk.",
+  "checked": "2026-11-19"
+ }
+]
