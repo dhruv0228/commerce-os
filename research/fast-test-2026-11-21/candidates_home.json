@@ -1,0 +1,959 @@
+[
+  {
+    "id": "handheld-vacuum-sealer-kit",
+    "category": "kitchen",
+    "product": "Rechargeable handheld food vacuum sealer kit with reusable zip bags (and optional containers)",
+    "what_it_solves": "Food going off in the fridge and freezer burn; a pocket-size sealer pulls the air out of a reusable bag in about five seconds, with no bulky countertop machine and no single-use rolls.",
+    "sell_price": 69.99,
+    "sell_price_source": "Proposed kit price (sealer plus 30 reusable bags). Anchors: https://chefpreserve.com/products.json shows Chef Preserve Compact Vacuum Sealer at $67.99 to $79.99, compare-at $204.99 (VERIFIED, read 2026-11-21); Amazon generic kit with 30 bags at $59.99 (VERIFIED via DataForSEO 2026-11-21)",
+    "amazon": {
+      "typical_price": 65.82,
+      "bought_past_month_top_listings": 24850,
+      "listings_counted": 16,
+      "top_listing_url": "https://www.amazon.com/dp/B0D3ZBFMW6",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Chef Preserve",
+        "url": "https://chefpreserve.com/products/chef-preserve-compact-vacuum-sealer",
+        "price": 67.99,
+        "traction_evidence": "Product page shows '4.8' and '(12593 reviews)' (VERIFIED read, vendor figure). Amazon: 15,000+ bought in past month across three bag-count variants at $67.64 to $79.20, 16,336 ratings, #2 in Vacuum Sealers and #68 in Kitchen & Dining (VERIFIED via DataForSEO). Google searches for 'chef preserve': 27,100 a month on average, 135,000 in Dec 2025 (VERIFIED via DataForSEO Google Ads data). Product page showed 'Out of stock' on 2026-11-21.",
+        "is_whale": true
+      },
+      {
+        "store": "Mason Genie (jar sealer cousin)",
+        "url": "https://masongenie.com/products/mason-genie-4",
+        "price": 49.99,
+        "traction_evidence": "17 of the first-screen ads in a Meta Ad Library search for 'mason jar vacuum sealer' (about 390 keyword results, read 2026-11-21). A second kit is listed at $99.99.",
+        "is_whale": false
+      },
+      {
+        "store": "FoodSaver handheld and compact (Newell Brands)",
+        "url": "https://www.amazon.com/dp/B08BDHZ1PV",
+        "price": 69.99,
+        "traction_evidence": "2,000+ bought in past month at $69.99, 16,100 ratings (VERIFIED via DataForSEO). Legacy brand in countertop sealers.",
+        "is_whale": true
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=handheld%20vacuum%20sealer): about 810 keyword results for 'handheld vacuum sealer', first screen led by Chef Preserve (7 ads) plus at least 6 creator partnership ads 'with Chef Preserve', Mason Genie (3), Vakumar (1). 'chef preserve' returned about 6,100 results and 'vacuum sealer' about 7,300. Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read; flaky page, see notes).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: handheld vacuum sealer with 12 reusable bags",
+        "url": "https://www.aliexpress.us/item/3256813326072052.html",
+        "unit_cost": 18.89,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 4 sold; one of two reads showed 'Early bird deal, only 1 left', so stock depth is doubtful."
+      },
+      {
+        "source": "AliExpress US stock: cordless handheld vacuum sealer with 10 reusable bags",
+        "url": "https://www.aliexpress.us/item/3256813312647183.html",
+        "unit_cost": 17.85,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 2 sold; 'only 3 left' on one read."
+      },
+      {
+        "source": "AliExpress US stock: handheld vacuum sealer with 5 reusable bags",
+        "url": "https://www.aliexpress.us/item/3256812278149364.html",
+        "unit_cost": 27.29,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "UNKNOWN (no delivery tag on card)",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 5 sold, rating 5.0."
+      },
+      {
+        "source": "AliExpress China: handheld rechargeable food vacuum sealer kit",
+        "url": "https://www.aliexpress.us/item/3256811842736536.html",
+        "unit_cost": 15.28,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). Shipping fee not shown on the card: UNKNOWN. 72 sold, rating 4.3."
+      },
+      {
+        "source": "AliExpress China: extra reusable vacuum bags, 10 pieces (cost proxy for topping the kit up to 30 bags)",
+        "url": "https://www.aliexpress.us/item/3256811824706919.html",
+        "unit_cost": 1.33,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05'",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 2,000 sold. Shipping fee UNKNOWN. A US-stock source for extra bags was not found."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/handheld+vacuum+sealer.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ search and product pages redirect to a human-verification page (WebFetch and Playwright both blocked on 2026-11-21)"
+      }
+    ],
+    "best_us_landed_cost": 18.89,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). Kit with 12 bags; the proposed 30-bag kit needs extra bags (US-stock source UNKNOWN).",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: the only kit card ($15.28) is a new-shopper promo price with no shipping fee shown",
+    "weight_lb": 2.2,
+    "demo_score_1to5": 4,
+    "bundle_idea": "Sealer plus 30 reusable bags at $69.99; step-up with 3 vacuum containers; bag refills (30 for about $30 at Chef Preserve) as the reorder item.",
+    "whale_note": "One brand dominates: Chef Preserve holds about 15,000 of the 24,850 monthly Amazon units counted at $40 or more and most of the visible Meta ads. It proves the offer and the price, but a new store is selling the generic against the name people search for. Not a household giant; FoodSaver is the legacy giant but is weak in handheld.",
+    "ip_safety_flags": "No Chef Preserve patent or lawsuit surfaced in one web search (not a clearance); Chef Preserve LLC filed a trademark in May 2024, so never use the name or copy its look. FoodSaver (Newell) lists patents on handheld sealers. A mason-jar sealer patent is in active litigation, so leave jar attachments out until checked. Lithium battery inside. Bags touch food: ask the supplier for food-contact and BPA documents before claiming 'BPA-free'. Weight 2.2 lb is the Amazon listing weight of the Chef Preserve kit (VERIFIED via DataForSEO).",
+    "season_note": "Good. Gift peak in December ('handheld vacuum sealer' 18,100 Google searches in Dec 2025 and 14,800 in Jan 2026 against 2,400 in Jul 2026) and January meal-prep interest.",
+    "risks": "US-stock listings have 2 to 5 sales each and thin stock; quality and bag seal unknown until the sample arrives. Chef Preserve is on Amazon Prime at $67 to $79, so price and trust comparison is direct. Reusable-bag leaks drive refunds in this type. Promo and stock can change daily.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "filtered-shower-head-kit",
+    "category": "bathroom",
+    "product": "Filtered shower head (handheld or fixed) with a 3-filter starter pack",
+    "what_it_solves": "Hard, chlorinated shower water and weak pressure; a filter cartridge in the head that is swapped every 2 to 3 months.",
+    "sell_price": 79.0,
+    "sell_price_source": "Proposed kit price (head plus 3 cartridges). Anchors: Weddell Duo $68.40 and MyHalos $59.99 on Amazon (VERIFIED via DataForSEO 2026-11-21); Eskiin $149 to $169 at https://eskiin.com/products.json (VERIFIED 2026-11-21); Afina $103.20 and Jolie $169 on Amazon (VERIFIED via DataForSEO)",
+    "amazon": {
+      "typical_price": 68.7,
+      "bought_past_month_top_listings": 23150,
+      "listings_counted": 40,
+      "top_listing_url": "https://www.amazon.com/dp/B0CGM2S5LX",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Eskiin",
+        "url": "https://eskiin.com/products/eskiin-filtered-showerhead-4",
+        "price": 149.0,
+        "traction_evidence": "14 own ads plus creator partnership ads on the first screen of a Meta Ad Library search for 'filtered shower head' (about 2,600 keyword results, read 2026-11-21). Replacement filter sells 3,000+ a month on Amazon at $49 (VERIFIED via DataForSEO). Handheld V2 is $169, replacement filters $36 to $49.",
+        "is_whale": false
+      },
+      {
+        "store": "Jolie",
+        "url": "https://jolieskinco.com",
+        "price": 169.0,
+        "traction_evidence": "Amazon: showerhead 1,000+ bought in past month at $169, replacement filter 8,000+ at $38 (VERIFIED via DataForSEO). Google 'jolie shower head' 60,500 searches a month. Own site blocked by Cloudflare, so the site price is not confirmed.",
+        "is_whale": true
+      },
+      {
+        "store": "Afina",
+        "url": "https://www.amazon.com/dp/B0CXYYF5HW",
+        "price": 103.2,
+        "traction_evidence": "Amazon: 1,000+ bought in past month at $103.20, replacement filter 6,000+ at $29 (VERIFIED via DataForSEO).",
+        "is_whale": false
+      },
+      {
+        "store": "Weddell Duo",
+        "url": "https://www.amazon.com/dp/B0CGM2S5LX",
+        "price": 68.4,
+        "traction_evidence": "Amazon: 2,000+ bought in past month, 1,327 ratings, #4 in Showerhead Filters; listing claims NSF certification (listing claim, not checked).",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=filtered%20shower%20head): about 2,600 keyword results; first screen: Eskiin 14, creator ads 'with Eskiin' 6, Cold Life 2, Sproos 2, rorra 1. Keyword match counts, not one product (VERIFIED read).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: shower kit with 25-level filter",
+        "url": "https://www.aliexpress.us/item/3256813429023307.html",
+        "unit_cost": 12.95,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold."
+      },
+      {
+        "source": "AliExpress US stock: 35-stage shower filter with cartridges",
+        "url": "https://www.aliexpress.us/item/3256813395678083.html",
+        "unit_cost": 14.89,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 0 sold."
+      },
+      {
+        "source": "AliExpress US stock: 20-stage high pressure shower head filter combo, 3 replaceable filters",
+        "url": "https://www.aliexpress.us/item/3256812996599602.html",
+        "unit_cost": 15.21,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 1 sold."
+      },
+      {
+        "source": "AliExpress US stock: 15/20-stage inline shower filter",
+        "url": "https://www.aliexpress.us/item/3256811732448577.html",
+        "unit_cost": 9.92,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 11 sold, rating 5.0."
+      },
+      {
+        "source": "AliExpress China: 5-spray filtered shower head, high pressure",
+        "url": "https://www.aliexpress.us/item/3256812791638752.html",
+        "unit_cost": 10.45,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 10,000+ sold, rating 4.9. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/filtered+shower+head.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 12.95,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). Only 1 sale on the listing; whether it includes spare cartridges is not confirmed.",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: China cards show $9.59 to $10.45 unit price (10,000+ sold) but no shipping fee",
+    "weight_lb": 1.1,
+    "demo_score_1to5": 2,
+    "bundle_idea": "Head plus 3 cartridges at $79; replacement cartridges on subscribe-and-save (Amazon shows 43,300 replacement cartridge units a month at $20 or more across 30 listings).",
+    "whale_note": "Jolie is a famous, heavily funded brand at $169 and Eskiin outspends everyone visible on Meta at $149 to $169. They set a high price anchor, which helps a $79 kit, but they own the hair-and-skin story that we are not allowed to tell.",
+    "ip_safety_flags": "No health, hair-loss or skin claims (Dhruv's exclusion). 'NSF certified', 'removes 99% of chlorine' and similar need a real test report for the exact filter; generic 15 to 35 'stage' filters rarely have one. Do not copy Jolie or Eskiin design or wording. Plumbing fit (1/2 inch NPT) drives some returns. Weight 1.12 lb is the Amazon listing weight of Weddell Duo (VERIFIED via DataForSEO).",
+    "season_note": "Neutral to good. Flat demand all year ('filtered shower head' 110,000 Google searches in Dec 2025 and Jan 2026, 74,000 in Jul 2026). Not a gift item, so no post-Christmas drop.",
+    "risks": "The benefit is invisible in a 3-second ad unless a claim is made that we cannot support. Google CPC is $4.92 (DataForSEO), a sign of crowded bidding. US listings have 0 to 11 sales. Filter quality is unverifiable without lab data, so refund risk if buyers expect Jolie-level results.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "hd-galaxy-projector",
+    "category": "lighting and decor",
+    "product": "HD galaxy (planetarium) projector with interchangeable film discs, LED based",
+    "what_it_solves": "A bedroom or living room that feels plain at night; projects a sharp galaxy or nebula scene across the ceiling for ambience and falling asleep.",
+    "sell_price": 59.99,
+    "sell_price_source": "https://galaxylamps.co/products/galaxy-projector sells at $59.99 (second model $79.99), VERIFIED in research/fast-test-2026-11-21/05_store_teardowns.md on 2026-11-21; Pococo base model $99.99 at https://www.pococo.com/products.json (VERIFIED 2026-11-21)",
+    "amazon": {
+      "typical_price": 122.39,
+      "bought_past_month_top_listings": 10600,
+      "listings_counted": 23,
+      "top_listing_url": "https://www.amazon.com/dp/B0HDP3FRRJ",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Galaxy Lamps",
+        "url": "https://galaxylamps.co/products/galaxy-projector",
+        "price": 59.99,
+        "traction_evidence": "Trustpilot 1.4 on 104 reviews; no active ads found on its own page (both from 05_store_teardowns.md, VERIFIED there 2026-11-21). A warning as much as a competitor.",
+        "is_whale": false
+      },
+      {
+        "store": "Pococo",
+        "url": "https://www.pococo.com/products/galaxy-projector-star-projector-black",
+        "price": 99.99,
+        "traction_evidence": "Amazon: about 900 bought in past month across three variants at $75.99, 2,900 ratings (VERIFIED via DataForSEO). Sells disc refill sets at $27.99 to $59.99. ZM01 model $149.",
+        "is_whale": false
+      },
+      {
+        "store": "Tibatoes",
+        "url": "https://tibatoes.com",
+        "price": 34.95,
+        "traction_evidence": "Home page claims '4.8' from '1,200+' reviews (vendor claim). 8 own ads on the first screen of a Meta Ad Library search for 'galaxy projector'. States 6 to 10 business days delivery.",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=galaxy%20projector): about 1,600 keyword results; first screen: Tibatoes 8, Basedfindz 4, Parent Viral 3, GOVEE 1 and several one-ad pages. The page needed 4 tries before it returned results (VERIFIED read, keyword matches).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: star projector with 13 HD discs and Bluetooth",
+        "url": "https://www.aliexpress.us/item/3256810464085126.html",
+        "unit_cost": 28.06,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 80 sold, rating 4.4."
+      },
+      {
+        "source": "AliExpress US stock: HD galaxy projector, 12-in-1 film discs, 'Pro version'",
+        "url": "https://www.aliexpress.us/item/3256812596145569.html",
+        "unit_cost": 19.36,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 2,000+ sold, rating 4.9."
+      },
+      {
+        "source": "AliExpress US stock: HD galaxy projector planetarium",
+        "url": "https://www.aliexpress.us/item/3256812589620895.html",
+        "unit_cost": 15.64,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 2,000+ sold, rating 4.9."
+      },
+      {
+        "source": "AliExpress China: astronaut planetarium projector with 12 discs",
+        "url": "https://www.aliexpress.us/item/3256812523246641.html",
+        "unit_cost": 15.45,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "CN",
+        "delivery_days": "UNKNOWN (no delivery tag on this card; other China cards show 'Delivery: Nov. 30 - Dec. 05')",
+        "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 57 sold, 'Free shipping' tag."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/galaxy+projector.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 28.06,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). Cheaper US cards at $15.64 to $19.76 with 1,000 to 2,000+ sales exist, but all carry new-shopper promo pricing, so their repeat price is UNKNOWN.",
+    "best_cn_landed_cost": 15.45,
+    "best_cn_landed_label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN); 'Free shipping' tag on the card",
+    "weight_lb": null,
+    "demo_score_1to5": 5,
+    "bundle_idea": "Projector plus two extra disc packs at $59.99 to $69.99; disc packs as the add-on and reorder item (Pococo sells packs at $27.99 to $59.99).",
+    "whale_note": "No single whale. Govee and BlissLights sell cheaper laser-and-nebula units at mass retail; the disc-type projector is spread over many small sellers.",
+    "ip_safety_flags": "Pick an LED-only model: units with laser star dots need an FDA CDRH laser product report from the importer. Amazon ranks the top listing under Baby > Nursery Night Lights, so never market it for children (children's product rules; children's products are excluded). Do not copy Pococo or Sega Homestar housings; disc artwork must not use licensed characters. Parcel weight UNKNOWN (Amazon listing shows only dimensions 4.49 x 4.49 x 7.48 in for the larger 3D type).",
+    "season_note": "Good until the Christmas cutoff, weak after. 'galaxy projector' 18,100 Google searches in Dec 2025, 9,900 in Jan 2026.",
+    "risks": "The Amazon units counted at $40 or more are mostly a newer '3D, 66 scenes' type at $120 to $133 (about 7,200 a month over 5 brands), which is a different and costlier product; the disc type that US stock offers at $15 to $28 sells mainly under $40 on Amazon (80,050 units a month over 69 listings). A $59.99 price therefore sits well above the Amazon anchor, and Galaxy Lamps' 1.4 Trustpilot score shows how that ends when delivery or quality slips. Saturated since 2021.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "rechargeable-wall-sconce-pair",
+    "category": "lighting and decor",
+    "product": "Rechargeable battery wall sconces, set of 2, with remote and dimmable rechargeable bulbs (no wiring)",
+    "what_it_solves": "Wanting wall lighting by a bed, sofa or hallway without an electrician or drilling into a rental; stick or screw on, charge the bulb by USB.",
+    "sell_price": 109.99,
+    "sell_price_source": "Proposed price for a complete pair. Anchors: Pridola sells 2 sconces without bulbs at $59.99 and the rechargeable bulb pair at $69.99, total $129.98 (VERIFIED, https://pridola.co/products/natural-wireless-wall-sconce-1 and https://pridola.com/products.json, 2026-11-21); Solariko $98 each (VERIFIED, https://solariko.com/products.json); Poplight $99 each (ESTIMATED, NBC Select and looper.com via search snippets 2026-11-21; site blocked). Amazon sets of 2 sell at $45 to $57 (VERIFIED via DataForSEO)",
+    "amazon": {
+      "typical_price": 52.2,
+      "bought_past_month_top_listings": 20950,
+      "listings_counted": 56,
+      "top_listing_url": "https://www.amazon.com/dp/B0D9YCRC52",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Pridola",
+        "url": "https://pridola.co/products/natural-wireless-wall-sconce-1",
+        "price": 59.99,
+        "traction_evidence": "20 ads on the first screen of a Meta Ad Library search for 'rechargeable wall sconces' (Pridola's Design 13, Pridola 7). Page claims 'Over +150,000 happy customers' (vendor claim) and showed 'Backordered, shipping soon'. Price is for 2 sconces with bulbs sold separately at $69.99 a pair. States USPS delivery in 5 to 7 business days.",
+        "is_whale": false
+      },
+      {
+        "store": "Poplight",
+        "url": "https://thepoplight.com",
+        "price": 99.0,
+        "traction_evidence": "Shark Tank brand; NBC Select and Apartment Therapy reviews; Google 'poplight' 9,900 searches a month. Price is per sconce (ESTIMATED from search snippets; site blocked by a bot wall).",
+        "is_whale": false
+      },
+      {
+        "store": "Solariko",
+        "url": "https://solariko.com/products/amalfi-wall-sconce-1",
+        "price": 98.0,
+        "traction_evidence": "1 ad on the first screen for 'rechargeable wall sconces'. Compare-at $190 shown.",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=rechargeable%20wall%20sconces): about 170 keyword results for 'rechargeable wall sconces' (Pridola pages 20, Mistiva Studio 2, Solariko 1, Pooky Lighting US 1, Poplight 1) and about 9 for 'battery operated wall sconce' (VERIFIED read, keyword matches). A small ad field compared with the other candidates.",
+    "supply": [
+      {
+        "source": "AliExpress US stock: 2-pack rechargeable wall sconce, wireless LED, 360 degree rotating",
+        "url": "https://www.aliexpress.us/item/3256813221763449.html",
+        "unit_cost": 36.69,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 12 sold."
+      },
+      {
+        "source": "AliExpress US stock: battery operated wall sconces set of 2 with remote",
+        "url": "https://www.aliexpress.us/item/3256812127282325.html",
+        "unit_cost": 47.15,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 0 sold. Closest match to the Amazon best-seller style."
+      },
+      {
+        "source": "AliExpress US stock: battery operated wall sconce set of 2, 4000mAh",
+        "url": "https://www.aliexpress.us/item/3256812530050718.html",
+        "unit_cost": 52.89,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold."
+      },
+      {
+        "source": "AliExpress US stock: 2-pack modern rechargeable bedside wall lamps (plastic)",
+        "url": "https://www.aliexpress.us/item/3256812970669488.html",
+        "unit_cost": 23.29,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold. Plainer product than the DTC style."
+      },
+      {
+        "source": "AliExpress China: battery wall light with remote (price per light, pack size not confirmed)",
+        "url": "https://www.aliexpress.us/item/3256811909412436.html",
+        "unit_cost": 21.99,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 700 sold, rating 4.9. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/rechargeable+wall+sconce.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 36.69,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 12 sold. Styles closer to the Amazon best sellers cost $45.91 to $52.89 on the same filter.",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: China cards show about $19 to $22 per light with no shipping fee and unclear pack size",
+    "weight_lb": 4.0,
+    "demo_score_1to5": 3,
+    "bundle_idea": "Pair with bulbs and remote at $109.99; four-light room set as the step-up; matching rechargeable picture light as the add-on (Amazon 3-packs sell at $49 to $57).",
+    "whale_note": "No whale. 22 brands share 20,950 monthly Amazon units at $40 or more and no listing is above 2,000. Poplight is small and patent-protected; Pridola is a general home store pushing this item hard.",
+    "ip_safety_flags": "Poplight reports one design patent and two pending applications, one on its adhesive base (ESTIMATED, press articles; USPTO not checked): avoid the Poplight dome shape and adhesive-disc mount. Rechargeable bulbs contain lithium cells. Adhesive mounting can fail on textured walls: include screws and say so. Avoid glass shades (fragile exclusion); choose fabric or metal. Weight 4.0 lb is the Amazon listing weight of the top set of 2 (1,830 g, VERIFIED via DataForSEO).",
+    "season_note": "Good. Searches rise in January ('battery operated wall sconces' 22,200 in Jan 2026 against 14,800 in Dec 2025 and Jul 2026); a home-refresh item, not tied to Christmas.",
+    "risks": "Amazon sells the same set of 2 at $45 to $57 with Prime, so the DTC premium rests on styling and photos. US listings have 0 to 12 sales. Battery life complaints (bulbs last hours, not weeks) are the typical review theme. Cost from US stock is high relative to the price unless the pair sells near $110.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "japanese-style-knife-set",
+    "category": "kitchen",
+    "product": "Japanese-style high-carbon steel kitchen knife set (3 to 8 pieces) in a gift box or with a block",
+    "what_it_solves": "Dull, mismatched kitchen knives; a sharp matched set that also works as a gift.",
+    "sell_price": 99.0,
+    "sell_price_source": "Proposed price. Anchors: Senken 3-piece high-carbon set $69, Damascus 3-piece $199 (VERIFIED, https://senkenknives.com/products.json 2026-11-21); Seido 8-piece set $169, regular $429 (VERIFIED read of https://seidoknives.com 2026-11-21); Amazon non-legacy sets median $99.99 (VERIFIED via DataForSEO)",
+    "amazon": {
+      "typical_price": 99.99,
+      "bought_past_month_top_listings": 23100,
+      "listings_counted": 79,
+      "top_listing_url": "https://www.amazon.com/dp/B0GTV7FZJT",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Seido Knives",
+        "url": "https://seidoknives.com",
+        "price": 169.0,
+        "traction_evidence": "8-piece set shows '849 Reviews'; site shows '4.95 (1950)' (vendor figures). 8 own ads on the first screen for both 'damascus knife set' and 'japanese knife set' in Meta Ad Library.",
+        "is_whale": false
+      },
+      {
+        "store": "Senken Knives",
+        "url": "https://senkenknives.com",
+        "price": 69.0,
+        "traction_evidence": "3 to 4 ads on the first screen for the same searches. 84 products; block sets up to $689.",
+        "is_whale": false
+      },
+      {
+        "store": "ForgedBlade",
+        "url": "https://forgedblade.com",
+        "price": 249.99,
+        "traction_evidence": "6 ads on the first screen for 'damascus knife set'. 3-piece sets $249.99 to $279.99.",
+        "is_whale": false
+      },
+      {
+        "store": "HexClad",
+        "url": "https://www.amazon.com/dp/B0H73PZ9N2",
+        "price": 360.0,
+        "traction_evidence": "Famous cookware brand advertising knife sets on the same keywords (3 to 4 ads plus celebrity chef partnership ads on the first screen). 7-piece Damascus set $360 on Amazon.",
+        "is_whale": true
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=japanese%20knife%20set): about 740 keyword results for 'japanese knife set' and about 190 for 'damascus knife set'; first screens: SeidoKnives 8, ForgedBlade 6, Senken 3 to 4, Hatori Knives 3, HexClad 3 to 4, Santoku Knife Store 1 to 2, HUUSK 1 (VERIFIED read, keyword matches).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: 15-piece kitchen knife set with block and sharpener",
+        "url": "https://www.aliexpress.us/item/3256811768252454.html",
+        "unit_cost": 26.49,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "UNKNOWN (no delivery tag on card)",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 12 sold. Steel grade not stated on the card."
+      },
+      {
+        "source": "AliExpress US stock: 15-piece stainless knife block set",
+        "url": "https://www.aliexpress.us/item/3256813275914683.html",
+        "unit_cost": 33.39,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "UNKNOWN (no delivery tag on card)",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 10 sold."
+      },
+      {
+        "source": "AliExpress US stock: 7-piece 'Damascus steel' set with resin handles (claim not verified)",
+        "url": "https://www.aliexpress.us/item/3256813353109866.html",
+        "unit_cost": 29.99,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "UNKNOWN (no delivery tag on card)",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 5 sold. A real 7-piece Damascus set at this price is not credible; treat the pattern as etched."
+      },
+      {
+        "source": "AliExpress US stock: MDHAND 8 or 10 piece set, laser Damascus pattern (lowest variant price)",
+        "url": "https://www.aliexpress.us/item/3256807165823202.html",
+        "unit_cost": 49.12,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 27 sold, rating 4.0. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "AliExpress China: 4-piece set, 4Cr13 steel, Damascus pattern",
+        "url": "https://www.aliexpress.us/item/3256811636572797.html",
+        "unit_cost": 20.89,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 191 sold, rating 4.9, 'Free shipping' tag."
+      },
+      {
+        "source": "AliExpress China: XINZUO Damascus steel set, 1 to 3 pieces (price is the lowest variant, likely one knife)",
+        "url": "https://www.aliexpress.us/item/3256808996166618.html",
+        "unit_cost": 39.16,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "CN",
+        "delivery_days": "UNKNOWN",
+        "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 391 sold, rating 4.9, 'Free shipping' tag."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/kitchen+knife+set.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 26.49,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 15-piece block set, 12 sold; delivery days not shown; steel and build quality UNKNOWN until a sample is held.",
+    "best_cn_landed_cost": 20.89,
+    "best_cn_landed_label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN); 4-piece set with 'Free shipping' tag",
+    "weight_lb": 2.7,
+    "demo_score_1to5": 3,
+    "bundle_idea": "3-piece chef, santoku and utility set in a gift box at $99, or 8-piece set with block at $129; sharpening rod or pull-through sharpener as the add-on.",
+    "whale_note": "Legacy brands (Henckels, Cuisinart, Ninja) own the block-set volume on Amazon and HexClad advertises on the same keywords, but the Japanese-style gift set space is split across 30 smaller brands. No single owner.",
+    "ip_safety_flags": "Sharp goods: Meta's rule on kitchen knife ads was not read today (UNKNOWN), check before spending. Calling etched steel 'Damascus' or China-made knives 'Japanese' is deceptive: say 'Japanese-style' and state the real steel. Some carriers and states restrict knife sales to adults: UNKNOWN, check. Weight 2.7 lb is the Amazon listing weight of a 3-piece boxed set (1.22 kg, VERIFIED via DataForSEO); a 15-piece block set is about 8 to 9 lb (earlier scan, data/opportunities.csv).",
+    "season_note": "Good in December as a gift ('japanese knife set' 18,100 Google searches in Dec 2025 against 9,900 in Jan 2026), average after.",
+    "risks": "Quality is the product: a soft or poorly ground blade is obvious on first use and this category has a history of overhyped dropship brands. The US listings found are generic block sets, not the premium-looking sets DTC brands sell at $169 and up, so the photos must match what ships. Injury complaints. Knife ads may be limited. The Amazon count covers every non-legacy knife set returned for 'japanese chef knife set' and 'damascus knife set', including generic block sets; listings with 'Damascus' in the title total only 4,450 units over 22 listings.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "electric-spin-scrubber-kit",
+    "category": "cleaning",
+    "product": "Cordless electric spin scrubber with extension handle and 7 to 9 brush heads",
+    "what_it_solves": "Scrubbing tubs, grout and tile on hands and knees; a spinning brush on a pole does the work.",
+    "sell_price": 59.99,
+    "sell_price_source": "Proposed kit or 2-pack price. Anchors: Synoshi sells 1 for $42.99 plus $9.95 shipping and 2 for $49.96 plus $9.95 (VERIFIED in research/fast-test-2026-11-21/05_store_teardowns.md, 2026-11-21); HOTO $49.99 to $75.99 and qimedo Q2 $85.49 on Amazon (VERIFIED via DataForSEO 2026-11-21)",
+    "amazon": {
+      "typical_price": 66.99,
+      "bought_past_month_top_listings": 4100,
+      "listings_counted": 12,
+      "top_listing_url": "https://www.amazon.com/dp/B0H29MHHPV",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Synoshi",
+        "url": "https://synoshi.com",
+        "price": 42.99,
+        "traction_evidence": "Trustpilot 4.2 on 6,385 reviews; states 8 to 12 business days to the US; no active ads found on its own page (all from 05_store_teardowns.md, VERIFIED there 2026-11-21).",
+        "is_whale": false
+      },
+      {
+        "store": "HOTO",
+        "url": "https://www.amazon.com/dp/B0H29MHHPV",
+        "price": 49.99,
+        "traction_evidence": "Amazon: about 2,300 bought in past month across five HOTO models at $49.99 to $75.99 (VERIFIED via DataForSEO).",
+        "is_whale": false
+      },
+      {
+        "store": "qimedo Q2 long-handle",
+        "url": "https://www.amazon.com/dp/B0CSYSPP5X",
+        "price": 85.49,
+        "traction_evidence": "Amazon: 600+ bought in past month at $85.49, 1,432 ratings; a near-identical listing at the same price shows 500+ (VERIFIED via DataForSEO).",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=electric%20spin%20scrubber): about 100 keyword results for 'electric spin scrubber', spread over small pages (Noreina 4, SmartCarting Deals 2, Everything Envy 2, Nexora Global Shopping 2, Scrubro 1 and others). 'spin scrubber' returned 'No ads match' on 4 tries, which is treated as UNKNOWN, not zero (VERIFIED read, keyword matches).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: 9-in-1 cordless spin scrubber with 9 brush heads",
+        "url": "https://www.aliexpress.us/item/3256810505983786.html",
+        "unit_cost": 22.22,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 104 sold, rating 3.9 (low)."
+      },
+      {
+        "source": "AliExpress US stock: cordless spin scrubber with extension pole",
+        "url": "https://www.aliexpress.us/item/3256813180570610.html",
+        "unit_cost": 27.77,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 5 sold. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "AliExpress US stock: 9-in-1 electric spin scrubber, 9 brush heads",
+        "url": "https://www.aliexpress.us/item/3256813176774275.html",
+        "unit_cost": 19.82,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 800 sold, rating 4.9. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "AliExpress China: multifunctional cordless spin scrubber",
+        "url": "https://www.aliexpress.us/item/3256807159363367.html",
+        "unit_cost": 14.62,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 3,000 sold, rating 4.9. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/electric+spin+scrubber.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 22.22,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 104 sold but rating 3.9; the better-rated US card ($19.82, 800 sold, 4.9) is a promo price with no shipping fee shown.",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: China cards show $8.33 to $14.62 unit price (2,000 to 3,000 sold) but no shipping fee",
+    "weight_lb": null,
+    "demo_score_1to5": 5,
+    "bundle_idea": "Long-handle scrubber plus a full head set and a spare battery at $59.99, or a 2-pack (bathroom and kitchen) on a Synoshi-style ladder; replacement heads as the reorder item.",
+    "whale_note": "No whale, but Amazon generics own the price: 64,000 units a month sell under $40 (best seller at $33.99 with 10,000+ bought) against 4,100 at $40 or more.",
+    "ip_safety_flags": "Lithium battery. Water-resistance claims (IPX7) need supplier proof. No patent search done on the head-lock mechanism (UNKNOWN). Parcel weight UNKNOWN: a long-handle Amazon model lists 2.83 kg (6.2 lb), handheld models are far lighter.",
+    "season_note": "Neutral. Flat demand ('electric spin scrubber' 4,400 to 5,400 Google searches every month); a small bump from January cleaning resolutions is plausible but not shown in the data.",
+    "risks": "Weakest price power of the list: the same item is $20 to $40 on Amazon with Prime, so a $59.99 kit only works as a bundle. Saturated on dropship stores since 2023. The best-selling US listing is rated 3.9. Listed mainly because the demo is the strongest here.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "mattress-vacuum-uv",
+    "category": "cleaning and bedroom",
+    "product": "Handheld mattress and bed vacuum with a tapping motor (UV lamp models exist)",
+    "what_it_solves": "Dust, hair and debris inside mattresses, pillows and sofas that a normal vacuum misses; the clear bin shows what came out.",
+    "sell_price": 99.99,
+    "sell_price_source": "Jigoo sells its bed vacuums from $75.99 (S100) to $169.99 (T600), with J200 from $99.99 and J300 from $104.99 (VERIFIED read of https://jigoolife.com 2026-11-21). Sakerplus undercuts at $44.99 to $46.99 (VERIFIED, https://sakerplus.com/products.json)",
+    "amazon": {
+      "typical_price": 66.49,
+      "bought_past_month_top_listings": 14150,
+      "listings_counted": 53,
+      "top_listing_url": "https://www.amazon.com/dp/B0DNK7RHZS",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Jigoo",
+        "url": "https://jigoolife.com",
+        "price": 99.99,
+        "traction_evidence": "Seven bed-vacuum models on its own store; Amazon J300 at $75.28 with 700+ bought in past month and 1,000 ratings (VERIFIED via DataForSEO). Free shipping over $39.99, 2 to 3 business days processing.",
+        "is_whale": false
+      },
+      {
+        "store": "Sakerplus",
+        "url": "https://sakerplus.com",
+        "price": 46.99,
+        "traction_evidence": "Large discount gadget store; 'Cordless Handheld UV Mattress Vacuum Cleaner' $46.99 and a UV bed vacuum on clearance at $44.99. One creator ad 'with Sakerplus' on the first screen for 'mattress vacuum'.",
+        "is_whale": false
+      },
+      {
+        "store": "FEPPO (Amazon-native)",
+        "url": "https://www.amazon.com/dp/B0DNK7RHZS",
+        "price": 63.13,
+        "traction_evidence": "Amazon: 2,000+ bought in past month at $63.13, 1,996 ratings, #27 in Handheld Vacuums; two more FEPPO listings at $56.99 and $75.98 (VERIFIED via DataForSEO).",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=mattress%20vacuum): about 590 keyword results for 'mattress vacuum', but the first screen is mostly mattress brands and cleaning services (The Natural Household 6, Sleeping Duck 2, BEDGEAR 1, one Sakerplus creator ad, one Temu creator ad). No clear DTC advertiser of this product was seen (VERIFIED read; keyword is noisy).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: SucceBuy mattress vacuum, 18 kPa, dual dust bin, HEPA",
+        "url": "https://www.aliexpress.us/item/3256809005405149.html",
+        "unit_cost": 34.83,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 258 sold, rating 4.7."
+      },
+      {
+        "source": "VEVOR.com: 550W mattress vacuum, 18 kPa, HEPA, corded (same product family; retail site with a dropship program)",
+        "url": "https://www.vevor.com/s/mattress-vacuum-cleaner",
+        "unit_cost": 51.77,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "VERIFIED price read 2026-11-21 ($51.77 white, $60.90 gray, non-member prices); shipping fee, ship-from and delivery days not shown on the page: UNKNOWN. Ships in VEVOR-branded packaging (not blind)."
+      },
+      {
+        "source": "AliExpress US stock: 550W mattress vacuum, 18 kPa, dual dust cup",
+        "url": "https://www.aliexpress.us/item/3256811440408214.html",
+        "unit_cost": 69.59,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 0 sold."
+      },
+      {
+        "source": "AliExpress China: handheld cordless 10 kPa mattress mite vacuum",
+        "url": "https://www.aliexpress.us/item/3256806823754799.html",
+        "unit_cost": 31.89,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 837 sold, rating 4.9, 'Free shipping' tag."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/mattress+vacuum.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 34.83,
+    "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). Free shipping and 6-day tags on the card. The same product is $51.77 to $60.90 on vevor.com and other US cards without promo pricing are $69.59 to $71.49, so plan on the higher figures.",
+    "best_cn_landed_cost": 31.89,
+    "best_cn_landed_label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha); 'Free shipping' tag; a cordless, weaker 10 kPa model",
+    "weight_lb": 3.8,
+    "demo_score_1to5": 4,
+    "bundle_idea": "Vacuum plus 4 spare HEPA filters at $99.99; filters as the reorder item.",
+    "whale_note": "No whale in this sub-type; Jigoo is the mid-size specialist and Xiaomi Mijia sells in Asia. Bissell and Dyson pollute the search results but do not sell a mattress vacuum.",
+    "ip_safety_flags": "UV-C models: a claim that the lamp kills mites, germs or bacteria makes the unit a pesticide device under EPA rules (needs an EPA establishment number on the label and supportable claims); allergy and asthma claims are health claims (excluded). Safer to sell a no-UV model on 'see what comes out'. 500 W mains appliance: ask for the UL or ETL listing. Weight 3.8 lb is the Amazon listing weight of the FEPPO unit (VERIFIED via DataForSEO).",
+    "season_note": "Neutral to slightly good. 'mattress vacuum' 9,900 Google searches in Dec 2025 and Jan 2026 against 5,400 in Jul 2026.",
+    "risks": "Cost is the problem: outside a first-order promo, US stock runs $52 to $70 landed against an Amazon street price of $45 to $76 and Sakerplus at $45 to $47. A $99.99 price needs Jigoo-level trust. Noisy, corded and heavy-ish, so returns are plausible. Claims are easy to get wrong.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "waterless-scent-diffuser-kit",
+    "category": "home fragrance and decor",
+    "product": "Waterless (cold-air nebulizing) scent diffuser with a starter set of fragrance oils",
+    "what_it_solves": "Wanting the home to smell like a hotel lobby without candles or water-mist diffusers; a machine that atomizes oil on a timer.",
+    "sell_price": 79.95,
+    "sell_price_source": "https://aroma360.com/products.json lists Mini 2.0 and Mini 2.0 Starter Kit at $79.95 (VERIFIED 2026-11-21); Scentiment plug-in diffuser $49.98 to $69.98 (VERIFIED, https://scentiment.com/products.json); AirScent on Amazon $63.13 (VERIFIED via DataForSEO)",
+    "amazon": {
+      "typical_price": 69.99,
+      "bought_past_month_top_listings": 37200,
+      "listings_counted": 79,
+      "top_listing_url": "https://www.amazon.com/dp/B0DXHGTMQL",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Aroma360",
+        "url": "https://aroma360.com/products/mini-2-0",
+        "price": 79.95,
+        "traction_evidence": "Lists $799.95 to $1,699.95 machines as 'Free ... Scent Diffuser with Oil Deliveries' (device given away against an oil subscription). Google 'aroma360' 27,100 searches a month, 90,500 in Jan 2026. Own ads and creator partnership ads on the first screen for 'scent diffuser' and 'waterless diffuser'.",
+        "is_whale": true
+      },
+      {
+        "store": "Hotel Collection",
+        "url": "https://www.hotelcollection.com",
+        "price": 799.95,
+        "traction_evidence": "Same free-diffuser-with-oil-deliveries offer structure; Google 'hotel collection diffuser' 33,100 searches a month, 110,000 in Jan 2026; Disney and Star Wars licensed diffusers in the catalog.",
+        "is_whale": true
+      },
+      {
+        "store": "Scentiment",
+        "url": "https://scentiment.com/products/plug-in-diffuser",
+        "price": 49.98,
+        "traction_evidence": "Plug-in diffuser $49.98 to $69.98 (compare-at $100); Diffuser Pro 3 $249.98 to $349.98. 1 ad on each first screen.",
+        "is_whale": false
+      },
+      {
+        "store": "AirScent (Amazon-native)",
+        "url": "https://www.amazon.com/dp/B0DXHGTMQL",
+        "price": 63.13,
+        "traction_evidence": "Amazon: 11,000+ bought in past month across two listings at $63.13, 1,724 ratings, #2 in Aromatherapy Diffusers; its oil sells 5,000+ a month at $47.48 (VERIFIED via DataForSEO).",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=scent%20diffuser): about 4,500 keyword results for 'scent diffuser' (first screen: Aroma360 5, Scentify 4, Hotel Collection 3, Aura House 3, Scentiment 1, Air Wick 1) and about 480 for 'waterless diffuser' (Aromely 4, AromaTech 4, Aroma360 5 including creators, The Magic Scent 2, a Chinese factory page 2) (VERIFIED read, keyword matches).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: NAMSTE plug-in waterless fragrance diffuser, 300 cubic metre coverage",
+        "url": "https://www.aliexpress.us/item/3256812216191021.html",
+        "unit_cost": 40.41,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 3 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 18 sold, rating 5.0. Oil not included as far as the card shows."
+      },
+      {
+        "source": "AliExpress US stock: NAMSTE Bluetooth socket-style aroma oil diffuser",
+        "url": "https://www.aliexpress.us/item/3256812564298800.html",
+        "unit_cost": 32.56,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 3 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 17 sold."
+      },
+      {
+        "source": "AliExpress China: 500 ml smart scent air machine",
+        "url": "https://www.aliexpress.us/item/3256810399317330.html",
+        "unit_cost": 40.89,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+        "label": "VERIFIED (AliExpress US-site search card read 2026-11-21, ships from China per the card trace; item page blocked by captcha). 4,000 sold, rating 4.9. Shipping fee not shown: UNKNOWN."
+      },
+      {
+        "source": "AliExpress China: 100 ml hotel-style diffuser oil (cost proxy for the oil; a US-stock oil source was not found)",
+        "url": "https://www.aliexpress.us/item/3256808038239560.html",
+        "unit_cost": 1.96,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "CN",
+        "delivery_days": "UNKNOWN",
+        "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 1,000 sold. Shipping fee UNKNOWN. Liquids from China are slow and may be restricted."
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/waterless+diffuser.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 40.41,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). Device only; fragrance oil must come from a second US source whose cost is UNKNOWN.",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: China device cards are $29.95 (promo) to $40.89 with no shipping fee shown, so no saving over US stock is visible",
+    "weight_lb": 1.5,
+    "demo_score_1to5": 2,
+    "bundle_idea": "Diffuser plus 3 oils at $79.95 to $99; oil refills on subscription are the whole business model in this category.",
+    "whale_note": "Two giants dominate: Aroma360 and Hotel Collection run very large ad volumes and give expensive machines away 'free' against oil deliveries. A one-off device sale at $80 competes with 'free'.",
+    "ip_safety_flags": "Fragrance oils are liquids: flammability class, SDS and IFRA documents are needed, carriers restrict some, and pet-safety complaints are common. Scents sold as 'inspired by' a named hotel or perfume carry trademark risk: use plain scent names. Weight 1.5 lb is the Amazon listing weight of the AirScent unit (VERIFIED via DataForSEO).",
+    "season_note": "Good. Brand searches spike in January (aroma360 90,500 and hotel collection diffuser 110,000 in Jan 2026); 'scent diffuser' 18,100 in Dec 2025.",
+    "risks": "Smell cannot be shown in an image ad. Device cost from US stock is about half the proposed price before oil. Needs two suppliers (device and oil) in one order, which breaks the simple dropship flow and adds a second parcel. Whales give the device away.",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "towel-warmer-bucket",
+    "category": "bathroom comfort",
+    "product": "Towel warmer bucket, 20 litre, with timer and auto shut-off",
+    "what_it_solves": "Stepping out of the shower into a cold bathroom in winter; warms two large towels or a robe in about 10 minutes. A classic Christmas gift.",
+    "sell_price": 109.99,
+    "sell_price_source": "Proposed price. Anchors: Keenray $89.99 to $129.99 (VERIFIED, https://keenray.com/products.json 2026-11-21); Zadro large bucket $118.99, compare-at $169.99, medium $111.99 (VERIFIED, https://zadroinc.com/products.json 2026-11-21); Amazon median of selling listings $78.09 (VERIFIED via DataForSEO)",
+    "amazon": {
+      "typical_price": 78.09,
+      "bought_past_month_top_listings": 33350,
+      "listings_counted": 72,
+      "top_listing_url": "https://www.amazon.com/dp/B0C7KQTXV1",
+      "checked": "2026-11-21"
+    },
+    "dtc_competitors": [
+      {
+        "store": "Zadro",
+        "url": "https://zadroinc.com/products/large-zadro-towel-warmer-bucket-20l-twb",
+        "price": 118.99,
+        "traction_evidence": "Category originator with 149 products on its store; compare-at $169.99.",
+        "is_whale": false
+      },
+      {
+        "store": "Keenray",
+        "url": "https://keenray.com",
+        "price": 99.99,
+        "traction_evidence": "Amazon: 2,000+ bought in past month at $89.99 with 6,300 ratings, second model 700+ at $94.99 (VERIFIED via DataForSEO).",
+        "is_whale": false
+      },
+      {
+        "store": "SAMEAT (Amazon-native)",
+        "url": "https://www.amazon.com/dp/B0C7KQTXV1",
+        "price": 75.94,
+        "traction_evidence": "Amazon: 9,000+ bought in past month, 1,722 ratings, #1 in Towel Warmers and #929 in all Home & Kitchen (VERIFIED via DataForSEO).",
+        "is_whale": false
+      }
+    ],
+    "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=towel%20warmer): about 1,100 keyword results for 'towel warmer' (first screen mixed: LiveFull SHOP 7, Heatgene 1, Wayfair 1, an Amazon creator ad, plus plumbers and realtors) and only about 21 for 'towel warmer bucket' (gift-list pages, no brand store). Few DTC stores advertise this item (VERIFIED read, keyword matches).",
+    "supply": [
+      {
+        "source": "AliExpress US stock: JHK 20L towel warmer bucket with legs, 450W, 8h timer",
+        "url": "https://www.aliexpress.us/item/3256813369530775.html",
+        "unit_cost": 51.9,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold."
+      },
+      {
+        "source": "AliExpress US stock: JHK 23L towel warmer bucket, 450W",
+        "url": "https://www.aliexpress.us/item/3256813302135176.html",
+        "unit_cost": 59.86,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 3 sold."
+      },
+      {
+        "source": "AliExpress US stock: SucceBuy 20L towel warmer bucket with LED light",
+        "url": "https://www.aliexpress.us/item/3256809522407405.html",
+        "unit_cost": 45.8,
+        "shipping_cost_to_us_customer": 0,
+        "ships_from": "US",
+        "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+        "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 193 sold, rating 4.7."
+      },
+      {
+        "source": "VEVOR.com: 20L heated towel bucket with LED display (retail site with a dropship program)",
+        "url": "https://www.vevor.com/s/towel-warmer-bucket",
+        "unit_cost": 58.65,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "VERIFIED price read 2026-11-21 (non-member price; other 20L models $67.07 to $79.99); shipping fee, ship-from and delivery days not shown: UNKNOWN. VEVOR-branded packaging."
+      },
+      {
+        "source": "Doba (US dropship catalog)",
+        "url": "https://www.doba.com/search?keyword=towel+warmer",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "Page shows '3 Business Day(s)' and 'Prepaid label' per listing; meaning not labeled",
+        "label": "UNKNOWN price: several towel warmer buckets listed as in stock, but prices are not shown without an account (read 2026-11-21)"
+      },
+      {
+        "source": "CJdropshipping US warehouse",
+        "url": "https://cjdropshipping.com/search/towel+warmer+bucket.html",
+        "unit_cost": null,
+        "shipping_cost_to_us_customer": null,
+        "ships_from": "UNKNOWN",
+        "delivery_days": "UNKNOWN",
+        "label": "UNKNOWN: CJ pages redirect to a human-verification page"
+      }
+    ],
+    "best_us_landed_cost": 51.9,
+    "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item page blocked by captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold. A promo card at $45.80 (193 sold) exists; vevor.com shows $58.65 for a similar unit.",
+    "best_cn_landed_cost": null,
+    "best_cn_landed_label": "UNKNOWN: no China-shipped bucket warmer was found; every relevant AliExpress listing ships from the US",
+    "weight_lb": 9.2,
+    "demo_score_1to5": 3,
+    "bundle_idea": "Bucket plus scent discs or a waffle robe at $129 to $139 to lift the order value; little else to add.",
+    "whale_note": "No whale. 32 brands share 33,350 monthly Amazon units at $40 or more; Zadro and Keenray are mid-size specialists.",
+    "ip_safety_flags": "A 400 to 500 W mains heating appliance: ask for the UL or ETL listing and the auto shut-off spec before selling. One web search found no CPSC recall for towel warmer buckets (not a full check). Parcel is 9.18 lb and 19.75 x 12.5 x 12.5 in on the top Amazon listing (VERIFIED via DataForSEO), right at the 10 lb limit and bulky.",
+    "season_note": "Best December fit of the list, then a cliff. 'towel warmer' Google searches: 550,000 in Dec 2025, 110,000 in Jan 2026, 33,100 in Jul 2026. Orders must land before the Christmas cutoff (about Dec 10 to 14 for US stock per 03_fulfillment_and_money.md).",
+    "risks": "Cost: about $52 to $60 landed from US stock against an Amazon street price of $58 to $90, so the price that covers a $35 to $50 ad cost sits above what Amazon charges with Prime. This is the strongest demand and the weakest cost position in the file. Bulky returns. Heating appliance liability. Demand falls about 80 percent after December.",
+    "checked": "2026-11-21"
+  }
+]

@@ -1,0 +1,961 @@
+[
+ {
+  "id": "wireless-cat-water-fountain",
+  "category": "pets / cat feeding and water",
+  "product": "Cordless (battery) stainless steel cat water fountain with motion sensor, sold with spare filters",
+  "what_it_solves": "Cats that will not drink from a still bowl; no cord across the floor so it can sit anywhere; stainless tray is easier to keep clean than plastic.",
+  "sell_price": 74.95,
+  "sell_price_source": "https://kittyspout.com/products/colored-wireless2 - VERIFIED 2026-11-21 (KittySpout Wireless Fountain 2.0, $74.95, shown against a $149.95 compare-at price). Same product is $74.95 on Amazon (B0FB8F2FNW, 1,000+ bought in past month). Other DTC prices read today: Petlibro Dockstream Cordless $69.99, HomerunPET BF10 $69.99, HAPAW 4L wireless $81.99, Petnimo 1 Fountain $101.00.",
+  "amazon": {
+   "typical_price": 49.99,
+   "bought_past_month_top_listings": 17250,
+   "listings_counted": 24,
+   "top_listing_url": "https://www.amazon.com/dp/B0H7WF3G6V",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'cat water fountain stainless steel wireless', titles containing wireless, cordless or battery. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "KittySpout",
+    "url": "https://kittyspout.com/products/colored-wireless2",
+    "price": 74.95,
+    "traction_evidence": "Active Meta ads (2 of the 27 ads loaded for the exact phrase 'cat water fountain', 2026-11-21). Amazon listing at $74.95 shows 1,000+ bought in past month and 373 ratings. On-site review count not readable.",
+    "is_whale": false
+   },
+   {
+    "store": "Petlibro (Dockstream Cordless)",
+    "url": "https://petlibro.com/products/dockstream-battery-operated-water-fountain",
+    "price": 69.99,
+    "traction_evidence": "908 on-site reviews, 4.9 stars (page data, VERIFIED 2026-11-21). On Amazon, Petlibro wireless listings at $40 or more show 4,500+ bought in past month; brand name gets about 40,500 Google searches a month (ESTIMATED, DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "HAPAW",
+    "url": "https://hapaw.com/products/hapaw-4l-wireless-cat-water-fountain-with-wastewater-separation",
+    "price": 81.99,
+    "traction_evidence": "Active Meta ads (5 of the 27 ads loaded, 2026-11-21). No on-site reviews on this product yet ('Be the first to write a review').",
+    "is_whale": false
+   },
+   {
+    "store": "Petnimo",
+    "url": "https://petnimo.com/products/petnimo-1-fountain",
+    "price": 101.0,
+    "traction_evidence": "Most ads in the sample: 7 of the 27 loaded, several started Nov 7, 2026. On-site review count not readable.",
+    "is_whale": false
+   },
+   {
+    "store": "Pawira",
+    "url": "https://pawira.com/products/pawira-stainless-steel-water-fountain-1",
+    "price": 132.0,
+    "traction_evidence": "1,147 on-site reviews (VERIFIED 2026-11-21); 4 of the 27 ads loaded; sells an 8-filter refill pack at $47.00 to $59.00.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'cat water fountain', active, US: about 410 results. In the 27 ads that loaded: Petnimo 7, HAPAW 5, Pawira 4, KittySpout 2, Linda Parker 2 and seven others with 1 each; start dates run from May 19 to Nov 12, 2026, most from October and November; several creatives run in 2 to 4 copies. Long-running ads are a signal, not proof of profit. Foreplay: blocked (402, no active subscription).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 3.2L automatic cat water feeder with motion sensor, wireless, stainless steel (no wall plug included)",
+    "url": "https://www.aliexpress.us/item/3256812171417783.html",
+    "unit_cost": 31.29,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 1 sold. No new-shopper tag on this card."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Petgravity stainless bowl 'pouring' wireless water dispenser",
+    "url": "https://www.aliexpress.us/item/3256811373954737.html",
+    "unit_cost": 28.1,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 2K+ sold. Card carries a 'New shoppers' discount tag, so the price a repeat buyer pays is UNKNOWN. Different mechanism from the KittySpout style."
+   },
+   {
+    "source": "AliExpress listing shipping from US: BOOTEELY stainless bowl wireless water dispenser",
+    "url": "https://www.aliexpress.us/item/3256809987618515.html",
+    "unit_cost": 30.75,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 2K+ sold. Card carries a 'New shoppers' discount tag; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing shipping from US: ERAMONG wireless cat water fountain, 4000mAh, 2.5L",
+    "url": "https://www.aliexpress.us/item/3256812494888278.html",
+    "unit_cost": 36.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 2 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: APETDOLA 4L wireless cat water fountain with sensor",
+    "url": "https://www.aliexpress.us/item/3256805528604976.html",
+    "unit_cost": 44.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 638 sold. Card carries a 'New shoppers' discount tag; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Automatic cat water dispenser 118oz/3.5L, motion sensor, stainless tray, USB rechargeable, 2 filters",
+    "url": "https://www.aliexpress.us/item/3256812614679863.html",
+    "unit_cost": 45.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 5 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): 3.2L wireless charging sensor stainless cat fountain",
+    "url": "https://www.aliexpress.us/item/3256808858862845.html",
+    "unit_cost": 12.02,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (2,000+ sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): ROJECO wireless automatic cat water fountain, 2600mAh",
+    "url": "https://www.aliexpress.us/item/3256807676439514.html",
+    "unit_cost": 25.36,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (1,000+ sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/wireless+cat+water+fountain.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "Doba",
+    "url": "https://www.doba.com/search?keyword=wireless+cat+water+fountain",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "1 to 3 business days processing (as shown)",
+    "label": "Price UNKNOWN (needs a Doba signup). VERIFIED 2026-11-21 only that matching items are listed in stock with the processing time shown; ship-from not shown per item."
+   },
+   {
+    "source": "PROXY, not a supply quote: cheapest high-volume generic on Amazon (FEELNEEDY wireless fountain)",
+    "url": "https://www.amazon.com/dp/B0H7WF3G6V",
+    "unit_cost": 47.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price, VERIFIED via DataForSEO 2026-11-21 (5,000+ bought in past month). It is the price ceiling a shopper can compare against, not a cost we can buy at."
+   }
+  ],
+  "best_us_landed_cost": 31.29,
+  "best_us_landed_label": "Lowest US-filter card price that has no new-shopper tag, free shipping included, for a like-for-like sensor fountain (listing 3256812171417783, 1 sold, so stock depth is thin). High-volume US listings read $28.10 and $30.75 (2K+ sold each) but carry a 'New shoppers' tag, so their repeat-order price is UNKNOWN; other no-tag listings read $36.09 to $45.49. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. Unit prices of $12.02 and $25.36 were read on AliExpress cards without the US filter, but shipping cost and delivery time are not shown and item pages are captcha-blocked.",
+  "weight_lb": 1.5,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Fountain plus a 6-month filter pack and a cleaning brush as the default offer; a filter refill pack as the reorder. HomerunPET sells a fountain plus 6 filters bundle at $85.99 and Pawira sells an 8-filter refill at $47.00 to $59.00 (both VERIFIED 2026-11-21), so both the bundle and the refill already exist in the market.",
+  "whale_note": "Petlibro is the category giant (about 8,800 of the 22,550 units counted for all fountains at $40 or more on Amazon, and 4,500 of the 6,150 wireless units sold at $60 or more). It does not shut the door: no-name wireless listings sell 8,750+ a month at $47 to $50, and at least four small DTC stores are advertising now at $75 to $132.",
+  "ip_safety_flags": "Lithium battery (4000mAh class): battery certification of the generic units is UNKNOWN and returns of battery goods need care. Water plus electronics, so pump and sensor failures are the likely defect. No health claims (kidney, urinary, hydration benefits). 'No filter / wastewater separation' designs (FEELNEEDY, HAPAW) and Petlibro's Dockstream look may be patent or design protected: source a plain sensor fountain and check before listing. Do not reuse 'KittySpout', 'Dockstream' or any brand name.",
+  "season_note": "Good in December to February. Demand is flat all year, so winter does not hurt: 'cat water fountain' about 60,500 US Google searches a month in every month checked (Dec 2025, Jan, Jul and Oct 2026); 'stainless steel cat water fountain' 22,200 a month with 33,100 in Dec 2025; CPC about $2.01 to $2.69 (ESTIMATED, DataForSEO Google Ads, read 2026-11-21). Works as a gift for a cat owner.",
+  "risks": "1) Price ceiling: the best-selling generic is $47.49 on Amazon with Prime, and only 7 wireless listings sell at $60 or more (6,150+ units, of which Petlibro 4,500+ and KittySpout 1,000+). 2) Supply is thin at the verified price (1 sold); the proven US listings show promotion-tagged prices. 3) Electronics: pump or battery faults drive refunds; sample must be run for several days. 4) Ads in this space lean on vet-style and health copy that we will not use. 5) Petlibro can outspend any newcomer.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "small-dog-booster-car-seat",
+  "category": "pets / dog travel",
+  "product": "Booster car seat bed for small and medium dogs (bolstered seat with tether); center-console seat as a smaller variant",
+  "what_it_solves": "A small dog slides around or climbs into the driver's lap; the raised, walled seat keeps the dog in one place, lets it see out and keeps hair and mud off the car seat.",
+  "sell_price": 69.99,
+  "sell_price_source": "https://funnyfuzzy.com/products/waterproof-dog-car-seat-bed-firstclass - VERIFIED 2026-11-21 via the store's public search JSON (Waterproof Dog Car Seat Bed - First Class, from $69.99, compare-at $93.99; the product page showed $71.99 for the default option). The store's most-reviewed seat, Dog Car Seat Bed - First Class, was $63.99.",
+  "amazon": {
+   "typical_price": 53.17,
+   "bought_past_month_top_listings": 16000,
+   "listings_counted": 75,
+   "top_listing_url": "https://www.amazon.com/dp/B0DD7X8Y22",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'dog booster car seat', 'console dog car seat', 'dog car seat for small dogs', 'dog car seat', 'dog car seat bed for large dogs', 'dog car bed back seat large'; titles with booster, console or car seat, excluding extenders, hammocks, hard-bottom covers and seat covers. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "FunnyFuzzy",
+    "url": "https://funnyfuzzy.com/products/dog-car-seat-bed-first-class",
+    "price": 63.99,
+    "traction_evidence": "626 on-site reviews, 4.84 stars on the First Class seat; 173 reviews on the waterproof version at $69.99 to $71.99 (VERIFIED 2026-11-21). The store's own shipping policy says processing within 15 business days and standard US delivery in 7 to 30 business days, and one visible review says 'shipping took forever'.",
+    "is_whale": false
+   },
+   {
+    "store": "Petsfit",
+    "url": "https://petsfit.com/products/small-dog-car-seat",
+    "price": 59.99,
+    "traction_evidence": "No on-site reviews on this product. On Amazon, Petsfit booster listings at $40 or more show about 1,500 bought in past month (ESTIMATED, DataForSEO). Range on its own store $35.57 to $71.99.",
+    "is_whale": false
+   },
+   {
+    "store": "Lesure",
+    "url": "https://lesurepet.com/products/lesure-small-dog-booster-car-seat",
+    "price": 54.99,
+    "traction_evidence": "No reviews yet on the product page ('Be the first to write a review'), VERIFIED 2026-11-21.",
+    "is_whale": false
+   },
+   {
+    "store": "Paw.com (memory foam car bed, premium anchor)",
+    "url": "https://paw.com/products/pupprotector-memory-foam-car-bed",
+    "price": 169.0,
+    "traction_evidence": "Review count for this product not read. Paw.com's waterproof blanket shows 16,157 reviews, so the store has scale.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Partly UNKNOWN. VERIFIED 2026-11-21 in the Meta Ad Library (Playwright, active, US): exact phrase 'dog booster seat' about 3 results (Pizavo, Shoppawsandmiles; started Oct 23 and Nov 19, 2026); exact phrase 'dog car seat bed' about 1 result (Nandog Pet Gear, started Nov 19, 2026); loose keyword search 'dog car seat' about 16,000 results but it matches unrelated ads. FunnyFuzzy's own active ad count: UNKNOWN (the library stopped returning results after a few loads). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Medium dog car seat booster, detachable travel carrier bed with leash, grey plush",
+    "url": "https://www.aliexpress.us/item/3256813414471243.html",
+    "unit_cost": 21.88,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; no sales count shown. No new-shopper tag. Card also says 'Early bird deal, only 1 left'."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Car seat bed for dog, waterproof cushion bed with removable pad cover and safety belt, 3 sizes",
+    "url": "https://www.aliexpress.us/item/3256805614460057.html",
+    "unit_cost": 35.13,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 27 sold. No new-shopper tag; closest match to the FunnyFuzzy waterproof seat and the only matching listing with more than 10 sales. Price is the lead price for 3 sizes."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Elevated dog booster car seat bed, 60x45x50 cm, small dogs up to 18 lb, with tether",
+    "url": "https://www.aliexpress.us/item/3256812842729228.html",
+    "unit_cost": 31.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 1 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Center console pet car seat for small dogs",
+    "url": "https://www.aliexpress.us/item/3256813191107787.html",
+    "unit_cost": 20.25,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 3 sold. No new-shopper tag. Console style; sells for about $41.99 on Amazon."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Dog car seat with extended front panel, elevated memory foam booster, up to 35 lb",
+    "url": "https://www.aliexpress.us/item/3256813328776604.html",
+    "unit_cost": 50.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 1 sold. No new-shopper tag. Same style as the Lealchum seat that leads Amazon at $59.49."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Warm portable dog car seat with washable cushion, safety belt and pocket",
+    "url": "https://www.aliexpress.us/item/3256811467442201.html",
+    "unit_cost": 27.61,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (363 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Portable console booster dog car seat and carrier",
+    "url": "https://www.aliexpress.us/item/3256807243196254.html",
+    "unit_cost": 14.44,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (1,000+ sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/dog+car+seat.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "Doba",
+    "url": "https://www.doba.com/search?keyword=dog+booster+car+seat",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "3 business days processing (as shown)",
+    "label": "Price UNKNOWN (needs a Doba signup). VERIFIED 2026-11-21 only that matching items are listed in stock with the processing time shown; ship-from not shown per item."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail for the leading booster (Lealchum)",
+    "url": "https://www.amazon.com/dp/B0DD7X8Y22",
+    "unit_cost": 59.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (1,000+ bought in past month, 3,013 ratings). Shows the price shoppers see, not a cost."
+   }
+  ],
+  "best_us_landed_cost": 21.88,
+  "best_us_landed_label": "Lowest US-filter card price without a new-shopper tag for a bolstered plush booster seat (listing 3256813414471243), free shipping included. This listing shows no sales count and 'only 1 left', so treat it as thin; the most-sold matching listing reads $35.13 (27 sold) and a Lealchum-style foam booster reads $50.49. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. Unit prices of $14.44 (console style) and $27.61 read on AliExpress cards without the US filter; shipping cost and time not shown. The seat is bulky, so China parcel shipping is likely to be material.",
+  "weight_lb": 4.0,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Seat plus seat-belt tether, a washable spare liner and a collapsible travel bowl at about $79, which is also FunnyFuzzy's free-shipping threshold. The same buyer is the Barkfare customer, so the store, pixel data and creative carry over to the slow lane.",
+  "whale_note": "No giant owns this. On Amazon the $40-plus tier is spread over many sellers (Lealchum about 4,050 units, Joejoy 3,200, BurgeonNest 1,600 among 75 listings). FunnyFuzzy is the visible DTC leader and it ships slowly by its own policy, which is the opening for a 2 to 8 day US-stock offer.",
+  "ip_safety_flags": "Never claim crash protection, 'safety seat' or any tested standard; the tether clips to a harness, not a collar, and the page must say so. Not a child restraint: keep all child-seat language (ISOFIX, LATCH) out unless the unit truly has it; FunnyFuzzy sells ISOFIX versions and Petsfit advertises a 'Patented Safety Buckle', so avoid those specific designs. Do not copy FunnyFuzzy's 'First Class' name or photos.",
+  "season_note": "Acceptable in December, softer in January and February. 'dog car seat' about 40,500 US Google searches in Dec 2025, 33,100 in Jan and Feb 2026, 49,500 in Oct 2026; 'dog booster car seat' 2,900 a month (3,600 in Dec 2025); CPC about $1.06 to $1.43 (ESTIMATED, DataForSEO, read 2026-11-21). Holiday road trips and gifts help December; the yearly peak is summer travel.",
+  "risks": "1) Only part of the demand is at the price we need: at $60 or more Amazon shows 24 listings and 3,900+ units, of which Lealchum is about 2,650; 84 listings sell 24,550+ units under $40. 2) US-stock listings are thin (0 to 27 sold), so stock can vanish mid-test. 3) Bulky, so a return costs real postage. 4) Fit complaints (dog weight, seat shape). 5) Any hint of a safety claim is a liability risk; product liability cover is needed before the first sale.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "waterproof-pet-throw-blanket",
+  "category": "pets / home protection and beds",
+  "product": "Large waterproof faux-fur or sherpa throw blanket that protects a couch, bed or car seat from dogs and cats",
+  "what_it_solves": "Pee, drool, mud and hair on the couch or bed; the throw looks like home decor, and liquid stays on top instead of soaking through.",
+  "sell_price": 79.0,
+  "sell_price_source": "https://paw.com/products/pupprotector-short-faux-fur-waterproof-throw-blanket-grey - VERIFIED 2026-11-21 via the store's public search JSON (PupProtector Summer Short Fur Waterproof Throw Blanket from $79.00; standard PupProtector from $99.00; compare-at $279.00). Alpha Paw's PawProof throw shows option prices from $29.98 to $109.00.",
+  "amazon": {
+   "typical_price": 50.99,
+   "bought_past_month_top_listings": 4850,
+   "listings_counted": 15,
+   "top_listing_url": "https://www.amazon.com/dp/B0F7GD1HQ9",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'waterproof dog blanket', 'dog couch cover', 'pet couch cover waterproof', 'waterproof dog blanket couch cover'; titles with blanket, couch cover, sofa cover or furniture protector. Note: the 15 listings at $40 or more are almost all fitted sofa covers; throw blankets themselves had 1 listing and 100 units at $40 or more. Under $40 the same searches show 183 listings and 103,650+ units. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Paw.com (PupProtector)",
+    "url": "https://paw.com/products/pupprotector-waterproof-throw-dog-blanket-charcoal-grey",
+    "price": 99.0,
+    "traction_evidence": "16,157 on-site reviews, 4.9 stars (VERIFIED 2026-11-21).",
+    "is_whale": true
+   },
+   {
+    "store": "Alpha Paw (PawProof Throw Blanket)",
+    "url": "https://alphapaw.com/products/pawproof-throw-blanket",
+    "price": 39.97,
+    "traction_evidence": "3,764 verified reviews, 4.95 stars; store banner claims 2.3 million customers and 48,371 store reviews (VERIFIED on page 2026-11-21; the customer count is the store's own claim). The product page shows option prices from $29.98 to $109.00.",
+    "is_whale": true
+   },
+   {
+    "store": "FunnyFuzzy (SlipSafe pet couch cover)",
+    "url": "https://funnyfuzzy.com/products/waterproof-non-slip-furniture-protector-couch-cover-slipsafe",
+    "price": 89.99,
+    "traction_evidence": "14 on-site reviews, 4.57 stars (VERIFIED 2026-11-21). Slow shipping per its policy (7 to 30 business days).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Mostly UNKNOWN. VERIFIED 2026-11-21 in the Meta Ad Library (Playwright, active, US): exact phrase 'waterproof dog blanket' about 5 results, all Wilderdog (started Sep 24 to Nov 19, 2026). Paw.com and Alpha Paw active ad counts: UNKNOWN (the library stopped returning results). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Plaid waterproof pet mat / couch and car seat cover (different style from a faux-fur throw)",
+    "url": "https://www.aliexpress.us/item/3256812199456454.html",
+    "unit_cost": 35.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 22 sold. Not like-for-like. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Waterproof sherpa fleece pet blanket, double sided",
+    "url": "https://www.aliexpress.us/item/3256812571882862.html",
+    "unit_cost": 11.09,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (6 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Waterproof flannel and sherpa thick pet blanket for sofa and bed",
+    "url": "https://www.aliexpress.us/item/3256813344895223.html",
+    "unit_cost": 14.74,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (0 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Waterproof imitation lamb wool pet blanket",
+    "url": "https://www.aliexpress.us/item/3256808337828689.html",
+    "unit_cost": 14.29,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (4 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/waterproof+pet+blanket.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail, PetAmi waterproof dog blanket, twin 60x80",
+    "url": "https://www.amazon.com/dp/B0BCVB79YL",
+    "unit_cost": 29.74,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (1,000+ bought in past month, 2,200 ratings). A large waterproof throw is on sale to anyone at this price."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail, Bedsure waterproof dog blanket 50x60",
+    "url": "https://www.amazon.com/dp/B0DQL4BLD2",
+    "unit_cost": 22.6,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (1,000+ bought in past month)."
+   }
+  ],
+  "best_us_landed_cost": null,
+  "best_us_landed_label": "UNKNOWN. No like-for-like faux-fur or sherpa waterproof throw was found shipping from the US on AliExpress in three searches; the closest US-stock item is a different plaid mat at $35.09. CJ, Zendrop and Doba prices could not be read. Amazon retail proxies: $22.60 and $29.74.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. Unit prices of $11.09 to $14.74 read on AliExpress cards without the US filter (0 to 6 sold each); shipping cost and time not shown.",
+  "weight_lb": 2.8,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Two-pack (couch size plus bed or car size) or throw plus a matching crate mat, to justify $79 to $99 against $18 to $30 single blankets on Amazon.",
+  "whale_note": "Two large DTC brands own this exact product in paid social: Paw.com (16,157 reviews on it) and Alpha Paw (3,764). Bedsure, PetAmi and Ameritex own the low end on Amazon. A newcomer would be squeezed from both sides.",
+  "ip_safety_flags": "'Waterproof' must stay literally true after washing or the claim is deceptive; test the sample by pouring water and washing it. Do not use 'PupProtector' or 'PawProof' or imitate Paw.com's imagery. No anxiety or calming claims. Low safety risk.",
+  "season_note": "Good in December to February: 'waterproof dog blanket' 5,400 US Google searches in Dec 2025 against 1,900 in Jul 2026 (3,600 average); 'dog couch cover' 22,200 a month, 27,100 in Dec 2025; CPC about $2.08 to $2.69 (ESTIMATED, DataForSEO, read 2026-11-21). Cozy home and gift season suits it.",
+  "risks": "1) No verified US-stock source at any price, so it cannot start this week on the evidence found. 2) Amazon sells large waterproof throws at $18 to $30, so $79 needs a visibly better product. 3) Two whales with far more reviews and budget. 4) Demand evidence at $40 or more on Amazon is close to nil for throws (100 units); the premium price exists only in DTC. 5) Colour and size variants raise returns.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "stainless-steel-litter-box-kit",
+  "category": "pets / cat cleaning",
+  "product": "XL enclosed stainless steel litter box with lid, scoop and mat",
+  "what_it_solves": "Plastic boxes scratch, hold smell and stain; steel does not absorb odour and wipes clean; high walls and a lid stop spray and scatter from large cats.",
+  "sell_price": 58.99,
+  "sell_price_source": "https://hapaw.com/products/hapaw-large-stainless-steel-cat-litter-box-with-flip-top-lid - VERIFIED 2026-11-21 (HAPAW Large Stainless Steel Cat Litter Box with Flip-Top Lid, from $58.99, compare-at $159.98, 117 reviews). This is the only DTC store found selling a generic stainless box with traction; Amazon's best sellers are $42.49 to $56.99.",
+  "amazon": {
+   "typical_price": 59.48,
+   "bought_past_month_top_listings": 54850,
+   "listings_counted": 104,
+   "top_listing_url": "https://www.amazon.com/dp/B0CSKG7PYC",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'stainless steel litter box', 'cat litter box stainless steel xl enclosed'; titles with stainless, excluding self-cleaning and automatic. The median is pulled up by 2-packs and XXL sizes; the six best sellers are $42.49 to $56.99. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "HAPAW",
+    "url": "https://hapaw.com/products/hapaw-large-stainless-steel-cat-litter-box-with-flip-top-lid",
+    "price": 58.99,
+    "traction_evidence": "117 on-site reviews, 4.89 stars (VERIFIED 2026-11-21). The same store is running Meta ads for its cat fountain.",
+    "is_whale": false
+   },
+   {
+    "store": "Tuft + Paw (Cubby, plastic design box)",
+    "url": "https://tuftandpaw.com/products/cubby-litter-box",
+    "price": 69.0,
+    "traction_evidence": "315 on-site reviews, 4.6 stars (VERIFIED 2026-11-21). Plastic, design-led; shows that a premium litter box price exists in DTC.",
+    "is_whale": false
+   },
+   {
+    "store": "Michu (XXL plastic designer boxes)",
+    "url": "https://michupet.com/products/container-cat-litter-box",
+    "price": 119.0,
+    "traction_evidence": "Review count not read. Price VERIFIED 2026-11-21 via the store's search JSON.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned no result page for the exact phrase 'stainless steel litter box' (it stopped returning results after a few loads on 2026-11-21). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Extra large enclosed stainless steel cat litter box, high wall sides",
+    "url": "https://www.aliexpress.us/item/3256812763969657.html",
+    "unit_cost": 30.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 5 sold. No new-shopper tag; rating 5 shown."
+   },
+   {
+    "source": "AliExpress listing shipping from US: JHK 24 inch fully enclosed 30L stainless steel litter box, scoop and mat included",
+    "url": "https://www.aliexpress.us/item/3256812000639845.html",
+    "unit_cost": 33.96,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 101 sold. Rating 4.7. Card carries a 'New shoppers' discount tag; repeat-buyer price UNKNOWN. Most-sold US listing."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Large stainless steel litter box, front entry and top exit, with lid and scoop",
+    "url": "https://www.aliexpress.us/item/3256812373390730.html",
+    "unit_cost": 37.17,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 4 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: XL stainless steel litter box with 100 degree flip top and scoop",
+    "url": "https://www.aliexpress.us/item/3256813388733028.html",
+    "unit_cost": 44.52,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 2 sold. No new-shopper tag. Closest to the HAPAW flip-top box."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): XL 60/50 cm stainless steel litter box with lid, high side",
+    "url": "https://www.aliexpress.us/item/3256807619252963.html",
+    "unit_cost": 44.93,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (253 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/stainless+steel+litter+box.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail, AIPERRO XL enclosed stainless box",
+    "url": "https://www.amazon.com/dp/B0CSKG7PYC",
+    "unit_cost": 45.59,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (5,000+ bought in past month, 4,314 ratings, 5.5 lb, 20x13x17 in)."
+   }
+  ],
+  "best_us_landed_cost": 30.69,
+  "best_us_landed_label": "Lowest US-filter card price without a new-shopper tag for an XL enclosed stainless box (listing 3256812763969657, 5 sold), free shipping included. The most-sold US listing reads $33.96 with scoop and mat (101 sold) but carries a 'New shoppers' tag. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN, and not promising: the comparable card without the US filter reads $44.93 before shipping, which is above the US-stock prices.",
+  "weight_lb": 5.5,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Box plus scoop, litter-trapping mat and a pack of liners as a 'no-smell kit' at $69 to $79 (ASSUMED price, not seen in the market). HAPAW's single box at $58.99 is the verified anchor.",
+  "whale_note": "No whale. This is a commodity sold mostly under unbranded titles (the largest named seller, AIPERRO, has about 5,000 of the units counted), and it is bought on Amazon: 104 listings and 54,850+ units at $40 or more, another 49,150+ under $40.",
+  "ip_safety_flags": "No 'antibacterial' or 'odour-proof' claims. Check edges for sharpness on the sample. Thin steel dents in transit, so expect some damage claims. Low IP risk for a plain pan with lid; avoid copying a specific brand's lid mechanism.",
+  "season_note": "Neutral. 'stainless steel litter box' about 60,500 US Google searches a month (49,500 in Dec 2025, 60,500 in Jan 2026, 74,000 in Oct 2026); CPC about $1.59 (ESTIMATED, DataForSEO, read 2026-11-21). No winter penalty.",
+  "risks": "1) The verified DTC price ($58.99) sits under the $60 floor and the US landed cost is $30.69 to $44.52, so it looks unlikely to meet the landed-cost guide; scripts must confirm. 2) Shoppers can buy the same box on Amazon for $42.49 to $56.99 with Prime. 3) Low wow factor in a 3-second ad. 4) Bulky box, costly returns. 5) Only one DTC seller found with traction.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "foam-dog-stairs-for-bed",
+  "category": "pets / dog beds and furniture",
+  "product": "High-density foam dog stairs (3 to 5 steps) with washable cover, for beds and couches",
+  "what_it_solves": "Small, short-legged or older dogs cannot get onto a high bed or couch and owners lift them many times a day; stairs let the dog climb alone.",
+  "sell_price": 69.99,
+  "sell_price_source": "https://funnyfuzzy.com/products/cozy-corduroy-joint-friendly-removable-spiral-pet-stairs-creamystep - VERIFIED 2026-11-21 (FunnyFuzzy spiral dog stairs from $69.99, compare-at $149.99, 47 reviews). Other FunnyFuzzy stairs $69.99 to $109.99; Lesure Orthopedic Dog Stairs from $53.99.",
+  "amazon": {
+   "typical_price": 63.19,
+   "bought_past_month_top_listings": 21250,
+   "listings_counted": 67,
+   "top_listing_url": "https://www.amazon.com/dp/B0D93W8BVZ",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'dog stairs for bed', 'dog foam stairs', 'dog ramp for bed'; titles with stairs or steps, excluding car, truck and SUV ramps. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "FunnyFuzzy",
+    "url": "https://funnyfuzzy.com/products/cozy-corduroy-joint-friendly-removable-spiral-pet-stairs-creamystep",
+    "price": 69.99,
+    "traction_evidence": "47 on-site reviews, 4.94 stars; the wider SafeRamp stairs at $89.99 have 2 reviews (VERIFIED 2026-11-21).",
+    "is_whale": false
+   },
+   {
+    "store": "Lesure",
+    "url": "https://lesurepet.com/products/lesure-orthopedic-dog-stairs",
+    "price": 53.99,
+    "traction_evidence": "On-site review count not readable. Price VERIFIED 2026-11-21.",
+    "is_whale": false
+   },
+   {
+    "store": "Alpha Paw (PawRamp, wooden ramp, adjacent product)",
+    "url": "https://alphapaw.com/products/pawramp",
+    "price": 154.99,
+    "traction_evidence": "6,743 verified reviews, 4.83 stars (VERIFIED 2026-11-21). Dominates the premium ramp niche with 'vet recommended' positioning.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned no result page for 'dog stairs' or 'dog stairs for bed' on 2026-11-21 (throttled after a few loads). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 5 step right-angled foam dog stairs",
+    "url": "https://www.aliexpress.us/item/3256813392085981.html",
+    "unit_cost": 56.39,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; no sales count shown. No new-shopper tag. The only single-size 5-step card found."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 3/4/5 steps high-density foam dog stairs",
+    "url": "https://www.aliexpress.us/item/3256812145655706.html",
+    "unit_cost": 52.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 9 sold. No new-shopper tag. Lead price of a multi-size listing; size not confirmed."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 3/4/5 steps high-density foam dog stairs",
+    "url": "https://www.aliexpress.us/item/3256813390935919.html",
+    "unit_cost": 39.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 13 sold. Card carries a 'New shoppers' discount tag. Lead price of a multi-size listing, so probably the 3-step."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 3/4/5 steps high-density foam pet steps, washable cover, up to 50 lb",
+    "url": "https://www.aliexpress.us/item/3256812995128769.html",
+    "unit_cost": 29.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 3 sold. No new-shopper tag; rating 5. Lead price of a multi-size listing, so probably the 3-step."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Garvee 2-in-1 wooden 3-step dog stairs, folds flat",
+    "url": "https://www.aliexpress.us/item/3256813290235904.html",
+    "unit_cost": 38.58,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 8 sold. Wooden, 3 steps. Card carries a 'New shoppers' tag."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): Detachable sponge dog stairs, 2/3/4 steps",
+    "url": "https://www.aliexpress.us/item/3256805004821973.html",
+    "unit_cost": 27.39,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (486 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/dog+stairs.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "PROXY, not a dropship quote: VEVOR retail (US warehouses), wood pet stairs 4-step",
+    "url": "https://www.vevor.com/s/dog-stairs",
+    "unit_cost": 54.9,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "PROXY. Retail price VERIFIED on vevor.com 2026-11-21 (102 reviews); shipping terms and any dropship discount not shown."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail, top-selling 5-step foam stairs",
+    "url": "https://www.amazon.com/dp/B0D93W8BVZ",
+    "unit_cost": 52.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (3,000+ bought in past month; 10.38 lb, 33 x 15.7 x 22.8 in)."
+   }
+  ],
+  "best_us_landed_cost": 56.39,
+  "best_us_landed_label": "Like-for-like 5-step foam stairs, the size that carries the Amazon demand at $40 or more (listing 3256813392085981, no sales count), free shipping included. Multi-size listings show lead prices of $29.99 to $39.99 that most likely apply to the 3-step size; a 3-step would be compared with stairs that sell under $40 on Amazon. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. Unit price $27.39 (2/3/4 steps, 486 sold) read without the US filter; shipping not shown. Foam stairs are large, so a China parcel is likely to be expensive and slow.",
+  "weight_lb": 10.4,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Stairs plus a spare washable cover and a non-slip floor pad at $79 to $89 (ASSUMED). The buyer overlaps with the booster-seat buyer (small and senior dogs).",
+  "whale_note": "No whale in foam stairs: 67 listings at $40 or more on Amazon, mostly no-name; the leading names (Miorun 1,800, EHEYCIGA 1,200) are small. Alpha Paw is the giant in wooden ramps, a neighbouring product.",
+  "ip_safety_flags": "No joint, arthritis or 'vet recommended' health claims (FunnyFuzzy and Alpha Paw both use them; we will not). State a tested weight limit only after the sample holds it. Foam flammability labelling (California TB117-2013) of the generic units is UNKNOWN. A dog falling off narrow steps is the realistic injury; pick a wide, non-slip model.",
+  "season_note": "Neutral to slightly good. 'dog stairs for bed' about 22,200 US Google searches a month (27,100 in Jan and Oct 2026); 'foam dog stairs' 8,100 in Dec 2025 and 9,900 in Jan 2026 against 3,600 in Jul 2026; CPC about $0.95 (ESTIMATED, DataForSEO, read 2026-11-21).",
+  "risks": "1) Cost: the like-for-like US landed cost ($52.09 to $56.39) is close to Amazon's retail price for the same thing ($51.86 to $56.99), so it looks unlikely to meet the landed-cost guide even at FunnyFuzzy's price; scripts must confirm. 2) A 5-step unit is about 10.4 lb and 33 inches long, at the edge of the weight screen, and a return is costly. 3) Buyers must match stair height to bed height, which drives returns. 4) Compressed foam needs a day or two to regain shape, a common complaint.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "lightweight-pet-stroller",
+  "category": "pets / dog and cat travel",
+  "product": "Lightweight folding pet stroller for small dogs and cats (3 or 4 wheels, mesh canopy, basket)",
+  "what_it_solves": "Senior, injured or small dogs and indoor cats cannot manage long walks, hot pavement or crowds; the stroller lets the owner take them along.",
+  "sell_price": 84.99,
+  "sell_price_source": "https://www.amazon.com/dp/B0B5P8VYXL - ESTIMATED: $84.99 is the median price of the 56 Amazon stroller listings at $40 or more with sales (DataForSEO, 2026-11-21); the ROODO 3-wheel at that link was $88.92 with 800+ bought in past month. No DTC store was verified selling this class of stroller; Pet Gear Happy Trails Lite retails at about $94 to $145 at PetSmart, Chewy and Walmart (ESTIMATED, search snippets 2026-11-21).",
+  "amazon": {
+   "typical_price": 84.99,
+   "bought_past_month_top_listings": 10200,
+   "listings_counted": 56,
+   "top_listing_url": "https://www.amazon.com/dp/B0HDTBVS4V",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'dog stroller'; titles with stroller. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Pet Gear (sold through PetSmart, Chewy, Walmart)",
+    "url": "https://www.chewy.com/pet-gear-happy-trails-lite-no-zip-pet/dp/125525",
+    "price": 135.98,
+    "traction_evidence": "ESTIMATED from search snippets 2026-11-21: Chewy $135.98, PetSmart about $94 to $145. Named in most 'best dog stroller' roundups. petgear.com itself returned HTTP 503.",
+    "is_whale": false
+   },
+   {
+    "store": "Petique",
+    "url": "https://petique.com/products/5-in-1-pet-carrier",
+    "price": 100.0,
+    "traction_evidence": "Price VERIFIED 2026-11-21 via the store's search JSON (5-in-1 rolling pet carrier $100.00; its large jogger stroller is $474.99). Review counts not read.",
+    "is_whale": false
+   },
+   {
+    "store": "ROODO (Amazon-led brand)",
+    "url": "https://www.amazon.com/dp/B0B5P8VYXL",
+    "price": 88.92,
+    "traction_evidence": "About 1,550 bought in past month across its listings at $60 or more, 1,400 ratings (ESTIMATED, DataForSEO 2026-11-21).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Not reached in the Meta Ad Library before it stopped returning results on 2026-11-21. Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Pet stroller, 4 wheels, storage basket and cup holder, foldable",
+    "url": "https://www.aliexpress.us/item/3256812889815673.html",
+    "unit_cost": 37.89,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 2 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: JHK 3-wheel foldable pet stroller with mesh windows, basket and cup holder",
+    "url": "https://www.aliexpress.us/item/3256811364131057.html",
+    "unit_cost": 41.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 99 sold. Rating 4.9. Card carries a 'New shoppers' discount tag; repeat-buyer price UNKNOWN. Most-sold US listing."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Pet stroller up to 33 lb, 1-click fold, 4 wheels, mesh canopy",
+    "url": "https://www.aliexpress.us/item/3256812060690702.html",
+    "unit_cost": 52.29,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 3 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 'Ultra-light 10 lb' pet stroller with 22 inch detachable cradle, 4 wheels",
+    "url": "https://www.aliexpress.us/item/3256813072972525.html",
+    "unit_cost": 75.83,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping (no delivery estimate on the card); 1 sold. Card carries a 'New shoppers' tag. The title is the only weight statement found on a supply listing."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/pet+stroller.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "PROXY, not a supply quote: Amazon retail, DUMOS 3-wheel foldable stroller",
+    "url": "https://www.amazon.com/dp/B0HDTBVS4V",
+    "unit_cost": 52.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY. Amazon retail price VERIFIED via DataForSEO 2026-11-21 (1,000+ bought in past month, 225 ratings)."
+   }
+  ],
+  "best_us_landed_cost": 37.89,
+  "best_us_landed_label": "Lowest US-filter card price without a new-shopper tag (listing 3256812889815673, 4-wheel, 2 sold, no delivery estimate on the card), free shipping included. The most-sold US listing reads $41.69 (99 sold) with a 'New shoppers' tag. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN and not pursued: an 11 lb folding stroller is not a sensible China parcel.",
+  "weight_lb": 11.5,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Stroller plus rain cover, cup holder and a soft pad at $99 to $109 (ASSUMED).",
+  "whale_note": "No whale. At $60 or more Amazon shows 40 listings and 6,250+ units spread over ROODO (1,550), Zoosky (1,200) and many no-names; Pet Gear and Ibiyaya are known retail brands but do not dominate.",
+  "ip_safety_flags": "WEIGHT FLAG: comparable strollers weigh about 11 to 11.5 lb (Pet Gear Happy Trails Lite 11.5 lb, ESTIMATED from retailer listings); the supply listing's own weight is UNKNOWN. This sits at or just over the 10 lb screen, so drop it if that screen is applied strictly. Not a child product: never show or imply use for a child. Brakes, wheel locks and zip closures must work on the sample.",
+  "season_note": "Weak in December to February. 'dog stroller' 49,500 US Google searches in Oct 2026 and 40,500 in Jul 2026 against 33,100 in Dec 2025 and 27,100 in Jan and Feb 2026; 'pet stroller' 22,200 in Oct against 9,900 in Jan and Feb; CPC about $0.83 (ESTIMATED, DataForSEO, read 2026-11-21). A walking product in cold months.",
+  "risks": "1) Weight and size: about 11 lb in a large box, so one return can wipe out several orders. 2) No verified DTC premium: the price evidence is Amazon, where the same class sells from $52.09. 3) Off season until spring. 4) Assembly and wheel-quality complaints. 5) Thin US listings at the non-promotion price.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "dog-force-dryer",
+  "category": "pets / dog grooming",
+  "product": "High-velocity dog blow dryer (about 2000W / 2.7HP class) with hose and nozzles; the example product in the 'agentic dropshipping' video",
+  "what_it_solves": "Towel-drying a thick-coated dog takes an hour and leaves a wet-dog smell; a force dryer blows the water and loose undercoat out in minutes.",
+  "sell_price": 109.99,
+  "sell_price_source": "https://homerunpet.com/products/homerunpet-pet-hair-dryer - VERIFIED 2026-11-21 (HomerunPET Pet Hair Force Dryer PD10, $109.99, compare-at $139.99, 4 on-site reviews). oneisall's vacuum-plus-dryer kit is $97.99; the Amazon leader (Shelandy) is $64.59.",
+  "amazon": {
+   "typical_price": 69.99,
+   "bought_past_month_top_listings": 9250,
+   "listings_counted": 39,
+   "top_listing_url": "https://www.amazon.com/dp/B06WLQPJ58",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'dog hair dryer', 'dog blow dryer high velocity', 'handheld dog dryer', 'quiet pet hair dryer'; titles with dryer or blower, excluding grooming vacuums, dryer boxes and human hair dryers. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "oneisall",
+    "url": "https://oneisall.com/products/cozy-c1-dog-grooming-vacuum",
+    "price": 97.99,
+    "traction_evidence": "On Amazon its grooming vacuum kits show about 10,200 bought in past month at $40 or more and the 8-in-1 vacuum and dryer 1,000+ (ESTIMATED, DataForSEO 2026-11-21). Brand name gets about 5,400 Google searches a month. The video's creator said oneisall was running no dog dryer ads at the time.",
+    "is_whale": true
+   },
+   {
+    "store": "HomerunPET",
+    "url": "https://homerunpet.com/products/homerunpet-pet-hair-dryer",
+    "price": 109.99,
+    "traction_evidence": "4 on-site reviews on the PD10 dryer; its Amazon dryer listing at $89.98 shows 200+ bought in past month (VERIFIED and ESTIMATED 2026-11-21).",
+    "is_whale": false
+   },
+   {
+    "store": "Shelandy (Amazon-led)",
+    "url": "https://www.amazon.com/dp/B06WLQPJ58",
+    "price": 64.59,
+    "traction_evidence": "3,700+ bought in past month across two colours and 18,206 ratings; that is the largest single share of the 9,250 units counted (ESTIMATED, DataForSEO 2026-11-21).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned no result page for 'dog dryer' on 2026-11-21 (throttled). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: JHK 5-piece pet blow dryer kit, 4 nozzles, 6.5 ft cord",
+    "url": "https://www.aliexpress.us/item/3256812530048658.html",
+    "unit_cost": 52.42,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 1 sold. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: SucceBuy 2000W/2.7HP dog blow dryer, adjustable speed and temperature, 4 nozzles, hose",
+    "url": "https://www.aliexpress.us/item/3256807400334925.html",
+    "unit_cost": 52.86,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Card shows free shipping and 'Fastest delivery in 6 days'; 111 sold. Rating 4.7. Card carries a 'New shoppers' discount tag; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing, US filter off (probably ships from China): 2800W high-power dog dryer",
+    "url": "https://www.aliexpress.us/item/3256812457291891.html",
+    "unit_cost": 52.79,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "Unit price VERIFIED on the search card 2026-11-21 (10 sold). Shipping cost and delivery time are not shown on the card and the item page is captcha-blocked: UNKNOWN. Ship-from is probably China (US filter off) but is not confirmed, so it is recorded as UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/search/dog+hair+dryer.html",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: search page redirects to a Cloudflare human check (WebFetch and Playwright both blocked, 2026-11-21)."
+   },
+   {
+    "source": "Zendrop",
+    "url": "https://www.zendrop.com/pet-supplies/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": null,
+    "label": "UNKNOWN: catalog is behind a login. The public pet page shows 20 items costing $0.73 to $11.93 with no shipping, ship-from or delivery data, and none of them is this product (VERIFIED 2026-11-21)."
+   },
+   {
+    "source": "Doba",
+    "url": "https://www.doba.com/search?keyword=dog+hair+dryer",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "3 business days processing (as shown)",
+    "label": "Price UNKNOWN (needs a Doba signup). VERIFIED 2026-11-21 only that matching items are listed in stock with the processing time shown; ship-from not shown per item."
+   },
+   {
+    "source": "PROXY, not a dropship quote: VEVOR retail (US warehouses), same 2000W/2.7HP dryer",
+    "url": "https://www.vevor.com/s/dog-dryer",
+    "unit_cost": 61.5,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": null,
+    "label": "PROXY. Retail price VERIFIED on vevor.com 2026-11-21 ($61.50 black, $68.90 grey, 199 reviews); shipping terms and any dropship discount not shown."
+   }
+  ],
+  "best_us_landed_cost": 52.42,
+  "best_us_landed_label": "Lowest US-filter card price without a new-shopper tag (listing 3256812530048658, 1 sold), free shipping included. The proven listing reads $52.86 (111 sold) with a 'New shoppers' tag. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, stock depth and the regular (non-promotion) price are NOT confirmed; AliExpress was running a Black Friday promotion (cards show an end date of Dec 4).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN and not cheaper: the comparable card without the US filter reads $52.79 before shipping.",
+  "weight_lb": 10.3,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Dryer plus 4 nozzles, a microfiber drying towel and a deshedding glove at $119 to $129 (ASSUMED).",
+  "whale_note": "Shelandy leads dryers on Amazon at $64.59 and oneisall leads the neighbouring vacuum-and-dryer kits; both are established brands with five-figure rating counts.",
+  "ip_safety_flags": "SAFETY FLAG: mains-powered heated appliance; UL or ETL listing of the generic units is UNKNOWN, which touches the 'significant safety risk' exclusion (already raised in 01_video_decode.md). WEIGHT FLAG: the Shelandy unit is 10.3 lb. Do not imitate oneisall's ads or brand, which is what the video shows. Loud motors frighten some dogs, a known return reason.",
+  "season_note": "Neutral to slightly good in winter: 'dog hair dryer' and 'dog blow dryer' about 8,100 US Google searches a month, 9,900 from Nov 2025 to Feb 2026 against 6,600 in Jul 2026; CPC about $0.86 (ESTIMATED, DataForSEO, read 2026-11-21).",
+  "risks": "1) Cost: US landed $52.42 against an Amazon leader at $64.59 and a DTC price of $109.99 held by a store with 4 reviews; it looks unlikely to meet the landed-cost guide, scripts must confirm. 2) Safety certification unknown. 3) About 10 lb. 4) Two entrenched brands. Weakest candidate on the list; kept because it is the video's example and Dhruv will ask about it.",
+  "checked": "2026-11-21"
+ }
+]
