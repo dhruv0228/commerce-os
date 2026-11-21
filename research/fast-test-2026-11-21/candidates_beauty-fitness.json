@@ -1,0 +1,581 @@
+[
+ {
+  "id": "cordless-neck-shoulder-kneading-massager",
+  "category": "massage and recovery / neck and shoulders",
+  "product": "Cordless kneading neck and shoulder massager with heat, sold as a gift kit with wall charger and travel bag. Two forms exist: the U-shaped strap massager with arm loops (what TheraPexa and the Amazon leaders sell) and the newer hand-shaped 'bionic' shawl (what the cheapest US-stock listings are)",
+  "what_it_solves": "Tight neck and shoulders after desk work or driving. Hands-free kneading with no cord, where pillow massagers have to be leaned against. To be sold as relaxation and a gift, not as pain treatment.",
+  "sell_price": 89.99,
+  "sell_price_source": "https://kateminimalist.com/products/wireless-bionic-heated-electric-neck-and-shoulder-massager-with-finger-massager-portable - VERIFIED 2026-11-21 ($89.99, hand-shaped form with the same title as the most-sold AliExpress listing, ships from a US warehouse in 3 to 9 business days). Other DTC prices read today: TheraPexa $119.99 for the U-shaped form (shown against $269.99; 2 units $203.98, 3 units $287.98), ErgonomicLux 'Bionic Kneading Neck Massager' $99.99 and 'Back Neck And Shoulder Massager' $79.99. Established massager brands sell cordless U-shaped units at $59.99 to $69.99 on their own sites (Snailax, Comfier, Nekteck) and at $44 to $76 on Amazon. $89.99 is the middle of the DTC range, not a tested price.",
+  "amazon": {
+   "typical_price": 51.29,
+   "bought_past_month_top_listings": 14050,
+   "listings_counted": 48,
+   "top_listing_url": "https://www.amazon.com/dp/B0CZLDT54F",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search, 58 keywords, 100 results each, listings de-duplicated by ASIN across keywords and filtered by title words. A listing counts if it is priced $40 to $400 and shows a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Filter: title contains 'neck', excluding pillows, chair pads, cushions, guns, traction and wraps. Only 2,350 of the 14,050 units are on listings at $60 or more (10 listings, median $79.99); 60,100 units sit under $40. Largest brand word is 1,950 units, so no single seller leads. The hand-shaped form alone is small on Amazon: about 3,800 units over 18 listings at any price, 1,700 of them at $40 or more, most listings first seen in 2026.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "TheraPexa",
+    "url": "https://therapexa.com/products/therapexa-neck-and-shoulder-massager-v2",
+    "price": 119.99,
+    "traction_evidence": "VERIFIED 2026-11-21: U-shaped strap form. Product page shows 2,016 reviews and the store's own claims of 15,000+ customers and '100,000+ necks saved'; states shipping from a Dallas, Texas warehouse in 2 to 4 business days and a 90-day return. The page also states 'FDA cleared Class II medical device' and 'HSA/FSA eligible' and promises relief from chronic neck and shoulder pain. Heaviest advertiser for the exact phrase: 18 of the 29 ads loaded, plus 1 creator partnership ad, with start dates from Sep 7 to Nov 14, 2026.",
+    "is_whale": false
+   },
+   {
+    "store": "ErgonomicLux",
+    "url": "https://ergonomiclux.com/products/back-neck-and-shoulder-massager",
+    "price": 79.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 450 reviews in page data (form not confirmed); 1 active ad in the sample (a 15 percent retargeting offer, started Oct 28, 2026). Also lists a 'Bionic Kneading Neck Massager' at $99.99 (review count not read).",
+    "is_whale": false
+   },
+   {
+    "store": "Kate Minimalist",
+    "url": "https://kateminimalist.com/products/wireless-bionic-heated-electric-neck-and-shoulder-massager-with-finger-massager-portable",
+    "price": 89.99,
+    "traction_evidence": "VERIFIED 2026-11-21: hand-shaped form; no review count shown; ships from a US warehouse in 3 to 9 business days. No traction evidence found.",
+    "is_whale": false
+   },
+   {
+    "store": "ReAthlete (NECKA neck massager)",
+    "url": "https://reathlete.com/products/necka-neck-massager",
+    "price": 89.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 1,063 reviews on the product page; store claims 326,000+ customers. Design not confirmed to be the hand-shaped type.",
+    "is_whale": false
+   },
+   {
+    "store": "Nekteck (cordless neck and back massager)",
+    "url": "https://nekteck.com/products/cordless-neck-and-shoulder-massager",
+    "price": 67.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 28 reviews on its own site; its Amazon neck massager listing at $43.99 shows 1,000+ bought in past month.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'neck and shoulder massager', active, US: about 260 results. In the 29 ads that loaded: TheraPexa 18, Gabby Miller 4 (long story-style ads for a neck massager), Snughug 2 (a different product, a heating pad kit), ErgonomicLux 1, one TheraPexa creator partnership ad, and 3 others with 1 each; start dates run from Sep 7 to Nov 14, 2026. TheraPexa copy sells kneading, optional heat, hands-free use and a 90-day return, with Black Friday scarcity lines. Long-running ads are a signal, not proof of profit. Foreplay: blocked (402, no credits). TikTok Shop: one listing of a hand-shaped ('bionic hands') massager read today at $76.00 with 20 sold and out of stock (ESTIMATED, single listing).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US (hand-shaped form): Wireless Neck and Back Massager with Heat, 4D kneading shawl",
+    "url": "https://www.aliexpress.us/item/3256812703874538.html",
+    "unit_cost": 23.29,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 4 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 11 sold, rating 5, free shipping, a 'Save $61.68' tag and no new-shopper tag. Photo shows the hand-shaped shawl."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Hot Compress Massager 4D Deep Kneading Cervical Massager",
+    "url": "https://www.aliexpress.us/item/3256812756939618.html",
+    "unit_cost": 20.05,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 18 sold, free shipping, no new-shopper tag. Title also calls it a massage pillow, so the form is less certain than the $23.29 listing."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Bionic Hand Neck Shoulder Massager with Heat, 2000mAh, USB-C",
+    "url": "https://www.aliexpress.us/item/3256813326239292.html",
+    "unit_cost": 31.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 2 sold, free shipping, no new-shopper tag. Photo shows the hand-shaped form."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Wireless Neck Shoulder Massage Shawl, bionic finger 4D kneading",
+    "url": "https://www.aliexpress.us/item/3256813336110407.html",
+    "unit_cost": 16.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). No sales shown and heat is not stated in the title, so it is not used as the best cost."
+   },
+   {
+    "source": "AliExpress listing shipping from US (most sold): Wireless Bionic Heated Electric Neck and Shoulder Massager",
+    "url": "https://www.aliexpress.us/item/3256812354652014.html",
+    "unit_cost": 23.15,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). 20K+ sold, rating 4.9, but the card carries a 'New shoppers save $56.57' tag and a $79.72 list price, so the price a repeat dropship order pays is UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing shipping from US (U-shaped strap form, the TheraPexa style): Masgre Shiatsu Back Neck Massager, cordless, heat, 3D kneading",
+    "url": "https://www.aliexpress.us/item/3256809986207626.html",
+    "unit_cost": 26.57,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). 108 sold, rating 4.9, list price $82.16, but the card carries a 'New shoppers save $55.59' tag, so the price a repeat order pays is UNKNOWN. A second U-shaped candidate without a tag reads $34.49 (item 3256812762435063, 8 sold, form not confirmed by photo)."
+   },
+   {
+    "source": "AliExpress cards with ship-from China requested (4D bionic finger shawl, N7 type)",
+    "url": "https://www.aliexpress.us/w/wholesale-bionic-neck-shoulder-massager-heat-kneading.html?SearchText=bionic%20neck%20shoulder%20massager%20heat%20kneading&shipFromCountry=CN",
+    "unit_cost": 15.93,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "UNKNOWN as a landed cost: cards read 2026-11-21 show $15.93 to $23.59 with 10K+ sold each, but every one carries a new-shopper tag, no delivery days, and the page did not confirm the China filter."
+   },
+   {
+    "source": "PROXY: Walmart marketplace listings of similar kneading neck massagers",
+    "url": "https://www.walmart.com/ip/18870608933",
+    "unit_cost": 32.01,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "not read",
+    "label": "PROXY, ESTIMATED (web search snippets 2026-11-21: one clearance listing at $32.01, others about $28 to $46). A retail price, not a cost."
+   },
+   {
+    "source": "CJdropshipping, Zendrop, Spocket, Doba",
+    "url": "https://cjdropshipping.com/search/hand+massager.html?from=US",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "not read",
+    "label": "UNKNOWN: CJ redirects to a human check, Spocket returned 403, Zendrop needs a login. Doba lists 40 neck massagers in stock with 1 to 3 business days shown, but prices need an account."
+   }
+  ],
+  "best_us_landed_cost": 23.29,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Hand-shaped form: lowest card that clearly matches with heat, shows free shipping and has no new-shopper tag (11 sold, fastest delivery 4 days). The most-sold US listing (20K+ sold) is $23.15 for new shoppers only. For the U-shaped TheraPexa form the clean US-stock cost is not confirmed: $26.57 is a new-shopper price and the $34.49 card is unconfirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: all China-side cards read are new-shopper promo prices ($15.93 to $23.59) with no delivery days. On what could be read, China-side is not clearly cheaper than US stock.",
+  "weight_lb": 2.4,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Massager plus a wall charger and a zip travel bag in a gift box; a two-unit 'one for you, one to give' price. TheraPexa sells a 45W charger add-on at $24.99 and shows multi-unit prices on its page. A charger and bag add little cost but each part needs its own US-stock source (UNKNOWN).",
+  "whale_note": "No famous brand owns this. TheraPexa is the dominant advertiser for the phrase but is a single-product store. On Amazon the wearable style is split across 24 seller names (first word of the title). Renpho, Comfier, Snailax and Nekteck are established but none leads.",
+  "ip_safety_flags": "Sample-first rule waived for this lane: ads would start before the unit is in hand (flagged, not a rejection). Lithium battery plus a heating element next to the neck; no UL or ETL mark visible on any card (UNKNOWN). Kneading heads can catch long hair; needs a warning. The market leader sells on medical ground (its page says FDA cleared, HSA/FSA eligible, chronic pain relief); a no-name unit can claim none of that, and under the house rules our copy must stay with relaxation wording and no pain, posture or health claims. Whether a kneading massager sold for relaxation needs any FDA step was not verified today (UNKNOWN). The hand-shaped design is sold by many factories; design patents on it were NOT searched today (UNKNOWN) and must be checked before scaling. Do not use the TheraPexa name, photos or copy.",
+  "season_note": "Good for December, weak after. Google searches (ESTIMATED, DataForSEO Google Ads, US): 'neck massager' 135,000 in Dec 2025 against 49,500 in Jan 2026 and 40,500 in Feb 2026; 'neck and shoulder massager' 22,200 in Dec against 9,900 in Jan and 6,600 in Feb. It is a gift item, so a test must run before about Dec 15 to arrive for Christmas with 4 to 6 day delivery.",
+  "risks": "1) Price comparison: the U-shaped form sells at $44 to $56 on Amazon from brands with thousands of ratings and the hand-shaped form at $30 to $57, so a $90 price depends on the ad and the page, and invites refunds. 1b) The strongest proof (TheraPexa) is for the U-shaped form sold with medical claims; the cheap US stock is the hand-shaped form, whose only DTC sellers found show no review counts. 2) All US-stock costs are Black Friday card prices with 0 to 18 sales on the listings without a new-shopper tag; the regular price and stock depth are unknown. 3) The house hero rule (already selling in volume at $60 or more from several sellers) is met only by DTC evidence, not on Amazon. 4) The ads that work in this market lean on pain relief; ours cannot. 5) Strength complaints are likely (one roundup quotes a buyer calling a cordless unit weak on the neck); refund rate UNKNOWN. 6) Battery product, so returns by mail need care.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "cordless-heated-hand-massager",
+  "category": "massage and recovery / hands",
+  "product": "Cordless hand massager with air compression and heat (insert-hand unit), sold as a gift kit with charger and storage bag",
+  "what_it_solves": "Tired, cold or stiff-feeling hands after typing, crafts or manual work: a warm squeeze-and-release massage with no second person. To be sold as comfort and a gift, not for arthritis or carpal tunnel.",
+  "sell_price": 79.99,
+  "sell_price_source": "https://nekteck.com/products/cordless-hand-and-wrist-massager - VERIFIED 2026-11-21 ($79.99, shown against $99.99). Other DTC prices read today: Lunix LX3 $98.97, Lunix LX7 $119.97, Comfier 4403 $94.99, ErgonomicLux hand massager glove $99.99, Snailax $64.99 to $99.99, FIT KING $65.99 to $74.99. Amazon median for listings at $40 or more is $59.99. $79.99 is the lower-middle of the DTC range, not a tested price.",
+  "amazon": {
+   "typical_price": 59.99,
+   "bought_past_month_top_listings": 14700,
+   "listings_counted": 59,
+   "top_listing_url": "https://www.amazon.com/dp/B0DLKQWYJ3",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search, 58 keywords, 100 results each, listings de-duplicated by ASIN across keywords and filtered by title words. A listing counts if it is priced $40 to $400 and shows a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Filter: title contains 'hand massager', excluding massage guns and foot, leg, neck, scalp and eye massagers. 5,700 of the 14,700 units are on listings at $60 or more (28 listings, median $75.98). Leaders: Comfier 3,200 at $53.69, Cincom 2,000 at $47 to $51; 19 seller words in total.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Lunix (LX3)",
+    "url": "https://www.lunixinc.com/products/lx3-cordless-hand-massager-white",
+    "price": 98.97,
+    "traction_evidence": "VERIFIED 2026-11-21: 1,938 reviews on the product page; free US shipping with 1 to 4 business days stated.",
+    "is_whale": false
+   },
+   {
+    "store": "Comfier (4403)",
+    "url": "https://comfier.com/products/wireless-hand-massager-4403",
+    "price": 94.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 300 reviews in page data; one variant shown as sold out. Its Amazon listing at $53.69 shows 3,000+ bought in past month.",
+    "is_whale": false
+   },
+   {
+    "store": "ErgonomicLux (air compression hand massager glove)",
+    "url": "https://ergonomiclux.com/products/air-compression-hand-massager-glove",
+    "price": 99.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 106 reviews in page data; page states it ships from the US.",
+    "is_whale": false
+   },
+   {
+    "store": "Snailax (SL-489)",
+    "url": "https://snailax.com/products/snailax-hand-massager-with-heat-sl-489",
+    "price": 64.99,
+    "traction_evidence": "VERIFIED 2026-11-21: page data shows 531 reviews; free shipping in 3 to 7 business days.",
+    "is_whale": false
+   },
+   {
+    "store": "Nekteck",
+    "url": "https://nekteck.com/products/cordless-hand-and-wrist-massager",
+    "price": 79.99,
+    "traction_evidence": "VERIFIED 2026-11-21: no reviews on its own site.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library returned an empty page for this phrase on 2 attempts on 2026-11-21 (throttled after the first loads). The Meta Ads Connector library search for 'hand massager' returned loose matches (1,590 estimated, mostly unrelated story ads); one relevant advertiser seen (Prova and Co, 'Made For Stiff Aging Hands', billed in GBP). Vendor signal only: Copyfy's November 2026 list names a 'heated air compression hand massager' (ESTIMATED, a dropship-tool vendor with a stake).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Hand Massager with Heat and Compression, cordless hand and wrist massager, 3 modes 5 levels",
+    "url": "https://www.aliexpress.us/item/3256812614587502.html",
+    "unit_cost": 31.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown on this card",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 2 sold, free shipping, 'Early bird deal, only 4 left', list price $126.76, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Cordless Rechargeable Electric Hand Massager with Heating and Air Compression, 3 heat levels 5 modes",
+    "url": "https://www.aliexpress.us/item/3256813218340950.html",
+    "unit_cost": 35.59,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown on this card",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 2 sold, free shipping, 'Early bird deal, only 3 left', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Hand Massager with heat, cordless",
+    "url": "https://www.aliexpress.us/item/3256812644178682.html",
+    "unit_cost": 43.79,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 1 sold, free shipping, no new-shopper tag. The only insert-hand card that shows delivery days."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Electric Hand Massager Glove, air pressure kneading, hot compress (glove form)",
+    "url": "https://www.aliexpress.us/item/3256812704764646.html",
+    "unit_cost": 28.19,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown on this card",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 11 sold, free shipping, no new-shopper tag. Glove form, different from the Lunix style, so not used as the best cost."
+   },
+   {
+    "source": "AliExpress card with ship-from China requested: Portable Electric Hand Massager with Heat, airbag compression, cordless (most sold without a promo tag)",
+    "url": "https://www.aliexpress.us/item/3256811400846933.html",
+    "unit_cost": 47.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "ESTIMATED: card read 2026-11-21 shows $47.49, free shipping, 450 sold, no new-shopper tag; the page did not confirm the China filter and showed no delivery days."
+   },
+   {
+    "source": "PROXY: Amazon retail, Cincom cordless hand massager with heat and compression",
+    "url": "https://www.amazon.com/dp/B0BYZ26Q1Q",
+    "unit_cost": 50.62,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY, ESTIMATED (DataForSEO 2026-11-21). A retail price with 10,965 ratings, shown to mark what a shopper can pay elsewhere, not a cost."
+   },
+   {
+    "source": "CJdropshipping, Zendrop, Spocket, Doba",
+    "url": "https://www.doba.com/search?keyword=neck%20shoulder%20massager",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "not read",
+    "label": "UNKNOWN: blocked or behind login (see notes file)."
+   }
+  ],
+  "best_us_landed_cost": 31.69,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Lowest insert-hand card with free shipping and no new-shopper tag. Thin: 2 sold and 'only 4 left'; delivery days not shown on the card. The next cards are $35.59 (only 3 left) and $43.79 (fastest delivery 6 days).",
+  "best_cn_landed_cost": 47.49,
+  "best_cn_landed_label": "ESTIMATED: AliExpress card as displayed 2026-11-21 (450 sold, free shipping, no promo tag) in a search with ship-from China requested; filter not confirmed, delivery days not shown. On this evidence China-side is not cheaper than US stock.",
+  "weight_lb": 2.7,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Gift kit: massager, USB-C wall charger, drawstring bag and a printed gift sleeve, aimed at 'gift for mom or grandma'. A pair price for couples. FIT KING sells leg plus hand massager sets at $145.99 to $153.99, which shows the cross-sell.",
+  "whale_note": "No whale in this sub-type. Comfier and Cincom lead Amazon at $47 to $54; Lunix is the visible DTC brand at about $99. Theragun and Renpho appear in the search but sell massage guns, not this product.",
+  "ip_safety_flags": "Sample-first rule waived for this lane (flagged). Air-compression massagers sold for medical purposes are FDA Class II devices (21 CFR 890.5650, powered inflatable tube massager; FDA's database lists 510(k) as the submission type, per search results read today, ESTIMATED). Nearly every Amazon leader sells it as 'for arthritis and carpal tunnel, FSA HSA eligible'. A no-name unit sold that way falls under our medical exclusion, so this only works with comfort wording and no condition names. Lithium battery plus heat; certification marks UNKNOWN. Patents not searched (UNKNOWN).",
+  "season_note": "Good for December, weak after. Google searches (ESTIMATED): 'hand massager' 60,500 in Dec 2025 against 22,200 in Jan 2026 and 18,100 in Feb 2026; 'hand massager with heat' 1,900 in Dec against 720 in Jan. Gift for older relatives.",
+  "risks": "1) US-stock listings are thin (1 to 11 sold, 'only 3 left' tags), so stock could run out mid-test. 2) Known brands sell it at $47 to $54 on Amazon with up to 10,965 ratings. 3) The DTC prices near $99 belong to brands with their own stock and reviews. 4) Benefit is hard to show in 3 seconds (the hand is hidden inside the unit). 5) Buyers are likely older (ASSUMED from the gift positioning), which can mean more support contacts. 6) Condition claims are off limits, which removes the main hook competitors use. 7) Ad evidence UNKNOWN.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "leg-air-compression-massager-heat",
+  "category": "massage and recovery / legs",
+  "product": "Air-compression leg massager wraps for foot, calf and thigh with heat and a handheld controller (pair)",
+  "what_it_solves": "Heavy, tired legs after standing shifts, travel or workouts: wraps inflate and release while you sit. Would have to be sold as relaxation only, with no circulation, swelling or medical wording.",
+  "sell_price": 119.99,
+  "sell_price_source": "https://renpho.com/products/leg-massager-premium - VERIFIED 2026-11-21 (Renpho Aeria Ultimate Thermal 2, $119.99). Other DTC prices read today: ReAthlete Air-C $149.99 (shown against $299.99), Nekteck with heat $139.99, Nekteck air compression leg massager $99.99, Lunix LX10 $99.98, ReAthlete RLXR $99.99 (1,047 reviews). Amazon leaders sell at $84.53 to $132.99. $119.99 is the middle of that range, not a tested price.",
+  "amazon": {
+   "typical_price": 113.99,
+   "bought_past_month_top_listings": 24900,
+   "listings_counted": 85,
+   "top_listing_url": "https://www.amazon.com/dp/B0CX4RZG99",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search, 58 keywords, 100 results each, listings de-duplicated by ASIN across keywords and filtered by title words. A listing counts if it is priced $40 to $400 and shows a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Filter: title contains leg massager, leg compression massager, compression or recovery boots, or calf massager, excluding knee massagers, guns and foot machines. 20,600 of the 24,900 units are on listings at $60 or more (75 listings, median $119.99). Sellers: unbranded 'Leg' titles 5,200, Cincom 4,550, Quinear 3,700, Alljoy 3,000, FIT KING 2,800; 22 seller words in total.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "ReAthlete (Air-C Leg Massager)",
+    "url": "https://reathlete.com/products/air-c-heat",
+    "price": 149.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 2,650 reviews on the product page; store claims 326,000+ customers; free US shipping. About 16 of the 30 ads loaded for 'leg massager' are ReAthlete or creator partnership ads for it, with start dates from Nov 2025 to Nov 2026.",
+    "is_whale": true
+   },
+   {
+    "store": "Renpho (Aeria Ultimate Thermal 2)",
+    "url": "https://renpho.com/products/leg-massager-premium",
+    "price": 119.99,
+    "traction_evidence": "VERIFIED price 2026-11-21. Mass brand: its foot massagers show 8,600+ units a month and its eye massagers 15,650+ on Amazon in this scan.",
+    "is_whale": true
+   },
+   {
+    "store": "Nekteck (leg compression massager with heat)",
+    "url": "https://nekteck.com/products/leg-compression-massager-for-circulation-and-relief",
+    "price": 139.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 12 reviews on its own site.",
+    "is_whale": false
+   },
+   {
+    "store": "Lunix (LX10 full leg compression massager)",
+    "url": "https://www.lunixinc.com/products/lunix-lx10-full-leg-compression-massager-with-hot-cold-pack-green",
+    "price": 99.98,
+    "traction_evidence": "VERIFIED price 2026-11-21; review count not read.",
+    "is_whale": false
+   },
+   {
+    "store": "FIT KING (Amazon listing, own store fitkingshop.com)",
+    "url": "https://www.amazon.com/dp/B09PRJP43V",
+    "price": 132.99,
+    "traction_evidence": "ESTIMATED 2026-11-21: 1,000+ bought in past month, 1,645 ratings, #18 in Electric Foot Massagers. One active Meta ad in the sample (started Nov 15, 2026).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'leg massager', active, US: about 150 results. In the 30 ads that loaded: ReAthlete 8 plus 8 creator partnership ads, Alibaba.com 5, FIT KING SHOP 1, NightLegs 1 (a different product, a $44.99 foot strap), Rouvenor 1 (a $34.99 roller), Temu 1, and 5 others; start dates run from Nov 18, 2025 to Nov 20, 2026. ReAthlete's copy claims better circulation and less swelling, which are health claims we cannot make. Long-running ads are a signal, not proof of profit. Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: SEJOY Leg Air Compression Massager, foot heat, calf and thigh, handheld controller, 3 modes",
+    "url": "https://www.aliexpress.us/item/3256811826541481.html",
+    "unit_cost": 44.29,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 20 sold, rating 5, free shipping, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Wireless Full Leg Massager, air compression with heating and vibration, 4 modes",
+    "url": "https://www.aliexpress.us/item/3256813419624466.html",
+    "unit_cost": 50.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). No sales shown; free shipping; no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Leg Massager with Heat and Compression, foot and leg, air compression boots",
+    "url": "https://www.aliexpress.us/item/3256812492465404.html",
+    "unit_cost": 129.3,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 6 sold, rating 4. Full boots with a bag; this is the style Amazon sells at $132.99, so there is no room on this listing."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 360 degree air pressure heating calf massager, wireless (calf only)",
+    "url": "https://www.aliexpress.us/item/3256809637559264.html",
+    "unit_cost": 32.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 65 sold, rating 4.4. Whether the price is for one wrap or a pair is not readable from the card (UNKNOWN)."
+   },
+   {
+    "source": "AliExpress cards with ship-from China requested (full leg air compression massagers)",
+    "url": "https://www.aliexpress.us/w/wholesale-full-leg-massager-air-compression-heat.html?SearchText=full%20leg%20massager%20air%20compression%20heat&shipFromCountry=CN",
+    "unit_cost": 44.42,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "UNKNOWN as a landed cost: the most-sold card ($44.42, 1K+ sold) carries a new-shopper tag; cards without a tag read $98.29 and $102.90 with no free-shipping text. Filter not confirmed by the page."
+   },
+   {
+    "source": "PROXY: Amazon retail, Cincom leg massager with heat and air compression",
+    "url": "https://www.amazon.com/dp/B08CXN8QF2",
+    "unit_cost": 85.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY, ESTIMATED (DataForSEO 2026-11-21; 1,000+ bought in past month, 4,712 ratings, 4 lb). A retail price, not a cost."
+   }
+  ],
+  "best_us_landed_cost": 44.29,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). SEJOY foot, calf and thigh wraps with controller, 20 sold, fastest delivery 6 days. Whether it matches the ReAthlete or FIT KING build (number of air chambers, heat zones, wrap size) is not confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China-side cards are new-shopper promos or show no shipping line. Nothing read suggests China-side is cheaper than the $44.29 US card.",
+  "weight_lb": 5.1,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Leg wraps plus extension straps for larger calves, a storage bag and a printed routine card. Cross-sell the hand massager (FIT KING sells that pair as a set).",
+  "whale_note": "ReAthlete owns the Meta ad space for the phrase and Renpho is a mass brand; Hyperice Normatec and Therabody sit far above this price. The Amazon mid-market itself is spread over 22 seller words with no leader.",
+  "ip_safety_flags": "LIKELY EXCLUDED BY THE MEDICAL RULE. An air-compression leg massager is the textbook 'powered inflatable tube massager', an FDA Class II device (21 CFR 890.5650, product code IRP, 510(k) listed as the submission type; per search results read today, ESTIMATED) when sold for circulation or muscle pain, and every leading listing sells it exactly that way ('for circulation and pain relief, FSA HSA eligible'). A no-name US-stock unit has no visible clearance (UNKNOWN). Compression devices normally carry warnings for people with blood clots or vascular disease (general caution, not read on a listing today), so a warning page would be required. Mains adapter plus heat; certification marks UNKNOWN. Sample-first rule waived for this lane (flagged).",
+  "season_note": "Fine for December and still alive in January. Google searches (ESTIMATED): 'leg massager' 33,100 in Dec 2025, 18,100 in Jan 2026, 14,800 in Feb 2026, 22,200 in Oct 2026; 'compression boots' 22,200 in Dec 2025 and again in Oct 2026.",
+  "risks": "1) Regulatory: see flags; this is the main reason not to pick it. 2) The proven ad angle is a health claim. 3) Fit returns for calf size are likely (ASSUMED) and the parcel is about 5 lb. 4) Only one US card at a workable cost and its build is unconfirmed. 5) ReAthlete has ads that started in November 2025 and are still active.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "shiatsu-foot-massager-machine",
+  "category": "massage and recovery / feet",
+  "product": "Enclosed shiatsu foot massager machine with heat and air compression",
+  "what_it_solves": "Sore, tired feet at the end of the day: kneading rollers, air squeeze and warmth while sitting. Would be sold as comfort, not for neuropathy or plantar fasciitis.",
+  "sell_price": 109.99,
+  "sell_price_source": "https://ergonomiclux.com/products/shiatsu-foot-massager-with-heat - VERIFIED 2026-11-21 ($109.99, shown against $130.99); Renpho Shiatsu Foot Massager Compact is also $109.99. Other prices read today: Nekteck $89.99 and $99.99, Renpho Solheel $114.99, Renpho Premium $149.99. The two Amazon leaders sell at $71.99 and $75.98.",
+  "amazon": {
+   "typical_price": 81.19,
+   "bought_past_month_top_listings": 34300,
+   "listings_counted": 88,
+   "top_listing_url": "https://www.amazon.com/dp/B07WYX1D4H",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search, 58 keywords, 100 results each, listings de-duplicated by ASIN across keywords and filtered by title words. A listing counts if it is priced $40 to $400 and shows a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Filter: title contains 'foot massager', excluding foot spas, leg massagers, EMS mats, rollers and warmers. 29,550 of the 34,300 units are on listings at $60 or more (76 listings, median $85.49). Renpho 8,600 and Nekteck 6,300; 28 seller words in total.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Renpho (Shiatsu Foot Massager Premium)",
+    "url": "https://renpho.com/products/shiatsu-foot-massager-premium-black-with-remote",
+    "price": 149.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 4,037 reviews on the product page. On Amazon, Renpho foot massagers show 8,600+ units a month in this scan; #1 in Electric Foot Massagers.",
+    "is_whale": true
+   },
+   {
+    "store": "Nekteck (Shiatsu Foot Massager Machine)",
+    "url": "https://nekteck.com/products/shiatsu-foot-massager-appliances",
+    "price": 89.99,
+    "traction_evidence": "VERIFIED 2026-11-21: 212 reviews on its own site. Its Amazon listing at $71.99 shows 4,000+ bought in past month and 21,183 ratings; #2 in Electric Foot Massagers.",
+    "is_whale": false
+   },
+   {
+    "store": "ErgonomicLux",
+    "url": "https://ergonomiclux.com/products/shiatsu-foot-massager-with-heat",
+    "price": 109.99,
+    "traction_evidence": "VERIFIED price 2026-11-21; review count not read.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library returned an empty page for this phrase on 2 attempts on 2026-11-21 (throttled after the first loads). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Shiatsu Foot Massager Machine with Heat, deep kneading and air compression, 6 modes",
+    "url": "https://www.aliexpress.us/item/3256813322388777.html",
+    "unit_cost": 64.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). No sales shown; free shipping; no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US (most sold): Medcursor Shiatsu Foot Massager Machine with Heat",
+    "url": "https://www.aliexpress.us/item/3256809798521803.html",
+    "unit_cost": 48.19,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). 630 sold, rating 4.9, but the card carries a 'New shoppers' tag of $99.82, so the price a repeat order pays is UNKNOWN. Medcursor is a brand that also sells on Amazon at $55.99."
+   },
+   {
+    "source": "AliExpress cards with ship-from China requested",
+    "url": "https://www.aliexpress.us/w/wholesale-shiatsu-foot-massager-machine-heat.html?SearchText=shiatsu%20foot%20massager%20machine%20heat&shipFromCountry=CN",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "UNKNOWN: the cards returned were small open rollers and ankle wraps with new-shopper tags, not this machine."
+   },
+   {
+    "source": "PROXY: Amazon retail, Nekteck Shiatsu Foot Massager with Heat",
+    "url": "https://www.amazon.com/dp/B07WYX1D4H",
+    "unit_cost": 71.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY, ESTIMATED (DataForSEO 2026-11-21). A retail price, not a cost; it sits within $8 of the only clean US-stock card."
+   }
+  ],
+  "best_us_landed_cost": 64.49,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). The only enclosed machine card without a new-shopper tag, and it has no sales. It is about the same as the Amazon retail price of the category leaders.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: no matching China-side card with a readable shipping line.",
+  "weight_lb": 5.3,
+  "demo_score_1to5": 3,
+  "bundle_idea": "None that fixes the cost gap. Nekteck bundles the machine with a neck massager at $123.98 and with a soaking tub at $109.98.",
+  "whale_note": "Renpho is the whale (Amazon #1, 4,037 reviews on its own site) and Nekteck is close behind; both sell at $72 to $76 on Amazon.",
+  "ip_safety_flags": "Mains-powered heated appliance, certification marks UNKNOWN. Listings lean on neuropathy and plantar fasciitis claims that we cannot use. Sample-first rule waived for this lane (flagged).",
+  "season_note": "Strongest December gift in the category. Google searches (ESTIMATED): 'foot massager' 301,000 in Dec 2025 against 135,000 in Jan and Feb 2026; 'foot massager machine' 27,100 in Dec against 12,100 in Jan.",
+  "risks": "Kept only so the scripts can show the failure: the one clean US-stock cost ($64.49, no sales) is about what Amazon charges shoppers for the #1 and #2 products. Largest demand in this scan, but two brands hold it. Bulky 5 lb return.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "music-boxing-machine",
+  "category": "home fitness accessories / boxing",
+  "product": "Wall-mounted music boxing machine (Bluetooth light-up punching target) with adult gloves",
+  "what_it_solves": "A fun 10-minute cardio and stress outlet at home with no bag or floor space: punch the pads that light up in time with your music.",
+  "sell_price": 69.99,
+  "sell_price_source": "https://www.amazon.com/dp/B0CRL3Y11H - ESTIMATED 2026-11-21 (DataForSEO): $69.99 is the median of the 19 Amazon listings at $60 or more; the best-selling large size is $66.47. No DTC store selling it at a premium was found (web search returned only Walmart, Best Buy and Amazon marketplace listings at about $27 to $195), so a DTC price is UNKNOWN.",
+  "amazon": {
+   "typical_price": 59.99,
+   "bought_past_month_top_listings": 18450,
+   "listings_counted": 41,
+   "top_listing_url": "https://www.amazon.com/dp/B0D4YZRK2M",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search, 58 keywords, 100 results each, listings de-duplicated by ASIN across keywords and filtered by title words. A listing counts if it is priced $40 to $400 and shows a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Filter: title contains boxing machine, punching machine, boxing target, punching pad or punching trainer. 7,600 of the 18,450 units are on listings at $60 or more (19 listings); 13,100 units sit under $40. Almost all sellers are unbranded. Top listings rank #204 and #536 in Sports and Outdoors.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "No DTC store found for this product",
+    "url": "https://www.walmart.com/ip/14834273758",
+    "price": 34.99,
+    "traction_evidence": "ESTIMATED (web search snippets 2026-11-21): sold by many unbranded marketplace sellers on Walmart at roughly $29 to $55, a few up to $195. The price shown is one Walmart example, not a DTC price.",
+    "is_whale": false
+   },
+   {
+    "store": "Liteboxer (different tier, for context only)",
+    "url": "https://reviewed.com/health/content/liteboxer-review-get-fun-home-boxing-workout-smart-boxing-system",
+    "price": 1495.0,
+    "traction_evidence": "ESTIMATED (review article snippet): wall-mounted connected boxing system from $1,495 plus a monthly membership. Not a competitor at this price.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library returned an empty page for this phrase on 2 attempts on 2026-11-21 (throttled after the first loads). Foreplay: blocked (402).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: Music Punching Machine, Bluetooth wall mounted boxing trainer with gloves and phone bracket",
+    "url": "https://www.aliexpress.us/item/3256812501155089.html",
+    "unit_cost": 37.29,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown on this card",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 3 sold, free shipping, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Music Boxing Machine for Adults Kids, smart punching machine with gloves",
+    "url": "https://www.aliexpress.us/item/3256812010408129.html",
+    "unit_cost": 44.59,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Card shows 3 sold, free shipping, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US (most sold): Upgrade Intelligent Music Boxing Machine for Adults and Kids",
+    "url": "https://www.aliexpress.us/item/3256809945370882.html",
+    "unit_cost": 27.18,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). 449 sold, rating 4.9, but the card carries a 'New shoppers' tag of $113.56, so the price a repeat order pays is UNKNOWN."
+   },
+   {
+    "source": "AliExpress cards with ship-from China requested",
+    "url": "https://www.aliexpress.us/w/wholesale-music-boxing-machine.html?SearchText=music%20boxing%20machine&shipFromCountry=CN",
+    "unit_cost": 47.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "ESTIMATED: one card without a promo tag shows $47.69 with free shipping and no sales; others are new-shopper promos ($21.34 to $25.12) or show no shipping line. Filter not confirmed by the page."
+   },
+   {
+    "source": "PROXY: Amazon retail, best-selling music boxing machine with gloves",
+    "url": "https://www.amazon.com/dp/B0D4YZRK2M",
+    "unit_cost": 47.48,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY, ESTIMATED (DataForSEO 2026-11-21; 5,000+ bought in past month, 1,919 ratings, 3.2 lb). A retail price, not a cost."
+   }
+  ],
+  "best_us_landed_cost": 37.29,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Lowest card with free shipping and no new-shopper tag (3 sold; delivery days not shown on the card). Size versus the Amazon 'large' model is not confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: the one clean China-side card ($47.69, no sales) is dearer than US stock and shows no delivery days.",
+  "weight_lb": 6.0,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Machine plus adult gloves, a second pair of gloves, and a no-drill mounting kit (straps and adhesive pads). Mounting parts need their own check; a unit that falls off the wall is the obvious failure point (reviews not read).",
+  "whale_note": "No whale and no brand at all: unbranded sellers hold nearly all Amazon sales. That also means no one has shown that a premium price holds.",
+  "ip_safety_flags": "Design patents exist for this product type (for example US D1025261 'Boxing machine', Guangzhou Talong Technology, granted April 2024, and several 'music boxing machine' designs in the same class, per USPTO search results today). Which factory shapes they cover was NOT checked, so IP status is UNKNOWN and must be cleared before any spend. Many listings are sold 'for kids'; children's products are excluded, so it would have to be sold for adults and teens only, with adult gloves. Lithium battery, wall mounting and noise in apartments. Sample-first rule waived for this lane (flagged).",
+  "season_note": "A Christmas gift and little else. Google searches (ESTIMATED): 'music boxing machine' 60,500 in Dec 2025 against 9,900 in Jan and Feb 2026, 2,400 in Jul 2026 and 6,600 in Oct 2026. Anything unsold by about Dec 18 has no January.",
+  "risks": "1) No evidence of a DTC price above the Amazon price. 2) US-stock cards ($37.29 to $58.29) sit close to Amazon retail ($47.48 to $73.99). 3) Design patents unchecked. 4) Demand collapses after Christmas. 5) Overlap with children's products. Kept as the only home-fitness item that passed the weight and demand screens, not as a recommendation.",
+  "checked": "2026-11-21"
+ }
+]

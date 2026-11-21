@@ -1,0 +1,57 @@
+[
+ {
+  "id": "barkfare-extender-us-stock",
+  "category": "pets / dog travel",
+  "product": "Barkfare dog back-seat extender kit (hard-bottom extender plus door guards), shipped to the customer by a US-stock seller",
+  "what_it_solves": "Dogs sliding into the footwell and fur and scratches on the back seat; a rigid platform turns the back seat into a flat, covered space.",
+  "sell_price": 149,
+  "sell_price_source": "Proposed price: the Barkfare kit offer (ASSUMED, reports/offer-plan-2026-11-18.html). Anchors: Ruff Liners $169.99 on Amazon and RuffRover $169.95 on its own site (reports/hero-deep-dive-2026-11-14.md)",
+  "amazon": {
+   "typical_price": 169.99,
+   "bought_past_month_top_listings": 5500,
+   "listings_counted": null,
+   "top_listing_url": null,
+   "checked": "2026-11-14"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Ruff Liners",
+    "url": null,
+    "price": 169.99,
+    "traction_evidence": "About 5,300 of the 5,500+ units a month sold above $130 on Amazon (reports/hero-deep-dive-2026-11-14.md, ESTIMATED)",
+    "is_whale": true
+   },
+   {
+    "store": "RuffRover",
+    "url": null,
+    "price": 169.95,
+    "traction_evidence": "3,700+ ratings on its own site and Meta ads running 400+ days (reports/hero-deep-dive-2026-11-14.md)",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "RuffRover Meta ads running 400+ days (reports/hero-deep-dive-2026-11-14.md).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: hard-bottom extender (item 3256812096596227)",
+    "url": "https://www.aliexpress.us/item/3256812096596227.html",
+    "unit_cost": 83.69,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "card said 4 to 6 day delivery (ASSUMED until tested)",
+    "label": "ESTIMATED: card price $76.99 with free US shipping read 2026-11-17, plus $6.70 of add-ons ASSUMED; 9 sold, unbranded, store unknown (data/supplier_rank_inputs.csv, ali-us-76)"
+   }
+  ],
+  "best_us_landed_cost": 83.69,
+  "best_us_landed_label": "ESTIMATED: AliExpress US-stock card price $76.99 with free shipping read 2026-11-17, plus $6.70 of add-ons ASSUMED. 9 sold; the door guards would ship separately or be left out (data/supplier_rank_inputs.csv, research/money-math-2026-11-19/inputs.json)",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not used: the own-brand lane imports a 5-kit batch instead (research/money-math-2026-11-19)",
+  "weight_lb": null,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Extender plus door guards as the kit; bed topper as the $189 bundle (research/offers-2026-11-18).",
+  "whale_note": "Ruff Liners leads the premium tier on Amazon. Volume below $80 is spread over many sellers (32,000+ hard-bottom units a month in total).",
+  "ip_safety_flags": "Patents: Ruff Liners US 12,221,024 and 4Knines US 12,409,763 look avoidable with plain door guards that do not attach to the extender or the window (quick screen, not legal advice; reports/hero-deep-dive-2026-11-14.md).",
+  "season_note": "Christmas plan approved Nov 18: fast lane plus a print-on-demand gift test (reports/decisions.md).",
+  "risks": "The US listing has 9 sales and an unknown store. Heavy, bulky item: returns are costly. The supplier messages for the own-brand lane have not been sent.",
+  "checked": "2026-11-17"
+ }
+]

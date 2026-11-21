@@ -49,6 +49,8 @@ def economics(price, landed, cpa, refund_pct, pay_pct, pay_fixed, tough_mult):
         "target_cac": target_cac, "benchmark_cpa": cpa, "tough_cpa": cpa * tough_mult,
         "cushion_pass": cpa <= target_cac,
         "profit_benchmark": pre - cpa, "profit_tough": pre - cpa * tough_mult,
+        # Highest supplier cost at which the cushion rule still passes (benchmark ad cost = 75% of what is left before ads).
+        "max_cost_for_cushion": price - pay - refunds - cpa / 0.75,
     }
 
 
@@ -131,6 +133,7 @@ def main():
                 "id": c["id"], "group": file_key, "category": c.get("category"), "benchmark_used": bkey,
                 "product": c.get("product"), "what_it_solves": c.get("what_it_solves"),
                 "sell_price": price, "sell_price_source": c.get("sell_price_source"),
+                "proposed_price": (c.get("sell_price_source") or "").strip().lower().startswith("proposed"),
                 "amazon_typical_price": amazon.get("typical_price"),
                 "amazon_bought_past_month": amazon.get("bought_past_month_top_listings"),
                 "amazon_listings_counted": amazon.get("listings_counted"),
@@ -175,6 +178,11 @@ def main():
             r["rule_status"], r["rule_note"] = "caution", review["caution"][r["id"]]
         else:
             r["rule_status"], r["rule_note"] = "ok", ""
+    near = val(inp.get("shortlist_rule", {"value": 0.15}))
+    for r in rows:
+        u = r["us"]
+        r["shortlist"] = bool(u and r["rule_status"] != "blocked" and u["max_cost_for_cushion"] > 0
+                              and r["us_landed_cost"] <= u["max_cost_for_cushion"] * (1 + near))
     order = {"green": 0, "amber": 1, "red": 2}
     rows.sort(key=lambda r: (r["rule_status"] == "blocked", order[r["tier"]], -r["score"]))
     for i, r in enumerate(rows, 1):
@@ -193,15 +201,21 @@ def main():
         if not u:
             r["test_plan"] = None
             continue
-        plan = {"ad_budget": ad_budget, "setup_and_sample": setup_fixed + u["landed"],
-                "stop_ad_with_no_sale_at": u["break_even_cac"], "checkpoint_half_budget": ad_budget / 2}
+        # Fit the ad budget so setup + sample + ads + supplier payments stay inside the top budget even if
+        # every order arrives before any Shopify payout (benchmark ad cost = the most orders). Rounded down to $10.
+        cap = max(inp["budgets_usd"])
+        fit = (cap - setup_fixed - u["landed"]) / (1 + u["landed"] / u["benchmark_cpa"])
+        ab = min(ad_budget, math.floor(fit / 10) * 10)
+        plan = {"ad_budget": ab, "ad_budget_per_day": ab / inp["test_plan"]["days"], "ad_budget_was_cut_to_fit_cash": ab < ad_budget,
+                "setup_and_sample": setup_fixed + u["landed"],
+                "stop_ad_with_no_sale_at": u["break_even_cac"], "checkpoint_half_budget": ab / 2}
         for name, cpa in (("benchmark", u["benchmark_cpa"]), ("tough", u["tough_cpa"])):
-            orders = ad_budget / cpa
+            orders = ab / cpa
             plan[name] = {"orders": orders, "sales": orders * u["price"], "supplier_spend": orders * u["landed"],
-                          "cash_out_before_payout": setup_fixed + u["landed"] + ad_budget + orders * u["landed"],
-                          "net_after_setup_and_sample": orders * (u["pre_ad_contribution"]) - ad_budget - setup_fixed - u["landed"]}
-        plan["worst_case_no_sales"] = -(ad_budget + setup_fixed + u["landed"])
-        plan["loss_if_stopped_at_checkpoint_with_no_sales"] = -(ad_budget / 2 + setup_fixed + u["landed"])
+                          "cash_out_before_payout": setup_fixed + u["landed"] + ab + orders * u["landed"],
+                          "net_after_setup_and_sample": orders * (u["pre_ad_contribution"]) - ab - setup_fixed - u["landed"]}
+        plan["worst_case_no_sales"] = -(ab + setup_fixed + u["landed"])
+        plan["loss_if_stopped_at_checkpoint_with_no_sales"] = -(ab / 2 + setup_fixed + u["landed"])
         r["test_plan"] = plan
 
     # The "$100,000 before the end of the year" claim, on benchmark numbers.
@@ -221,6 +235,8 @@ def main():
         "creator_month_ad_share_of_revenue": cm["meta_spend"] / cm["revenue"],
         "creator_month_profit_share_of_revenue": cm["net_profit"] / cm["revenue"],
         "profit_if_creator_margin": cc["revenue_target_usd"] * cm["net_profit"] / cm["revenue"],
+        "creator_year_profit_share_of_revenue": cc["creator_year"]["net_profit"] / cc["creator_year"]["revenue"],
+        "profit_if_creator_year_margin": cc["revenue_target_usd"] * cc["creator_year"]["net_profit"] / cc["creator_year"]["revenue"],
         "budget_multiple_needed_for_ads_alone": orders_needed * bench["all"] / max(inp["budgets_usd"]),
     }
 
@@ -235,6 +251,14 @@ def main():
         "setup_fixed_usd": setup_fixed,
         "learning_phase_weekly_ad_spend_by_benchmark": {k: round(v * learn, 2) for k, v in bench.items() if not k.startswith("_")},
         "claim_check": claim,
+        "proposed_prices": sum(1 for r in rows if r["proposed_price"]),
+        "under_60": sum(1 for r in rows if r["sell_price"] < 60),
+        "green_profits": sorted(round(r["us"]["profit_tough"], 2) for r in rows if r["tier"] == "green" and r["rule_status"] != "blocked"),
+        "blocked_that_would_earn": sum(1 for r in rows if r["tier"] == "green" and r["rule_status"] == "blocked"),
+        "cushion_pass_unblocked": sum(1 for r in rows if r["us"] and r["us"]["cushion_pass"] and r["rule_status"] != "blocked"),
+        "pre_ad_range_all": [min(r["us"]["pre_ad_contribution"] for r in rows if r["us"]), max(r["us"]["pre_ad_contribution"] for r in rows if r["us"])],
+        "tough_cpa_range": [min(r["us"]["tough_cpa"] for r in rows if r["us"]), max(r["us"]["tough_cpa"] for r in rows if r["us"])],
+        "shortlist": [r["id"] for r in rows if r["shortlist"]],
         "labels": "Costs are marketplace card prices (treat as ESTIMATED until a real order confirms them). Benchmarks ESTIMATED. Refund rates, the 1.3 multiplier and the cost stress are ASSUMED.",
     }
     out = {"summary": summary, "inputs": inp, "rows": rows}
@@ -277,6 +301,13 @@ def main():
         md += ["## Re-check at the cost of a better-proven US listing", "", "| Product | Cheapest listing | Profit (tough) | Better-proven listing | Profit (tough) |", "|---|---|---|---|---|"]
         md += [f"| {r['id']} | {m(r['us_landed_cost'])} | {m(r['us']['profit_tough'])} | {m(r['proven_listing']['cost'])} ({r['proven_listing']['note']}) | {m(r['proven_listing']['profit_tough'])} |" for r in pl]
         md += [""]
+    sl = [r for r in rows if r["shortlist"]]
+    md += ["## Shortlist for the logged-in cost check (listed cost within 15% of the cost that passes the cushion rule)", "",
+           "| Product | Sell | Listed US cost | Go price: cost must be at or under | Profit at that cost (tough) |", "|---|---|---|---|---|"]
+    for r in sl:
+        u = r["us"]
+        md.append(f"| {r['id']} | {m(r['sell_price'])} | {m(r['us_landed_cost'])} | {m(u['max_cost_for_cushion'])} | {m(u['price'] - u['max_cost_for_cushion'] - u['card_fee'] - u['refund_allowance'] - u['tough_cpa'])} |")
+    md += [""]
     md += ["## First week on a small budget (top 10 overall, tough ad cost, no payout yet)", "",
            "| Product | Budget | Orders the cash covers | Sales | Profit after setup and sample | Orders for $2,000 | Cash needed for $2,000 |", "|---|---|---|---|---|---|---|"]
     for r in [x for x in rows if x["rule_status"] != "blocked"][:10]:
@@ -284,11 +315,11 @@ def main():
             continue
         for b, w in r["week1"].items():
             md.append(f"| {r['id']} | {m(float(b))} | {w['orders']} | {m(w['sales'])} | {m(w['profit_after_everything'])} | {w['orders_needed_for_goal']} | {m(w['cash_needed_for_goal'])} |")
-    md += ["", f"## Capped test plan: {m(float(ad_budget))} of ads on one product (top 8 with US stock)", "",
-           "| Product | Orders (benchmark to tough) | Sales | Net after setup and sample | Cash out before any payout | Stop an ad with no sale at |", "|---|---|---|---|---|---|"]
+    md += ["", f"## Capped test plan: up to {m(float(ad_budget))} of ads on one product, cut where needed to keep total cash out under {m(float(max(inp['budgets_usd'])))} (top 8 with US stock)", "",
+           "| Product | Ad cap | Orders (benchmark to tough) | Sales | Net after setup and sample | Cash out before any payout | Stop an ad with no sale at |", "|---|---|---|---|---|---|---|"]
     for r in [x for x in rows if x["test_plan"] and x["rule_status"] != "blocked"][:8]:
         b, t_ = r["test_plan"]["benchmark"], r["test_plan"]["tough"]
-        md.append(f"| {r['id']} | {b['orders']:.1f} to {t_['orders']:.1f} | {m(b['sales'])} to {m(t_['sales'])} | {m(b['net_after_setup_and_sample'])} to {m(t_['net_after_setup_and_sample'])} | {m(b['cash_out_before_payout'])} to {m(t_['cash_out_before_payout'])} | {m(r['test_plan']['stop_ad_with_no_sale_at'])} |")
+        md.append(f"| {r['id']} | {m(float(r['test_plan']['ad_budget']))} | {b['orders']:.1f} to {t_['orders']:.1f} | {m(b['sales'])} to {m(t_['sales'])} | {m(b['net_after_setup_and_sample'])} to {m(t_['net_after_setup_and_sample'])} | {m(b['cash_out_before_payout'])} to {m(t_['cash_out_before_payout'])} | {m(r['test_plan']['stop_ad_with_no_sale_at'])} |")
     md += ["", "## The $100,000 by year end claim on benchmark numbers", "",
            f"- Orders needed at a {m(aov)} average order: {claim['orders_needed']:,} in {days} days ({claim['orders_per_day']:.0f} a day).",
            f"- Ad spend at the all-industry benchmark: {m(claim['ad_spend_benchmark'])} ({m(claim['ad_spend_per_day_benchmark'])} a day); at new-store cost: {m(claim['ad_spend_tough'])}.",

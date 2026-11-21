@@ -71,7 +71,8 @@
       "home": "home",
       "auto-outdoor": "outdoor",
       "tech-desk": "tech",
-      "beauty-fitness": "beauty"
+      "beauty-fitness": "beauty",
+      "barkfare": "pets"
     },
     "file_keywords": {
       "auto-outdoor": [
@@ -143,6 +144,12 @@
       "revenue": 125463.94,
       "meta_spend": 68886.1,
       "net_profit": 12596.51
+    },
+    "creator_year": {
+      "label": "ESTIMATED",
+      "source": "His self-reported April 2025 to April 2026 figures, unaudited (01_video_decode.md section 4)",
+      "revenue": 2849426.27,
+      "net_profit": 602441.64
     }
   },
   "rule_review": {
@@ -152,16 +159,23 @@
       "jump-starter-air-compressor": "High-current lithium pack clamped to a car battery; certification UNKNOWN. The scout flagged it as a likely fail on safety.",
       "dog-force-dryer": "Mains-powered heated appliance used on animals; electrical certification UNKNOWN; over 10 lb.",
       "towel-warmer-bucket": "Mains-powered heating appliance; electrical certification UNKNOWN; over 9 lb.",
-      "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found."
+      "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found.",
+      "heated-gloves-7v": "Blocked until battery certification is in hand: lithium packs and a heating element worn on the body, paperwork (UL, ETL or UN38.3) UNKNOWN. Its low cost is a listing with 3 sold.",
+      "heated-vest-powerbank-kit": "Blocked until battery certification is in hand: heating element worn on the body; two sellers and two parcels.",
+      "heated-socks-app": "Blocked until battery certification is in hand: lithium packs worn against the leg.",
+      "leg-air-compression-massager-heat": "Medical rule: an air-compression leg massager is an FDA Class II device when sold for circulation or pain. The scout flagged it as likely excluded.",
+      "cordless-heated-hand-massager": "Medical rule: air-compression massagers sold for pain or circulation are FDA Class II devices; lithium battery and heat.",
+      "shiatsu-foot-massager-machine": "Mains-powered heated appliance, certification UNKNOWN; listings lean on health claims we cannot use.",
+      "cordless-neck-shoulder-kneading-massager": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck."
     },
     "caution": {
-      "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
-      "heated-vest-powerbank-kit": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
-      "heated-socks-app": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
       "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
       "mattress-vacuum-uv": "UV light: no germ-killing or health claims allowed without proof.",
       "japanese-style-knife-set": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
-      "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold."
+      "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
+      "music-boxing-machine": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
+      "barkfare-extender-us-stock": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
+      "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon."
     }
   },
   "proven_listing_cost_usd": {
@@ -179,5 +193,10 @@
       "value": 48.69,
       "note": "the US listing with 110 sold"
     }
+  },
+  "shortlist_rule": {
+    "value": 0.15,
+    "label": "ASSUMED",
+    "source": "house choice: a product is worth a logged-in cost check if its listed cost is within 15% of the highest cost that passes the cushion rule"
   }
 }

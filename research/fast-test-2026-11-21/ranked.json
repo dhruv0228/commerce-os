@@ -1,17 +1,17 @@
 {
  "summary": {
   "checked": "2026-11-21",
-  "products": 30,
+  "products": 36,
   "tiers": {
    "green": 3,
    "amber": 7,
-   "red": 16
+   "red": 15
   },
-  "blocked": 4,
-  "green_that_survive_proven_listing_cost": 0,
+  "blocked": 11,
+  "green_that_survive_proven_listing_cost": 1,
   "startable": 3,
   "robust": 0,
-  "cushion_pass": 2,
+  "cushion_pass": 3,
   "setup_fixed_usd": 16,
   "learning_phase_weekly_ad_spend_by_benchmark": {
    "pets": 1961.5,
@@ -31,13 +31,37 @@
    "ad_spend_benchmark": 53277.92999999999,
    "ad_spend_tough": 69261.309,
    "ad_spend_per_day_benchmark": 1331.94825,
-   "median_cost_share_of_price_in_our_candidates": 0.42303254096468956,
-   "supplier_spend": 42303.254096468954,
+   "median_cost_share_of_price_in_our_candidates": 0.4293036629578698,
+   "supplier_spend": 42930.36629578698,
    "creator_month_ad_share_of_revenue": 0.5490509862833896,
    "creator_month_profit_share_of_revenue": 0.10039944545022259,
    "profit_if_creator_margin": 10039.94454502226,
+   "creator_year_profit_share_of_revenue": 0.21142559340551037,
+   "profit_if_creator_year_margin": 21142.559340551037,
    "budget_multiple_needed_for_ads_alone": 53.27792999999999
   },
+  "proposed_prices": 12,
+  "under_60": 5,
+  "green_profits": [
+   0.02,
+   0.21,
+   0.75
+  ],
+  "blocked_that_would_earn": 3,
+  "cushion_pass_unblocked": 0,
+  "pre_ad_range_all": [
+   7.070889999999994,
+   64.72089
+  ],
+  "tough_cpa_range": [
+   46.319,
+   66.378
+  ],
+  "shortlist": [
+   "japanese-style-knife-set",
+   "rechargeable-wall-sconce-pair",
+   "barkfare-extender-us-stock"
+  ],
   "labels": "Costs are marketplace card prices (treat as ESTIMATED until a real order confirms them). Benchmarks ESTIMATED. Refund rates, the 1.3 multiplier and the cost stress are ASSUMED."
  },
  "inputs": {
@@ -113,7 +137,8 @@
     "home": "home",
     "auto-outdoor": "outdoor",
     "tech-desk": "tech",
-    "beauty-fitness": "beauty"
+    "beauty-fitness": "beauty",
+    "barkfare": "pets"
    },
    "file_keywords": {
     "auto-outdoor": [
@@ -185,6 +210,12 @@
     "revenue": 125463.94,
     "meta_spend": 68886.1,
     "net_profit": 12596.51
+   },
+   "creator_year": {
+    "label": "ESTIMATED",
+    "source": "His self-reported April 2025 to April 2026 figures, unaudited (01_video_decode.md section 4)",
+    "revenue": 2849426.27,
+    "net_profit": 602441.64
    }
   },
   "rule_review": {
@@ -194,16 +225,23 @@
     "jump-starter-air-compressor": "High-current lithium pack clamped to a car battery; certification UNKNOWN. The scout flagged it as a likely fail on safety.",
     "dog-force-dryer": "Mains-powered heated appliance used on animals; electrical certification UNKNOWN; over 10 lb.",
     "towel-warmer-bucket": "Mains-powered heating appliance; electrical certification UNKNOWN; over 9 lb.",
-    "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found."
+    "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found.",
+    "heated-gloves-7v": "Blocked until battery certification is in hand: lithium packs and a heating element worn on the body, paperwork (UL, ETL or UN38.3) UNKNOWN. Its low cost is a listing with 3 sold.",
+    "heated-vest-powerbank-kit": "Blocked until battery certification is in hand: heating element worn on the body; two sellers and two parcels.",
+    "heated-socks-app": "Blocked until battery certification is in hand: lithium packs worn against the leg.",
+    "leg-air-compression-massager-heat": "Medical rule: an air-compression leg massager is an FDA Class II device when sold for circulation or pain. The scout flagged it as likely excluded.",
+    "cordless-heated-hand-massager": "Medical rule: air-compression massagers sold for pain or circulation are FDA Class II devices; lithium battery and heat.",
+    "shiatsu-foot-massager-machine": "Mains-powered heated appliance, certification UNKNOWN; listings lean on health claims we cannot use.",
+    "cordless-neck-shoulder-kneading-massager": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck."
    },
    "caution": {
-    "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
-    "heated-vest-powerbank-kit": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
-    "heated-socks-app": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
     "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
     "mattress-vacuum-uv": "UV light: no germ-killing or health claims allowed without proof.",
     "japanese-style-knife-set": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
-    "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold."
+    "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
+    "music-boxing-machine": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
+    "barkfare-extender-us-stock": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
+    "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon."
    }
   },
   "proven_listing_cost_usd": {
@@ -221,6 +259,11 @@
     "value": 48.69,
     "note": "the US listing with 110 sold"
    }
+  },
+  "shortlist_rule": {
+   "value": 0.15,
+   "label": "ASSUMED",
+   "source": "house choice: a product is worth a logged-in cost check if its listed cost is within 15% of the highest cost that passes the cushion rule"
   }
  },
  "rows": [
@@ -233,6 +276,7 @@
    "what_it_solves": "Dull, mismatched kitchen knives; a sharp matched set that also works as a gift.",
    "sell_price": 99.0,
    "sell_price_source": "Proposed price. Anchors: Senken 3-piece high-carbon set $69, Damascus 3-piece $199 (VERIFIED, https://senkenknives.com/products.json 2026-11-21); Seido 8-piece set $169, regular $429 (VERIFIED read of https://seidoknives.com 2026-11-21); Amazon non-legacy sets median $99.99 (VERIFIED via DataForSEO)",
+   "proposed_price": true,
    "amazon_typical_price": 99.99,
    "amazon_bought_past_month": 23100,
    "amazon_listings_counted": 79,
@@ -264,7 +308,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 14.789000000000001,
-    "profit_tough": 0.20599999999999596
+    "profit_tough": 0.20599999999999596,
+    "max_cost_for_cushion": 25.075666666666663
    },
    "us_refund_high": {
     "price": 99.0,
@@ -279,7 +324,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 10.829,
-    "profit_tough": -3.754000000000005
+    "profit_tough": -3.754000000000005,
+    "max_cost_for_cushion": 21.115666666666655
    },
    "us_cost_up_20pct": {
     "price": 99.0,
@@ -294,7 +340,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 9.491,
-    "profit_tough": -5.092000000000006
+    "profit_tough": -5.092000000000006,
+    "max_cost_for_cushion": 25.075666666666663
    },
    "china": {
     "price": 99.0,
@@ -309,7 +356,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": true,
     "profit_benchmark": 16.428999999999988,
-    "profit_tough": 1.8459999999999823
+    "profit_tough": 1.8459999999999823,
+    "max_cost_for_cushion": 21.115666666666655
    },
    "score": 73.9,
    "score_parts": {
@@ -358,10 +406,13 @@
    },
    "rule_status": "caution",
    "rule_note": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
+   "shortlist": true,
    "rank_overall": 1,
    "rank_in_group": 1,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 42.489999999999995,
     "stop_ad_with_no_sale_at": 63.399,
     "checkpoint_half_budget": 175.0,
@@ -384,165 +435,6 @@
    }
   },
   {
-   "id": "heated-gloves-7v",
-   "group": "auto-outdoor",
-   "category": "winter and cold weather / battery heated wearables",
-   "benchmark_used": "outdoor",
-   "product": "Rechargeable heated gloves (7.4V, two battery packs and charger in the box, 3 heat levels, touchscreen fingertips)",
-   "what_it_solves": "Hands that go numb while driving a cold car, scraping ice, shoveling, working outside, riding or watching a game. Ordinary gloves only slow heat loss; these add heat for several hours.",
-   "sell_price": 97.99,
-   "sell_price_source": "https://saviorheat.com/products/unisex-electric-heated-gloves-motorcycle-waterproof - VERIFIED 2026-11-21 (Savior Heat S66B Classic Heated Winter Gloves, $97.99 against a $139.99 compare-at price; product page and storefront search JSON agree). Other DTC prices read today: Ororo Calgary and Buffalo gloves from $99.99, Fieldsheer Squall 2.0 $99.99, Weston Heated Gloves $119.95, Venustas G02 $129.99, iHood $149.99, Gobi Heat $179 to $219; Kemimoto motorcycle gloves from $62.99. Amazon no-name listings sell at $47.48 to $84.99 (median $69.99), so a new store should also be run in the scripts at $79.99.",
-   "amazon_typical_price": 69.99,
-   "amazon_bought_past_month": 19250,
-   "amazon_listings_counted": 69,
-   "us_landed_cost": 25.89,
-   "us_landed_label": "Lowest US-filter card price for a 7.4V glove with battery capacity in the title, free shipping, no new-shopper tag (listing 3256813438436126, 3 sold). Thin: the three cheapest clean listings show 2 to 4 sales each; the clean listing with real sales reads $48.69 (110 sold). VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
-   "cn_landed_cost": 54.99,
-   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 103 sold, no new-shopper tag). Ship-from was not confirmed on the page and delivery days were not shown. It is dearer than the US-stock cards, so China shipping has no price advantage here. Most-sold China-side cards ($16.77 and $7.30, 1K+ and 449 sold) carry new-shopper tags.",
-   "us_sources": 6,
-   "weight_lb": null,
-   "demo_score": 3,
-   "whales": [
-    "Ororo"
-   ],
-   "bundle_idea": "Gloves plus a two-pack of rechargeable hand warmers (US cards $9.33 to $15.95, from a different seller, so a second parcel) or a spare battery pair. A 'two pairs' offer for couples is the simpler way to lift order value from one supplier. Heated socks from the same store are the natural second product.",
-   "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets nearly as many searches as 'heated vest': 165,000 against 201,000 in Dec 2025); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
-   "ip_safety_flags": "Lithium battery packs: UL, ETL or UN38.3 paperwork for the unit is UNKNOWN and must be asked for; heating element burn risk if a pack or wire fails. No health claims: competitors lean on Raynaud's, arthritis and circulation wording, which is out of scope here. Do not use Savior Heat, Ororo, Snow Deer or '3M Thinsulate' names unless the unit truly carries them. No patented design seen, generic construction.",
-   "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). It drops to 33,100 in Feb 2026 and 8,100 in Mar 2026, so this is a 10 to 12 week product.",
-   "risks": "1) Sizing and fit returns (the size range on the US listings was not readable). 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Ad prices peak in the launch week (see 03_fulfillment_and_money.md).",
-   "us": {
-    "price": 97.99,
-    "landed": 25.89,
-    "card_fee": 3.14171,
-    "refund_allowance": 5.8793999999999995,
-    "pre_ad_contribution": 63.078889999999994,
-    "break_even_cac": 63.078889999999994,
-    "break_even_roas": 1.5534515588337081,
-    "target_cac": 47.309167499999994,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": true,
-    "profit_benchmark": 17.778889999999997,
-    "profit_tough": 4.188889999999994
-   },
-   "us_refund_high": {
-    "price": 97.99,
-    "landed": 25.89,
-    "card_fee": 3.14171,
-    "refund_allowance": 9.799,
-    "pre_ad_contribution": 59.15928999999999,
-    "break_even_cac": 59.15928999999999,
-    "break_even_roas": 1.6563755244527107,
-    "target_cac": 44.36946749999999,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": 13.859289999999994,
-    "profit_tough": 0.2692899999999909
-   },
-   "us_cost_up_20pct": {
-    "price": 97.99,
-    "landed": 31.067999999999998,
-    "card_fee": 3.14171,
-    "refund_allowance": 5.8793999999999995,
-    "pre_ad_contribution": 57.90089,
-    "break_even_cac": 57.90089,
-    "break_even_roas": 1.6923746767968506,
-    "target_cac": 43.425667499999996,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": 12.60089,
-    "profit_tough": -0.9891100000000037
-   },
-   "china": {
-    "price": 97.99,
-    "landed": 54.99,
-    "card_fee": 3.14171,
-    "refund_allowance": 9.799,
-    "pre_ad_contribution": 30.059289999999997,
-    "break_even_cac": 30.059289999999997,
-    "break_even_roas": 3.259890702674614,
-    "target_cac": 22.544467499999996,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -15.24071,
-    "profit_tough": -28.830710000000003
-   },
-   "score": 65.8,
-   "score_parts": {
-    "profit_tough_30": 19.2,
-    "demand_20": 14.1,
-    "supply_20": 20.0,
-    "price_vs_amazon_10": 2.0,
-    "demo_10": 6.0,
-    "no_whale_5": 2.5,
-    "light_5": 2.0
-   },
-   "startable_this_week": true,
-   "robust": false,
-   "week1": {
-    "500": {
-     "budget": 500,
-     "fixed_setup_and_sample": 41.89,
-     "cash_per_order_before_payout": 84.78,
-     "orders": 5,
-     "sales": 489.95,
-     "ad_spend": 294.45,
-     "supplier_spend": 129.45,
-     "profit_after_everything": -20.945550000000033,
-     "orders_needed_for_goal": 21,
-     "cash_needed_for_goal": 1822.2700000000002
-    },
-    "1000": {
-     "budget": 1000,
-     "fixed_setup_and_sample": 41.89,
-     "cash_per_order_before_payout": 84.78,
-     "orders": 11,
-     "sales": 1077.8899999999999,
-     "ad_spend": 647.79,
-     "supplier_spend": 284.79,
-     "profit_after_everything": 4.187789999999929,
-     "orders_needed_for_goal": 21,
-     "cash_needed_for_goal": 1822.2700000000002
-    }
-   },
-   "tier": "green",
-   "proven_listing": {
-    "cost": 48.69,
-    "note": "the US listing with 110 sold",
-    "profit_benchmark": -5.02111,
-    "profit_tough": -18.611110000000004
-   },
-   "rule_status": "caution",
-   "rule_note": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
-   "rank_overall": 2,
-   "rank_in_group": 1,
-   "test_plan": {
-    "ad_budget": 350,
-    "setup_and_sample": 41.89,
-    "stop_ad_with_no_sale_at": 63.078889999999994,
-    "checkpoint_half_budget": 175.0,
-    "benchmark": {
-     "orders": 7.72626931567329,
-     "sales": 757.0971302428256,
-     "supplier_spend": 200.03311258278148,
-     "cash_out_before_payout": 591.9231125827814,
-     "net_after_setup_and_sample": 95.47449227373066
-    },
-    "tough": {
-     "orders": 5.943284088979453,
-     "sales": 582.3824078790966,
-     "supplier_spend": 153.87162506367804,
-     "cash_out_before_payout": 545.761625063678,
-     "net_after_setup_and_sample": -16.994236712514876
-    },
-    "worst_case_no_sales": -391.89,
-    "loss_if_stopped_at_checkpoint_with_no_sales": -216.89
-   }
-  },
-  {
    "id": "rechargeable-wall-sconce-pair",
    "group": "home",
    "category": "lighting and decor",
@@ -551,6 +443,7 @@
    "what_it_solves": "Wanting wall lighting by a bed, sofa or hallway without an electrician or drilling into a rental; stick or screw on, charge the bulb by USB.",
    "sell_price": 109.99,
    "sell_price_source": "Proposed price for a complete pair. Anchors: Pridola sells 2 sconces without bulbs at $59.99 and the rechargeable bulb pair at $69.99, total $129.98 (VERIFIED, https://pridola.co/products/natural-wireless-wall-sconce-1 and https://pridola.com/products.json, 2026-11-21); Solariko $98 each (VERIFIED, https://solariko.com/products.json); Poplight $99 each (ESTIMATED, NBC Select and looper.com via search snippets 2026-11-21; site blocked). Amazon sets of 2 sell at $45 to $57 (VERIFIED via DataForSEO)",
+   "proposed_price": true,
    "amazon_typical_price": 52.2,
    "amazon_bought_past_month": 20950,
    "amazon_listings_counted": 56,
@@ -580,7 +473,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 14.600889999999993,
-    "profit_tough": 0.017889999999987083
+    "profit_tough": 0.017889999999987083,
+    "max_cost_for_cushion": 35.08755666666666
    },
    "us_refund_high": {
     "price": 109.99,
@@ -595,7 +489,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 10.201289999999993,
-    "profit_tough": -4.381710000000012
+    "profit_tough": -4.381710000000012,
+    "max_cost_for_cushion": 30.687956666666665
    },
    "us_cost_up_20pct": {
     "price": 109.99,
@@ -610,7 +505,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 7.2628899999999845,
-    "profit_tough": -7.320110000000021
+    "profit_tough": -7.320110000000021,
+    "max_cost_for_cushion": 35.08755666666666
    },
    "china": null,
    "score": 63.6,
@@ -660,10 +556,13 @@
    },
    "rule_status": "caution",
    "rule_note": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
-   "rank_overall": 3,
+   "shortlist": true,
+   "rank_overall": 2,
    "rank_in_group": 2,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 52.69,
     "stop_ad_with_no_sale_at": 63.21088999999999,
     "checkpoint_half_budget": 175.0,
@@ -686,6 +585,153 @@
    }
   },
   {
+   "id": "barkfare-extender-us-stock",
+   "group": "barkfare",
+   "category": "pets / dog travel",
+   "benchmark_used": "pets",
+   "product": "Barkfare dog back-seat extender kit (hard-bottom extender plus door guards), shipped to the customer by a US-stock seller",
+   "what_it_solves": "Dogs sliding into the footwell and fur and scratches on the back seat; a rigid platform turns the back seat into a flat, covered space.",
+   "sell_price": 149,
+   "sell_price_source": "Proposed price: the Barkfare kit offer (ASSUMED, reports/offer-plan-2026-11-18.html). Anchors: Ruff Liners $169.99 on Amazon and RuffRover $169.95 on its own site (reports/hero-deep-dive-2026-11-14.md)",
+   "proposed_price": true,
+   "amazon_typical_price": 169.99,
+   "amazon_bought_past_month": 5500,
+   "amazon_listings_counted": null,
+   "us_landed_cost": 83.69,
+   "us_landed_label": "ESTIMATED: AliExpress US-stock card price $76.99 with free shipping read 2026-11-17, plus $6.70 of add-ons ASSUMED. 9 sold; the door guards would ship separately or be left out (data/supplier_rank_inputs.csv, research/money-math-2026-11-19/inputs.json)",
+   "cn_landed_cost": null,
+   "cn_landed_label": "Not used: the own-brand lane imports a 5-kit batch instead (research/money-math-2026-11-19)",
+   "us_sources": 1,
+   "weight_lb": null,
+   "demo_score": 4,
+   "whales": [
+    "Ruff Liners"
+   ],
+   "bundle_idea": "Extender plus door guards as the kit; bed topper as the $189 bundle (research/offers-2026-11-18).",
+   "whale_note": "Ruff Liners leads the premium tier on Amazon. Volume below $80 is spread over many sellers (32,000+ hard-bottom units a month in total).",
+   "ip_safety_flags": "Patents: Ruff Liners US 12,221,024 and 4Knines US 12,409,763 look avoidable with plain door guards that do not attach to the extender or the window (quick screen, not legal advice; reports/hero-deep-dive-2026-11-14.md).",
+   "season_note": "Christmas plan approved Nov 18: fast lane plus a print-on-demand gift test (reports/decisions.md).",
+   "risks": "The US listing has 9 sales and an unknown store. Heavy, bulky item: returns are costly. The supplier messages for the own-brand lane have not been sent.",
+   "us": {
+    "price": 149,
+    "landed": 83.69,
+    "card_fee": 4.621,
+    "refund_allowance": 8.94,
+    "pre_ad_contribution": 51.749,
+    "break_even_cac": 51.749,
+    "break_even_roas": 2.8792826914529748,
+    "target_cac": 38.81175,
+    "benchmark_cpa": 39.23,
+    "tough_cpa": 50.998999999999995,
+    "cushion_pass": false,
+    "profit_benchmark": 12.519000000000005,
+    "profit_tough": 0.7500000000000071,
+    "max_cost_for_cushion": 83.13233333333332
+   },
+   "us_refund_high": {
+    "price": 149,
+    "landed": 83.69,
+    "card_fee": 4.621,
+    "refund_allowance": 14.9,
+    "pre_ad_contribution": 45.789,
+    "break_even_cac": 45.789,
+    "break_even_roas": 3.254056651160759,
+    "target_cac": 34.341750000000005,
+    "benchmark_cpa": 39.23,
+    "tough_cpa": 50.998999999999995,
+    "cushion_pass": false,
+    "profit_benchmark": 6.559000000000005,
+    "profit_tough": -5.209999999999994,
+    "max_cost_for_cushion": 77.17233333333331
+   },
+   "us_cost_up_20pct": {
+    "price": 149,
+    "landed": 100.428,
+    "card_fee": 4.621,
+    "refund_allowance": 8.94,
+    "pre_ad_contribution": 35.011,
+    "break_even_cac": 35.011,
+    "break_even_roas": 4.255805318328525,
+    "target_cac": 26.258250000000004,
+    "benchmark_cpa": 39.23,
+    "tough_cpa": 50.998999999999995,
+    "cushion_pass": false,
+    "profit_benchmark": -4.218999999999994,
+    "profit_tough": -15.987999999999992,
+    "max_cost_for_cushion": 83.13233333333332
+   },
+   "china": null,
+   "score": 58.5,
+   "score_parts": {
+    "profit_tough_30": 15.8,
+    "demand_20": 6.3,
+    "supply_20": 14.0,
+    "price_vs_amazon_10": 10.0,
+    "demo_10": 8.0,
+    "no_whale_5": 2.5,
+    "light_5": 2.0
+   },
+   "startable_this_week": true,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 99.69,
+     "cash_per_order_before_payout": 134.689,
+     "orders": 2,
+     "sales": 298,
+     "ad_spend": 101.99799999999999,
+     "supplier_spend": 167.38,
+     "profit_after_everything": -98.18999999999998,
+     "orders_needed_for_goal": 14,
+     "cash_needed_for_goal": 1985.336
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 99.69,
+     "cash_per_order_before_payout": 134.689,
+     "orders": 6,
+     "sales": 894,
+     "ad_spend": 305.99399999999997,
+     "supplier_spend": 502.14,
+     "profit_after_everything": -95.18999999999996,
+     "orders_needed_for_goal": 14,
+     "cash_needed_for_goal": 1985.336
+    }
+   },
+   "tier": "green",
+   "proven_listing": null,
+   "rule_status": "caution",
+   "rule_note": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
+   "shortlist": true,
+   "rank_overall": 3,
+   "rank_in_group": 1,
+   "test_plan": {
+    "ad_budget": 280,
+    "ad_budget_per_day": 40.0,
+    "ad_budget_was_cut_to_fit_cash": true,
+    "setup_and_sample": 99.69,
+    "stop_ad_with_no_sale_at": 51.749,
+    "checkpoint_half_budget": 140.0,
+    "benchmark": {
+     "orders": 7.13739485087943,
+     "sales": 1063.4718327810351,
+     "supplier_spend": 597.3285750700994,
+     "cash_out_before_payout": 977.0185750700994,
+     "net_after_setup_and_sample": -10.336953861840357
+    },
+    "tough": {
+     "orders": 5.4903037314457155,
+     "sales": 818.0552559854116,
+     "supplier_spend": 459.4835192846919,
+     "cash_out_before_payout": 839.1735192846919,
+     "net_after_setup_and_sample": -95.57227220141567
+    },
+    "worst_case_no_sales": -379.69,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -239.69
+   }
+  },
+  {
    "id": "cordless-tire-inflator",
    "group": "auto-outdoor",
    "category": "car and truck accessories / tire care",
@@ -694,6 +740,7 @@
    "what_it_solves": "The low-tire warning light that comes on with the first cold snap; topping up at home in two minutes instead of hunting for a gas-station air machine in the cold.",
    "sell_price": 59.99,
    "sell_price_source": "https://fanttik.com/products/x8-apex-tire-inflator - VERIFIED 2026-11-21 (Fanttik X8 APEX, $59.99 against a $99.99 compare-at price; X9 APEX $65.99, X10 Pro Max $89.99). Airmoto sells at $59.49 on Amazon (ESTIMATED, DataForSEO); airmoto.com showed no price today. This is at the bottom edge of the $60 to $150 band.",
+   "proposed_price": false,
    "amazon_typical_price": 59.49,
    "amazon_bought_past_month": 77850,
    "amazon_listings_counted": 58,
@@ -727,7 +774,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": false,
     "profit_benchmark": 3.700889999999994,
-    "profit_tough": -6.988110000000006
+    "profit_tough": -6.988110000000006,
+    "max_cost_for_cushion": 6.844223333333332
    },
    "us_refund_high": {
     "price": 59.99,
@@ -742,7 +790,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": false,
     "profit_benchmark": 1.3012899999999945,
-    "profit_tough": -9.387710000000006
+    "profit_tough": -9.387710000000006,
+    "max_cost_for_cushion": 4.4446233333333325
    },
    "us_cost_up_20pct": {
     "price": 59.99,
@@ -757,7 +806,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": false,
     "profit_benchmark": 0.6968900000000033,
-    "profit_tough": -9.992109999999997
+    "profit_tough": -9.992109999999997,
+    "max_cost_for_cushion": 6.844223333333332
    },
    "china": null,
    "score": 70.8,
@@ -802,10 +852,13 @@
    "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
+   "shortlist": false,
    "rank_overall": 4,
-   "rank_in_group": 2,
+   "rank_in_group": 1,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 31.02,
     "stop_ad_with_no_sale_at": 39.33089,
     "checkpoint_half_budget": 175.0,
@@ -828,158 +881,6 @@
    }
   },
   {
-   "id": "portable-carplay-screen-kit",
-   "group": "tech-desk",
-   "category": "car tech / phone accessories",
-   "benchmark_used": "tech",
-   "product": "Portable wireless CarPlay and Android Auto dash screen, 9 to 10.26 inch, with dash mount and 12V power; rear camera as the kit add-on",
-   "what_it_solves": "Older cars with no CarPlay or a tiny factory screen. The screen sits on the dash, plugs into the 12V socket, pairs with the phone wirelessly and plays sound through AUX, FM or Bluetooth, so there is no stereo swap and no installer.",
-   "sell_price": 129.99,
-   "sell_price_source": "Proposed kit price (screen plus rear camera). Anchors: https://lamtto.com/products.json shows LAMTTO RC30 9 inch with 1080P backup camera at $139.99 (compare-at $159.99), RC28 10.25 inch at $139.99, RC17 8 inch at $79.99; https://www.ottocast.com/products.json shows ScreenFlow at $159 and Ottoscreen AI at $169; https://carpuride.com/products.json shows W703 at $159.99 to $189.99 (all VERIFIED, read 2026-11-21). Amazon median for selling listings at $40 or more is $76.70 (VERIFIED via DataForSEO 2026-11-21).",
-   "amazon_typical_price": 76.7,
-   "amazon_bought_past_month": 26300,
-   "amazon_listings_counted": 63,
-   "us_landed_cost": 54.99,
-   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 12 sold; read 2026-11-21; not a supplier quote). The most proven US listing (1,000+ sold) shows $36.35, a new-shopper promo price whose repeat price is UNKNOWN.",
-   "cn_landed_cost": 58.39,
-   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 70 sold; read 2026-11-21). A promo card shows $37.84 (265 sold, ESTIMATED). China gives no cost advantage here.",
-   "us_sources": 6,
-   "weight_lb": 2.2,
-   "demo_score": 4,
-   "whales": [],
-   "bundle_idea": "Screen plus rear camera plus a second mount (suction and adhesive) and a hardwire cable, sold as an 'any car' kit at $129.99, with screen only at $99.99 as the down-sell. LAMTTO sells the camera alone at $29.99 and mounts at $17.99 to $18.99 (VERIFIED, products.json), which sets the add-on prices. Camera and mount costs from US stock were not read (UNKNOWN).",
-   "whale_note": "No giant brand. Ottocast, Carpuride and LAMTTO are mid-size specialists; 26 different brand names have Amazon sales at $40 or more. The pressure comes from price, not from a whale: Temu runs 5 to 8 first-screen ads on these keywords and Amazon generics sell at $45 to $77 with fast delivery.",
-   "ip_safety_flags": "Apple CarPlay and Android Auto are trademarks of Apple and Google: use 'works with' wording only, no logos, no claim of certification. Whether these generic units hold Apple or Google licences is UNKNOWN (web search only; no licence statement found). Many units advertise built-in Netflix or YouTube: do not advertise video while driving (driver distraction, platform ad policy) and prefer a unit without those apps. Wireless device: FCC ID on the unit is UNKNOWN until the sample arrives. Dash mounting must not block the windshield view (state laws vary). Fast-lane flag: ads would start before the sample is in hand (Dhruv's approved exception).",
-   "season_note": "Good for December gifting (drivers, dads, older cars). Google searches for 'portable carplay screen' were 9,900 in Dec 2025 against 5,400 in Jan and Feb 2026, but only 1,300 in Oct 2026, so the exact phrase is fading; 'carplay screen' is steady at 8,100 to 9,900 and 'wireless carplay adapter' ran 74,000 in Dec 2025 and 49,500 to 60,500 in Jan and Feb (VERIFIED via DataForSEO Google Ads data). No winter penalty.",
-   "risks": "1) Price check: the same class of screen is $45 to $77 on Amazon, so a $129.99 kit needs a clear reason (camera, mounts, support, fit help). 2) Cost: the only non-promo US prices read are $44 to $55 on thin listings; the proven listings carry promo tags. On $54.99 the cost is above the 35 percent guide at $129.99; the script decides. 3) Electronics defects and 'sound through FM is poor' complaints (a carplaylife.com review of a LAMTTO unit notes weak FM transmission and slow connection; ESTIMATED, search snippet). 4) Returns from buyers who expected a factory-style install. 5) Unlicensed CarPlay implementation could stop working after an iOS update; sellers advertise OTA updates but that is unverified. 6) US listings can run out mid-test; name a second US listing before ads start.",
-   "us": {
-    "price": 129.99,
-    "landed": 54.99,
-    "card_fee": 4.069710000000001,
-    "refund_allowance": 7.7994,
-    "pre_ad_contribution": 63.13089,
-    "break_even_cac": 63.13089,
-    "break_even_roas": 2.0590554006129174,
-    "target_cac": 47.3481675,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
-    "cushion_pass": false,
-    "profit_benchmark": 12.070889999999999,
-    "profit_tough": -3.2471099999999993
-   },
-   "us_refund_high": {
-    "price": 129.99,
-    "landed": 54.99,
-    "card_fee": 4.069710000000001,
-    "refund_allowance": 12.999000000000002,
-    "pre_ad_contribution": 57.93129,
-    "break_even_cac": 57.93129,
-    "break_even_roas": 2.2438651029521353,
-    "target_cac": 43.4484675,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
-    "cushion_pass": false,
-    "profit_benchmark": 6.871289999999995,
-    "profit_tough": -8.446710000000003
-   },
-   "us_cost_up_20pct": {
-    "price": 129.99,
-    "landed": 65.988,
-    "card_fee": 4.069710000000001,
-    "refund_allowance": 7.7994,
-    "pre_ad_contribution": 52.13289000000001,
-    "break_even_cac": 52.13289000000001,
-    "break_even_roas": 2.4934355260182195,
-    "target_cac": 39.09966750000001,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
-    "cushion_pass": false,
-    "profit_benchmark": 1.0728900000000081,
-    "profit_tough": -14.24510999999999
-   },
-   "china": {
-    "price": 129.99,
-    "landed": 58.39,
-    "card_fee": 4.069710000000001,
-    "refund_allowance": 12.999000000000002,
-    "pre_ad_contribution": 54.531290000000006,
-    "break_even_cac": 54.531290000000006,
-    "break_even_roas": 2.3837690250863313,
-    "target_cac": 40.8984675,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
-    "cushion_pass": false,
-    "profit_benchmark": 3.4712900000000033,
-    "profit_tough": -11.846709999999995
-   },
-   "score": 65.8,
-   "score_parts": {
-    "profit_tough_30": 11.8,
-    "demand_20": 16.0,
-    "supply_20": 20.0,
-    "price_vs_amazon_10": 0.0,
-    "demo_10": 8.0,
-    "no_whale_5": 5.0,
-    "light_5": 5.0
-   },
-   "startable_this_week": false,
-   "robust": false,
-   "week1": {
-    "500": {
-     "budget": 500,
-     "fixed_setup_and_sample": 70.99000000000001,
-     "cash_per_order_before_payout": 121.368,
-     "orders": 3,
-     "sales": 389.97,
-     "ad_spend": 199.13400000000001,
-     "supplier_spend": 164.97,
-     "profit_after_everything": -80.73133000000001,
-     "orders_needed_for_goal": 16,
-     "cash_needed_for_goal": 2012.878
-    },
-    "1000": {
-     "budget": 1000,
-     "fixed_setup_and_sample": 70.99000000000001,
-     "cash_per_order_before_payout": 121.368,
-     "orders": 7,
-     "sales": 909.9300000000001,
-     "ad_spend": 464.646,
-     "supplier_spend": 384.93,
-     "profit_after_everything": -93.71977000000001,
-     "orders_needed_for_goal": 16,
-     "cash_needed_for_goal": 2012.878
-    }
-   },
-   "tier": "amber",
-   "proven_listing": null,
-   "rule_status": "ok",
-   "rule_note": "",
-   "rank_overall": 5,
-   "rank_in_group": 1,
-   "test_plan": {
-    "ad_budget": 350,
-    "setup_and_sample": 70.99000000000001,
-    "stop_ad_with_no_sale_at": 63.13089,
-    "checkpoint_half_budget": 175.0,
-    "benchmark": {
-     "orders": 6.854680767724246,
-     "sales": 891.0399529964748,
-     "supplier_spend": 376.9388954171563,
-     "cash_out_before_payout": 797.9288954171564,
-     "net_after_setup_and_sample": 11.752097532314913
-    },
-    "tough": {
-     "orders": 5.272831359787881,
-     "sales": 685.4153484588268,
-     "supplier_spend": 289.9529964747356,
-     "cash_out_before_payout": 710.9429964747355,
-     "net_after_setup_and_sample": -88.11146343668082
-    },
-    "worst_case_no_sales": -420.99,
-    "loss_if_stopped_at_checkpoint_with_no_sales": -245.99
-   }
-  },
-  {
    "id": "filtered-shower-head-kit",
    "group": "home",
    "category": "bathroom",
@@ -988,6 +889,7 @@
    "what_it_solves": "Hard, chlorinated shower water and weak pressure; a filter cartridge in the head that is swapped every 2 to 3 months.",
    "sell_price": 79.0,
    "sell_price_source": "Proposed kit price (head plus 3 cartridges). Anchors: Weddell Duo $68.40 and MyHalos $59.99 on Amazon (VERIFIED via DataForSEO 2026-11-21); Eskiin $149 to $169 at https://eskiin.com/products.json (VERIFIED 2026-11-21); Afina $103.20 and Jolie $169 on Amazon (VERIFIED via DataForSEO)",
+   "proposed_price": true,
    "amazon_typical_price": 68.7,
    "amazon_bought_past_month": 23150,
    "amazon_listings_counted": 40,
@@ -1019,7 +921,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 10.108999999999995,
-    "profit_tough": -4.474000000000011
+    "profit_tough": -4.474000000000011,
+    "max_cost_for_cushion": 6.855666666666679
    },
    "us_refund_high": {
     "price": 79.0,
@@ -1034,7 +937,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 6.948999999999998,
-    "profit_tough": -7.6340000000000074
+    "profit_tough": -7.6340000000000074,
+    "max_cost_for_cushion": 3.6956666666666678
    },
    "us_cost_up_20pct": {
     "price": 79.0,
@@ -1049,7 +953,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 7.518999999999998,
-    "profit_tough": -7.064000000000007
+    "profit_tough": -7.064000000000007,
+    "max_cost_for_cushion": 6.855666666666679
    },
    "china": null,
    "score": 64.2,
@@ -1094,10 +999,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 6,
+   "shortlist": false,
+   "rank_overall": 5,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 28.95,
     "stop_ad_with_no_sale_at": 58.718999999999994,
     "checkpoint_half_budget": 175.0,
@@ -1127,7 +1035,8 @@
    "product": "Mini smart projector (HY300 class: 720p native, Android apps, WiFi and Bluetooth, 180 degree stand), sold with a stand and optional digital scene packs",
    "what_it_solves": "Movie night or ambient scenes on a bedroom wall or ceiling without a TV; small enough to move between rooms. The 3-second picture is a film or a fireplace scene filling a dark wall.",
    "sell_price": 99.99,
-   "sell_price_source": "https://trylumibeam.com/products.json shows 'Lumi Beam Portable Projector' at $99.99 and $109.99, compare-at $199.98 and $219.98; the product page states 'Native 1280 x 720p' and '200 ANSI lumens' (VERIFIED, read 2026-11-21). Lower anchors: https://magcubic.com/products.json HY300Pro+ at $54 and HY320Pro at $79.99 (VERIFIED); Amazon median for projectors selling at $40 to $100 is $56.98 (VERIFIED via DataForSEO).",
+   "sell_price_source": "https://trylumibeam.com/products.json shows 'Lumi Beam Portable Projector' at $99.99 and $109.99, compare-at $199.98 and $219.98; the product page states 'Native 1280 x 720p' and '200 ANSI lumens' (VERIFIED, read 2026-11-21). Lower anchors: https://magcubic.com/products.json HY300Pro+ at $54 on one listing and $66.99 to $79.99 on another, HY320Pro at $79.99 and $105.99 (VERIFIED); Amazon median for projectors selling at $40 to $100 is $56.98 (VERIFIED via DataForSEO).",
+   "proposed_price": false,
    "amazon_typical_price": 56.98,
    "amazon_bought_past_month": 54150,
    "amazon_listings_counted": 61,
@@ -1157,7 +1066,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": 3.3408899999999946,
-    "profit_tough": -11.977110000000003
+    "profit_tough": -11.977110000000003,
+    "max_cost_for_cushion": 22.710890000000006
    },
    "us_refund_high": {
     "price": 99.99,
@@ -1172,7 +1082,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -0.6587100000000063,
-    "profit_tough": -15.976710000000004
+    "profit_tough": -15.976710000000004,
+    "max_cost_for_cushion": 18.711290000000005
    },
    "us_cost_up_20pct": {
     "price": 99.99,
@@ -1187,7 +1098,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -3.937110000000011,
-    "profit_tough": -19.25511000000001
+    "profit_tough": -19.25511000000001,
+    "max_cost_for_cushion": 22.710890000000006
    },
    "china": {
     "price": 99.99,
@@ -1202,7 +1114,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -23.058710000000012,
-    "profit_tough": -38.37671000000001
+    "profit_tough": -38.37671000000001,
+    "max_cost_for_cushion": 18.711290000000005
    },
    "score": 63.0,
    "score_parts": {
@@ -1246,10 +1159,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 7,
-   "rank_in_group": 2,
+   "shortlist": false,
+   "rank_overall": 6,
+   "rank_in_group": 1,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 52.39,
     "stop_ad_with_no_sale_at": 54.40089,
     "checkpoint_half_budget": 175.0,
@@ -1280,6 +1196,7 @@
    "what_it_solves": "A small dog slides around or climbs into the driver's lap; the raised, walled seat keeps the dog in one place, lets it see out and keeps hair and mud off the car seat.",
    "sell_price": 69.99,
    "sell_price_source": "https://funnyfuzzy.com/products/waterproof-dog-car-seat-bed-firstclass - VERIFIED 2026-11-21 via the store's public search JSON (Waterproof Dog Car Seat Bed - First Class, from $69.99, compare-at $93.99; the product page showed $71.99 for the default option). The store's most-reviewed seat, Dog Car Seat Bed - First Class, was $63.99.",
+   "proposed_price": false,
    "amazon_typical_price": 53.17,
    "amazon_bought_past_month": 16000,
    "amazon_listings_counted": 75,
@@ -1309,7 +1226,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": 2.350890000000007,
-    "profit_tough": -9.418109999999992
+    "profit_tough": -9.418109999999992,
+    "max_cost_for_cushion": 11.154223333333327
    },
    "us_refund_high": {
     "price": 69.99,
@@ -1324,7 +1242,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -0.4487099999999984,
-    "profit_tough": -12.217709999999997
+    "profit_tough": -12.217709999999997,
+    "max_cost_for_cushion": 8.354623333333322
    },
    "us_cost_up_20pct": {
     "price": 69.99,
@@ -1339,7 +1258,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -2.025109999999998,
-    "profit_tough": -13.794109999999996
+    "profit_tough": -13.794109999999996,
+    "max_cost_for_cushion": 11.154223333333327
    },
    "china": null,
    "score": 58.2,
@@ -1384,10 +1304,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 8,
+   "shortlist": false,
+   "rank_overall": 7,
    "rank_in_group": 1,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 37.879999999999995,
     "stop_ad_with_no_sale_at": 41.580890000000004,
     "checkpoint_half_budget": 175.0,
@@ -1410,6 +1333,166 @@
    }
   },
   {
+   "id": "portable-carplay-screen-kit",
+   "group": "tech-desk",
+   "category": "car tech / phone accessories",
+   "benchmark_used": "tech",
+   "product": "Portable wireless CarPlay and Android Auto dash screen, 9 to 10.26 inch, with dash mount and 12V power; rear camera as the kit add-on",
+   "what_it_solves": "Older cars with no CarPlay or a tiny factory screen. The screen sits on the dash, plugs into the 12V socket, pairs with the phone wirelessly and plays sound through AUX, FM or Bluetooth, so there is no stereo swap and no installer.",
+   "sell_price": 119.99,
+   "sell_price_source": "Proposed kit price (screen plus rear camera), set under the closest DTC kit. Anchors: https://lamtto.com/products/lamtto-rc30-9-carplay-screen-with-netflix-youtube-and-1080p-backup-camera shows $139.99, regular price $159.99, with an 'Extra 20% OFF' code BFD20 advertised on the page, and the box list includes '1* 21ft HD Backup Cam'; https://lamtto.com/products.json also shows RC28 10.25 inch at $139.99 and RC17 8 inch at $79.99; https://www.ottocast.com/products.json shows ScreenFlow at $159 and Ottoscreen AI at $169; https://carpuride.com/products.json shows W703 at $159.99 to $189.99 (all VERIFIED, read 2026-11-21). Amazon median for selling listings at $40 or more is $76.70 (VERIFIED via DataForSEO 2026-11-21).",
+   "proposed_price": true,
+   "amazon_typical_price": 76.7,
+   "amazon_bought_past_month": 26300,
+   "amazon_listings_counted": 63,
+   "us_landed_cost": 54.99,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 12 sold; read 2026-11-21; not a supplier quote). The most proven US listing (1,000+ sold) shows $36.35, a new-shopper promo price whose repeat price is UNKNOWN.",
+   "cn_landed_cost": 58.39,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 70 sold; read 2026-11-21). A promo card shows $37.84 (265 sold, ESTIMATED). China gives no cost advantage here.",
+   "us_sources": 6,
+   "weight_lb": 2.2,
+   "demo_score": 4,
+   "whales": [],
+   "bundle_idea": "Screen plus rear camera plus a second mount (suction and adhesive) and a hardwire cable, sold as an 'any car' kit at $119.99, with screen only at $89.99 as the down-sell. LAMTTO sells the camera alone at $29.99 and mounts at $17.99 to $18.99 (VERIFIED, products.json), which sets the add-on prices. Camera and mount costs from US stock were not read (UNKNOWN).",
+   "whale_note": "No giant brand. Ottocast, Carpuride and LAMTTO are mid-size specialists; 26 different brand names have Amazon sales at $40 or more. The pressure comes from price, not from a whale: Temu runs 5 to 8 first-screen ads on these keywords and Amazon generics sell at $45 to $77 with fast delivery.",
+   "ip_safety_flags": "Apple CarPlay and Android Auto are trademarks of Apple and Google: use 'works with' wording only, no logos, no claim of certification. Whether these generic units hold Apple or Google licences is UNKNOWN (web search only; no licence statement found). Many units advertise built-in Netflix or YouTube: do not advertise video while driving (driver distraction, platform ad policy) and prefer a unit without those apps. Wireless device: FCC ID on the unit is UNKNOWN until the sample arrives. Dash mounting must not block the windshield view (state laws vary). Fast-lane flag: ads would start before the sample is in hand (Dhruv's approved exception).",
+   "season_note": "Good for December gifting (drivers, dads, older cars). Google searches for 'portable carplay screen' were 9,900 in Dec 2025 against 5,400 in Jan and Feb 2026, but only 1,300 in Oct 2026, so the exact phrase is fading; 'carplay screen' is steady at 8,100 to 9,900 and 'wireless carplay adapter' ran 74,000 in Dec 2025 and 49,500 to 60,500 in Jan and Feb (VERIFIED via DataForSEO Google Ads data). No winter penalty.",
+   "risks": "1) Price check: the same class of screen is $45 to $77 on Amazon, so a $119.99 kit needs a clear reason (camera, mounts, support, fit help), and LAMTTO's own 9 inch kit with camera is $139.99 before a 20 percent code. 2) Cost: the only non-promo US prices read are $44 to $55 on thin listings; the proven listings carry promo tags. On $54.99 the cost is well above the 35 percent guide at $119.99; only the $36.35 promo price comes near it. The script decides. 3) Electronics defects and 'sound through FM is poor' complaints (a carplaylife.com review of a LAMTTO unit notes weak FM transmission and slow connection; ESTIMATED, search snippet). 4) Returns from buyers who expected a factory-style install. 5) Unlicensed CarPlay implementation could stop working after an iOS update; sellers advertise OTA updates but that is unverified. 6) US listings can run out mid-test; name a second US listing before ads start.",
+   "us": {
+    "price": 119.99,
+    "landed": 54.99,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 7.1994,
+    "pre_ad_contribution": 54.02089,
+    "break_even_cac": 54.02089,
+    "break_even_roas": 2.221177770303303,
+    "target_cac": 40.5156675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 2.960889999999999,
+    "profit_tough": -12.357109999999999,
+    "max_cost_for_cushion": 40.930890000000005
+   },
+   "us_refund_high": {
+    "price": 119.99,
+    "landed": 54.99,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 11.999,
+    "pre_ad_contribution": 49.221289999999996,
+    "break_even_cac": 49.221289999999996,
+    "break_even_roas": 2.437766259275204,
+    "target_cac": 36.915967499999994,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -1.838710000000006,
+    "profit_tough": -17.156710000000004,
+    "max_cost_for_cushion": 36.13129000000001
+   },
+   "us_cost_up_20pct": {
+    "price": 119.99,
+    "landed": 65.988,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 7.1994,
+    "pre_ad_contribution": 43.02289,
+    "break_even_cac": 43.02289,
+    "break_even_roas": 2.7889804706285424,
+    "target_cac": 32.2671675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -8.037110000000006,
+    "profit_tough": -23.355110000000003,
+    "max_cost_for_cushion": 40.930890000000005
+   },
+   "china": {
+    "price": 119.99,
+    "landed": 58.39,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 11.999,
+    "pre_ad_contribution": 45.82128999999999,
+    "break_even_cac": 45.82128999999999,
+    "break_even_roas": 2.618651722812693,
+    "target_cac": 34.3659675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -5.238710000000012,
+    "profit_tough": -20.55671000000001,
+    "max_cost_for_cushion": 36.13129000000001
+   },
+   "score": 56.7,
+   "score_parts": {
+    "profit_tough_30": 2.6,
+    "demand_20": 16.0,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 0.0,
+    "demo_10": 8.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 70.99000000000001,
+     "cash_per_order_before_payout": 121.368,
+     "orders": 3,
+     "sales": 359.96999999999997,
+     "ad_spend": 199.13400000000001,
+     "supplier_spend": 164.97,
+     "profit_after_everything": -108.06133,
+     "orders_needed_for_goal": 17,
+     "cash_needed_for_goal": 2134.246
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 70.99000000000001,
+     "cash_per_order_before_payout": 121.368,
+     "orders": 7,
+     "sales": 839.93,
+     "ad_spend": 464.646,
+     "supplier_spend": 384.93,
+     "profit_after_everything": -157.48977,
+     "orders_needed_for_goal": 17,
+     "cash_needed_for_goal": 2134.246
+    }
+   },
+   "tier": "amber",
+   "proven_listing": null,
+   "rule_status": "caution",
+   "rule_note": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon.",
+   "shortlist": false,
+   "rank_overall": 8,
+   "rank_in_group": 2,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 70.99000000000001,
+    "stop_ad_with_no_sale_at": 54.02089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 822.4931453192322,
+     "supplier_spend": 376.9388954171563,
+     "cash_out_before_payout": 797.9288954171564,
+     "net_after_setup_and_sample": -50.69404426165294
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 632.6870348609478,
+     "supplier_spend": 289.9529964747356,
+     "cash_out_before_payout": 710.9429964747355,
+     "net_after_setup_and_sample": -136.14695712434843
+    },
+    "worst_case_no_sales": -420.99,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -245.99
+   }
+  },
+  {
    "id": "lightweight-pet-stroller",
    "group": "pets",
    "category": "pets / dog and cat travel",
@@ -1418,6 +1501,7 @@
    "what_it_solves": "Senior, injured or small dogs and indoor cats cannot manage long walks, hot pavement or crowds; the stroller lets the owner take them along.",
    "sell_price": 84.99,
    "sell_price_source": "https://www.amazon.com/dp/B0B5P8VYXL - ESTIMATED: $84.99 is the median price of the 56 Amazon stroller listings at $40 or more with sales (DataForSEO, 2026-11-21); the ROODO 3-wheel at that link was $88.92 with 800+ bought in past month. No DTC store was verified selling this class of stroller; Pet Gear Happy Trails Lite retails at about $94 to $145 at PetSmart, Chewy and Walmart (ESTIMATED, search snippets 2026-11-21).",
+   "proposed_price": false,
    "amazon_typical_price": 84.99,
    "amazon_bought_past_month": 10200,
    "amazon_listings_counted": 56,
@@ -1447,7 +1531,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": 0.005890000000000839,
-    "profit_tough": -11.763109999999998
+    "profit_tough": -11.763109999999998,
+    "max_cost_for_cushion": 24.819223333333333
    },
    "us_refund_high": {
     "price": 84.99,
@@ -1462,7 +1547,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -3.3937100000000058,
-    "profit_tough": -15.162710000000004
+    "profit_tough": -15.162710000000004,
+    "max_cost_for_cushion": 21.41962333333334
    },
    "us_cost_up_20pct": {
     "price": 84.99,
@@ -1477,7 +1563,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -7.572109999999999,
-    "profit_tough": -19.341109999999997
+    "profit_tough": -19.341109999999997,
+    "max_cost_for_cushion": 24.819223333333333
    },
    "china": null,
    "score": 56.4,
@@ -1522,10 +1609,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
+   "shortlist": false,
    "rank_overall": 9,
    "rank_in_group": 2,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 53.89,
     "stop_ad_with_no_sale_at": 39.23589,
     "checkpoint_half_budget": 175.0,
@@ -1556,6 +1646,7 @@
    "what_it_solves": "Dust, hair and debris inside mattresses, pillows and sofas that a normal vacuum misses; the clear bin shows what came out.",
    "sell_price": 99.99,
    "sell_price_source": "Jigoo sells its bed vacuums from $75.99 (S100) to $169.99 (T600), with J200 from $99.99 and J300 from $104.99 (VERIFIED read of https://jigoolife.com 2026-11-21). Sakerplus undercuts at $44.99 to $46.99 (VERIFIED, https://sakerplus.com/products.json)",
+   "proposed_price": false,
    "amazon_typical_price": 66.49,
    "amazon_bought_past_month": 14150,
    "amazon_listings_counted": 53,
@@ -1585,7 +1676,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 7.35089,
-    "profit_tough": -7.232110000000006
+    "profit_tough": -7.232110000000006,
+    "max_cost_for_cushion": 25.977556666666672
    },
    "us_refund_high": {
     "price": 99.99,
@@ -1600,7 +1692,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 3.3512899999999988,
-    "profit_tough": -11.231710000000007
+    "profit_tough": -11.231710000000007,
+    "max_cost_for_cushion": 21.97795666666667
    },
    "us_cost_up_20pct": {
     "price": 99.99,
@@ -1615,7 +1708,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 0.3848899999999915,
-    "profit_tough": -14.198110000000014
+    "profit_tough": -14.198110000000014,
+    "max_cost_for_cushion": 25.977556666666672
    },
    "china": {
     "price": 99.99,
@@ -1630,7 +1724,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": 6.2912899999999965,
-    "profit_tough": -8.291710000000009
+    "profit_tough": -8.291710000000009,
+    "max_cost_for_cushion": 21.97795666666667
    },
    "score": 55.9,
    "score_parts": {
@@ -1674,10 +1769,13 @@
    "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "UV light: no germ-killing or health claims allowed without proof.",
+   "shortlist": false,
    "rank_overall": 10,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 50.83,
     "stop_ad_with_no_sale_at": 55.96089,
     "checkpoint_half_budget": 175.0,
@@ -1708,6 +1806,7 @@
    "what_it_solves": "Older cars and work trucks with no touchscreen: maps, calls and music on a large screen without replacing the stereo.",
    "sell_price": 79.99,
    "sell_price_source": "https://lamtto.com/products/lamtto-rc07-dash-camera-gps-wireless - VERIFIED 2026-11-21 via the store's storefront search JSON (LAMTTO RC07 9 inch CarPlay and Android Auto display with dual cameras, $79.99 against $139.99; LAMTTO's 7 inch RC08 is also $79.99, RC06 9.26 inch $99.99). Carpuride W701 7 inch $179.90. Amazon: 7 inch units $44.64 to $46.99, 9 inch units $59.98 to $76.70.",
+   "proposed_price": false,
    "amazon_typical_price": 79.99,
    "amazon_bought_past_month": 27200,
    "amazon_listings_counted": 67,
@@ -1737,7 +1836,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -22.92911,
-    "profit_tough": -38.24711
+    "profit_tough": -38.24711,
+    "max_cost_for_cushion": 4.490889999999993
    },
    "us_refund_high": {
     "price": 79.99,
@@ -1752,7 +1852,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -26.12871,
-    "profit_tough": -41.446709999999996
+    "profit_tough": -41.446709999999996,
+    "max_cost_for_cushion": 1.2912900000000036
    },
    "us_cost_up_20pct": {
     "price": 79.99,
@@ -1767,7 +1868,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -31.817110000000003,
-    "profit_tough": -47.13511
+    "profit_tough": -47.13511,
+    "max_cost_for_cushion": 4.490889999999993
    },
    "china": null,
    "score": 64.2,
@@ -1812,10 +1914,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
+   "shortlist": false,
    "rank_overall": 11,
-   "rank_in_group": 3,
+   "rank_in_group": 2,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 60.44,
     "stop_ad_with_no_sale_at": 28.13089,
     "checkpoint_half_budget": 175.0,
@@ -1846,6 +1951,7 @@
    "what_it_solves": "Plastic boxes scratch, hold smell and stain; steel does not absorb odour and wipes clean; high walls and a lid stop spray and scatter from large cats.",
    "sell_price": 58.99,
    "sell_price_source": "https://hapaw.com/products/hapaw-large-stainless-steel-cat-litter-box-with-flip-top-lid - VERIFIED 2026-11-21 (HAPAW Large Stainless Steel Cat Litter Box with Flip-Top Lid, from $58.99, compare-at $159.98, 117 reviews). This is the only DTC store found selling a generic stainless box with traction; Amazon's best sellers are $42.49 to $56.99.",
+   "proposed_price": false,
    "amazon_typical_price": 59.48,
    "amazon_bought_past_month": 54850,
    "amazon_listings_counted": 104,
@@ -1875,7 +1981,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -16.480109999999996,
-    "profit_tough": -28.249109999999995
+    "profit_tough": -28.249109999999995,
+    "max_cost_for_cushion": 1.1332233333333335
    },
    "us_refund_high": {
     "price": 58.99,
@@ -1890,7 +1997,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -18.839709999999997,
-    "profit_tough": -30.608709999999995
+    "profit_tough": -30.608709999999995,
+    "max_cost_for_cushion": -1.226376666666667
    },
    "us_cost_up_20pct": {
     "price": 58.99,
@@ -1905,7 +2013,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -22.618109999999998,
-    "profit_tough": -34.38710999999999
+    "profit_tough": -34.38710999999999,
+    "max_cost_for_cushion": 1.1332233333333335
    },
    "china": null,
    "score": 64.0,
@@ -1950,10 +2059,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
+   "shortlist": false,
    "rank_overall": 12,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 46.69,
     "stop_ad_with_no_sale_at": 22.74989,
     "checkpoint_half_budget": 175.0,
@@ -1984,6 +2096,7 @@
    "what_it_solves": "Seeing wildlife, a campsite or a back yard in full darkness; a gadget gift for hunters, campers and dads.",
    "sell_price": 72.67,
    "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (a specialist brand whose page cites Amazon UK reviews), sells at $149.99 to $199.99, which a generic unit cannot match.",
+   "proposed_price": false,
    "amazon_typical_price": 79.99,
    "amazon_bought_past_month": 15150,
    "amazon_listings_counted": 45,
@@ -2013,7 +2126,8 @@
     "tough_cpa": 58.89,
     "cushion_pass": false,
     "profit_benchmark": -21.187629999999995,
-    "profit_tough": -34.77763
+    "profit_tough": -34.77763,
+    "max_cost_for_cushion": 5.502369999999992
    },
    "us_refund_high": {
     "price": 72.67,
@@ -2028,7 +2142,8 @@
     "tough_cpa": 58.89,
     "cushion_pass": false,
     "profit_benchmark": -24.094429999999996,
-    "profit_tough": -37.68443
+    "profit_tough": -37.68443,
+    "max_cost_for_cushion": 2.595569999999995
    },
    "us_cost_up_20pct": {
     "price": 72.67,
@@ -2043,7 +2158,8 @@
     "tough_cpa": 58.89,
     "cushion_pass": false,
     "profit_benchmark": -29.545629999999992,
-    "profit_tough": -43.13562999999999
+    "profit_tough": -43.13562999999999,
+    "max_cost_for_cushion": 5.502369999999992
    },
    "china": null,
    "score": 60.6,
@@ -2088,10 +2204,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
+   "shortlist": false,
    "rank_overall": 13,
-   "rank_in_group": 4,
+   "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 57.79,
     "stop_ad_with_no_sale_at": 24.112370000000002,
     "checkpoint_half_budget": 175.0,
@@ -2114,6 +2233,151 @@
    }
   },
   {
+   "id": "music-boxing-machine",
+   "group": "beauty-fitness",
+   "category": "home fitness accessories / boxing",
+   "benchmark_used": "outdoor",
+   "product": "Wall-mounted music boxing machine (Bluetooth light-up punching target) with adult gloves",
+   "what_it_solves": "A fun 10-minute cardio and stress outlet at home with no bag or floor space: punch the pads that light up in time with your music.",
+   "sell_price": 69.99,
+   "sell_price_source": "https://www.amazon.com/dp/B0CRL3Y11H - ESTIMATED 2026-11-21 (DataForSEO): $69.99 is the median of the 19 Amazon listings at $60 or more; the best-selling large size is $66.47. No DTC store selling it at a premium was found (web search returned only Walmart, Best Buy and Amazon marketplace listings at about $27 to $195), so a DTC price is UNKNOWN.",
+   "proposed_price": false,
+   "amazon_typical_price": 59.99,
+   "amazon_bought_past_month": 18450,
+   "amazon_listings_counted": 41,
+   "us_landed_cost": 37.29,
+   "us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Lowest card with free shipping and no new-shopper tag (3 sold; delivery days not shown on the card). Size versus the Amazon 'large' model is not confirmed.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN: the one clean China-side card ($47.69, no sales) is dearer than US stock and shows no delivery days.",
+   "us_sources": 4,
+   "weight_lb": 6.0,
+   "demo_score": 5,
+   "whales": [],
+   "bundle_idea": "Machine plus adult gloves, a second pair of gloves, and a no-drill mounting kit (straps and adhesive pads). Mounting parts need their own check; a unit that falls off the wall is the obvious failure point (reviews not read).",
+   "whale_note": "No whale and no brand at all: unbranded sellers hold nearly all Amazon sales. That also means no one has shown that a premium price holds.",
+   "ip_safety_flags": "Design patents exist for this product type (for example US D1025261 'Boxing machine', Guangzhou Talong Technology, granted April 2024, and several 'music boxing machine' designs in the same class, per USPTO search results today). Which factory shapes they cover was NOT checked, so IP status is UNKNOWN and must be cleared before any spend. Many listings are sold 'for kids'; children's products are excluded, so it would have to be sold for adults and teens only, with adult gloves. Lithium battery, wall mounting and noise in apartments. Sample-first rule waived for this lane (flagged).",
+   "season_note": "A Christmas gift and little else. Google searches (ESTIMATED): 'music boxing machine' 60,500 in Dec 2025 against 9,900 in Jan and Feb 2026, 2,400 in Jul 2026 and 6,600 in Oct 2026. Anything unsold by about Dec 18 has no January.",
+   "risks": "1) No evidence of a DTC price above the Amazon price. 2) US-stock cards ($37.29 to $58.29) sit close to Amazon retail ($47.48 to $73.99). 3) Design patents unchecked. 4) Demand collapses after Christmas. 5) Overlap with children's products. Kept as the only home-fitness item that passed the weight and demand screens, not as a recommendation.",
+   "us": {
+    "price": 69.99,
+    "landed": 37.29,
+    "card_fee": 2.32971,
+    "refund_allowance": 4.1994,
+    "pre_ad_contribution": 26.170889999999996,
+    "break_even_cac": 26.170889999999996,
+    "break_even_roas": 2.674345427304918,
+    "target_cac": 19.628167499999996,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -19.12911,
+    "profit_tough": -32.71911,
+    "max_cost_for_cushion": 3.0608899999999934
+   },
+   "us_refund_high": {
+    "price": 69.99,
+    "landed": 37.29,
+    "card_fee": 2.32971,
+    "refund_allowance": 6.999,
+    "pre_ad_contribution": 23.37129,
+    "break_even_cac": 23.37129,
+    "break_even_roas": 2.9946999074505514,
+    "target_cac": 17.528467499999998,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -21.92871,
+    "profit_tough": -35.51871,
+    "max_cost_for_cushion": 0.26128999999998825
+   },
+   "us_cost_up_20pct": {
+    "price": 69.99,
+    "landed": 44.748,
+    "card_fee": 2.32971,
+    "refund_allowance": 4.1994,
+    "pre_ad_contribution": 18.712889999999998,
+    "break_even_cac": 18.712889999999998,
+    "break_even_roas": 3.7402026090037404,
+    "target_cac": 14.034667499999998,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -26.58711,
+    "profit_tough": -40.17711,
+    "max_cost_for_cushion": 3.0608899999999934
+   },
+   "china": null,
+   "score": 58.5,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 13.8,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 6.7,
+    "demo_10": 10.0,
+    "no_whale_5": 5.0,
+    "light_5": 3.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 53.29,
+     "cash_per_order_before_payout": 96.18,
+     "orders": 4,
+     "sales": 279.96,
+     "ad_spend": 235.56,
+     "supplier_spend": 149.16,
+     "profit_after_everything": -184.16644,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 2842.51
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 53.29,
+     "cash_per_order_before_payout": 96.18,
+     "orders": 9,
+     "sales": 629.91,
+     "ad_spend": 530.01,
+     "supplier_spend": 335.61,
+     "profit_after_everything": -347.76199,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 2842.51
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "caution",
+   "rule_note": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
+   "shortlist": false,
+   "rank_overall": 14,
+   "rank_in_group": 1,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 53.29,
+    "stop_ad_with_no_sale_at": 26.170889999999996,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 540.7615894039735,
+     "supplier_spend": 288.112582781457,
+     "cash_out_before_payout": 691.402582781457,
+     "net_after_setup_and_sample": -201.08665562913907
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 415.9704533876719,
+     "supplier_spend": 221.6250636780438,
+     "cash_out_before_payout": 624.9150636780438,
+     "net_after_setup_and_sample": -247.74896586856852
+    },
+    "worst_case_no_sales": -403.29,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -228.29
+   }
+  },
+  {
    "id": "handheld-vacuum-sealer-kit",
    "group": "home",
    "category": "kitchen",
@@ -2122,6 +2386,7 @@
    "what_it_solves": "Food going off in the fridge and freezer burn; a pocket-size sealer pulls the air out of a reusable bag in about five seconds, with no bulky countertop machine and no single-use rolls.",
    "sell_price": 69.99,
    "sell_price_source": "Proposed kit price (sealer plus 30 reusable bags). Anchors: https://chefpreserve.com/products.json shows Chef Preserve Compact Vacuum Sealer at $67.99 to $79.99, compare-at $204.99 (VERIFIED, read 2026-11-21); Amazon generic kit with 30 bags at $59.99 (VERIFIED via DataForSEO 2026-11-21)",
+   "proposed_price": true,
    "amazon_typical_price": 65.82,
    "amazon_bought_past_month": 24850,
    "amazon_listings_counted": 16,
@@ -2154,7 +2419,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -4.039110000000001,
-    "profit_tough": -18.622110000000006
+    "profit_tough": -18.622110000000006,
+    "max_cost_for_cushion": -1.3524433333333405
    },
    "us_refund_high": {
     "price": 69.99,
@@ -2169,7 +2435,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -6.838710000000006,
-    "profit_tough": -21.42171000000001
+    "profit_tough": -21.42171000000001,
+    "max_cost_for_cushion": -4.152043333333346
    },
    "us_cost_up_20pct": {
     "price": 69.99,
@@ -2184,7 +2451,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -7.81711,
-    "profit_tough": -22.400110000000005
+    "profit_tough": -22.400110000000005,
+    "max_cost_for_cushion": -1.3524433333333405
    },
    "china": null,
    "score": 57.4,
@@ -2229,10 +2497,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 14,
+   "shortlist": false,
+   "rank_overall": 15,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 34.89,
     "stop_ad_with_no_sale_at": 44.57089,
     "checkpoint_half_budget": 175.0,
@@ -2263,6 +2534,7 @@
    "what_it_solves": "A bedroom or living room that feels plain at night; projects a sharp galaxy or nebula scene across the ceiling for ambience and falling asleep.",
    "sell_price": 59.99,
    "sell_price_source": "https://galaxylamps.co/products/galaxy-projector sells at $59.99 (second model $79.99), VERIFIED in research/fast-test-2026-11-21/05_store_teardowns.md on 2026-11-21; Pococo base model $99.99 at https://www.pococo.com/products.json (VERIFIED 2026-11-21)",
+   "proposed_price": false,
    "amazon_typical_price": 122.39,
    "amazon_bought_past_month": 10600,
    "amazon_listings_counted": 23,
@@ -2292,7 +2564,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -22.319109999999995,
-    "profit_tough": -36.90211
+    "profit_tough": -36.90211,
+    "max_cost_for_cushion": -10.462443333333333
    },
    "us_refund_high": {
     "price": 59.99,
@@ -2307,7 +2580,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -24.718709999999994,
-    "profit_tough": -39.30171
+    "profit_tough": -39.30171,
+    "max_cost_for_cushion": -12.862043333333332
    },
    "us_cost_up_20pct": {
     "price": 59.99,
@@ -2322,7 +2596,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -27.931109999999993,
-    "profit_tough": -42.51411
+    "profit_tough": -42.51411,
+    "max_cost_for_cushion": -10.462443333333333
    },
    "china": {
     "price": 59.99,
@@ -2337,7 +2612,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -12.108709999999995,
-    "profit_tough": -26.69171
+    "profit_tough": -26.69171,
+    "max_cost_for_cushion": -12.862043333333332
    },
    "score": 57.4,
    "score_parts": {
@@ -2381,10 +2657,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 15,
+   "shortlist": false,
+   "rank_overall": 16,
    "rank_in_group": 6,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 44.06,
     "stop_ad_with_no_sale_at": 26.290890000000005,
     "checkpoint_half_budget": 175.0,
@@ -2415,6 +2694,7 @@
    "what_it_solves": "Wanting the home to smell like a hotel lobby without candles or water-mist diffusers; a machine that atomizes oil on a timer.",
    "sell_price": 79.95,
    "sell_price_source": "https://aroma360.com/products.json lists Mini 2.0 and Mini 2.0 Starter Kit at $79.95 (VERIFIED 2026-11-21); Scentiment plug-in diffuser $49.98 to $69.98 (VERIFIED, https://scentiment.com/products.json); AirScent on Amazon $63.13 (VERIFIED via DataForSEO)",
+   "proposed_price": false,
    "amazon_typical_price": 69.99,
    "amazon_bought_past_month": 37200,
    "amazon_listings_counted": 79,
@@ -2447,7 +2727,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -16.48554999999999,
-    "profit_tough": -31.068549999999995
+    "profit_tough": -31.068549999999995,
+    "max_cost_for_cushion": 7.721116666666674
    },
    "us_refund_high": {
     "price": 79.95,
@@ -2462,7 +2743,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -19.683549999999993,
-    "profit_tough": -34.266549999999995
+    "profit_tough": -34.266549999999995,
+    "max_cost_for_cushion": 4.523116666666667
    },
    "us_cost_up_20pct": {
     "price": 79.95,
@@ -2477,7 +2759,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -24.567549999999994,
-    "profit_tough": -39.150549999999996
+    "profit_tough": -39.150549999999996,
+    "max_cost_for_cushion": 7.721116666666674
    },
    "china": null,
    "score": 54.3,
@@ -2522,10 +2805,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 16,
+   "shortlist": false,
+   "rank_overall": 17,
    "rank_in_group": 7,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 56.41,
     "stop_ad_with_no_sale_at": 32.12445000000001,
     "checkpoint_half_budget": 175.0,
@@ -2556,6 +2842,7 @@
    "what_it_solves": "Travellers and mixed-language families who want a spoken translation in the ear without passing a phone back and forth.",
    "sell_price": 69.95,
    "sell_price_source": "https://aviorra.com/products.json shows VerbaBuds AI Translator Earbuds at $69.95, compare-at $139.95 to $159.95 (VERIFIED, read 2026-11-21). Also https://vylaras.com/products.json AI Translation Earbuds from $59.95 and https://www.viora-shop.com/products.json at $59.50 to $64.99 (VERIFIED).",
+   "proposed_price": false,
    "amazon_typical_price": 94.99,
    "amazon_bought_past_month": 7200,
    "amazon_listings_counted": 28,
@@ -2571,7 +2858,7 @@
    "whale_note": "Translation is becoming a free feature of mainstream earbuds: an Amazon search for 'translation earbuds' returns Apple AirPods (three listings at 10,000+ bought in past month each, $129 to $179) and Samsung Galaxy Buds 4 Pro (7,000+ at $169.99) at the top (VERIFIED via DataForSEO). Under $40, 48 generic listings sell 41,850 units a month.",
    "ip_safety_flags": "Performance claims are the problem: '99% accuracy', '144 languages', 'offline' appear on competitor pages and are qualified in their own FAQs; we could not substantiate any of them without a sample and the supplier's app (FTC substantiation). The earbuds depend on a third-party phone app whose terms, data handling and lifetime are UNKNOWN. Do not use 'ChatGPT' or 'HTC' names from supplier titles. Small lithium cells. Fast-lane flag: ads would start before the sample is in hand, which is a poor fit for a product whose main risk is whether it works.",
    "season_note": "Peaks before holiday travel: Google searches for 'translation earbuds' were 49,500 in Dec 2025, 40,500 in Jan 2026, 33,100 in Feb, 18,100 in Jul, 27,100 in Oct 2026; CPC $1.94 (VERIFIED via DataForSEO Google Ads data). December and January good.",
-   "risks": "1) Refund risk is the highest in this file: Aviorra's own page shows 18 percent one-star reviews, and Amazon generics rate 3.4 to 4.4. 2) At $60 to $70 the price is at the bottom of the range that can carry the ad cost. 3) The only non-promo US unit read ($37.79) is over half the DTC price; the cheap generic is a promo card with 14 sales. 4) Established advertisers use advertorial funnels and 19-month-old ads; a one-week image-ad test is unlikely to match them. 5) Apple and Samsung now ship translation. Kept so the script can score it; not recommended.",
+   "risks": "1) Refund risk is the highest in this file: Aviorra's own page shows 18 percent one-star reviews, and the Amazon generics counted rate from 3.4 to 4.8. 2) At $60 to $70 the price is at the bottom of the range that can carry the ad cost. 3) The only non-promo US unit read ($37.79) is over half the DTC price; the cheap generic is a promo card with 14 sales. 4) Established advertisers use advertorial funnels and 19-month-old ads; a one-week image-ad test is unlikely to match them. 5) Apple and Samsung now ship translation. Kept so the script can score it; not recommended.",
    "us": {
     "price": 69.95,
     "landed": 37.79,
@@ -2585,7 +2872,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -25.425549999999998,
-    "profit_tough": -40.74355
+    "profit_tough": -40.74355,
+    "max_cost_for_cushion": -4.655549999999991
    },
    "us_refund_high": {
     "price": 69.95,
@@ -2600,7 +2888,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -28.22355,
-    "profit_tough": -43.54155
+    "profit_tough": -43.54155,
+    "max_cost_for_cushion": -7.453549999999993
    },
    "us_cost_up_20pct": {
     "price": 69.95,
@@ -2615,7 +2904,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -32.983549999999994,
-    "profit_tough": -48.30154999999999
+    "profit_tough": -48.30154999999999,
+    "max_cost_for_cushion": -4.655549999999991
    },
    "china": {
     "price": 69.95,
@@ -2630,7 +2920,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -2.1235499999999945,
-    "profit_tough": -17.441549999999992
+    "profit_tough": -17.441549999999992,
+    "max_cost_for_cushion": -7.453549999999993
    },
    "score": 54.0,
    "score_parts": {
@@ -2674,10 +2965,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 17,
+   "shortlist": false,
+   "rank_overall": 18,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 53.79,
     "stop_ad_with_no_sale_at": 25.634450000000005,
     "checkpoint_half_budget": 175.0,
@@ -2708,6 +3002,7 @@
    "what_it_solves": "Small, short-legged or older dogs cannot get onto a high bed or couch and owners lift them many times a day; stairs let the dog climb alone.",
    "sell_price": 69.99,
    "sell_price_source": "https://funnyfuzzy.com/products/cozy-corduroy-joint-friendly-removable-spiral-pet-stairs-creamystep - VERIFIED 2026-11-21 (FunnyFuzzy spiral dog stairs from $69.99, compare-at $149.99, 47 reviews). Other FunnyFuzzy stairs $69.99 to $109.99; Lesure Orthopedic Dog Stairs from $53.99.",
+   "proposed_price": false,
    "amazon_typical_price": 63.19,
    "amazon_bought_past_month": 21250,
    "amazon_listings_counted": 67,
@@ -2739,7 +3034,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -32.159110000000005,
-    "profit_tough": -43.928110000000004
+    "profit_tough": -43.928110000000004,
+    "max_cost_for_cushion": 11.154223333333327
    },
    "us_refund_high": {
     "price": 69.99,
@@ -2754,7 +3050,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -34.95871,
-    "profit_tough": -46.72771
+    "profit_tough": -46.72771,
+    "max_cost_for_cushion": 8.354623333333322
    },
    "us_cost_up_20pct": {
     "price": 69.99,
@@ -2769,7 +3066,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -43.43710999999999,
-    "profit_tough": -55.206109999999995
+    "profit_tough": -55.206109999999995,
+    "max_cost_for_cushion": 11.154223333333327
    },
    "china": null,
    "score": 53.0,
@@ -2814,10 +3112,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 18,
+   "shortlist": false,
+   "rank_overall": 19,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 72.39,
     "stop_ad_with_no_sale_at": 7.070889999999994,
     "checkpoint_half_budget": 175.0,
@@ -2840,146 +3141,6 @@
    }
   },
   {
-   "id": "heated-vest-powerbank-kit",
-   "group": "auto-outdoor",
-   "category": "winter and cold weather / battery heated wearables",
-   "benchmark_used": "outdoor",
-   "product": "USB heated vest (15 to 26 heating zones, 3 heat levels) sold as a kit with a 10,000mAh power bank; heated hoodie as a variant",
-   "what_it_solves": "Staying warm outdoors or in a cold garage, truck or stadium without a bulky coat; one layer that heats the back, chest and neck from a pocket battery.",
-   "sell_price": 79.99,
-   "sell_price_source": "Proposed kit price (vest plus power bank), not a price read on one store. Anchors read 2026-11-21: Ororo women's classic heated vest from $99.99 and men's $129.99 (https://ororowear.com/products/men-heated-vest-black), Venustas fleece vest $119.99, iHood $119.99, Weston $149.95, Gobi Heat $119 to $199 (all VERIFIED on the stores' storefront search JSON); Amazon no-name vests with a battery pack $49.99 to $67.99 and Ororo on Amazon $109.99 to $118.99 (ESTIMATED, DataForSEO). $79.99 sits between the Amazon no-name tier and the lowest branded DTC price.",
-   "amazon_typical_price": 66.49,
-   "amazon_bought_past_month": 27600,
-   "amazon_listings_counted": 78,
-   "us_landed_cost": 34.34,
-   "us_landed_label": "Sum of two US-filter cards: the 15-zone vest at $15.09 (listing 3256813351063190, 3 sold) plus the 10000mAh power bank at $19.25 (listing 3256813406496358, 1 sold), both free shipping, no new-shopper tag. Two sellers, so two parcels and two delivery promises. The one card with a battery in the box reads $61.27 with no sales. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
-   "cn_landed_cost": null,
-   "cn_landed_label": "UNKNOWN. China-side cards for USB vests read $8.81 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
-   "us_sources": 6,
-   "weight_lb": null,
-   "demo_score": 3,
-   "whales": [
-    "Ororo"
-   ],
-   "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. The best-selling Amazon vests at $49.99 to $67.99 include the battery pack, so the power bank must be in the order.",
-   "whale_note": "Ororo is a real whale here: 2,290 reviews on one vest and 3,553 on another of its products, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
-   "ip_safety_flags": "Vest and power bank certification UNKNOWN (UL or ETL for the vest wiring, UN38.3 for the bank). The vest runs on 5V USB, a lower-risk design than 7.4V or 12V packs, but burn risk remains. No health claims (back pain, circulation). Do not imitate Ororo's product names or photos. Generic design, no patent concern seen.",
-   "season_note": "Peak now. 'heated vest' about 201,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 74,000 in Oct 2026, 3,600 in Jul 2026; CPC about $1.84, the highest of the heated wearables (ESTIMATED, DataForSEO, read 2026-11-21). Strong Christmas gift for outdoor workers and parents; falls off fast after January.",
-   "risks": "1) Apparel sizing is the likely main refund driver (size range on the US listings not read), and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
-   "us": {
-    "price": 79.99,
-    "landed": 34.34,
-    "card_fee": 2.61971,
-    "refund_allowance": 4.7993999999999994,
-    "pre_ad_contribution": 38.230889999999995,
-    "break_even_cac": 38.230889999999995,
-    "break_even_roas": 2.0922871531371623,
-    "target_cac": 28.673167499999998,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -7.069110000000002,
-    "profit_tough": -20.659110000000005
-   },
-   "us_refund_high": {
-    "price": 79.99,
-    "landed": 34.34,
-    "card_fee": 2.61971,
-    "refund_allowance": 7.999,
-    "pre_ad_contribution": 35.03128999999999,
-    "break_even_cac": 35.03128999999999,
-    "break_even_roas": 2.2833872232509855,
-    "target_cac": 26.273467499999995,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -10.268710000000006,
-    "profit_tough": -23.85871000000001
-   },
-   "us_cost_up_20pct": {
-    "price": 79.99,
-    "landed": 41.208000000000006,
-    "card_fee": 2.61971,
-    "refund_allowance": 4.7993999999999994,
-    "pre_ad_contribution": 31.362889999999993,
-    "break_even_cac": 31.362889999999993,
-    "break_even_roas": 2.5504664908112744,
-    "target_cac": 23.522167499999995,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -13.937110000000004,
-    "profit_tough": -27.527110000000008
-   },
-   "china": null,
-   "score": 52.7,
-   "score_parts": {
-    "profit_tough_30": 0.0,
-    "demand_20": 16.3,
-    "supply_20": 20.0,
-    "price_vs_amazon_10": 5.9,
-    "demo_10": 6.0,
-    "no_whale_5": 2.5,
-    "light_5": 2.0
-   },
-   "startable_this_week": false,
-   "robust": false,
-   "week1": {
-    "500": {
-     "budget": 500,
-     "fixed_setup_and_sample": 50.34,
-     "cash_per_order_before_payout": 93.23,
-     "orders": 4,
-     "sales": 319.96,
-     "ad_spend": 235.56,
-     "supplier_spend": 137.36,
-     "profit_after_everything": -132.97644000000003,
-     "orders_needed_for_goal": 26,
-     "cash_needed_for_goal": 2474.32
-    },
-    "1000": {
-     "budget": 1000,
-     "fixed_setup_and_sample": 50.34,
-     "cash_per_order_before_payout": 93.23,
-     "orders": 10,
-     "sales": 799.9,
-     "ad_spend": 588.9,
-     "supplier_spend": 343.40000000000003,
-     "profit_after_everything": -256.9311,
-     "orders_needed_for_goal": 26,
-     "cash_needed_for_goal": 2474.32
-    }
-   },
-   "tier": "red",
-   "proven_listing": null,
-   "rule_status": "caution",
-   "rule_note": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
-   "rank_overall": 19,
-   "rank_in_group": 5,
-   "test_plan": {
-    "ad_budget": 350,
-    "setup_and_sample": 50.34,
-    "stop_ad_with_no_sale_at": 38.230889999999995,
-    "checkpoint_half_budget": 175.0,
-    "benchmark": {
-     "orders": 7.72626931567329,
-     "sales": 618.0242825607064,
-     "supplier_spend": 265.3200883002208,
-     "cash_out_before_payout": 665.6600883002209,
-     "net_after_setup_and_sample": -104.95784768211925
-    },
-    "tough": {
-     "orders": 5.943284088979453,
-     "sales": 475.40329427746644,
-     "supplier_spend": 204.09237561555446,
-     "cash_out_before_payout": 604.4323756155545,
-     "net_after_setup_and_sample": -173.12295975547633
-    },
-    "worst_case_no_sales": -400.34000000000003,
-    "loss_if_stopped_at_checkpoint_with_no_sales": -225.34
-   }
-  },
-  {
    "id": "electric-spin-scrubber-kit",
    "group": "home",
    "category": "cleaning",
@@ -2988,6 +3149,7 @@
    "what_it_solves": "Scrubbing tubs, grout and tile on hands and knees; a spinning brush on a pole does the work.",
    "sell_price": 59.99,
    "sell_price_source": "Proposed kit or 2-pack price. Anchors: Synoshi sells 1 for $42.99 plus $9.95 shipping and 2 for $49.96 plus $9.95 (VERIFIED in research/fast-test-2026-11-21/05_store_teardowns.md, 2026-11-21); HOTO $49.99 to $75.99 and qimedo Q2 $85.49 on Amazon (VERIFIED via DataForSEO 2026-11-21)",
+   "proposed_price": true,
    "amazon_typical_price": 66.99,
    "amazon_bought_past_month": 4100,
    "amazon_listings_counted": 12,
@@ -3017,7 +3179,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -16.47911,
-    "profit_tough": -31.062110000000004
+    "profit_tough": -31.062110000000004,
+    "max_cost_for_cushion": -10.462443333333333
    },
    "us_refund_high": {
     "price": 59.99,
@@ -3032,7 +3195,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -18.878709999999998,
-    "profit_tough": -33.461710000000004
+    "profit_tough": -33.461710000000004,
+    "max_cost_for_cushion": -12.862043333333332
    },
    "us_cost_up_20pct": {
     "price": 59.99,
@@ -3047,7 +3211,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -20.92310999999999,
-    "profit_tough": -35.50610999999999
+    "profit_tough": -35.50610999999999,
+    "max_cost_for_cushion": -10.462443333333333
    },
    "china": null,
    "score": 51.5,
@@ -3092,10 +3257,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
+   "shortlist": false,
    "rank_overall": 20,
    "rank_in_group": 8,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 38.22,
     "stop_ad_with_no_sale_at": 32.13089,
     "checkpoint_half_budget": 175.0,
@@ -3118,160 +3286,6 @@
    }
   },
   {
-   "id": "heated-socks-app",
-   "group": "auto-outdoor",
-   "category": "winter and cold weather / battery heated wearables",
-   "benchmark_used": "outdoor",
-   "product": "Rechargeable heated socks with app control (two battery packs, 3 heat levels)",
-   "what_it_solves": "Cold toes in boots during hunting, ice fishing, skiing, outdoor work and winter sports sidelines; thick socks alone do not add heat.",
-   "sell_price": 62.99,
-   "sell_price_source": "https://saviorheat.com/products/with-app-control-heated-socks-grey-black - VERIFIED 2026-11-21 (Savior Heat LYSS01G App-Controlled Heated Socks: storefront search JSON says from $62.99 against $109.99; the default option on the product page showed $76.99). Other DTC prices read today: Fieldsheer Wool Blend $67.49 and Merino 2.0 $74.99, Weston Rechargeable Heated Socks $79.95, Venustas S11 $79.99, Ororo Mojave Point $89.99. Amazon median at $40 or more is $56.99.",
-   "amazon_typical_price": 56.99,
-   "amazon_bought_past_month": 11450,
-   "amazon_listings_counted": 34,
-   "us_landed_cost": 24.59,
-   "us_landed_label": "Lowest US-filter card price for app-control heated socks with batteries named in the title, free shipping, no new-shopper tag (listing 3256813370712752, 5 sold); the same product reads $24.69 with 17 sold. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
-   "cn_landed_cost": 37.89,
-   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 20 sold, no new-shopper tag). Ship-from not confirmed on the page, delivery days not shown. Dearer than US stock.",
-   "us_sources": 5,
-   "weight_lb": 1.1,
-   "demo_score": 2,
-   "whales": [
-    "Ororo"
-   ],
-   "bundle_idea": "Two pairs, or socks plus the heated gloves as a 'hands and feet' set (Venustas sells that pairing at $167.98). As a single product it sits at the bottom of the price band, so it is better as the second product of a heated-gloves store than as the hero.",
-   "whale_note": "No single owner on Amazon (34 listings at $40 or more, unbranded app-control pairs lead; Snow Deer about 1,200 units). Ororo and Fieldsheer are larger brands with higher prices.",
-   "ip_safety_flags": "Lithium packs worn against the leg: certification UNKNOWN, burn and sweat exposure risk. The companion app is a third-party app we do not control. No health or circulation claims. Generic construction, no patent concern seen.",
-   "season_note": "Strong December to February. 'heated socks' about 135,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 40,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.02 (ESTIMATED, DataForSEO, read 2026-11-21).",
-   "risks": "1) Price ceiling: 62,700+ units a month sell under $40 on Amazon and the DTC low end is $62.99, so the price that fits the brief is hard to hold. 2) Hard to show in an image (demo score 2). 3) Sock sizing and washing complaints; battery pocket comfort. 4) US listings have 5 to 17 sales. 5) Weight is ESTIMATED from the Snow Deer Amazon listing (0.5 kg). 6) Promotion pricing on the cards.",
-   "us": {
-    "price": 62.99,
-    "landed": 24.59,
-    "card_fee": 2.12671,
-    "refund_allowance": 3.7794,
-    "pre_ad_contribution": 32.49389,
-    "break_even_cac": 32.49389,
-    "break_even_roas": 1.9385182875919136,
-    "target_cac": 24.370417500000002,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -12.806109999999997,
-    "profit_tough": -26.39611
-   },
-   "us_refund_high": {
-    "price": 62.99,
-    "landed": 24.59,
-    "card_fee": 2.12671,
-    "refund_allowance": 6.299,
-    "pre_ad_contribution": 29.974290000000003,
-    "break_even_cac": 29.974290000000003,
-    "break_even_roas": 2.101467624420795,
-    "target_cac": 22.480717500000004,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -15.325709999999994,
-    "profit_tough": -28.915709999999997
-   },
-   "us_cost_up_20pct": {
-    "price": 62.99,
-    "landed": 29.508,
-    "card_fee": 2.12671,
-    "refund_allowance": 3.7794,
-    "pre_ad_contribution": 27.57589,
-    "break_even_cac": 27.57589,
-    "break_even_roas": 2.2842417778719017,
-    "target_cac": 20.6819175,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -17.724109999999996,
-    "profit_tough": -31.31411
-   },
-   "china": {
-    "price": 62.99,
-    "landed": 37.89,
-    "card_fee": 2.12671,
-    "refund_allowance": 6.299,
-    "pre_ad_contribution": 16.674290000000003,
-    "break_even_cac": 16.674290000000003,
-    "break_even_roas": 3.77767209278476,
-    "target_cac": 12.505717500000003,
-    "benchmark_cpa": 45.3,
-    "tough_cpa": 58.89,
-    "cushion_pass": false,
-    "profit_benchmark": -28.625709999999994,
-    "profit_tough": -42.21571
-   },
-   "score": 50.2,
-   "score_parts": {
-    "profit_tough_30": 0.0,
-    "demand_20": 10.8,
-    "supply_20": 20.0,
-    "price_vs_amazon_10": 7.9,
-    "demo_10": 4.0,
-    "no_whale_5": 2.5,
-    "light_5": 5.0
-   },
-   "startable_this_week": false,
-   "robust": false,
-   "week1": {
-    "500": {
-     "budget": 500,
-     "fixed_setup_and_sample": 40.59,
-     "cash_per_order_before_payout": 83.48,
-     "orders": 5,
-     "sales": 314.95,
-     "ad_spend": 294.45,
-     "supplier_spend": 122.95,
-     "profit_after_everything": -172.57055,
-     "orders_needed_for_goal": 32,
-     "cash_needed_for_goal": 2711.9500000000003
-    },
-    "1000": {
-     "budget": 1000,
-     "fixed_setup_and_sample": 40.59,
-     "cash_per_order_before_payout": 83.48,
-     "orders": 11,
-     "sales": 692.89,
-     "ad_spend": 647.79,
-     "supplier_spend": 270.49,
-     "profit_after_everything": -330.94721000000004,
-     "orders_needed_for_goal": 32,
-     "cash_needed_for_goal": 2711.9500000000003
-    }
-   },
-   "tier": "red",
-   "proven_listing": null,
-   "rule_status": "caution",
-   "rule_note": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
-   "rank_overall": 21,
-   "rank_in_group": 6,
-   "test_plan": {
-    "ad_budget": 350,
-    "setup_and_sample": 40.59,
-    "stop_ad_with_no_sale_at": 32.49389,
-    "checkpoint_half_budget": 175.0,
-    "benchmark": {
-     "orders": 7.72626931567329,
-     "sales": 486.6777041942605,
-     "supplier_spend": 189.9889624724062,
-     "cash_out_before_payout": 580.5789624724063,
-     "net_after_setup_and_sample": -139.53345474613684
-    },
-    "tough": {
-     "orders": 5.943284088979453,
-     "sales": 374.3674647648158,
-     "supplier_spend": 146.14535574800476,
-     "cash_out_before_payout": 536.7353557480048,
-     "net_after_setup_and_sample": -197.46958057395142
-    },
-    "worst_case_no_sales": -390.59,
-    "loss_if_stopped_at_checkpoint_with_no_sales": -215.59
-   }
-  },
-  {
    "id": "wireless-carplay-adapter",
    "group": "tech-desk",
    "category": "car tech / phone accessories",
@@ -3280,6 +3294,7 @@
    "what_it_solves": "Drivers whose car has wired CarPlay and who are tired of plugging the phone in on every trip.",
    "sell_price": 59.99,
    "sell_price_source": "Proposed price. Anchors: https://www.ottocast.com/products.json U2Air Edge at $55 to $100 (compare-at $178); https://lamtto.com/products.json RC36 3-in-1 adapter at $89.99 (both VERIFIED, read 2026-11-21); Amazon median for adapters selling at $40 or more is $46.99 (VERIFIED via DataForSEO).",
+   "proposed_price": true,
    "amazon_typical_price": 46.99,
    "amazon_bought_past_month": 9350,
    "amazon_listings_counted": 27,
@@ -3309,7 +3324,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -22.999109999999998,
-    "profit_tough": -38.31711
+    "profit_tough": -38.31711,
+    "max_cost_for_cushion": -13.729109999999999
    },
    "us_refund_high": {
     "price": 59.99,
@@ -3324,7 +3340,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -25.39871,
-    "profit_tough": -40.71671
+    "profit_tough": -40.71671,
+    "max_cost_for_cushion": -16.128709999999998
    },
    "us_cost_up_20pct": {
     "price": 59.99,
@@ -3339,7 +3356,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -28.257109999999997,
-    "profit_tough": -43.575109999999995
+    "profit_tough": -43.575109999999995,
+    "max_cost_for_cushion": -13.729109999999999
    },
    "china": {
     "price": 59.99,
@@ -3354,7 +3372,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -12.43871,
-    "profit_tough": -27.756709999999998
+    "profit_tough": -27.756709999999998,
+    "max_cost_for_cushion": -16.128709999999998
    },
    "score": 50.0,
    "score_parts": {
@@ -3398,10 +3417,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 22,
+   "shortlist": false,
+   "rank_overall": 21,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 42.29,
     "stop_ad_with_no_sale_at": 28.060890000000004,
     "checkpoint_half_budget": 175.0,
@@ -3432,6 +3454,7 @@
    "what_it_solves": "Cats that will not drink from a still bowl; no cord across the floor so it can sit anywhere; stainless tray is easier to keep clean than plastic.",
    "sell_price": 74.95,
    "sell_price_source": "https://kittyspout.com/products/colored-wireless2 - VERIFIED 2026-11-21 (KittySpout Wireless Fountain 2.0, $74.95, shown against a $149.95 compare-at price). Same product is $74.95 on Amazon (B0FB8F2FNW, 1,000+ bought in past month). Other DTC prices read today: Petlibro Dockstream Cordless $69.99, HomerunPET BF10 $69.99, HAPAW 4L wireless $81.99, Petnimo 1 Fountain $101.00.",
+   "proposed_price": false,
    "amazon_typical_price": 49.99,
    "amazon_bought_past_month": 17250,
    "amazon_listings_counted": 24,
@@ -3463,7 +3486,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -2.540549999999996,
-    "profit_tough": -14.309549999999994
+    "profit_tough": -14.309549999999994,
+    "max_cost_for_cushion": 15.672783333333335
    },
    "us_refund_high": {
     "price": 74.95,
@@ -3478,7 +3502,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -5.538549999999994,
-    "profit_tough": -17.307549999999992
+    "profit_tough": -17.307549999999992,
+    "max_cost_for_cushion": 12.67478333333333
    },
    "us_cost_up_20pct": {
     "price": 74.95,
@@ -3493,7 +3518,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -8.798549999999992,
-    "profit_tough": -20.56754999999999
+    "profit_tough": -20.56754999999999,
+    "max_cost_for_cushion": 15.672783333333335
    },
    "china": null,
    "score": 49.6,
@@ -3538,10 +3564,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 23,
+   "shortlist": false,
+   "rank_overall": 22,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 47.29,
     "stop_ad_with_no_sale_at": 36.68945,
     "checkpoint_half_budget": 175.0,
@@ -3571,7 +3600,8 @@
    "product": "Compact point-and-shoot digital camera kit (generic '4K 48MP' flip-screen digicam with 32GB card, strap and case)",
    "what_it_solves": "People who want the retro 'digicam' look and a break from the phone at parties, trips and holidays: a pocket camera with a flash, a flip screen for selfies and photos that move to the phone by cable or card.",
    "sell_price": 79.99,
-   "sell_price_source": "Proposed kit price. Anchors: https://klikcamera.com/products.json KLIK Screen-Free Camera at $68.71; https://campsnapphoto.com/products.json Camp Snap 2 at $69.99 and Camp Snap 110D at $74.99 (both VERIFIED, read 2026-11-21); Amazon median for generic compact cameras selling at $40 or more is $58.48 (VERIFIED via DataForSEO).",
+   "sell_price_source": "Proposed kit price. Anchors: https://klikcamera.com/products.json KLIK Screen-Free Camera at $68.71; https://campsnapphoto.com/products.json Camp Snap 2 at $69.99, Camp Snap 110D at $74.99 and Camp Snap 2 bundles at $89.98 to $119.93 (both VERIFIED, read 2026-11-21); Amazon median for generic compact cameras selling at $40 or more is $58.48 (VERIFIED via DataForSEO).",
+   "proposed_price": true,
    "amazon_typical_price": 58.48,
    "amazon_bought_past_month": 17600,
    "amazon_listings_counted": 52,
@@ -3586,8 +3616,8 @@
     "Camp Snap",
     "Kodak PIXPRO (JK Imaging licence)"
    ],
-   "bundle_idea": "Camera plus 32GB card, wrist strap, soft case and a spare battery as a ready-to-gift kit at $79.99; second camera at a discount for couples or friends (Camp Snap sells 3, 4 and 5 packs at 10 percent off; VERIFIED). Add-on costs from US stock were not read (UNKNOWN).",
-   "whale_note": "Two whales bracket the product: Kodak PIXPRO above $100 (16,000+ units a month on two models) and Camp Snap in the screen-free niche. Between them the generic flip-screen cameras are fragmented: 15 brand names have Amazon sales at $40 or more, the largest listing at 3,000+ a month.",
+   "bundle_idea": "Camera plus 32GB card, wrist strap, soft case and a spare battery as a ready-to-gift kit at $79.99; second camera at a discount for couples or friends (Camp Snap sells camera bundles at $89.98 to $119.93 and multi-packs of its small camcorder at 10 percent off; VERIFIED). Add-on costs from US stock were not read (UNKNOWN).",
+   "whale_note": "Two whales bracket the product: Kodak PIXPRO at $100 and up (20,000+ units a month across the four FZ55 and FZ45 listings counted) and Camp Snap in the screen-free niche. Between them the generic flip-screen cameras are fragmented: 15 brand names have Amazon sales at $40 or more, the largest listing at 3,000+ a month.",
    "ip_safety_flags": "Do not copy Camp Snap's or KLIK's body design, name or 'screen-free' brand assets (trade dress and trademark; design patent status UNKNOWN, web search only). '48MP' and '4K' on generic cameras are interpolated figures: do not repeat megapixel claims we cannot verify on the sample. Many Amazon listings for this hardware are titled 'for kids': a children's product would need CPSIA testing and is out of scope, so market to adults and teens 13 and up only. Small lithium battery (Amazon top listing shows battery weight 10 g). Fast-lane flag: ads would start before the sample is in hand.",
    "season_note": "Strong gift item. Google searches for 'digital camera': 550,000 in Dec 2025, 301,000 in Jan 2026, 246,000 in Feb, 368,000 in Oct 2026; 'vintage digital camera' 14,800 in Dec 2025 against 6,600 in Feb (VERIFIED via DataForSEO Google Ads data). December good, January and February softer.",
    "risks": "1) Picture quality is below a current phone; buyers who expect 'real 4K' return it. KLIK and Camp Snap avoid this by selling the look, not the specs. 2) Amazon price for the same class is $41 to $61. 3) On $33.69 the cost is above the 35 percent guide at $79.99; the script decides. 4) The cheaper $21 to $23 listing is a promo price. 5) Screen-free style is only available China-shipped ($30 to $32), so the proven DTC version of this product fails the US-stock rule. 6) No sample yet: shutter lag, battery life and card format are unknown.",
@@ -3604,7 +3634,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -12.179110000000001,
-    "profit_tough": -27.49711
+    "profit_tough": -27.49711,
+    "max_cost_for_cushion": 4.490889999999993
    },
    "us_refund_high": {
     "price": 79.99,
@@ -3619,7 +3650,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -15.378710000000005,
-    "profit_tough": -30.696710000000003
+    "profit_tough": -30.696710000000003,
+    "max_cost_for_cushion": 1.2912900000000036
    },
    "us_cost_up_20pct": {
     "price": 79.99,
@@ -3634,7 +3666,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -18.91711,
-    "profit_tough": -34.23511
+    "profit_tough": -34.23511,
+    "max_cost_for_cushion": 4.490889999999993
    },
    "china": {
     "price": 79.99,
@@ -3649,7 +3682,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -1.278710000000011,
-    "profit_tough": -16.59671000000001
+    "profit_tough": -16.59671000000001,
+    "max_cost_for_cushion": 1.2912900000000036
    },
    "score": 49.2,
    "score_parts": {
@@ -3693,10 +3727,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 24,
+   "shortlist": false,
+   "rank_overall": 23,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 49.69,
     "stop_ad_with_no_sale_at": 38.88089,
     "checkpoint_half_budget": 175.0,
@@ -3726,7 +3763,8 @@
    "product": "Wide architect LED desk lamp with clamp (dual head, about 24W, dimmable, colour temperature control) for dual-monitor desks",
    "what_it_solves": "Dim or glare-heavy home-office desks: one clamp-on bar lights a full two-monitor desk evenly without taking desk space or reflecting in the screens.",
    "sell_price": 69.99,
-   "sell_price_source": "Proposed price. Anchors: Amazon median for architect clamp lamps selling at $40 or more is $50.34, top listing $44.15 (VERIFIED via DataForSEO 2026-11-21); https://lumecube.com/products.json Lume Cube Edge Light 2.0 compare-at $149.99, open-box $89.99 (VERIFIED, read 2026-11-21); BenQ ScreenBar Pro $118.15 and ScreenBar Halo 2 $169.15 on Amazon (VERIFIED via DataForSEO).",
+   "sell_price_source": "Proposed price. Anchors: Amazon median for architect clamp lamps selling at $40 or more is $50.34, top listing $44.15 (VERIFIED via DataForSEO 2026-11-21); https://lumecube.com/products.json Lume Cube Edge Light 2.0 at $119.99, compare-at $149.99, open-box $89.99 (VERIFIED, read 2026-11-21); BenQ ScreenBar Pro $118.15 and ScreenBar Halo 2 $169.15 on Amazon (VERIFIED via DataForSEO).",
+   "proposed_price": true,
    "amazon_typical_price": 50.34,
    "amazon_bought_past_month": 14350,
    "amazon_listings_counted": 28,
@@ -3741,7 +3779,7 @@
     "BenQ ScreenBar"
    ],
    "bundle_idea": "Lamp plus a monitor light bar or RGB back-light strip as a 'desk lighting kit'. US-stock light bars read $8.55 to $21.41 on non-promo cards (VERIFIED). This is a bundle of cheap parts, which the Nov 14 decision says does not earn a premium on its own.",
-   "whale_note": "BenQ owns the premium monitor-light tier and Lume Cube the creator tier. The architect clamp lamp itself has no whale: 11 brand names sell at $40 or more, the largest listing at 4,000+ a month, all priced $41 to $60. Under $40, 55 listings sell 47,800 units a month.",
+   "whale_note": "BenQ owns the premium monitor-light tier and Lume Cube the creator tier. The architect clamp lamp itself has no whale: 11 brand names sell at $40 or more, the largest listing at 4,000+ a month, almost all priced $41 to $60. Under $40, 55 listings sell 47,800 units a month.",
    "ip_safety_flags": "No patent search done (UNKNOWN); BenQ's asymmetric ScreenBar optics are patented per its marketing, so avoid a screen-top bar that copies it. 'Eye-caring' and 'eye protection' on supplier listings are health claims: do not use them. Mains adapter: UL or ETL listing UNKNOWN. Fast-lane flag: ads would start before the sample is in hand.",
    "season_note": "Winter is the season: Google searches for 'led desk lamp' were 14,800 in Dec 2025, 18,100 in Jan 2026 and 14,800 in Feb against 3,600 in Jul and 4,400 in Oct 2026; 'desk lamp with clamp' 3,600 in Jan 2026; 'architect desk lamp' only 590 a month (VERIFIED via DataForSEO Google Ads data). Dec to Feb good, but total search demand is small.",
    "risks": "1) Price ceiling: only 1,000 of 14,350 monthly Amazon units sell at $60 or more. 2) On $32.53 the cost is close to half of a $69.99 price; the script will show it fails the 35 percent guide. 3) Weak 3-second demo and a thin, noisy ad field. 4) Tech-worker buyers price-check on Amazon, where the leader is $44.15 with 3,663 ratings. Kept as the best desk-setup entry found, not as a recommendation.",
@@ -3758,7 +3796,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -20.129110000000008,
-    "profit_tough": -35.44711000000001
+    "profit_tough": -35.44711000000001,
+    "max_cost_for_cushion": -4.619110000000006
    },
    "us_refund_high": {
     "price": 69.99,
@@ -3773,7 +3812,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -22.928710000000006,
-    "profit_tough": -38.24671000000001
+    "profit_tough": -38.24671000000001,
+    "max_cost_for_cushion": -7.4187100000000115
    },
    "us_cost_up_20pct": {
     "price": 69.99,
@@ -3788,7 +3828,8 @@
     "tough_cpa": 66.378,
     "cushion_pass": false,
     "profit_benchmark": -26.635110000000008,
-    "profit_tough": -41.95311000000001
+    "profit_tough": -41.95311000000001,
+    "max_cost_for_cushion": -4.619110000000006
    },
    "china": null,
    "score": 45.9,
@@ -3833,10 +3874,13 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 25,
+   "shortlist": false,
+   "rank_overall": 24,
    "rank_in_group": 6,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 48.53,
     "stop_ad_with_no_sale_at": 30.930889999999994,
     "checkpoint_half_budget": 175.0,
@@ -3867,6 +3911,7 @@
    "what_it_solves": "Pee, drool, mud and hair on the couch or bed; the throw looks like home decor, and liquid stays on top instead of soaking through.",
    "sell_price": 79.0,
    "sell_price_source": "https://paw.com/products/pupprotector-short-faux-fur-waterproof-throw-blanket-grey - VERIFIED 2026-11-21 via the store's public search JSON (PupProtector Summer Short Fur Waterproof Throw Blanket from $79.00; standard PupProtector from $99.00; compare-at $279.00). Alpha Paw's PawProof throw shows option prices from $29.98 to $109.00.",
+   "proposed_price": false,
    "amazon_typical_price": 50.99,
    "amazon_bought_past_month": 4850,
    "amazon_listings_counted": 15,
@@ -3907,7 +3952,8 @@
    "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 26,
+   "shortlist": false,
+   "rank_overall": 25,
    "rank_in_group": 6,
    "test_plan": null
   },
@@ -3920,6 +3966,7 @@
    "what_it_solves": "A dead battery on a cold morning or a soft tire far from help: one box in the trunk starts the car and fills the tire without a second vehicle.",
    "sell_price": 99.99,
    "sell_price_source": "https://gooloo.com/products/a5-jump-starter-with-air-compressor - VERIFIED 2026-11-21 (GOOLOO A5 4000A jump starter with air compressor, $99.99 against $299.98 compare-at in the storefront search JSON; the page showed $99.99 and $159.99). Wolfbox MegaVolt 10Air $133.32. On Amazon the same class sells at $66.46 (GOOLOO A3), $66.49 and $79.99 from no-name sellers, each with 7,000+ to 10,000+ bought in the past month, so a new store should also be run at $69.99 to $79.99.",
+   "proposed_price": false,
    "amazon_typical_price": 66.49,
    "amazon_bought_past_month": 82050,
    "amazon_listings_counted": 74,
@@ -3953,7 +4000,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": true,
     "profit_benchmark": 21.67089,
-    "profit_tough": 10.98189
+    "profit_tough": 10.98189,
+    "max_cost_for_cushion": 43.28422333333334
    },
    "us_refund_high": {
     "price": 99.99,
@@ -3968,7 +4016,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": true,
     "profit_benchmark": 17.67129,
-    "profit_tough": 6.982289999999999
+    "profit_tough": 6.982289999999999,
+    "max_cost_for_cushion": 39.284623333333336
    },
    "us_cost_up_20pct": {
     "price": 99.99,
@@ -3983,7 +4032,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": true,
     "profit_benchmark": 14.972889999999992,
-    "profit_tough": 4.283889999999992
+    "profit_tough": 4.283889999999992,
+    "max_cost_for_cushion": 43.28422333333334
    },
    "china": {
     "price": 99.99,
@@ -3998,7 +4048,8 @@
     "tough_cpa": 46.319,
     "cushion_pass": false,
     "profit_benchmark": 9.771289999999993,
-    "profit_tough": -0.9177100000000067
+    "profit_tough": -0.9177100000000067,
+    "max_cost_for_cushion": 39.284623333333336
    },
    "score": 79.0,
    "score_parts": {
@@ -4042,10 +4093,13 @@
    "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "High-current lithium pack clamped to a car battery; certification UNKNOWN. The scout flagged it as a likely fail on safety.",
-   "rank_overall": 27,
-   "rank_in_group": 7,
+   "shortlist": false,
+   "rank_overall": 26,
+   "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 49.49,
     "stop_ad_with_no_sale_at": 57.30089,
     "checkpoint_half_budget": 175.0,
@@ -4068,6 +4122,466 @@
    }
   },
   {
+   "id": "leg-air-compression-massager-heat",
+   "group": "beauty-fitness",
+   "category": "massage and recovery / legs",
+   "benchmark_used": "outdoor",
+   "product": "Air-compression leg massager wraps for foot, calf and thigh with heat and a handheld controller (pair)",
+   "what_it_solves": "Heavy, tired legs after standing shifts, travel or workouts: wraps inflate and release while you sit. Would have to be sold as relaxation only, with no circulation, swelling or medical wording.",
+   "sell_price": 119.99,
+   "sell_price_source": "https://renpho.com/products/leg-massager-premium - VERIFIED 2026-11-21 (Renpho Aeria Ultimate Thermal 2, $119.99). Other DTC prices read today: ReAthlete Air-C $149.99 (shown against $299.99), Nekteck with heat $139.99, Nekteck air compression leg massager $99.99, Lunix LX10 $99.98, ReAthlete RLXR $99.99 (1,047 reviews). Amazon leaders sell at $84.53 to $132.99. $119.99 is the middle of that range, not a tested price.",
+   "proposed_price": false,
+   "amazon_typical_price": 113.99,
+   "amazon_bought_past_month": 24900,
+   "amazon_listings_counted": 85,
+   "us_landed_cost": 44.29,
+   "us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). SEJOY foot, calf and thigh wraps with controller, 20 sold, fastest delivery 6 days. Whether it matches the ReAthlete or FIT KING build (number of air chambers, heat zones, wrap size) is not confirmed.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN: China-side cards are new-shopper promos or show no shipping line. Nothing read suggests China-side is cheaper than the $44.29 US card.",
+   "us_sources": 5,
+   "weight_lb": 5.1,
+   "demo_score": 4,
+   "whales": [
+    "ReAthlete (Air-C Leg Massager)",
+    "Renpho (Aeria Ultimate Thermal 2)"
+   ],
+   "bundle_idea": "Leg wraps plus extension straps for larger calves, a storage bag and a printed routine card. Cross-sell the hand massager (FIT KING sells that pair as a set).",
+   "whale_note": "ReAthlete owns the Meta ad space for the phrase and Renpho is a mass brand; Hyperice Normatec and Therabody sit far above this price. The Amazon mid-market itself is spread over 22 seller words with no leader.",
+   "ip_safety_flags": "LIKELY EXCLUDED BY THE MEDICAL RULE. An air-compression leg massager is the textbook 'powered inflatable tube massager', an FDA Class II device (21 CFR 890.5650, product code IRP, 510(k) listed as the submission type; per search results read today, ESTIMATED) when sold for circulation or muscle pain, and every leading listing sells it exactly that way ('for circulation and pain relief, FSA HSA eligible'). A no-name US-stock unit has no visible clearance (UNKNOWN). Compression devices normally carry warnings for people with blood clots or vascular disease (general caution, not read on a listing today), so a warning page would be required. Mains adapter plus heat; certification marks UNKNOWN. Sample-first rule waived for this lane (flagged).",
+   "season_note": "Fine for December and still alive in January. Google searches (ESTIMATED): 'leg massager' 33,100 in Dec 2025, 18,100 in Jan 2026, 14,800 in Feb 2026, 22,200 in Oct 2026; 'compression boots' 22,200 in Dec 2025 and again in Oct 2026.",
+   "risks": "1) Regulatory: see flags; this is the main reason not to pick it. 2) The proven ad angle is a health claim. 3) Fit returns for calf size are likely (ASSUMED) and the parcel is about 5 lb. 4) Only one US card at a workable cost and its build is unconfirmed. 5) ReAthlete has ads that started in November 2025 and are still active.",
+   "us": {
+    "price": 119.99,
+    "landed": 44.29,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 7.1994,
+    "pre_ad_contribution": 64.72089,
+    "break_even_cac": 64.72089,
+    "break_even_roas": 1.8539609081395512,
+    "target_cac": 48.5406675,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": true,
+    "profit_benchmark": 19.42089,
+    "profit_tough": 5.830889999999997,
+    "max_cost_for_cushion": 48.610890000000005
+   },
+   "us_refund_high": {
+    "price": 119.99,
+    "landed": 44.29,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 11.999,
+    "pre_ad_contribution": 59.92128999999999,
+    "break_even_cac": 59.92128999999999,
+    "break_even_roas": 2.002460227408322,
+    "target_cac": 44.94096749999999,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 14.621289999999995,
+    "profit_tough": 1.0312899999999914,
+    "max_cost_for_cushion": 43.81129000000001
+   },
+   "us_cost_up_20pct": {
+    "price": 119.99,
+    "landed": 53.147999999999996,
+    "card_fee": 3.7797099999999997,
+    "refund_allowance": 7.1994,
+    "pre_ad_contribution": 55.86289,
+    "break_even_cac": 55.86289,
+    "break_even_roas": 2.147937566423792,
+    "target_cac": 41.8971675,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 10.562890000000003,
+    "profit_tough": -3.0271100000000004,
+    "max_cost_for_cushion": 48.610890000000005
+   },
+   "china": null,
+   "score": 76.4,
+   "score_parts": {
+    "profit_tough_30": 20.8,
+    "demand_20": 15.7,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 8.9,
+    "demo_10": 8.0,
+    "no_whale_5": 0.0,
+    "light_5": 3.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 60.29,
+     "cash_per_order_before_payout": 103.18,
+     "orders": 4,
+     "sales": 479.96,
+     "ad_spend": 235.56,
+     "supplier_spend": 177.16,
+     "profit_after_everything": -36.96644000000001,
+     "orders_needed_for_goal": 17,
+     "cash_needed_for_goal": 1814.3500000000001
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 60.29,
+     "cash_per_order_before_payout": 103.18,
+     "orders": 9,
+     "sales": 1079.9099999999999,
+     "ad_spend": 530.01,
+     "supplier_spend": 398.61,
+     "profit_after_everything": -7.81199000000003,
+     "orders_needed_for_goal": 17,
+     "cash_needed_for_goal": 1814.3500000000001
+    }
+   },
+   "tier": "green",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Medical rule: an air-compression leg massager is an FDA Class II device when sold for circulation or pain. The scout flagged it as likely excluded.",
+   "shortlist": false,
+   "rank_overall": 27,
+   "rank_in_group": 2,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 60.29,
+    "stop_ad_with_no_sale_at": 64.72089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 927.075055187638,
+     "supplier_spend": 342.19646799117,
+     "cash_out_before_payout": 752.48646799117,
+     "net_after_setup_and_sample": 89.76102649006626
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 713.1346578366446,
+     "supplier_spend": 263.2280523009,
+     "cash_out_before_payout": 673.5180523009001,
+     "net_after_setup_and_sample": -25.63536423841058
+    },
+    "worst_case_no_sales": -410.29,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -235.29
+   }
+  },
+  {
+   "id": "heated-gloves-7v",
+   "group": "auto-outdoor",
+   "category": "winter and cold weather / battery heated wearables",
+   "benchmark_used": "outdoor",
+   "product": "Rechargeable heated gloves (7.4V, two battery packs and charger in the box, 3 heat levels, touchscreen fingertips)",
+   "what_it_solves": "Hands that go numb while driving a cold car, scraping ice, shoveling, working outside, riding or watching a game. Ordinary gloves only slow heat loss; these add heat for several hours.",
+   "sell_price": 97.99,
+   "sell_price_source": "https://saviorheat.com/products/unisex-electric-heated-gloves-motorcycle-waterproof - VERIFIED 2026-11-21 (Savior Heat S66B Classic Heated Winter Gloves, $97.99 against a $139.99 compare-at price; product page and storefront search JSON agree). Other DTC prices read today: Ororo Calgary and Buffalo gloves from $99.99, Fieldsheer Squall 2.0 $99.99, Weston Heated Gloves $119.95, Venustas G02 $129.99, iHood $149.99, Gobi Heat $179 to $219; Kemimoto motorcycle gloves from $62.99. Amazon no-name listings sell at $47.48 to $84.99 (median $69.99), so a new store should also be run in the scripts at $79.99.",
+   "proposed_price": false,
+   "amazon_typical_price": 69.99,
+   "amazon_bought_past_month": 19250,
+   "amazon_listings_counted": 69,
+   "us_landed_cost": 25.89,
+   "us_landed_label": "Lowest US-filter card price for a 7.4V glove with battery capacity in the title, free shipping, no new-shopper tag (listing 3256813438436126, 3 sold). Thin: the three cheapest clean listings show 2 to 4 sales each; the clean listing with real sales reads $48.69 (110 sold). VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+   "cn_landed_cost": 54.99,
+   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 103 sold, no new-shopper tag). Ship-from was not confirmed on the page and delivery days were not shown. It is dearer than the US-stock cards, so China shipping has no price advantage here. Most-sold China-side cards ($16.77 and $7.30, 1K+ and 449 sold) carry new-shopper tags.",
+   "us_sources": 6,
+   "weight_lb": null,
+   "demo_score": 3,
+   "whales": [
+    "Ororo"
+   ],
+   "bundle_idea": "Gloves plus a two-pack of rechargeable hand warmers (US cards $9.33 to $15.95, from a different seller, so a second parcel) or a spare battery pair. A 'two pairs' offer for couples is the simpler way to lift order value from one supplier. Heated socks from the same store are the natural second product.",
+   "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets nearly as many searches as 'heated vest': 165,000 against 201,000 in Dec 2025); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
+   "ip_safety_flags": "Lithium battery packs: UL, ETL or UN38.3 paperwork for the unit is UNKNOWN and must be asked for; heating element burn risk if a pack or wire fails. No health claims: competitors lean on Raynaud's, arthritis and circulation wording, which is out of scope here. Do not use Savior Heat, Ororo, Snow Deer or '3M Thinsulate' names unless the unit truly carries them. No patented design seen, generic construction.",
+   "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). It drops to 33,100 in Feb 2026 and 8,100 in Mar 2026, so this is a 10 to 12 week product.",
+   "risks": "1) Sizing and fit returns (the size range on the US listings was not readable). 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Ad prices peak in the launch week (see 03_fulfillment_and_money.md).",
+   "us": {
+    "price": 97.99,
+    "landed": 25.89,
+    "card_fee": 3.14171,
+    "refund_allowance": 5.8793999999999995,
+    "pre_ad_contribution": 63.078889999999994,
+    "break_even_cac": 63.078889999999994,
+    "break_even_roas": 1.5534515588337081,
+    "target_cac": 47.309167499999994,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": true,
+    "profit_benchmark": 17.778889999999997,
+    "profit_tough": 4.188889999999994,
+    "max_cost_for_cushion": 28.56888999999999
+   },
+   "us_refund_high": {
+    "price": 97.99,
+    "landed": 25.89,
+    "card_fee": 3.14171,
+    "refund_allowance": 9.799,
+    "pre_ad_contribution": 59.15928999999999,
+    "break_even_cac": 59.15928999999999,
+    "break_even_roas": 1.6563755244527107,
+    "target_cac": 44.36946749999999,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 13.859289999999994,
+    "profit_tough": 0.2692899999999909,
+    "max_cost_for_cushion": 24.649289999999986
+   },
+   "us_cost_up_20pct": {
+    "price": 97.99,
+    "landed": 31.067999999999998,
+    "card_fee": 3.14171,
+    "refund_allowance": 5.8793999999999995,
+    "pre_ad_contribution": 57.90089,
+    "break_even_cac": 57.90089,
+    "break_even_roas": 1.6923746767968506,
+    "target_cac": 43.425667499999996,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 12.60089,
+    "profit_tough": -0.9891100000000037,
+    "max_cost_for_cushion": 28.56888999999999
+   },
+   "china": {
+    "price": 97.99,
+    "landed": 54.99,
+    "card_fee": 3.14171,
+    "refund_allowance": 9.799,
+    "pre_ad_contribution": 30.059289999999997,
+    "break_even_cac": 30.059289999999997,
+    "break_even_roas": 3.259890702674614,
+    "target_cac": 22.544467499999996,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -15.24071,
+    "profit_tough": -28.830710000000003,
+    "max_cost_for_cushion": 24.649289999999986
+   },
+   "score": 65.8,
+   "score_parts": {
+    "profit_tough_30": 19.2,
+    "demand_20": 14.1,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 2.0,
+    "demo_10": 6.0,
+    "no_whale_5": 2.5,
+    "light_5": 2.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 41.89,
+     "cash_per_order_before_payout": 84.78,
+     "orders": 5,
+     "sales": 489.95,
+     "ad_spend": 294.45,
+     "supplier_spend": 129.45,
+     "profit_after_everything": -20.945550000000033,
+     "orders_needed_for_goal": 21,
+     "cash_needed_for_goal": 1822.2700000000002
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 41.89,
+     "cash_per_order_before_payout": 84.78,
+     "orders": 11,
+     "sales": 1077.8899999999999,
+     "ad_spend": 647.79,
+     "supplier_spend": 284.79,
+     "profit_after_everything": 4.187789999999929,
+     "orders_needed_for_goal": 21,
+     "cash_needed_for_goal": 1822.2700000000002
+    }
+   },
+   "tier": "green",
+   "proven_listing": {
+    "cost": 48.69,
+    "note": "the US listing with 110 sold",
+    "profit_benchmark": -5.02111,
+    "profit_tough": -18.611110000000004
+   },
+   "rule_status": "blocked",
+   "rule_note": "Blocked until battery certification is in hand: lithium packs and a heating element worn on the body, paperwork (UL, ETL or UN38.3) UNKNOWN. Its low cost is a listing with 3 sold.",
+   "shortlist": false,
+   "rank_overall": 28,
+   "rank_in_group": 5,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 41.89,
+    "stop_ad_with_no_sale_at": 63.078889999999994,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 757.0971302428256,
+     "supplier_spend": 200.03311258278148,
+     "cash_out_before_payout": 591.9231125827814,
+     "net_after_setup_and_sample": 95.47449227373066
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 582.3824078790966,
+     "supplier_spend": 153.87162506367804,
+     "cash_out_before_payout": 545.761625063678,
+     "net_after_setup_and_sample": -16.994236712514876
+    },
+    "worst_case_no_sales": -391.89,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -216.89
+   }
+  },
+  {
+   "id": "cordless-neck-shoulder-kneading-massager",
+   "group": "beauty-fitness",
+   "category": "massage and recovery / neck and shoulders",
+   "benchmark_used": "outdoor",
+   "product": "Cordless kneading neck and shoulder massager with heat, sold as a gift kit with wall charger and travel bag. Two forms exist: the U-shaped strap massager with arm loops (what TheraPexa and the Amazon leaders sell) and the newer hand-shaped 'bionic' shawl (what the cheapest US-stock listings are)",
+   "what_it_solves": "Tight neck and shoulders after desk work or driving. Hands-free kneading with no cord, where pillow massagers have to be leaned against. To be sold as relaxation and a gift, not as pain treatment.",
+   "sell_price": 89.99,
+   "sell_price_source": "https://kateminimalist.com/products/wireless-bionic-heated-electric-neck-and-shoulder-massager-with-finger-massager-portable - VERIFIED 2026-11-21 ($89.99, hand-shaped form with the same title as the most-sold AliExpress listing, ships from a US warehouse in 3 to 9 business days). Other DTC prices read today: TheraPexa $119.99 for the U-shaped form (shown against $269.99; 2 units $203.98, 3 units $287.98), ErgonomicLux 'Bionic Kneading Neck Massager' $99.99 and 'Back Neck And Shoulder Massager' $79.99. Established massager brands sell cordless U-shaped units at $59.99 to $69.99 on their own sites (Snailax, Comfier, Nekteck) and at $44 to $76 on Amazon. $89.99 is the middle of the DTC range, not a tested price.",
+   "proposed_price": false,
+   "amazon_typical_price": 51.29,
+   "amazon_bought_past_month": 14050,
+   "amazon_listings_counted": 48,
+   "us_landed_cost": 23.29,
+   "us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Hand-shaped form: lowest card that clearly matches with heat, shows free shipping and has no new-shopper tag (11 sold, fastest delivery 4 days). The most-sold US listing (20K+ sold) is $23.15 for new shoppers only. For the U-shaped TheraPexa form the clean US-stock cost is not confirmed: $26.57 is a new-shopper price and the $34.49 card is unconfirmed.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN: all China-side cards read are new-shopper promo prices ($15.93 to $23.59) with no delivery days. On what could be read, China-side is not clearly cheaper than US stock.",
+   "us_sources": 6,
+   "weight_lb": 2.4,
+   "demo_score": 4,
+   "whales": [],
+   "bundle_idea": "Massager plus a wall charger and a zip travel bag in a gift box; a two-unit 'one for you, one to give' price. TheraPexa sells a 45W charger add-on at $24.99 and shows multi-unit prices on its page. A charger and bag add little cost but each part needs its own US-stock source (UNKNOWN).",
+   "whale_note": "No famous brand owns this. TheraPexa is the dominant advertiser for the phrase but is a single-product store. On Amazon the wearable style is split across 24 seller names (first word of the title). Renpho, Comfier, Snailax and Nekteck are established but none leads.",
+   "ip_safety_flags": "Sample-first rule waived for this lane: ads would start before the unit is in hand (flagged, not a rejection). Lithium battery plus a heating element next to the neck; no UL or ETL mark visible on any card (UNKNOWN). Kneading heads can catch long hair; needs a warning. The market leader sells on medical ground (its page says FDA cleared, HSA/FSA eligible, chronic pain relief); a no-name unit can claim none of that, and under the house rules our copy must stay with relaxation wording and no pain, posture or health claims. Whether a kneading massager sold for relaxation needs any FDA step was not verified today (UNKNOWN). The hand-shaped design is sold by many factories; design patents on it were NOT searched today (UNKNOWN) and must be checked before scaling. Do not use the TheraPexa name, photos or copy.",
+   "season_note": "Good for December, weak after. Google searches (ESTIMATED, DataForSEO Google Ads, US): 'neck massager' 135,000 in Dec 2025 against 49,500 in Jan 2026 and 40,500 in Feb 2026; 'neck and shoulder massager' 22,200 in Dec against 9,900 in Jan and 6,600 in Feb. It is a gift item, so a test must run before about Dec 15 to arrive for Christmas with 4 to 6 day delivery.",
+   "risks": "1) Price comparison: the U-shaped form sells at $44 to $56 on Amazon from brands with thousands of ratings and the hand-shaped form at $30 to $57, so a $90 price depends on the ad and the page, and invites refunds. 1b) The strongest proof (TheraPexa) is for the U-shaped form sold with medical claims; the cheap US stock is the hand-shaped form, whose only DTC sellers found show no review counts. 2) All US-stock costs are Black Friday card prices with 0 to 18 sales on the listings without a new-shopper tag; the regular price and stock depth are unknown. 3) The house hero rule (already selling in volume at $60 or more from several sellers) is met only by DTC evidence, not on Amazon. 4) The ads that work in this market lean on pain relief; ours cannot. 5) Strength complaints are likely (one roundup quotes a buyer calling a cordless unit weak on the neck); refund rate UNKNOWN. 6) Battery product, so returns by mail need care.",
+   "us": {
+    "price": 89.99,
+    "landed": 23.29,
+    "card_fee": 2.90971,
+    "refund_allowance": 5.399399999999999,
+    "pre_ad_contribution": 58.39088999999999,
+    "break_even_cac": 58.39088999999999,
+    "break_even_roas": 1.5411650687290432,
+    "target_cac": 43.793167499999996,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 13.090889999999995,
+    "profit_tough": -0.4991100000000088,
+    "max_cost_for_cushion": 21.280889999999992
+   },
+   "us_refund_high": {
+    "price": 89.99,
+    "landed": 23.29,
+    "card_fee": 2.90971,
+    "refund_allowance": 8.999,
+    "pre_ad_contribution": 54.79128999999999,
+    "break_even_cac": 54.79128999999999,
+    "break_even_roas": 1.642414332643017,
+    "target_cac": 41.09346749999999,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 9.491289999999992,
+    "profit_tough": -4.098710000000011,
+    "max_cost_for_cushion": 17.681289999999997
+   },
+   "us_cost_up_20pct": {
+    "price": 89.99,
+    "landed": 27.947999999999997,
+    "card_fee": 2.90971,
+    "refund_allowance": 5.399399999999999,
+    "pre_ad_contribution": 53.732890000000005,
+    "break_even_cac": 53.732890000000005,
+    "break_even_roas": 1.6747656788979708,
+    "target_cac": 40.299667500000005,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": 8.432890000000008,
+    "profit_tough": -5.157109999999996,
+    "max_cost_for_cushion": 21.280889999999992
+   },
+   "china": null,
+   "score": 64.6,
+   "score_parts": {
+    "profit_tough_30": 14.5,
+    "demand_20": 12.1,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 0.0,
+    "demo_10": 8.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 39.29,
+     "cash_per_order_before_payout": 82.18,
+     "orders": 5,
+     "sales": 449.95,
+     "ad_spend": 294.45,
+     "supplier_spend": 116.44999999999999,
+     "profit_after_everything": -41.78555000000004,
+     "orders_needed_for_goal": 23,
+     "cash_needed_for_goal": 1929.43
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 39.29,
+     "cash_per_order_before_payout": 82.18,
+     "orders": 11,
+     "sales": 989.89,
+     "ad_spend": 647.79,
+     "supplier_spend": 256.19,
+     "profit_after_everything": -44.780210000000096,
+     "orders_needed_for_goal": 23,
+     "cash_needed_for_goal": 1929.43
+    }
+   },
+   "tier": "amber",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck.",
+   "shortlist": false,
+   "rank_overall": 29,
+   "rank_in_group": 3,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 39.29,
+    "stop_ad_with_no_sale_at": 58.39088999999999,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 695.2869757174393,
+     "supplier_spend": 179.94481236203092,
+     "cash_out_before_payout": 569.2348123620309,
+     "net_after_setup_and_sample": 61.85374172185427
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 534.836135167261,
+     "supplier_spend": 138.41908643233145,
+     "cash_out_before_payout": 527.7090864323314,
+     "net_after_setup_and_sample": -42.25635252165055
+    },
+    "worst_case_no_sales": -389.29,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -214.29
+   }
+  },
+  {
    "id": "dog-force-dryer",
    "group": "pets",
    "category": "pets / dog grooming",
@@ -4076,6 +4590,7 @@
    "what_it_solves": "Towel-drying a thick-coated dog takes an hour and leaves a wet-dog smell; a force dryer blows the water and loose undercoat out in minutes.",
    "sell_price": 109.99,
    "sell_price_source": "https://homerunpet.com/products/homerunpet-pet-hair-dryer - VERIFIED 2026-11-21 (HomerunPET Pet Hair Force Dryer PD10, $109.99, compare-at $139.99, 4 on-site reviews). oneisall's vacuum-plus-dryer kit is $97.99; the Amazon leader (Shelandy) is $64.59.",
+   "proposed_price": false,
    "amazon_typical_price": 69.99,
    "amazon_bought_past_month": 9250,
    "amazon_listings_counted": 39,
@@ -4108,7 +4623,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": 8.250889999999991,
-    "profit_tough": -3.518110000000007
+    "profit_tough": -3.518110000000007,
+    "max_cost_for_cushion": 47.594223333333325
    },
    "us_refund_high": {
     "price": 109.99,
@@ -4123,7 +4639,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": 3.8512899999999917,
-    "profit_tough": -7.917710000000007
+    "profit_tough": -7.917710000000007,
+    "max_cost_for_cushion": 43.19462333333333
    },
    "us_cost_up_20pct": {
     "price": 109.99,
@@ -4138,7 +4655,8 @@
     "tough_cpa": 50.998999999999995,
     "cushion_pass": false,
     "profit_benchmark": -2.2331100000000035,
-    "profit_tough": -14.002110000000002
+    "profit_tough": -14.002110000000002,
+    "max_cost_for_cushion": 47.594223333333325
    },
    "china": null,
    "score": 49.0,
@@ -4183,10 +4701,13 @@
    "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Mains-powered heated appliance used on animals; electrical certification UNKNOWN; over 10 lb.",
-   "rank_overall": 28,
+   "shortlist": false,
+   "rank_overall": 30,
    "rank_in_group": 7,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 68.42,
     "stop_ad_with_no_sale_at": 47.48088999999999,
     "checkpoint_half_budget": 175.0,
@@ -4209,6 +4730,460 @@
    }
   },
   {
+   "id": "heated-vest-powerbank-kit",
+   "group": "auto-outdoor",
+   "category": "winter and cold weather / battery heated wearables",
+   "benchmark_used": "outdoor",
+   "product": "USB heated vest (15 to 26 heating zones, 3 heat levels) sold as a kit with a 10,000mAh power bank; heated hoodie as a variant",
+   "what_it_solves": "Staying warm outdoors or in a cold garage, truck or stadium without a bulky coat; one layer that heats the back, chest and neck from a pocket battery.",
+   "sell_price": 79.99,
+   "sell_price_source": "Proposed kit price (vest plus power bank), not a price read on one store. Anchors read 2026-11-21: Ororo women's classic heated vest from $99.99 and men's $129.99 (https://ororowear.com/products/men-heated-vest-black), Venustas fleece vest $119.99, iHood $119.99, Weston $149.95, Gobi Heat $119 to $199 (all VERIFIED on the stores' storefront search JSON); Amazon no-name vests with a battery pack $49.99 to $67.99 and Ororo on Amazon $109.99 to $118.99 (ESTIMATED, DataForSEO). $79.99 sits between the Amazon no-name tier and the lowest branded DTC price.",
+   "proposed_price": true,
+   "amazon_typical_price": 66.49,
+   "amazon_bought_past_month": 27600,
+   "amazon_listings_counted": 78,
+   "us_landed_cost": 34.34,
+   "us_landed_label": "Sum of two US-filter cards: the 15-zone vest at $15.09 (listing 3256813351063190, 3 sold) plus the 10000mAh power bank at $19.25 (listing 3256813406496358, 1 sold), both free shipping, no new-shopper tag. Two sellers, so two parcels and two delivery promises. The one card with a battery in the box reads $61.27 with no sales. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN. China-side cards for USB vests read $8.81 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
+   "us_sources": 6,
+   "weight_lb": null,
+   "demo_score": 3,
+   "whales": [
+    "Ororo"
+   ],
+   "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. The best-selling Amazon vests at $49.99 to $67.99 include the battery pack, so the power bank must be in the order.",
+   "whale_note": "Ororo is a real whale here: 2,290 reviews on one vest and 3,553 on another of its products, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
+   "ip_safety_flags": "Vest and power bank certification UNKNOWN (UL or ETL for the vest wiring, UN38.3 for the bank). The vest runs on 5V USB, a lower-risk design than 7.4V or 12V packs, but burn risk remains. No health claims (back pain, circulation). Do not imitate Ororo's product names or photos. Generic design, no patent concern seen.",
+   "season_note": "Peak now. 'heated vest' about 201,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 74,000 in Oct 2026, 3,600 in Jul 2026; CPC about $1.84, the highest of the heated wearables (ESTIMATED, DataForSEO, read 2026-11-21). Strong Christmas gift for outdoor workers and parents; falls off fast after January.",
+   "risks": "1) Apparel sizing is the likely main refund driver (size range on the US listings not read), and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
+   "us": {
+    "price": 79.99,
+    "landed": 34.34,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 38.230889999999995,
+    "break_even_cac": 38.230889999999995,
+    "break_even_roas": 2.0922871531371623,
+    "target_cac": 28.673167499999998,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -7.069110000000002,
+    "profit_tough": -20.659110000000005,
+    "max_cost_for_cushion": 12.170889999999993
+   },
+   "us_refund_high": {
+    "price": 79.99,
+    "landed": 34.34,
+    "card_fee": 2.61971,
+    "refund_allowance": 7.999,
+    "pre_ad_contribution": 35.03128999999999,
+    "break_even_cac": 35.03128999999999,
+    "break_even_roas": 2.2833872232509855,
+    "target_cac": 26.273467499999995,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -10.268710000000006,
+    "profit_tough": -23.85871000000001,
+    "max_cost_for_cushion": 8.971290000000003
+   },
+   "us_cost_up_20pct": {
+    "price": 79.99,
+    "landed": 41.208000000000006,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 31.362889999999993,
+    "break_even_cac": 31.362889999999993,
+    "break_even_roas": 2.5504664908112744,
+    "target_cac": 23.522167499999995,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -13.937110000000004,
+    "profit_tough": -27.527110000000008,
+    "max_cost_for_cushion": 12.170889999999993
+   },
+   "china": null,
+   "score": 52.7,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 16.3,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 5.9,
+    "demo_10": 6.0,
+    "no_whale_5": 2.5,
+    "light_5": 2.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 50.34,
+     "cash_per_order_before_payout": 93.23,
+     "orders": 4,
+     "sales": 319.96,
+     "ad_spend": 235.56,
+     "supplier_spend": 137.36,
+     "profit_after_everything": -132.97644000000003,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2474.32
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 50.34,
+     "cash_per_order_before_payout": 93.23,
+     "orders": 10,
+     "sales": 799.9,
+     "ad_spend": 588.9,
+     "supplier_spend": 343.40000000000003,
+     "profit_after_everything": -256.9311,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2474.32
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Blocked until battery certification is in hand: heating element worn on the body; two sellers and two parcels.",
+   "shortlist": false,
+   "rank_overall": 31,
+   "rank_in_group": 6,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 50.34,
+    "stop_ad_with_no_sale_at": 38.230889999999995,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 618.0242825607064,
+     "supplier_spend": 265.3200883002208,
+     "cash_out_before_payout": 665.6600883002209,
+     "net_after_setup_and_sample": -104.95784768211925
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 475.40329427746644,
+     "supplier_spend": 204.09237561555446,
+     "cash_out_before_payout": 604.4323756155545,
+     "net_after_setup_and_sample": -173.12295975547633
+    },
+    "worst_case_no_sales": -400.34000000000003,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -225.34
+   }
+  },
+  {
+   "id": "shiatsu-foot-massager-machine",
+   "group": "beauty-fitness",
+   "category": "massage and recovery / feet",
+   "benchmark_used": "outdoor",
+   "product": "Enclosed shiatsu foot massager machine with heat and air compression",
+   "what_it_solves": "Sore, tired feet at the end of the day: kneading rollers, air squeeze and warmth while sitting. Would be sold as comfort, not for neuropathy or plantar fasciitis.",
+   "sell_price": 109.99,
+   "sell_price_source": "https://ergonomiclux.com/products/shiatsu-foot-massager-with-heat - VERIFIED 2026-11-21 ($109.99, shown against $130.99); Renpho Shiatsu Foot Massager Compact is also $109.99. Other prices read today: Nekteck $89.99 and $99.99, Renpho Solheel $114.99, Renpho Premium $149.99. The two Amazon leaders sell at $71.99 and $75.98.",
+   "proposed_price": false,
+   "amazon_typical_price": 81.19,
+   "amazon_bought_past_month": 34300,
+   "amazon_listings_counted": 88,
+   "us_landed_cost": 64.49,
+   "us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). The only enclosed machine card without a new-shopper tag, and it has no sales. It is about the same as the Amazon retail price of the category leaders.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN: no matching China-side card with a readable shipping line.",
+   "us_sources": 3,
+   "weight_lb": 5.3,
+   "demo_score": 3,
+   "whales": [
+    "Renpho (Shiatsu Foot Massager Premium)"
+   ],
+   "bundle_idea": "None that fixes the cost gap. Nekteck bundles the machine with a neck massager at $123.98 and with a soaking tub at $109.98.",
+   "whale_note": "Renpho is the whale (Amazon #1, 4,037 reviews on its own site) and Nekteck is close behind; both sell at $72 to $76 on Amazon.",
+   "ip_safety_flags": "Mains-powered heated appliance, certification marks UNKNOWN. Listings lean on neuropathy and plantar fasciitis claims that we cannot use. Sample-first rule waived for this lane (flagged).",
+   "season_note": "Strongest December gift in the category. Google searches (ESTIMATED): 'foot massager' 301,000 in Dec 2025 against 135,000 in Jan and Feb 2026; 'foot massager machine' 27,100 in Dec against 12,100 in Jan.",
+   "risks": "Kept only so the scripts can show the failure: the one clean US-stock cost ($64.49, no sales) is about what Amazon charges shoppers for the #1 and #2 products. Largest demand in this scan, but two brands hold it. Bulky 5 lb return.",
+   "us": {
+    "price": 109.99,
+    "landed": 64.49,
+    "card_fee": 3.4897099999999996,
+    "refund_allowance": 6.599399999999999,
+    "pre_ad_contribution": 35.410889999999995,
+    "break_even_cac": 35.410889999999995,
+    "break_even_roas": 3.1061066242616326,
+    "target_cac": 26.558167499999996,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -9.889110000000002,
+    "profit_tough": -23.479110000000006,
+    "max_cost_for_cushion": 39.50088999999999
+   },
+   "us_refund_high": {
+    "price": 109.99,
+    "landed": 64.49,
+    "card_fee": 3.4897099999999996,
+    "refund_allowance": 10.999,
+    "pre_ad_contribution": 31.011289999999995,
+    "break_even_cac": 31.011289999999995,
+    "break_even_roas": 3.5467728043560913,
+    "target_cac": 23.258467499999995,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -14.288710000000002,
+    "profit_tough": -27.878710000000005,
+    "max_cost_for_cushion": 35.10129
+   },
+   "us_cost_up_20pct": {
+    "price": 109.99,
+    "landed": 77.38799999999999,
+    "card_fee": 3.4897099999999996,
+    "refund_allowance": 6.599399999999999,
+    "pre_ad_contribution": 22.512890000000006,
+    "break_even_cac": 22.512890000000006,
+    "break_even_roas": 4.88564551241533,
+    "target_cac": 16.884667500000006,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -22.78710999999999,
+    "profit_tough": -36.377109999999995,
+    "max_cost_for_cushion": 39.50088999999999
+   },
+   "china": null,
+   "score": 52.1,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 17.7,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 2.9,
+    "demo_10": 6.0,
+    "no_whale_5": 2.5,
+    "light_5": 3.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 80.49,
+     "cash_per_order_before_payout": 123.38,
+     "orders": 3,
+     "sales": 329.96999999999997,
+     "ad_spend": 176.67000000000002,
+     "supplier_spend": 193.46999999999997,
+     "profit_after_everything": -150.92733,
+     "orders_needed_for_goal": 19,
+     "cash_needed_for_goal": 2424.7099999999996
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 80.49,
+     "cash_per_order_before_payout": 123.38,
+     "orders": 7,
+     "sales": 769.93,
+     "ad_spend": 412.23,
+     "supplier_spend": 451.42999999999995,
+     "profit_after_everything": -244.84377000000006,
+     "orders_needed_for_goal": 19,
+     "cash_needed_for_goal": 2424.7099999999996
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Mains-powered heated appliance, certification UNKNOWN; listings lean on health claims we cannot use.",
+   "shortlist": false,
+   "rank_overall": 32,
+   "rank_in_group": 4,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 80.49,
+    "stop_ad_with_no_sale_at": 35.410889999999995,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 849.8123620309051,
+     "supplier_spend": 498.2671081677704,
+     "cash_out_before_payout": 928.7571081677704,
+     "net_after_setup_and_sample": -156.89592715231794
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 653.70181694685,
+     "supplier_spend": 383.2823908982849,
+     "cash_out_before_payout": 813.7723908982849,
+     "net_after_setup_and_sample": -220.0330208863984
+    },
+    "worst_case_no_sales": -430.49,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -255.49
+   }
+  },
+  {
+   "id": "cordless-heated-hand-massager",
+   "group": "beauty-fitness",
+   "category": "massage and recovery / hands",
+   "benchmark_used": "outdoor",
+   "product": "Cordless hand massager with air compression and heat (insert-hand unit), sold as a gift kit with charger and storage bag",
+   "what_it_solves": "Tired, cold or stiff-feeling hands after typing, crafts or manual work: a warm squeeze-and-release massage with no second person. To be sold as comfort and a gift, not for arthritis or carpal tunnel.",
+   "sell_price": 79.99,
+   "sell_price_source": "https://nekteck.com/products/cordless-hand-and-wrist-massager - VERIFIED 2026-11-21 ($79.99, shown against $99.99). Other DTC prices read today: Lunix LX3 $98.97, Lunix LX7 $119.97, Comfier 4403 $94.99, ErgonomicLux hand massager glove $99.99, Snailax $64.99 to $99.99, FIT KING $65.99 to $74.99. Amazon median for listings at $40 or more is $59.99. $79.99 is the lower-middle of the DTC range, not a tested price.",
+   "proposed_price": false,
+   "amazon_typical_price": 59.99,
+   "amazon_bought_past_month": 14700,
+   "amazon_listings_counted": 59,
+   "us_landed_cost": 31.69,
+   "us_landed_label": "VERIFIED as displayed (AliExpress US search card read 2026-11-21 in a headless browser with the 'Shipping from: United States' filter shown as active; item pages were captcha-blocked, so variant, stock depth and the price after the Black Friday promotion (banner says it ends Dec 4) are not confirmed; a marketplace listing price, not a supplier quote). Lowest insert-hand card with free shipping and no new-shopper tag. Thin: 2 sold and 'only 4 left'; delivery days not shown on the card. The next cards are $35.59 (only 3 left) and $43.79 (fastest delivery 6 days).",
+   "cn_landed_cost": 47.49,
+   "cn_landed_label": "ESTIMATED: AliExpress card as displayed 2026-11-21 (450 sold, free shipping, no promo tag) in a search with ship-from China requested; filter not confirmed, delivery days not shown. On this evidence China-side is not cheaper than US stock.",
+   "us_sources": 5,
+   "weight_lb": 2.7,
+   "demo_score": 3,
+   "whales": [],
+   "bundle_idea": "Gift kit: massager, USB-C wall charger, drawstring bag and a printed gift sleeve, aimed at 'gift for mom or grandma'. A pair price for couples. FIT KING sells leg plus hand massager sets at $145.99 to $153.99, which shows the cross-sell.",
+   "whale_note": "No whale in this sub-type. Comfier and Cincom lead Amazon at $47 to $54; Lunix is the visible DTC brand at about $99. Theragun and Renpho appear in the search but sell massage guns, not this product.",
+   "ip_safety_flags": "Sample-first rule waived for this lane (flagged). Air-compression massagers sold for medical purposes are FDA Class II devices (21 CFR 890.5650, powered inflatable tube massager; FDA's database lists 510(k) as the submission type, per search results read today, ESTIMATED). Nearly every Amazon leader sells it as 'for arthritis and carpal tunnel, FSA HSA eligible'. A no-name unit sold that way falls under our medical exclusion, so this only works with comfort wording and no condition names. Lithium battery plus heat; certification marks UNKNOWN. Patents not searched (UNKNOWN).",
+   "season_note": "Good for December, weak after. Google searches (ESTIMATED): 'hand massager' 60,500 in Dec 2025 against 22,200 in Jan 2026 and 18,100 in Feb 2026; 'hand massager with heat' 1,900 in Dec against 720 in Jan. Gift for older relatives.",
+   "risks": "1) US-stock listings are thin (1 to 11 sold, 'only 3 left' tags), so stock could run out mid-test. 2) Known brands sell it at $47 to $54 on Amazon with up to 10,965 ratings. 3) The DTC prices near $99 belong to brands with their own stock and reviews. 4) Benefit is hard to show in 3 seconds (the hand is hidden inside the unit). 5) Buyers are likely older (ASSUMED from the gift positioning), which can mean more support contacts. 6) Condition claims are off limits, which removes the main hook competitors use. 7) Ad evidence UNKNOWN.",
+   "us": {
+    "price": 79.99,
+    "landed": 31.69,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 40.88089,
+    "break_even_cac": 40.88089,
+    "break_even_roas": 1.9566599455148848,
+    "target_cac": 30.660667500000002,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -4.419109999999996,
+    "profit_tough": -18.00911,
+    "max_cost_for_cushion": 12.170889999999993
+   },
+   "us_refund_high": {
+    "price": 79.99,
+    "landed": 31.69,
+    "card_fee": 2.61971,
+    "refund_allowance": 7.999,
+    "pre_ad_contribution": 37.68129,
+    "break_even_cac": 37.68129,
+    "break_even_roas": 2.122804182128584,
+    "target_cac": 28.2609675,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -7.61871,
+    "profit_tough": -21.208710000000004,
+    "max_cost_for_cushion": 8.971290000000003
+   },
+   "us_cost_up_20pct": {
+    "price": 79.99,
+    "landed": 38.028,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 34.54289,
+    "break_even_cac": 34.54289,
+    "break_even_roas": 2.315671908169814,
+    "target_cac": 25.9071675,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -10.757109999999997,
+    "profit_tough": -24.34711,
+    "max_cost_for_cushion": 12.170889999999993
+   },
+   "china": {
+    "price": 79.99,
+    "landed": 47.49,
+    "card_fee": 2.61971,
+    "refund_allowance": 7.999,
+    "pre_ad_contribution": 21.881289999999993,
+    "break_even_cac": 21.881289999999993,
+    "break_even_roas": 3.6556345626788924,
+    "target_cac": 16.410967499999995,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -23.418710000000004,
+    "profit_tough": -37.00871000000001,
+    "max_cost_for_cushion": 8.971290000000003
+   },
+   "score": 51.7,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 12.4,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 3.3,
+    "demo_10": 6.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 47.69,
+     "cash_per_order_before_payout": 90.58,
+     "orders": 4,
+     "sales": 319.96,
+     "ad_spend": 235.56,
+     "supplier_spend": 126.76,
+     "profit_after_everything": -119.72644,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2402.77
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 47.69,
+     "cash_per_order_before_payout": 90.58,
+     "orders": 10,
+     "sales": 799.9,
+     "ad_spend": 588.9,
+     "supplier_spend": 316.90000000000003,
+     "profit_after_everything": -227.78109999999998,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2402.77
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Medical rule: air-compression massagers sold for pain or circulation are FDA Class II devices; lithium battery and heat.",
+   "shortlist": false,
+   "rank_overall": 33,
+   "rank_in_group": 5,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 47.69,
+    "stop_ad_with_no_sale_at": 40.88089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 618.0242825607064,
+     "supplier_spend": 244.84547461368655,
+     "cash_out_before_payout": 642.5354746136866,
+     "net_after_setup_and_sample": -81.83323399558498
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 475.40329427746644,
+     "supplier_spend": 188.34267277975889,
+     "cash_out_before_payout": 586.0326727797589,
+     "net_after_setup_and_sample": -154.72325691968075
+    },
+    "worst_case_no_sales": -397.69,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -222.69
+   }
+  },
+  {
    "id": "towel-warmer-bucket",
    "group": "home",
    "category": "bathroom comfort",
@@ -4217,6 +5192,7 @@
    "what_it_solves": "Stepping out of the shower into a cold bathroom in winter; warms two large towels or a robe in about 10 minutes. A classic Christmas gift.",
    "sell_price": 109.99,
    "sell_price_source": "Proposed price. Anchors: Keenray $89.99 to $129.99 (VERIFIED, https://keenray.com/products.json 2026-11-21); Zadro large bucket $118.99, compare-at $169.99, medium $111.99 (VERIFIED, https://zadroinc.com/products.json 2026-11-21); Amazon median of selling listings $78.09 (VERIFIED via DataForSEO)",
+   "proposed_price": true,
    "amazon_typical_price": 78.09,
    "amazon_bought_past_month": 33350,
    "amazon_listings_counted": 72,
@@ -4246,7 +5222,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -0.6091100000000012,
-    "profit_tough": -15.192110000000007
+    "profit_tough": -15.192110000000007,
+    "max_cost_for_cushion": 35.08755666666666
    },
    "us_refund_high": {
     "price": 109.99,
@@ -4261,7 +5238,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -5.008710000000008,
-    "profit_tough": -19.591710000000013
+    "profit_tough": -19.591710000000013,
+    "max_cost_for_cushion": 30.687956666666665
    },
    "us_cost_up_20pct": {
     "price": 109.99,
@@ -4276,7 +5254,8 @@
     "tough_cpa": 63.193000000000005,
     "cushion_pass": false,
     "profit_benchmark": -10.989109999999997,
-    "profit_tough": -25.572110000000002
+    "profit_tough": -25.572110000000002,
+    "max_cost_for_cushion": 35.08755666666666
    },
    "china": null,
    "score": 51.3,
@@ -4321,10 +5300,13 @@
    "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Mains-powered heating appliance; electrical certification UNKNOWN; over 9 lb.",
-   "rank_overall": 29,
+   "shortlist": false,
+   "rank_overall": 34,
    "rank_in_group": 9,
    "test_plan": {
     "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
     "setup_and_sample": 67.9,
     "stop_ad_with_no_sale_at": 48.00089,
     "checkpoint_half_budget": 175.0,
@@ -4347,6 +5329,168 @@
    }
   },
   {
+   "id": "heated-socks-app",
+   "group": "auto-outdoor",
+   "category": "winter and cold weather / battery heated wearables",
+   "benchmark_used": "outdoor",
+   "product": "Rechargeable heated socks with app control (two battery packs, 3 heat levels)",
+   "what_it_solves": "Cold toes in boots during hunting, ice fishing, skiing, outdoor work and winter sports sidelines; thick socks alone do not add heat.",
+   "sell_price": 62.99,
+   "sell_price_source": "https://saviorheat.com/products/with-app-control-heated-socks-grey-black - VERIFIED 2026-11-21 (Savior Heat LYSS01G App-Controlled Heated Socks: storefront search JSON says from $62.99 against $109.99; the default option on the product page showed $76.99). Other DTC prices read today: Fieldsheer Wool Blend $67.49 and Merino 2.0 $74.99, Weston Rechargeable Heated Socks $79.95, Venustas S11 $79.99, Ororo Mojave Point $89.99. Amazon median at $40 or more is $56.99.",
+   "proposed_price": false,
+   "amazon_typical_price": 56.99,
+   "amazon_bought_past_month": 11450,
+   "amazon_listings_counted": 34,
+   "us_landed_cost": 24.59,
+   "us_landed_label": "Lowest US-filter card price for app-control heated socks with batteries named in the title, free shipping, no new-shopper tag (listing 3256813370712752, 5 sold); the same product reads $24.69 with 17 sold. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+   "cn_landed_cost": 37.89,
+   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 20 sold, no new-shopper tag). Ship-from not confirmed on the page, delivery days not shown. Dearer than US stock.",
+   "us_sources": 5,
+   "weight_lb": 1.1,
+   "demo_score": 2,
+   "whales": [
+    "Ororo"
+   ],
+   "bundle_idea": "Two pairs, or socks plus the heated gloves as a 'hands and feet' set (Venustas sells that pairing at $167.98). As a single product it sits at the bottom of the price band, so it is better as the second product of a heated-gloves store than as the hero.",
+   "whale_note": "No single owner on Amazon (34 listings at $40 or more, unbranded app-control pairs lead; Snow Deer about 1,200 units). Ororo and Fieldsheer are larger brands with higher prices.",
+   "ip_safety_flags": "Lithium packs worn against the leg: certification UNKNOWN, burn and sweat exposure risk. The companion app is a third-party app we do not control. No health or circulation claims. Generic construction, no patent concern seen.",
+   "season_note": "Strong December to February. 'heated socks' about 135,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 40,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.02 (ESTIMATED, DataForSEO, read 2026-11-21).",
+   "risks": "1) Price ceiling: 62,700+ units a month sell under $40 on Amazon and the DTC low end is $62.99, so the price that fits the brief is hard to hold. 2) Hard to show in an image (demo score 2). 3) Sock sizing and washing complaints; battery pocket comfort. 4) US listings have 5 to 17 sales. 5) Weight is ESTIMATED from the Snow Deer Amazon listing (0.5 kg). 6) Promotion pricing on the cards.",
+   "us": {
+    "price": 62.99,
+    "landed": 24.59,
+    "card_fee": 2.12671,
+    "refund_allowance": 3.7794,
+    "pre_ad_contribution": 32.49389,
+    "break_even_cac": 32.49389,
+    "break_even_roas": 1.9385182875919136,
+    "target_cac": 24.370417500000002,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -12.806109999999997,
+    "profit_tough": -26.39611,
+    "max_cost_for_cushion": -3.316110000000002
+   },
+   "us_refund_high": {
+    "price": 62.99,
+    "landed": 24.59,
+    "card_fee": 2.12671,
+    "refund_allowance": 6.299,
+    "pre_ad_contribution": 29.974290000000003,
+    "break_even_cac": 29.974290000000003,
+    "break_even_roas": 2.101467624420795,
+    "target_cac": 22.480717500000004,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -15.325709999999994,
+    "profit_tough": -28.915709999999997,
+    "max_cost_for_cushion": -5.835709999999999
+   },
+   "us_cost_up_20pct": {
+    "price": 62.99,
+    "landed": 29.508,
+    "card_fee": 2.12671,
+    "refund_allowance": 3.7794,
+    "pre_ad_contribution": 27.57589,
+    "break_even_cac": 27.57589,
+    "break_even_roas": 2.2842417778719017,
+    "target_cac": 20.6819175,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -17.724109999999996,
+    "profit_tough": -31.31411,
+    "max_cost_for_cushion": -3.316110000000002
+   },
+   "china": {
+    "price": 62.99,
+    "landed": 37.89,
+    "card_fee": 2.12671,
+    "refund_allowance": 6.299,
+    "pre_ad_contribution": 16.674290000000003,
+    "break_even_cac": 16.674290000000003,
+    "break_even_roas": 3.77767209278476,
+    "target_cac": 12.505717500000003,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
+    "cushion_pass": false,
+    "profit_benchmark": -28.625709999999994,
+    "profit_tough": -42.21571,
+    "max_cost_for_cushion": -5.835709999999999
+   },
+   "score": 50.2,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 10.8,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 7.9,
+    "demo_10": 4.0,
+    "no_whale_5": 2.5,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 40.59,
+     "cash_per_order_before_payout": 83.48,
+     "orders": 5,
+     "sales": 314.95,
+     "ad_spend": 294.45,
+     "supplier_spend": 122.95,
+     "profit_after_everything": -172.57055,
+     "orders_needed_for_goal": 32,
+     "cash_needed_for_goal": 2711.9500000000003
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 40.59,
+     "cash_per_order_before_payout": 83.48,
+     "orders": 11,
+     "sales": 692.89,
+     "ad_spend": 647.79,
+     "supplier_spend": 270.49,
+     "profit_after_everything": -330.94721000000004,
+     "orders_needed_for_goal": 32,
+     "cash_needed_for_goal": 2711.9500000000003
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "blocked",
+   "rule_note": "Blocked until battery certification is in hand: lithium packs worn against the leg.",
+   "shortlist": false,
+   "rank_overall": 35,
+   "rank_in_group": 7,
+   "test_plan": {
+    "ad_budget": 350,
+    "ad_budget_per_day": 50.0,
+    "ad_budget_was_cut_to_fit_cash": false,
+    "setup_and_sample": 40.59,
+    "stop_ad_with_no_sale_at": 32.49389,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 7.72626931567329,
+     "sales": 486.6777041942605,
+     "supplier_spend": 189.9889624724062,
+     "cash_out_before_payout": 580.5789624724063,
+     "net_after_setup_and_sample": -139.53345474613684
+    },
+    "tough": {
+     "orders": 5.943284088979453,
+     "sales": 374.3674647648158,
+     "supplier_spend": 146.14535574800476,
+     "cash_out_before_payout": 536.7353557480048,
+     "net_after_setup_and_sample": -197.46958057395142
+    },
+    "worst_case_no_sales": -390.59,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -215.59
+   }
+  },
+  {
    "id": "cordless-heated-blanket",
    "group": "auto-outdoor",
    "category": "winter and cold weather / outdoor and stadium",
@@ -4355,6 +5499,7 @@
    "what_it_solves": "Staying warm where there is no outlet: bleachers, tailgates, the car, camping, a deer blind, or the couch during a power cut.",
    "sell_price": 119.99,
    "sell_price_source": "https://thewarmingstore.com/products/actionheat-7v-battery-heated-throw-blanket - VERIFIED 2026-11-21 (ActionHeat 7V Battery Heated Throw Blanket, $119.99, on The Warming Store, a retailer of that brand). Other prices read today: Ororo battery blankets $159.99 to $199.99, Gobi Heat Zen $249.00 (on sale at $186.75), Gobi Heat Cove $229.00, Venustas heated blanket hoodie $79.99 to $149.99. Amazon no-name cordless blankets with a power bank sell at $52.16 to $85.99 (median $63.99), which is the realistic ceiling for an unbranded unit.",
+   "proposed_price": false,
    "amazon_typical_price": 63.99,
    "amazon_bought_past_month": 26900,
    "amazon_listings_counted": 82,
@@ -4394,7 +5539,8 @@
    "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Battery-heated textile; certification UNKNOWN; no US stock found.",
-   "rank_overall": 30,
+   "shortlist": false,
+   "rank_overall": 36,
    "rank_in_group": 8,
    "test_plan": null
   }
