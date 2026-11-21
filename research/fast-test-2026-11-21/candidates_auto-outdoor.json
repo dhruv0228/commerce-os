@@ -132,10 +132,108 @@
   "weight_lb": null,
   "demo_score_1to5": 3,
   "bundle_idea": "Gloves plus a two-pack of rechargeable hand warmers (US cards $9.33 to $15.95, from a different seller, so a second parcel) or a spare battery pair. A 'two pairs' offer for couples is the simpler way to lift order value from one supplier. Heated socks from the same store are the natural second product.",
-  "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets about as many searches as 'heated vest'); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
+  "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets nearly as many searches as 'heated vest': 165,000 against 201,000 in Dec 2025); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
   "ip_safety_flags": "Lithium battery packs: UL, ETL or UN38.3 paperwork for the unit is UNKNOWN and must be asked for; heating element burn risk if a pack or wire fails. No health claims: competitors lean on Raynaud's, arthritis and circulation wording, which is out of scope here. Do not use Savior Heat, Ororo, Snow Deer or '3M Thinsulate' names unless the unit truly carries them. No patented design seen, generic construction.",
-  "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). Demand falls away by March, so this is a 10 to 12 week product.",
-  "risks": "1) Sizing (S to XL) and fit returns. 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85 with Prime delivery, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Meta CPMs peak in the launch week.",
+  "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). It drops to 33,100 in Feb 2026 and 8,100 in Mar 2026, so this is a 10 to 12 week product.",
+  "risks": "1) Sizing and fit returns (the size range on the US listings was not readable). 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Ad prices peak in the launch week (see 03_fulfillment_and_money.md).",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "cordless-tire-inflator",
+  "category": "car and truck accessories / tire care",
+  "product": "Cordless digital tire inflator (rechargeable, 150 PSI, auto shut-off, LED display and light)",
+  "what_it_solves": "The low-tire warning light that comes on with the first cold snap; topping up at home in two minutes instead of hunting for a gas-station air machine in the cold.",
+  "sell_price": 59.99,
+  "sell_price_source": "https://fanttik.com/products/x8-apex-tire-inflator - VERIFIED 2026-11-21 (Fanttik X8 APEX, $59.99 against a $99.99 compare-at price; X9 APEX $65.99, X10 Pro Max $89.99). Airmoto sells at $59.49 on Amazon (ESTIMATED, DataForSEO); airmoto.com showed no price today. This is at the bottom edge of the $60 to $150 band.",
+  "amazon": {
+   "typical_price": 59.49,
+   "bought_past_month_top_listings": 77850,
+   "listings_counted": 58,
+   "top_listing_url": "https://www.amazon.com/dp/B094DMH7ZM",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'tire inflator portable air compressor', 'digital tire inflator cordless', 'portable tire inflator'; titles containing inflator, air compressor or air pump, excluding jump-starter combos. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 179,700 units over 61 listings; $40 to $59.99: 39,850 over 32; $60 to $99.99: 19,100 over 18; $100 and up: 18,900 over 8. Leaving out tool-battery brands (DeWalt, Milwaukee, Ryobi, Craftsman and similar) the $40-plus tier is 58,650 units over 48 listings. First-word shares at $40 or more: Airmoto 11,000, DeWalt 11,000, AstroAI 8,200, Fanttik 8,100, OlarHike 8,000, Milwaukee 5,800, Etenwolf 4,800, Avid Power 3,400, NOCO 3,200. typical_price is the Airmoto listing price, the most-bought listing.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Airmoto",
+    "url": "https://airmoto.com/",
+    "price": 59.49,
+    "traction_evidence": "Its own site claims 'Over 1.5 Million Units Sold' and shows review counts of 25,545+, 52,427+ and 54,234+ in different sections (vendor claims, read 2026-11-21; the figures conflict). Says it ships from Dallas, Texas in 3 to 5 days. Amazon listing: 10,000+ bought in past month, about 29,600 ratings, #32 in Automotive. Brand search about 74,000 in Dec 2025 (ESTIMATED). Price shown is the Amazon price; the site showed none.",
+    "is_whale": true
+   },
+   {
+    "store": "Fanttik",
+    "url": "https://fanttik.com/products/x8-apex-tire-inflator",
+    "price": 59.99,
+    "traction_evidence": "1,315 on-site reviews, 4.8 stars (VERIFIED 2026-11-21). Brand search about 60,500 a month, 90,500 in Dec 2025 (ESTIMATED). A Kalodata-based newsletter listed it among the top 10 TikTok Shop sellers in Dec 2024 (ESTIMATED, read in a search summary of chinesellers.substack.com).",
+    "is_whale": true
+   },
+   {
+    "store": "NOCO",
+    "url": "https://www.amazon.com/dp/B0FHK5K3Y1",
+    "price": 69.95,
+    "traction_evidence": "NOCO Air AL5 on Amazon at $69.95 shows 3,000+ bought in past month (ESTIMATED, DataForSEO). Store price not read.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'tire inflator' on two attempts on 2026-11-21 (throttled after the first few searches). Indirect evidence only: Airmoto's site is a single-product landing page that claims 1.5 million units sold. Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: portable cordless tire inflator, 150 PSI, auto shut-off, LED display",
+    "url": "https://www.aliexpress.us/item/3256813094620129.html",
+    "unit_cost": 15.02,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 16 sold, 'Save $25.76', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: portable car tire inflator, digital display, rechargeable, LED light",
+    "url": "https://www.aliexpress.us/item/3256812284377327.html",
+    "unit_cost": 15.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 5 sold, 4.0 stars, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Neverland cordless tire inflator, 150 PSI, auto shutoff",
+    "url": "https://www.aliexpress.us/item/3256812869684443.html",
+    "unit_cost": 22.36,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 3 sold."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 160 PSI inflator with 7800mAh battery, power bank function",
+    "url": "https://www.aliexpress.us/item/3256813128095986.html",
+    "unit_cost": 49.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold. The larger-battery class that matches the $60 to $76 Amazon listings."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: wireless car air pump 150 PSI",
+    "url": "https://www.aliexpress.us/item/3256810569632765.html",
+    "unit_cost": 10.68,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): 1K+ sold, free shipping, but a new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed on the page."
+   }
+  ],
+  "best_us_landed_cost": 15.02,
+  "best_us_landed_label": "Lowest US-filter card price with sales for a cordless 150 PSI digital inflator, free shipping, no new-shopper tag (listing 3256813094620129, 16 sold). Battery size is not in the title; the larger-battery unit comparable to Airmoto's and Fanttik's reads $49.09. A card at $8.25 with no sales was ignored. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards read $10.68 to $13.41 with 772 to 1K+ sold, all with new-shopper tags; ship-from and delivery days not shown.",
+  "weight_lb": 1.2,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Two-pack ('one for each car') or inflator plus a hard case, valve adapters and a digital gauge, to lift the order above $60. A single unit at the Airmoto price is the weakest version of this offer.",
+  "whale_note": "Two whales with large budgets. Airmoto is a DTC single-product brand built on paid ads (1.5 million units claimed, 10,000+ a month on Amazon at $59.49); Fanttik is a large Amazon and TikTok Shop brand (8,100+ units a month here, 1,315 reviews on its own site). Most of the top Amazon listings at $40 or more are named brands (Airmoto, OlarHike, AstroAI, Etenwolf, Fanttik, NOCO, Avid Power, Bullseye Pro); only two no-name listings appear in the top 13. A no-name inflator competes on the same promise at the same price.",
+  "ip_safety_flags": "Lithium battery with a motor and compressor: certification UNKNOWN. Pressure, speed and 'fills a car tire' claims must match the unit we actually ship. Do not use the Airmoto or Fanttik names, their product shapes or their images. No patent check was done on the handheld form; Airmoto's page should be checked for patent markings before any look-alike is sold.",
+  "season_note": "Good in winter. 'portable tire inflator' about 90,500 US Google searches in Dec 2025, 74,000 in Nov 2025, 49,500 in Jan 2026, 27,100 in Jul 2026; 'portable air compressor' 165,000 in Dec 2025; 'airmoto' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A common gift for drivers.",
+  "risks": "1) Brand-heavy market with two whales; the Nov 15 repo scan (research/platform-winners-2026-11-15/winners_scored.csv) already flagged it as a lithium-heavy gadget. 2) 179,700+ units a month sell under $40 on Amazon, so a $59.99 price needs a reason. 3) The cheap US listings do not state battery size; a weak unit that cannot fill a car tire becomes a refund. 4) US listings have 3 to 16 sales. 5) Weight is ESTIMATED from the Airmoto Amazon listing. 6) The earlier repo scan (data/opportunities.csv) scored this type negative at a $30 price and positive at a $99.99 price point; this file adds US-stock costs that scan did not have, and the scripts should rerun both.",
   "checked": "2026-11-21"
  },
  {
@@ -264,7 +362,7 @@
    "bought_past_month_top_listings": 27600,
    "listings_counted": 78,
    "top_listing_url": "https://www.amazon.com/dp/B0H4B6ZCLR",
-   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'heated vest', 'heated jacket', 'heated hoodie'; titles containing vest. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 1,750 units over 8 listings; $40 to $59.99: 10,150 units over 29 listings; $60 to $99.99: 14,150 units over 39 listings; $100 and up: 3,300 units over 10 listings. Heated jackets and hoodies add 18,700 units over 102 listings at $40 or more (median $81.69). Ororo vest listings at $109.99 and $118.99 show 1,000+ each with about 11,000 ratings; new no-name listings dated Sep and Oct 2026 show 1,000+ each at $49.99 to $67.99.)"
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'heated vest', 'heated jacket', 'heated hoodie'; titles containing vest. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 1,750 units over 8 listings; $40 to $59.99: 10,150 units over 29 listings; $60 to $99.99: 14,150 units over 39 listings; $100 and up: 3,300 units over 10 listings. Heated jackets and hoodies add 18,700 units over 102 listings at $40 or more (median $81.69). Ororo vest listings at $109.99 and $118.99 show 1,000+ each with about 11,000 ratings; no-name listings show 1,000+ each at $49.99 to $67.99, and the two checked were first listed on Sep 16 and Oct 18, 2026.)"
   },
   "dtc_competitors": [
    {
@@ -372,112 +470,14 @@
   "best_us_landed_cost": 34.34,
   "best_us_landed_label": "Sum of two US-filter cards: the 15-zone vest at $15.09 (listing 3256813351063190, 3 sold) plus the 10000mAh power bank at $19.25 (listing 3256813406496358, 1 sold), both free shipping, no new-shopper tag. Two sellers, so two parcels and two delivery promises. The one card with a battery in the box reads $61.27 with no sales. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
   "best_cn_landed_cost": null,
-  "best_cn_landed_label": "UNKNOWN. China-side cards for USB vests read $12.04 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
+  "best_cn_landed_label": "UNKNOWN. China-side cards for USB vests read $8.81 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
   "weight_lb": null,
   "demo_score_1to5": 3,
-  "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. Amazon shoppers already punish 'battery not included' vests, so the power bank must be in the order.",
+  "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. The best-selling Amazon vests at $49.99 to $67.99 include the battery pack, so the power bank must be in the order.",
   "whale_note": "Ororo is a real whale here: 2,290 reviews on one vest and 3,553 on another of its products, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
   "ip_safety_flags": "Vest and power bank certification UNKNOWN (UL or ETL for the vest wiring, UN38.3 for the bank). The vest runs on 5V USB, a lower-risk design than 7.4V or 12V packs, but burn risk remains. No health claims (back pain, circulation). Do not imitate Ororo's product names or photos. Generic design, no patent concern seen.",
   "season_note": "Peak now. 'heated vest' about 201,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 74,000 in Oct 2026, 3,600 in Jul 2026; CPC about $1.84, the highest of the heated wearables (ESTIMATED, DataForSEO, read 2026-11-21). Strong Christmas gift for outdoor workers and parents; falls off fast after January.",
-  "risks": "1) Apparel sizing (S to 3XL) is the main refund driver, and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
-  "checked": "2026-11-21"
- },
- {
-  "id": "cordless-tire-inflator",
-  "category": "car and truck accessories / tire care",
-  "product": "Cordless digital tire inflator (rechargeable, 150 PSI, auto shut-off, LED display and light)",
-  "what_it_solves": "The low-tire warning light that comes on with the first cold snap; topping up at home in two minutes instead of hunting for a gas-station air machine in the cold.",
-  "sell_price": 59.99,
-  "sell_price_source": "https://fanttik.com/products/x8-apex-tire-inflator - VERIFIED 2026-11-21 (Fanttik X8 APEX, $59.99 against a $99.99 compare-at price; X9 APEX $65.99, X10 Pro Max $89.99). Airmoto sells at $59.49 on Amazon (ESTIMATED, DataForSEO); airmoto.com showed no price today. This is at the bottom edge of the $60 to $150 band.",
-  "amazon": {
-   "typical_price": 59.49,
-   "bought_past_month_top_listings": 77850,
-   "listings_counted": 58,
-   "top_listing_url": "https://www.amazon.com/dp/B094DMH7ZM",
-   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'tire inflator portable air compressor', 'digital tire inflator cordless', 'portable tire inflator'; titles containing inflator, air compressor or air pump, excluding jump-starter combos. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 179,700 units over 61 listings; $40 to $59.99: 39,850 over 32; $60 to $99.99: 19,100 over 18; $100 and up: 18,900 over 8. Leaving out tool-battery brands (DeWalt, Milwaukee, Ryobi, Craftsman and similar) the $40-plus tier is 58,650 units over 48 listings. First-word shares at $40 or more: Airmoto 11,000, DeWalt 11,000, AstroAI 8,200, Fanttik 8,100, OlarHike 8,000, Milwaukee 5,800, Etenwolf 4,800, Avid Power 3,400, NOCO 3,200. typical_price is the Airmoto listing price, the most-bought listing.)"
-  },
-  "dtc_competitors": [
-   {
-    "store": "Airmoto",
-    "url": "https://airmoto.com/",
-    "price": 59.49,
-    "traction_evidence": "Its own site claims 'Over 1.5 Million Units Sold' and shows review counts of 25,545+, 52,427+ and 54,234+ in different sections (vendor claims, read 2026-11-21; the figures conflict). Says it ships from Dallas, Texas in 3 to 5 days. Amazon listing: 10,000+ bought in past month, about 29,600 ratings, #32 in Automotive. Brand search about 74,000 in Dec 2025 (ESTIMATED). Price shown is the Amazon price; the site showed none.",
-    "is_whale": true
-   },
-   {
-    "store": "Fanttik",
-    "url": "https://fanttik.com/products/x8-apex-tire-inflator",
-    "price": 59.99,
-    "traction_evidence": "1,315 on-site reviews, 4.8 stars (VERIFIED 2026-11-21). Brand search about 60,500 a month, 90,500 in Dec 2025 (ESTIMATED). A Kalodata-based newsletter listed it among the top 10 TikTok Shop sellers in Dec 2024 (ESTIMATED, read in a search summary of chinesellers.substack.com).",
-    "is_whale": true
-   },
-   {
-    "store": "NOCO",
-    "url": "https://www.amazon.com/dp/B0FHK5K3Y1",
-    "price": 69.95,
-    "traction_evidence": "NOCO Air AL5 on Amazon at $69.95 shows 3,000+ bought in past month (ESTIMATED, DataForSEO). Store price not read.",
-    "is_whale": true
-   }
-  ],
-  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'tire inflator' on two attempts on 2026-11-21 (throttled after the first few searches). Indirect evidence only: Airmoto's site is a classic paid-traffic single-product page and claims 1.5 million units. Foreplay: blocked (402, no credits).",
-  "supply": [
-   {
-    "source": "AliExpress listing shipping from US: portable cordless tire inflator, 150 PSI, auto shut-off, LED display",
-    "url": "https://www.aliexpress.us/item/3256813094620129.html",
-    "unit_cost": 15.02,
-    "shipping_cost_to_us_customer": 0.0,
-    "ships_from": "US",
-    "delivery_days": "fastest 6 (as shown)",
-    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 16 sold, 'Save $25.76', no new-shopper tag."
-   },
-   {
-    "source": "AliExpress listing shipping from US: portable car tire inflator, digital display, rechargeable, LED light",
-    "url": "https://www.aliexpress.us/item/3256812284377327.html",
-    "unit_cost": 15.49,
-    "shipping_cost_to_us_customer": 0.0,
-    "ships_from": "US",
-    "delivery_days": "fastest 6 (as shown)",
-    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 5 sold, 4.0 stars, no new-shopper tag."
-   },
-   {
-    "source": "AliExpress listing shipping from US: Neverland cordless tire inflator, 150 PSI, auto shutoff",
-    "url": "https://www.aliexpress.us/item/3256812869684443.html",
-    "unit_cost": 22.36,
-    "shipping_cost_to_us_customer": 0.0,
-    "ships_from": "US",
-    "delivery_days": "not shown",
-    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 3 sold."
-   },
-   {
-    "source": "AliExpress listing shipping from US: 160 PSI inflator with 7800mAh battery, power bank function",
-    "url": "https://www.aliexpress.us/item/3256813128095986.html",
-    "unit_cost": 49.09,
-    "shipping_cost_to_us_customer": 0.0,
-    "ships_from": "US",
-    "delivery_days": "fastest 6 (as shown)",
-    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold. The larger-battery class that matches the $60 to $76 Amazon listings."
-   },
-   {
-    "source": "AliExpress search with shipFromCountry=CN: wireless car air pump 150 PSI",
-    "url": "https://www.aliexpress.us/item/3256810569632765.html",
-    "unit_cost": 10.68,
-    "shipping_cost_to_us_customer": 0.0,
-    "ships_from": "CN",
-    "delivery_days": "not shown",
-    "label": "VERIFIED as displayed (search card, 2026-11-21): 1K+ sold, free shipping, but a new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed on the page."
-   }
-  ],
-  "best_us_landed_cost": 15.02,
-  "best_us_landed_label": "Lowest US-filter card price with sales for a cordless 150 PSI digital inflator, free shipping, no new-shopper tag (listing 3256813094620129, 16 sold). Battery size is not in the title; the larger-battery unit comparable to Airmoto's and Fanttik's reads $49.09. A card at $8.25 with no sales was ignored. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
-  "best_cn_landed_cost": null,
-  "best_cn_landed_label": "UNKNOWN. China-side cards read $10.68 to $13.41 with 772 to 1K+ sold, all with new-shopper tags; ship-from and delivery days not shown.",
-  "weight_lb": 1.2,
-  "demo_score_1to5": 4,
-  "bundle_idea": "Two-pack ('one for each car') or inflator plus a hard case, valve adapters and a digital gauge, to lift the order above $60. A single unit at the Airmoto price is the weakest version of this offer.",
-  "whale_note": "Two whales with large budgets. Airmoto is a DTC single-product brand built on paid ads (1.5 million units claimed, 10,000+ a month on Amazon at $59.49); Fanttik leads on Amazon and TikTok Shop. Most of the top Amazon listings at $40 or more are named brands (Airmoto, OlarHike, AstroAI, Etenwolf, Fanttik, NOCO, Avid Power, Bullseye Pro); only two no-name listings appear in the top 13. A no-name inflator competes on the same promise at the same price.",
-  "ip_safety_flags": "Lithium battery with a motor and compressor: certification UNKNOWN; overheating on long fills is the usual complaint class. Pressure accuracy claims must match the unit. Do not use the Airmoto or Fanttik names, their product shapes or their images. No patent check was done on the handheld form; Airmoto's page should be checked for patent markings before any look-alike is sold.",
-  "season_note": "Good in winter. 'portable tire inflator' about 90,500 US Google searches in Dec 2025, 74,000 in Nov 2025, 49,500 in Jan 2026, 27,100 in Jul 2026; 'portable air compressor' 165,000 in Dec 2025; 'airmoto' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A common gift for drivers.",
-  "risks": "1) Brand-heavy market with two whales; the Nov 15 repo scan (research/platform-winners-2026-11-15/winners_scored.csv) already flagged it as a lithium-heavy gadget. 2) 179,700+ units a month sell under $40 on Amazon, so a $59.99 price needs a reason. 3) The cheap US listings do not state battery size; a weak unit that cannot fill a car tire becomes a refund. 4) US listings have 3 to 16 sales. 5) Weight is ESTIMATED from the Airmoto Amazon listing. 6) The earlier repo scan (data/opportunities.csv) scored this type negative at a $30 price and positive at a $99.99 price point; this file adds US-stock costs that scan did not have, and the scripts should rerun both.",
+  "risks": "1) Apparel sizing is the likely main refund driver (size range on the US listings not read), and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
   "checked": "2026-11-21"
  },
  {
@@ -568,14 +568,14 @@
   "best_us_landed_cost": 33.49,
   "best_us_landed_label": "Lowest US-filter card price for a combo unit, free shipping, no new-shopper tag (listing 3256813468747905). Very thin: 1 sold and 'only 4 left'. The listing with volume (10,000+ sold) shows only a new-shopper price of $24.52 against a crossed-out $96.52, so its real cost is UNKNOWN. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
   "best_cn_landed_cost": 41.39,
-  "best_cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 9 sold, no new-shopper tag). Ship-from not confirmed, delivery days not shown. Lithium packs of this size are also the hardest parcels to ship by air.",
+  "best_cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 9 sold, no new-shopper tag). Ship-from not confirmed, delivery days not shown. Large lithium packs also face air-shipping restrictions (not checked for this unit).",
   "weight_lb": 2.6,
   "demo_score_1to5": 4,
   "bundle_idea": "Unit plus hard case and a winter card ('charge it every 3 months'); the product already is a 4-in-1 kit. No add-on is needed to reach the price band.",
   "whale_note": "NOCO owns plain jump starters (40,700 of 138,050 units at $40 or more). Combos are less concentrated (74 listings; GOOLOO 14,700 of 82,050) but every visible Meta advertiser is an established brand or retailer.",
   "ip_safety_flags": "SAFETY FLAG, likely fails the fast-lane screen as it stands. A high-current lithium pack clamped to a car battery is a fire and injury risk if protection circuits are poor; peak-amp numbers on no-name units (4000A to 16000A) are not verifiable and are an advertising-claims risk. UL 2743 or equivalent listing for any unit we could source is UNKNOWN. Product liability insurance would be needed before one sale. Keep it out unless a certified unit with paperwork is found.",
   "season_note": "Peak season. 'portable jump starter' about 201,000 US Google searches in Dec 2025 and Jan 2026 against 60,500 in Jul 2026; 'jump starter' 110,000 in Dec 2025; 'jump starter with air compressor' 14,800 in Dec 2025; CPC $1.09 to $1.35 (ESTIMATED, DataForSEO, read 2026-11-21).",
-  "risks": "1) Safety and liability (see flags); this is the reason it is not in the top three despite the largest demand in the scan. 2) Amazon sets the price at $66 to $80 with Prime delivery and thousands of ratings. 3) Unit quality cannot be judged from a card; a jump starter that fails once is a refund and a chargeback. 4) The only clean US listing has 1 sale. 5) TikTok Shop sells jump starters near $34. 6) Weight ESTIMATED from an Amazon combo listing (1,200 g).",
+  "risks": "1) Safety and liability (see flags); this is the reason it is not in the top three despite the largest demand in the scan. 2) Amazon sets the price at $66 to $80 on listings with 1,300 to 5,500 ratings. 3) Unit quality cannot be judged from a card; a jump starter that fails once is a refund and a chargeback. 4) The only clean US listing has 1 sale. 5) TikTok Shop sells jump starters near $34. 6) Weight ESTIMATED from an Amazon combo listing (1,200 g).",
   "checked": "2026-11-21"
  },
  {
@@ -615,7 +615,7 @@
     "is_whale": true
    }
   ],
-  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'heated blanket' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'heated blanket' and for 'cordless heated blanket' on 2026-11-21 (throttled after the first few searches). Foreplay: blocked (402, no credits).",
   "supply": [
    {
     "source": "AliExpress listing shipping from US: 9-zone portable heated blanket, 3 levels, BATTERY NOT INCLUDED",
@@ -657,9 +657,9 @@
     "source": "Cost proxy: Amazon no-name cordless heated blanket with 20000mAh power bank",
     "url": "https://www.amazon.com/dp/B0H6P164ZF",
     "unit_cost": 59.84,
-    "shipping_cost_to_us_customer": 0.0,
+    "shipping_cost_to_us_customer": null,
     "ships_from": "US",
-    "delivery_days": "Prime",
+    "delivery_days": "not read",
     "label": "PROXY, not a supplier cost: Amazon retail price of a listing showing 1,000+ bought in past month (ESTIMATED, DataForSEO, 2026-11-21)."
    }
   ],
@@ -673,7 +673,7 @@
   "whale_note": "No single owner on Amazon (82 listings at $40 or more, mostly new no-name sellers). Branded DTC versions sit far higher ($119.99 to $249), so the product is early, but the unbranded price is already set by Amazon.",
   "ip_safety_flags": "Battery-heated textile: certification UNKNOWN. Must not be marketed for sleeping or for infants. Gobi Heat and Ororo designs and names must not be copied.",
   "season_note": "Rising and seasonal. 'cordless heated blanket' about 27,100 US Google searches in Dec 2025 and 18,100 in Jan 2026; 'battery powered heated blanket' 22,200 in Jan 2026; under 1,000 in July (ESTIMATED, DataForSEO, read 2026-11-21). Football and Christmas demand, then winter storms.",
-  "risks": "1) No workable supply found, so it cannot start this week. 2) Amazon no-name price of $52 to $86 with next-day delivery. 3) Heating area and run time are easy to over-promise. 4) Weight taken from one Amazon listing (1.5 lb, as listed). Kept in the file because demand is real and new; revisit only if a logged-in CJ or Zendrop search shows a complete unit in US stock.",
+  "risks": "1) No workable supply found, so it cannot start this week. 2) Amazon no-name price of $52 to $86. 3) Heating area and run time are easy to over-promise. 4) Weight taken from one Amazon listing (1.5 lb, as listed). Kept in the file because demand is real and new; revisit only if a logged-in CJ or Zendrop search shows a complete unit in US stock.",
   "checked": "2026-11-21"
  },
  {
@@ -713,7 +713,7 @@
     "is_whale": false
    }
   ],
-  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'carplay screen' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'carplay screen' and for 'portable carplay' on 2026-11-21 (throttled after the first few searches). Foreplay: blocked (402, no credits).",
   "supply": [
    {
     "source": "AliExpress listing shipping from US: HIEHA 7 inch universal portable wireless CarPlay and Android Auto screen",
@@ -762,16 +762,16 @@
   "whale_note": "No single owner: 67 Amazon listings at $40 or more under 28 different first words. Carpuride and LAMTTO are the known names, neither dominant.",
   "ip_safety_flags": "'CarPlay' and 'Apple' are Apple trademarks and 'Android Auto' is Google's: only plain compatibility statements, no logos or 'Apple CarPlay screen' as a product name. FCC ID for the unit is UNKNOWN (it has Wi-Fi, Bluetooth and an FM transmitter). Driver-distraction claims (video while driving) must be avoided. Firmware support comes from the factory, not from us.",
   "season_note": "Neutral to good. 'portable carplay screen' about 9,900 US Google searches in Dec 2025 against 5,400 on average; 'wireless carplay adapter' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A gift for drivers of older cars; not weather-driven.",
-  "risks": "1) The US-stock cost read today is about the Amazon retail price for the same size, so the raw inputs fail the brief's cost guide. 2) Compatibility and connection-drop returns. 3) Electronics defects with no written terms. 4) Trademark care needed in every ad. 5) Weight is the 9.26 inch Amazon unit alone (430 g, ESTIMATED for ours).",
+  "risks": "1) The US-stock cost read today ($44.44) is about the Amazon retail price for the same 7 inch size and sits against a $79.99 DTC price, so the raw inputs do not meet the brief's cost guide. 2) Compatibility and connection-drop returns. 3) Electronics defects with no written terms. 4) Trademark care needed in every ad. 5) Weight is the 9.26 inch Amazon unit alone (430 g, ESTIMATED for ours).",
   "checked": "2026-11-21"
  },
  {
   "id": "digital-night-vision-binoculars",
-  "category": "outdoor / hunting and camping gadgets",
+  "category": "outdoor / hunting and camping gear",
   "product": "Digital night vision binoculars or goggles (infrared, 3 inch screen, records photo and video, rechargeable)",
   "what_it_solves": "Seeing wildlife, a campsite or a back yard in full darkness; a gadget gift for hunters, campers and dads.",
   "sell_price": 72.67,
-  "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (UK brand with its own designs), sells at $149.99 to $199.99, which a generic unit cannot match.",
+  "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (a specialist brand whose page cites Amazon UK reviews), sells at $149.99 to $199.99, which a generic unit cannot match.",
   "amazon": {
    "typical_price": 79.99,
    "bought_past_month_top_listings": 15150,
@@ -788,7 +788,7 @@
     "is_whale": false
    }
   ],
-  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'night vision goggles' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'night vision goggles' on two attempts on 2026-11-21 (throttled after the first few searches). Foreplay: blocked (402, no credits).",
   "supply": [
    {
     "source": "AliExpress listing shipping from US: 5K 60MP night vision binoculars, 3 inch screen, 5000mAh, 32GB card",
@@ -843,10 +843,10 @@
   "weight_lb": 1.96,
   "demo_score_1to5": 4,
   "bundle_idea": "Goggles plus head strap, 64GB card and a hard case at $89 to $99. Without a verified DTC price for the generic unit this is a guess, not evidence.",
-  "whale_note": "No whale in the generic tier (45 Amazon listings, 17 first words). Thermal brands (TOPDON) and real optics brands sit above $150 and were left out of the count.",
+  "whale_note": "No whale in the generic tier (45 Amazon listings, 17 first words). Thermal cameras (TOPDON, $149.99 and up) and rifle scopes were left out of the count.",
   "ip_safety_flags": "No 'military grade', range or 'see 1,000 ft in total darkness' claims that the unit cannot prove. Infrared illuminator eye-safety class is UNKNOWN. Not for use while driving. Privacy: do not market for watching neighbors. Generic design.",
-  "season_note": "Neutral. 'night vision goggles' about 74,000 US Google searches in Dec 2025, 60,500 in Jan 2026, 90,500 in Oct 2026 (ESTIMATED, DataForSEO, read 2026-11-21). Hunting seasons end in January; Christmas gift demand helps December only.",
-  "risks": "1) No DTC premium was verified: the sell price here is an Amazon price, and the US-stock cost read today is more than half of it, so the raw inputs fail the brief's cost guide. 2) Image quality rarely matches the ads, which drives refunds. 3) US listings have 6 to 88 sales. 4) Weight ESTIMATED from an Amazon listing (0.89 kg).",
+  "season_note": "Neutral. 'night vision goggles' about 74,000 US Google searches in Dec 2025, 60,500 in Jan 2026, 90,500 in Oct 2026 (ESTIMATED, DataForSEO, read 2026-11-21). Not weather-driven; Christmas gift demand helps December only.",
+  "risks": "1) No DTC premium was verified: the sell price here is an Amazon price ($72.67) and the US-stock cost read today is $41.79, so the raw inputs do not meet the brief's cost guide. 2) Image quality rarely matches the ads, which drives refunds. 3) US listings have 6 to 88 sales. 4) Weight ESTIMATED from an Amazon listing (0.89 kg).",
   "checked": "2026-11-21"
  }
 ]

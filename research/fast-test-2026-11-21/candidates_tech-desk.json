@@ -1,0 +1,698 @@
+[
+ {
+  "id": "portable-carplay-screen-kit",
+  "category": "car tech / phone accessories",
+  "product": "Portable wireless CarPlay and Android Auto dash screen, 9 to 10.26 inch, with dash mount and 12V power; rear camera as the kit add-on",
+  "what_it_solves": "Older cars with no CarPlay or a tiny factory screen. The screen sits on the dash, plugs into the 12V socket, pairs with the phone wirelessly and plays sound through AUX, FM or Bluetooth, so there is no stereo swap and no installer.",
+  "sell_price": 119.99,
+  "sell_price_source": "Proposed kit price (screen plus rear camera), set under the closest DTC kit. Anchors: https://lamtto.com/products/lamtto-rc30-9-carplay-screen-with-netflix-youtube-and-1080p-backup-camera shows $139.99, regular price $159.99, with an 'Extra 20% OFF' code BFD20 advertised on the page, and the box list includes '1* 21ft HD Backup Cam'; https://lamtto.com/products.json also shows RC28 10.25 inch at $139.99 and RC17 8 inch at $79.99; https://www.ottocast.com/products.json shows ScreenFlow at $159 and Ottoscreen AI at $169; https://carpuride.com/products.json shows W703 at $159.99 to $189.99 (all VERIFIED, read 2026-11-21). Amazon median for selling listings at $40 or more is $76.70 (VERIFIED via DataForSEO 2026-11-21).",
+  "amazon": {
+   "typical_price": 76.7,
+   "bought_past_month_top_listings": 26300,
+   "listings_counted": 63,
+   "top_listing_url": "https://www.amazon.com/dp/B0DNZMCN1R",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "LAMTTO",
+    "url": "https://lamtto.com/products/lamtto-rc30-9-carplay-screen-with-netflix-youtube-and-1080p-backup-camera",
+    "price": 139.99,
+    "traction_evidence": "Product page shows '5.0 ( 14 Reviews )', delivery '3-7 business days' for in-stock items 'from the local warehouse closest to you', a 30-day return policy and a 12-month guarantee; an 'Extra 20% OFF' code is advertised (VERIFIED read 2026-11-21). Catalog of 56 products, screens from $79.99 to $409.99 (VERIFIED, products.json). Amazon: LAMTTO 9.26 inch screen 700+ bought in past month at $66.49 and its streaming adapter 1,000+ at $69.99 (VERIFIED via DataForSEO). Google searches for 'lamtto': 1,000 a month (VERIFIED via DataForSEO Google Ads data). Small review count on the page; most of its volume appears to be on Amazon.",
+    "is_whale": false
+   },
+   {
+    "store": "Ottocast",
+    "url": "https://www.ottocast.com/products/ottoscreenflow-car-display-screen",
+    "price": 159.0,
+    "traction_evidence": "ScreenFlow $159 (compare-at $210) and Ottoscreen AI $169 (compare-at $260) in products.json (VERIFIED). 3 OTTOCAST ads and 2 Ottoscreen ads on the first screen of a Meta Ad Library search for 'carplay screen'; 5 OTTOCAST ads on the first screen for 'wireless carplay adapter' (VERIFIED read). Google searches for 'ottocast': 22,200 a month (VERIFIED via DataForSEO). Largest brand in the niche, mid-size, not a household name.",
+    "is_whale": false
+   },
+   {
+    "store": "Carpuride",
+    "url": "https://carpuride.com/products/carpuride-w703-portable-smart-multimedia-car-stereo-with-dual-cameras-and-dvr-function",
+    "price": 159.99,
+    "traction_evidence": "147 products, portable screens from $159.99 to $369.99 (VERIFIED, products.json). 3 Carpuride ads plus creator partnership ads on the first screen for 'portable carplay screen' (VERIFIED read). Google searches for 'carpuride': 5,400 a month (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=carplay%20screen : about 3,200 keyword results; first screen: Temu 5, AutoLinkr 3, OTTOCAST 3, CarTablet 2, Ottoscreen 2, Carpuride 1 plus one creator partnership, several car dealers. 'portable carplay screen': about 99 results; first screen: Temu 8, Shoptemu 3, Carpuride 3, CarTech Insider 3, Maz Nav 2. 'wireless carplay adapter': about 820 results; first screen: AutoLinkr 17, OTTOCAST 5. Oldest start dates seen on first screens: Mar 7, 2023 and Nov 8, 2025. Counts are keyword matches across all advertisers, not ads for one product; the page often returns 'No ads match' on the first load (VERIFIED read, flaky page). Foreplay MCP: one call, HTTP 402, 0 credits.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: Pionray 10 inch Portable CarPlay Android Auto Screen for Vehicle",
+    "url": "https://www.aliexpress.us/item/3256812822426424.html",
+    "unit_cost": 54.99,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 12 sold, rating 5.0, no promo tag, 'Free shipping' tag. Whether a rear camera is in the box is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: Portable Wireless Carplay Car Stereo, 10.26 inch HD touchscreen",
+    "url": "https://www.aliexpress.us/item/3256809947057657.html",
+    "unit_cost": 36.35,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 1,000+ sold, rating 4.9, 'New shoppers save $59.84', list price shown $96.19, 'Free shipping' tag. The most proven US listing."
+   },
+   {
+    "source": "AliExpress US stock: ESSGOO 10.26 inch Portable Carplay, universal bracket",
+    "url": "https://www.aliexpress.us/item/3256813303692667.html",
+    "unit_cost": 57.42,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 351 sold, rating 4.9, 'New shoppers save $105.40'."
+   },
+   {
+    "source": "AliExpress US stock: HIEHA 7 inch Universal Portable Wireless Carplay Screen",
+    "url": "https://www.aliexpress.us/item/3256813319780988.html",
+    "unit_cost": 44.44,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sales shown, no rating, no promo tag. Unproven listing, smaller 7 inch screen."
+   },
+   {
+    "source": "AliExpress US stock: Junsun 7 inch Portable Car Stereo, magnetic mount",
+    "url": "https://www.aliexpress.us/item/3256812509125121.html",
+    "unit_cost": 51.52,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 1 sold, no promo tag."
+   },
+   {
+    "source": "AliExpress China: 10.26 inch Carplay MP5 Player, portable",
+    "url": "https://www.aliexpress.us/item/3256807301208579.html",
+    "unit_cost": 58.39,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 70 sold, rating 4.8, 'Free shipping', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: Portable Car Touch Screen Stereo with Wireless CarPlay and Android Auto",
+    "url": "https://www.aliexpress.us/item/3256807801313040.html",
+    "unit_cost": 37.84,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05'",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 265 sold, rating 4.9, 'Free shipping'."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   },
+   {
+    "source": "Cost proxy: Amazon generic 9 inch wireless CarPlay screen with backup camera (retail, not a supplier)",
+    "url": "https://www.amazon.com/dp/B0H36G49Q1",
+    "unit_cost": 59.98,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (Prime terms not read)",
+    "label": "PROXY, VERIFIED retail price via DataForSEO 2026-11-21; 2,000+ bought in past month, 195 ratings. Shows that Amazon retail sits within $5 of the non-promo AliExpress US cost."
+   }
+  ],
+  "best_us_landed_cost": 54.99,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 12 sold; read 2026-11-21; not a supplier quote). The most proven US listing (1,000+ sold) shows $36.35, a new-shopper promo price whose repeat price is UNKNOWN.",
+  "best_cn_landed_cost": 58.39,
+  "best_cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 70 sold; read 2026-11-21). A promo card shows $37.84 (265 sold, ESTIMATED). China gives no cost advantage here.",
+  "weight_lb": 2.2,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Screen plus rear camera plus a second mount (suction and adhesive) and a hardwire cable, sold as an 'any car' kit at $119.99, with screen only at $89.99 as the down-sell. LAMTTO sells the camera alone at $29.99 and mounts at $17.99 to $18.99 (VERIFIED, products.json), which sets the add-on prices. Camera and mount costs from US stock were not read (UNKNOWN).",
+  "whale_note": "No giant brand. Ottocast, Carpuride and LAMTTO are mid-size specialists; 26 different brand names have Amazon sales at $40 or more. The pressure comes from price, not from a whale: Temu runs 5 to 8 first-screen ads on these keywords and Amazon generics sell at $45 to $77 with fast delivery.",
+  "ip_safety_flags": "Apple CarPlay and Android Auto are trademarks of Apple and Google: use 'works with' wording only, no logos, no claim of certification. Whether these generic units hold Apple or Google licences is UNKNOWN (web search only; no licence statement found). Many units advertise built-in Netflix or YouTube: do not advertise video while driving (driver distraction, platform ad policy) and prefer a unit without those apps. Wireless device: FCC ID on the unit is UNKNOWN until the sample arrives. Dash mounting must not block the windshield view (state laws vary). Fast-lane flag: ads would start before the sample is in hand (Dhruv's approved exception).",
+  "season_note": "Good for December gifting (drivers, dads, older cars). Google searches for 'portable carplay screen' were 9,900 in Dec 2025 against 5,400 in Jan and Feb 2026, but only 1,300 in Oct 2026, so the exact phrase is fading; 'carplay screen' is steady at 8,100 to 9,900 and 'wireless carplay adapter' ran 74,000 in Dec 2025 and 49,500 to 60,500 in Jan and Feb (VERIFIED via DataForSEO Google Ads data). No winter penalty.",
+  "risks": "1) Price check: the same class of screen is $45 to $77 on Amazon, so a $119.99 kit needs a clear reason (camera, mounts, support, fit help), and LAMTTO's own 9 inch kit with camera is $139.99 before a 20 percent code. 2) Cost: the only non-promo US prices read are $44 to $55 on thin listings; the proven listings carry promo tags. On $54.99 the cost is well above the 35 percent guide at $119.99; only the $36.35 promo price comes near it. The script decides. 3) Electronics defects and 'sound through FM is poor' complaints (a carplaylife.com review of a LAMTTO unit notes weak FM transmission and slow connection; ESTIMATED, search snippet). 4) Returns from buyers who expected a factory-style install. 5) Unlicensed CarPlay implementation could stop working after an iOS update; sellers advertise OTA updates but that is unverified. 6) US listings can run out mid-test; name a second US listing before ads start.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "mini-smart-projector",
+  "category": "small gadgets",
+  "product": "Mini smart projector (HY300 class: 720p native, Android apps, WiFi and Bluetooth, 180 degree stand), sold with a stand and optional digital scene packs",
+  "what_it_solves": "Movie night or ambient scenes on a bedroom wall or ceiling without a TV; small enough to move between rooms. The 3-second picture is a film or a fireplace scene filling a dark wall.",
+  "sell_price": 99.99,
+  "sell_price_source": "https://trylumibeam.com/products.json shows 'Lumi Beam Portable Projector' at $99.99 and $109.99, compare-at $199.98 and $219.98; the product page states 'Native 1280 x 720p' and '200 ANSI lumens' (VERIFIED, read 2026-11-21). Lower anchors: https://magcubic.com/products.json HY300Pro+ at $54 on one listing and $66.99 to $79.99 on another, HY320Pro at $79.99 and $105.99 (VERIFIED); Amazon median for projectors selling at $40 to $100 is $56.98 (VERIFIED via DataForSEO).",
+  "amazon": {
+   "typical_price": 56.98,
+   "bought_past_month_top_listings": 54150,
+   "listings_counted": 61,
+   "top_listing_url": "https://www.amazon.com/dp/B0F7RR3YC6",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Lumi Beam",
+    "url": "https://trylumibeam.com/products/lumibeam-portable-projector",
+    "price": 99.99,
+    "traction_evidence": "Page header '4.9/5 (11,346+ reviews)' and 'Join Over 100,000+ Happy Readers' (VERIFIED read, vendor claims; several recent reviews are a single period). 3 Lumi Beam ads on the first screen of a Meta Ad Library search for 'portable projector' and 2 link cards to TRYLUMIBEAM.COM (VERIFIED read). Store product created Nov 2025, so it has run about a year. Sells digital 'Scenes Packs' at $29.99 each and a stand at $24.99. Shipping stated as 1 to 2 business days processing plus 'around 5-10 days'; ship-from not stated.",
+    "is_whale": false
+   },
+   {
+    "store": "Magcubic (maker of the HY300)",
+    "url": "https://magcubic.com/products/magcubic-hy300pro",
+    "price": 54.0,
+    "traction_evidence": "Own store sells HY300Pro+ at $54 (a second listing at $66.99 to $79.99), HY300MAX at $55, HY310 at $65, HY320Pro at $79.99 and $105.99 (VERIFIED, products.json). Amazon: 4,000+ bought in past month at $50.99 (10,500 ratings) and 3,000+ at $41.99 (VERIFIED via DataForSEO). Google searches for 'magcubic': 2,400 a month.",
+    "is_whale": false
+   },
+   {
+    "store": "Aurzen",
+    "url": "https://www.aurzen.com/products/aurzen-eazze-e1r-portable-roku-tv-smart-projector",
+    "price": 139.99,
+    "traction_evidence": "EAZZE E1R Roku TV mini projector at $139.99 on its own store (VERIFIED, products.json) and $85.48 on Amazon with 8,000+ bought in past month; D1R at $123.48 with 6,000+ (VERIFIED via DataForSEO). Licensed Roku TV software, which the generic units lack. 1 Aurzen ad on the first screen for 'portable projector'.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=portable%20projector : about 830 keyword results; first screen: Jungle Badger 3, Lumi Beam 3, Littlehouseonalittleland Deals 2, Aurzen 1, XGIMI 1, plus AliExpress, Banggood, Temu. 'mini projector': about 710 results; first screen is a long tail of small pages (Lilingg 3, Claire Bennett 3, 8849tank 2) plus Alibaba.com and Banggood. 'hy300 projector': 'No ads match' on 4 tries (UNKNOWN). Counts are keyword matches across all advertisers (VERIFIED read, flaky page).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: Mini Projector WiFi6 and BT5.4, 'Native 1080P, 4K Decoding', Android (card spec line shows 1280x720)",
+    "url": "https://www.aliexpress.us/item/3256809317535732.html",
+    "unit_cost": 36.39,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 182 sold, rating 4.7, 'Save $14.15', list price shown $50.54, no new-shopper tag, 'Free shipping' tag. Title claims native 1080p while the card spec says 1280x720: treat the spec as 720p."
+   },
+   {
+    "source": "AliExpress US stock: Mini Projector WiFi 1080P Smart Mini Projector",
+    "url": "https://www.aliexpress.us/item/3256809971481021.html",
+    "unit_cost": 42.79,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 123 sold, rating 4.5, 'Save $26.97', no new-shopper tag, 'Free shipping' tag."
+   },
+   {
+    "source": "AliExpress US stock: Magcubic HY300 Pro, 290 ANSI, 720p native, Android 14",
+    "url": "https://www.aliexpress.us/item/3256809798154108.html",
+    "unit_cost": 34.73,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 50,000+ sold, rating 4.9, 'New shoppers save $69.59', list price shown $104.32. The deepest US listing; the same model's non-promo China cards read $58.59 to $58.79, so the repeat price may be much higher."
+   },
+   {
+    "source": "AliExpress China: Magcubic HY300 PRO, Android 14, 290 ANSI",
+    "url": "https://www.aliexpress.us/item/3256806596476075.html",
+    "unit_cost": 58.79,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 50,000+ sold, rating 4.9, 'Save $63.69', 'Free shipping', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: 4K Decoding Native 1080P Mini Projector, short throw",
+    "url": "https://www.aliexpress.us/item/3256811672792952.html",
+    "unit_cost": 23.65,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05'",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 98 sold, rating 4.2, 'Free shipping'."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   },
+   {
+    "source": "Cost proxy: Amazon Magcubic HY300Pro (retail, not a supplier)",
+    "url": "https://www.amazon.com/dp/B0F53F8DB3",
+    "unit_cost": 41.99,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (Prime terms not read)",
+    "label": "PROXY, VERIFIED retail price via DataForSEO 2026-11-21; 3,000+ bought in past month, 1,400 ratings. Amazon retail is about equal to the AliExpress US cost."
+   }
+  ],
+  "best_us_landed_cost": 36.39,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 182 sold, rating 4.7; read 2026-11-21; not a supplier quote). A generic unit, not the Magcubic-branded HY300 Pro.",
+  "best_cn_landed_cost": 58.79,
+  "best_cn_landed_label": "VERIFIED (non-promo AliExpress China card for the Magcubic HY300 PRO, 'Free shipping' tag, 50,000+ sold; read 2026-11-21). A generic China unit shows $23.65 on a promo card (ESTIMATED). The two are different products, so this is not a like-for-like US against China comparison.",
+  "weight_lb": 2.5,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Projector plus stand at $99.99, with digital scene packs (fireplace, rain, night sky loops) as a software add-on that Dhruv can build and deliver by download. Lumi Beam charges $29.99 per pack and $24.99 for a stand (VERIFIED). Our packs must be original or licensed footage; Lumi Beam sells packs named after film and book franchises, which we would not copy.",
+  "whale_note": "No whale under $100. Epson, XGIMI and Anker Nebula sit at $300 and up. In the $40 to $100 band 21 brand names have Amazon sales; five listings with licensed Roku or Google TV software (Aurzen, Happrun, Elephas) hold 13,900 of the 54,150 units.",
+  "ip_safety_flags": "The HY300 shape is Magcubic's product; design patent status UNKNOWN (not searched at USPTO). Generic units ship with Netflix, YouTube and Prime Video icons but are not certified by those services: do not show their logos or promise those apps in ads. '4K', '8K' and '8000 lumens' on supplier listings are decoding or marketing figures, not native output: state 720p and the ANSI figure only (FTC deception risk otherwise). Mains power adapter: UL or ETL listing UNKNOWN. Not a children's product; do not market it as one. Fast-lane flag: ads would start before the sample is in hand.",
+  "season_note": "December is the best month: Google searches for 'mini projector' were 40,500 in Dec 2025, 22,200 in Jan 2026, 14,800 in Feb and 33,100 in Oct 2026; 'portable projector' 60,500 in Dec 2025 (VERIFIED via DataForSEO Google Ads data). Expect a drop after Christmas. A US-stock order placed after about Dec 10 to 14 may miss Christmas (see 03_fulfillment_and_money.md).",
+  "risks": "1) Price check: the same hardware is $42 to $67 on Amazon and $54 on the maker's own site, so $99.99 depends on a different story (Lumi Beam sells it as reading ambience with scene packs). 2) On $36.39 the cost is above the 35 percent guide unless the price holds near $100; the script decides. 3) Returns for 'too dim': 200 to 290 ANSI lumens only works in a dark room. 4) The proven Magcubic listing's real repeat price is UNKNOWN and may be near $58. 5) Lamp, fan and power adapter defects; no sample yet. 6) Generic firmware and app-store quality vary by batch.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "compact-digital-camera-kit",
+  "category": "small gadgets",
+  "product": "Compact point-and-shoot digital camera kit (generic '4K 48MP' flip-screen digicam with 32GB card, strap and case)",
+  "what_it_solves": "People who want the retro 'digicam' look and a break from the phone at parties, trips and holidays: a pocket camera with a flash, a flip screen for selfies and photos that move to the phone by cable or card.",
+  "sell_price": 79.99,
+  "sell_price_source": "Proposed kit price. Anchors: https://klikcamera.com/products.json KLIK Screen-Free Camera at $68.71; https://campsnapphoto.com/products.json Camp Snap 2 at $69.99, Camp Snap 110D at $74.99 and Camp Snap 2 bundles at $89.98 to $119.93 (both VERIFIED, read 2026-11-21); Amazon median for generic compact cameras selling at $40 or more is $58.48 (VERIFIED via DataForSEO).",
+  "amazon": {
+   "typical_price": 58.48,
+   "bought_past_month_top_listings": 17600,
+   "listings_counted": 52,
+   "top_listing_url": "https://www.amazon.com/dp/B0DHRQRLYW",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "KLIK",
+    "url": "https://klikcamera.com/products/klik-camera",
+    "price": 68.71,
+    "traction_evidence": "Product page 'Overall rating: 4.9 / 5 from 1171 reviews' (VERIFIED read, vendor figure); Trustpilot 4.4 from 17 reviews (ESTIMATED, search snippet). 13 KLIK ads on the first screen of a Meta Ad Library search for 'screen free camera' and 4 for 'digital camera' (VERIFIED read). Amazon: 1,500+ bought in past month at $56.95 across two colours, 148 ratings (VERIFIED via DataForSEO). An 8MP screen-free camera, a simpler product than the kit proposed here.",
+    "is_whale": false
+   },
+   {
+    "store": "Camp Snap",
+    "url": "https://campsnapphoto.com/products/camp-snap-2",
+    "price": 69.99,
+    "traction_evidence": "Google searches for 'camp snap camera': 40,500 a month on average, 74,000 in Dec 2025 (VERIFIED via DataForSEO Google Ads data). 5 Camp Snap ads on the first screen for 'screen free camera' (VERIFIED read). Listed by REI and Best Buy (ESTIMATED, search results). Owns the screen-free niche.",
+    "is_whale": true
+   },
+   {
+    "store": "Kodak PIXPRO (JK Imaging licence)",
+    "url": "https://www.amazon.com/dp/B09ZRN1N3Z",
+    "price": 139.99,
+    "traction_evidence": "FZ55 10,000+ bought in past month at $139.99 (9,400 ratings) plus two further colours at 2,000+ each; FZ45 6,000+ at $99.99 (VERIFIED via DataForSEO). Owns the $100 and up band.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=screen%20free%20camera : about 12,000 keyword results; first screen: KLIK 13, Camp Snap Camera 5. 'digital camera': about 9,100 results; first screen: KLIK 4, Thatonestreet 3, Flashback 1 creator ad, Kodak Digitizing 1, the rest are phone apps and marketplaces. Large counts here include unrelated ads that contain the words (VERIFIED read, flaky page).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 4K Digital Camera for Photography with ring light and 180 degree flip screen",
+    "url": "https://www.aliexpress.us/item/3256812209122652.html",
+    "unit_cost": 33.69,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 591 sold, rating 4.3, 'Save $46.46', list price shown $80.15, no new-shopper tag, 'Free shipping' tag. Whether a memory card is included is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: same title, second listing",
+    "url": "https://www.aliexpress.us/item/3256812679494973.html",
+    "unit_cost": 23.11,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 615 sold, rating 4.9, 'New shoppers save $50.43' (a second read showed $21.35), 'Free shipping' tag."
+   },
+   {
+    "source": "AliExpress US stock: DC403 44MP HD Digital Camera, 16X digital zoom",
+    "url": "https://www.aliexpress.us/item/3256808309127277.html",
+    "unit_cost": 24.99,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 18 sold, rating 5.0, 'Save $44.31', 'Free shipping' tag. A simpler fixed-screen model."
+   },
+   {
+    "source": "AliExpress China: Portable 4K CCD Digital Camera, 48MP, flip screen",
+    "url": "https://www.aliexpress.us/item/3256812032052377.html",
+    "unit_cost": 19.59,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 453 sold, rating 4.9, 'Save $28.72', 'Free shipping', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: Mini screenless retro digital camera, 8MP, 8 filters (the Camp Snap and KLIK style)",
+    "url": "https://www.aliexpress.us/item/3256810400880950.html",
+    "unit_cost": 30.43,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 84 sold, rating 5.0; shipping fee not shown. No screen-free camera was found in US stock on three search phrasings."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   },
+   {
+    "source": "Cost proxy: Amazon generic 4K 48MP camera with 32GB card (retail, not a supplier)",
+    "url": "https://www.amazon.com/dp/B0DNFGNG18",
+    "unit_cost": 44.62,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (Prime terms not read)",
+    "label": "PROXY, VERIFIED retail price via DataForSEO 2026-11-21; 500+ bought in past month, 884 ratings."
+   }
+  ],
+  "best_us_landed_cost": 33.69,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 591 sold, rating 4.3; read 2026-11-21; not a supplier quote). A second listing of the same title shows $21.35 to $23.11 on a new-shopper promo (ESTIMATED).",
+  "best_cn_landed_cost": 19.59,
+  "best_cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 453 sold; read 2026-11-21). About $14 cheaper than US stock, with a 9 to 14 day delivery estimate.",
+  "weight_lb": 0.7,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Camera plus 32GB card, wrist strap, soft case and a spare battery as a ready-to-gift kit at $79.99; second camera at a discount for couples or friends (Camp Snap sells camera bundles at $89.98 to $119.93 and multi-packs of its small camcorder at 10 percent off; VERIFIED). Add-on costs from US stock were not read (UNKNOWN).",
+  "whale_note": "Two whales bracket the product: Kodak PIXPRO at $100 and up (20,000+ units a month across the four FZ55 and FZ45 listings counted) and Camp Snap in the screen-free niche. Between them the generic flip-screen cameras are fragmented: 15 brand names have Amazon sales at $40 or more, the largest listing at 3,000+ a month.",
+  "ip_safety_flags": "Do not copy Camp Snap's or KLIK's body design, name or 'screen-free' brand assets (trade dress and trademark; design patent status UNKNOWN, web search only). '48MP' and '4K' on generic cameras are interpolated figures: do not repeat megapixel claims we cannot verify on the sample. Many Amazon listings for this hardware are titled 'for kids': a children's product would need CPSIA testing and is out of scope, so market to adults and teens 13 and up only. Small lithium battery (Amazon top listing shows battery weight 10 g). Fast-lane flag: ads would start before the sample is in hand.",
+  "season_note": "Strong gift item. Google searches for 'digital camera': 550,000 in Dec 2025, 301,000 in Jan 2026, 246,000 in Feb, 368,000 in Oct 2026; 'vintage digital camera' 14,800 in Dec 2025 against 6,600 in Feb (VERIFIED via DataForSEO Google Ads data). December good, January and February softer.",
+  "risks": "1) Picture quality is below a current phone; buyers who expect 'real 4K' return it. KLIK and Camp Snap avoid this by selling the look, not the specs. 2) Amazon price for the same class is $41 to $61. 3) On $33.69 the cost is above the 35 percent guide at $79.99; the script decides. 4) The cheaper $21 to $23 listing is a promo price. 5) Screen-free style is only available China-shipped ($30 to $32), so the proven DTC version of this product fails the US-stock rule. 6) No sample yet: shutter lag, battery life and card format are unknown.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "ai-translation-earbuds",
+  "category": "phone accessories",
+  "product": "AI translation earbuds (Bluetooth earbuds that translate through a phone app)",
+  "what_it_solves": "Travellers and mixed-language families who want a spoken translation in the ear without passing a phone back and forth.",
+  "sell_price": 69.95,
+  "sell_price_source": "https://aviorra.com/products.json shows VerbaBuds AI Translator Earbuds at $69.95, compare-at $139.95 to $159.95 (VERIFIED, read 2026-11-21). Also https://vylaras.com/products.json AI Translation Earbuds from $59.95 and https://www.viora-shop.com/products.json at $59.50 to $64.99 (VERIFIED).",
+  "amazon": {
+   "typical_price": 94.99,
+   "bought_past_month_top_listings": 7200,
+   "listings_counted": 28,
+   "top_listing_url": "https://www.amazon.com/dp/B0HK87JG4G",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Aviorra (VerbaBuds)",
+    "url": "https://aviorra.com/products/verbabuds-ai-translator-earbuds",
+    "price": 69.95,
+    "traction_evidence": "Page claims '4.8' and '19,444 Verified Reviews', but the star breakdown on the page totals 560, with 99 one-star (18 percent) (VERIFIED read, vendor figures that do not add up). 6 Aviorra ads on the first screen of a Meta Ad Library search for 'translation earbuds' (VERIFIED read). Store product created Dec 2024.",
+    "is_whale": false
+   },
+   {
+    "store": "Vylaras (advertorial funnel)",
+    "url": "https://vylaras.com/products/ai-earbuds",
+    "price": 59.95,
+    "traction_evidence": "The page 'Today Travel Tips' runs 10 first-screen ads that link to OFFER.VYLARAS.COM (12 link cards) and VYLARAS.COM (4); oldest start dates seen Apr 25 and Apr 29, 2025, so some ads have run about 19 months (VERIFIED read). Same store sells AI translator glasses at $74.95 and $99.95.",
+    "is_whale": false
+   },
+   {
+    "store": "Timekettle",
+    "url": "https://www.amazon.com/dp/B0HJ8Q3SHC",
+    "price": 399.0,
+    "traction_evidence": "W4 Pro at $359 to $399 with 450+ bought in past month across three colours (VERIFIED via DataForSEO). 1 first-screen Meta ad. Premium specialist with its own translation engine.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=translation%20earbuds : about 1,400 keyword results; first screen: Today Travel Tips 10, Aviorra 6, Katelyn Perales 6, Timekettle 1, Viora 1, Lucyd 1. Link domains on the loaded cards: OFFER.VYLARAS.COM 12, VYLARAS.COM 4, AVIORRA.COM 3. Oldest start date seen: Apr 25, 2025 (VERIFIED read). Counts are keyword matches across all advertisers.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: Wooask F56 Translator Earbuds, open-ear, 144 languages",
+    "url": "https://www.aliexpress.us/item/3256808338515458.html",
+    "unit_cost": 37.79,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 53 sold, rating 4.2, 'Save $105.51', no new-shopper tag, 'Free shipping' tag. Wooask is a named brand, so reselling it is reselling another brand."
+   },
+   {
+    "source": "AliExpress US stock: generic TWS 'AI Translator Earbuds 138 Languages'",
+    "url": "https://www.aliexpress.us/item/3256812406137981.html",
+    "unit_cost": 11.94,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 14 sold, rating 4.9, 'New shoppers save $30.12', list price shown $42.06. Thin listing."
+   },
+   {
+    "source": "AliExpress US stock: Wooask M6 Translator Earbuds",
+    "url": "https://www.aliexpress.us/item/3256807605909408.html",
+    "unit_cost": 62.59,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 54 sold, rating 4.8."
+   },
+   {
+    "source": "AliExpress China: HTC NE76 AI Translation Earbuds",
+    "url": "https://www.aliexpress.us/item/3256812257957309.html",
+    "unit_cost": 11.69,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 984 sold, rating 4.5, 'Save $20.30', 'Free shipping', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: Wooask F56 Real-Time Translator Earbuds",
+    "url": "https://www.aliexpress.us/item/3256808331784961.html",
+    "unit_cost": 41.39,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 78 sold, rating 4.1, 'Free shipping'."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   }
+  ],
+  "best_us_landed_cost": 37.79,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 53 sold, rating 4.2; read 2026-11-21; not a supplier quote). A generic unit shows $11.94 on a promo card with 14 sold (ESTIMATED).",
+  "best_cn_landed_cost": 11.69,
+  "best_cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 984 sold; read 2026-11-21). A different, cheaper product than the Wooask unit in US stock.",
+  "weight_lb": 0.4,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Earbuds plus travel case and a phrase-card insert. Competitors pad the offer with 'free gifts' (cleaning kit, ebook, 'lifetime app access', warranty) at stated values of $9 to $99 (VERIFIED on aviorra.com); FTC 'free' rules apply to that pattern and we would not copy it.",
+  "whale_note": "Translation is becoming a free feature of mainstream earbuds: an Amazon search for 'translation earbuds' returns Apple AirPods (three listings at 10,000+ bought in past month each, $129 to $179) and Samsung Galaxy Buds 4 Pro (7,000+ at $169.99) at the top (VERIFIED via DataForSEO). Under $40, 48 generic listings sell 41,850 units a month.",
+  "ip_safety_flags": "Performance claims are the problem: '99% accuracy', '144 languages', 'offline' appear on competitor pages and are qualified in their own FAQs; we could not substantiate any of them without a sample and the supplier's app (FTC substantiation). The earbuds depend on a third-party phone app whose terms, data handling and lifetime are UNKNOWN. Do not use 'ChatGPT' or 'HTC' names from supplier titles. Small lithium cells. Fast-lane flag: ads would start before the sample is in hand, which is a poor fit for a product whose main risk is whether it works.",
+  "season_note": "Peaks before holiday travel: Google searches for 'translation earbuds' were 49,500 in Dec 2025, 40,500 in Jan 2026, 33,100 in Feb, 18,100 in Jul, 27,100 in Oct 2026; CPC $1.94 (VERIFIED via DataForSEO Google Ads data). December and January good.",
+  "risks": "1) Refund risk is the highest in this file: Aviorra's own page shows 18 percent one-star reviews, and the Amazon generics counted rate from 3.4 to 4.8. 2) At $60 to $70 the price is at the bottom of the range that can carry the ad cost. 3) The only non-promo US unit read ($37.79) is over half the DTC price; the cheap generic is a promo card with 14 sales. 4) Established advertisers use advertorial funnels and 19-month-old ads; a one-week image-ad test is unlikely to match them. 5) Apple and Samsung now ship translation. Kept so the script can score it; not recommended.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "wireless-carplay-adapter",
+  "category": "car tech / phone accessories",
+  "product": "Wireless CarPlay and Android Auto adapter (USB dongle that makes factory wired CarPlay wireless)",
+  "what_it_solves": "Drivers whose car has wired CarPlay and who are tired of plugging the phone in on every trip.",
+  "sell_price": 59.99,
+  "sell_price_source": "Proposed price. Anchors: https://www.ottocast.com/products.json U2Air Edge at $55 to $100 (compare-at $178); https://lamtto.com/products.json RC36 3-in-1 adapter at $89.99 (both VERIFIED, read 2026-11-21); Amazon median for adapters selling at $40 or more is $46.99 (VERIFIED via DataForSEO).",
+  "amazon": {
+   "typical_price": 46.99,
+   "bought_past_month_top_listings": 9350,
+   "listings_counted": 27,
+   "top_listing_url": "https://www.amazon.com/dp/B0FQN2VBT7",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Ottocast",
+    "url": "https://www.ottocast.com/products/u2air-edge-wireless-carplay-android-auto-adapter",
+    "price": 55.0,
+    "traction_evidence": "5 OTTOCAST ads on the first screen of a Meta Ad Library search for 'wireless carplay adapter' (VERIFIED read). Amazon: six Ottocast adapter listings at $40.85 to $109 with 400 to 1,000+ bought in past month each; the Mini Cube 3.0 has 1,998 ratings at 3.6 stars (VERIFIED via DataForSEO). Google searches for 'ottocast': 22,200 a month.",
+    "is_whale": false
+   },
+   {
+    "store": "AutoLinkr",
+    "url": "https://autolinkr.com/",
+    "price": null,
+    "traction_evidence": "17 AutoLinkr ads on the first screen for 'wireless carplay adapter' and 3 for 'carplay screen' (VERIFIED read). Store price UNKNOWN: the site redirects to a '/lander' bot wall.",
+    "is_whale": false
+   },
+   {
+    "store": "LAMTTO",
+    "url": "https://lamtto.com/products/lamtto-rc36-3-in-1-wireless-carplay-adapter-with-built-in-youtube-tiktok-apps",
+    "price": 89.99,
+    "traction_evidence": "RC36 adapter with built-in video apps at $89.99 (VERIFIED, products.json). Amazon: LAMTTO streaming adapter 1,000+ bought in past month at $69.99, 995 ratings at 3.5 stars (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=wireless%20carplay%20adapter : about 820 keyword results; first screen: AutoLinkr 17, OTTOCAST 5, CarPlay Upgrade Store 2, Ottoscreen 1; start dates seen from Nov 8, 2025 to Sep 23, 2026. 'wireless carplay' returned 'No ads match' on 4 tries (UNKNOWN). Counts are keyword matches across all advertisers (VERIFIED read, flaky page).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 2026 CarlinKit 5.0 Mini Ultra 3 CarPlay and Android Auto wireless adapter",
+    "url": "https://www.aliexpress.us/item/3256810419350396.html",
+    "unit_cost": 26.29,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 2,000+ sold, rating 4.9, 'Save $31.11', list price shown $57.40, no new-shopper tag, 'Free shipping' tag. CarlinKit is a named brand."
+   },
+   {
+    "source": "AliExpress US stock: CarlinKit 5.0 Mini Ultra wireless adapter",
+    "url": "https://www.aliexpress.us/item/3256808835574067.html",
+    "unit_cost": 19.85,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 72 sold, rating 3.0, 'Save $54.43', 'Free shipping' tag. The low rating is a quality flag."
+   },
+   {
+    "source": "AliExpress US stock: CarlinKit 5.0 Mini Ultra and Mini 5 Pro",
+    "url": "https://www.aliexpress.us/item/3256812349893068.html",
+    "unit_cost": 14.24,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 10,000+ sold, rating 4.9, 'New shoppers save $33.25', list price shown $47.49."
+   },
+   {
+    "source": "AliExpress China: Wireless CarPlay Adapter 2026 New Version, plug and play",
+    "url": "https://www.aliexpress.us/item/3256808473857005.html",
+    "unit_cost": 13.33,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 3,000+ sold, rating 4.9, 'Save $15.13', 'Free shipping', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: Upgraded Pionray Wireless CarPlay Adapter",
+    "url": "https://www.aliexpress.us/item/3256808644459264.html",
+    "unit_cost": 5.33,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05'",
+    "label": "VERIFIED (AliExpress search card read 2026-11-21, ships from China per the card; a marketplace listing price, not a supplier quote). 10,000+ sold, rating 4.9; shipping fee not shown on the card."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   }
+  ],
+  "best_us_landed_cost": 26.29,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 2,000+ sold, rating 4.9; read 2026-11-21; not a supplier quote). A $19.85 non-promo card exists but is rated 3.0; a $14.24 card is a new-shopper promo.",
+  "best_cn_landed_cost": 13.33,
+  "best_cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 3,000+ sold; read 2026-11-21). About half the US-stock cost.",
+  "weight_lb": 0.2,
+  "demo_score_1to5": 3,
+  "bundle_idea": "No believable bundle reaches $60 or more on its own (adapter plus cables and a vent mount is still a $40 to $50 item on Amazon). Best use is as a second product on the same store as candidate 1 for buyers whose car already has wired CarPlay.",
+  "whale_note": "No giant, but the price is set from below: 58 listings under $40 sell 72,200 units a month on Amazon against 9,350 units at $40 or more (VERIFIED via DataForSEO).",
+  "ip_safety_flags": "Apple CarPlay and Android Auto trademarks: 'works with' wording only, no logos. Licence status of these dongles UNKNOWN. Units with built-in Netflix or YouTube raise driver-distraction and logo issues: avoid. Wireless device: FCC ID UNKNOWN until the sample arrives. Fast-lane flag: ads would start before the sample is in hand.",
+  "season_note": "Good in December: Google searches for 'wireless carplay adapter' were 74,000 in Dec 2025, 60,500 in Jan 2026, 49,500 in Feb, 40,500 in Oct 2026; CPC $0.90 (VERIFIED via DataForSEO Google Ads data).",
+  "risks": "1) The price cannot carry the ad cost: at $59.99 a $35 to $50 customer cost leaves little or nothing after product and card fees; the script will show it. 2) Compatibility returns: it only works in cars that already have wired CarPlay, and buyers of older cars order it by mistake. 3) Connection drops are the standard complaint; leading Amazon listings rate 3.5 to 3.9. 4) 72,200 units a month sell under $40. Kept as a possible add-on, not as a lead product.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "architect-desk-lamp",
+  "category": "desk setup",
+  "product": "Wide architect LED desk lamp with clamp (dual head, about 24W, dimmable, colour temperature control) for dual-monitor desks",
+  "what_it_solves": "Dim or glare-heavy home-office desks: one clamp-on bar lights a full two-monitor desk evenly without taking desk space or reflecting in the screens.",
+  "sell_price": 69.99,
+  "sell_price_source": "Proposed price. Anchors: Amazon median for architect clamp lamps selling at $40 or more is $50.34, top listing $44.15 (VERIFIED via DataForSEO 2026-11-21); https://lumecube.com/products.json Lume Cube Edge Light 2.0 at $119.99, compare-at $149.99, open-box $89.99 (VERIFIED, read 2026-11-21); BenQ ScreenBar Pro $118.15 and ScreenBar Halo 2 $169.15 on Amazon (VERIFIED via DataForSEO).",
+  "amazon": {
+   "typical_price": 50.34,
+   "bought_past_month_top_listings": 14350,
+   "listings_counted": 28,
+   "top_listing_url": "https://www.amazon.com/dp/B0BRCJL4MM",
+   "checked": "2026-11-21"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Lume Cube",
+    "url": "https://lumecube.com/products/edge-light-2-0-led-desk-lamp",
+    "price": 119.99,
+    "traction_evidence": "Edge Light 2.0 desk lamp at $119.99 (compare-at $149.99), 2-pack $229.99, open-box $89.99; 128 products (VERIFIED, products.json). 2 Lume Cube ads on the first screen of a Meta Ad Library search for 'led desk lamp' (VERIFIED read). A creator-lighting brand; proves a premium desk lamp can be sold direct, at a quality level a generic lamp does not match.",
+    "is_whale": false
+   },
+   {
+    "store": "BenQ ScreenBar",
+    "url": "https://www.amazon.com/dp/B0DK59YKRS",
+    "price": 169.15,
+    "traction_evidence": "ScreenBar Halo 2 1,000+ bought in past month at $169.15 and ScreenBar Pro 600+ at $118.15 (VERIFIED via DataForSEO). Owns the premium monitor-light tier: 1,600 of the 2,300 monitor-light units sold at $60 or more.",
+    "is_whale": true
+   },
+   {
+    "store": "Quntis",
+    "url": "https://quntis.com/",
+    "price": 48.44,
+    "traction_evidence": "5 Quntis ads on the first screen for 'monitor light bar' (VERIFIED read). Amazon: curved monitor light bar 1,000+ at $48.44, others 200 to 500 at $42.49 to $49.99 (VERIFIED via DataForSEO; price shown is the Amazon price).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-21. https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=led%20desk%20lamp : about 1,100 keyword results; first screen: Lovely Home Icon 4, SpaceArt 3, Genion Space 2, Lume Cube 2, Dazuma Lighting 1, plus unrelated advertisers. 'monitor light bar': about 800 results; first screen: Quntis 5, the rest unrelated. 'architect desk lamp': about 40 results, none of them lamp sellers. Thin, noisy ad field (VERIFIED read, flaky page).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: LAOPAO Double Head LED Architect Desk Lamp, 24W, 5 colour modes",
+    "url": "https://www.aliexpress.us/item/3256805565994082.html",
+    "unit_cost": 32.53,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 3 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 48 sold, rating 4.5, 'Save $9.17', list price shown $41.70, no new-shopper tag, 'Free shipping' tag."
+   },
+   {
+    "source": "AliExpress US stock: LED Desk Lamp with Clamp, flexible 4-section swing arm, three light sources",
+    "url": "https://www.aliexpress.us/item/3256808662674617.html",
+    "unit_cost": 24.73,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 130 sold, rating 4.7, 'New shoppers save $71.80', list price shown $96.53."
+   },
+   {
+    "source": "AliExpress US stock: Eye-care Double Head Desk Lamp, clip-on, 180 degree foldable",
+    "url": "https://www.aliexpress.us/item/3256812848601868.html",
+    "unit_cost": 22.29,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-21 with the 'Shipping from: United States' filter; item pages are behind a captcha, so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 16 sold, rating 5.0, 'Save $55.64', 'Free shipping' tag. Plastic, USB powered, a lighter build than the Amazon leaders."
+   },
+   {
+    "source": "AliExpress US stock: Double Head Scissor Arm LED Desk Lamp with Clamp",
+    "url": "https://www.aliexpress.us/item/3256812724208588.html",
+    "unit_cost": 12.29,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-21, US ship-from filter; the card carries a 'New shoppers save' tag, so this is a first-order promo price and the repeat price is UNKNOWN). 96 sold, rating 4.9, 'New shoppers save $41.79', list price shown $54.08."
+   },
+   {
+    "source": "AliExpress China: Desk Lamp, 3 colours, stepless dimming, adjustable",
+    "url": "https://www.aliexpress.us/item/3256807801422590.html",
+    "unit_cost": 34.91,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "Card: 'Delivery: Nov. 30 - Dec. 05' (9 to 14 days from the read date)",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-21, ships from China; 'New shoppers save' promo price, repeat price UNKNOWN). 1,000 sold, rating 4.9; shipping fee not shown on the card."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com/",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN (search pages redirect to a 'Human verification' page in WebFetch and Playwright on 2026-11-21). Zendrop, Spocket, AutoDS, Syncee, TopDawg and Doba show no prices without an account."
+   },
+   {
+    "source": "Cost proxy: Amazon top architect clamp lamp (retail, not a supplier)",
+    "url": "https://www.amazon.com/dp/B0BRCJL4MM",
+    "unit_cost": 44.15,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (Prime terms not read)",
+    "label": "PROXY, VERIFIED retail price via DataForSEO 2026-11-21; 4,000+ bought in past month, 3,663 ratings, #6 in Desk Lamps, item weight 2.9 pounds."
+   }
+  ],
+  "best_us_landed_cost": 32.53,
+  "best_us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 48 sold, rating 4.5, 'Fastest delivery in 3 days'; read 2026-11-21; not a supplier quote). Lighter clip-on models read $22.29 non-promo and $12.29 to $24.73 on promo cards.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. The only comparable China card read ($34.91, promo, 1,000 sold) does not show a shipping fee. A 3 lb, 31 inch lamp gains nothing from China shipping on the prices seen.",
+  "weight_lb": 3.5,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Lamp plus a monitor light bar or RGB back-light strip as a 'desk lighting kit'. US-stock light bars read $8.55 to $21.41 on non-promo cards (VERIFIED). This is a bundle of cheap parts, which the Nov 14 decision says does not earn a premium on its own.",
+  "whale_note": "BenQ owns the premium monitor-light tier and Lume Cube the creator tier. The architect clamp lamp itself has no whale: 11 brand names sell at $40 or more, the largest listing at 4,000+ a month, almost all priced $41 to $60. Under $40, 55 listings sell 47,800 units a month.",
+  "ip_safety_flags": "No patent search done (UNKNOWN); BenQ's asymmetric ScreenBar optics are patented per its marketing, so avoid a screen-top bar that copies it. 'Eye-caring' and 'eye protection' on supplier listings are health claims: do not use them. Mains adapter: UL or ETL listing UNKNOWN. Fast-lane flag: ads would start before the sample is in hand.",
+  "season_note": "Winter is the season: Google searches for 'led desk lamp' were 14,800 in Dec 2025, 18,100 in Jan 2026 and 14,800 in Feb against 3,600 in Jul and 4,400 in Oct 2026; 'desk lamp with clamp' 3,600 in Jan 2026; 'architect desk lamp' only 590 a month (VERIFIED via DataForSEO Google Ads data). Dec to Feb good, but total search demand is small.",
+  "risks": "1) Price ceiling: only 1,000 of 14,350 monthly Amazon units sell at $60 or more. 2) On $32.53 the cost is close to half of a $69.99 price; the script will show it fails the 35 percent guide. 3) Weak 3-second demo and a thin, noisy ad field. 4) Tech-worker buyers price-check on Amazon, where the leader is $44.15 with 3,663 ratings. Kept as the best desk-setup entry found, not as a recommendation.",
+  "checked": "2026-11-21"
+ }
+]

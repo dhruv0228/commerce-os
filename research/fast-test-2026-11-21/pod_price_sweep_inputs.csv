@@ -1,0 +1,34 @@
+product_id,scenario,field,value,label,source,checked
+pet-portrait-bundle-149,base,price,149,ASSUMED,price sweep requested by the battle skeptic; Crown & Paw sells portrait blankets from $49.95 (research/fast-test-2026-11-21/battle.json),2026-11-21
+pet-portrait-bundle-149,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pet-portrait-bundle-149,base,product_cost,51.57,ESTIMATED,Printful catalog 2026-11-13: sherpa 50x60 $35.76 + canvas 8x10 $15.81,2026-11-13
+pet-portrait-bundle-149,base,supplier_shipping,21.18,ESTIMATED,Stage C correction: printful.com/shipping 2026-11-13: blankets and canvas 'ship separately'; rule says add each item's single-product rate: sherpa $13.99 + small canvas $6.79 + $0.40 holiday surcharge (to Jan 17 2027) = $21.18 (was $20.88 using the …,2026-11-13
+pet-portrait-bundle-149,base,duties_other,5.0,ASSUMED,Stage C correction: Base was $0 and omitted art cost. ~$2 AI generation (≈50 preview images per purchase at ~$0.04) + ~$3 retouch/QC allowance. Founder may do QC himself for the first orders.,2026-11-13
+pet-portrait-bundle-149,base,packaging,0,ASSUMED,POD default packaging; branded inserts would add cost,2026-11-13
+pet-portrait-bundle-149,base,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee on standard orders,2026-11-13
+pet-portrait-bundle-149,base,refund_pct,0.05,ASSUMED,"personalized, reprint-only policy; run 5% and 10%",2026-11-13
+pet-portrait-bundle-149,base,payment_pct,0.029,ESTIMATED,"Shopify Payments 2.9%, no platform fee (CLAUDE.md section 4)",2026-11-21
+pet-portrait-bundle-149,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pet-portrait-bundle-149,base,benchmark_cpa,39.23,ESTIMATED,"Triple Whale Pets and Animals median, Nov 2025 to Oct 2026, read 2026-11-21 (04_reality_and_benchmarks.md)",2026-11-21
+pet-portrait-bundle-119,base,price,119,ASSUMED,price sweep requested by the battle skeptic; Crown & Paw sells portrait blankets from $49.95 (research/fast-test-2026-11-21/battle.json),2026-11-21
+pet-portrait-bundle-119,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pet-portrait-bundle-119,base,product_cost,51.57,ESTIMATED,Printful catalog 2026-11-13: sherpa 50x60 $35.76 + canvas 8x10 $15.81,2026-11-13
+pet-portrait-bundle-119,base,supplier_shipping,21.18,ESTIMATED,Stage C correction: printful.com/shipping 2026-11-13: blankets and canvas 'ship separately'; rule says add each item's single-product rate: sherpa $13.99 + small canvas $6.79 + $0.40 holiday surcharge (to Jan 17 2027) = $21.18 (was $20.88 using the …,2026-11-13
+pet-portrait-bundle-119,base,duties_other,5.0,ASSUMED,Stage C correction: Base was $0 and omitted art cost. ~$2 AI generation (≈50 preview images per purchase at ~$0.04) + ~$3 retouch/QC allowance. Founder may do QC himself for the first orders.,2026-11-13
+pet-portrait-bundle-119,base,packaging,0,ASSUMED,POD default packaging; branded inserts would add cost,2026-11-13
+pet-portrait-bundle-119,base,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee on standard orders,2026-11-13
+pet-portrait-bundle-119,base,refund_pct,0.05,ASSUMED,"personalized, reprint-only policy; run 5% and 10%",2026-11-13
+pet-portrait-bundle-119,base,payment_pct,0.029,ESTIMATED,"Shopify Payments 2.9%, no platform fee (CLAUDE.md section 4)",2026-11-21
+pet-portrait-bundle-119,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pet-portrait-bundle-119,base,benchmark_cpa,39.23,ESTIMATED,"Triple Whale Pets and Animals median, Nov 2025 to Oct 2026, read 2026-11-21 (04_reality_and_benchmarks.md)",2026-11-21
+pet-portrait-bundle-99,base,price,99,ASSUMED,price sweep requested by the battle skeptic; Crown & Paw sells portrait blankets from $49.95 (research/fast-test-2026-11-21/battle.json),2026-11-21
+pet-portrait-bundle-99,base,discount_pct,0,ASSUMED,Proposed house policy: no sitewide discount (premium positioning; offer free shipping or a gift note instead). Pending Dhruv at Gate 1,2026-11-13
+pet-portrait-bundle-99,base,product_cost,51.57,ESTIMATED,Printful catalog 2026-11-13: sherpa 50x60 $35.76 + canvas 8x10 $15.81,2026-11-13
+pet-portrait-bundle-99,base,supplier_shipping,21.18,ESTIMATED,Stage C correction: printful.com/shipping 2026-11-13: blankets and canvas 'ship separately'; rule says add each item's single-product rate: sherpa $13.99 + small canvas $6.79 + $0.40 holiday surcharge (to Jan 17 2027) = $21.18 (was $20.88 using the …,2026-11-13
+pet-portrait-bundle-99,base,duties_other,5.0,ASSUMED,Stage C correction: Base was $0 and omitted art cost. ~$2 AI generation (≈50 preview images per purchase at ~$0.04) + ~$3 retouch/QC allowance. Founder may do QC himself for the first orders.,2026-11-13
+pet-portrait-bundle-99,base,packaging,0,ASSUMED,POD default packaging; branded inserts would add cost,2026-11-13
+pet-portrait-bundle-99,base,fulfillment_fee,0,ESTIMATED,Printful charges no separate fulfillment fee on standard orders,2026-11-13
+pet-portrait-bundle-99,base,refund_pct,0.05,ASSUMED,"personalized, reprint-only policy; run 5% and 10%",2026-11-13
+pet-portrait-bundle-99,base,payment_pct,0.029,ESTIMATED,"Shopify Payments 2.9%, no platform fee (CLAUDE.md section 4)",2026-11-21
+pet-portrait-bundle-99,base,payment_fixed,0.3,ESTIMATED,standard $0.30 card fee,2026-11-13
+pet-portrait-bundle-99,base,benchmark_cpa,39.23,ESTIMATED,"Triple Whale Pets and Animals median, Nov 2025 to Oct 2026, read 2026-11-21 (04_reality_and_benchmarks.md)",2026-11-21

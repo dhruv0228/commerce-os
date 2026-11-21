@@ -1,13 +1,14 @@
 {
  "summary": {
   "checked": "2026-11-21",
-  "products": 24,
+  "products": 30,
   "tiers": {
    "green": 3,
-   "amber": 5,
-   "red": 12
+   "amber": 7,
+   "red": 16
   },
   "blocked": 4,
+  "green_that_survive_proven_listing_cost": 0,
   "startable": 3,
   "robust": 0,
   "cushion_pass": 2,
@@ -30,8 +31,8 @@
    "ad_spend_benchmark": 53277.92999999999,
    "ad_spend_tough": 69261.309,
    "ad_spend_per_day_benchmark": 1331.94825,
-   "median_cost_share_of_price_in_our_candidates": 0.4174783188792528,
-   "supplier_spend": 41747.83188792528,
+   "median_cost_share_of_price_in_our_candidates": 0.42303254096468956,
+   "supplier_spend": 42303.254096468954,
    "creator_month_ad_share_of_revenue": 0.5490509862833896,
    "creator_month_profit_share_of_revenue": 0.10039944545022259,
    "profit_if_creator_margin": 10039.94454502226,
@@ -106,119 +107,55 @@
    "source": "Meta Business Help Center, about 50 results per ad set per week (04_reality_and_benchmarks.md)"
   },
   "category_rules": {
-   "_note": "Which Meta benchmark each product uses. First matching keyword in the product's category wins; otherwise the file default.",
-   "keywords": [
-    [
-     "pet",
-     "pets"
-    ],
-    [
-     "dog",
-     "pets"
-    ],
-    [
-     "cat",
-     "pets"
-    ],
-    [
-     "beauty",
-     "beauty"
-    ],
-    [
-     "hair",
-     "beauty"
-    ],
-    [
-     "skin",
-     "beauty"
-    ],
-    [
-     "groom",
-     "beauty"
-    ],
-    [
-     "auto",
-     "auto"
-    ],
-    [
-     "car",
-     "auto"
-    ],
-    [
-     "truck",
-     "auto"
-    ],
-    [
-     "tech",
-     "tech"
-    ],
-    [
-     "desk",
-     "tech"
-    ],
-    [
-     "electronic",
-     "tech"
-    ],
-    [
-     "gadget",
-     "tech"
-    ],
-    [
-     "fitness",
-     "outdoor"
-    ],
-    [
-     "sport",
-     "outdoor"
-    ],
-    [
-     "outdoor",
-     "outdoor"
-    ],
-    [
-     "camp",
-     "outdoor"
-    ],
-    [
-     "recovery",
-     "outdoor"
-    ],
-    [
-     "home",
-     "home"
-    ],
-    [
-     "kitchen",
-     "home"
-    ],
-    [
-     "clean",
-     "home"
-    ],
-    [
-     "bath",
-     "home"
-    ],
-    [
-     "light",
-     "home"
-    ],
-    [
-     "decor",
-     "home"
-    ],
-    [
-     "bed",
-     "home"
-    ]
-   ],
+   "_note": "Which Meta benchmark each product uses. Each scout file has a default. In the two mixed files a keyword in the product's category picks the benchmark; if more than one matches, the more expensive one is used.",
    "file_default": {
     "pets": "pets",
     "home": "home",
     "auto-outdoor": "outdoor",
     "tech-desk": "tech",
     "beauty-fitness": "beauty"
+   },
+   "file_keywords": {
+    "auto-outdoor": [
+     [
+      "tech",
+      "tech"
+     ],
+     [
+      "car",
+      "auto"
+     ],
+     [
+      "truck",
+      "auto"
+     ],
+     [
+      "auto",
+      "auto"
+     ]
+    ],
+    "beauty-fitness": [
+     [
+      "fitness",
+      "outdoor"
+     ],
+     [
+      "sport",
+      "outdoor"
+     ],
+     [
+      "recovery",
+      "outdoor"
+     ],
+     [
+      "massage",
+      "outdoor"
+     ],
+     [
+      "gym",
+      "outdoor"
+     ]
+    ]
    }
   },
   "test_plan": {
@@ -260,12 +197,29 @@
     "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found."
    },
    "caution": {
-    "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March.",
+    "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
     "heated-vest-powerbank-kit": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
     "heated-socks-app": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
     "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
     "mattress-vacuum-uv": "UV light: no germ-killing or health claims allowed without proof.",
-    "japanese-style-knife-set": "Sharp goods: check Meta and Shopify Payments rules for kitchen knives before launch; never call it Japanese-made unless it is."
+    "japanese-style-knife-set": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
+    "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold."
+   }
+  },
+  "proven_listing_cost_usd": {
+   "_label": "ESTIMATED",
+   "_source": "The battle skeptic's re-check of the three products that earn money on the cheapest listing: the cost of the better-proven or closer-matching US listing in candidates_*.json (battle.json, refute)",
+   "japanese-style-knife-set": {
+    "value": 33.39,
+    "note": "next US block set"
+   },
+   "rechargeable-wall-sconce-pair": {
+    "value": 47.15,
+    "note": "style closer to the Amazon best sellers ($45.91 to $52.89)"
+   },
+   "heated-gloves-7v": {
+    "value": 48.69,
+    "note": "the US listing with 110 sold"
    }
   }
  },
@@ -396,8 +350,14 @@
     }
    },
    "tier": "green",
+   "proven_listing": {
+    "cost": 33.39,
+    "note": "next US block set",
+    "profit_benchmark": 7.889000000000003,
+    "profit_tough": -6.694000000000003
+   },
    "rule_status": "caution",
-   "rule_note": "Sharp goods: check Meta and Shopify Payments rules for kitchen knives before launch; never call it Japanese-made unless it is.",
+   "rule_note": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
    "rank_overall": 1,
    "rank_in_group": 1,
    "test_plan": {
@@ -418,7 +378,9 @@
      "supplier_spend": 146.71719968983905,
      "cash_out_before_payout": 539.2071996898391,
      "net_after_setup_and_sample": -41.349050844239045
-    }
+    },
+    "worst_case_no_sales": -392.49,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -217.49
    }
   },
   {
@@ -444,10 +406,10 @@
     "Ororo"
    ],
    "bundle_idea": "Gloves plus a two-pack of rechargeable hand warmers (US cards $9.33 to $15.95, from a different seller, so a second parcel) or a spare battery pair. A 'two pairs' offer for couples is the simpler way to lift order value from one supplier. Heated socks from the same store are the natural second product.",
-   "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets about as many searches as 'heated vest'); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
+   "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets nearly as many searches as 'heated vest': 165,000 against 201,000 in Dec 2025); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
    "ip_safety_flags": "Lithium battery packs: UL, ETL or UN38.3 paperwork for the unit is UNKNOWN and must be asked for; heating element burn risk if a pack or wire fails. No health claims: competitors lean on Raynaud's, arthritis and circulation wording, which is out of scope here. Do not use Savior Heat, Ororo, Snow Deer or '3M Thinsulate' names unless the unit truly carries them. No patented design seen, generic construction.",
-   "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). Demand falls away by March, so this is a 10 to 12 week product.",
-   "risks": "1) Sizing (S to XL) and fit returns. 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85 with Prime delivery, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Meta CPMs peak in the launch week.",
+   "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). It drops to 33,100 in Feb 2026 and 8,100 in Mar 2026, so this is a 10 to 12 week product.",
+   "risks": "1) Sizing and fit returns (the size range on the US listings was not readable). 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Ad prices peak in the launch week (see 03_fulfillment_and_money.md).",
    "us": {
     "price": 97.99,
     "landed": 25.89,
@@ -547,8 +509,14 @@
     }
    },
    "tier": "green",
+   "proven_listing": {
+    "cost": 48.69,
+    "note": "the US listing with 110 sold",
+    "profit_benchmark": -5.02111,
+    "profit_tough": -18.611110000000004
+   },
    "rule_status": "caution",
-   "rule_note": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March.",
+   "rule_note": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
    "rank_overall": 2,
    "rank_in_group": 1,
    "test_plan": {
@@ -569,7 +537,9 @@
      "supplier_spend": 153.87162506367804,
      "cash_out_before_payout": 545.761625063678,
      "net_after_setup_and_sample": -16.994236712514876
-    }
+    },
+    "worst_case_no_sales": -391.89,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -216.89
    }
   },
   {
@@ -682,8 +652,14 @@
     }
    },
    "tier": "green",
-   "rule_status": "ok",
-   "rule_note": "",
+   "proven_listing": {
+    "cost": 47.15,
+    "note": "style closer to the Amazon best sellers ($45.91 to $52.89)",
+    "profit_benchmark": 4.140889999999999,
+    "profit_tough": -10.442110000000007
+   },
+   "rule_status": "caution",
+   "rule_note": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
    "rank_overall": 3,
    "rank_in_group": 2,
    "test_plan": {
@@ -704,7 +680,9 @@
      "supplier_spend": 203.21079866440903,
      "cash_out_before_payout": 605.900798664409,
      "net_after_setup_and_sample": -52.59091465826913
-    }
+    },
+    "worst_case_no_sales": -402.69,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -227.69
    }
   },
   {
@@ -732,10 +710,10 @@
     "NOCO"
    ],
    "bundle_idea": "Two-pack ('one for each car') or inflator plus a hard case, valve adapters and a digital gauge, to lift the order above $60. A single unit at the Airmoto price is the weakest version of this offer.",
-   "whale_note": "Two whales with large budgets. Airmoto is a DTC single-product brand built on paid ads (1.5 million units claimed, 10,000+ a month on Amazon at $59.49); Fanttik leads on Amazon and TikTok Shop. Every one of the top 12 Amazon listings at $40 or more is a named brand. A no-name inflator competes on the same promise at the same price.",
-   "ip_safety_flags": "Lithium battery with a motor and compressor: certification UNKNOWN; overheating on long fills is the usual complaint class. Pressure accuracy claims must match the unit. Do not use the Airmoto or Fanttik names, their product shapes or their images. No patent check was done on the handheld form; Airmoto's page should be checked for patent markings before any look-alike is sold.",
+   "whale_note": "Two whales with large budgets. Airmoto is a DTC single-product brand built on paid ads (1.5 million units claimed, 10,000+ a month on Amazon at $59.49); Fanttik is a large Amazon and TikTok Shop brand (8,100+ units a month here, 1,315 reviews on its own site). Most of the top Amazon listings at $40 or more are named brands (Airmoto, OlarHike, AstroAI, Etenwolf, Fanttik, NOCO, Avid Power, Bullseye Pro); only two no-name listings appear in the top 13. A no-name inflator competes on the same promise at the same price.",
+   "ip_safety_flags": "Lithium battery with a motor and compressor: certification UNKNOWN. Pressure, speed and 'fills a car tire' claims must match the unit we actually ship. Do not use the Airmoto or Fanttik names, their product shapes or their images. No patent check was done on the handheld form; Airmoto's page should be checked for patent markings before any look-alike is sold.",
    "season_note": "Good in winter. 'portable tire inflator' about 90,500 US Google searches in Dec 2025, 74,000 in Nov 2025, 49,500 in Jan 2026, 27,100 in Jul 2026; 'portable air compressor' 165,000 in Dec 2025; 'airmoto' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A common gift for drivers.",
-   "risks": "1) Brand-heavy market with two whales; the same repo scan on Nov 15 already flagged it as a lithium gadget. 2) 179,700+ units a month sell under $40 on Amazon, so a $59.99 price needs a reason. 3) The cheap US listings do not state battery size; a weak unit that cannot fill a car tire becomes a refund. 4) US listings have 3 to 16 sales. 5) Weight is ESTIMATED from the Airmoto Amazon listing. 6) Earlier repo research (data/opportunities.csv) priced this type at $30 to $40 and found it negative there; only a bundle changes that.",
+   "risks": "1) Brand-heavy market with two whales; the Nov 15 repo scan (research/platform-winners-2026-11-15/winners_scored.csv) already flagged it as a lithium-heavy gadget. 2) 179,700+ units a month sell under $40 on Amazon, so a $59.99 price needs a reason. 3) The cheap US listings do not state battery size; a weak unit that cannot fill a car tire becomes a refund. 4) US listings have 3 to 16 sales. 5) Weight is ESTIMATED from the Airmoto Amazon listing. 6) The earlier repo scan (data/opportunities.csv) scored this type negative at a $30 price and positive at a $99.99 price point; this file adds US-stock costs that scan did not have, and the scripts should rerun both.",
    "us": {
     "price": 59.99,
     "landed": 15.02,
@@ -821,6 +799,7 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
    "rank_overall": 4,
@@ -843,7 +822,161 @@
      "supplier_spend": 113.49554178630798,
      "cash_out_before_payout": 494.51554178630795,
      "net_after_setup_and_sample": -83.8242164122715
+    },
+    "worst_case_no_sales": -381.02,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -206.02
+   }
+  },
+  {
+   "id": "portable-carplay-screen-kit",
+   "group": "tech-desk",
+   "category": "car tech / phone accessories",
+   "benchmark_used": "tech",
+   "product": "Portable wireless CarPlay and Android Auto dash screen, 9 to 10.26 inch, with dash mount and 12V power; rear camera as the kit add-on",
+   "what_it_solves": "Older cars with no CarPlay or a tiny factory screen. The screen sits on the dash, plugs into the 12V socket, pairs with the phone wirelessly and plays sound through AUX, FM or Bluetooth, so there is no stereo swap and no installer.",
+   "sell_price": 129.99,
+   "sell_price_source": "Proposed kit price (screen plus rear camera). Anchors: https://lamtto.com/products.json shows LAMTTO RC30 9 inch with 1080P backup camera at $139.99 (compare-at $159.99), RC28 10.25 inch at $139.99, RC17 8 inch at $79.99; https://www.ottocast.com/products.json shows ScreenFlow at $159 and Ottoscreen AI at $169; https://carpuride.com/products.json shows W703 at $159.99 to $189.99 (all VERIFIED, read 2026-11-21). Amazon median for selling listings at $40 or more is $76.70 (VERIFIED via DataForSEO 2026-11-21).",
+   "amazon_typical_price": 76.7,
+   "amazon_bought_past_month": 26300,
+   "amazon_listings_counted": 63,
+   "us_landed_cost": 54.99,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 12 sold; read 2026-11-21; not a supplier quote). The most proven US listing (1,000+ sold) shows $36.35, a new-shopper promo price whose repeat price is UNKNOWN.",
+   "cn_landed_cost": 58.39,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 70 sold; read 2026-11-21). A promo card shows $37.84 (265 sold, ESTIMATED). China gives no cost advantage here.",
+   "us_sources": 6,
+   "weight_lb": 2.2,
+   "demo_score": 4,
+   "whales": [],
+   "bundle_idea": "Screen plus rear camera plus a second mount (suction and adhesive) and a hardwire cable, sold as an 'any car' kit at $129.99, with screen only at $99.99 as the down-sell. LAMTTO sells the camera alone at $29.99 and mounts at $17.99 to $18.99 (VERIFIED, products.json), which sets the add-on prices. Camera and mount costs from US stock were not read (UNKNOWN).",
+   "whale_note": "No giant brand. Ottocast, Carpuride and LAMTTO are mid-size specialists; 26 different brand names have Amazon sales at $40 or more. The pressure comes from price, not from a whale: Temu runs 5 to 8 first-screen ads on these keywords and Amazon generics sell at $45 to $77 with fast delivery.",
+   "ip_safety_flags": "Apple CarPlay and Android Auto are trademarks of Apple and Google: use 'works with' wording only, no logos, no claim of certification. Whether these generic units hold Apple or Google licences is UNKNOWN (web search only; no licence statement found). Many units advertise built-in Netflix or YouTube: do not advertise video while driving (driver distraction, platform ad policy) and prefer a unit without those apps. Wireless device: FCC ID on the unit is UNKNOWN until the sample arrives. Dash mounting must not block the windshield view (state laws vary). Fast-lane flag: ads would start before the sample is in hand (Dhruv's approved exception).",
+   "season_note": "Good for December gifting (drivers, dads, older cars). Google searches for 'portable carplay screen' were 9,900 in Dec 2025 against 5,400 in Jan and Feb 2026, but only 1,300 in Oct 2026, so the exact phrase is fading; 'carplay screen' is steady at 8,100 to 9,900 and 'wireless carplay adapter' ran 74,000 in Dec 2025 and 49,500 to 60,500 in Jan and Feb (VERIFIED via DataForSEO Google Ads data). No winter penalty.",
+   "risks": "1) Price check: the same class of screen is $45 to $77 on Amazon, so a $129.99 kit needs a clear reason (camera, mounts, support, fit help). 2) Cost: the only non-promo US prices read are $44 to $55 on thin listings; the proven listings carry promo tags. On $54.99 the cost is above the 35 percent guide at $129.99; the script decides. 3) Electronics defects and 'sound through FM is poor' complaints (a carplaylife.com review of a LAMTTO unit notes weak FM transmission and slow connection; ESTIMATED, search snippet). 4) Returns from buyers who expected a factory-style install. 5) Unlicensed CarPlay implementation could stop working after an iOS update; sellers advertise OTA updates but that is unverified. 6) US listings can run out mid-test; name a second US listing before ads start.",
+   "us": {
+    "price": 129.99,
+    "landed": 54.99,
+    "card_fee": 4.069710000000001,
+    "refund_allowance": 7.7994,
+    "pre_ad_contribution": 63.13089,
+    "break_even_cac": 63.13089,
+    "break_even_roas": 2.0590554006129174,
+    "target_cac": 47.3481675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 12.070889999999999,
+    "profit_tough": -3.2471099999999993
+   },
+   "us_refund_high": {
+    "price": 129.99,
+    "landed": 54.99,
+    "card_fee": 4.069710000000001,
+    "refund_allowance": 12.999000000000002,
+    "pre_ad_contribution": 57.93129,
+    "break_even_cac": 57.93129,
+    "break_even_roas": 2.2438651029521353,
+    "target_cac": 43.4484675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 6.871289999999995,
+    "profit_tough": -8.446710000000003
+   },
+   "us_cost_up_20pct": {
+    "price": 129.99,
+    "landed": 65.988,
+    "card_fee": 4.069710000000001,
+    "refund_allowance": 7.7994,
+    "pre_ad_contribution": 52.13289000000001,
+    "break_even_cac": 52.13289000000001,
+    "break_even_roas": 2.4934355260182195,
+    "target_cac": 39.09966750000001,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 1.0728900000000081,
+    "profit_tough": -14.24510999999999
+   },
+   "china": {
+    "price": 129.99,
+    "landed": 58.39,
+    "card_fee": 4.069710000000001,
+    "refund_allowance": 12.999000000000002,
+    "pre_ad_contribution": 54.531290000000006,
+    "break_even_cac": 54.531290000000006,
+    "break_even_roas": 2.3837690250863313,
+    "target_cac": 40.8984675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 3.4712900000000033,
+    "profit_tough": -11.846709999999995
+   },
+   "score": 65.8,
+   "score_parts": {
+    "profit_tough_30": 11.8,
+    "demand_20": 16.0,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 0.0,
+    "demo_10": 8.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 70.99000000000001,
+     "cash_per_order_before_payout": 121.368,
+     "orders": 3,
+     "sales": 389.97,
+     "ad_spend": 199.13400000000001,
+     "supplier_spend": 164.97,
+     "profit_after_everything": -80.73133000000001,
+     "orders_needed_for_goal": 16,
+     "cash_needed_for_goal": 2012.878
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 70.99000000000001,
+     "cash_per_order_before_payout": 121.368,
+     "orders": 7,
+     "sales": 909.9300000000001,
+     "ad_spend": 464.646,
+     "supplier_spend": 384.93,
+     "profit_after_everything": -93.71977000000001,
+     "orders_needed_for_goal": 16,
+     "cash_needed_for_goal": 2012.878
     }
+   },
+   "tier": "amber",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 5,
+   "rank_in_group": 1,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 70.99000000000001,
+    "stop_ad_with_no_sale_at": 63.13089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 891.0399529964748,
+     "supplier_spend": 376.9388954171563,
+     "cash_out_before_payout": 797.9288954171564,
+     "net_after_setup_and_sample": 11.752097532314913
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 685.4153484588268,
+     "supplier_spend": 289.9529964747356,
+     "cash_out_before_payout": 710.9429964747355,
+     "net_after_setup_and_sample": -88.11146343668082
+    },
+    "worst_case_no_sales": -420.99,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -245.99
    }
   },
   {
@@ -958,9 +1091,10 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 5,
+   "rank_overall": 6,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
@@ -980,7 +1114,161 @@
      "supplier_spend": 71.72471634516481,
      "cash_out_before_payout": 450.6747163451648,
      "net_after_setup_and_sample": -53.72964331492416
+    },
+    "worst_case_no_sales": -378.95,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -203.95
+   }
+  },
+  {
+   "id": "mini-smart-projector",
+   "group": "tech-desk",
+   "category": "small gadgets",
+   "benchmark_used": "tech",
+   "product": "Mini smart projector (HY300 class: 720p native, Android apps, WiFi and Bluetooth, 180 degree stand), sold with a stand and optional digital scene packs",
+   "what_it_solves": "Movie night or ambient scenes on a bedroom wall or ceiling without a TV; small enough to move between rooms. The 3-second picture is a film or a fireplace scene filling a dark wall.",
+   "sell_price": 99.99,
+   "sell_price_source": "https://trylumibeam.com/products.json shows 'Lumi Beam Portable Projector' at $99.99 and $109.99, compare-at $199.98 and $219.98; the product page states 'Native 1280 x 720p' and '200 ANSI lumens' (VERIFIED, read 2026-11-21). Lower anchors: https://magcubic.com/products.json HY300Pro+ at $54 and HY320Pro at $79.99 (VERIFIED); Amazon median for projectors selling at $40 to $100 is $56.98 (VERIFIED via DataForSEO).",
+   "amazon_typical_price": 56.98,
+   "amazon_bought_past_month": 54150,
+   "amazon_listings_counted": 61,
+   "us_landed_cost": 36.39,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 182 sold, rating 4.7; read 2026-11-21; not a supplier quote). A generic unit, not the Magcubic-branded HY300 Pro.",
+   "cn_landed_cost": 58.79,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card for the Magcubic HY300 PRO, 'Free shipping' tag, 50,000+ sold; read 2026-11-21). A generic China unit shows $23.65 on a promo card (ESTIMATED). The two are different products, so this is not a like-for-like US against China comparison.",
+   "us_sources": 4,
+   "weight_lb": 2.5,
+   "demo_score": 5,
+   "whales": [],
+   "bundle_idea": "Projector plus stand at $99.99, with digital scene packs (fireplace, rain, night sky loops) as a software add-on that Dhruv can build and deliver by download. Lumi Beam charges $29.99 per pack and $24.99 for a stand (VERIFIED). Our packs must be original or licensed footage; Lumi Beam sells packs named after film and book franchises, which we would not copy.",
+   "whale_note": "No whale under $100. Epson, XGIMI and Anker Nebula sit at $300 and up. In the $40 to $100 band 21 brand names have Amazon sales; five listings with licensed Roku or Google TV software (Aurzen, Happrun, Elephas) hold 13,900 of the 54,150 units.",
+   "ip_safety_flags": "The HY300 shape is Magcubic's product; design patent status UNKNOWN (not searched at USPTO). Generic units ship with Netflix, YouTube and Prime Video icons but are not certified by those services: do not show their logos or promise those apps in ads. '4K', '8K' and '8000 lumens' on supplier listings are decoding or marketing figures, not native output: state 720p and the ANSI figure only (FTC deception risk otherwise). Mains power adapter: UL or ETL listing UNKNOWN. Not a children's product; do not market it as one. Fast-lane flag: ads would start before the sample is in hand.",
+   "season_note": "December is the best month: Google searches for 'mini projector' were 40,500 in Dec 2025, 22,200 in Jan 2026, 14,800 in Feb and 33,100 in Oct 2026; 'portable projector' 60,500 in Dec 2025 (VERIFIED via DataForSEO Google Ads data). Expect a drop after Christmas. A US-stock order placed after about Dec 10 to 14 may miss Christmas (see 03_fulfillment_and_money.md).",
+   "risks": "1) Price check: the same hardware is $42 to $67 on Amazon and $54 on the maker's own site, so $99.99 depends on a different story (Lumi Beam sells it as reading ambience with scene packs). 2) On $36.39 the cost is above the 35 percent guide unless the price holds near $100; the script decides. 3) Returns for 'too dim': 200 to 290 ANSI lumens only works in a dark room. 4) The proven Magcubic listing's real repeat price is UNKNOWN and may be near $58. 5) Lamp, fan and power adapter defects; no sample yet. 6) Generic firmware and app-store quality vary by batch.",
+   "us": {
+    "price": 99.99,
+    "landed": 36.39,
+    "card_fee": 3.1997099999999996,
+    "refund_allowance": 5.9994,
+    "pre_ad_contribution": 54.40089,
+    "break_even_cac": 54.40089,
+    "break_even_roas": 1.8380214000175366,
+    "target_cac": 40.800667499999996,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": 3.3408899999999946,
+    "profit_tough": -11.977110000000003
+   },
+   "us_refund_high": {
+    "price": 99.99,
+    "landed": 36.39,
+    "card_fee": 3.1997099999999996,
+    "refund_allowance": 9.999,
+    "pre_ad_contribution": 50.401289999999996,
+    "break_even_cac": 50.401289999999996,
+    "break_even_roas": 1.9838777936040923,
+    "target_cac": 37.8009675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -0.6587100000000063,
+    "profit_tough": -15.976710000000004
+   },
+   "us_cost_up_20pct": {
+    "price": 99.99,
+    "landed": 43.668,
+    "card_fee": 3.1997099999999996,
+    "refund_allowance": 5.9994,
+    "pre_ad_contribution": 47.12288999999999,
+    "break_even_cac": 47.12288999999999,
+    "break_even_roas": 2.1218987205580984,
+    "target_cac": 35.342167499999995,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -3.937110000000011,
+    "profit_tough": -19.25511000000001
+   },
+   "china": {
+    "price": 99.99,
+    "landed": 58.79,
+    "card_fee": 3.1997099999999996,
+    "refund_allowance": 9.999,
+    "pre_ad_contribution": 28.00128999999999,
+    "break_even_cac": 28.00128999999999,
+    "break_even_roas": 3.570906911788708,
+    "target_cac": 21.000967499999994,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -23.058710000000012,
+    "profit_tough": -38.37671000000001
+   },
+   "score": 63.0,
+   "score_parts": {
+    "profit_tough_30": 3.0,
+    "demand_20": 20.0,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 0.0,
+    "demo_10": 10.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 52.39,
+     "cash_per_order_before_payout": 102.768,
+     "orders": 4,
+     "sales": 399.96,
+     "ad_spend": 265.512,
+     "supplier_spend": 145.56,
+     "profit_after_everything": -100.29844000000001,
+     "orders_needed_for_goal": 21,
+     "cash_needed_for_goal": 2210.518
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 52.39,
+     "cash_per_order_before_payout": 102.768,
+     "orders": 9,
+     "sales": 899.91,
+     "ad_spend": 597.402,
+     "supplier_spend": 327.51,
+     "profit_after_everything": -160.18399000000005,
+     "orders_needed_for_goal": 21,
+     "cash_needed_for_goal": 2210.518
     }
+   },
+   "tier": "amber",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 7,
+   "rank_in_group": 2,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 52.39,
+    "stop_ad_with_no_sale_at": 54.40089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 685.3995299647473,
+     "supplier_spend": 249.4418331374853,
+     "cash_out_before_payout": 651.8318331374853,
+     "net_after_setup_and_sample": -29.489265569917748
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 527.2304076651902,
+     "supplier_spend": 191.878333182681,
+     "cash_out_before_payout": 594.268333182681,
+     "net_after_setup_and_sample": -115.54328120762905
+    },
+    "worst_case_no_sales": -402.39,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -227.39
    }
   },
   {
@@ -1093,9 +1381,10 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 6,
+   "rank_overall": 8,
    "rank_in_group": 1,
    "test_plan": {
     "ad_budget": 350,
@@ -1115,7 +1404,9 @@
      "supplier_spend": 150.1598070550403,
      "cash_out_before_payout": 538.0398070550402,
      "net_after_setup_and_sample": -102.51535559520767
-    }
+    },
+    "worst_case_no_sales": -387.88,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -212.88
    }
   },
   {
@@ -1228,9 +1519,10 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 7,
+   "rank_overall": 9,
    "rank_in_group": 2,
    "test_plan": {
     "ad_budget": 350,
@@ -1250,7 +1542,9 @@
      "supplier_spend": 260.0345104805977,
      "cash_out_before_payout": 663.9245104805977,
      "net_after_setup_and_sample": -134.61880840800796
-    }
+    },
+    "worst_case_no_sales": -403.89,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -228.89
    }
   },
   {
@@ -1377,9 +1671,10 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "UV light: no germ-killing or health claims allowed without proof.",
-   "rank_overall": 8,
+   "rank_overall": 10,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
@@ -1399,14 +1694,16 @@
      "supplier_spend": 192.90902473375215,
      "cash_out_before_payout": 593.7390247337521,
      "net_after_setup_and_sample": -90.88567863529188
-    }
+    },
+    "worst_case_no_sales": -400.83,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -225.82999999999998
    }
   },
   {
    "id": "portable-carplay-screen",
    "group": "auto-outdoor",
    "category": "car and truck accessories / in-car tech",
-   "benchmark_used": "auto",
+   "benchmark_used": "tech",
    "product": "Portable 7 to 9 inch dash-mount screen that adds wireless Apple CarPlay and Android Auto to an older car (plugs into the 12V socket, sound through FM, AUX or Bluetooth)",
    "what_it_solves": "Older cars and work trucks with no touchscreen: maps, calls and music on a large screen without replacing the stereo.",
    "sell_price": 79.99,
@@ -1426,7 +1723,7 @@
    "whale_note": "No single owner: 67 Amazon listings at $40 or more under 28 different first words. Carpuride and LAMTTO are the known names, neither dominant.",
    "ip_safety_flags": "'CarPlay' and 'Apple' are Apple trademarks and 'Android Auto' is Google's: only plain compatibility statements, no logos or 'Apple CarPlay screen' as a product name. FCC ID for the unit is UNKNOWN (it has Wi-Fi, Bluetooth and an FM transmitter). Driver-distraction claims (video while driving) must be avoided. Firmware support comes from the factory, not from us.",
    "season_note": "Neutral to good. 'portable carplay screen' about 9,900 US Google searches in Dec 2025 against 5,400 on average; 'wireless carplay adapter' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A gift for drivers of older cars; not weather-driven.",
-   "risks": "1) The US-stock cost read today is about the Amazon retail price for the same size, so the raw inputs fail the brief's cost guide. 2) Compatibility and connection-drop returns. 3) Electronics defects with no written terms. 4) Trademark care needed in every ad. 5) Weight is the 9.26 inch Amazon unit alone (430 g, ESTIMATED for ours).",
+   "risks": "1) The US-stock cost read today ($44.44) is about the Amazon retail price for the same 7 inch size and sits against a $79.99 DTC price, so the raw inputs do not meet the brief's cost guide. 2) Compatibility and connection-drop returns. 3) Electronics defects with no written terms. 4) Trademark care needed in every ad. 5) Weight is the 9.26 inch Amazon unit alone (430 g, ESTIMATED for ours).",
    "us": {
     "price": 79.99,
     "landed": 44.44,
@@ -1436,11 +1733,11 @@
     "break_even_cac": 28.13089,
     "break_even_roas": 2.843493398182567,
     "target_cac": 21.098167500000002,
-    "benchmark_cpa": 35.63,
-    "tough_cpa": 46.319,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
     "cushion_pass": false,
-    "profit_benchmark": -7.499110000000002,
-    "profit_tough": -18.18811
+    "profit_benchmark": -22.92911,
+    "profit_tough": -38.24711
    },
    "us_refund_high": {
     "price": 79.99,
@@ -1451,11 +1748,11 @@
     "break_even_cac": 24.93129,
     "break_even_roas": 3.2084180160753815,
     "target_cac": 18.6984675,
-    "benchmark_cpa": 35.63,
-    "tough_cpa": 46.319,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
     "cushion_pass": false,
-    "profit_benchmark": -10.698710000000002,
-    "profit_tough": -21.387710000000002
+    "profit_benchmark": -26.12871,
+    "profit_tough": -41.446709999999996
    },
    "us_cost_up_20pct": {
     "price": 79.99,
@@ -1466,11 +1763,11 @@
     "break_even_cac": 19.24289,
     "break_even_roas": 4.1568600142702055,
     "target_cac": 14.432167499999998,
-    "benchmark_cpa": 35.63,
-    "tough_cpa": 46.319,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
     "cushion_pass": false,
-    "profit_benchmark": -16.387110000000003,
-    "profit_tough": -27.076110000000003
+    "profit_benchmark": -31.817110000000003,
+    "profit_tough": -47.13511
    },
    "china": null,
    "score": 64.2,
@@ -1489,32 +1786,33 @@
     "500": {
      "budget": 500,
      "fixed_setup_and_sample": 60.44,
-     "cash_per_order_before_payout": 90.759,
-     "orders": 4,
-     "sales": 319.96,
-     "ad_spend": 185.276,
-     "supplier_spend": 177.76,
-     "profit_after_everything": -133.19244,
+     "cash_per_order_before_payout": 110.818,
+     "orders": 3,
+     "sales": 239.96999999999997,
+     "ad_spend": 199.13400000000001,
+     "supplier_spend": 133.32,
+     "profit_after_everything": -175.18133,
      "orders_needed_for_goal": 26,
-     "cash_needed_for_goal": 2420.174
+     "cash_needed_for_goal": 2941.708
     },
     "1000": {
      "budget": 1000,
      "fixed_setup_and_sample": 60.44,
-     "cash_per_order_before_payout": 90.759,
-     "orders": 10,
-     "sales": 799.9,
-     "ad_spend": 463.19000000000005,
-     "supplier_spend": 444.4,
-     "profit_after_everything": -242.3211,
+     "cash_per_order_before_payout": 110.818,
+     "orders": 8,
+     "sales": 639.92,
+     "ad_spend": 531.024,
+     "supplier_spend": 355.52,
+     "profit_after_everything": -366.41688,
      "orders_needed_for_goal": 26,
-     "cash_needed_for_goal": 2420.174
+     "cash_needed_for_goal": 2941.708
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 9,
+   "rank_overall": 11,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
@@ -1522,19 +1820,21 @@
     "stop_ad_with_no_sale_at": 28.13089,
     "checkpoint_half_budget": 175.0,
     "benchmark": {
-     "orders": 9.823182711198427,
-     "sales": 785.7563850687621,
-     "supplier_spend": 436.5422396856581,
-     "cash_out_before_payout": 846.9822396856581,
-     "net_after_setup_and_sample": -134.10512770137524
+     "orders": 6.854680767724246,
+     "sales": 548.3059146102624,
+     "supplier_spend": 304.6220133176655,
+     "cash_out_before_payout": 715.0620133176656,
+     "net_after_setup_and_sample": -217.61172933803368
     },
     "tough": {
-     "orders": 7.556294393229559,
-     "sales": 604.4279885144324,
-     "supplier_spend": 335.8017228351216,
-     "cash_out_before_payout": 746.2417228351217,
-     "net_after_setup_and_sample": -197.8747136164425
-    }
+     "orders": 5.272831359787881,
+     "sales": 421.7737804694326,
+     "supplier_spend": 234.32462562897342,
+     "cash_out_before_payout": 644.7646256289734,
+     "net_after_setup_and_sample": -262.1105610292567
+    },
+    "worst_case_no_sales": -410.44,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -235.44
    }
   },
   {
@@ -1647,9 +1947,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 10,
+   "rank_overall": 12,
    "rank_in_group": 3,
    "test_plan": {
     "ad_budget": 350,
@@ -1669,18 +1970,20 @@
      "supplier_spend": 210.62177689758624,
      "cash_out_before_payout": 607.3117768975862,
      "net_after_setup_and_sample": -240.56024255377554
-    }
+    },
+    "worst_case_no_sales": -396.69,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -221.69
    }
   },
   {
    "id": "digital-night-vision-binoculars",
    "group": "auto-outdoor",
-   "category": "outdoor / hunting and camping gadgets",
-   "benchmark_used": "tech",
+   "category": "outdoor / hunting and camping gear",
+   "benchmark_used": "outdoor",
    "product": "Digital night vision binoculars or goggles (infrared, 3 inch screen, records photo and video, rechargeable)",
    "what_it_solves": "Seeing wildlife, a campsite or a back yard in full darkness; a gadget gift for hunters, campers and dads.",
    "sell_price": 72.67,
-   "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (UK brand with its own designs), sells at $149.99 to $199.99, which a generic unit cannot match.",
+   "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (a specialist brand whose page cites Amazon UK reviews), sells at $149.99 to $199.99, which a generic unit cannot match.",
    "amazon_typical_price": 79.99,
    "amazon_bought_past_month": 15150,
    "amazon_listings_counted": 45,
@@ -1693,10 +1996,10 @@
    "demo_score": 4,
    "whales": [],
    "bundle_idea": "Goggles plus head strap, 64GB card and a hard case at $89 to $99. Without a verified DTC price for the generic unit this is a guess, not evidence.",
-   "whale_note": "No whale in the generic tier (45 Amazon listings, 17 first words). Thermal brands (TOPDON) and real optics brands sit above $150 and were left out of the count.",
+   "whale_note": "No whale in the generic tier (45 Amazon listings, 17 first words). Thermal cameras (TOPDON, $149.99 and up) and rifle scopes were left out of the count.",
    "ip_safety_flags": "No 'military grade', range or 'see 1,000 ft in total darkness' claims that the unit cannot prove. Infrared illuminator eye-safety class is UNKNOWN. Not for use while driving. Privacy: do not market for watching neighbors. Generic design.",
-   "season_note": "Neutral. 'night vision goggles' about 74,000 US Google searches in Dec 2025, 60,500 in Jan 2026, 90,500 in Oct 2026 (ESTIMATED, DataForSEO, read 2026-11-21). Hunting seasons end in January; Christmas gift demand helps December only.",
-   "risks": "1) No DTC premium was verified: the sell price here is an Amazon price, and the US-stock cost read today is more than half of it, so the raw inputs fail the brief's cost guide. 2) Image quality rarely matches the ads, which drives refunds. 3) US listings have 6 to 88 sales. 4) Weight ESTIMATED from an Amazon listing (0.89 kg).",
+   "season_note": "Neutral. 'night vision goggles' about 74,000 US Google searches in Dec 2025, 60,500 in Jan 2026, 90,500 in Oct 2026 (ESTIMATED, DataForSEO, read 2026-11-21). Not weather-driven; Christmas gift demand helps December only.",
+   "risks": "1) No DTC premium was verified: the sell price here is an Amazon price ($72.67) and the US-stock cost read today is $41.79, so the raw inputs do not meet the brief's cost guide. 2) Image quality rarely matches the ads, which drives refunds. 3) US listings have 6 to 88 sales. 4) Weight ESTIMATED from an Amazon listing (0.89 kg).",
    "us": {
     "price": 72.67,
     "landed": 41.79,
@@ -1706,11 +2009,11 @@
     "break_even_cac": 24.112370000000002,
     "break_even_roas": 3.013805776868885,
     "target_cac": 18.084277500000002,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
     "cushion_pass": false,
-    "profit_benchmark": -26.94763,
-    "profit_tough": -42.26563
+    "profit_benchmark": -21.187629999999995,
+    "profit_tough": -34.77763
    },
    "us_refund_high": {
     "price": 72.67,
@@ -1721,11 +2024,11 @@
     "break_even_cac": 21.20557,
     "break_even_roas": 3.4269298113655986,
     "target_cac": 15.904177500000001,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
     "cushion_pass": false,
-    "profit_benchmark": -29.85443,
-    "profit_tough": -45.17243
+    "profit_benchmark": -24.094429999999996,
+    "profit_tough": -37.68443
    },
    "us_cost_up_20pct": {
     "price": 72.67,
@@ -1736,11 +2039,11 @@
     "break_even_cac": 15.754370000000005,
     "break_even_roas": 4.61268841597601,
     "target_cac": 11.815777500000003,
-    "benchmark_cpa": 51.06,
-    "tough_cpa": 66.378,
+    "benchmark_cpa": 45.3,
+    "tough_cpa": 58.89,
     "cushion_pass": false,
-    "profit_benchmark": -35.305629999999994,
-    "profit_tough": -50.62362999999999
+    "profit_benchmark": -29.545629999999992,
+    "profit_tough": -43.13562999999999
    },
    "china": null,
    "score": 60.6,
@@ -1759,32 +2062,33 @@
     "500": {
      "budget": 500,
      "fixed_setup_and_sample": 57.79,
-     "cash_per_order_before_payout": 108.168,
+     "cash_per_order_before_payout": 100.68,
      "orders": 4,
      "sales": 290.68,
-     "ad_spend": 265.512,
+     "ad_spend": 235.56,
      "supplier_spend": 167.16,
-     "profit_after_everything": -226.85252,
+     "profit_after_everything": -196.90052,
      "orders_needed_for_goal": 28,
-     "cash_needed_for_goal": 3086.494
+     "cash_needed_for_goal": 2876.83
     },
     "1000": {
      "budget": 1000,
      "fixed_setup_and_sample": 57.79,
-     "cash_per_order_before_payout": 108.168,
-     "orders": 8,
-     "sales": 581.36,
-     "ad_spend": 531.024,
-     "supplier_spend": 334.32,
-     "profit_after_everything": -395.91504000000003,
+     "cash_per_order_before_payout": 100.68,
+     "orders": 9,
+     "sales": 654.03,
+     "ad_spend": 530.01,
+     "supplier_spend": 376.11,
+     "profit_after_everything": -370.78867,
      "orders_needed_for_goal": 28,
-     "cash_needed_for_goal": 3086.494
+     "cash_needed_for_goal": 2876.83
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 11,
+   "rank_overall": 13,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
@@ -1792,19 +2096,21 @@
     "stop_ad_with_no_sale_at": 24.112370000000002,
     "checkpoint_half_budget": 175.0,
     "benchmark": {
-     "orders": 6.854680767724246,
-     "sales": 498.12965139052096,
-     "supplier_spend": 286.45710928319625,
-     "cash_out_before_payout": 694.2471092831963,
-     "net_after_setup_and_sample": -242.5074010967489
+     "orders": 7.72626931567329,
+     "sales": 561.467991169978,
+     "supplier_spend": 322.88079470198676,
+     "cash_out_before_payout": 730.6707947019868,
+     "net_after_setup_and_sample": -221.49133554083883
     },
     "tough": {
-     "orders": 5.272831359787881,
-     "sales": 383.1766549157853,
-     "supplier_spend": 220.35162252553556,
-     "cash_out_before_payout": 628.1416225255356,
-     "net_after_setup_and_sample": -280.64953930519147
-    }
+     "orders": 5.943284088979453,
+     "sales": 431.8984547461369,
+     "supplier_spend": 248.36984207845134,
+     "cash_out_before_payout": 656.1598420784513,
+     "net_after_setup_and_sample": -264.48333503141447
+    },
+    "worst_case_no_sales": -407.79,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -232.79
    }
   },
   {
@@ -1920,9 +2226,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 12,
+   "rank_overall": 14,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
@@ -1942,7 +2249,9 @@
      "supplier_spend": 104.62392986564969,
      "cash_out_before_payout": 489.5139298656497,
      "net_after_setup_and_sample": -138.03019749022837
-    }
+    },
+    "worst_case_no_sales": -384.89,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -209.89
    }
   },
   {
@@ -2069,9 +2378,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 13,
+   "rank_overall": 15,
    "rank_in_group": 6,
    "test_plan": {
     "ad_budget": 350,
@@ -2091,7 +2401,9 @@
      "supplier_spend": 155.412783061415,
      "cash_out_before_payout": 549.472783061415,
      "net_after_setup_and_sample": -248.44558859367334
-    }
+    },
+    "worst_case_no_sales": -394.06,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -219.06
    }
   },
   {
@@ -2207,9 +2519,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 14,
+   "rank_overall": 16,
    "rank_in_group": 7,
    "test_plan": {
     "ad_budget": 350,
@@ -2229,7 +2542,161 @@
      "supplier_spend": 223.81434652572275,
      "cash_out_before_payout": 630.2243465257227,
      "net_after_setup_and_sample": -228.48590239425246
+    },
+    "worst_case_no_sales": -406.40999999999997,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -231.41
+   }
+  },
+  {
+   "id": "ai-translation-earbuds",
+   "group": "tech-desk",
+   "category": "phone accessories",
+   "benchmark_used": "tech",
+   "product": "AI translation earbuds (Bluetooth earbuds that translate through a phone app)",
+   "what_it_solves": "Travellers and mixed-language families who want a spoken translation in the ear without passing a phone back and forth.",
+   "sell_price": 69.95,
+   "sell_price_source": "https://aviorra.com/products.json shows VerbaBuds AI Translator Earbuds at $69.95, compare-at $139.95 to $159.95 (VERIFIED, read 2026-11-21). Also https://vylaras.com/products.json AI Translation Earbuds from $59.95 and https://www.viora-shop.com/products.json at $59.50 to $64.99 (VERIFIED).",
+   "amazon_typical_price": 94.99,
+   "amazon_bought_past_month": 7200,
+   "amazon_listings_counted": 28,
+   "us_landed_cost": 37.79,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 53 sold, rating 4.2; read 2026-11-21; not a supplier quote). A generic unit shows $11.94 on a promo card with 14 sold (ESTIMATED).",
+   "cn_landed_cost": 11.69,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 984 sold; read 2026-11-21). A different, cheaper product than the Wooask unit in US stock.",
+   "us_sources": 3,
+   "weight_lb": 0.4,
+   "demo_score": 3,
+   "whales": [],
+   "bundle_idea": "Earbuds plus travel case and a phrase-card insert. Competitors pad the offer with 'free gifts' (cleaning kit, ebook, 'lifetime app access', warranty) at stated values of $9 to $99 (VERIFIED on aviorra.com); FTC 'free' rules apply to that pattern and we would not copy it.",
+   "whale_note": "Translation is becoming a free feature of mainstream earbuds: an Amazon search for 'translation earbuds' returns Apple AirPods (three listings at 10,000+ bought in past month each, $129 to $179) and Samsung Galaxy Buds 4 Pro (7,000+ at $169.99) at the top (VERIFIED via DataForSEO). Under $40, 48 generic listings sell 41,850 units a month.",
+   "ip_safety_flags": "Performance claims are the problem: '99% accuracy', '144 languages', 'offline' appear on competitor pages and are qualified in their own FAQs; we could not substantiate any of them without a sample and the supplier's app (FTC substantiation). The earbuds depend on a third-party phone app whose terms, data handling and lifetime are UNKNOWN. Do not use 'ChatGPT' or 'HTC' names from supplier titles. Small lithium cells. Fast-lane flag: ads would start before the sample is in hand, which is a poor fit for a product whose main risk is whether it works.",
+   "season_note": "Peaks before holiday travel: Google searches for 'translation earbuds' were 49,500 in Dec 2025, 40,500 in Jan 2026, 33,100 in Feb, 18,100 in Jul, 27,100 in Oct 2026; CPC $1.94 (VERIFIED via DataForSEO Google Ads data). December and January good.",
+   "risks": "1) Refund risk is the highest in this file: Aviorra's own page shows 18 percent one-star reviews, and Amazon generics rate 3.4 to 4.4. 2) At $60 to $70 the price is at the bottom of the range that can carry the ad cost. 3) The only non-promo US unit read ($37.79) is over half the DTC price; the cheap generic is a promo card with 14 sales. 4) Established advertisers use advertorial funnels and 19-month-old ads; a one-week image-ad test is unlikely to match them. 5) Apple and Samsung now ship translation. Kept so the script can score it; not recommended.",
+   "us": {
+    "price": 69.95,
+    "landed": 37.79,
+    "card_fee": 2.32855,
+    "refund_allowance": 4.197,
+    "pre_ad_contribution": 25.634450000000005,
+    "break_even_cac": 25.634450000000005,
+    "break_even_roas": 2.7287497878831024,
+    "target_cac": 19.225837500000004,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -25.425549999999998,
+    "profit_tough": -40.74355
+   },
+   "us_refund_high": {
+    "price": 69.95,
+    "landed": 37.79,
+    "card_fee": 2.32855,
+    "refund_allowance": 6.995000000000001,
+    "pre_ad_contribution": 22.836450000000003,
+    "break_even_cac": 22.836450000000003,
+    "break_even_roas": 3.0630855496366554,
+    "target_cac": 17.127337500000003,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -28.22355,
+    "profit_tough": -43.54155
+   },
+   "us_cost_up_20pct": {
+    "price": 69.95,
+    "landed": 45.348,
+    "card_fee": 2.32855,
+    "refund_allowance": 4.197,
+    "pre_ad_contribution": 18.076450000000005,
+    "break_even_cac": 18.076450000000005,
+    "break_even_roas": 3.869675738322513,
+    "target_cac": 13.557337500000003,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -32.983549999999994,
+    "profit_tough": -48.30154999999999
+   },
+   "china": {
+    "price": 69.95,
+    "landed": 11.69,
+    "card_fee": 2.32855,
+    "refund_allowance": 6.995000000000001,
+    "pre_ad_contribution": 48.93645000000001,
+    "break_even_cac": 48.93645000000001,
+    "break_even_roas": 1.4294048710112808,
+    "target_cac": 36.702337500000006,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -2.1235499999999945,
+    "profit_tough": -17.441549999999992
+   },
+   "score": 54.0,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 8.0,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 10.0,
+    "demo_10": 6.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 53.79,
+     "cash_per_order_before_payout": 104.168,
+     "orders": 4,
+     "sales": 279.8,
+     "ad_spend": 265.512,
+     "supplier_spend": 151.16,
+     "profit_after_everything": -216.7642,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 3074.6620000000003
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 53.79,
+     "cash_per_order_before_payout": 104.168,
+     "orders": 9,
+     "sales": 629.5500000000001,
+     "ad_spend": 597.402,
+     "supplier_spend": 340.11,
+     "profit_after_everything": -420.48195000000004,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 3074.6620000000003
     }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 17,
+   "rank_in_group": 3,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 53.79,
+    "stop_ad_with_no_sale_at": 25.634450000000005,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 479.484919702311,
+     "supplier_spend": 259.03838621229926,
+     "cash_out_before_payout": 662.8283862122993,
+     "net_after_setup_and_sample": -228.07402859381116
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 368.8345536171623,
+     "supplier_spend": 199.26029708638404,
+     "cash_out_before_payout": 603.050297086384,
+     "net_after_setup_and_sample": -268.6238681490855
+    },
+    "worst_case_no_sales": -403.79,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -228.79
    }
   },
   {
@@ -2344,9 +2811,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 15,
+   "rank_overall": 18,
    "rank_in_group": 4,
    "test_plan": {
     "ad_budget": 350,
@@ -2366,7 +2834,9 @@
      "supplier_spend": 386.99778427027985,
      "cash_out_before_payout": 809.3877842702798,
      "net_after_setup_and_sample": -373.8633328104473
-    }
+    },
+    "worst_case_no_sales": -422.39,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -247.39
    }
   },
   {
@@ -2384,18 +2854,18 @@
    "us_landed_cost": 34.34,
    "us_landed_label": "Sum of two US-filter cards: the 15-zone vest at $15.09 (listing 3256813351063190, 3 sold) plus the 10000mAh power bank at $19.25 (listing 3256813406496358, 1 sold), both free shipping, no new-shopper tag. Two sellers, so two parcels and two delivery promises. The one card with a battery in the box reads $61.27 with no sales. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
    "cn_landed_cost": null,
-   "cn_landed_label": "UNKNOWN. China-side cards for USB vests read $12.04 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
+   "cn_landed_label": "UNKNOWN. China-side cards for USB vests read $8.81 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
    "us_sources": 6,
    "weight_lb": null,
    "demo_score": 3,
    "whales": [
     "Ororo"
    ],
-   "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. Amazon shoppers already punish 'battery not included' vests, so the power bank must be in the order.",
-   "whale_note": "Ororo is a real whale here: 2,290 and 3,553 reviews on single vests, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
+   "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. The best-selling Amazon vests at $49.99 to $67.99 include the battery pack, so the power bank must be in the order.",
+   "whale_note": "Ororo is a real whale here: 2,290 reviews on one vest and 3,553 on another of its products, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
    "ip_safety_flags": "Vest and power bank certification UNKNOWN (UL or ETL for the vest wiring, UN38.3 for the bank). The vest runs on 5V USB, a lower-risk design than 7.4V or 12V packs, but burn risk remains. No health claims (back pain, circulation). Do not imitate Ororo's product names or photos. Generic design, no patent concern seen.",
    "season_note": "Peak now. 'heated vest' about 201,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 74,000 in Oct 2026, 3,600 in Jul 2026; CPC about $1.84, the highest of the heated wearables (ESTIMATED, DataForSEO, read 2026-11-21). Strong Christmas gift for outdoor workers and parents; falls off fast after January.",
-   "risks": "1) Apparel sizing (S to 3XL) is the main refund driver, and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
+   "risks": "1) Apparel sizing is the likely main refund driver (size range on the US listings not read), and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
    "us": {
     "price": 79.99,
     "landed": 34.34,
@@ -2481,9 +2951,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
-   "rank_overall": 16,
+   "rank_overall": 19,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
@@ -2503,7 +2974,9 @@
      "supplier_spend": 204.09237561555446,
      "cash_out_before_payout": 604.4323756155545,
      "net_after_setup_and_sample": -173.12295975547633
-    }
+    },
+    "worst_case_no_sales": -400.34000000000003,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -225.34
    }
   },
   {
@@ -2616,9 +3089,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 17,
+   "rank_overall": 20,
    "rank_in_group": 8,
    "test_plan": {
     "ad_budget": 350,
@@ -2638,7 +3112,9 @@
      "supplier_spend": 123.06742835440633,
      "cash_out_before_payout": 511.28742835440636,
      "net_after_setup_and_sample": -210.26023388666465
-    }
+    },
+    "worst_case_no_sales": -388.22,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -213.22
    }
   },
   {
@@ -2767,9 +3243,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "caution",
    "rule_note": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
-   "rank_overall": 18,
+   "rank_overall": 21,
    "rank_in_group": 6,
    "test_plan": {
     "ad_budget": 350,
@@ -2789,7 +3266,161 @@
      "supplier_spend": 146.14535574800476,
      "cash_out_before_payout": 536.7353557480048,
      "net_after_setup_and_sample": -197.46958057395142
+    },
+    "worst_case_no_sales": -390.59,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -215.59
+   }
+  },
+  {
+   "id": "wireless-carplay-adapter",
+   "group": "tech-desk",
+   "category": "car tech / phone accessories",
+   "benchmark_used": "tech",
+   "product": "Wireless CarPlay and Android Auto adapter (USB dongle that makes factory wired CarPlay wireless)",
+   "what_it_solves": "Drivers whose car has wired CarPlay and who are tired of plugging the phone in on every trip.",
+   "sell_price": 59.99,
+   "sell_price_source": "Proposed price. Anchors: https://www.ottocast.com/products.json U2Air Edge at $55 to $100 (compare-at $178); https://lamtto.com/products.json RC36 3-in-1 adapter at $89.99 (both VERIFIED, read 2026-11-21); Amazon median for adapters selling at $40 or more is $46.99 (VERIFIED via DataForSEO).",
+   "amazon_typical_price": 46.99,
+   "amazon_bought_past_month": 9350,
+   "amazon_listings_counted": 27,
+   "us_landed_cost": 26.29,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 2,000+ sold, rating 4.9; read 2026-11-21; not a supplier quote). A $19.85 non-promo card exists but is rated 3.0; a $14.24 card is a new-shopper promo.",
+   "cn_landed_cost": 13.33,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 3,000+ sold; read 2026-11-21). About half the US-stock cost.",
+   "us_sources": 3,
+   "weight_lb": 0.2,
+   "demo_score": 3,
+   "whales": [],
+   "bundle_idea": "No believable bundle reaches $60 or more on its own (adapter plus cables and a vent mount is still a $40 to $50 item on Amazon). Best use is as a second product on the same store as candidate 1 for buyers whose car already has wired CarPlay.",
+   "whale_note": "No giant, but the price is set from below: 58 listings under $40 sell 72,200 units a month on Amazon against 9,350 units at $40 or more (VERIFIED via DataForSEO).",
+   "ip_safety_flags": "Apple CarPlay and Android Auto trademarks: 'works with' wording only, no logos. Licence status of these dongles UNKNOWN. Units with built-in Netflix or YouTube raise driver-distraction and logo issues: avoid. Wireless device: FCC ID UNKNOWN until the sample arrives. Fast-lane flag: ads would start before the sample is in hand.",
+   "season_note": "Good in December: Google searches for 'wireless carplay adapter' were 74,000 in Dec 2025, 60,500 in Jan 2026, 49,500 in Feb, 40,500 in Oct 2026; CPC $0.90 (VERIFIED via DataForSEO Google Ads data).",
+   "risks": "1) The price cannot carry the ad cost: at $59.99 a $35 to $50 customer cost leaves little or nothing after product and card fees; the script will show it. 2) Compatibility returns: it only works in cars that already have wired CarPlay, and buyers of older cars order it by mistake. 3) Connection drops are the standard complaint; leading Amazon listings rate 3.5 to 3.9. 4) 72,200 units a month sell under $40. Kept as a possible add-on, not as a lead product.",
+   "us": {
+    "price": 59.99,
+    "landed": 26.29,
+    "card_fee": 2.03971,
+    "refund_allowance": 3.5994,
+    "pre_ad_contribution": 28.060890000000004,
+    "break_even_cac": 28.060890000000004,
+    "break_even_roas": 2.137850937728632,
+    "target_cac": 21.045667500000004,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -22.999109999999998,
+    "profit_tough": -38.31711
+   },
+   "us_refund_high": {
+    "price": 59.99,
+    "landed": 26.29,
+    "card_fee": 2.03971,
+    "refund_allowance": 5.9990000000000006,
+    "pre_ad_contribution": 25.66129,
+    "break_even_cac": 25.66129,
+    "break_even_roas": 2.3377624429637014,
+    "target_cac": 19.2459675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -25.39871,
+    "profit_tough": -40.71671
+   },
+   "us_cost_up_20pct": {
+    "price": 59.99,
+    "landed": 31.548,
+    "card_fee": 2.03971,
+    "refund_allowance": 3.5994,
+    "pre_ad_contribution": 22.802890000000005,
+    "break_even_cac": 22.802890000000005,
+    "break_even_roas": 2.630806884565947,
+    "target_cac": 17.102167500000004,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -28.257109999999997,
+    "profit_tough": -43.575109999999995
+   },
+   "china": {
+    "price": 59.99,
+    "landed": 13.33,
+    "card_fee": 2.03971,
+    "refund_allowance": 5.9990000000000006,
+    "pre_ad_contribution": 38.62129,
+    "break_even_cac": 38.62129,
+    "break_even_roas": 1.5532883546872722,
+    "target_cac": 28.9659675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -12.43871,
+    "profit_tough": -27.756709999999998
+   },
+   "score": 50.0,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 9.6,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 4.5,
+    "demo_10": 6.0,
+    "no_whale_5": 5.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 42.29,
+     "cash_per_order_before_payout": 92.668,
+     "orders": 4,
+     "sales": 239.96,
+     "ad_spend": 265.512,
+     "supplier_spend": 105.16,
+     "profit_after_everything": -195.55844,
+     "orders_needed_for_goal": 34,
+     "cash_needed_for_goal": 3193.0020000000004
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 42.29,
+     "cash_per_order_before_payout": 92.668,
+     "orders": 10,
+     "sales": 599.9,
+     "ad_spend": 663.78,
+     "supplier_spend": 262.9,
+     "profit_after_everything": -425.46110000000004,
+     "orders_needed_for_goal": 34,
+     "cash_needed_for_goal": 3193.0020000000004
     }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 22,
+   "rank_in_group": 4,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 42.29,
+    "stop_ad_with_no_sale_at": 28.060890000000004,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 411.2122992557775,
+     "supplier_spend": 180.2095573834704,
+     "cash_out_before_payout": 572.4995573834705,
+     "net_after_setup_and_sample": -199.94155699177435
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 316.317153273675,
+     "supplier_spend": 138.6227364488234,
+     "cash_out_before_payout": 530.9127364488234,
+     "net_after_setup_and_sample": -244.3296592244418
+    },
+    "worst_case_no_sales": -392.29,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -217.29
    }
   },
   {
@@ -2904,9 +3535,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 19,
+   "rank_overall": 23,
    "rank_in_group": 5,
    "test_plan": {
     "ad_budget": 350,
@@ -2926,7 +3558,304 @@
      "supplier_spend": 214.7395046961705,
      "cash_out_before_payout": 612.0295046961705,
      "net_after_setup_and_sample": -145.49471970038624
+    },
+    "worst_case_no_sales": -397.29,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -222.29
+   }
+  },
+  {
+   "id": "compact-digital-camera-kit",
+   "group": "tech-desk",
+   "category": "small gadgets",
+   "benchmark_used": "tech",
+   "product": "Compact point-and-shoot digital camera kit (generic '4K 48MP' flip-screen digicam with 32GB card, strap and case)",
+   "what_it_solves": "People who want the retro 'digicam' look and a break from the phone at parties, trips and holidays: a pocket camera with a flash, a flip screen for selfies and photos that move to the phone by cable or card.",
+   "sell_price": 79.99,
+   "sell_price_source": "Proposed kit price. Anchors: https://klikcamera.com/products.json KLIK Screen-Free Camera at $68.71; https://campsnapphoto.com/products.json Camp Snap 2 at $69.99 and Camp Snap 110D at $74.99 (both VERIFIED, read 2026-11-21); Amazon median for generic compact cameras selling at $40 or more is $58.48 (VERIFIED via DataForSEO).",
+   "amazon_typical_price": 58.48,
+   "amazon_bought_past_month": 17600,
+   "amazon_listings_counted": 52,
+   "us_landed_cost": 33.69,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 591 sold, rating 4.3; read 2026-11-21; not a supplier quote). A second listing of the same title shows $21.35 to $23.11 on a new-shopper promo (ESTIMATED).",
+   "cn_landed_cost": 19.59,
+   "cn_landed_label": "VERIFIED (non-promo AliExpress China card, 'Free shipping' tag, 453 sold; read 2026-11-21). About $14 cheaper than US stock, with a 9 to 14 day delivery estimate.",
+   "us_sources": 4,
+   "weight_lb": 0.7,
+   "demo_score": 4,
+   "whales": [
+    "Camp Snap",
+    "Kodak PIXPRO (JK Imaging licence)"
+   ],
+   "bundle_idea": "Camera plus 32GB card, wrist strap, soft case and a spare battery as a ready-to-gift kit at $79.99; second camera at a discount for couples or friends (Camp Snap sells 3, 4 and 5 packs at 10 percent off; VERIFIED). Add-on costs from US stock were not read (UNKNOWN).",
+   "whale_note": "Two whales bracket the product: Kodak PIXPRO above $100 (16,000+ units a month on two models) and Camp Snap in the screen-free niche. Between them the generic flip-screen cameras are fragmented: 15 brand names have Amazon sales at $40 or more, the largest listing at 3,000+ a month.",
+   "ip_safety_flags": "Do not copy Camp Snap's or KLIK's body design, name or 'screen-free' brand assets (trade dress and trademark; design patent status UNKNOWN, web search only). '48MP' and '4K' on generic cameras are interpolated figures: do not repeat megapixel claims we cannot verify on the sample. Many Amazon listings for this hardware are titled 'for kids': a children's product would need CPSIA testing and is out of scope, so market to adults and teens 13 and up only. Small lithium battery (Amazon top listing shows battery weight 10 g). Fast-lane flag: ads would start before the sample is in hand.",
+   "season_note": "Strong gift item. Google searches for 'digital camera': 550,000 in Dec 2025, 301,000 in Jan 2026, 246,000 in Feb, 368,000 in Oct 2026; 'vintage digital camera' 14,800 in Dec 2025 against 6,600 in Feb (VERIFIED via DataForSEO Google Ads data). December good, January and February softer.",
+   "risks": "1) Picture quality is below a current phone; buyers who expect 'real 4K' return it. KLIK and Camp Snap avoid this by selling the look, not the specs. 2) Amazon price for the same class is $41 to $61. 3) On $33.69 the cost is above the 35 percent guide at $79.99; the script decides. 4) The cheaper $21 to $23 listing is a promo price. 5) Screen-free style is only available China-shipped ($30 to $32), so the proven DTC version of this product fails the US-stock rule. 6) No sample yet: shutter lag, battery life and card format are unknown.",
+   "us": {
+    "price": 79.99,
+    "landed": 33.69,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 38.88089,
+    "break_even_cac": 38.88089,
+    "break_even_roas": 2.0573088733308316,
+    "target_cac": 29.160667500000002,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -12.179110000000001,
+    "profit_tough": -27.49711
+   },
+   "us_refund_high": {
+    "price": 79.99,
+    "landed": 33.69,
+    "card_fee": 2.61971,
+    "refund_allowance": 7.999,
+    "pre_ad_contribution": 35.68129,
+    "break_even_cac": 35.68129,
+    "break_even_roas": 2.2417911460039703,
+    "target_cac": 26.7609675,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -15.378710000000005,
+    "profit_tough": -30.696710000000003
+   },
+   "us_cost_up_20pct": {
+    "price": 79.99,
+    "landed": 40.428,
+    "card_fee": 2.61971,
+    "refund_allowance": 4.7993999999999994,
+    "pre_ad_contribution": 32.14289,
+    "break_even_cac": 32.14289,
+    "break_even_roas": 2.4885752339008715,
+    "target_cac": 24.107167500000003,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -18.91711,
+    "profit_tough": -34.23511
+   },
+   "china": {
+    "price": 79.99,
+    "landed": 19.59,
+    "card_fee": 2.61971,
+    "refund_allowance": 7.999,
+    "pre_ad_contribution": 49.78128999999999,
+    "break_even_cac": 49.78128999999999,
+    "break_even_roas": 1.6068285896167016,
+    "target_cac": 37.335967499999995,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -1.278710000000011,
+    "profit_tough": -16.59671000000001
+   },
+   "score": 49.2,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 13.5,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 2.6,
+    "demo_10": 8.0,
+    "no_whale_5": 0.0,
+    "light_5": 5.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 49.69,
+     "cash_per_order_before_payout": 100.068,
+     "orders": 4,
+     "sales": 319.96,
+     "ad_spend": 265.512,
+     "supplier_spend": 134.76,
+     "profit_after_everything": -159.67844,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2651.458
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 49.69,
+     "cash_per_order_before_payout": 100.068,
+     "orders": 9,
+     "sales": 719.91,
+     "ad_spend": 597.402,
+     "supplier_spend": 303.21,
+     "profit_after_everything": -297.16399,
+     "orders_needed_for_goal": 26,
+     "cash_needed_for_goal": 2651.458
     }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 24,
+   "rank_in_group": 5,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 49.69,
+    "stop_ad_with_no_sale_at": 38.88089,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 548.3059146102624,
+     "supplier_spend": 230.93419506462985,
+     "cash_out_before_payout": 630.6241950646298,
+     "net_after_setup_and_sample": -133.17391108499805
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 421.7737804694326,
+     "supplier_spend": 177.6416885112537,
+     "cash_out_before_payout": 577.3316885112537,
+     "net_after_setup_and_sample": -194.67762391153695
+    },
+    "worst_case_no_sales": -399.69,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -224.69
+   }
+  },
+  {
+   "id": "architect-desk-lamp",
+   "group": "tech-desk",
+   "category": "desk setup",
+   "benchmark_used": "tech",
+   "product": "Wide architect LED desk lamp with clamp (dual head, about 24W, dimmable, colour temperature control) for dual-monitor desks",
+   "what_it_solves": "Dim or glare-heavy home-office desks: one clamp-on bar lights a full two-monitor desk evenly without taking desk space or reflecting in the screens.",
+   "sell_price": 69.99,
+   "sell_price_source": "Proposed price. Anchors: Amazon median for architect clamp lamps selling at $40 or more is $50.34, top listing $44.15 (VERIFIED via DataForSEO 2026-11-21); https://lumecube.com/products.json Lume Cube Edge Light 2.0 compare-at $149.99, open-box $89.99 (VERIFIED, read 2026-11-21); BenQ ScreenBar Pro $118.15 and ScreenBar Halo 2 $169.15 on Amazon (VERIFIED via DataForSEO).",
+   "amazon_typical_price": 50.34,
+   "amazon_bought_past_month": 14350,
+   "amazon_listings_counted": 28,
+   "us_landed_cost": 32.53,
+   "us_landed_label": "VERIFIED (non-promo AliExpress US card, 'Free shipping' tag, 48 sold, rating 4.5, 'Fastest delivery in 3 days'; read 2026-11-21; not a supplier quote). Lighter clip-on models read $22.29 non-promo and $12.29 to $24.73 on promo cards.",
+   "cn_landed_cost": null,
+   "cn_landed_label": "UNKNOWN. The only comparable China card read ($34.91, promo, 1,000 sold) does not show a shipping fee. A 3 lb, 31 inch lamp gains nothing from China shipping on the prices seen.",
+   "us_sources": 5,
+   "weight_lb": 3.5,
+   "demo_score": 3,
+   "whales": [
+    "BenQ ScreenBar"
+   ],
+   "bundle_idea": "Lamp plus a monitor light bar or RGB back-light strip as a 'desk lighting kit'. US-stock light bars read $8.55 to $21.41 on non-promo cards (VERIFIED). This is a bundle of cheap parts, which the Nov 14 decision says does not earn a premium on its own.",
+   "whale_note": "BenQ owns the premium monitor-light tier and Lume Cube the creator tier. The architect clamp lamp itself has no whale: 11 brand names sell at $40 or more, the largest listing at 4,000+ a month, all priced $41 to $60. Under $40, 55 listings sell 47,800 units a month.",
+   "ip_safety_flags": "No patent search done (UNKNOWN); BenQ's asymmetric ScreenBar optics are patented per its marketing, so avoid a screen-top bar that copies it. 'Eye-caring' and 'eye protection' on supplier listings are health claims: do not use them. Mains adapter: UL or ETL listing UNKNOWN. Fast-lane flag: ads would start before the sample is in hand.",
+   "season_note": "Winter is the season: Google searches for 'led desk lamp' were 14,800 in Dec 2025, 18,100 in Jan 2026 and 14,800 in Feb against 3,600 in Jul and 4,400 in Oct 2026; 'desk lamp with clamp' 3,600 in Jan 2026; 'architect desk lamp' only 590 a month (VERIFIED via DataForSEO Google Ads data). Dec to Feb good, but total search demand is small.",
+   "risks": "1) Price ceiling: only 1,000 of 14,350 monthly Amazon units sell at $60 or more. 2) On $32.53 the cost is close to half of a $69.99 price; the script will show it fails the 35 percent guide. 3) Weak 3-second demo and a thin, noisy ad field. 4) Tech-worker buyers price-check on Amazon, where the leader is $44.15 with 3,663 ratings. Kept as the best desk-setup entry found, not as a recommendation.",
+   "us": {
+    "price": 69.99,
+    "landed": 32.53,
+    "card_fee": 2.32971,
+    "refund_allowance": 4.1994,
+    "pre_ad_contribution": 30.930889999999994,
+    "break_even_cac": 30.930889999999994,
+    "break_even_roas": 2.2627864894931897,
+    "target_cac": 23.198167499999997,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -20.129110000000008,
+    "profit_tough": -35.44711000000001
+   },
+   "us_refund_high": {
+    "price": 69.99,
+    "landed": 32.53,
+    "card_fee": 2.32971,
+    "refund_allowance": 6.999,
+    "pre_ad_contribution": 28.131289999999996,
+    "break_even_cac": 28.131289999999996,
+    "break_even_roas": 2.487976911119256,
+    "target_cac": 21.098467499999998,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -22.928710000000006,
+    "profit_tough": -38.24671000000001
+   },
+   "us_cost_up_20pct": {
+    "price": 69.99,
+    "landed": 39.036,
+    "card_fee": 2.32971,
+    "refund_allowance": 4.1994,
+    "pre_ad_contribution": 24.424889999999994,
+    "break_even_cac": 24.424889999999994,
+    "break_even_roas": 2.8655195581228825,
+    "target_cac": 18.318667499999997,
+    "benchmark_cpa": 51.06,
+    "tough_cpa": 66.378,
+    "cushion_pass": false,
+    "profit_benchmark": -26.635110000000008,
+    "profit_tough": -41.95311000000001
+   },
+   "china": null,
+   "score": 45.9,
+   "score_parts": {
+    "profit_tough_30": 0.0,
+    "demand_20": 12.2,
+    "supply_20": 20.0,
+    "price_vs_amazon_10": 2.2,
+    "demo_10": 6.0,
+    "no_whale_5": 2.5,
+    "light_5": 3.0
+   },
+   "startable_this_week": false,
+   "robust": false,
+   "week1": {
+    "500": {
+     "budget": 500,
+     "fixed_setup_and_sample": 48.53,
+     "cash_per_order_before_payout": 98.908,
+     "orders": 4,
+     "sales": 279.96,
+     "ad_spend": 265.512,
+     "supplier_spend": 130.12,
+     "profit_after_everything": -190.31844000000004,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 2916.862
+    },
+    "1000": {
+     "budget": 1000,
+     "fixed_setup_and_sample": 48.53,
+     "cash_per_order_before_payout": 98.908,
+     "orders": 9,
+     "sales": 629.91,
+     "ad_spend": 597.402,
+     "supplier_spend": 292.77,
+     "profit_after_everything": -367.5539900000001,
+     "orders_needed_for_goal": 29,
+     "cash_needed_for_goal": 2916.862
+    }
+   },
+   "tier": "red",
+   "proven_listing": null,
+   "rule_status": "ok",
+   "rule_note": "",
+   "rank_overall": 25,
+   "rank_in_group": 6,
+   "test_plan": {
+    "ad_budget": 350,
+    "setup_and_sample": 48.53,
+    "stop_ad_with_no_sale_at": 30.930889999999994,
+    "checkpoint_half_budget": 175.0,
+    "benchmark": {
+     "orders": 6.854680767724246,
+     "sales": 479.75910693301995,
+     "supplier_spend": 222.98276537406974,
+     "cash_out_before_payout": 621.5127653740697,
+     "net_after_setup_and_sample": -186.50862318840583
+    },
+    "tough": {
+     "orders": 5.272831359787881,
+     "sales": 369.0454668715538,
+     "supplier_spend": 171.5252041338998,
+     "cash_out_before_payout": 570.0552041338998,
+     "net_after_setup_and_sample": -235.43663322185066
+    },
+    "worst_case_no_sales": -398.53,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -223.53
    }
   },
   {
@@ -2975,9 +3904,10 @@
    "robust": false,
    "week1": null,
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "ok",
    "rule_note": "",
-   "rank_overall": 20,
+   "rank_overall": 26,
    "rank_in_group": 6,
    "test_plan": null
   },
@@ -2996,7 +3926,7 @@
    "us_landed_cost": 33.49,
    "us_landed_label": "Lowest US-filter card price for a combo unit, free shipping, no new-shopper tag (listing 3256813468747905). Very thin: 1 sold and 'only 4 left'. The listing with volume (10,000+ sold) shows only a new-shopper price of $24.52 against a crossed-out $96.52, so its real cost is UNKNOWN. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
    "cn_landed_cost": 41.39,
-   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 9 sold, no new-shopper tag). Ship-from not confirmed, delivery days not shown. Lithium packs of this size are also the hardest parcels to ship by air.",
+   "cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 9 sold, no new-shopper tag). Ship-from not confirmed, delivery days not shown. Large lithium packs also face air-shipping restrictions (not checked for this unit).",
    "us_sources": 4,
    "weight_lb": 2.6,
    "demo_score": 4,
@@ -3009,7 +3939,7 @@
    "whale_note": "NOCO owns plain jump starters (40,700 of 138,050 units at $40 or more). Combos are less concentrated (74 listings; GOOLOO 14,700 of 82,050) but every visible Meta advertiser is an established brand or retailer.",
    "ip_safety_flags": "SAFETY FLAG, likely fails the fast-lane screen as it stands. A high-current lithium pack clamped to a car battery is a fire and injury risk if protection circuits are poor; peak-amp numbers on no-name units (4000A to 16000A) are not verifiable and are an advertising-claims risk. UL 2743 or equivalent listing for any unit we could source is UNKNOWN. Product liability insurance would be needed before one sale. Keep it out unless a certified unit with paperwork is found.",
    "season_note": "Peak season. 'portable jump starter' about 201,000 US Google searches in Dec 2025 and Jan 2026 against 60,500 in Jul 2026; 'jump starter' 110,000 in Dec 2025; 'jump starter with air compressor' 14,800 in Dec 2025; CPC $1.09 to $1.35 (ESTIMATED, DataForSEO, read 2026-11-21).",
-   "risks": "1) Safety and liability (see flags); this is the reason it is not in the top three despite the largest demand in the scan. 2) Amazon sets the price at $66 to $80 with Prime delivery and thousands of ratings. 3) Unit quality cannot be judged from a card; a jump starter that fails once is a refund and a chargeback. 4) The only clean US listing has 1 sale. 5) TikTok Shop sells jump starters near $34. 6) Weight ESTIMATED from an Amazon combo listing (1,200 g).",
+   "risks": "1) Safety and liability (see flags); this is the reason it is not in the top three despite the largest demand in the scan. 2) Amazon sets the price at $66 to $80 on listings with 1,300 to 5,500 ratings. 3) Unit quality cannot be judged from a card; a jump starter that fails once is a refund and a chargeback. 4) The only clean US listing has 1 sale. 5) TikTok Shop sells jump starters near $34. 6) Weight ESTIMATED from an Amazon combo listing (1,200 g).",
    "us": {
     "price": 99.99,
     "landed": 33.49,
@@ -3109,9 +4039,10 @@
     }
    },
    "tier": "green",
+   "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "High-current lithium pack clamped to a car battery; certification UNKNOWN. The scout flagged it as a likely fail on safety.",
-   "rank_overall": 21,
+   "rank_overall": 27,
    "rank_in_group": 7,
    "test_plan": {
     "ad_budget": 350,
@@ -3131,7 +4062,9 @@
      "supplier_spend": 253.06029922925796,
      "cash_out_before_payout": 652.5502992292579,
      "net_after_setup_and_sample": 33.49239383406377
-    }
+    },
+    "worst_case_no_sales": -399.49,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -224.49
    }
   },
   {
@@ -3247,9 +4180,10 @@
     }
    },
    "tier": "amber",
+   "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Mains-powered heated appliance used on animals; electrical certification UNKNOWN; over 10 lb.",
-   "rank_overall": 22,
+   "rank_overall": 28,
    "rank_in_group": 7,
    "test_plan": {
     "ad_budget": 350,
@@ -3269,7 +4203,9 @@
      "supplier_spend": 359.7521520029805,
      "cash_out_before_payout": 778.1721520029805,
      "net_after_setup_and_sample": -92.56436557579563
-    }
+    },
+    "worst_case_no_sales": -418.42,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -243.42000000000002
    }
   },
   {
@@ -3382,9 +4318,10 @@
     }
    },
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Mains-powered heating appliance; electrical certification UNKNOWN; over 9 lb.",
-   "rank_overall": 23,
+   "rank_overall": 29,
    "rank_in_group": 9,
    "test_plan": {
     "ad_budget": 350,
@@ -3404,7 +4341,9 @@
      "supplier_spend": 287.45272419413544,
      "cash_out_before_payout": 705.3527241941354,
      "net_after_setup_and_sample": -152.0428401879955
-    }
+    },
+    "worst_case_no_sales": -417.9,
+    "loss_if_stopped_at_checkpoint_with_no_sales": -242.9
    }
   },
   {
@@ -3433,7 +4372,7 @@
    "whale_note": "No single owner on Amazon (82 listings at $40 or more, mostly new no-name sellers). Branded DTC versions sit far higher ($119.99 to $249), so the product is early, but the unbranded price is already set by Amazon.",
    "ip_safety_flags": "Battery-heated textile: certification UNKNOWN. Must not be marketed for sleeping or for infants. Gobi Heat and Ororo designs and names must not be copied.",
    "season_note": "Rising and seasonal. 'cordless heated blanket' about 27,100 US Google searches in Dec 2025 and 18,100 in Jan 2026; 'battery powered heated blanket' 22,200 in Jan 2026; under 1,000 in July (ESTIMATED, DataForSEO, read 2026-11-21). Football and Christmas demand, then winter storms.",
-   "risks": "1) No workable supply found, so it cannot start this week. 2) Amazon no-name price of $52 to $86 with next-day delivery. 3) Heating area and run time are easy to over-promise. 4) Weight taken from one Amazon listing (1.5 lb, as listed). Kept in the file because demand is real and new; revisit only if a logged-in CJ or Zendrop search shows a complete unit in US stock.",
+   "risks": "1) No workable supply found, so it cannot start this week. 2) Amazon no-name price of $52 to $86. 3) Heating area and run time are easy to over-promise. 4) Weight taken from one Amazon listing (1.5 lb, as listed). Kept in the file because demand is real and new; revisit only if a logged-in CJ or Zendrop search shows a complete unit in US stock.",
    "us": null,
    "us_refund_high": null,
    "us_cost_up_20pct": null,
@@ -3452,9 +4391,10 @@
    "robust": false,
    "week1": null,
    "tier": "red",
+   "proven_listing": null,
    "rule_status": "blocked",
    "rule_note": "Battery-heated textile; certification UNKNOWN; no US stock found.",
-   "rank_overall": 24,
+   "rank_overall": 30,
    "rank_in_group": 8,
    "test_plan": null
   }

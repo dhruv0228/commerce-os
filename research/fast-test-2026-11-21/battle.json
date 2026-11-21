@@ -1,0 +1,805 @@
+{
+ "cases": [
+  {
+   "key": "video-as-shown",
+   "name": "Agentic AI dropshipping exactly as the video shows it",
+   "model": "Agentic AI dropshipping exactly as the video shows it: StoreBuild and Zendrop template Shopify store with about 10 preset products, China-shipped by default, AI static image ads on Facebook, Claude as ad researcher and store manager.",
+   "one_line": "Cheap, fast setup and a strong Claude fit, but unproven, and China shipping breaks this week's test; use its workflow now and hold China-shipped products as a later fallback.",
+   "how_it_works_steps": [
+    "Open a new Shopify store through the StoreBuild funnel. A theme and 10 preset Zendrop products load in the first 8 minutes of the video. Store build is $0. Shopify is $1 a month at first (verify at signup). Zendrop is $29 a month once products are linked (01_video_decode.md, sections 1, 2a, 2b).",
+    "Claude as store manager audits the store and rewrites product descriptions, FAQ and SEO text through the Shopify connector. Dhruv approves each write. Theme text and reviews stay manual (01_video_decode.md, minute 33 to 37).",
+    "Claude as ad researcher pulls competitor static ads from an ad library and writes image prompts. An image tool turns the supplier photo into static ads. The video stops here.",
+    "Dhruv adds what the video leaves out: Shopify Payments verification, a new Meta ad account, pixel and purchase event, one broad sales campaign, and a delivery window stated by the buy button (01_video_decode.md, section 5).",
+    "A customer pays on Shopify. Zendrop charges Dhruv's card when the order is fulfilled. China stock ships in 1 to 5 business days and takes 10 to 15 business days in transit (03_fulfillment_and_money.md, sections 2a and 3e).",
+    "Shopify Payments pays out later. First payout for a new store is about 7 to 14 days (ESTIMATED, 03_fulfillment_and_money.md, finding 1). Refunds come out of his balance after that."
+   ],
+   "days_to_first_sale": "About 2 to 6 days from today. This range is ASSUMED. The store itself can be ready in a day. The video covers no payment setup, ad account, pixel or campaign, so ads go live later than the store. In the transparent creator tests that got a sale, the first sale came 20 minutes to about 24 hours after ads started (02_youtube_sweep.md, section 4.3, self-reported). Some products got no sale at all: two of three in the Tilbury test had no day-1 sales. Main risk to the range: a new Meta ad account has a Meta-set daily limit, and static-only ads plus an 11 to 20 business-day delivery line may slow the first sale. The size of that effect is UNKNOWN.",
+   "cash_needed_to_start": "$500 to $1,000, which is Dhruv's cap. The model fits inside it, but not together with a $2,000 sales week. What it buys: Shopify at $1 a month to start (verify at signup). Zendrop at $29 a month for 1 to 20 linked products (Shopify App Store listing, VERIFIED, 01_video_decode.md section 2b). The video calls Zendrop free; it is not. Store build $0 (storebuild.ai FAQ, VERIFIED). One sample unit, cost UNKNOWN because the Zendrop catalog is behind a login. The rest is ads. The creator's own minimum test is $25 a day per ad set, 3 ad sets, at least 7 days, about $525 by plain multiplication (01_video_decode.md section 5, not script-checked). AdLibrary.io at $29 a month after a 3-day trial is not needed. On top of this, each order is paid to the supplier before Shopify pays out. Supplier float for $2,000 of sales is $600 to $1,200 at ASSUMED cost shares (03_fulfillment_and_money.md section 2c).",
+   "profit_per_order": "For this exact model: UNKNOWN. The video shows no price, product cost, shipping cost, ad cost or order. The demo dog dryer's cost and price are \"not available\" (01_video_decode.md section 7). Closest script evidence is the China-shipped comparison in ranked.md, at the tough ad cost with a 10% refund allowance (ASSUMED): knife set +$1.85 per order (US stock +$0.21), mattress vacuum -$8.29, galaxy projector -$26.69. So one of three is barely above zero. Across all 16 scouted products, 0 pass the cushion rule and 0 still earn money if cost is 20% higher and refunds are 10% (ranked.md). Creator tests with stated costs end near break-even: +$52 on $57 of ads, likely $54.01 on $249.66 of ads over 25 sales (caption unclear, UNKNOWN until checked), about $85 profit on a $1,000 sales day (02_youtube_sweep.md sections 2.2, 2.3, 6.2, all self-reported). All files are in /home/user/commerce-os/research/fast-test-2026-11-21/.",
+   "week1_sales_realistic": "$0 to about $600. This range is ASSUMED. Reasoning: the repo's reality check puts a first test under $1,000 at low hundreds to about $1,200 of revenue, with a small loss to a small profit (battle_brief.md, 04_reality_and_benchmarks.md finding 9, ESTIMATED). The ranked.md first-week table (US stock, tough ad cost, no payout yet) shows $500 covers 4 to 6 orders and $1,000 covers 9 to 13 orders, and every line ends in a loss after setup and sample. No script run exists for a China-shipped first week. I place this model in the lower part of that range for three reasons. No transparent test won on AI static ads alone (02_youtube_sweep.md section 4.5). An 11 to 20 business-day delivery line in the Christmas gift window should hurt conversion, size UNKNOWN. Black Friday week CPMs run 16 to 84% above September (battle_brief.md). The $2,000 stretch target is not realistic for this model: ranked.md puts the cash needed for $2,000 of sales at $1,925.83 or more even on US stock.",
+   "inventory_needed_up_front": "None. No stock is bought. Each order is paid to Zendrop when it is fulfilled, before Shopify pays out (03_fulfillment_and_money.md section 2). Dhruv orders one sample unit to himself the same day. From China it arrives after about 11 to 20 business days, so the first weeks of sales would run without him having seen the product (03_fulfillment_and_money.md section 7, point 5).",
+   "delivery_time_to_customer": "China stock on Zendrop, the model's default: 1 to 5 business days processing plus 10 to 15 business days transit. Most orders arrive 11 to 20 business days after ordering (Zendrop help articles, VERIFIED vendor claim, 03_fulfillment_and_money.md sections 1a and 3e). Orders placed after about Nov 25 to Dec 9 miss Christmas on those numbers (03_fulfillment_and_money.md section 6b, script output). The video itself states no delivery time. For contrast, Zendrop US stock is 4 to 8 business days, up to 10 in Q4.",
+   "strongest_evidence": [
+    "Setup is cheap and fast, and that part is verified. Store build is $0 with no sales commission (storebuild.ai FAQ). A theme and 10 products load inside the first 8 minutes of the video (captions). Zendrop is $29 a month for 1 to 20 linked products (Shopify App Store). Source: 01_video_decode.md sections 1, 2a, 2b.",
+    "Claude's two roles work on camera and match tools Dhruv already has. Shown in more than one video: rewriting titles, descriptions, FAQ and SEO text through the Shopify connector with approval, summarizing competitor ads, writing image prompts (02_youtube_sweep.md section 4.7, VERIFIED as shown). Zendrop has an MCP server for product search, import, orders, tracking and fulfillment with confirmation (03_fulfillment_and_money.md section 1a, VERIFIED). The creator's prompt document says \"Do not invent reviews\" and \"Stop for approval before modifying Shopify\" (01_video_decode.md section 2f).",
+    "Parts of the method match what credible creators do. Tilbury's expert ran 3 products at once on $300 so one flop would not end the test. Fogarty: \"let's launch all of the products\". Creators imply 2 to 4 product tests before a winner. Robinson tests 5 to 10 statics at $50 a day and reads them after $150 to $160. Source: 02_youtube_sweep.md sections 2.2, 2.7, 2.11, 4.4 (self-reported, ESTIMATED).",
+    "China cost is lower where a price was found. Knife set $20.89 China against $26.49 US. Galaxy projector $15.45 against $28.06. Source: ranked.md, China-shipped comparison (card prices, ESTIMATED). The gain is small after a 10% refund allowance (ASSUMED): the knife set's tough-case profit moves from $0.21 to $1.85.",
+    "The repo's own research names when China-shipped is acceptable, which supports a later fallback role: own store only, a product with no US stock, outside the Christmas window, an 11 to 20 business-day window stated on the page and at checkout, and a per-product check of the real transit time. Source: 03_fulfillment_and_money.md section 7."
+   ],
+   "honest_weaknesses": [
+    "There is no proof this model makes money. The video launches no ad, takes no order and shows no cost, result or delivery time (VERIFIED from captions). The $4.2M belongs to a stocked golf brand that ships from North Carolina in 2 to 3 days and reported about 10% net profit in September 2026 (self-reported). The creator earns from the Shopify referral, Zendrop, his ad-spy tool and a $97 a month club. He tells viewers to use a US warehouse. Source: 01_video_decode.md sections 0, 3, 4.",
+    "China shipping fails this week's test. Delivery is 11 to 20 business days. Orders after about Nov 25 to Dec 9 miss Christmas. The same-day sample arrives after the first weeks of sales. Slow delivery feeds refunds, Shopify reserve risk and Meta's customer experience score, on a profile tied to Dhruv's client ad work. China parcels now carry duty (ESTIMATED). Direct-from-China parcels are also on CLAUDE.md's out-of-scope list, so this needs Dhruv's explicit exception. Source: 03_fulfillment_and_money.md sections 3b, 6b, 7.",
+    "It does not meet \"every order makes money\". 0 of 16 scouted products pass the cushion rule. The best China-shipped case is +$1.85 per order at the tough ad cost and the other two are negative. Every first-week line in ranked.md ends in a loss. No transparent creator test shows every order profitable in week 1 (02_youtube_sweep.md section 4.3). A $500 to $1,000 test also never leaves Meta's learning phase (ranked.md: $1,961.50 of ad spend for pets, $2,430.50 for home).",
+    "AI static ads alone have not carried a transparent test. Sales in those tests came from video. Fogarty's student got no add to carts from image ads on product 1. Robinson says his first AI batch's messaging was \"horrible\". The video's \"three times cheaper\" claim has no data. Copying a named competitor's ad look, and his September advice to strip AI metadata, break repo rules and put the ad account at risk. Do not copy those steps. Source: 02_youtube_sweep.md section 4.5; 01_video_decode.md section 5.",
+    "The template store is generic. StoreBuild claims over 1.5 million stores, and every user in a niche reportedly gets the same ten products (ESTIMATED, a competitor's review). Generic stores with slow delivery score 1.4 to 3.3 on Trustpilot and Amazon undercuts them (battle_brief.md). Ten products split a small budget too thin to read; Wold says testing ten \"would just be gambling\". The demo product is a mains-powered dog dryer with UNKNOWN cost, certification and ship-from, and it touches Dhruv's safety exclusion. Claude could not edit theme text, and no agent ran ads to a profit without a person."
+   ],
+   "path_to_10k_month": "A product from the catalog must win on ads, then move to US stock with far more profit per order than ranked.md shows today ($0.21 to $1.85 in the tough case). For scale, Barkfare's math needs about 295 orders a month. Unproven here.",
+   "automation_fit": "Claude can do: competitor ad research, image prompts, static ads, product copy, FAQ, SEO, daily order and ad summaries, Zendrop order and tracking checks. Manual: theme text, reviews, Meta account and pixel setup, approving every write and fulfillment, refunds, checking images match the shipped item.",
+   "verdict_this_week": "prepare now, start later"
+  },
+  {
+   "key": "fast-lane-us-stock",
+   "name": "Fast lane: one-product store, US-stock supplier, Meta ads",
+   "model": "Fast lane: one-product store, US-stock supplier, Meta ads",
+   "one_line": "The only lane that can show real sales within days for under $1,000, but its best products only break even after ads, so run it as a capped test.",
+   "how_it_works_steps": [
+    "Today: pick one product from the two green rows in ranked.md (knife set at $99.00 or rechargeable wall sconce pair at $109.99). Order one unit to Dhruv's home. Open Shopify, Shopify Payments and a new Meta ad account so their waiting clocks start.",
+    "Before any ad money: Dhruv reads the real unit cost, stock count and ship time in a logged-in US-stock catalog. Rerun scripts/fast_test_rank.py on that cost. Go only if profit at the tough ad cost is not negative. If neither product holds, stop. Zero winners is an allowed result.",
+    "Claude drafts a one-product page in store/: pair or pack pricing, a ship-from-US line with the supplier's stated days, a guarantee, FAQ, an honest new-brand tone and no fake reviews. Dhruv applies it by hand.",
+    "One broad Meta campaign, built paused, published by Dhruv. Small daily cap through Cyber Monday (Nov 30), main budget after, because the ad price premium fell to about 20% two days after Cyber Monday (03_fulfillment_and_money.md section 6a, ESTIMATED). A fixed loss cap and the CLAUDE.md section 4 kill rules replace 'every order profitable' for this test.",
+    "Each order: the customer pays on Shopify, Dhruv pays the supplier the same day, the supplier ships from US stock, tracking goes to the customer. When the sample lands, real photos and a demo video replace the first images.",
+    "Shopify pays out about 7 to 14 days after the first sales (ESTIMATED, 03_fulfillment_and_money.md finding 1). Then decide on the data: stop, test the second product, or move a winner toward stock."
+   ],
+   "days_to_first_sale": "About 3 to 7 days from today if the cost check holds. Build time of 2 to 5 days at 1 to 3 hours a day is ASSUMED. After ads go live, the first sale came in 20 minutes to about 24 hours in the creator tests that got one (02_youtube_sweep.md section 4.3, ESTIMATED, self-reported). Main reason for the spread: theme edits are done by hand and the new Shopify and Meta accounts have their own checks. Two of seven transparent tests failed outright (04_reality_and_benchmarks.md section 2.9), so \"never\" is a real outcome.",
+   "cash_needed_to_start": "$500 to $1,000, Dhruv's own cap. Script output in ranked.json: $42.49 (knife set) to $52.69 (sconce pair) covers Shopify at $1 (ESTIMATED), a domain at $15 (ASSUMED) and one sample unit. The rest floats ads plus supplier cost at $89.68 to $99.88 per order before any Shopify payout. That covers 4 to 5 orders on $500 and 9 to 10 orders on $1,000 (ranked.md). Not in those figures: product liability insurance (cost UNKNOWN), a supplier app such as Zendrop at $29 a month (03_fulfillment_and_money.md finding 3), and any paid creator video.",
+   "profit_per_order": "ranked.md and ranked.json (scripts/fast_test_rank.py; costs ESTIMATED from marketplace cards, 6% refunds ASSUMED). Knife set at $99.00: +$14.79 at the established-brand ad cost of $48.61, +$0.21 at the new-store ad cost of $63.19, -$5.09 if cost is 20% higher. Sconce pair at $109.99: +$14.60, +$0.02, -$7.32. At 10% refunds and the new-store ad cost both lose money: -$3.75 and -$4.38. None of the 16 products passes the cushion rule. Honest reading: break-even per order, not profit, until Dhruv's real ad cost is measured.",
+   "week1_sales_realistic": "First 7 days: $0 to about $440 (rough ASSUMED: 0 to 4 orders, because ads start mid-week on a small daily cap in Black Friday week). Whole capped test: up to about $990. ranked.md: at the new-store ad cost, $1,000 covers 10 knife-set orders ($990.00) or 9 sconce orders ($989.91); $500 covers 5 ($495.00) or 4 ($439.96). The script's result after setup and sample is -$40.43 to -$52.62. 04_reality_and_benchmarks.md section 6.2 lists the common outcomes as \"a few sales or none\" or \"a few hundred dollars to about $1,200\". The $2,000 goal needs 19 to 21 orders and $1,925.83 to $1,950.47 in cash, which is above the budget.",
+   "inventory_needed_up_front": "None. One sample unit to Dhruv on day one: $26.49 (knife set) or $36.69 (sconce pair), card prices, ESTIMATED (ranked.md). After that, each customer order is paid to the supplier when it is placed, before Shopify pays out (03_fulfillment_and_money.md section 2).",
+   "delivery_time_to_customer": "4 to 8 business days door to door from US stock, up to 10 in Q4 (Zendrop's own numbers, VERIFIED vendor claim, 03_fulfillment_and_money.md finding 4). The AliExpress US-stock cards say \"Fastest delivery in 6 days\", but the knife-set card shows no delivery days (candidates_home.md, ranked.json). No test order has been timed, so the real figure is UNKNOWN until the sample lands. A by-Christmas promise is safe for orders through about Dec 10 and arguable to Dec 14 (03_fulfillment_and_money.md section 6b).",
+   "strongest_evidence": [
+    "Speed: paid-traffic dropshipping is \"the only model here that can produce a sale within days\" and US stock is rated \"best fit for speed with fewer refunds\" (04_reality_and_benchmarks.md section 7). First sale came 20 minutes to about 24 hours after ads went live in the creator tests that got one (02_youtube_sweep.md section 4.3, ESTIMATED).",
+    "Two products clear the new-store ad cost on US stock: knife set at $99.00 with $63.40 before ads, sconce pair at $109.99 with $63.21 before ads, against a tough ad cost of $63.19 and a benchmark of $48.61 (ranked.md). Both miss the cushion rule narrowly: target CAC of $47.55 and $47.41 against the $48.61 benchmark (ranked.json).",
+    "Proven demand with no single owner: 23,100 Amazon units a month across 79 knife-set listings and 20,950 across 56 sconce listings at $40 or more. Sconces have 22 brands and none above 2,000 a month (ranked.json, candidates_home.md, DataForSEO read 2026-11-21).",
+    "The loss is capped and small in the script's tough case. No stock is bought. Week 1 on $1,000 ends at -$40.43 (knife set) or -$52.53 (sconce pair) after setup and sample (ranked.md). The CLAUDE.md section 4 kill rules pause a test at half its budget if blended CAC is above break-even.",
+    "US stock is where the platform evidence points. Shopify lists extended delivery as a reserve trigger and Meta's buyer survey asks about shipping delays (03_fulfillment_and_money.md section 7, VERIFIED). Stores stating US stock show oneisall 4.9, Haven 4.7 and Nood 4.0 on Trustpilot against Pillow Slides 1.6 and Galaxy Lamps 1.4, with Uproot an exception at 2.0 on 19 reviews (05_store_teardowns.md section 4). Meta's weapons ad policy bans \"non-culinary knives/blades/spears\", so kitchen knives are not named as banned (https://transparency.meta.com/policies/ad-standards/restricted-goods-services/weapons-ammunitions-explosives, opened 2026-11-21)."
+   ],
+   "honest_weaknesses": [
+    "It does not meet \"every order makes money\" on the evidence. 0 of 16 products pass the cushion rule and 0 still earn money at a 20% higher cost with 10% refunds (ranked.md). The two best earn $0.21 and $0.02 an order at the new-store ad cost. No creator with a transparent cost sheet shows a first week where every order was profitable (02_youtube_sweep.md section 4.3).",
+    "The costs are one AliExpress US search-card price each, on listings with 12 sales, not supplier quotes. The $26.49 knife listing is a 15-piece block set of about 8 to 9 lb, not the 3-piece gift set the $99 offer describes. Sconce styles closer to Amazon best sellers cost $45.91 to $52.89, above the 20% stress case that already loses $7.32. Stock can run out mid-test. CJ and Zendrop prices are unread. Blind shipping and return terms are UNKNOWN (ranked.json, candidates_home.md).",
+    "It starts in the most expensive ad week of the year. Established brands paid 59% more per thousand impressions in Black Friday week than in September, and home and decor paid 116% more (Lebesgue, ESTIMATED, 03_fulfillment_and_money.md section 6a). Both green products are home products. A new ad account has a Meta-set daily limit, and the test never leaves the learning phase, which needs $2,430.50 of ad spend a week in home (ranked.md).",
+    "The $2,000 stretch goal is out of reach on this budget and a poor week is common. $2,000 needs $1,925.83 to $1,950.47 in cash (ranked.md). \"A few sales or none; most of the ad money gone\" is listed as a common outcome (04_reality_and_benchmarks.md section 6.2). With the kill rules, a bad test loses about half the ad money plus setup and sample, roughly $300 to $400 on the $1,000 plan (rough ASSUMED figure, from the script's ad spend of $568.74 to $631.93).",
+    "It sells before Dhruv has held the product, from a store with no reviews. Amazon sells the sconce pair at $45 to $57 against our $109.99 (ranked.json). Meta bars \"reviews of ... bladed items\" in ads (same Meta policy page), so review-style knife videos are out. \"Japanese\" and \"Damascus\" wording are legal traps, knives bring injury complaints, and insurance cost is UNKNOWN. A policy strike would touch the Facebook profile Dhruv uses for client work (03_fulfillment_and_money.md section 5)."
+   ],
+   "path_to_10k_month": "Real ad cost must land near the $48.61 benchmark, not $63.19, and verified cost must hold. At $14.60 to $14.79 an order, $10,000 takes roughly 700 orders a month (rough ASSUMED). So a winner must move to bulk stock and bigger orders, as Barkfare's math shows.",
+   "automation_fit": "Claude drafts the product page, policies, FAQ, ad copy and images, builds the Meta campaign paused, reruns the money script and checks kill rules daily. Manual: Shopify signup and theme edits, account verification, publishing ads, paying the supplier per order, customer replies, filming the sample.",
+   "verdict_this_week": "start this week with changes"
+  },
+  {
+   "key": "barkfare-own-brand",
+   "name": "Barkfare own brand (the slow lane)",
+   "model": "Barkfare own brand (the slow lane)",
+   "one_line": "Barkfare cannot sell this week, but at bulk cost it keeps +$22.70 an order in the tough case (ESTIMATED) against $0.21 for the best fast-test product, so prepare it now.",
+   "how_it_works_steps": [
+    "This week, $0: Dhruv pastes the 14 drafted supplier messages (about 15 minutes per /home/user/commerce-os/suppliers/SEND_LIST.md). Replies take 1 to 3 days. Claude scores the quotes and reruns the money math on real costs.",
+    "Dhruv orders 5 kits by express through escrow from the best low-minimum supplier. About $404 ESTIMATED (outputs.json, trial.cash_for_kits).",
+    "Kit 1 is the sample. Dhruv does the kneel test, fold check and car fit, and films it. The page and ads go live only if it passes.",
+    "Sell the other 4 kits at $149 with a small Meta test (about $154 of ads at the benchmark). Dhruv ships each by USPS from Florida. Expected result: 4 customers, real data and a small loss of about $103 (outputs.json).",
+    "After 10 happy customers: 150 kits by sea to a US 3PL (about $6,976 ESTIMATED). Scripted profit becomes +$34.25 per order, or +$47.37 on the $189 bundle. Note: 4 trial sales do not reach 10, so a second small batch is needed first.",
+    "Shopify Payments pays out to the DBA bank account. Add-ons and Amazon FBA come after the 3PL is running."
+   ],
+   "days_to_first_sale": "Rough ASSUMED: about 3 to 8 weeks after the supplier messages go out. No sale this week or next. Main reason: no kit exists yet and nothing has been sent. The fastest low-minimum suppliers are judged at 15 days to land 5 kits after ordering (/home/user/commerce-os/reports/ranked_suppliers_speed_2026-11-17.md, unverified). Made-to-order units were expected mid to late December on a Nov 17 start (/home/user/commerce-os/reports/final-plan-2026-11-17.md). The older plan with a separate sample step shows 30 days best and 58 typical (/home/user/commerce-os/research/sourcing-2026-11-15/plan.json). A sample must pass before any page or ad goes live.",
+   "cash_needed_to_start": "About $858 for the trial: $300 setup, 5 kits, and ads for 4 sales (/home/user/commerce-os/research/high-ticket-2026-11-19/rank_outputs.json, cash_needed). Kits alone about $404 and ads about $154 (/home/user/commerce-os/research/money-math-2026-11-19/outputs.json, trial). This fits his $500 to $1,000. All ESTIMATED: the per-kit cost is based on a 20-kit express batch and a 5-kit batch costs more (UNKNOWN until quotes). Product liability insurance cost is UNKNOWN (/home/user/commerce-os/reports/answers-2026-11-15.md). The step that actually makes money, 150 kits, needs about $6,976 more (outputs.json, goal.cash_for_first_bulk_order_150). The $1,800 budget does not cover that.",
+   "profit_per_order": "From /home/user/commerce-os/research/money-math-2026-11-19/outputs.json, per $149 order, ads at $38.51 (Meta pet median, ESTIMATED). 5-kit trial shipped from home: -$5.64 (tough case -$17.19). Same trial at 52.5% duty: -$13.55. Bulk 150 kits through a 3PL: +$34.25 (tough +$22.70), break-even ad cost $72.76, target $54.57, passes the cushion rule. $189 bundle at bulk: +$47.37 (tough +$35.81). Every cost is ESTIMATED; no supplier quote is VERIFIED. The brief's newer pet benchmark is $39.23, so these would come out slightly lower; the script has not been rerun. For comparison, /home/user/commerce-os/research/fast-test-2026-11-21/ranked.md shows 0 of 16 fast-test products passing the cushion rule.",
+   "week1_sales_realistic": "$0 this week and $0 next week. There is no kit on hand and no approved sample, so nothing can be sold honestly or within the FTC shipping rule. The $2,000 stretch goal is out of reach for this model. Even when the trial runs, it tops out at 4 sales and $596 of revenue (outputs.json, trial.revenue_if_all_sold), ending about $103 down at benchmark ads and about $150 down in the tough case. Its realistic week-1 output is not sales. It is sent messages and the first real quotes, at zero cash.",
+   "inventory_needed_up_front": "5 kits, about $404 ESTIMATED. One is the sample, 4 are for sale. Later, 150 kits by sea, about $6,976 ESTIMATED (outputs.json). At the $10,000 goal, about $13,715 of stock per month of sales (outputs.json, goal.inventory_cash_for_one_month).",
+   "delivery_time_to_customer": "Trial: Dhruv ships each order by USPS from Florida. Days to the door are UNKNOWN until a test order. Bulk: a US 3PL ships each order. The house target is 2 to 8 business days (CLAUDE.md section 2), not yet confirmed. Nothing here is VERIFIED. Stock in the US is this model's delivery advantage once it exists.",
+   "strongest_evidence": [
+    "Proven demand at a premium price from several sellers. RuffRover $159.95, Ruff Liners $169.99, 4Knines $169.99 list (checked Nov 15). About 5,500 units a month sell on Amazon at $130 or more (ESTIMATED). Source: /home/user/commerce-os/reports/full-synopsis-2026-11-19.md section 3 and /home/user/commerce-os/reports/holistic-analysis-2026-11-14.md.",
+    "The thickest scripted margin in this battle. At bulk cost the kit earns +$34.25 per order and +$22.70 in the tough case, and passes the cushion rule (target ad cost $54.57 against a $38.51 benchmark). Its $72.76 break-even ad cost sits above the $51.00 tough pet ad cost used in ranked.md. In ranked.md the best fast-test product earns $0.21 in the tough case and none of 16 pass the cushion rule. Sources: /home/user/commerce-os/research/money-math-2026-11-19/outputs.json and /home/user/commerce-os/research/fast-test-2026-11-21/ranked.md. Costs are ESTIMATED.",
+    "It ranked first of 24 options for a small start: score 72, next best 54. Source: /home/user/commerce-os/research/high-ticket-2026-11-19/rank_outputs.json.",
+    "The fast-test research itself points at this model. The video creator's real store is a stocked brand shipping from a North Carolina warehouse. The style reference store is a manufacturer brand shipping from the USA in 3 to 4 days. Winning stores use kit pricing, a guarantee line and add-ons. Source: /home/user/commerce-os/research/fast-test-2026-11-21/battle_brief.md.",
+    "The groundwork is done and the next step costs $0. Brand approved, offer stack and page mockups drafted, 14 supplier messages ready, low-minimum suppliers listed (minimum 2 to 5, ESTIMATED from listings), and two factories that customs records show supplying 4Knines and Ruff Liners. Source: /home/user/commerce-os/suppliers/SEND_LIST.md and /home/user/commerce-os/reports/decisions.md."
+   ],
+   "honest_weaknesses": [
+    "Speed. It fails his main term for this test. No store, sale or data this week or next. First sale is a rough ASSUMED 3 to 8 weeks away, and the supplier messages drafted on Nov 17 are still unsent.",
+    "Nothing is VERIFIED. data/suppliers.csv has zero VERIFIED entries. The 5-kit express cost is UNKNOWN. The duty code is uncertain: 27% assumed, 52.5% in the risk case, which turns the trial to -$13.55 per order. The bulk landed cost of $46.51 that the whole case rests on is an estimate.",
+    "The trial breaks his rule that every order should make money. Each trial order loses $5.64 at benchmark ads (tough case -$17.19), and the 5-kit trial nets about -$103. It buys proof, not profit.",
+    "The profitable step is not funded. 150 kits cost about $6,976 against a total budget of $1,800 with no second tranche. The trial produces no profit to fund it. Four trial sales also fall short of the 10-happy-customer gate. An in-between batch of 20 to 50 kits has no scripted numbers (UNKNOWN).",
+    "Market and product risks. Ruff Liners holds most of the $130 and up band and runs about 1,133 active Meta ads, so there is a dominant seller, which he wants to avoid. A $39.99 Amazon generic undercuts the kit. It is off-season (peak July to August, January about 84% of average). There are patents to design around. The 9 lb box makes fit returns costly. It is a one-time purchase."
+   ],
+   "path_to_10k_month": "About 295 orders a month at +$34.25 (445 in the tough case), per outputs.json. Needs: landed cost near $46.51 VERIFIED, ad cost at or under the $54.57 target, 27% duty, about $6,976 for the first 150 kits, then about $13,715 of stock a month.",
+   "automation_fit": "Claude: score supplier quotes, rerun money math, draft the store, fit quiz, order forwarding to the 3PL, delay notices, profit dashboard, ad variants. Manual: Dhruv sends supplier messages, pays escrow, tests and films the sample, packs the first 4 orders, approves every spend and publish.",
+   "verdict_this_week": "prepare now, start later"
+  },
+  {
+   "key": "tiktok-shop-creators",
+   "name": "TikTok Shop with creators and affiliates",
+   "model": "TikTok Shop with creators and affiliates",
+   "one_line": "Creators earn a fixed percent only after a sale, but TikTok Shop needs owned US stock and pays 31 days late: a strong second lane, not week 1.",
+   "how_it_works_steps": [
+    "Dhruv opens a TikTok Shop US seller account under the LLC. Approval is 1 to 3 business days (ESTIMATED). The bank account name must match exactly (VERIFIED). Monthly fee $0 (ESTIMATED, /home/user/commerce-os/data/channel_params.json). Do not open it more than about 60 days before stock arrives: a reported 3% new-seller fee needs a first sale within 60 days (ESTIMATED).",
+    "Get owned stock into the US first. TikTok requires the seller to own the inventory and bars buying from another retailer and shipping direct (VERIFIED, /home/user/commerce-os/research/fast-test-2026-11-21/03_fulfillment_and_money.md section 4). The natural stock is the planned 5-kit Barkfare batch at Dhruv's home.",
+    "List the kit and set an open-collaboration commission. Pets standard is 12 to 15% (ESTIMATED, channel_params.json). Use refundable samples first: the creator buys the product and is refunded only after posting within 14 days and reaching a sales goal of 1 to 3 orders (VERIFIED). Approve a few free samples only for creators with sales in the last 120 days.",
+    "Creators post their own videos, so Dhruv stays off camera. Orders arrive in the shop. Dhruv ships by USPS. The parcel must be scanned within 2 business days and delivered within 6 (VERIFIED).",
+    "TikTok deducts its referral fee (6% on TikTok's own page, 8% reported by third parties, unresolved) and the creator commission from each sale. Payout is 31 days after delivery for a new shop. It drops to 8 days once the shop has a performance score, which needs 30 orders in 90 days (VERIFIED).",
+    "Optional and later: TikTok Shop ads (GMV Max) at about $50 a day minimum (ESTIMATED). Its return on spend is UNKNOWN in channel_params.json, so add it only after creator videos are already converting."
+   ],
+   "days_to_first_sale": "About 3 to 6 weeks from today (rough ASSUMED). Main reason: there is no owned stock yet, and TikTok will not allow stock-free selling. After stock lands, a creator must request a sample, receive it, and then has up to 14 days to post (VERIFIED rule). A sale from the shop's own videos could come sooner once stock is in hand. The repo's own reading is that an affiliate sale in week 1 is unlikely (/home/user/commerce-os/research/fast-test-2026-11-21/03_fulfillment_and_money.md, section 4).",
+   "cash_needed_to_start": "This week: $0 to open the account (monthly fee $0, ESTIMATED, /home/user/commerce-os/data/channel_params.json). To actually sell: about $400 to $900 (rough ASSUMED range). That buys 5 owned Barkfare kits at $403.80 (script output, /home/user/commerce-os/research/money-math-2026-11-19/outputs.json; supplier quotes not VERIFIED) plus a few creator samples. Third-party sample cost is $15 to $75 each (ESTIMATED, channel_params.json), but a Barkfare kit sample is a full kit plus postage, about $95 (rough ASSUMED, from the $73.06, $20.55 and $1.25 lines in /home/user/commerce-os/research/answers-2026-11-15/numbers.json). None of this cash comes back for at least 31 days after delivery.",
+   "profit_per_order": "Best evidence is the Barkfare kit at $149 run through scripts/channels.py. At bulk cost: +$33.12 per order, +$22.54 in the tough case. At 5-kit test cost: -$21.26, and -$42.94 tough (/home/user/commerce-os/research/offers-2026-11-18/offer_economics.json). Both include an 8% referral fee, a 10% refund allowance, 13.5% creator commission and free samples (line items in /home/user/commerce-os/research/answers-2026-11-15/numbers.json). The test-stage loss is mostly the sample line: $28.46 per order at 0.3 samples per order, which is an ASSUMED rate. Caveats: costs are not VERIFIED quotes. The test landed cost was later raised from $73.06 to $80.76 (/home/user/commerce-os/research/money-math-2026-11-19/outputs.json) and the TikTok case was not rerun, so the test case is likely a little worse. No TikTok Shop run exists for the products in ranked.md: UNKNOWN.",
+   "week1_sales_realistic": "$0 is the most likely result. 0 to 2 orders at the very best (rough ASSUMED). Reasons: no owned stock exists today, supplier quotes are not VERIFIED, and an affiliate sale needs sample transit plus posting time. The repo already concluded \"TikTok Shop is not the week-1 channel\" (/home/user/commerce-os/research/fast-test-2026-11-21/03_fulfillment_and_money.md, section 4). The $2,000 stretch goal is not reachable on this lane next week. Week 1 should be used for setup only: open the shop account, get TikTok's written answer on the inventory-ownership rule, and shortlist creators.",
+   "inventory_needed_up_front": "Yes. This is the model's hard requirement. TikTok Shop US says the seller must \"maintain ownership of the inventory\", US sellers \"cannot use international third-party suppliers\", and sellers must not buy from another retailer and ship direct (VERIFIED, 03_fulfillment_and_money.md section 4). Whether buying per order from a US supplier counts as owning it is UNKNOWN. Minimum realistic start: the 5-kit Barkfare batch, $403.80 for kits (money-math outputs.json), with 1 to 2 of those kits going to creators as samples (ASSUMED). Later, Fulfilled by TikTok has no minimum (VERIFIED).",
+   "delivery_time_to_customer": "About 3 to 6 business days if Dhruv ships owned stock from Florida by USPS (rough ASSUMED; USPS domestic is 2 to 5 days per /home/user/commerce-os/research/platform-winners-2026-11-15/platforms.json, ESTIMATED). TikTok's rule is the ceiling: carrier scan within 2 business days and delivery within 6 business days (VERIFIED, 03_fulfillment_and_money.md section 4). This meets Dhruv's US-stock preference and the brand's 2 to 8 day rule.",
+   "strongest_evidence": [
+    "Selling cost is a percent of the sale, taken after the sale. On the $149 kit the creator commission line is $20.12 against a Meta ad line of $38.51 in the same script run (/home/user/commerce-os/research/answers-2026-11-15/numbers.json). In ranked.md the tough Meta ad cost of $51.00 to $63.19 per order wipes out all 16 fast-test products except two that keep $0.21 and $0.02.",
+    "In the Nov 15 viral scan, scripts/channels.py picked TikTok affiliates as the best launch channel by tough-case profit for 43 of 47 products (/home/user/commerce-os/research/platform-winners-2026-11-15/winners_ranked.md). Honest note: most of those 43 were still below zero.",
+    "At bulk cost the Barkfare kit earns +$33.12 per order on TikTok affiliates (+$22.54 tough), close to own store plus Meta at +$34.25 (+$22.70 tough) (/home/user/commerce-os/research/offers-2026-11-18/offer_economics.json). The Meta path to $10,000 a month needs $11,356 a month of ad spend paid up front (/home/user/commerce-os/research/money-math-2026-11-19/outputs.json). The affiliate path pays creators out of each sale instead.",
+    "Refundable samples limit sample risk: the creator buys the product and is refunded only after posting within 14 days and reaching the seller's sales goal of 1 to 3 orders by day 54 (VERIFIED, TikTok Seller University guide updated 11/20/2026, cited in 03_fulfillment_and_money.md section 4).",
+    "TikTok reach is cheap. Blended median CPM is $4.07 against Meta's $15.48 in the same dataset (Triple Whale, https://www.triplewhale.com/blog/tiktok-cpm, cited in /home/user/commerce-os/research/fast-test-2026-11-21/04_reality_and_benchmarks.md section 2.2). Median TikTok ads cost per purchase for established brands is $17.07 overall and $19.33 in Home and Garden (ESTIMATED, same file). Honest note: median ROAS is lower on TikTok (1.51 against 1.88)."
+   ],
+   "honest_weaknesses": [
+    "It cannot do what Dhruv asked for this week. 'Sell now, order one unit the same day' needs stock-free selling, and TikTok Shop US requires owned inventory, bars international suppliers and bars shipping direct from another retailer (VERIFIED). Whether per-order buying from a US supplier is allowed is UNKNOWN.",
+    "Cash is locked up. New sellers are paid 31 days after delivery and a reserve is held 30 days. An order placed Nov 30 settles about Jan 8, 2027 (script output in 03_fulfillment_and_money.md). Nothing recycles inside a $500 to $1,000 test.",
+    "At small scale it loses money per order. The script shows -$21.26 per order at test cost (-$42.94 tough), mainly from free samples at 0.3 per order (ASSUMED rate). Third-party data says 60 to 80% of seeded samples produce no content (ESTIMATED, GRIN via /home/user/commerce-os/data/channel_params.json). Each Barkfare sample is a full kit.",
+    "Results are concentrated and unbenchmarked. The top 1% of TikTok Shop sellers make about 60% of sales and the bottom half about 0.1% (Marketplace Pulse, cited in 04_reality_and_benchmarks.md). Organic cost per customer and GMV Max return are both UNKNOWN in channel_params.json. Median order value in TikTok ads benchmarks is $50.32, far below a $149 kit, and the Nov 15 scan found most $15 to $30 items lose money.",
+    "Account and operations risk. A missed 2-business-day carrier scan counts as late, and over 10% late brings enforcement. The daily order cap can be cut to 5 during checks. The referral fee is unresolved at 6% versus 8%. Refunds run 10 to 15% in home goods (ESTIMATED). Dhruv has no account yet, and the LLC registration page was not read."
+   ],
+   "path_to_10k_month": "Owned bulk stock at scale cost, where the script shows +$33.12 per order (+$22.54 tough). Then roughly 300 to 450 orders a month (ASSUMED, like money-math's 295 to 445), creators who keep posting, payout cut from 31 to 8 days, and $6,976 for the first bulk order.",
+   "automation_fit": "Claude can draft listings, creator invites and sample-approval rules, build a per-order profit and payout dashboard from order exports, and flag late dispatch. Manual: account and bank verification, approving samples, packing within 2 business days, creator relationships. TikTok Shop API access for agents is UNKNOWN.",
+   "verdict_this_week": "prepare now, start later"
+  },
+  {
+   "key": "print-on-demand",
+   "name": "Print-on-demand from US printers",
+   "model": "Print-on-demand from US printers",
+   "one_line": "Lowest-cash, US-made, already-approved gift test that earns about $19 an order on repo math, but only if run now as a capped Christmas side lane with honest delivery dates.",
+   "how_it_works_steps": [
+    "Day 1: Dhruv opens Shopify and a Printful account, connects them, and orders one sample bundle to his home. No supplier talks are needed. These are Dhruv's actions, not mine.",
+    "Claude drafts one product page in store/: custom dog portrait sherpa blanket plus 8x10 canvas at $149 under Barkfare, with a plain 'made to order' delivery line and a Christmas order cutoff date. Dhruv applies it.",
+    "A customer orders and uploads a dog photo. Claude makes the AI-illustrated portrait, Dhruv checks the likeness, and the customer approves a proof by email. The page labels the art as AI-made and never calls it hand-drawn.",
+    "The approved file goes to Printful through its Shopify app or API. Printful prints in 2 to 5 business days and ships from the US in 3 to 4 business days. Dhruv's card pays Printful for each order (product $51.57 plus shipping $21.18, data/economics_inputs.csv).",
+    "Meta ads are created paused with a hard cap of $150 to $350 and start only when Dhruv approves. Kill rule: stop any ad with no sale once it has spent $57.69, the break-even ad cost in data/economics_outputs.csv.",
+    "Shopify pays out 7 to 14 days after the first sale (battle_brief.md). Money kept is the payout minus Printful, card fees, refunds and ads."
+   ],
+   "days_to_first_sale": "About 4 to 10 days from today (ASSUMED). The store, page and Printful link can be ready in 2 to 3 days because no supplier approval or stock is needed. The main delay is Meta: a new ad account has a daily spend limit and business verification can take up to 14 business days (battle_brief.md). On Etsy alone the answer is UNKNOWN and probably slow: Printify says its sellers average 165 days to their first $1,000 (vendor figure, 04_reality_and_benchmarks.md line 397).",
+   "cash_needed_to_start": "About $210 to $430 before the first order (rough ASSUMED sum). Shopify about $1 a month for the first 3 months (CLAUDE.md, verify at signup). One sample bundle about $60 to $80 (reports/full-synopsis-2026-11-19.md section 11). Ads $150 (the plan Dhruv approved Nov 18) up to $350 (the capped plan size in ranked.md). Then float: each order costs $51.57 product plus $21.18 shipping paid to Printful (data/economics_inputs.csv) before Shopify's first payout in 7 to 14 days (battle_brief.md). It fits inside $500 to $1,000 with no stock at risk.",
+   "profit_per_order": "Custom dog portrait blanket plus canvas at $149 through Printful, from data/economics_outputs.csv (scripts/economics.py, run Nov 13): $57.69 left before ads. After ads: +$19.18 at the pet benchmark and +$7.63 in the tough case (benchmark x 1.3). High case +$45.84. Low case (10% discount, 10% refunds, paid retouch) loses $26.59. Caveats: that run used a $38.51 benchmark and a 3.9% fee. The brief's pet benchmark is $39.23 and Shopify is 2.9%. It was not rerun; the two changes roughly cancel (rough ASSUMED). The $149 price and the 5% refund rate are ASSUMED. For comparison, the best of the 16 dropship products in ranked.md earns $14.79 at benchmark and $0.21 in the tough case. Cheap print-on-demand items ($15 to $30 tees, mugs, ornaments) lose money on every Meta order (battle_brief.md), so this case rests on the one high-priced bundle only.",
+   "week1_sales_realistic": "0 to about 7 orders, so $0 to about $1,000 (rough ASSUMED). Reasoning: ranked.md's capped plan gives 6.9 to 8.9 orders for a pets product on $350 of ads, at $51.00 to $39.23 per order. That benchmark is for established brands in normal weeks. Setup eats 2 to 4 days of the week, Black Friday CPMs run 16 to 84% above September (battle_brief.md), and nobody has proven the $149 price. With the approved $150 ad cap, expect 0 to 4 orders (rough ASSUMED). The $2,000 stretch needs about 14 orders at $149 (rough ASSUMED) and is unlikely. This lane should not carry that goal.",
+   "inventory_needed_up_front": "None. Every item is printed after the customer pays. The only purchase is one sample bundle to Dhruv's home, about $60 to $80 (reports/full-synopsis-2026-11-19.md section 11). A failed design costs nothing in stock.",
+   "delivery_time_to_customer": "About 5 to 9 business days after the customer approves the art (reports/scout-2026-11-13.md). Printful takes 2 to 5 business days to make an item, then 3 to 4 business days for US standard shipping, or 1 to 3 for express (https://www.printful.com/shipping, read Nov 21). Add up to a day for the proof (ASSUMED). Blanket and canvas ship as two parcels. Printful calls these estimates, not guarantees. This misses the house rule of 2 to 8 business days at the slow end, so the page must state the real time. Christmas cutoff for 2026: UNKNOWN. Printful's page (https://www.printful.com/holiday-order-deadlines) has a 2026 table I could not read. In 2025 the US cutoff was Dec 11 standard and Dec 16 express (https://www.printful.com/blog/your-holiday-shipping-and-order-deadline-guide).",
+   "strongest_evidence": [
+    "Dhruv already approved this exact test. reports/decisions.md, Nov 18: 'Fast lane plus a print-on-demand dog-gift test (custom portrait blanket and canvas, made and shipped by a US print partner per order)', approved: B. CLAUDE.md also lists US print-on-demand as an allowed test-before-stock route.",
+    "The repo's own script shows money per order: $57.69 before ads, +$19.18 after benchmark ads, +$7.63 in the tough case (data/economics_outputs.csv, pet-portrait-bundle base). The best dropship product in ranked.md earns $0.21 in its tough case, and 14 of 16 lose money there.",
+    "Demand is proven, at lower prices. Crown & Paw has 20,199 Trustpilot reviews and West & Willow about 19,380. People pay $50 to $110 for illustrated pet art, and both sell it on blankets (research/sales-check-2026-11-13/top3-sales-evidence.json).",
+    "Costs are public and were rechecked today. Printful catalog: sherpa 50x60 $35.76, canvas 8x10 $15.81 (data/economics_inputs.csv, Nov 13). Shipping: sherpa $13.99, small canvas $6.79, plus a $0.40 US surcharge to Jan 17, 2027 (https://www.printful.com/shipping, read Nov 21). These are still ESTIMATED until a real order.",
+    "It is the most automatable model for a software person. Printful's API creates and confirms orders, makes mockups, quotes shipping, and sends webhooks for shipped, failed and on-hold orders, at 120 calls a minute (https://developers.printful.com/docs/). Printful replaces damaged or mislabeled items reported within 30 days (https://www.printful.com/blog/top-5-printful-policies-your-store-should-copy)."
+   ],
+   "honest_weaknesses": [
+    "The $149 price is unproven. Incumbents sell blanket plus canvas for about $100 before standing 20 to 25% codes (sales-check and data/economics_inputs.csv). reports/status-2026-11-15.md says HOLD, price unproven. In the low case each order loses $26.59. No script run exists for a $79 to $99 version, so that fallback is UNKNOWN.",
+    "It is slow for a fast lane and the window is short. Made to order: 5 to 9 business days after art approval, in two parcels. The sample will not arrive for about a week, so first ads would use mockups, not real sample photos. With a 2025 cutoff of Dec 11, there are about two weeks to sell, in the most expensive ad weeks of the year. After December, gift searches fall 70 to 90% (reports/scout-2026-11-13.md).",
+    "It breaks one of Dhruv's own terms. This market has large incumbents: Crown & Paw claims 850,000+ customers and West & Willow claims 1M+ portraits. Our only edge is better art and a fast preview, and the instant preview tool is not built. This week it would be a manual proof by email.",
+    "Personalized goods cannot be returned to stock. Printful does not refund buyer's remorse, and if Dhruv refunds anyway he pays the printing and shipping (Printful blog, Feb 26, 2025). Every order also needs a portrait made and checked by hand, inside 1 to 3 hours a day. The 5% refund rate and $5 art cost are ASSUMED.",
+    "The path to $10,000 a month is the weakest of the criteria. It needs about 520 orders a month at $19.18 (rough ASSUMED), Printful's unit cost does not fall with volume, and the Etsy route is slow: Printify says 165 days on average to the first $1,000 (vendor figure). Etsy fees in the repo are ESTIMATED (6.5% plus 3% and $0.25, and 15% on Offsite Ads orders; data/channel_params.json)."
+   ],
+   "path_to_10k_month": "About 520 orders a month at the base $19.18 an order (rough ASSUMED), about 220 if the high case's $45.84 held. Requires $149 to convert at benchmark ad cost, demand beyond December (memorial, Mother's Day), and cheaper printing at volume. None of that is proven yet.",
+   "automation_fit": "Claude can automate: portrait art from the customer's photo, proof emails, mockups, Printful orders by API, tracking and delay notices, new design tests. Manual: Dhruv checks each portrait, approves ads and spend, applies store changes, answers complaints, reviews the sample.",
+   "verdict_this_week": "start this week with changes"
+  },
+  {
+   "key": "high-ticket-dealer",
+   "name": "High-ticket dealer dropshipping from US brands",
+   "model": "High-ticket dealer dropshipping from US brands",
+   "one_line": "Best profit per order on paper in the repo, but it needs supplier approval, more cash and a rule change, so prepare it now and start it later.",
+   "how_it_works_steps": [
+    "Dhruv decides whether to lift the 'no reselling another brand as the hero' rule for this lane. He picks one parcel-shipped niche (electric fireplaces first) and gets a domain email, a business phone and a Florida resale certificate (Form DR-1, free).",
+    "Build a finished niche store on Shopify with real category pages, policies and a phone number. Suppliers reject empty or 'coming soon' sites (research/high-ticket-2026-11-19/system_and_mechanics.md section 2).",
+    "Claude drafts dealer applications to many brands. Dhruv sends them. About 10 to 20% say yes, in 2 business days to 4 weeks (same file, self-reported by practitioners).",
+    "List approved products at the brand's MAP price. Run Google Shopping and search ads. Answer buyer questions by phone and chat.",
+    "The customer pays the store. Dhruv pays the supplier by card at order time. The supplier ships direct from US stock under the brand's warranty.",
+    "Shopify pays out (first payout about 7 to 14 days for a new store, battle_brief.md, ESTIMATED). Profit is what is left after product, dropship fee, card fee, refunds and ads."
+   ],
+   "days_to_first_sale": "About 6 weeks to 6 months. A first sale this week is not realistic. Fastest practitioner report: about a month to build the store, first sale about two weeks later (Jayden Clark, self-reported). A course seller says first sales in months 3 to 6 (Fenner). Main reason: no brand has approved Dhruv yet. Approval takes 2 business days to 4 weeks, about 10 to 20% of applications succeed, and buyers of $1,000+ items take 7 to 30 days to decide. Source: research/high-ticket-2026-11-19/system_and_mechanics.md sections 2, 4 and 6. Rough ASSUMED best case for Dhruv, who already has the LLC and can build a store fast with Claude: 3 to 5 weeks. That lands at the tail of the fireplace season, not the start.",
+   "cash_needed_to_start": "$912 for pizza ovens, $1,700 for electric fireplaces (research/high-ticket-2026-11-19/rank_outputs.json: $300 setup, plus paying the supplier for 1 order before payout, plus ads for 2 sales). The $300 setup is ASSUMED (rank_inputs.json: Shopify $1 intro, domain, business phone, logo, first month of apps; it excludes the liability insurance some suppliers ask for). Course seller Fenner says $3,000 to $10,000 to launch properly, and $1,000 to $2,000 is possible but slower (system_and_mechanics.md section 6). Only pizza ovens fit Dhruv's $500 to $1,000. Preparing now, without ads or orders, costs only the setup line.",
+   "profit_per_order": "On paper only. Nothing here is VERIFIED. Electric fireplace at an ASSUMED $1,500 price: $346.20 before ads, $175.00 ad cost, +$171.20 profit, +$118.70 in the tough case. Pizza oven at an ASSUMED $600 price: $129.30 before ads, $95.83 ad cost, +$33.47 profit, +$4.72 in the tough case. Source: research/high-ticket-2026-11-19/rank_outputs.json. These rest on a 30% dealer margin taken from dated 2014 hearth data, an ASSUMED conversion rate (0.8% and 1.2%) and head-keyword CPCs of $1.40 and $1.15 (DataForSEO). Real dealer discounts and real Shopping CPCs are UNKNOWN until a brand sends a price sheet and ads run. For comparison, the best fast-test product earns +$0.21 per order in the tough case (research/fast-test-2026-11-21/ranked.md).",
+   "week1_sales_realistic": "$0, zero orders. No application has been sent and no brand has approved Dhruv, so there is nothing he may list as an authorized dealer. The fastest supplier decision cited is 2 business days, and that is after a finished store exists. Buyers at this price take 7 to 30 days to decide (system_and_mechanics.md sections 2 and 4). His $500 to $1,000 does not cover the $1,700 start for fireplaces (rank_outputs.json). The appeal is real: one or two fireplace orders at the ASSUMED $1,500 price would pass the $2,000 stretch goal. But not next week. Honest role: a later second lane. This week, at most, Dhruv decides the rule question and Claude drafts dealer applications for fireplace brands (drafted, not sent).",
+   "inventory_needed_up_front": "None. The supplier holds the stock and ships each order. But every order is paid to the supplier by card before Shopify pays out: about $1,050 per fireplace order or $420 per pizza oven order (rank_outputs.json product lines, ESTIMATED at a 30% margin). Some brands ask for an opening order or a yearly minimum (about $10,000 for massage chairs; VEVOR asks about a $5,000 plus yearly budget; Fenner, course seller, system_and_mechanics.md sections 2 and 3). Those brands should be skipped. Dhruv's 'order one unit to himself' rule would cost one such supplier payment, which is most or all of his budget.",
+   "delivery_time_to_customer": "UNKNOWN until a dealer agreement and a test order. No brand's dealer ship time is in the repo. What is known: stock is in the US. Electric fireplaces and pizza ovens ship by parcel. Saunas ship by LTL freight with curbside delivery (research/high-ticket-2026-11-19/niches.md; system_and_mechanics.md section 5). Under the FTC rule we could state only a time the supplier confirms.",
+   "strongest_evidence": [
+    "Profit per order has real room on paper. Electric fireplaces: +$171.20 at benchmark ad cost and +$118.70 in the tough case (research/high-ticket-2026-11-19/rank_outputs.json, ASSUMED and ESTIMATED inputs). The best of 16 fast-test products earns +$0.21 in the tough case, and none pass the cushion rule (research/fast-test-2026-11-21/ranked.md).",
+    "The path to $10,000 a month needs far fewer orders: 59 fireplace orders a month (rank_outputs.json, orders_per_month_10k) against about 295 for Barkfare (battle_brief.md).",
+    "Demand is proven and in season. 'Electric fireplace' has 135,000 US searches a month at a $1.40 CPC, with a Dec/Jan index of 1.67, the strongest of 17 niches (niches.md, DataForSEO, checked 2026-11-16 and 2026-11-19). Buyers search for the product, so the model does not depend on video ads, creators or Dhruv on camera (channel per system_and_mechanics.md section 4).",
+    "It matches his shipping and trust wishes by design: real US brands, US stock, parcel shipping, mostly 120V plug-in units, and a warranty tied to authorized dealers (niches.md). The brief found generic products with slow delivery score 1.4 to 3.3 on Trustpilot (battle_brief.md).",
+    "Of 24 options scored for a $2,000 start, electric fireplaces rank 2nd (54) and pizza ovens 3rd (53), behind Barkfare at 72 (rank_outputs.json; reports/full-synopsis-2026-11-19.md section 10). Much of the setup overlaps with Barkfare: the LLC exists and liability insurance is already required (system_and_mechanics.md section 8)."
+   ],
+   "honest_weaknesses": [
+    "It cannot produce a sale this week. No dealer approval exists. Approval takes 2 business days to 4 weeks, about 10 to 20% of applications succeed, and first sales are reported at about 6 weeks to 6 months (system_and_mechanics.md sections 2 and 6). Sending applications also needs Dhruv's approval. This fails his speed test outright.",
+    "It needs more cash than the lane allows. Fireplaces need $1,700 to start against his $500 to $1,000 (rank_outputs.json). One supplier payment of about $1,050 goes out before any payout, and Shopify can hold a reserve, for example 10% for 120 days. Course sellers' own ad budgets are $2,000 to $5,000 (system_and_mechanics.md sections 5 and 6). Pizza ovens fit at $912 but earn only +$4.72 in the tough case and need 300 orders a month for $10,000.",
+    "It breaks a standing rule. Reselling another brand as the hero is not allowed (battle_brief.md; CLAUDE.md section 1). The fast-lane exception did not lift it. Only Dhruv can. It also builds the supplier's brand, not his, and has little moat.",
+    "The profit numbers are unverified. Dealer access is UNKNOWN for every fireplace brand. The margin comes from 2014 hearth data. The conversion rate is ASSUMED. Most other figures come from people who sell courses (niches.md; system_and_mechanics.md section 7). A residential address plus a personal cell plus a Gmail address is reported as disqualifying, and that is Dhruv's setup today.",
+    "Giant sellers and manual work. Fireplaces compete with Home Depot, Lowe's, Amazon and Wayfair, and MAP stops him from undercutting them (niches.md). He said he does not want a market with a giant dominant seller. 20 to 50% of purchases involve a phone or chat touch (Jayden Clark, self-reported), which eats his 1 to 3 hours a day. A few orders a month give Google little data to learn from. One return, damage claim or chargeback can erase several orders' profit."
+   ],
+   "path_to_10k_month": "About 59 fireplace orders a month at +$171.20 each (rank_outputs.json, unverified). Needs: Dhruv lifts the hero rule, at least one brand approves him near a 30% margin, about 0.8% of visitors buy at about $1.40 a click, and cash or net-30 terms cover supplier payments.",
+   "automation_fit": "Claude can build the catalog store, draft dealer applications, keep the Google Shopping feed and MAP prices right, forward orders, send tracking and delay notices, and track profit. Manual: Dhruv sends applications, answers buyer calls and chats, handles supplier reps, damage claims and returns.",
+   "verdict_this_week": "prepare now, start later"
+  },
+  {
+   "key": "amazon-fba-fbm",
+   "name": "Amazon (FBA or ship-from-home FBM)",
+   "model": "Amazon (FBA or ship-from-home FBM)",
+   "one_line": "Amazon has the cheapest ads and the proven buyers, but it needs an approved account and stock in hand, so it cannot sell this week; prepare it as lane two.",
+   "how_it_works_steps": [
+    "Dhruv opens the seller account himself. Creating it is free; the Professional plan is $39.99 a month. Amazon says identity checks usually take three business days or less (https://sell.amazon.com/sell/registration-guide). Seller forum posts report weeks (search summary, not opened).",
+    "Buy 5 to 10 units from US stock to his home. The first unit opened is the sample. Photograph the real unit. Amazon orders cannot safely be shipped by another retailer (see inventory field).",
+    "Claude drafts the title, bullets and keyword list from the DataForSEO Amazon data already in the repo. Dhruv creates the listing at the Amazon typical price. A product ID or a GTIN exemption is needed; approval time is unverified.",
+    "Start a small Sponsored Products campaign on exact search terms. House kill rule: pause any keyword that spends the pre-ad profit with no sale.",
+    "For each order, pack and post by USPS Ground Advantage from home. Amazon pays out about every 14 days; new accounts can have funds held until 7 days after delivery (/home/user/commerce-os/data/channel_params.json, ESTIMATED, not re-verified).",
+    "After about 10 good orders and the first reviews, send stock to FBA in January for the Prime badge. Peak fees end Jan 14, 2027 and the 2027 fee table starts Jan 15 (same file)."
+   ],
+   "days_to_first_sale": "Not this week. Rough ASSUMED range: 10 to 21 days for FBM, and January for FBA. Main reason: three things must happen in a row before a buyer can order. First, account verification: usually three business days or less per Amazon (https://sell.amazon.com/sell/registration-guide), longer in forum reports. Second, units must reach his home: Zendrop states 4 to 8 business days for US stock (/home/user/commerce-os/research/fast-test-2026-11-21/battle_brief.md); delivery days for the AliExpress US cards are not shown (ranked.json), so UNKNOWN. Third, a listing with zero reviews must win its first sale. FBA is slower still: Amazon's own example is a shipment that takes 5 days in January and 12 days at holiday peak (https://ppc.land/amazon-adds-fba-lead-time-estimates-a-5-day-shipment-may-take-12-at-peak/, Nov 12, 2026), and the Black Friday arrival deadlines were Oct 21 and Oct 28 (https://ppc.land/amazon-freezes-2026-holiday-seller-fees-cuts-inbound-windows-shorter/).",
+   "cash_needed_to_start": "Roughly $500 to $750 (ASSUMED total, not a quote). It buys: the Professional plan at $39.99 a month (/home/user/commerce-os/data/channel_params.json, from sell.amazon.com/pricing, ESTIMATED; Amazon Ads guidance says ads need a professional account, search summary, not confirmed in Seller Central). Ten knife sets at the US card price, $264.90 (/home/user/commerce-os/research/fast-test-2026-11-21/ranked.json, week-1 supplier spend for 10 orders, ESTIMATED). Postage of $12.12 per 3 lb parcel plus $1.25 packaging, paid as orders ship (channel_params.json ESTIMATED; packaging ASSUMED in /home/user/commerce-os/scripts/channels.py). A PPC test of $150 to $300 (ASSUMED; the repo marks a launch PPC budget UNKNOWN). This fits inside his $500 to $1,000, but the stock money is spent before any sale.",
+   "profit_per_order": "All figures are after ad cost. Knife set at Amazon's typical $99.99 with the $26.49 US card cost: FBM +$17.82 at the PPC median and +$7.16 in the tough case; FBA +$25.91 and +$17.03. Source: a fresh run today of /home/user/commerce-os/scripts/channels.py with inputs from ranked.json; printed only, not saved; inputs ESTIMATED; the 1.5 new-listing ad multiplier and the 20% FBM ad penalty are ASSUMED; FBA uses the non-peak 2026 fee table. Own store with Meta ads on the same product: +$14.79 and +$0.21 (/home/user/commerce-os/research/fast-test-2026-11-21/ranked.md). The other two green products do worse on Amazon because they must sell at Amazon prices. Heated gloves at the $69.99 Amazon median: FBM +$0.88 and -$7.51 (weight 1.5 lb ASSUMED). Sconce pair at $52.20: FBM -$32.54 and -$43.20. Barkfare extender at $149: FBA +$43.21, tough +$36.66, at bulk cost (/home/user/commerce-os/research/models-2026-11-19/outputs.json). A small air-shipped batch sold by FBM is -$11.03 per order in the tough case (/home/user/commerce-os/data/opportunities.csv). The PPC medians come from established brands. The ad cost for a new listing with zero reviews is UNKNOWN (/home/user/commerce-os/data/channel_params.json).",
+   "week1_sales_realistic": "This calendar week: $0. There is no account and no stock. First week live, likely early to mid December: rough ASSUMED 0 to 5 orders, about $0 to $500. Ten units of stock cap it near $1,000. Reasons: zero reviews; no Prime badge on FBM, which agency estimates put at 20 to 40% lower conversion (/home/user/commerce-os/data/channel_params.json, ESTIMATED); unknown launch ad cost. The $2,000 stretch goal needs about 21 orders at this price (/home/user/commerce-os/research/fast-test-2026-11-21/ranked.md), so 21 units bought first. In a Jungle Scout survey, 31% of live sellers sold under $500 a month (/home/user/commerce-os/research/fast-test-2026-11-21/04_reality_and_benchmarks.md). The honest role this week: open the account, keep using Amazon as the demand meter, and take the first sales in the own store.",
+   "inventory_needed_up_front": "Yes. This is where the model breaks his terms. FBM needs units at his home before the listing goes live: 5 to 10 units, $132.45 to $264.90 at the knife-set card price (/home/user/commerce-os/research/fast-test-2026-11-21/ranked.json, week-1 supplier spend for 5 and 10 orders, ESTIMATED). Having AliExpress or another retailer ship Amazon orders direct is not a safe shortcut. Amazon requires him to be the seller of record, with packaging, slips and invoices free of any third-party name (https://sell.amazon.com/blog/dropshipping-on-amazon, dated Aug 10, 2025; the full policy page could not be opened). FBA at scale for Barkfare means the 150-kit order, $6,976 (/home/user/commerce-os/research/models-2026-11-19/outputs.json).",
+   "delivery_time_to_customer": "FBM from his Florida home: USPS Ground Advantage, 2 to 5 business days after he posts the parcel (/home/user/commerce-os/data/channel_params.json, ESTIMATED). That meets the 2 to 8 day rule. Orders posted by about Dec 10 to 14 can still make Christmas (battle_brief.md cut-off for US stock). FBA: Prime delivery once Amazon has received the stock; the exact days are not in the repo (UNKNOWN), and FBA stock sent now would not be reliably on sale before Christmas.",
+   "strongest_evidence": [
+    "The buyers are counted on Amazon itself. The three green products show 23,100, 19,250 and 20,950 units bought in the past month across 56 to 79 listings (/home/user/commerce-os/research/fast-test-2026-11-21/ranked.md and ranked.json, DataForSEO). The repo calls this count the best free sales evidence there is (/home/user/commerce-os/research/fast-test-2026-11-21/04_reality_and_benchmarks.md).",
+    "Ads cost far less. Amazon PPC median cost per purchase: $13.98 all categories, $13.10 pets, $17.76 home (/home/user/commerce-os/data/channel_params.json, Triple Whale, ESTIMATED). Meta: $39.23 pets, $48.61 home (/home/user/commerce-os/research/fast-test-2026-11-21/battle_brief.md). Even after the 1.5 new-listing multiplier (ASSUMED) the Amazon figure stays under the Meta benchmark.",
+    "It beats own store plus Meta on the same product in the repo's script. Knife set: FBM +$17.82, tough +$7.16, against +$14.79, tough +$0.21 (channels.py run today; ranked.md). Extender at bulk cost: FBA +$43.21 against +$34.25 by 3PL and +$13.24 by dropship (/home/user/commerce-os/reports/full-synopsis-2026-11-19.md, section 9).",
+    "The repo already points here. opportunity.py names amazon_fbm the best launch channel for the extender kit (score 75.3) and for a knife set (/home/user/commerce-os/reports/ranked_opportunities.md). The plan of record lists Amazon FBA after 10 happy customers (full-synopsis, section on next steps).",
+    "Small starts do happen. Jungle Scout survey of 1,064 live sellers: 25% started with under $1,000, 22% were profitable within 3 months, 58% within a year (/home/user/commerce-os/research/fast-test-2026-11-21/04_reality_and_benchmarks.md). Caveat: a tool vendor's survey of survivors."
+   ],
+   "honest_weaknesses": [
+    "It fails his speed test. No sale is possible this week. FBA cannot be on sale before Christmas: holiday receiving is slow and the inbound deadlines passed in October. Only ship-from-home FBM could catch December, and only if verification is quick.",
+    "It needs stock before the first sale. That breaks his sell-now, one-sample rule. The no-stock workaround (a retailer ships the Amazon order) breaks Amazon's seller-of-record rule and risks the account.",
+    "On Amazon he must match Amazon prices against listings with thousands of reviews. Only 1 of the 3 green products still earns there: gloves fall to +$0.88 and -$7.51 tough; the sconce pair loses $32.54. The ad cost for a zero-review listing is UNKNOWN; the 1.5 multiplier is ASSUMED. The knife-set data is thin: the card cost is a 15-piece set with 12 sold, the weight is a 3-piece set, and knives are sharp goods.",
+    "Amazon owns the customer. No email list, no pixel data, no add-on or repeat sale, and nothing built for the Barkfare brand. It does not answer whether people buy from his own store. Sales are concentrated: about 1.6% of Amazon sellers make half the sales (Marketplace Pulse, in 04_reality_and_benchmarks.md).",
+    "Fees and account rules bite a beginner. 15% referral fee; peak fulfillment fees to Jan 14 (amounts not in sources); 2027 fee rise from Jan 15; prepaid return labels; late shipment rate under 4%; payout holds for new accounts (/home/user/commerce-os/data/channel_params.json, ESTIMATED). Reviews at speed need Vine, which needs Brand Registry and a trademark filing whose cost is not researched."
+   ],
+   "path_to_10k_month": "A product must hold FBA profit near the extender's $43.21 (tough $36.66) per order and sell roughly 230 to 275 orders a month (rough ASSUMED figure). That needs stock money ($6,976 for 150 kits), reviews, and a share of the 13,000+ monthly extender buyers.",
+   "automation_fit": "Claude can do keyword and competitor scans (DataForSEO Amazon data is connected), listing drafts, search-term report reviews, bid and pause rules, and a profit dashboard. Manual: identity check, photos of the real unit, packing and posting (about 5 minutes an order, ASSUMED), returns, FBA prep. API access is unverified.",
+   "verdict_this_week": "prepare now, start later"
+  }
+ ],
+ "verdicts": [
+  {
+   "lens": "cash-and-risk",
+   "pick_for_this_week": "print-on-demand",
+   "pick_for_long_term": "barkfare-own-brand",
+   "advice": "Run print-on-demand as a capped test: at most $350 of ads, stop any ad at $57.69 with no sale (data/economics_outputs.csv). First rerun economics.py with today's fee and benchmark, and confirm Printful's 2026 Christmas cutoff. Only add a fast-lane product after its real supplier cost is read; ranked.md shows $0.02 to $4.19 an order in the tough case. Send the 14 drafted Barkfare supplier messages yourself this week. That costs $0 and protects the best long-term margin.",
+   "scores": [
+    {
+     "model_key": "video-as-shown",
+     "speed_to_first_sale": 6,
+     "profit_on_every_order": 1,
+     "fits_500_to_1000_cash": 6,
+     "proven_demand": 3,
+     "fast_reliable_delivery": 1,
+     "easy_setup_1_to_3_hours_a_day": 7,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 2,
+     "low_risk_of_losing_money_or_accounts": 1,
+     "reason": "The video shows no ad, order or cost. China delivery is 11 to 20 business days and misses Christmas. Closest script evidence is +$1.85 tough on one product (ranked.md). Slow delivery raises refund, reserve and Meta account risk."
+    },
+    {
+     "model_key": "fast-lane-us-stock",
+     "speed_to_first_sale": 7,
+     "profit_on_every_order": 3,
+     "fits_500_to_1000_cash": 7,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 6,
+     "repeatable_and_automatable": 7,
+     "upside_to_10k_month": 3,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "Fastest honest lane with a capped loss. Advocate's '0 of 16 pass' is stale: ranked.md now shows 24 products, heated gloves pass the cushion rule at +$4.19 tough, but lithium is a caution. Costs are single card prices."
+    },
+    {
+     "model_key": "barkfare-own-brand",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 5,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 7,
+     "low_risk_of_losing_money_or_accounts": 6,
+     "reason": "Best scripted margin at bulk: +$34.25, tough +$22.70, passes the cushion rule (money-math outputs.json). But no sale for weeks, the trial loses $5.64 an order, nothing is VERIFIED, and the $6,976 bulk order is unfunded."
+    },
+    {
+     "model_key": "tiktok-shop-creators",
+     "speed_to_first_sale": 2,
+     "profit_on_every_order": 3,
+     "fits_500_to_1000_cash": 4,
+     "proven_demand": 4,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 3,
+     "repeatable_and_automatable": 5,
+     "upside_to_10k_month": 5,
+     "low_risk_of_losing_money_or_accounts": 4,
+     "reason": "Needs owned US stock that does not exist yet. Payout is 31 days after delivery, so cash does not recycle. The test-cost script result is -$21.26 an order. Late-dispatch enforcement and the unknown inventory rule add account risk."
+    },
+    {
+     "model_key": "print-on-demand",
+     "speed_to_first_sale": 5,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 9,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 5,
+     "easy_setup_1_to_3_hours_a_day": 5,
+     "repeatable_and_automatable": 7,
+     "upside_to_10k_month": 3,
+     "low_risk_of_losing_money_or_accounts": 7,
+     "reason": "Script shows +$19.18, tough +$7.63, cushion pass (data/economics_outputs.csv), with public Printful costs and no stock. But $149 is unproven, the run is from Nov 13, each order needs hand-checked art, and refunds on custom goods are sunk."
+    },
+    {
+     "model_key": "high-ticket-dealer",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 2,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 4,
+     "easy_setup_1_to_3_hours_a_day": 2,
+     "repeatable_and_automatable": 4,
+     "upside_to_10k_month": 5,
+     "low_risk_of_losing_money_or_accounts": 3,
+     "reason": "No dealer approval exists, so no sale for 6 weeks to 6 months. Fireplaces need $1,700, above the cap. Profit of +$171.20 rests on ASSUMED conversion and 2014 margin data. One return or chargeback is costly."
+    },
+    {
+     "model_key": "amazon-fba-fbm",
+     "speed_to_first_sale": 3,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 6,
+     "proven_demand": 8,
+     "fast_reliable_delivery": 7,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 5,
+     "upside_to_10k_month": 6,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "Best demand evidence and cheap ads, but it needs an account and stock first, so no sale this week. The knife-set profit figures come from an unsaved run I cannot check. New-listing ad cost is UNKNOWN."
+    }
+   ]
+  },
+  {
+   "lens": "speed-and-execution",
+   "pick_for_this_week": "fast-lane-us-stock",
+   "pick_for_long_term": "barkfare-own-brand",
+   "advice": "Run the US-stock fast lane as a capped test, one product only. Before any ad money, read the real cost, stock and ship days in a logged-in supplier catalog and rerun the script. Sconces are cleanest on rules; heated gloves earn most but need battery paperwork. Expect break-even, not profit. Send the 14 Barkfare supplier messages this week; that costs $0 and is the real path to $10,000.",
+   "scores": [
+    {
+     "model_key": "video-as-shown",
+     "speed_to_first_sale": 6,
+     "profit_on_every_order": 2,
+     "fits_500_to_1000_cash": 7,
+     "proven_demand": 3,
+     "fast_reliable_delivery": 1,
+     "easy_setup_1_to_3_hours_a_day": 6,
+     "repeatable_and_automatable": 7,
+     "upside_to_10k_month": 2,
+     "low_risk_of_losing_money_or_accounts": 2,
+     "reason": "The video shows no ad, order or cost. China stock takes 11 to 20 business days, misses Christmas and is out of scope. Best China case is +$1.85 per order (ranked.md). Only setup speed holds up."
+    },
+    {
+     "model_key": "fast-lane-us-stock",
+     "speed_to_first_sale": 8,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 8,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 7,
+     "repeatable_and_automatable": 7,
+     "upside_to_10k_month": 4,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "Only lane that can sell inside 7 days on US stock. ranked.md now has 24 products: 3 green, heated gloves pass the cushion rule at +$4.19 tough. Costs are card prices, delivery untested, 0 survive the cost stress."
+    },
+    {
+     "model_key": "barkfare-own-brand",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 5,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 7,
+     "low_risk_of_losing_money_or_accounts": 6,
+     "reason": "No kit exists, so no sale for a rough 3 to 8 weeks. Trial loses $5.64 an order; bulk shows +$34.25 and passes the cushion rule (outputs.json), but every cost is ESTIMATED and the $6,976 bulk order is unfunded."
+    },
+    {
+     "model_key": "tiktok-shop-creators",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 3,
+     "fits_500_to_1000_cash": 5,
+     "proven_demand": 4,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 3,
+     "repeatable_and_automatable": 5,
+     "upside_to_10k_month": 5,
+     "low_risk_of_losing_money_or_accounts": 4,
+     "reason": "TikTok Shop US requires owned stock and pays 31 days after delivery (VERIFIED in 03_fulfillment_and_money.md), so no week-1 sale. Test-stage script result is -$21.26 an order. Creator results are unbenchmarked and depend on manual sample work."
+    },
+    {
+     "model_key": "print-on-demand",
+     "speed_to_first_sale": 6,
+     "profit_on_every_order": 6,
+     "fits_500_to_1000_cash": 9,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 5,
+     "easy_setup_1_to_3_hours_a_day": 6,
+     "repeatable_and_automatable": 8,
+     "upside_to_10k_month": 3,
+     "low_risk_of_losing_money_or_accounts": 7,
+     "reason": "Script figures check out: +$19.18 benchmark, +$7.63 tough (data/economics_outputs.csv), no stock, approved Nov 18. But $149 is unproven against cheaper incumbents, delivery is 5 to 9 business days in two parcels, and each order needs hand-checked art."
+    },
+    {
+     "model_key": "high-ticket-dealer",
+     "speed_to_first_sale": 0,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 2,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 3,
+     "easy_setup_1_to_3_hours_a_day": 2,
+     "repeatable_and_automatable": 4,
+     "upside_to_10k_month": 6,
+     "low_risk_of_losing_money_or_accounts": 3,
+     "reason": "No dealer approval exists, so no sale for 6 weeks or more. Fireplaces need $1,700 (rank_outputs.json), over the cap. The +$171.20 rests on ASSUMED price, margin and conversion. It breaks the no-reselling-as-hero rule and needs phone support."
+    },
+    {
+     "model_key": "amazon-fba-fbm",
+     "speed_to_first_sale": 2,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 6,
+     "proven_demand": 8,
+     "fast_reliable_delivery": 7,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 5,
+     "upside_to_10k_month": 6,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "Needs an approved account and stock at home, so no sale this week. The knife FBM profit comes from an unsaved run I could not check; data/opportunities.csv shows small-batch FBM negative in the tough case. Demand is strong."
+    }
+   ]
+  },
+  {
+   "lens": "long-term-builder",
+   "pick_for_this_week": "print-on-demand",
+   "pick_for_long_term": "barkfare-own-brand",
+   "advice": "Start the capped print-on-demand dog gift test under Barkfare this week. It reuses the brand, costs the least and shows +$7.63 tough profit against +$4.19 for heated gloves. State the real delivery days. Also send the 14 Barkfare supplier messages today at $0. Note ranked.md now lists 24 products, not 16; heated gloves pass the cushion rule but on a cost from a listing with 3 sold. Read real US costs before any fast-lane ad spend.",
+   "scores": [
+    {
+     "model_key": "video-as-shown",
+     "speed_to_first_sale": 6,
+     "profit_on_every_order": 2,
+     "fits_500_to_1000_cash": 8,
+     "proven_demand": 3,
+     "fast_reliable_delivery": 1,
+     "easy_setup_1_to_3_hours_a_day": 7,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 2,
+     "low_risk_of_losing_money_or_accounts": 2,
+     "reason": "Setup is cheap and Claude fits, but the video shows no sale or cost. China delivery is 11 to 20 business days and best tough profit is $1.85 (ranked.md). Direct-from-China is out of scope in CLAUDE.md."
+    },
+    {
+     "model_key": "fast-lane-us-stock",
+     "speed_to_first_sale": 8,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 8,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 6,
+     "easy_setup_1_to_3_hours_a_day": 7,
+     "repeatable_and_automatable": 8,
+     "upside_to_10k_month": 4,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "Fastest lane and a reusable test loop. ranked.md now lists 24 products, not 16: heated gloves pass the cushion rule at +$4.19 tough, but that cost is from a listing with 3 sold (ranked.json). Others near $0."
+    },
+    {
+     "model_key": "barkfare-own-brand",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 4,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 7,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 8,
+     "low_risk_of_losing_money_or_accounts": 6,
+     "reason": "Best scripted margin: +$34.25 at bulk, +$22.70 tough (money-math outputs.json, ESTIMATED). No sale for weeks. Trial loses $5.64 an order. The 150-kit step costs $6,976 and is unfunded. Zero quotes VERIFIED."
+    },
+    {
+     "model_key": "tiktok-shop-creators",
+     "speed_to_first_sale": 2,
+     "profit_on_every_order": 4,
+     "fits_500_to_1000_cash": 5,
+     "proven_demand": 5,
+     "fast_reliable_delivery": 7,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 4,
+     "upside_to_10k_month": 6,
+     "low_risk_of_losing_money_or_accounts": 4,
+     "reason": "Needs owned US stock and pays out 31 days after delivery (battle_brief.md). Test stage loses $21.26 an order; bulk shows +$33.12 (offer_economics.json). Creator work is manual and API access is UNKNOWN."
+    },
+    {
+     "model_key": "print-on-demand",
+     "speed_to_first_sale": 7,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 9,
+     "proven_demand": 6,
+     "fast_reliable_delivery": 5,
+     "easy_setup_1_to_3_hours_a_day": 6,
+     "repeatable_and_automatable": 8,
+     "upside_to_10k_month": 4,
+     "low_risk_of_losing_money_or_accounts": 8,
+     "reason": "Lowest cash, no stock, Printful API, approved Nov 18 (decisions.md). Script shows +$19.18, +$7.63 tough (economics_outputs.csv). But $149 is ASSUMED and unproven, low case loses $26.59, delivery is 5 to 9 business days, and demand is seasonal."
+    },
+    {
+     "model_key": "high-ticket-dealer",
+     "speed_to_first_sale": 1,
+     "profit_on_every_order": 5,
+     "fits_500_to_1000_cash": 3,
+     "proven_demand": 7,
+     "fast_reliable_delivery": 5,
+     "easy_setup_1_to_3_hours_a_day": 2,
+     "repeatable_and_automatable": 5,
+     "upside_to_10k_month": 5,
+     "low_risk_of_losing_money_or_accounts": 4,
+     "reason": "Paper profit of +$171.20 rests on ASSUMED price, conversion and a 2014 margin (rank_outputs.json). No dealer approval exists. Fireplaces need $1,700. It breaks the no-reselling-as-hero rule and needs phone support."
+    },
+    {
+     "model_key": "amazon-fba-fbm",
+     "speed_to_first_sale": 3,
+     "profit_on_every_order": 6,
+     "fits_500_to_1000_cash": 6,
+     "proven_demand": 9,
+     "fast_reliable_delivery": 8,
+     "easy_setup_1_to_3_hours_a_day": 4,
+     "repeatable_and_automatable": 6,
+     "upside_to_10k_month": 7,
+     "low_risk_of_losing_money_or_accounts": 5,
+     "reason": "I re-ran scripts/channels.py: knife set FBM +$17.82, tough +$7.16, as claimed. Demand is counted on Amazon. But stock comes first, no sale this week, new-listing ad cost is UNKNOWN, and Amazon owns the customer."
+    }
+   ]
+  }
+ ],
+ "board": [
+  {
+   "key": "print-on-demand",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 6,
+    "profit_on_every_order": 5.3,
+    "fits_500_to_1000_cash": 9,
+    "proven_demand": 6,
+    "fast_reliable_delivery": 5,
+    "easy_setup_1_to_3_hours_a_day": 5.7,
+    "repeatable_and_automatable": 7.7,
+    "upside_to_10k_month": 3.3,
+    "low_risk_of_losing_money_or_accounts": 7.3
+   },
+   "total_out_of_90": 55.3,
+   "reasons": [
+    "cash-and-risk: Script shows +$19.18, tough +$7.63, cushion pass (data/economics_outputs.csv), with public Printful costs and no stock. But $149 is unproven, the run is from Nov 13, each order needs hand-checked art, and refunds on custom goods are sunk.",
+    "speed-and-execution: Script figures check out: +$19.18 benchmark, +$7.63 tough (data/economics_outputs.csv), no stock, approved Nov 18. But $149 is unproven against cheaper incumbents, delivery is 5 to 9 business days in two parcels, and each order needs hand-checked art.",
+    "long-term-builder: Lowest cash, no stock, Printful API, approved Nov 18 (decisions.md). Script shows +$19.18, +$7.63 tough (economics_outputs.csv). But $149 is ASSUMED and unproven, low case loses $26.59, delivery is 5 to 9 business days, and demand is seasonal."
+   ]
+  },
+  {
+   "key": "fast-lane-us-stock",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 7.7,
+    "profit_on_every_order": 3.7,
+    "fits_500_to_1000_cash": 7.7,
+    "proven_demand": 6.7,
+    "fast_reliable_delivery": 6,
+    "easy_setup_1_to_3_hours_a_day": 6.7,
+    "repeatable_and_automatable": 7.3,
+    "upside_to_10k_month": 3.7,
+    "low_risk_of_losing_money_or_accounts": 5
+   },
+   "total_out_of_90": 54.3,
+   "reasons": [
+    "cash-and-risk: Fastest honest lane with a capped loss. Advocate's '0 of 16 pass' is stale: ranked.md now shows 24 products, heated gloves pass the cushion rule at +$4.19 tough, but lithium is a caution. Costs are single card prices.",
+    "speed-and-execution: Only lane that can sell inside 7 days on US stock. ranked.md now has 24 products: 3 green, heated gloves pass the cushion rule at +$4.19 tough. Costs are card prices, delivery untested, 0 survive the cost stress.",
+    "long-term-builder: Fastest lane and a reusable test loop. ranked.md now lists 24 products, not 16: heated gloves pass the cushion rule at +$4.19 tough, but that cost is from a listing with 3 sold (ranked.json). Others near $0."
+   ]
+  },
+  {
+   "key": "amazon-fba-fbm",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 2.7,
+    "profit_on_every_order": 4.7,
+    "fits_500_to_1000_cash": 6,
+    "proven_demand": 8.3,
+    "fast_reliable_delivery": 7.3,
+    "easy_setup_1_to_3_hours_a_day": 4,
+    "repeatable_and_automatable": 5.3,
+    "upside_to_10k_month": 6.3,
+    "low_risk_of_losing_money_or_accounts": 5
+   },
+   "total_out_of_90": 49.7,
+   "reasons": [
+    "cash-and-risk: Best demand evidence and cheap ads, but it needs an account and stock first, so no sale this week. The knife-set profit figures come from an unsaved run I cannot check. New-listing ad cost is UNKNOWN.",
+    "speed-and-execution: Needs an approved account and stock at home, so no sale this week. The knife FBM profit comes from an unsaved run I could not check; data/opportunities.csv shows small-batch FBM negative in the tough case. Demand is strong.",
+    "long-term-builder: I re-ran scripts/channels.py: knife set FBM +$17.82, tough +$7.16, as claimed. Demand is counted on Amazon. But stock comes first, no sale this week, new-listing ad cost is UNKNOWN, and Amazon owns the customer."
+   ]
+  },
+  {
+   "key": "barkfare-own-brand",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 1,
+    "profit_on_every_order": 5,
+    "fits_500_to_1000_cash": 4.7,
+    "proven_demand": 7,
+    "fast_reliable_delivery": 6.3,
+    "easy_setup_1_to_3_hours_a_day": 4,
+    "repeatable_and_automatable": 6,
+    "upside_to_10k_month": 7.3,
+    "low_risk_of_losing_money_or_accounts": 6
+   },
+   "total_out_of_90": 47.3,
+   "reasons": [
+    "cash-and-risk: Best scripted margin at bulk: +$34.25, tough +$22.70, passes the cushion rule (money-math outputs.json). But no sale for weeks, the trial loses $5.64 an order, nothing is VERIFIED, and the $6,976 bulk order is unfunded.",
+    "speed-and-execution: No kit exists, so no sale for a rough 3 to 8 weeks. Trial loses $5.64 an order; bulk shows +$34.25 and passes the cushion rule (outputs.json), but every cost is ESTIMATED and the $6,976 bulk order is unfunded.",
+    "long-term-builder: Best scripted margin: +$34.25 at bulk, +$22.70 tough (money-math outputs.json, ESTIMATED). No sale for weeks. Trial loses $5.64 an order. The 150-kit step costs $6,976 and is unfunded. Zero quotes VERIFIED."
+   ]
+  },
+  {
+   "key": "tiktok-shop-creators",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 1.7,
+    "profit_on_every_order": 3.3,
+    "fits_500_to_1000_cash": 4.7,
+    "proven_demand": 4.3,
+    "fast_reliable_delivery": 6.3,
+    "easy_setup_1_to_3_hours_a_day": 3.3,
+    "repeatable_and_automatable": 4.7,
+    "upside_to_10k_month": 5.3,
+    "low_risk_of_losing_money_or_accounts": 4
+   },
+   "total_out_of_90": 37.7,
+   "reasons": [
+    "cash-and-risk: Needs owned US stock that does not exist yet. Payout is 31 days after delivery, so cash does not recycle. The test-cost script result is -$21.26 an order. Late-dispatch enforcement and the unknown inventory rule add account risk.",
+    "speed-and-execution: TikTok Shop US requires owned stock and pays 31 days after delivery (VERIFIED in 03_fulfillment_and_money.md), so no week-1 sale. Test-stage script result is -$21.26 an order. Creator results are unbenchmarked and depend on manual sample work.",
+    "long-term-builder: Needs owned US stock and pays out 31 days after delivery (battle_brief.md). Test stage loses $21.26 an order; bulk shows +$33.12 (offer_economics.json). Creator work is manual and API access is UNKNOWN."
+   ]
+  },
+  {
+   "key": "video-as-shown",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 6,
+    "profit_on_every_order": 1.7,
+    "fits_500_to_1000_cash": 7,
+    "proven_demand": 3,
+    "fast_reliable_delivery": 1,
+    "easy_setup_1_to_3_hours_a_day": 6.7,
+    "repeatable_and_automatable": 6.3,
+    "upside_to_10k_month": 2,
+    "low_risk_of_losing_money_or_accounts": 1.7
+   },
+   "total_out_of_90": 35.3,
+   "reasons": [
+    "cash-and-risk: The video shows no ad, order or cost. China delivery is 11 to 20 business days and misses Christmas. Closest script evidence is +$1.85 tough on one product (ranked.md). Slow delivery raises refund, reserve and Meta account risk.",
+    "speed-and-execution: The video shows no ad, order or cost. China stock takes 11 to 20 business days, misses Christmas and is out of scope. Best China case is +$1.85 per order (ranked.md). Only setup speed holds up.",
+    "long-term-builder: Setup is cheap and Claude fits, but the video shows no sale or cost. China delivery is 11 to 20 business days and best tough profit is $1.85 (ranked.md). Direct-from-China is out of scope in CLAUDE.md."
+   ]
+  },
+  {
+   "key": "high-ticket-dealer",
+   "judges": 3,
+   "mean": {
+    "speed_to_first_sale": 0.7,
+    "profit_on_every_order": 4.7,
+    "fits_500_to_1000_cash": 2.3,
+    "proven_demand": 6.3,
+    "fast_reliable_delivery": 4,
+    "easy_setup_1_to_3_hours_a_day": 2,
+    "repeatable_and_automatable": 4.3,
+    "upside_to_10k_month": 5.3,
+    "low_risk_of_losing_money_or_accounts": 3.3
+   },
+   "total_out_of_90": 33,
+   "reasons": [
+    "cash-and-risk: No dealer approval exists, so no sale for 6 weeks to 6 months. Fireplaces need $1,700, above the cap. Profit of +$171.20 rests on ASSUMED conversion and 2014 margin data. One return or chargeback is costly.",
+    "speed-and-execution: No dealer approval exists, so no sale for 6 weeks or more. Fireplaces need $1,700 (rank_outputs.json), over the cap. The +$171.20 rests on ASSUMED price, margin and conversion. It breaks the no-reselling-as-hero rule and needs phone support.",
+    "long-term-builder: Paper profit of +$171.20 rests on ASSUMED price, conversion and a 2014 margin (rank_outputs.json). No dealer approval exists. Fireplaces need $1,700. It breaks the no-reselling-as-hero rule and needs phone support."
+   ]
+  }
+ ],
+ "refute": {
+  "checks": [
+   {
+    "model_key": "print-on-demand",
+    "claim": "Earns about $19.18 an order at $149, and $7.63 in the tough case",
+    "holds": "does not hold",
+    "evidence": "data/economics_outputs.csv gives $19.18 only at an ASSUMED $149. Crown & Paw sells portrait blankets from $49.95 with an extra 25% off banner (crownandpaw.com/collections/blankets, read Nov 21). The same file's low case loses $26.59. No run exists at $99 to $119."
+   },
+   {
+    "model_key": "print-on-demand",
+    "claim": "Printful costs are known: product $51.57 plus shipping $21.18 per order",
+    "holds": "partly holds",
+    "evidence": "printful.com/shipping (read Nov 21) confirms sherpa $13.99, small canvas $6.79 and a $0.40 US surcharge. Product prices $35.76 and $15.81 date from Nov 13 (data/economics_inputs.csv); the product page gave no price today. Any sales tax Printful bills the seller is not modeled; its help page returned 403."
+   },
+   {
+    "model_key": "print-on-demand",
+    "claim": "Delivery in 5 to 9 business days from a US printer, in time for Christmas",
+    "holds": "partly holds",
+    "evidence": "printful.com/shipping (read Nov 21): 2 to 5 business days fulfillment, 3 to 4 shipping, 'just an estimate, it's not a guarantee'. Canvas ships separately. The 2026 cutoff table was unreadable: UNKNOWN. Crown & Paw says 'Order by 10 Dec'. The slow end breaks CLAUDE.md's 2 to 8 day rule."
+   },
+   {
+    "model_key": "print-on-demand",
+    "claim": "First sale about 4 to 10 days from today",
+    "holds": "cannot be checked",
+    "evidence": "The case labels it ASSUMED. The repo has no portrait pipeline, no test portrait and no page draft; store/ holds only pdp-mockups.html for Barkfare. No print-on-demand ad test is in 02_youtube_sweep.md. The one timing figure is Printify's 165 days to $1,000 (04_reality_and_benchmarks.md, section 7)."
+   },
+   {
+    "model_key": "print-on-demand",
+    "claim": "Cash needed is about $210 to $430 with no stock at risk",
+    "holds": "holds",
+    "evidence": "reports/full-synopsis-2026-11-19.md section 11: one sample at about $60 to $80 plus about $150 of ads. Printful is paid per order, $51.57 plus $21.18 (data/economics_inputs.csv). Left out: product liability insurance, which CLAUDE.md requires before the first sale. Its cost is UNKNOWN."
+   },
+   {
+    "model_key": "print-on-demand",
+    "claim": "Ad cost lands near the $39.23 pets benchmark, and $150 to $350 of ads gives clear data",
+    "holds": "does not hold",
+    "evidence": "04_reality_and_benchmarks.md section 2.1: $39.23 is the median for established pet brands with a $60.37 average order. Ours is $149 from a store with no reviews. Black Friday week CPMs ran 59% above September (03_fulfillment_and_money.md 6a, ESTIMATED). The case itself expects 0 to 4 orders on $150."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "Knife set at $99.00 earns $14.79 at benchmark ad cost and $0.21 at new-store ad cost",
+    "holds": "does not hold",
+    "evidence": "ranked.json: the $26.49 cost is one AliExpress card for a 15-piece block set with 12 sold. The $99 offer is a 3-piece gift set. The next US block set costs $33.39 (candidates_home.json), above the stress cost of $31.79 where the script already shows -$5.09."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "Sconce pair at $109.99 earns $14.60 at benchmark ad cost and $0.02 at new-store ad cost",
+    "holds": "does not hold",
+    "evidence": "ranked.json: Amazon sells the same set of 2 at $45 to $57 with Prime. The $36.69 cost is one card with 12 sold. Styles closer to Amazon best sellers cost $45.91 to $52.89, above the stress case that already loses $7.32. At 10% refunds the script shows -$4.38."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "Supplier delivers from US stock in 4 to 8 business days and has stock",
+    "holds": "cannot be checked",
+    "evidence": "The 4 to 8 days is Zendrop's own claim (03_fulfillment_and_money.md finding 4). The costed sellers are on AliExpress. The knife card shows no delivery days (candidates_home.json). Most US listings have 0 to 12 sales and several say 'only 1 left' (candidates_home.md). No test order exists. Blind shipping is UNKNOWN."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "First sale about 3 to 7 days from today",
+    "holds": "partly holds",
+    "evidence": "02_youtube_sweep.md section 4.3: first sale came 20 minutes to about 24 hours after ads in the tests that got one. All self-reported. Two of seven tests failed outright (04_reality_and_benchmarks.md section 2.9). The 2 to 5 day build is ASSUMED. CLAUDE.md requires insurance before the first sale."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "$500 to $1,000 covers the whole test and gives clear data",
+    "holds": "partly holds",
+    "evidence": "ranked.md: $1,000 covers 10 knife orders or 9 sconce orders and ends at -$40.43 or -$52.53. The script omits insurance, $15 chargeback fees (03_fulfillment_and_money.md section 3a) and return shipping. Ten orders cannot tell a $48.61 ad cost from $63.19 (my judgment, ASSUMED)."
+   },
+   {
+    "model_key": "fast-lane-us-stock",
+    "claim": "A new store's ad cost stays at or under $63.19 in this launch week",
+    "holds": "cannot be checked",
+    "evidence": "The 1.3 multiplier is ASSUMED and 'Nothing found today replaces it' (04_reality_and_benchmarks.md section 2.1). Home and decor CPMs ran 116% above September in Black Friday week (03_fulfillment_and_money.md 6a, ESTIMATED). Meta says ad sets in learning 'usually have a higher CPA'. This test never leaves learning."
+   }
+  ],
+  "fatal_flaws": [
+   "The profit exists only at $149, a price no seller proves. Crown & Paw sells the blanket from $49.95 and the canvas from $39.95 (research/sales-check-2026-11-13/top3-sales-evidence.json) and showed an extra 25% off banner on Nov 21 (crownandpaw.com/collections/blankets). At about $100, Printful's $51.57 product and $21.18 shipping leave less than the $39.23 benchmark ad cost, so each Meta order would lose money (rough ASSUMED, not a script run).",
+   "It breaks Dhruv's Nov 21 term on dominant sellers. Crown & Paw has 20,199 Trustpilot reviews and claims over 850,000 customers. West & Willow has about 19,380 reviews and claims over 1 million portraits (research/sales-check-2026-11-13/top3-sales-evidence.json).",
+   "The selling window with real photos is about one week. A sample ordered Monday Nov 23 lands around Dec 1 to 7 (rough ASSUMED, from Printful's 2 to 5 plus 3 to 4 business days and Thanksgiving). Crown & Paw's own cutoff is Dec 10. Printful's 2026 cutoff is UNKNOWN. Gift searches fall 70 to 90% after December (reports/scout-2026-11-13.md).",
+   "Nothing is built. The repo has no portrait pipeline, no test portrait and no product page for this lane. Likeness quality is unknown until a sample is in hand. Every order needs Dhruv's manual check inside 1 to 3 hours a day.",
+   "One refund is expensive. A personalized item cannot be resold, so a refunded order still costs the full $51.57 plus $21.18 Printful charge (data/economics_inputs.csv). That wipes out the tough-case profit of $7.63 on many other orders (rough ASSUMED). The 5% refund rate is ASSUMED.",
+   "It cannot reach the other goals. The case itself expects 0 to 4 orders on $150 of ads, so the $2,000 stretch and clear ad-cost data are out of reach, and the path to $10,000 a month is unproven."
+  ],
+  "conditions_to_proceed": [
+   "Rerun scripts/economics.py for the bundle with today's inputs (2.9% card fee, $39.23 benchmark, Printful prices read in the dashboard) at $149, $119 and $99. Spend on ads only at a price whose tough case is above zero. If none passes, stop. Zero winners is an allowed result.",
+   "Hold the Printful sample first. Time both parcels from order to door, check print quality, confirm no Printful branding or prices in the box, and confirm in the Printful dashboard that the sherpa blanket is printed in the US (not confirmed on the web today). Ads use photos of that sample, not mockups.",
+   "Make 5 portraits from real dog photos before launch and show them to the owners. Go only if they say the likeness is clearly better than a Crown & Paw proof (ASSUMED threshold). If the art is not better, the $149 price has no basis.",
+   "Read Printful's 2026 US holiday cutoff in the logged-in dashboard. Set the store cutoff at least 2 business days earlier (ASSUMED buffer). The page states the real made-to-order time and drops any by-Christmas promise after that date (FTC shipping rule, CLAUDE.md section 9).",
+   "Before the first sale: decide on product liability insurance, set up sales tax, ask Printful whether a Florida resale certificate stops tax being added to each order (unverified today), get Shopify Payments approved and read the new Meta ad account's daily limit.",
+   "Write the loss cap down before the campaign is published: ads capped at $150, stop any ad at $57.69 with no sale (data/economics_outputs.csv), stop the lane at half budget if blended CAC is above $57.69 (CLAUDE.md section 4). Dhruv approves the paused campaign himself."
+  ],
+  "winner_survives": false,
+  "better_alternative": "Not the fast lane. It breaks harder. The knife cost of $26.49 is for a 15-piece block set, not the 3-piece offer. The sconce pair sells on Amazon at $45 to $57 against our $109.99. Tough-case profit is $0.21 and $0.02 (ranked.md). No delivery time, stock depth or blind shipping is confirmed. Meta's ad policy (https://transparency.meta.com/policies/ad-standards/restricted-goods-services/weapons-ammunitions-explosives, read Nov 21) bans \"non-culinary knives\" and \"reviews of ... bladed items\" and never says kitchen knives are allowed. ranked.md now has 24 products, not 16. The new heated-gloves row passes the cushion rule in ranked.json, but its $25.89 cost is a listing with 3 sales, the listing with 110 sales reads $48.69, and it has lithium packs.\n\nThe better change: keep print-on-demand as the pick, but only as a gated price test, not as a lane where every order makes money. Its costs, supplier and loss cap are the best-evidenced parts of either case. This week, with Dhruv's approval: start the Shopify, Shopify Payments and Meta account clocks, order the Printful sample (about $60 to $80, reports/full-synopsis-2026-11-19.md), and rerun the script at $99, $119 and $149. No ad money until conditions 1 to 4 pass, then at most $150. Expect 0 to 4 orders and a small loss, about the sample plus the ad cap at worst (rough ASSUMED). Barkfare stays the main lane. If the rerun fails at every price, the honest result this week is zero winners."
+ }
+}

@@ -1,0 +1,4 @@
+product_id,scenario,status,net_revenue,variable_costs,pre_ad_contribution,pre_ad_margin_pct,breakeven_cac,breakeven_roas,target_cac,benchmark_cpa,cushion_ratio,cushion_pass,margin_points,contribution_after_ads_good,contribution_after_ads_benchmark,contribution_after_ads_tough,missing_or_unknown
+pet-portrait-bundle-119,base,preliminary,119.00,87.45,31.55,0.2651,31.55,3.77,23.66,39.23,0.6032,no,0,2.13,-7.68,-19.45,
+pet-portrait-bundle-149,base,preliminary,149.00,89.82,59.18,0.3972,59.18,2.52,44.38,39.23,1.13,yes,18,29.76,19.95,8.18,
+pet-portrait-bundle-99,base,preliminary,99.00,85.87,13.13,0.1326,13.13,7.54,9.85,39.23,0.2510,no,0,-16.29,-26.10,-37.87,

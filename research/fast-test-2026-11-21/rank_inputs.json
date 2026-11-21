@@ -65,119 +65,55 @@
     "source": "Meta Business Help Center, about 50 results per ad set per week (04_reality_and_benchmarks.md)"
   },
   "category_rules": {
-    "_note": "Which Meta benchmark each product uses. First matching keyword in the product's category wins; otherwise the file default.",
-    "keywords": [
-      [
-        "pet",
-        "pets"
-      ],
-      [
-        "dog",
-        "pets"
-      ],
-      [
-        "cat",
-        "pets"
-      ],
-      [
-        "beauty",
-        "beauty"
-      ],
-      [
-        "hair",
-        "beauty"
-      ],
-      [
-        "skin",
-        "beauty"
-      ],
-      [
-        "groom",
-        "beauty"
-      ],
-      [
-        "auto",
-        "auto"
-      ],
-      [
-        "car",
-        "auto"
-      ],
-      [
-        "truck",
-        "auto"
-      ],
-      [
-        "tech",
-        "tech"
-      ],
-      [
-        "desk",
-        "tech"
-      ],
-      [
-        "electronic",
-        "tech"
-      ],
-      [
-        "gadget",
-        "tech"
-      ],
-      [
-        "fitness",
-        "outdoor"
-      ],
-      [
-        "sport",
-        "outdoor"
-      ],
-      [
-        "outdoor",
-        "outdoor"
-      ],
-      [
-        "camp",
-        "outdoor"
-      ],
-      [
-        "recovery",
-        "outdoor"
-      ],
-      [
-        "home",
-        "home"
-      ],
-      [
-        "kitchen",
-        "home"
-      ],
-      [
-        "clean",
-        "home"
-      ],
-      [
-        "bath",
-        "home"
-      ],
-      [
-        "light",
-        "home"
-      ],
-      [
-        "decor",
-        "home"
-      ],
-      [
-        "bed",
-        "home"
-      ]
-    ],
+    "_note": "Which Meta benchmark each product uses. Each scout file has a default. In the two mixed files a keyword in the product's category picks the benchmark; if more than one matches, the more expensive one is used.",
     "file_default": {
       "pets": "pets",
       "home": "home",
       "auto-outdoor": "outdoor",
       "tech-desk": "tech",
       "beauty-fitness": "beauty"
+    },
+    "file_keywords": {
+      "auto-outdoor": [
+        [
+          "tech",
+          "tech"
+        ],
+        [
+          "car",
+          "auto"
+        ],
+        [
+          "truck",
+          "auto"
+        ],
+        [
+          "auto",
+          "auto"
+        ]
+      ],
+      "beauty-fitness": [
+        [
+          "fitness",
+          "outdoor"
+        ],
+        [
+          "sport",
+          "outdoor"
+        ],
+        [
+          "recovery",
+          "outdoor"
+        ],
+        [
+          "massage",
+          "outdoor"
+        ],
+        [
+          "gym",
+          "outdoor"
+        ]
+      ]
     }
   },
   "test_plan": {
@@ -219,12 +155,29 @@
       "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found."
     },
     "caution": {
-      "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March.",
+      "heated-gloves-7v": "Lithium packs and a heating element worn on the body; battery paperwork (UL, ETL or UN38.3) UNKNOWN; sizing returns; season ends by March. The cost is a listing with 3 sold.",
       "heated-vest-powerbank-kit": "Heating element worn on the body; two sellers and two parcels; sizing returns.",
       "heated-socks-app": "Lithium packs worn against the leg; certification UNKNOWN; sizing returns.",
       "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
       "mattress-vacuum-uv": "UV light: no germ-killing or health claims allowed without proof.",
-      "japanese-style-knife-set": "Sharp goods: check Meta and Shopify Payments rules for kitchen knives before launch; never call it Japanese-made unless it is."
+      "japanese-style-knife-set": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
+      "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold."
+    }
+  },
+  "proven_listing_cost_usd": {
+    "_label": "ESTIMATED",
+    "_source": "The battle skeptic's re-check of the three products that earn money on the cheapest listing: the cost of the better-proven or closer-matching US listing in candidates_*.json (battle.json, refute)",
+    "japanese-style-knife-set": {
+      "value": 33.39,
+      "note": "next US block set"
+    },
+    "rechargeable-wall-sconce-pair": {
+      "value": 47.15,
+      "note": "style closer to the Amazon best sellers ($45.91 to $52.89)"
+    },
+    "heated-gloves-7v": {
+      "value": 48.69,
+      "note": "the US listing with 110 sold"
     }
   }
 }

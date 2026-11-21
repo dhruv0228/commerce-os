@@ -26,12 +26,14 @@ def val(node):
     return node["value"] if isinstance(node, dict) and "value" in node else node
 
 
-def benchmark_key(category, file_key, rules):
+def benchmark_key(category, file_key, rules, bench):
+    """Pick the Meta benchmark for a product: the scout file's default, or in mixed files the keyword match.
+    If more than one keyword benchmark matches, use the more expensive one."""
     text = (category or "").lower()
-    for word, key in rules["keywords"]:
-        if word in text:
-            return key
-    return rules["file_default"].get(file_key, "all")
+    keys = {key for word, key in rules.get("file_keywords", {}).get(file_key, []) if word in text}
+    if not keys:
+        return rules["file_default"].get(file_key, "all")
+    return max(keys, key=lambda k: bench[k])
 
 
 def economics(price, landed, cpa, refund_pct, pay_pct, pay_fixed, tough_mult):
@@ -114,7 +116,7 @@ def main():
         if isinstance(data, dict):
             data = data.get("candidates", [])
         for c in data:
-            bkey = benchmark_key(c.get("category"), file_key, inp["category_rules"])
+            bkey = benchmark_key(c.get("category"), file_key, inp["category_rules"], bench)
             cpa = bench[bkey]
             price = c["sell_price"]
             us_cost, cn_cost = c.get("best_us_landed_cost"), c.get("best_cn_landed_cost")
@@ -153,6 +155,16 @@ def main():
     for r in rows:
         u = r["us"]
         r["tier"] = "green" if (u and u["profit_tough"] > 0) else "amber" if (u and u["profit_benchmark"] > 0) else "red"
+    # Skeptic's re-check: the same product at the cost of a better-proven US listing.
+    proven = inp.get("proven_listing_cost_usd", {})
+    for r in rows:
+        pc = proven.get(r["id"])
+        if pc and r["us"]:
+            cpa_ = r["us"]["benchmark_cpa"]
+            e = economics(r["sell_price"], pc["value"], cpa_, r_us, pay_pct, pay_fixed, tough)
+            r["proven_listing"] = {"cost": pc["value"], "note": pc["note"], "profit_benchmark": e["profit_benchmark"], "profit_tough": e["profit_tough"]}
+        else:
+            r["proven_listing"] = None
     # House rules come before money: a product blocked on safety cannot start, whatever it earns.
     review = inp.get("rule_review", {})
     for r in rows:
@@ -188,6 +200,8 @@ def main():
             plan[name] = {"orders": orders, "sales": orders * u["price"], "supplier_spend": orders * u["landed"],
                           "cash_out_before_payout": setup_fixed + u["landed"] + ad_budget + orders * u["landed"],
                           "net_after_setup_and_sample": orders * (u["pre_ad_contribution"]) - ad_budget - setup_fixed - u["landed"]}
+        plan["worst_case_no_sales"] = -(ad_budget + setup_fixed + u["landed"])
+        plan["loss_if_stopped_at_checkpoint_with_no_sales"] = -(ad_budget / 2 + setup_fixed + u["landed"])
         r["test_plan"] = plan
 
     # The "$100,000 before the end of the year" claim, on benchmark numbers.
@@ -215,6 +229,7 @@ def main():
         "checked": inp["checked"], "products": len(rows),
         "tiers": {t: sum(1 for r in rows if r["tier"] == t and r["rule_status"] != "blocked") for t in ("green", "amber", "red")},
         "blocked": sum(1 for r in rows if r["rule_status"] == "blocked"),
+        "green_that_survive_proven_listing_cost": sum(1 for r in rows if r["tier"] == "green" and r["rule_status"] != "blocked" and not (r.get("proven_listing") and r["proven_listing"]["profit_tough"] <= 0)),
         "startable": sum(r["startable_this_week"] for r in rows), "robust": sum(r["robust"] for r in rows),
         "cushion_pass": sum(1 for r in rows if r["us"] and r["us"]["cushion_pass"]),
         "setup_fixed_usd": setup_fixed,
@@ -256,6 +271,11 @@ def main():
     if notes:
         md += ["## Rule review (ASSUMED: our reading of CLAUDE.md section 2; Dhruv can overrule)", ""]
         md += [f"- {r['id']}: {r['rule_status'].upper()}. {r['rule_note']}" for r in notes]
+        md += [""]
+    pl = [r for r in rows if r.get("proven_listing")]
+    if pl:
+        md += ["## Re-check at the cost of a better-proven US listing", "", "| Product | Cheapest listing | Profit (tough) | Better-proven listing | Profit (tough) |", "|---|---|---|---|---|"]
+        md += [f"| {r['id']} | {m(r['us_landed_cost'])} | {m(r['us']['profit_tough'])} | {m(r['proven_listing']['cost'])} ({r['proven_listing']['note']}) | {m(r['proven_listing']['profit_tough'])} |" for r in pl]
         md += [""]
     md += ["## First week on a small budget (top 10 overall, tough ad cost, no payout yet)", "",
            "| Product | Budget | Orders the cash covers | Sales | Profit after setup and sample | Orders for $2,000 | Cash needed for $2,000 |", "|---|---|---|---|---|---|---|"]
