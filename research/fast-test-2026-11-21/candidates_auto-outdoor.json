@@ -1,0 +1,852 @@
+[
+ {
+  "id": "heated-gloves-7v",
+  "category": "winter and cold weather / battery heated wearables",
+  "product": "Rechargeable heated gloves (7.4V, two battery packs and charger in the box, 3 heat levels, touchscreen fingertips)",
+  "what_it_solves": "Hands that go numb while driving a cold car, scraping ice, shoveling, working outside, riding or watching a game. Ordinary gloves only slow heat loss; these add heat for several hours.",
+  "sell_price": 97.99,
+  "sell_price_source": "https://saviorheat.com/products/unisex-electric-heated-gloves-motorcycle-waterproof - VERIFIED 2026-11-21 (Savior Heat S66B Classic Heated Winter Gloves, $97.99 against a $139.99 compare-at price; product page and storefront search JSON agree). Other DTC prices read today: Ororo Calgary and Buffalo gloves from $99.99, Fieldsheer Squall 2.0 $99.99, Weston Heated Gloves $119.95, Venustas G02 $129.99, iHood $149.99, Gobi Heat $179 to $219; Kemimoto motorcycle gloves from $62.99. Amazon no-name listings sell at $47.48 to $84.99 (median $69.99), so a new store should also be run in the scripts at $79.99.",
+  "amazon": {
+   "typical_price": 69.99,
+   "bought_past_month_top_listings": 19250,
+   "listings_counted": 69,
+   "top_listing_url": "https://www.amazon.com/dp/B0GXDRNN4N",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'heated gloves', 'heated work gloves'; titles containing glove or mitten, excluding vests and hand warmers. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 42,450 units over 31 listings; $40 to $59.99: 8,750 units over 23 listings; $60 to $99.99: 10,200 units over 44 listings; $100 and up: 300 units over 2 listings. Largest first-word shares at $40 or more: Wasoto 1,950, Savior 1,300; the rest is unbranded titles. Top listing shown is a liner at $53.17 (1,000+); ski-style listings at $75.98 and $84.99 show 800+ each.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Savior Heat",
+    "url": "https://saviorheat.com/products/unisex-electric-heated-gloves-motorcycle-waterproof",
+    "price": 97.99,
+    "traction_evidence": "131 on-site reviews, 4.5 stars on this glove (VERIFIED 2026-11-21). 2 of the 30 Meta ads loaded for 'heated gloves'. On Amazon, Savior listings at $40 or more show about 1,300 bought in the past month. Brand search about 590 a month, 2,900 in Dec 2025 (ESTIMATED, DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "Weston Store (Weston Heated Apparel)",
+    "url": "https://westonstore.com/products/weston-heated-gloves-1",
+    "price": 119.95,
+    "traction_evidence": "127 to 136 on-site reviews (two counters on the page, VERIFIED 2026-11-21); 3 of the 30 Meta ads loaded. Small ad-led store: brand search about 50 a month (ESTIMATED).",
+    "is_whale": false
+   },
+   {
+    "store": "Ororo",
+    "url": "https://ororowear.com/products/calgary-heated-gloves",
+    "price": 99.99,
+    "traction_evidence": "148 on-site reviews on this glove; other Ororo products linked on the same page show 2,290 and 3,553 reviews (VERIFIED 2026-11-21). Storefront search JSON says from $99.99; the default option on the page showed $119.99. Brand search about 22,200 a month, 74,000 in Dec 2025 (ESTIMATED).",
+    "is_whale": true
+   },
+   {
+    "store": "Venustas",
+    "url": "https://venustas.com/products/unisex-waterproof-heated-gloves-7-4v",
+    "price": 129.99,
+    "traction_evidence": "Only 4 on-site reviews on this glove, one of them a non-delivery complaint (VERIFIED 2026-11-21). 1 partner ad in the 30 loaded.",
+    "is_whale": false
+   },
+   {
+    "store": "Kemimoto",
+    "url": "https://kemimoto.com/products/heated-waterproof-motorcycle-gloves-for-men-women",
+    "price": 62.99,
+    "traction_evidence": "Motorcycle brand; page showed $62.99 to $79.99 against $111.10 (VERIFIED 2026-11-21); review count not readable. 2 partner ads in the 30 loaded.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'heated gloves', active, US: about 2,100 results. In the 30 ads that loaded: Ascent Bicycle 9, Invisible Heat 7, Weston Heated Apparel 3, Savior Heat 2, Kemimoto (partner page) 2, and one each for DSG Outerwear, a Venustas partner, Field & Harvest, Sierna, SKI Magazine and two personal pages. Start dates run from Nov 21, 2025 to Nov 14, 2026; 24 of 29 dated ads started in October or November 2026. Long-running or numerous ads are a signal, not proof of profit. Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: heated gloves, 7.4V 3000mAh, touchscreen, 3 modes",
+    "url": "https://www.aliexpress.us/item/3256813438436126.html",
+    "unit_cost": 25.89,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US ship-from filter, 2026-11-21). Free shipping, 'Fastest delivery in 6 days', 3 sold, no new-shopper tag. Seen in 4 separate searches at the same price."
+   },
+   {
+    "source": "AliExpress listing shipping from US: heated gloves, 7.4V, two 2600mAh packs, waterproof, touchscreen",
+    "url": "https://www.aliexpress.us/item/3256813426232585.html",
+    "unit_cost": 27.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 2 sold, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: heated gloves, 7.4V 2600mAh, 3M Thinsulate named in title",
+    "url": "https://www.aliexpress.us/item/3256813341955769.html",
+    "unit_cost": 28.79,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 4 sold, shown against a crossed-out $88.66 and 'Early bird deal, only 1 left'. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: SNOW DEER branded heated gloves or mittens",
+    "url": "https://www.aliexpress.us/item/3256806345459247.html",
+    "unit_cost": 41.66,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 55 sold, 4.3 stars, 'Lowest price in 90 days'. A real brand, so it is a resale, not a white-label unit."
+   },
+   {
+    "source": "AliExpress listing shipping from US: rechargeable heated motorcycle or ski gloves",
+    "url": "https://www.aliexpress.us/item/3256806690578282.html",
+    "unit_cost": 48.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 110 sold, 4.0 stars. The most-sold clean US listing read."
+   },
+   {
+    "source": "AliExpress listing shipping from US: heated gloves 7.4V 3000mAh (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256813440553945.html",
+    "unit_cost": 27.81,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 24 sold, 5.0 stars, but the card says 'New shoppers - $51.08', so the price a repeat dropship buyer pays is UNKNOWN."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: heated gloves, rechargeable, touchscreen",
+    "url": "https://www.aliexpress.us/item/3256812819075182.html",
+    "unit_cost": 54.99,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): free shipping, 103 sold, no new-shopper tag. The page did not render a ship-from label, so the China origin rests on the URL filter only."
+   },
+   {
+    "source": "Doba (US dropship catalog): 8 heated glove listings in stock",
+    "url": "https://www.doba.com/search?keyword=heated%20gloves",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "2 to 3 business days processing (as shown)",
+    "label": "UNKNOWN cost: https://www.doba.com/search?keyword=heated%20gloves shows the products and processing days without prices (read 2026-11-21); prices need a paid account."
+   }
+  ],
+  "best_us_landed_cost": 25.89,
+  "best_us_landed_label": "Lowest US-filter card price for a 7.4V glove with battery capacity in the title, free shipping, no new-shopper tag (listing 3256813438436126, 3 sold). Thin: the three cheapest clean listings show 2 to 4 sales each; the clean listing with real sales reads $48.69 (110 sold). VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": 54.99,
+  "best_cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 103 sold, no new-shopper tag). Ship-from was not confirmed on the page and delivery days were not shown. It is dearer than the US-stock cards, so China shipping has no price advantage here. Most-sold China-side cards ($16.77 and $7.30, 1K+ and 449 sold) carry new-shopper tags.",
+  "weight_lb": null,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Gloves plus a two-pack of rechargeable hand warmers (US cards $9.33 to $15.95, from a different seller, so a second parcel) or a spare battery pair. A 'two pairs' offer for couples is the simpler way to lift order value from one supplier. Heated socks from the same store are the natural second product.",
+  "whale_note": "No single owner. Ororo is the category whale but its weight is in vests ('ororo heated vest' gets about as many searches as 'heated vest'); in gloves the Amazon $40-plus tier is spread over 69 listings with unbranded titles holding most of it, and the visible Meta advertisers are small (Invisible Heat, Weston, Savior Heat).",
+  "ip_safety_flags": "Lithium battery packs: UL, ETL or UN38.3 paperwork for the unit is UNKNOWN and must be asked for; heating element burn risk if a pack or wire fails. No health claims: competitors lean on Raynaud's, arthritis and circulation wording, which is out of scope here. Do not use Savior Heat, Ororo, Snow Deer or '3M Thinsulate' names unless the unit truly carries them. No patented design seen, generic construction.",
+  "season_note": "Best window of the year. 'heated gloves' about 165,000 US Google searches in Dec 2025, 90,500 in Jan 2026, 49,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.38 (ESTIMATED, DataForSEO, read 2026-11-21). Demand falls away by March, so this is a 10 to 12 week product.",
+  "risks": "1) Sizing (S to XL) and fit returns. 2) Cheapest US listings have 2 to 4 sales, so quality and stock are unproven; the fast-lane sample should be ordered the day ads start (approved exception, flagged). 3) Battery or heating failures drive refunds and chargebacks; the US-stock sellers give no written defect terms we could read. 4) Amazon sells look-alikes at $47 to $85 with Prime delivery, and 42,450+ units a month sell under $40. 5) Card prices are Black Friday promotion prices. 6) Weight not shown on any listing read (UNKNOWN); a comparable heated sock kit lists 0.5 kg. 7) Meta CPMs peak in the launch week.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "heated-socks-app",
+  "category": "winter and cold weather / battery heated wearables",
+  "product": "Rechargeable heated socks with app control (two battery packs, 3 heat levels)",
+  "what_it_solves": "Cold toes in boots during hunting, ice fishing, skiing, outdoor work and winter sports sidelines; thick socks alone do not add heat.",
+  "sell_price": 62.99,
+  "sell_price_source": "https://saviorheat.com/products/with-app-control-heated-socks-grey-black - VERIFIED 2026-11-21 (Savior Heat LYSS01G App-Controlled Heated Socks: storefront search JSON says from $62.99 against $109.99; the default option on the product page showed $76.99). Other DTC prices read today: Fieldsheer Wool Blend $67.49 and Merino 2.0 $74.99, Weston Rechargeable Heated Socks $79.95, Venustas S11 $79.99, Ororo Mojave Point $89.99. Amazon median at $40 or more is $56.99.",
+  "amazon": {
+   "typical_price": 56.99,
+   "bought_past_month_top_listings": 11450,
+   "listings_counted": 34,
+   "top_listing_url": "https://www.amazon.com/dp/B0HFD7T1WJ",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'heated socks'; titles containing sock. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 62,700 units over 41 listings; $40 to $59.99: 7,350 units over 19 listings; $60 to $99.99: 4,100 units over 15 listings; $100 and up: 0 units over 0 listings. Snow Deer about 1,200 units; app-control no-name listings lead (2,000+ at $56.98).)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Savior Heat",
+    "url": "https://saviorheat.com/products/with-app-control-heated-socks-grey-black",
+    "price": 62.99,
+    "traction_evidence": "124 on-site reviews, 4.7 stars (VERIFIED 2026-11-21). 1 of the 28 Meta ads loaded for 'heated socks'.",
+    "is_whale": false
+   },
+   {
+    "store": "Weston Store",
+    "url": "https://westonstore.com/products/weston-heated-socks",
+    "price": 79.95,
+    "traction_evidence": "169 to 182 on-site reviews (two counters on the page, VERIFIED 2026-11-21); also sells an upgraded pair with remote at $124.95.",
+    "is_whale": false
+   },
+   {
+    "store": "Fieldsheer",
+    "url": "https://fieldsheer.com/products/wool-blend-heated-socks-unisex",
+    "price": 67.49,
+    "traction_evidence": "4 of the 28 Meta ads loaded for 'heated socks' (VERIFIED 2026-11-21); on-site review count not read.",
+    "is_whale": false
+   },
+   {
+    "store": "Ororo",
+    "url": "https://ororowear.com/products/mojave-point-unisex-heated-socks-3-5",
+    "price": 89.99,
+    "traction_evidence": "Review count on this product not read. Brand search about 74,000 in Dec 2025 (ESTIMATED).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'heated socks', active, US: about 340 results. In the 28 ads that loaded: a page called Cholesterol Relief Community 9 (nine ads in the sample share a Jul 16, 2026 start date; the page name suggests an advertorial funnel), Fieldsheer 4, The Warming Store 3, Benny Jones 2, TryFylos 2, and one each for Savior Heat, Venustas, DSG Outerwear, Polarwear, Munichsunny, My Cooling Store, Spokane Discount and Free Item Test. Roughly a sixth of the ad count seen for heated gloves. Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: app-control heated socks, two 8000mAh packs, 3 modes",
+    "url": "https://www.aliexpress.us/item/3256813370712752.html",
+    "unit_cost": 24.59,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 5 sold, shown against a crossed-out $49.66. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: app-control heated socks, 8000mAh, 3 levels",
+    "url": "https://www.aliexpress.us/item/3256813329080782.html",
+    "unit_cost": 24.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 17 sold, shown against a crossed-out $49.73. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: heated socks 2200mAh ('Brand' in title)",
+    "url": "https://www.aliexpress.us/item/3256806677777616.html",
+    "unit_cost": 35.7,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (shown on one of two reads)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21): 73 sold, 4.5 stars, 'Lowest price in 90 days'. Free shipping and 'Fastest delivery in 6 days' appeared on one of the two times the card was read. The most-sold clean US listing for socks."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Savior Heat branded knee-high heated socks",
+    "url": "https://www.aliexpress.us/item/3256813303260752.html",
+    "unit_cost": 35.19,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold. Branded resale."
+   },
+   {
+    "source": "AliExpress listing shipping from US: app-control heated socks 8000mAh (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256813428440296.html",
+    "unit_cost": 13.17,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 48 sold, 4.9 stars, but 'New shoppers save $35.17'; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: app-control heated socks, 5000mAh",
+    "url": "https://www.aliexpress.us/item/3256813293253273.html",
+    "unit_cost": 37.89,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): free shipping, 20 sold, no new-shopper tag. Ship-from not confirmed on the page."
+   }
+  ],
+  "best_us_landed_cost": 24.59,
+  "best_us_landed_label": "Lowest US-filter card price for app-control heated socks with batteries named in the title, free shipping, no new-shopper tag (listing 3256813370712752, 5 sold); the same product reads $24.69 with 17 sold. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": 37.89,
+  "best_cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 20 sold, no new-shopper tag). Ship-from not confirmed on the page, delivery days not shown. Dearer than US stock.",
+  "weight_lb": 1.1,
+  "demo_score_1to5": 2,
+  "bundle_idea": "Two pairs, or socks plus the heated gloves as a 'hands and feet' set (Venustas sells that pairing at $167.98). As a single product it sits at the bottom of the price band, so it is better as the second product of a heated-gloves store than as the hero.",
+  "whale_note": "No single owner on Amazon (34 listings at $40 or more, unbranded app-control pairs lead; Snow Deer about 1,200 units). Ororo and Fieldsheer are larger brands with higher prices.",
+  "ip_safety_flags": "Lithium packs worn against the leg: certification UNKNOWN, burn and sweat exposure risk. The companion app is a third-party app we do not control. No health or circulation claims. Generic construction, no patent concern seen.",
+  "season_note": "Strong December to February. 'heated socks' about 135,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 40,500 in Oct 2026, 3,600 in Jul 2026; CPC about $1.02 (ESTIMATED, DataForSEO, read 2026-11-21).",
+  "risks": "1) Price ceiling: 62,700+ units a month sell under $40 on Amazon and the DTC low end is $62.99, so the price that fits the brief is hard to hold. 2) Hard to show in an image (demo score 2). 3) Sock sizing and washing complaints; battery pocket comfort. 4) US listings have 5 to 17 sales. 5) Weight is ESTIMATED from the Snow Deer Amazon listing (0.5 kg). 6) Promotion pricing on the cards.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "heated-vest-powerbank-kit",
+  "category": "winter and cold weather / battery heated wearables",
+  "product": "USB heated vest (15 to 26 heating zones, 3 heat levels) sold as a kit with a 10,000mAh power bank; heated hoodie as a variant",
+  "what_it_solves": "Staying warm outdoors or in a cold garage, truck or stadium without a bulky coat; one layer that heats the back, chest and neck from a pocket battery.",
+  "sell_price": 79.99,
+  "sell_price_source": "Proposed kit price (vest plus power bank), not a price read on one store. Anchors read 2026-11-21: Ororo women's classic heated vest from $99.99 and men's $129.99 (https://ororowear.com/products/men-heated-vest-black), Venustas fleece vest $119.99, iHood $119.99, Weston $149.95, Gobi Heat $119 to $199 (all VERIFIED on the stores' storefront search JSON); Amazon no-name vests with a battery pack $49.99 to $67.99 and Ororo on Amazon $109.99 to $118.99 (ESTIMATED, DataForSEO). $79.99 sits between the Amazon no-name tier and the lowest branded DTC price.",
+  "amazon": {
+   "typical_price": 66.49,
+   "bought_past_month_top_listings": 27600,
+   "listings_counted": 78,
+   "top_listing_url": "https://www.amazon.com/dp/B0H4B6ZCLR",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'heated vest', 'heated jacket', 'heated hoodie'; titles containing vest. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 1,750 units over 8 listings; $40 to $59.99: 10,150 units over 29 listings; $60 to $99.99: 14,150 units over 39 listings; $100 and up: 3,300 units over 10 listings. Heated jackets and hoodies add 18,700 units over 102 listings at $40 or more (median $81.69). Ororo vest listings at $109.99 and $118.99 show 1,000+ each with about 11,000 ratings; new no-name listings dated Sep and Oct 2026 show 1,000+ each at $49.99 to $67.99.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Ororo",
+    "url": "https://ororowear.com/products/men-heated-vest-black",
+    "price": 129.99,
+    "traction_evidence": "2,290 on-site reviews, 4.77 stars on this vest; another Ororo product linked on the page shows 3,553 (VERIFIED 2026-11-21). 'ororo heated vest' about 165,000 Google searches in Dec 2025 against 201,000 for 'heated vest' (ESTIMATED).",
+    "is_whale": true
+   },
+   {
+    "store": "Venustas",
+    "url": "https://venustas.com/products/mens-heated-fleece-vest-7-4v",
+    "price": 119.99,
+    "traction_evidence": "3 own ads plus 1 partner ad in the 25 Meta ads loaded for 'heated vest'. Brand search about 12,100 in Dec 2025 (ESTIMATED). On-site reviews not read.",
+    "is_whale": false
+   },
+   {
+    "store": "Weston Store",
+    "url": "https://westonstore.com/products/heatedvest",
+    "price": 149.95,
+    "traction_evidence": "82 to 83 on-site reviews (VERIFIED 2026-11-21).",
+    "is_whale": false
+   },
+   {
+    "store": "TIDEWE",
+    "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=heated%20vest&search_type=keyword_exact_phrase",
+    "price": null,
+    "traction_evidence": "Most ads in the sample: 7 of the 25 loaded for 'heated vest' (VERIFIED 2026-11-21). Store price not read.",
+    "is_whale": false
+   },
+   {
+    "store": "ThermiVest",
+    "url": "https://www.newswire.com/news/thermivest-heated-vest-delivers-9-zone-personal-warming-for-everyday-22686757",
+    "price": null,
+    "traction_evidence": "3 of the 25 ads loaded; the only write-up found is a paid-style newswire release, which reads like a dropship single-product funnel. Price not published there (UNKNOWN).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'heated vest', active, US: about 970 results. In the 25 ads that loaded: TIDEWE 7, Venustas 3 plus 1 partner, ThermiVest 3, ActionHeat 2, Women Health Journal 2 (advertorial-style page), and one each for Scheels, Catercharm, Living Smart, Chenming Cloth, Jendco Safety Supply, a Kemimoto partner and one personal page. Start dates Sep 9 to Nov 15, 2026 (one from Oct 2024); four creatives run in 3 to 5 copies. A first attempt at this query returned an empty page. Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 15-zone USB heated vest, washable, no battery",
+    "url": "https://www.aliexpress.us/item/3256813351063190.html",
+    "unit_cost": 15.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 3 sold, no new-shopper tag. Runs from any 5V power bank, which is not in the box."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 10000mAh compact power bank 5V 3A sold for heated jackets",
+    "url": "https://www.aliexpress.us/item/3256813406496358.html",
+    "unit_cost": 19.25,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold. A different seller from the vest, so the kit ships as two parcels unless one seller stocks both."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 26-zone heated vest, no battery",
+    "url": "https://www.aliexpress.us/item/3256813355513894.html",
+    "unit_cost": 20.33,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 12 sold, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: men's heated vest with 7.4V 14400mAh battery pack included, 4 zones",
+    "url": "https://www.aliexpress.us/item/3256813480837757.html",
+    "unit_cost": 61.27,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, no sales shown. The only US card read with a battery in the box."
+   },
+   {
+    "source": "AliExpress listing shipping from US: couples heated zip hoodie, 11 zones, battery not included",
+    "url": "https://www.aliexpress.us/item/3256813388522342.html",
+    "unit_cost": 25.39,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 13 sold, shown against a crossed-out $57.50."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 26-area heated vest (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256813456851466.html",
+    "unit_cost": 10.02,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 50 sold, 5.0 stars, but 'New shoppers - $36.75'; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: 25-zone USB heated vest",
+    "url": "https://www.aliexpress.us/item/3256812184416676.html",
+    "unit_cost": 17.88,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): 5K+ sold, free shipping, but a new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed on the page."
+   }
+  ],
+  "best_us_landed_cost": 34.34,
+  "best_us_landed_label": "Sum of two US-filter cards: the 15-zone vest at $15.09 (listing 3256813351063190, 3 sold) plus the 10000mAh power bank at $19.25 (listing 3256813406496358, 1 sold), both free shipping, no new-shopper tag. Two sellers, so two parcels and two delivery promises. The one card with a battery in the box reads $61.27 with no sales. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards for USB vests read $12.04 to $21.69 with 381 to 5K+ sold, but every one carries a new-shopper tag, and ship-from and delivery days were not shown.",
+  "weight_lb": null,
+  "demo_score_1to5": 3,
+  "bundle_idea": "The kit is the offer: vest plus power bank plus a short USB cable, with a heated hoodie as the upsell. Amazon shoppers already punish 'battery not included' vests, so the power bank must be in the order.",
+  "whale_note": "Ororo is a real whale here: 2,290 reviews on one vest and 3,553 on another of its products, brand-plus-product searches close to the generic term, and Amazon listings at $109.99 to $118.99 with about 11,000 ratings each. The opening is the lower price tier ($49.99 to $67.99 on Amazon), which is crowded with new no-name listings.",
+  "ip_safety_flags": "Vest and power bank certification UNKNOWN (UL or ETL for the vest wiring, UN38.3 for the bank). The vest runs on 5V USB, a lower-risk design than 7.4V or 12V packs, but burn risk remains. No health claims (back pain, circulation). Do not imitate Ororo's product names or photos. Generic design, no patent concern seen.",
+  "season_note": "Peak now. 'heated vest' about 201,000 US Google searches in Dec 2025, 74,000 in Jan 2026, 74,000 in Oct 2026, 3,600 in Jul 2026; CPC about $1.84, the highest of the heated wearables (ESTIMATED, DataForSEO, read 2026-11-21). Strong Christmas gift for outdoor workers and parents; falls off fast after January.",
+  "risks": "1) Apparel sizing (S to 3XL) is the main refund driver, and returns come back to Dhruv's home. 2) Two-seller kit: two parcels, mismatched arrival dates, double the stock-out risk. 3) Listings have 1 to 12 sales. 4) Ororo sets buyer expectations for quality. 5) Vest and power bank weights not shown on the cards (UNKNOWN; light apparel, far under the 10 lb screen). 6) Highest CPC in the group.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "cordless-tire-inflator",
+  "category": "car and truck accessories / tire care",
+  "product": "Cordless digital tire inflator (rechargeable, 150 PSI, auto shut-off, LED display and light)",
+  "what_it_solves": "The low-tire warning light that comes on with the first cold snap; topping up at home in two minutes instead of hunting for a gas-station air machine in the cold.",
+  "sell_price": 59.99,
+  "sell_price_source": "https://fanttik.com/products/x8-apex-tire-inflator - VERIFIED 2026-11-21 (Fanttik X8 APEX, $59.99 against a $99.99 compare-at price; X9 APEX $65.99, X10 Pro Max $89.99). Airmoto sells at $59.49 on Amazon (ESTIMATED, DataForSEO); airmoto.com showed no price today. This is at the bottom edge of the $60 to $150 band.",
+  "amazon": {
+   "typical_price": 59.49,
+   "bought_past_month_top_listings": 77850,
+   "listings_counted": 58,
+   "top_listing_url": "https://www.amazon.com/dp/B094DMH7ZM",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'tire inflator portable air compressor', 'digital tire inflator cordless', 'portable tire inflator'; titles containing inflator, air compressor or air pump, excluding jump-starter combos. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 179,700 units over 61 listings; $40 to $59.99: 39,850 over 32; $60 to $99.99: 19,100 over 18; $100 and up: 18,900 over 8. Leaving out tool-battery brands (DeWalt, Milwaukee, Ryobi, Craftsman and similar) the $40-plus tier is 58,650 units over 48 listings. First-word shares at $40 or more: Airmoto 11,000, DeWalt 11,000, AstroAI 8,200, Fanttik 8,100, OlarHike 8,000, Milwaukee 5,800, Etenwolf 4,800, Avid Power 3,400, NOCO 3,200. typical_price is the Airmoto listing price, the most-bought listing.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Airmoto",
+    "url": "https://airmoto.com/",
+    "price": 59.49,
+    "traction_evidence": "Its own site claims 'Over 1.5 Million Units Sold' and shows review counts of 25,545+, 52,427+ and 54,234+ in different sections (vendor claims, read 2026-11-21; the figures conflict). Says it ships from Dallas, Texas in 3 to 5 days. Amazon listing: 10,000+ bought in past month, about 29,600 ratings, #32 in Automotive. Brand search about 74,000 in Dec 2025 (ESTIMATED). Price shown is the Amazon price; the site showed none.",
+    "is_whale": true
+   },
+   {
+    "store": "Fanttik",
+    "url": "https://fanttik.com/products/x8-apex-tire-inflator",
+    "price": 59.99,
+    "traction_evidence": "1,315 on-site reviews, 4.8 stars (VERIFIED 2026-11-21). Brand search about 60,500 a month, 90,500 in Dec 2025 (ESTIMATED). A Kalodata-based newsletter listed it among the top 10 TikTok Shop sellers in Dec 2024 (ESTIMATED, read in a search summary of chinesellers.substack.com).",
+    "is_whale": true
+   },
+   {
+    "store": "NOCO",
+    "url": "https://www.amazon.com/dp/B0FHK5K3Y1",
+    "price": 69.95,
+    "traction_evidence": "NOCO Air AL5 on Amazon at $69.95 shows 3,000+ bought in past month (ESTIMATED, DataForSEO). Store price not read.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'tire inflator' on two attempts on 2026-11-21 (throttled after the first few searches). Indirect evidence only: Airmoto's site is a classic paid-traffic single-product page and claims 1.5 million units. Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: portable cordless tire inflator, 150 PSI, auto shut-off, LED display",
+    "url": "https://www.aliexpress.us/item/3256813094620129.html",
+    "unit_cost": 15.02,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 16 sold, 'Save $25.76', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: portable car tire inflator, digital display, rechargeable, LED light",
+    "url": "https://www.aliexpress.us/item/3256812284377327.html",
+    "unit_cost": 15.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 5 sold, 4.0 stars, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: Neverland cordless tire inflator, 150 PSI, auto shutoff",
+    "url": "https://www.aliexpress.us/item/3256812869684443.html",
+    "unit_cost": 22.36,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 3 sold."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 160 PSI inflator with 7800mAh battery, power bank function",
+    "url": "https://www.aliexpress.us/item/3256813128095986.html",
+    "unit_cost": 49.09,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold. The larger-battery class that matches the $60 to $76 Amazon listings."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: wireless car air pump 150 PSI",
+    "url": "https://www.aliexpress.us/item/3256810569632765.html",
+    "unit_cost": 10.68,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): 1K+ sold, free shipping, but a new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed on the page."
+   }
+  ],
+  "best_us_landed_cost": 15.02,
+  "best_us_landed_label": "Lowest US-filter card price with sales for a cordless 150 PSI digital inflator, free shipping, no new-shopper tag (listing 3256813094620129, 16 sold). Battery size is not in the title; the larger-battery unit comparable to Airmoto's and Fanttik's reads $49.09. A card at $8.25 with no sales was ignored. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards read $10.68 to $13.41 with 772 to 1K+ sold, all with new-shopper tags; ship-from and delivery days not shown.",
+  "weight_lb": 1.2,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Two-pack ('one for each car') or inflator plus a hard case, valve adapters and a digital gauge, to lift the order above $60. A single unit at the Airmoto price is the weakest version of this offer.",
+  "whale_note": "Two whales with large budgets. Airmoto is a DTC single-product brand built on paid ads (1.5 million units claimed, 10,000+ a month on Amazon at $59.49); Fanttik leads on Amazon and TikTok Shop. Most of the top Amazon listings at $40 or more are named brands (Airmoto, OlarHike, AstroAI, Etenwolf, Fanttik, NOCO, Avid Power, Bullseye Pro); only two no-name listings appear in the top 13. A no-name inflator competes on the same promise at the same price.",
+  "ip_safety_flags": "Lithium battery with a motor and compressor: certification UNKNOWN; overheating on long fills is the usual complaint class. Pressure accuracy claims must match the unit. Do not use the Airmoto or Fanttik names, their product shapes or their images. No patent check was done on the handheld form; Airmoto's page should be checked for patent markings before any look-alike is sold.",
+  "season_note": "Good in winter. 'portable tire inflator' about 90,500 US Google searches in Dec 2025, 74,000 in Nov 2025, 49,500 in Jan 2026, 27,100 in Jul 2026; 'portable air compressor' 165,000 in Dec 2025; 'airmoto' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A common gift for drivers.",
+  "risks": "1) Brand-heavy market with two whales; the Nov 15 repo scan (research/platform-winners-2026-11-15/winners_scored.csv) already flagged it as a lithium-heavy gadget. 2) 179,700+ units a month sell under $40 on Amazon, so a $59.99 price needs a reason. 3) The cheap US listings do not state battery size; a weak unit that cannot fill a car tire becomes a refund. 4) US listings have 3 to 16 sales. 5) Weight is ESTIMATED from the Airmoto Amazon listing. 6) The earlier repo scan (data/opportunities.csv) scored this type negative at a $30 price and positive at a $99.99 price point; this file adds US-stock costs that scan did not have, and the scripts should rerun both.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "jump-starter-air-compressor",
+  "category": "car and truck accessories / winter emergency",
+  "product": "Portable lithium jump starter with built-in air compressor (4-in-1: jump start, tire inflation, power bank, light)",
+  "what_it_solves": "A dead battery on a cold morning or a soft tire far from help: one box in the trunk starts the car and fills the tire without a second vehicle.",
+  "sell_price": 99.99,
+  "sell_price_source": "https://gooloo.com/products/a5-jump-starter-with-air-compressor - VERIFIED 2026-11-21 (GOOLOO A5 4000A jump starter with air compressor, $99.99 against $299.98 compare-at in the storefront search JSON; the page showed $99.99 and $159.99). Wolfbox MegaVolt 10Air $133.32. On Amazon the same class sells at $66.46 (GOOLOO A3), $66.49 and $79.99 from no-name sellers, each with 7,000+ to 10,000+ bought in the past month, so a new store should also be run at $69.99 to $79.99.",
+  "amazon": {
+   "typical_price": 66.49,
+   "bought_past_month_top_listings": 82050,
+   "listings_counted": 74,
+   "top_listing_url": "https://www.amazon.com/dp/B0D4DLXNR1",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'jump starter with air compressor'; titles that name both a jump starter and a compressor or inflator. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 5,050 units over 10 listings; $40 to $59.99: 11,900 units over 24 listings; $60 to $99.99: 54,250 units over 36 listings; $100 and up: 15,900 units over 14 listings. All jump starters at $40 or more in the same search: 138,050 units over 80 listings, of which NOCO is 40,700. Combo first-word shares: GOOLOO 14,700, WOLFBOX 6,000, DeWalt 6,000; several no-name combos show 4,000+ to 10,000+ each.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "GOOLOO",
+    "url": "https://gooloo.com/products/a5-jump-starter-with-air-compressor",
+    "price": 99.99,
+    "traction_evidence": "69 ratings, 4.7 stars on site (VERIFIED 2026-11-21); GOOLOO A3 combo on Amazon 10,000+ bought in past month with about 5,500 ratings; 1 ad in the 26 loaded.",
+    "is_whale": true
+   },
+   {
+    "store": "Wolfbox",
+    "url": "https://wolfbox.com/products/wolfbox-2000a-jump-starter-with-air-compressor-wolfbox-megavolt-10air",
+    "price": 133.32,
+    "traction_evidence": "Wolfbox combo on Amazon at $123.49 shows 5,000+ bought in past month (ESTIMATED); 1 ad in the 26 loaded. On-site reviews not read.",
+    "is_whale": true
+   },
+   {
+    "store": "NOCO (jump starters without compressor)",
+    "url": "https://www.amazon.com/dp/B015TKUPIC",
+    "price": 99.95,
+    "traction_evidence": "NOCO Boost GB40 on Amazon: 30,000+ bought in past month, about 130,800 ratings (ESTIMATED, DataForSEO). 'noco jump starter' about 60,500 searches in Dec 2025.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "VERIFIED 2026-11-21, Meta Ad Library in Playwright, exact phrase 'jump starter', active, US: about 1,600 results. In the 26 ads that loaded the advertisers are brands and retailers, not small stores: NEBO 6, TOPDON 3, CTEK 2, Antigravity Batteries 2, Battery Tender 2, and one each for NOCO, WolfBox, Gooloo, Clore Automotive, Advance Auto Parts, Bullseye Pro, Tool Troopers, Autoxmatch and Alibaba.com. Start dates Feb 25 to Nov 10, 2026. TikTok Shop: a Kalodata-based list put a Hieha jump starter at 64,370 units and $34.09 a unit in Dec 2025 (ESTIMATED, read in a search summary of netinfluencer.com, a year old). Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 4000A jump starter with 150 PSI air compressor, power bank, lights",
+    "url": "https://www.aliexpress.us/item/3256813468747905.html",
+    "unit_cost": 33.49,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 1 sold, shown against a crossed-out $90.53 and 'Early bird deal, only 4 left'. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 16000A-labelled 10-in-1 jump starter with 180 PSI compressor",
+    "url": "https://www.aliexpress.us/item/3256813390822774.html",
+    "unit_cost": 53.59,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, no sales shown."
+   },
+   {
+    "source": "AliExpress listing shipping from US: PAIVIROKU 4-in-1 jump starter with air compressor (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256811373936528.html",
+    "unit_cost": 24.52,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 10,000+ sold, 4.9 stars, but 'New shoppers save $72' against a crossed-out $96.52; repeat-buyer price UNKNOWN. The listing with real volume."
+   },
+   {
+    "source": "AliExpress listing shipping from US: GOOLOO A3 jump starter with air compressor (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256809344385616.html",
+    "unit_cost": 54.21,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED price (search card, US filter, 2026-11-21). 5,000+ sold, new-shopper tag, no shipping line shown. Branded resale of the Amazon best seller ($66.46 there)."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: 12V jump starter with 150 PSI air compressor",
+    "url": "https://www.aliexpress.us/item/3256812614967408.html",
+    "unit_cost": 41.39,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): free shipping, 9 sold, no new-shopper tag; ship-from not confirmed on the page."
+   }
+  ],
+  "best_us_landed_cost": 33.49,
+  "best_us_landed_label": "Lowest US-filter card price for a combo unit, free shipping, no new-shopper tag (listing 3256813468747905). Very thin: 1 sold and 'only 4 left'. The listing with volume (10,000+ sold) shows only a new-shopper price of $24.52 against a crossed-out $96.52, so its real cost is UNKNOWN. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": 41.39,
+  "best_cn_landed_label": "VERIFIED as displayed (card with shipFromCountry=CN in the search URL, free shipping, 9 sold, no new-shopper tag). Ship-from not confirmed, delivery days not shown. Lithium packs of this size are also the hardest parcels to ship by air.",
+  "weight_lb": 2.6,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Unit plus hard case and a winter card ('charge it every 3 months'); the product already is a 4-in-1 kit. No add-on is needed to reach the price band.",
+  "whale_note": "NOCO owns plain jump starters (40,700 of 138,050 units at $40 or more). Combos are less concentrated (74 listings; GOOLOO 14,700 of 82,050) but every visible Meta advertiser is an established brand or retailer.",
+  "ip_safety_flags": "SAFETY FLAG, likely fails the fast-lane screen as it stands. A high-current lithium pack clamped to a car battery is a fire and injury risk if protection circuits are poor; peak-amp numbers on no-name units (4000A to 16000A) are not verifiable and are an advertising-claims risk. UL 2743 or equivalent listing for any unit we could source is UNKNOWN. Product liability insurance would be needed before one sale. Keep it out unless a certified unit with paperwork is found.",
+  "season_note": "Peak season. 'portable jump starter' about 201,000 US Google searches in Dec 2025 and Jan 2026 against 60,500 in Jul 2026; 'jump starter' 110,000 in Dec 2025; 'jump starter with air compressor' 14,800 in Dec 2025; CPC $1.09 to $1.35 (ESTIMATED, DataForSEO, read 2026-11-21).",
+  "risks": "1) Safety and liability (see flags); this is the reason it is not in the top three despite the largest demand in the scan. 2) Amazon sets the price at $66 to $80 with Prime delivery and thousands of ratings. 3) Unit quality cannot be judged from a card; a jump starter that fails once is a refund and a chargeback. 4) The only clean US listing has 1 sale. 5) TikTok Shop sells jump starters near $34. 6) Weight ESTIMATED from an Amazon combo listing (1,200 g).",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "cordless-heated-blanket",
+  "category": "winter and cold weather / outdoor and stadium",
+  "product": "Cordless heated throw or wearable shawl blanket with a 20,000mAh power bank",
+  "what_it_solves": "Staying warm where there is no outlet: bleachers, tailgates, the car, camping, a deer blind, or the couch during a power cut.",
+  "sell_price": 119.99,
+  "sell_price_source": "https://thewarmingstore.com/products/actionheat-7v-battery-heated-throw-blanket - VERIFIED 2026-11-21 (ActionHeat 7V Battery Heated Throw Blanket, $119.99, on The Warming Store, a retailer of that brand). Other prices read today: Ororo battery blankets $159.99 to $199.99, Gobi Heat Zen $249.00 (on sale at $186.75), Gobi Heat Cove $229.00, Venustas heated blanket hoodie $79.99 to $149.99. Amazon no-name cordless blankets with a power bank sell at $52.16 to $85.99 (median $63.99), which is the realistic ceiling for an unbranded unit.",
+  "amazon": {
+   "typical_price": 63.99,
+   "bought_past_month_top_listings": 26900,
+   "listings_counted": 82,
+   "top_listing_url": "https://www.amazon.com/dp/B0FPLNZ5JH",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'battery heated blanket outdoor', 'heated wearable blanket battery', 'heated stadium blanket', '12v heated blanket for car'; titles containing cordless, battery, power bank, USB or portable heated, excluding wool blankets, pet items, vests, seats, socks and gloves. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 5,850 units over 12 listings; $40 to $59.99: 10,450 units over 32 listings; $60 to $99.99: 14,000 units over 39 listings; $100 and up: 2,450 units over 11 listings. Many listings are new: review counts of 23 to 127 on listings showing 900+ to 1,000+ a month.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "ActionHeat (via The Warming Store)",
+    "url": "https://thewarmingstore.com/products/actionheat-7v-battery-heated-throw-blanket",
+    "price": 119.99,
+    "traction_evidence": "Review count not read. ActionHeat ran 2 of the 25 ads loaded for 'heated vest'; The Warming Store ran 3 of the 28 for 'heated socks' (VERIFIED 2026-11-21).",
+    "is_whale": false
+   },
+   {
+    "store": "Gobi Heat",
+    "url": "https://gobiheat.com/products/zen-heated-blanket",
+    "price": 249.0,
+    "traction_evidence": "115 on-site reviews, 3.8 stars (VERIFIED 2026-11-21); page showed a sale price of $186.75.",
+    "is_whale": false
+   },
+   {
+    "store": "Ororo",
+    "url": "https://ororowear.com/products/toasty-5-zone-heated-quilted-blanket",
+    "price": 199.99,
+    "traction_evidence": "Review count on the blanket not read; brand-level traction as for the vest.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'heated blanket' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 9-zone portable heated blanket, 3 levels, BATTERY NOT INCLUDED",
+    "url": "https://www.aliexpress.us/item/3256813440196515.html",
+    "unit_cost": 54.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, no sales shown. Title says 'Battery Not Included'; a second card for the same item read $51.89 with 1 sold and no free-shipping line."
+   },
+   {
+    "source": "AliExpress listing shipping from US: USB heated shawl, 3 zones (small wrap, no battery)",
+    "url": "https://www.aliexpress.us/item/3256813236678159.html",
+    "unit_cost": 19.75,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED price (search card, US filter, 2026-11-21). 1 sold; no shipping line on the card, so shipping is UNKNOWN. A shoulder wrap, not a throw blanket."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 20000mAh power bank 5V 3A sold for heated clothing",
+    "url": "https://www.aliexpress.us/item/3256813418487891.html",
+    "unit_cost": 23.69,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 2 sold. Separate seller."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: wearable USB heated shawl blanket, no battery",
+    "url": "https://www.aliexpress.us/item/3256813348649387.html",
+    "unit_cost": 27.19,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): free shipping, 20 sold, no new-shopper tag; ship-from not confirmed. Not the same product as the Amazon cordless throws (no battery, smaller)."
+   },
+   {
+    "source": "Cost proxy: Amazon no-name cordless heated blanket with 20000mAh power bank",
+    "url": "https://www.amazon.com/dp/B0H6P164ZF",
+    "unit_cost": 59.84,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "Prime",
+    "label": "PROXY, not a supplier cost: Amazon retail price of a listing showing 1,000+ bought in past month (ESTIMATED, DataForSEO, 2026-11-21)."
+   }
+  ],
+  "best_us_landed_cost": null,
+  "best_us_landed_label": "UNKNOWN. No US-stock listing for a throw-size heated blanket with the battery in the box was found. The nearest card is $54.69 without a battery, which is already at the Amazon retail price of complete units ($52.16 to $85.99).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards show small USB shawls without batteries at $8.17 to $27.28; no card matched the battery-included throw.",
+  "weight_lb": 1.5,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Not applicable until a source exists. If one is found: blanket plus power bank plus a stadium carry bag.",
+  "whale_note": "No single owner on Amazon (82 listings at $40 or more, mostly new no-name sellers). Branded DTC versions sit far higher ($119.99 to $249), so the product is early, but the unbranded price is already set by Amazon.",
+  "ip_safety_flags": "Battery-heated textile: certification UNKNOWN. Must not be marketed for sleeping or for infants. Gobi Heat and Ororo designs and names must not be copied.",
+  "season_note": "Rising and seasonal. 'cordless heated blanket' about 27,100 US Google searches in Dec 2025 and 18,100 in Jan 2026; 'battery powered heated blanket' 22,200 in Jan 2026; under 1,000 in July (ESTIMATED, DataForSEO, read 2026-11-21). Football and Christmas demand, then winter storms.",
+  "risks": "1) No workable supply found, so it cannot start this week. 2) Amazon no-name price of $52 to $86 with next-day delivery. 3) Heating area and run time are easy to over-promise. 4) Weight taken from one Amazon listing (1.5 lb, as listed). Kept in the file because demand is real and new; revisit only if a logged-in CJ or Zendrop search shows a complete unit in US stock.",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "portable-carplay-screen",
+  "category": "car and truck accessories / in-car tech",
+  "product": "Portable 7 to 9 inch dash-mount screen that adds wireless Apple CarPlay and Android Auto to an older car (plugs into the 12V socket, sound through FM, AUX or Bluetooth)",
+  "what_it_solves": "Older cars and work trucks with no touchscreen: maps, calls and music on a large screen without replacing the stereo.",
+  "sell_price": 79.99,
+  "sell_price_source": "https://lamtto.com/products/lamtto-rc07-dash-camera-gps-wireless - VERIFIED 2026-11-21 via the store's storefront search JSON (LAMTTO RC07 9 inch CarPlay and Android Auto display with dual cameras, $79.99 against $139.99; LAMTTO's 7 inch RC08 is also $79.99, RC06 9.26 inch $99.99). Carpuride W701 7 inch $179.90. Amazon: 7 inch units $44.64 to $46.99, 9 inch units $59.98 to $76.70.",
+  "amazon": {
+   "typical_price": 79.99,
+   "bought_past_month_top_listings": 27200,
+   "listings_counted": 67,
+   "top_listing_url": "https://www.amazon.com/dp/B0DNZMCN1R",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'portable carplay screen'; titles containing screen, display or stereo, excluding adapters and baby cameras. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 550 units over 4 listings; $40 to $59.99: 10,500 units over 19 listings; $60 to $99.99: 13,450 units over 29 listings; $100 and up: 3,250 units over 19 listings. 28 different first words; the top listing (9.26 inch, $75.99) shows 3,000+ with about 3,800 ratings and ranks #3 in Car Audio Receivers.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "LAMTTO",
+    "url": "https://lamtto.com/products/lamtto-rc07-dash-camera-gps-wireless",
+    "price": 79.99,
+    "traction_evidence": "On-site reviews not read (product page URL returned 404 on a second fetch). LAMTTO listings on Amazon at $40 or more show about 1,400 bought in the past month (ESTIMATED).",
+    "is_whale": false
+   },
+   {
+    "store": "Carpuride",
+    "url": "https://carpuride.com/products/carpuride-car-stereo-with-wireless-apple-carplay-android-auto-7-touch-screen-multimedia-bluetooth-navigation-dashboard-console-with-mirror-link-google-and-siri-assistant",
+    "price": 179.9,
+    "traction_evidence": "Brand search about 5,400 a month (ESTIMATED, DataForSEO). On-site reviews not read. Sells motorcycle units at $349.90 and up.",
+    "is_whale": false
+   },
+   {
+    "store": "CARLUEX (AI box, a related product)",
+    "url": "https://www.carluex.com/",
+    "price": 269.0,
+    "traction_evidence": "Already torn down in research/fast-test-2026-11-21/05_store_teardowns.md: Trustpilot 3.0 on 44 reviews, 5 to 10 business day delivery.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'carplay screen' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: HIEHA 7 inch universal portable wireless CarPlay and Android Auto screen",
+    "url": "https://www.aliexpress.us/item/3256813319780988.html",
+    "unit_cost": 44.44,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, no sales shown, crossed-out $151.88, 'Early bird deal, only 1 left'. No new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 10.26 inch portable wireless CarPlay stereo (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256809947057657.html",
+    "unit_cost": 36.35,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 1,000+ sold, 4.9 stars, but 'New shoppers save $59.84' against a crossed-out $96.19; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing shipping from US: ESSGOO 10.26 inch portable CarPlay (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256813303692667.html",
+    "unit_cost": 57.42,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 351 sold, new-shopper tag."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: universal portable wireless CarPlay screen",
+    "url": "https://www.aliexpress.us/item/3256809928436329.html",
+    "unit_cost": 34.44,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): 8K+ sold, free shipping, new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed."
+   }
+  ],
+  "best_us_landed_cost": 44.44,
+  "best_us_landed_label": "Lowest US-filter card price for a portable (not in-dash) unit, free shipping, no new-shopper tag (listing 3256813319780988, a 7 inch unit with no sales shown and 'only 1 left'). That is the same as the Amazon retail price of 7 inch units ($44.64 to $46.99). VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards read $34.44 to $38.94 with 5K+ to 8K+ sold, all with new-shopper tags; ship-from and delivery days not shown. Electronics from China also carry tariff exposure not shown on a card.",
+  "weight_lb": 0.95,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Screen plus wired backup camera plus dash and vent mounts at about $99 (LAMTTO and the Amazon leaders already include a camera, so this is table stakes rather than an upsell).",
+  "whale_note": "No single owner: 67 Amazon listings at $40 or more under 28 different first words. Carpuride and LAMTTO are the known names, neither dominant.",
+  "ip_safety_flags": "'CarPlay' and 'Apple' are Apple trademarks and 'Android Auto' is Google's: only plain compatibility statements, no logos or 'Apple CarPlay screen' as a product name. FCC ID for the unit is UNKNOWN (it has Wi-Fi, Bluetooth and an FM transmitter). Driver-distraction claims (video while driving) must be avoided. Firmware support comes from the factory, not from us.",
+  "season_note": "Neutral to good. 'portable carplay screen' about 9,900 US Google searches in Dec 2025 against 5,400 on average; 'wireless carplay adapter' 74,000 in Dec 2025 (ESTIMATED, DataForSEO, read 2026-11-21). A gift for drivers of older cars; not weather-driven.",
+  "risks": "1) The US-stock cost read today is about the Amazon retail price for the same size, so the raw inputs fail the brief's cost guide. 2) Compatibility and connection-drop returns. 3) Electronics defects with no written terms. 4) Trademark care needed in every ad. 5) Weight is the 9.26 inch Amazon unit alone (430 g, ESTIMATED for ours).",
+  "checked": "2026-11-21"
+ },
+ {
+  "id": "digital-night-vision-binoculars",
+  "category": "outdoor / hunting and camping gadgets",
+  "product": "Digital night vision binoculars or goggles (infrared, 3 inch screen, records photo and video, rechargeable)",
+  "what_it_solves": "Seeing wildlife, a campsite or a back yard in full darkness; a gadget gift for hunters, campers and dads.",
+  "sell_price": 72.67,
+  "sell_price_source": "https://www.amazon.com/dp/B0CJ29ZH7V - ESTIMATED (DataForSEO, 2026-11-21): the upper no-name Amazon tier, 1,000+ bought in past month at $72.67 with 568 ratings; another listing at $75.98 shows 900+. No small DTC store selling the generic unit at a premium was verified. The only DTC store read, Nightfox (UK brand with its own designs), sells at $149.99 to $199.99, which a generic unit cannot match.",
+  "amazon": {
+   "typical_price": 79.99,
+   "bought_past_month_top_listings": 15150,
+   "listings_counted": 45,
+   "top_listing_url": "https://www.amazon.com/dp/B0HCTTF1LK",
+   "checked": "2026-11-21 (DataForSEO live Amazon US search for: 'night vision goggles'; titles containing night vision, excluding thermal cameras, rifle scopes and security cameras. Counted de-duplicated listings priced $40 to $400 that show a 'bought in past month' badge. Badges are floors such as '1K+', so the sum is a floor. Label: ESTIMATED. Price bands: under $40: 3,600 units over 6 listings; $40 to $59.99: 7,050 units over 14 listings; $60 to $99.99: 4,700 units over 12 listings; $100 and up: 3,400 units over 19 listings. The top listing ($56.98, 2,000+) ranks #1 in Night Vision Binoculars and Goggles with only 107 ratings.)"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Nightfox",
+    "url": "https://nightfoxstore.com/products/nightfox-swift-2-night-vision-goggles",
+    "price": 159.99,
+    "traction_evidence": "35 on-site reviews; the page cites 4.2 stars from 2,209 reviews on Amazon UK (VERIFIED 2026-11-21). Storefront search JSON listed $179.99; the page showed $159.99.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. The Meta Ad Library returned an empty page for 'night vision goggles' on 2026-11-21 (throttled). Foreplay: blocked (402, no credits).",
+  "supply": [
+   {
+    "source": "AliExpress listing shipping from US: 5K 60MP night vision binoculars, 3 inch screen, 5000mAh, 32GB card",
+    "url": "https://www.aliexpress.us/item/3256812739898363.html",
+    "unit_cost": 41.79,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 6 sold, 4.0 stars, no new-shopper tag."
+   },
+   {
+    "source": "AliExpress listing shipping from US: FNIRSI NVS-40 or NVS-20 night vision monocular",
+    "url": "https://www.aliexpress.us/item/3256807299557867.html",
+    "unit_cost": 46.77,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). Free shipping, 88 sold, 4.8 stars. Branded monocular, a different form."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 4K digital night vision binoculars, 3 inch screen (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256813444344607.html",
+    "unit_cost": 26.92,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "not shown",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 35 sold, but 'New shoppers save $60' against a crossed-out $86.92; repeat-buyer price UNKNOWN."
+   },
+   {
+    "source": "AliExpress listing shipping from US: 2.5K night vision monocular (new-shopper price)",
+    "url": "https://www.aliexpress.us/item/3256812724168702.html",
+    "unit_cost": 26.8,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "US",
+    "delivery_days": "fastest 6 (as shown)",
+    "label": "VERIFIED (search card, US filter, 2026-11-21). 139 sold, 4.9 stars, new-shopper tag."
+   },
+   {
+    "source": "AliExpress search with shipFromCountry=CN: 1080P night vision binoculars",
+    "url": "https://www.aliexpress.us/item/3256809197868110.html",
+    "unit_cost": 36.33,
+    "shipping_cost_to_us_customer": 0.0,
+    "ships_from": "CN",
+    "delivery_days": "not shown",
+    "label": "VERIFIED as displayed (search card, 2026-11-21): 3K+ sold, free shipping, new-shopper tag, so the repeat price is UNKNOWN; ship-from not confirmed."
+   }
+  ],
+  "best_us_landed_cost": 41.79,
+  "best_us_landed_label": "Lowest US-filter card price for binocular-style goggles with a 3 inch screen, free shipping, no new-shopper tag (listing 3256812739898363, 6 sold). Cheaper cards ($19.04 to $30.07) showed no shipping line or carried new-shopper tags. VERIFIED as displayed on the AliExpress search card with the ship-from United States filter on, read 2026-11-21 in a headless browser. Item pages are captcha-blocked, so size or variant, what is in the box, stock depth and the regular price after the Black Friday promotion are NOT confirmed.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN. China-side cards read $24.21 to $61.11 with 687 to 3K+ sold, all with new-shopper tags; ship-from and delivery days not shown.",
+  "weight_lb": 1.96,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Goggles plus head strap, 64GB card and a hard case at $89 to $99. Without a verified DTC price for the generic unit this is a guess, not evidence.",
+  "whale_note": "No whale in the generic tier (45 Amazon listings, 17 first words). Thermal brands (TOPDON) and real optics brands sit above $150 and were left out of the count.",
+  "ip_safety_flags": "No 'military grade', range or 'see 1,000 ft in total darkness' claims that the unit cannot prove. Infrared illuminator eye-safety class is UNKNOWN. Not for use while driving. Privacy: do not market for watching neighbors. Generic design.",
+  "season_note": "Neutral. 'night vision goggles' about 74,000 US Google searches in Dec 2025, 60,500 in Jan 2026, 90,500 in Oct 2026 (ESTIMATED, DataForSEO, read 2026-11-21). Hunting seasons end in January; Christmas gift demand helps December only.",
+  "risks": "1) No DTC premium was verified: the sell price here is an Amazon price, and the US-stock cost read today is more than half of it, so the raw inputs fail the brief's cost guide. 2) Image quality rarely matches the ads, which drives refunds. 3) US listings have 6 to 88 sales. 4) Weight ESTIMATED from an Amazon listing (0.89 kg).",
+  "checked": "2026-11-21"
+ }
+]
