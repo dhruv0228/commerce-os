@@ -1,0 +1,682 @@
+[
+ {
+  "id": "rolling-knife-sharpener-kit",
+  "category": "kitchen",
+  "product": "Diamond rolling knife sharpener kit: magnetic angle block (15 and 20 degrees) with a diamond and ceramic roller, plus a leather strop and gift box",
+  "what_it_solves": "Dull kitchen knives without the skill a whetstone needs. The magnet holds the angle, you roll a few times, and the knife slices paper or a tomato cleanly. A classic gift for dads and home cooks.",
+  "sell_price": 69.0,
+  "sell_price_source": "Proposed kit price (sharpener plus strop and gift box). Anchors: Hatori Diamond Rolling Knife Sharpener $79.95 on hatoriknives.com with 'Based on 1307 reviews' on the product page (VERIFIED read 2026-11-22, vendor figure); NorthernKnife $99.90 (products.json, VERIFIED 2026-11-22); Amazon AIERLIAN rolling kit $33.99 with 6,000+ bought past month (VERIFIED via DataForSEO Amazon data 2026-11-22); TikTok Shop rolling sharpener listing '10783 sold, $39.00' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 34.99,
+   "bought_past_month_top_listings": 16050,
+   "listings_counted": 38,
+   "top_listing_url": "https://www.amazon.com/dp/B0CRDK541R",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Hatori Knives",
+    "url": "https://hatoriknives.com/products/hatori-rolling-knife-sharpener",
+    "price": 79.95,
+    "traction_evidence": "Product page shows 'Based on 1307 reviews' and a store claim of '250,000+ happy customers'; Trustpilot widget 'Based on 582 reviews' (VERIFIED read 2026-11-22, vendor figures). Compare-at $199.95 in products.json. 4 ads and 8 ad links on the first screen of the Meta Ad Library search for 'rolling knife sharpener'. The store also lists a copy under the handle 'tumbler-rolling-knife-sharpener'.",
+    "is_whale": false
+   },
+   {
+    "store": "NorthernKnife",
+    "url": "https://northernknife.com/products/rolling-knife-sharpener",
+    "price": 99.9,
+    "traction_evidence": "products.json price $99.90, compare-at $149.90; page banner 'Over 5000 reviews' (store-level vendor claim, VERIFIED read 2026-11-22); 2 Meta ads on the first screen.",
+    "is_whale": false
+   },
+   {
+    "store": "Tumbler",
+    "url": "https://tumblerware.com/products/rolling-knife-sharpener-pro-walnut",
+    "price": 159.0,
+    "traction_evidence": "products.json: Pro $159 to $169, Original 2-pack $219 (VERIFIED 2026-11-22). 10 ads on the first Meta screen plus a creator partnership ad ('One Take with Tumbler'). TikTok Shop listing 'Tumbler Rolling Knife Sharpener Complete Set ... 400 sold' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).).",
+    "is_whale": true
+   },
+   {
+    "store": "HoneyHone",
+    "url": "https://www.honeyhone.com/products/honeyhone-rolling-knife-sharpening-kit",
+    "price": 161.0,
+    "traction_evidence": "products.json $161 kit, replacement discs $16.99 to $64.99 (VERIFIED 2026-11-22); 1 Meta ad on the first screen.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-22 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=rolling%20knife%20sharpener): ~770 results for the keyword; first screen advertisers and ad counts: Tumbler (10), Japanese Kitchen Secrets (5), Horl-1993 (4), Hatori Knives (4), NorthernKnife (2), HoneyHone (1), All Things Barbecue (1), Ella's Vegan Plate with Horl-1993 (1), One Take with Tumbler (1). Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read). HORL (horl.com) ran 4 ads on the same screen; its price was not read (products.json returned 404).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 2pcs rolling knife sharpener kit, diamond and corundum discs",
+    "url": "https://www.aliexpress.us/item/3256812688812619.html",
+    "unit_cost": 13.07,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on the card; 'Free shipping' tag shown)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 10 sold; 'Early bird deal, only 3 left', so stock is thin."
+   },
+   {
+    "source": "AliExpress US stock: 2pcs rolling knife sharpener kit (second listing)",
+    "url": "https://www.aliexpress.us/item/3256812646672190.html",
+    "unit_cost": 15.15,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag; 'Free shipping' tag shown)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 4 sold."
+   },
+   {
+    "source": "AliExpress China: rolling knife sharpener, double-sided diamond",
+    "url": "https://www.aliexpress.us/item/3256808816071846.html",
+    "unit_cost": 11.33,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-22, ships from China; shipping fee not on the card, so UNKNOWN). 3,000+ sold, 'Top selling on AliExpress', no new-shopper tag."
+   },
+   {
+    "source": "AliExpress China: 4-angle rolling sharpener with wooden magnetic base",
+    "url": "https://www.aliexpress.us/item/3256810301032731.html",
+    "unit_cost": 11.25,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-22, ships from China; shipping fee not on the card, so UNKNOWN). 5,000+ sold; 'New shoppers save $34.12', so a first-order price."
+   }
+  ],
+  "best_us_landed_cost": 13.07,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 13.07 is 19% of the proposed $69, 38% of the $33.99 Amazon price and 34% of the $39 TikTok price. The strop and gift box are not costed: UNKNOWN.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China cards show $11.25 to $11.33 with 3,000 to 5,000 sold, but no shipping fee.",
+  "weight_lb": 1.3,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "The paper-slice and tomato test after a few rolls is a 3-second payoff; Tumbler already pays creators for it and TikTok Shop listings show five-figure sold counts.",
+  "tiktok_shop_evidence": "Google snippets for shop.tiktok.com pages (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): 'Rolling Knife Sharpener Kit - Diamond & Ceramic Discs ... 10783 sold. $39.00 $59.00'; a related-products block shows '2853 sold, 37.98' and '1707 sold, $15.99'; Tumbler complete set '400 sold'.",
+  "bundle_idea": "Sharpener plus leather strop and gift box at $69; replacement diamond discs as the reorder item (HoneyHone sells discs from $16.99); step-up with a magnetic knife strip.",
+  "whale_note": "Tumbler and HORL own the premium end ($99 to $219) and advertise heavily, but at least three small DTC stores (Hatori, NorthernKnife, HoneyHone) sell near-identical generics at $79.95 to $161 with visible ads, so the shelf is open to a new brand.",
+  "ip_safety_flags": "One web search found no rolling-sharpener patent lawsuit (not a clearance). HORL and Tumbler may hold design or utility patents: never copy their shapes, names or photos, and ask the supplier for patent status. A sharpener puts an edge on knives but has no blade itself; no battery; no food contact.",
+  "season_note": "Gift peak in December ('rolling knife sharpener' Google volume not pulled; 'gifts for dad' 450,000 searches in Dec 2025, VERIFIED via DataForSEO). Home batch: yes. At about 1.3 lb and $13 each, 10 to 20 units cost about $130 to $260 and fit USPS Ground Advantage from Florida, which also meets TikTok Shop's own-inventory rule.",
+  "risks": "US-stock listings have 4 to 10 sales and 'only 3 left', so real stock depth is doubtful; the China route needs about 7 to 12 days plus a home re-ship. Quality varies (some reviewers say rollers do not suit very hard Japanese steel). Comparison shoppers find $34 generics on Amazon. The $69 price is proposed, not proven: Hatori's 1,307 reviews are a vendor figure.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "monitor-light-bar-desk-kit",
+  "category": "desk-tech",
+  "product": "Monitor light bar with RGB backlight and remote, sold as a desk glow-up gift kit (light bar plus cable clips)",
+  "what_it_solves": "Screen glare and a dark desk at night: the bar lights the desk without hitting the screen, and the RGB back glow makes a gaming or work setup look finished. A gift for the tech worker or gamer.",
+  "sell_price": 44.99,
+  "sell_price_source": "Proposed kit price. Anchors: Quntis Monitor Light Bar IM 40 cm RGB $43.99 and 41 cm with remote $41.99 on quntis.com (products.json, VERIFIED 2026-11-22); Amazon Quntis monitor lamp $33.96 with 4,000+ bought past month and 13,978 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22); TikTok Shop RGB light bar '84146 sold, $24.99' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 42.49,
+   "bought_past_month_top_listings": 10250,
+   "listings_counted": 23,
+   "top_listing_url": "https://www.amazon.com/dp/B08DKQ3JG1",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Quntis",
+    "url": "https://www.quntis.com/products/quntis-monitor-light-bar-im-40-cm-15-7-inch-black-rgb-dimmable-screenbar-usb-powered-eye-care-task-light-for-computer-monitor",
+    "price": 43.99,
+    "traction_evidence": "Amazon: Quntis monitor lamp B08DKQ3JG1 $33.96, 4,000+ bought past month, 13,978 ratings, #1 in USB Reading Lamps (VERIFIED via DataForSEO Amazon data 2026-11-22). DTC prices $41.99 to $79.99 for light bars (products.json, VERIFIED 2026-11-22).",
+    "is_whale": true
+   },
+   {
+    "store": "summerwins (TikTok Shop seller)",
+    "url": "https://shop.tiktok.com",
+    "price": 24.99,
+    "traction_evidence": "Google snippet: 'summerwins RGB LED Monitor Light Bar ... 84146 sold. $24.99. $45.99' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).). Exact page URL not resolved (Google redirect link).",
+    "is_whale": false
+   },
+   {
+    "store": "Yeelight (Amazon)",
+    "url": "https://www.amazon.com/dp/B0DRG3WXB3",
+    "price": 25.17,
+    "traction_evidence": "500+ bought past month on Amazon (VERIFIED via DataForSEO Amazon data 2026-11-22).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=monitor%20light%20bar) returned 'No ads match' on 4 tries on 2026-11-22. The page is flaky in a headless browser, so ad activity is UNKNOWN, not zero. BenQ ScreenBar is the premium name in this type; its price and ads were not read.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: computer monitor lamp, RGB dream-color ambient light bar",
+    "url": "https://www.aliexpress.us/item/3256812455029377.html",
+    "unit_cost": 8.85,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 10 sold, rating 5.0."
+   },
+   {
+    "source": "AliExpress US stock: anti-glare RGB monitor light bar, stepless dimming",
+    "url": "https://www.aliexpress.us/item/3256813342647983.html",
+    "unit_cost": 11.55,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 5 sold; no promo tag."
+   },
+   {
+    "source": "AliExpress US stock: 30/40 cm CCT RGB monitor light bar",
+    "url": "https://www.aliexpress.us/item/3256811534531176.html",
+    "unit_cost": 8.55,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 7 sold. Length 30 or 40 cm UNKNOWN per variant; a 30 cm bar is short for a 27-inch monitor."
+   }
+  ],
+  "best_us_landed_cost": 8.85,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 8.85 is 20% of the proposed $44.99, 26% of the $33.96 Amazon price and 35% of the $24.99 TikTok price. Remote control and length not confirmed on the card: UNKNOWN until a sample.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched (US stock exists).",
+  "weight_lb": 1.28,
+  "demo_score_1to5": 4,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Desk-setup 'before and after' and night glow-ups are a large organic format, and one TikTok Shop listing shows 84,146 sold; the wow is visual but not unique.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): 'summerwins RGB LED Monitor Light Bar ... 84146 sold, $24.99'; 'LED Monitor Light Bar, Dual Light Mode ... 11833 sold, $23.79'; a search page shows '716 sold, $36.99' and '190 sold, $34.84'.",
+  "bundle_idea": "Light bar with RGB backlight plus remote and cable clips at $44.99; add-on desk mat or monitor riser for the same buyer; fits Dhruv's tech-worker category.",
+  "whale_note": "Quntis is a strong Amazon brand and BenQ owns the premium end; on TikTok Shop the type sells at $24 to $37, so a $44.99 store price needs the kit and gift framing to hold.",
+  "ip_safety_flags": "BenQ ScreenBar may hold patents on asymmetric light bars (one search returned nothing; not a clearance). USB-powered 5 V, no battery, no heat: low safety risk. Ask the supplier for FCC and CE papers before claiming 'eye care'; do not make eye-health claims.",
+  "season_note": "Steady all year ('monitor light bar' 6,600 average Google searches, 8,100 in Dec 2025, VERIFIED via DataForSEO), so it also outlives Christmas. Home batch: yes. 1.3 lb and about $9 to $12 each, so 20 units cost about $180 to $230 and ship cheaply.",
+  "risks": "The type is cheap on TikTok ($24 to $37), so organic buyers will compare. US-stock cards show 5 to 10 sales; quality, clamp fit on thin or curved monitors and remote are UNKNOWN until a sample. Low price means thin profit per order even at a good cost ratio.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "electric-salt-pepper-grinder-set",
+  "category": "kitchen",
+  "product": "Rechargeable electric salt and pepper grinder set (2 mills, USB-C charging base, LED light, adjustable coarseness), gift boxed",
+  "what_it_solves": "One-handed seasoning while cooking, with a light that shows how much you added; a tidy charging base replaces battery swaps. A common gift for hosts and home cooks.",
+  "sell_price": 39.97,
+  "sell_price_source": "ThermoMaven electric salt and pepper grinder set on Amazon, $39.97 with 3,000+ bought past month, #1 in Salt & Pepper Shaker Sets, 3,477 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22). Also ThermoMaven 110 ml set $49.99 with 2,000+ bought past month, and a TikTok Shop Ganiza set '27379 sold, $34.99' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 33.24,
+   "bought_past_month_top_listings": 25900,
+   "listings_counted": 53,
+   "top_listing_url": "https://www.amazon.com/dp/B0D7Q7LNNY",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "ThermoMaven (Amazon)",
+    "url": "https://www.amazon.com/dp/B0D7Q7LNNY",
+    "price": 39.97,
+    "traction_evidence": "3,000+ bought past month at $39.97 and 2,000+ at $49.99; #1 in Salt & Pepper Shaker Sets (VERIFIED via DataForSEO Amazon data 2026-11-22). thermomaven.com products.json lists thermometers only (no grinder) on 2026-11-22.",
+    "is_whale": false
+   },
+   {
+    "store": "Ganiza (TikTok Shop)",
+    "url": "https://shop.tiktok.com",
+    "price": 34.99,
+    "traction_evidence": "Google snippet: 'Electric Salt and Pepper Grinder Set, USB Rechargeable ... Flash sale. 4.7. 27379 sold. $34.99. $59.99. Ganiza' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).). ganiza.com products.json returned 404.",
+    "is_whale": false
+   },
+   {
+    "store": "TOMEEM (Amazon)",
+    "url": "https://www.amazon.com/dp/B0BN1S7T6C",
+    "price": 33.24,
+    "traction_evidence": "1,000+ bought past month, 2,500 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=electric%20salt%20and%20pepper%20grinder) returned 'No ads match' on 4 tries on 2026-11-22. The page is flaky in a headless browser, so ad activity is UNKNOWN, not zero.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 2PCS electric salt and pepper grinder mill set, adjustable, stainless steel",
+    "url": "https://www.aliexpress.us/item/3256813400886540.html",
+    "unit_cost": 10.55,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag; 'Free shipping' tag shown)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 0 sold; 'Early bird deal, only 1 left'. Battery or rechargeable type UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: rechargeable electric grinder, ceramic core, adjustable coarseness",
+    "url": "https://www.aliexpress.us/item/3256812733526418.html",
+    "unit_cost": 9.75,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). Shipping tag not shown: UNKNOWN. 'Only 1 left'. One or two mills per unit: UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: Cloud Prime electric salt and pepper grinder set with LED",
+    "url": "https://www.aliexpress.us/item/3256813238169080.html",
+    "unit_cost": 8.29,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). Shipping tag not shown: UNKNOWN. 1 sold, 'only 1 left'."
+   },
+   {
+    "source": "AliExpress US stock: rechargeable salt and pepper grinder, adjustable coarseness",
+    "url": "https://www.aliexpress.us/item/3256813176650501.html",
+    "unit_cost": 5.21,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 15 sold."
+   }
+  ],
+  "best_us_landed_cost": 10.55,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). A set with free shipping; 10.55 is 26% of $39.97 and 30% of the $34.99 TikTok price. Every US card showed 0 to 15 sales and 1 left, so this cost may not repeat; whether the set is rechargeable with a base is UNKNOWN until a sample.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched.",
+  "weight_lb": 1.4,
+  "demo_score_1to5": 4,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "The tilt-or-press-to-grind with the LED glow is a quick visual, and TikTok Shop listings show five-figure sold counts; it is a known product, so the hook must be the gift set.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): Ganiza set '27379 sold, $34.99'; 'Snag Rush ... 1.4K sold'; '422 sold $14.99'; 'PUKOMC Rechargeable Electric Salt and Pepper Grinder ... 1309 sold. $43.99'. Many TikTok sets sell at $13 to $20.",
+  "bundle_idea": "Two rechargeable mills plus charging base, refill funnel and gift box at $39.97; no spices included (food is out of scope); replacement ceramic burr as an add-on.",
+  "whale_note": "No household giant in the electric type; ThermoMaven leads Amazon with about 5,000 units a month across two listings. TikTok has much cheaper sets ($13 to $20), which caps the organic price.",
+  "ip_safety_flags": "No patent issue found in one search (not a clearance); avoid copying ThermoMaven or Ganiza designs and photos. Small lithium battery inside a kitchen tool (not worn). Grinder parts touch salt and pepper: ask for food-contact (FDA or LFGB) papers before saying food-safe.",
+  "season_note": "Gift peak: 'electric salt and pepper grinder' 40,500 Google searches in Dec 2025 against 6,600 in Jul 2026 (VERIFIED via DataForSEO). Home batch: yes in principle (1.4 lb, about $10), but no US card showed more than 1 unit in stock, so 10 to 20 units would need the China route or another US source.",
+  "risks": "US stock is nearly empty (every card said 1 left), so the cost is not repeatable today. Motor and battery failures drive returns in this type. Cheap TikTok sets anchor buyers low.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "cocktail-smoker-kit",
+  "category": "bar-gifts",
+  "product": "Cocktail and whiskey smoker kit: smoker top, butane torch (shipped empty), 6 wood-chip flavors, in a gift box",
+  "what_it_solves": "Turns an ordinary old fashioned into a bar-style smoked drink at home; the smoke-filled glass is a ready gift for men who drink whiskey.",
+  "sell_price": 33.24,
+  "sell_price_source": "ComboJoy whiskey smoker kit with torch on Amazon, $33.24 with 10,000+ bought past month, #1 in Bar Tools, 7,150 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22). Premium anchor: Aged & Charred kit with torch (no butane) $79.99 on agedandcharred.com, page data shows reviewCount 360 (VERIFIED read 2026-11-22)",
+  "amazon": {
+   "typical_price": 33.99,
+   "bought_past_month_top_listings": 32000,
+   "listings_counted": 41,
+   "top_listing_url": "https://www.amazon.com/dp/B0BJV68C17",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Aged & Charred",
+    "url": "https://agedandcharred.com/products/smoke-lid-kit-a-cocktail-smoker-kit-no-butane",
+    "price": 79.99,
+    "traction_evidence": "products.json: kit with torch $79.99, 12-piece set $89.99, electric kit $99.99, replacement lid $24.99, butane $9.99 (VERIFIED 2026-11-22). Product page structured data shows reviewCount 360 (vendor figure).",
+    "is_whale": false
+   },
+   {
+    "store": "ComboJoy (Amazon)",
+    "url": "https://www.amazon.com/dp/B0BJV68C17",
+    "price": 33.24,
+    "traction_evidence": "10,000+ bought past month, 7,150 ratings, #1 in Bar Tools, #181 in Kitchen & Dining (VERIFIED via DataForSEO Amazon data 2026-11-22). A ComboJoy TikTok Shop listing showed '9 sold' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).).",
+    "is_whale": false
+   },
+   {
+    "store": "Barvelle",
+    "url": "https://barvelle.net/products/electric-whiskey-smoker",
+    "price": 49.99,
+    "traction_evidence": "products.json: Electric Whiskey Smoker Kit $49.99, compare-at $99.99; Smokehouse Dome $34.95 (VERIFIED 2026-11-22). 3 ads on the first screen of the Meta Ad Library search for 'whiskey smoker kit'. Sales volume UNKNOWN.",
+    "is_whale": false
+   },
+   {
+    "store": "DrinkSmoked",
+    "url": "https://trydrinksmoked.com/products/drinksmoked™-infinite-spin",
+    "price": 49.95,
+    "traction_evidence": "products.json: DrinkSmoked Original Infinite Spin Crystal $49.95 (compare-at $125.95), wood-chip packs $19.95 to $39.95, gift box $13.95 (VERIFIED 2026-11-22). 6 ads on the first Meta screen, the most of any advertiser. Sales volume UNKNOWN.",
+    "is_whale": false
+   },
+   {
+    "store": "Electric smoker kit (Amazon, unbranded)",
+    "url": "https://www.amazon.com/dp/B0DJSPV9G4",
+    "price": 33.99,
+    "traction_evidence": "5,000+ bought past month (VERIFIED via DataForSEO Amazon data 2026-11-22). Electric versions remove the torch problem.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-22 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=whiskey%20smoker%20kit): ~270 results for the keyword; first screen advertisers and ad counts: DrinkSmoked (6), TryBarvelle (3), Smoky Cocktail (1), The Honest Home (1), Cheeky Heating, Cooling & Plumbing (1). Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: cocktail smoker kit with torch, 6 wood-chip flavors",
+    "url": "https://www.aliexpress.us/item/3256813463276499.html",
+    "unit_cost": 22.11,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag; 'Free shipping' shown)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 0 sold; 'Early bird deal, only 1 left'."
+   },
+   {
+    "source": "AliExpress US stock: cocktail smoker set, ceramic skull-shaped smoker",
+    "url": "https://www.aliexpress.us/item/3256813367879287.html",
+    "unit_cost": 14.55,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 4 sold; 'only 1 left'. No torch in the title."
+   },
+   {
+    "source": "AliExpress China: glass-top cocktail smoker kit with 4 wood chips",
+    "url": "https://www.aliexpress.us/item/3256804197413791.html",
+    "unit_cost": 4.96,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "CN",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress search card read 2026-11-22, ships from China; shipping fee not on the card, so UNKNOWN). 900+ sold, rating 4.6; no torch in the title."
+   },
+   {
+    "source": "AliExpress UK stock: cocktail smoker kit with torch, 4 wood chips, whiskey stones",
+    "url": "https://www.aliexpress.us/item/3256804607122943.html",
+    "unit_cost": 19.75,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress card read 2026-11-22 shows ship-from UK, not US; 241 sold). Not usable for US 2-to-8-day delivery."
+   }
+  ],
+  "best_us_landed_cost": 22.11,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 22.11 is 67% of the $33.24 Amazon price and 28% of Aged & Charred's $79.99. Only one unit was in stock.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: the $4.96 China kit (900+ sold) shows no shipping fee and has no torch.",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "Lifting the smoker to release a cloud of smoke from the glass is a pure 3-second visual, and the gift-for-him angle peaks in December.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): 'Electric Cocktail Smoker Kit, Rechargeable Whiskey Smoker ... Hiliop Toys ... 734 sold'; a whiskey smoker page's related block shows '73098 sold, 33.94 ($53.99)' and '158252 sold, 89.99', but which products those counts belong to is UNKNOWN.",
+  "bundle_idea": "Proposed step-up kit at $59 to $79 (smoker top, torch, 6 chips, 2 glasses, 2 ice-ball molds) in a wooden gift box, priced under Aged & Charred's $79.99; wood-chip refills as the reorder item (Aged & Charred sells lids and butane separately).",
+  "whale_note": "No giant; Amazon is led by generic brands at $28 to $34 with about 32,000 units a month counted. The premium DTC end (Aged & Charred) proves $80 kits sell but its sales volume is UNKNOWN.",
+  "ip_safety_flags": "Butane torch: carriers restrict lighters and fuel. Whether an empty new torch can go by USPS from home is UNKNOWN; check USPS Publication 52 before selling, or sell an electric smoker or a torch-free kit. Fire risk when used. Glasses in the kit are fragile (out of scope), so leave glass out. Wood chips are not food but touch the drink's smoke; make no flavor or health claims. Alcohol-adjacent ads face platform restrictions.",
+  "season_note": "Strong December peak: 'whiskey smoker kit' 33,100 Google searches in Dec 2025 and 'cocktail smoker kit' 22,200, against 4,400 and 2,400 in Jul 2026 (VERIFIED via DataForSEO). Home batch: only via the China route (10 to 20 kits at about $5 plus air freight, UNKNOWN), and only if the torch question is solved.",
+  "risks": "US stock is one unit; the only cheap source ships from China, so Christmas timing is tight. Torch shipping rules UNKNOWN. Glass breakage if glasses are included. Amazon sells a full kit at $33, so a store price above about $50 needs a clearly better gift box.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "mini-car-vacuum-blower",
+  "category": "car",
+  "product": "4-in-1 cordless mini car vacuum and air blower (vacuum, blower, inflator nozzle, light), USB-C rechargeable",
+  "what_it_solves": "Crumbs, pet hair and dust in car seats and vents, plus blowing dust out of keyboards; small enough for the glovebox. A stocking-stuffer-size gift for drivers.",
+  "sell_price": 39.99,
+  "sell_price_source": "IYOFINE 4-in-1 mini car vacuum and air duster on Amazon, $39.99 with 10,000+ bought past month, #2 in Vacuums and #61 in Automotive, 2,314 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22). TikTok Shop Itutn Y8 max 5-in-1 '23.4K sold' at $40.99 (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 37.98,
+   "bought_past_month_top_listings": 72350,
+   "listings_counted": 49,
+   "top_listing_url": "https://www.amazon.com/dp/B0DGQ7Y5ZC",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Fanttik",
+    "url": "https://fanttik.com/products/fanttik-v8-mate-upgraded-cordless-car-vacuum",
+    "price": 49.99,
+    "traction_evidence": "products.json: V8 Mate $49.99 to $59.99, Slim V8 APEX $59.99, Slim V10 Ultra $119.99 (VERIFIED 2026-11-22). 'fanttik' gets 60,500 Google searches a month on average (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "Itutn (TikTok Shop)",
+    "url": "https://shop.tiktok.com",
+    "price": 40.99,
+    "traction_evidence": "Google snippet: 'Itutn car vacuum/blower Y8 max, 5 in 1 ... Sold by Itutn Official 4.2 2.5K 23.4K sold' at $40.99, list $99.99 (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).).",
+    "is_whale": false
+   },
+   {
+    "store": "Wolfbox (Amazon)",
+    "url": "https://www.amazon.com/dp/B0GF74ZGDZ",
+    "price": 28.99,
+    "traction_evidence": "Air duster MF60 30,000+ bought past month and MegaFlow 50 20,000+ at $29.06 (VERIFIED via DataForSEO Amazon data 2026-11-22). Strong brand in the blower half of the type.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-22 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=car%20vacuum%20blower): ~3,800 results for the keyword; first screen advertisers and ad counts: Alibaba.com (5), Rouvenor (2), Susan Mitchell (2), Patricia’s Home Essentials with Sakerplus (2), FlexUp Vacuum US (2), Two Guys Garage (1), K&F CONCEPT (1), Springfield Acura (1), Black Friday Deals Tampa (1), Plumeo (1), Grove Heating and Cooling, Inc. (1), warrior_within_coaching with Shoptemu (1), Hugo Richardson (1), Ssiki.Y (1), The Sunday Table Club with Sakerplus (1), Open Road Neighbors with Sakerplus (1). Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: portable handheld vacuum 30000Pa, brushless, 4-in-1",
+    "url": "https://www.aliexpress.us/item/3256808998388717.html",
+    "unit_cost": 24.68,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 1,000+ sold, 'Top selling on AliExpress'. Shipping fee not shown: UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: high-power car blower vacuum, 2-in-1",
+    "url": "https://www.aliexpress.us/item/3256810025296388.html",
+    "unit_cost": 10.19,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 600+ sold. Shipping fee not shown: UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: wireless car vacuum cleaner (ABS)",
+    "url": "https://www.aliexpress.us/item/3256809335853930.html",
+    "unit_cost": 9.05,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 10,000+ sold, rating 4.9. A basic low-power unit; shipping fee not shown."
+   },
+   {
+    "source": "AliExpress US stock: WOLFBOX DF60 air duster (blower only, branded)",
+    "url": "https://www.aliexpress.us/item/3256811586431822.html",
+    "unit_cost": 30.09,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 900+ sold. A branded product (reselling, not our brand)."
+   }
+  ],
+  "best_us_landed_cost": 24.68,
+  "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 24.68 is 62% of $39.99. Shipping fee not shown on the card (US-stock cards usually ship free: ASSUMED $0). The $9 to $10 units are new-shopper prices for weak vacuums and are not a fair like-for-like cost.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched.",
+  "weight_lb": 0.44,
+  "demo_score_1to5": 4,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Dirty-seat-to-clean and dust blasting out of vents are proven satisfying clips; Itutn shows 23.4K TikTok Shop sales, but Fanttik and Wolfbox own the creator space.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): Itutn Y8 max '23.4K sold' at $40.99; '2-in-1 Cordless Handheld Vacuum & Air Duster, 2243 sold $12.98'; '3 In 1 Car Vacuum ... 14236 sold, $2.69' (likely an accessory or promo).",
+  "bundle_idea": "Vacuum-blower plus crevice and brush nozzles and a car-seat gap brush at $39.99; fits the Barkfare car-and-dog customer as a pet-hair add-on.",
+  "whale_note": "Fanttik, Wolfbox and Black+Decker lead; about 72,000 units a month counted at $25 to $60 on Amazon. Crowded and price-led.",
+  "ip_safety_flags": "Lithium battery in a handheld tool (not worn); ask for UN38.3 and FCC papers. Brand names (Fanttik, Wolfbox) must not appear in our ads.",
+  "season_note": "Steady demand ('car vacuum' 40,500 average and 60,500 in Dec 2025 Google searches, VERIFIED via DataForSEO). Home batch: possible (0.44 lb listing weight), but only at new-shopper prices, so the second order's cost is UNKNOWN.",
+  "risks": "Cost ratio fails at a fair like-for-like unit (62%). Cheap units have weak suction and battery complaints, which drive refunds. Crowded and brand-led.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "cordless-pressure-washer-gun",
+  "category": "car-outdoor",
+  "product": "Cordless handheld pressure washer gun (battery, 6-in-1 nozzle, bottle or bucket feed) for car washing",
+  "what_it_solves": "Washing a car, bike or patio without a hose spigot or a plug; the grime-blasting clip sells itself.",
+  "sell_price": 69.99,
+  "sell_price_source": "KEEPEAK cordless pressure washer on Amazon, $69.99 with 3,000+ bought past month, rating 3.9 from 430 (VERIFIED via DataForSEO Amazon data 2026-11-22). TikTok Shop SEESE sells near $29.90 to $37.88 (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 69.44,
+   "bought_past_month_top_listings": 9050,
+   "listings_counted": 31,
+   "top_listing_url": "https://www.amazon.com/dp/B0GYCKRBN8",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "SEESE (TikTok Shop)",
+    "url": "https://shop.tiktok.com",
+    "price": 37.88,
+    "traction_evidence": "Google snippets: 'SEESE Cordless Pressure Washer Gun, 1000 PSI ... $37.88(-36%) 777 sold $29.90 $55.00'; shop shows 'Sold 50.7K+' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).).",
+    "is_whale": false
+   },
+   {
+    "store": "SEESII (Amazon)",
+    "url": "https://www.amazon.com/dp/B0GV3YL59M",
+    "price": 79.99,
+    "traction_evidence": "800+ bought past month (VERIFIED via DataForSEO Amazon data 2026-11-22).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library loaded in Playwright on 2026-11-22 (https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=cordless%20pressure%20washer): ~380 results for the keyword; first screen advertisers and ad counts: The Home Depot (5), As Seen On TV (5), Harbor Freight (1), Anthony Rossi shared Anthony Rossi 's post (1), Alibaba.com (1), Lion Jungle shared Lion Jungle 's post (1), Kaltroni (1), Ken Geyer Real Estate Auctioneers, Inc. (1), CozyFrank (1), Zinan Qi shared Zinan Qi 's post (1), Zyvion (1), Zyvora (1), Wilco (1), Lighthouse Express (1), Offers Hub (1), Shop Dolcezza (1). Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: cordless pressure washer 60 bar, car wash gun",
+    "url": "https://www.aliexpress.us/item/3256808072725431.html",
+    "unit_cost": 32.49,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag; 'Free shipping' shown)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 73 sold, rating 4.8, no promo tag."
+   },
+   {
+    "source": "AliExpress US stock: 21V cordless high-pressure washer 60 bar with 2 batteries",
+    "url": "https://www.aliexpress.us/item/3256812854189583.html",
+    "unit_cost": 17.82,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 255 sold, rating 4.9."
+   }
+  ],
+  "best_us_landed_cost": 32.49,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 32.49 is 46% of the $69.99 Amazon price and above the $29.90 TikTok price.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched.",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Clean-stripe-through-dirt clips are proven, but TikTok sellers already price below our US-stock cost.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): SEESE '777 sold' at $29.90 to $37.88, shop 'Sold 50.7K+'; Bourvill 21V '39 sold'.",
+  "bundle_idea": "Gun plus 2 batteries, foam cannon bottle and microfiber towel at $69.99.",
+  "whale_note": "Worx and Greenworks own the branded end; generics dominate Amazon and TikTok.",
+  "ip_safety_flags": "Lithium battery tool used with water; ask for UN38.3, FCC and water-ingress papers. Battery-and-water returns can be complex.",
+  "season_note": "Not a December-peak type (outdoor washing peaks in spring). Home batch: heavy-ish (weight UNKNOWN, likely several pounds), costly at $32 each.",
+  "risks": "Fails the cost rule (46% of Amazon price, above the TikTok price); Amazon rating 3.9 points to quality complaints; not seasonal.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "wireless-meat-thermometer",
+  "category": "kitchen-bbq",
+  "product": "Truly wireless Bluetooth meat thermometer probe with booster and app",
+  "what_it_solves": "Overcooked or underdone meat; the probe sits in the roast and the phone alerts at the right temperature. A classic dad and griller gift.",
+  "sell_price": 33.99,
+  "sell_price_source": "ThermoMaven wireless meat thermometer on Amazon, $33.99 with 8,000+ bought past month, #2 in Meat Thermometers & Timers, 3,767 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22). TikTok Shop Typhur Sync '16848 sold' at $53.91 (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).)",
+  "amazon": {
+   "typical_price": 52.72,
+   "bought_past_month_top_listings": 52350,
+   "listings_counted": 36,
+   "top_listing_url": "https://www.amazon.com/dp/B0DG5GKJKB",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "ThermoMaven",
+    "url": "https://thermomaven.com/products/p1",
+    "price": 29.99,
+    "traction_evidence": "products.json: P1 $29.99, P2 Lite $65.99, P2 $84.99, P4 $135.99 (VERIFIED 2026-11-22); Amazon 8,000+ bought past month at $33.99 (VERIFIED via DataForSEO Amazon data 2026-11-22).",
+    "is_whale": true
+   },
+   {
+    "store": "Typhur",
+    "url": "https://typhur.com/products/sync-gold-dual-gift-edition-gen-1",
+    "price": 149.99,
+    "traction_evidence": "products.json: Sync Gold Dual Gift Edition $149.99 (VERIFIED 2026-11-22). TikTok Shop snippet 'Typhur Sync Wireless Meat Thermometer ... 16848 sold. $53.91' (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).).",
+    "is_whale": true
+   },
+   {
+    "store": "CHEF iQ (Amazon)",
+    "url": "https://www.amazon.com/dp/B0DZFNQXGL",
+    "price": 99.99,
+    "traction_evidence": "3,000+ bought past month (VERIFIED via DataForSEO Amazon data 2026-11-22).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Not checked on the Meta Ad Library in this session (time).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: ChefLab truly wireless meat thermometer, 500 ft",
+    "url": "https://www.aliexpress.us/item/3256812134436013.html",
+    "unit_cost": 30.42,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 3 sold; a branded product."
+   },
+   {
+    "source": "AliExpress US stock: smart wireless meat thermometer, ultra-thin probe",
+    "url": "https://www.aliexpress.us/item/3256812900908498.html",
+    "unit_cost": 28.25,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 4 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; card shows a 'New shoppers' promo, so this is a first-order price only and the repeat price is UNKNOWN). 7 sold."
+   }
+  ],
+  "best_us_landed_cost": 30.42,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 30.42 is 89% of the $33.99 Amazon price: fails the cost rule.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched.",
+  "weight_lb": 0.37,
+  "demo_score_1to5": 3,
+  "creator_fit_1to5": 3,
+  "creator_fit_reason": "Works in grilling content, but the result (a perfect steak) is slower than 3 seconds and brands already own it.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): Typhur Sync '16848 sold' at $53.91; MeatStick '2 sold'; BFOUR '213 sold'.",
+  "bundle_idea": "Two probes plus booster at $59; not pursued because cost fails.",
+  "whale_note": "ThermoMaven, Typhur, CHEF iQ, Meater and ThermoPro own the type; about 52,000 Amazon units a month counted at $25 to $80.",
+  "ip_safety_flags": "Brand-heavy type with possible patents on wireless probes (Meater). Food-contact probe needs papers.",
+  "season_note": "Big December peak ('wireless meat thermometer' 90,500 Google searches in Dec 2025, VERIFIED via DataForSEO) but the cost fails.",
+  "risks": "US-stock cost is near the Amazon price; brand-dominated; pairing and range complaints drive returns.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "smart-bird-feeder-camera",
+  "category": "outdoor-gifts",
+  "product": "Solar smart bird feeder with 2K camera and AI bird identification app",
+  "what_it_solves": "Seeing and naming backyard birds up close; clips of birds landing are shareable and the gift appeals to parents and grandparents.",
+  "sell_price": 51.29,
+  "sell_price_source": "HEAPETS bird feeder with camera on Amazon, $51.29 with 2,000+ bought past month, #1 in Wild Bird Feeders, 3,107 ratings (VERIFIED via DataForSEO Amazon data 2026-11-22)",
+  "amazon": {
+   "typical_price": 69.99,
+   "bought_past_month_top_listings": 10650,
+   "listings_counted": 43,
+   "top_listing_url": "https://www.amazon.com/dp/B0DSDFV4Z2",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Birdfy (Netvue)",
+    "url": "https://birdfy.com/products/birdfy-feeder-metal-2-2k",
+    "price": 179.99,
+    "traction_evidence": "products.json: feeders $169.99 to $259.99 (VERIFIED 2026-11-22).",
+    "is_whale": true
+   },
+   {
+    "store": "Bird Buddy",
+    "url": "https://mybirdbuddy.com",
+    "price": null,
+    "traction_evidence": "'bird buddy' 49,500 average Google searches and 201,000 in Dec 2025 (VERIFIED via DataForSEO); products.json returned 404, so price not read.",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Not checked on the Meta Ad Library in this session (time).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: smart bird feeder with camera, solar, 4-in-1",
+    "url": "https://www.aliexpress.us/item/3256813413722141.html",
+    "unit_cost": 58.79,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 0 sold; 'Early bird deal, only 1 left'."
+   },
+   {
+    "source": "AliExpress US stock: solar bird feeder camera 4MP 2.5K with AI species ID",
+    "url": "https://www.aliexpress.us/item/3256812757451127.html",
+    "unit_cost": 68.09,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 0 sold; 'only 4 left'."
+   }
+  ],
+  "best_us_landed_cost": 58.79,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22 with the ship-from-United-States filter; item page not opened because item pages were captcha-blocked last time; a marketplace listing price, not a supplier quote). 58.79 is above the $51.29 Amazon top-seller price: fails the cost rule.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not searched.",
+  "weight_lb": 3.46,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "Bird-visit clips are natively viral and gift-friendly, but the product cost kills the margin.",
+  "tiktok_shop_evidence": "Google snippets (ESTIMATED (sold count read from a Google result snippet for a shop.tiktok.com page via DataForSEO on 2026-11-22; the page itself was not opened, and snippets can be stale).): '48 sold. $89.77' for a solar feeder camera; a 'TikTokShopBlackFriday' VEVOR feeder listing with no sold count in the snippet.",
+  "bundle_idea": "Feeder plus seed scoop and mounting pole; not pursued because cost fails.",
+  "whale_note": "Bird Buddy and Birdfy own the premium end; Amazon generics sell at $35 to $100.",
+  "ip_safety_flags": "Camera, Wi-Fi and app: FCC papers and app data privacy needed; app reliability is outside our control. Heavier at 3.46 lb (Amazon listing weight).",
+  "season_note": "Very strong December peak ('smart bird feeder' 165,000 Google searches in Dec 2025 against 14,800 in Jul 2026, VERIFIED via DataForSEO). Home batch: no (cost and app support).",
+  "risks": "Cost fails; app or Wi-Fi problems cause returns; feeder seed is not in scope to sell.",
+  "checked": "2026-11-22"
+ }
+]

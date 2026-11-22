@@ -1,0 +1,523 @@
+[
+ {
+  "id": "waterproof-dog-hammock-seat-cover",
+  "category": "pets / dog car travel",
+  "product": "Soft waterproof back-seat dog hammock with side flaps and mesh window (no hard bottom), sold under Barkfare as an entry kit with two headrest seat belts",
+  "what_it_solves": "Mud, hair, drool and claw marks on the back seat, and the dog sliding into the footwell; side flaps cover the lower doors. Installs in minutes with headrest straps and seat anchors.",
+  "sell_price": 69.0,
+  "sell_price_source": "Proposed kit price (hammock plus 2 headrest seat belts). Proven anchors: 4Knines Dog Rear Seat Cover with Hammock - Regular $79.99 (https://4knines.com/products/dog-rear-seat-cover-with-hammock-regular, page shows '4.8 / 5 from 911 reviews', VERIFIED read 2026-11-22), and 4Knines on Amazon at $79.99 with 300+ bought in past month on each of two listings (B00DQFZGZ0, 6,100 ratings; B00R1JMGE6, 3,000 ratings; VERIFIED via DataForSEO 2026-11-22). Ruff Liners Soft Backseat Dog Hammock with Door Protection $109.99 (ruffliners.com shows '4.4 (1,507 reviews)'; Amazon B0DSK1Y9J6 500+ bought in past month; VERIFIED). Most Amazon volume sits far lower: URPOWER $23.98 with 9,000+ and $33.99 with 1,000+ a month.",
+  "amazon": {
+   "typical_price": 28.64,
+   "bought_past_month_top_listings": 2500,
+   "listings_counted": 17,
+   "top_listing_url": "https://www.amazon.com/dp/B0DSK1Y9J6",
+   "checked": "2026-11-22. DataForSEO Amazon US live search, 9 keywords (dog hammock for car back seat, dog car seat cover, with mesh window, for suv, quilted, truck back seat, kurgo dog hammock, 4knines dog seat cover, ruff liners), 100 results each, de-duplicated by ASIN. Soft hammocks and bench covers only: titles with hard bottom, extender, booster, console, front, bucket, cargo, trunk, door, bed, leather or crate removed. 96 badged listings sum 44,050 a month (floors); typical_price is their median. 2,500 over 17 listings at $40 to $400; 2,050 over 15 at $60+; 41,550 under $40."
+  },
+  "dtc_competitors": [
+   {
+    "store": "4Knines",
+    "url": "https://4knines.com/products/dog-rear-seat-cover-with-hammock-regular",
+    "price": 79.99,
+    "traction_evidence": "911 reviews on the product page; Amazon 300+ bought in past month on two $79.99 listings (VERIFIED). Google searches for '4knines' about 1,600 a month (DataForSEO Google Ads, ESTIMATED). Lifetime warranty claim; ships in 5 to 7 days per the page. Runs creator partnership ads on Meta (see ad_evidence).",
+    "is_whale": false
+   },
+   {
+    "store": "Ruff Liners",
+    "url": "https://ruffliners.com/products/dog-car-seat-cover-for-back-seat-dog-hammock-for-car-dog-seat-cover-and-door-protection-for-sedans-mid-size-suv-mid-size-trucks",
+    "price": 109.99,
+    "traction_evidence": "1,507 reviews on the page; Amazon hammock 500+ a month at $109.99 and its extender 3,000+ a month at $135.94 (VERIFIED via DataForSEO). Google searches for 'ruff liners' 6,600 a month on average, 8,100 in Oct 2026 (ESTIMATED). Page says 'Ships from the US in 1 to 2 business days.'",
+    "is_whale": true
+   },
+   {
+    "store": "Team K9",
+    "url": "https://teamk9.com/products/single-seat-cover",
+    "price": 49.99,
+    "traction_evidence": "Single seat cover $49.99 to $89.99 (compare-at $100) and hard-bottom cover $169.99 to $289.99 in the public product feed (VERIFIED read). 3 to 5 ads on the first Meta screen for 'dog car seat cover' and 'dog hammock'. Brand searches about 1,600 a month (ESTIMATED).",
+    "is_whale": false
+   },
+   {
+    "store": "Lusso Gear",
+    "url": "https://lussogear.com/products/dog-car-hammock",
+    "price": 39.99,
+    "traction_evidence": "Dog Car Hammock $39.99 in the public feed (VERIFIED); Lusso Gear dog car seat cover on Amazon at $39.99 with 1,000+ bought in past month, 4,100 ratings (B08SHWBMCL, VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library in Playwright, US, active ads, read 2026-11-22. 'dog car seat cover': about 5,400 keyword results; first screen PetsVet Supply 3 plus 1 creator partnership ad ('Boxer Madness with PetsVet Supply'), Team K9 3, RUFF Liners 2, 4Knines 2, FirmPaw 1, Epic Companion 1, Solara Covers 1, plus unrelated advertisers. 'dog hammock': about 320 results; Team K9 5, 4Knines 2, FirmPaw 2, Pawpy Stuff 2, Taco Dog 2. '4knines': about 110 results; 4Knines 20 on the first screen plus creator partnership ads 'heyyitsbearthelab with 4Knines' and 'Whiskered Wires with 4Knines'. Counts are keyword matches across all advertisers, not ads for one product (VERIFIED read). 'ruff liners' and 'cargo liner for dogs' returned empty pages (flaky page): UNKNOWN. Foreplay returned 402 (no credits): UNKNOWN.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: waterproof dog car seat cover with side flaps, pet hammock for cars and trucks",
+    "url": "https://www.aliexpress.us/item/3256812679473069.html",
+    "unit_cost": 24.58,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 473 sold, rating 4.9, 'Lowest price in 90 days'. A later read the same day showed $16.58 with 'New shoppers save $47.86' (first order only)."
+   },
+   {
+    "source": "AliExpress US stock: waterproof dog car seat cover hammock for small, medium and large dogs",
+    "url": "https://www.aliexpress.us/item/3256813091692443.html",
+    "unit_cost": 27.31,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 19 sold, rating 4.9. Later reads showed $17.81 with a 'New shoppers' tag."
+   },
+   {
+    "source": "AliExpress US stock: 600D Oxford hammock with mesh window and side flaps",
+    "url": "https://www.aliexpress.us/item/3256813271434686.html",
+    "unit_cost": 27.6,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (card shows free shipping, no delivery tag)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 5 sold. Closest match to the mesh-window spec."
+   },
+   {
+    "source": "AliExpress US stock: 600D heavy duty hammock seat cover",
+    "url": "https://www.aliexpress.us/item/3256812557098694.html",
+    "unit_cost": 19.92,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 4 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 12 sold. Carries a 'New shoppers' tag, so the repeat price is UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": 24.58,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US card, 473 sold, free shipping, no new-shopper tag on the first read 2026-11-22). Hammock only; the two seat belts in the proposed kit have no US-stock price read today (UNKNOWN).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China-shipped cards not read today",
+  "weight_lb": null,
+  "demo_score_1to5": 4,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Muddy dog jumps in, seat stays clean, hammock comes out and is hosed off: a 3-second before and after; 4Knines and PetsVet Supply already run creator partnership ads in this category.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Entry kit at $69 (hammock plus 2 seat belts) for Black Friday and Christmas; buyers become the list for the $149 extender. Later add door covers, a front seat cover and a cargo liner as a 'whole car' bundle.",
+  "whale_note": "The premium tier is small: 2,500 Amazon units a month at $40 or more against 41,550 under $40 (floors). Ruff Liners and 4Knines own it with reviews, warranties and US shipping. A generic at $69 is compared directly with $24 to $34 listings that have 47,000 ratings.",
+  "ip_safety_flags": "Ruff Liners door protection attaches to plastic window inserts (the repo found Ruff Liners US 12,221,024); do not source door flaps that clip into the window seal. A 4Knines reviewer calls its Split-Tech design 'patented' (unverified); avoid split-bench copies until checked. Never use 'As Seen on Shark Tank' or either brand name. No battery, no heating. Weight UNKNOWN (no listing weight read).",
+  "season_note": "Flat, mild winter lift: 'dog car seat cover' 12,100 Google searches a month on average, 12,100 in Dec 2025 and 9,900 in Jul 2026; 'dog hammock for car' 4,400 (DataForSEO Google Ads, ESTIMATED). Holiday road trips help; not a gift peak.",
+  "risks": "Commodity look: shoppers can find the same item for $24 to $34 on Amazon. Quality and fit (seat anchors, headrest straps, sizes for trucks) unknown until a sample. US-stock sold counts are small (473 is the best). Overlaps the hero: a soft hammock buyer may feel covered and skip the extender, so position it as the entry tier. Promo prices change daily.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "suv-cargo-liner-dog",
+  "category": "pets / dog car travel",
+  "product": "Waterproof SUV cargo liner for dogs with bumper flap (and side walls where the supplier offers them)",
+  "what_it_solves": "Muddy or wet dogs ride in the SUV cargo area and scratch the bumper on the way in; the liner keeps hair and mud off the carpet and the flap protects the bumper paint.",
+  "sell_price": 69.0,
+  "sell_price_source": "Proposed price. Anchors: 4Knines Cargo Liner for SUVs - Small $79.99 (Large $99.99, XL $119.99) and Team K9 Waterproof Cargo Area Cover $79.99 (compare-at $160.00) in their public product feeds (VERIFIED read 2026-11-22, no sales counts read). Sales evidence at that level is thin: Amazon RYNVALE XL liner $90.09 and a foam-wall XL liner $95.99, 200+ bought in past month each (VERIFIED via DataForSEO). Volume sits at $28 to $46.",
+  "amazon": {
+   "typical_price": 37.98,
+   "bought_past_month_top_listings": 1900,
+   "listings_counted": 13,
+   "top_listing_url": "https://www.amazon.com/dp/B0GG8TXTY6",
+   "checked": "2026-11-22. DataForSEO Amazon US, 3 keywords (suv cargo liner for dogs, dog cargo liner, dog car barrier for suv), titles with cargo or trunk, extenders and barriers removed. 33 badged listings sum 5,950 a month (floors), median $37.98. 1,900 over 13 listings at $40+; 800 over 8 at $60+. Best seller: $33.23 with 1,000+ (B08LPJB9KK, 3,100 ratings)."
+  },
+  "dtc_competitors": [
+   {
+    "store": "4Knines",
+    "url": "https://4knines.com/products/cargo-liner-for-suvs-small",
+    "price": 79.99,
+    "traction_evidence": "Four cargo liner lines from $79.99 to $149.99 in the feed (VERIFIED). No review count or sales read for these pages today.",
+    "is_whale": false
+   },
+   {
+    "store": "Team K9",
+    "url": "https://teamk9.com/products/waterproof-cargo-cover",
+    "price": 79.99,
+    "traction_evidence": "$79.99 with compare-at $160.00 (VERIFIED feed read). Active Meta advertiser in the category (see the hammock entry). No sales count read.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library 'cargo liner for dogs' returned an empty page in Playwright on 2026-11-22 (flaky): UNKNOWN. Foreplay 402 (no credits): UNKNOWN. Team K9 and 4Knines advertise seat covers on Meta (see waterproof-dog-hammock-seat-cover).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: Oxford fabric pet trunk mat, waterproof, non-slip, foldable cargo liner",
+    "url": "https://www.aliexpress.us/item/3256813379906952.html",
+    "unit_cost": 21.42,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count on the card; size, side walls and bumper flap not confirmed."
+   },
+   {
+    "source": "AliExpress US stock: pet car seat cover and waterproof trunk mat",
+    "url": "https://www.aliexpress.us/item/3256813456765115.html",
+    "unit_cost": 32.46,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count; one read showed 'Early bird deal, only 1 left'."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": 21.42,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US card, free shipping, no promo tag), but no sales on the card and the spec is unconfirmed; treat as a weak source until a listing with sales and side walls is found.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China-shipped cards not read today",
+  "weight_lb": null,
+  "demo_score_1to5": 3,
+  "creator_fit_1to5": 3,
+  "creator_fit_reason": "Wet dog leaps into the trunk after the beach or a hike, liner is shaken out: clear but less novel than the back-seat shot.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Add-on for SUV owners buying the extender ('whole car' bundle), or paired with door covers as a second Barkfare product.",
+  "whale_note": "No dominant seller seen: the top Amazon listing has 1,000+ a month and 3,100 ratings. DTC brands (4Knines, Team K9) list at $80 to $150 without visible sales counts.",
+  "ip_safety_flags": "No patent check run today. Use a generic design; do not copy 4Knines or Team K9 names, images or fold-down-seat zip layouts. Weight UNKNOWN.",
+  "season_note": "Low and flat search: 'cargo liner for dogs' 320 Google searches a month, the same in Dec 2025 and Jul 2026 (ESTIMATED). Demand is found on Amazon, not Google.",
+  "risks": "Fit varies by SUV; wrong-size returns. Cheapest US source has no sales history. Low search demand means it mainly works as an add-on, not a lead product.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "front-bucket-seat-cover-dog",
+  "category": "pets / dog car travel",
+  "product": "Waterproof front bucket seat cover for dogs",
+  "what_it_solves": "A dog riding shotgun leaves hair, mud and claw marks on the front seat; the cover protects one bucket seat and washes in a machine.",
+  "sell_price": 44.99,
+  "sell_price_source": "4Knines Heavy Duty Front Bucket Seat Cover for Dogs at $44.99: Amazon B00KAFYNTE 200+ bought in past month, 1,800 ratings (VERIFIED via DataForSEO 2026-11-22); same price on 4knines.com (VERIFIED feed read). As an add-on we would price it at or under this.",
+  "amazon": {
+   "typical_price": 23.39,
+   "bought_past_month_top_listings": 300,
+   "listings_counted": 3,
+   "top_listing_url": "https://www.amazon.com/dp/B00KAFYNTE",
+   "checked": "2026-11-22. DataForSEO Amazon US, 3 keywords, titles with front or bucket, back-seat and booster items removed. 31 badged listings sum 7,250 a month (floors), median $23.39. Only 300 over 3 listings at $40+ (all 4Knines). Best seller: a $26.58 two-pack with 1,000+ (B08B3KNY6S)."
+  },
+  "dtc_competitors": [
+   {
+    "store": "4Knines",
+    "url": "https://4knines.com/products/bucket-seat-cover-for-dogs-and-pets-for-cars-trucks-and-suvs",
+    "price": 44.99,
+    "traction_evidence": "Amazon 200+ a month at $44.99, 1,800 ratings (VERIFIED).",
+    "is_whale": false
+   },
+   {
+    "store": "Team K9",
+    "url": "https://teamk9.com/products/single-seat-cover",
+    "price": 49.99,
+    "traction_evidence": "$49.99 to $89.99, compare-at $100 (VERIFIED feed read). No sales count.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "No ad check for front seat covers specifically. Category ads: see waterproof-dog-hammock-seat-cover.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: dog car front seat cover, waterproof",
+    "url": "https://www.aliexpress.us/item/3256812250169844.html",
+    "unit_cost": 15.45,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). 3 sold."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": 15.45,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US card, free shipping, no promo tag, 3 sold).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China-shipped cards not read today",
+  "weight_lb": null,
+  "demo_score_1to5": 2,
+  "creator_fit_1to5": 2,
+  "creator_fit_reason": "Works only as a cutaway inside a back-seat video; not a stand-alone hook.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Add-on in the hammock entry kit or the extender order ('cover the front seat too' at checkout).",
+  "whale_note": "Volume is under $30 (two-packs at $26.58). Only 4Knines sells at $44.99 with volume, on its brand.",
+  "ip_safety_flags": "Generic product; no patent check run today. Weight UNKNOWN.",
+  "season_note": "Small search: 'front seat dog cover' 590 a month, 'dog car seat cover front seat' 210 (ESTIMATED). Flat.",
+  "risks": "Too small to lead an ad; only useful as an order-value add-on. US source has 3 sales.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "dog-car-door-covers-2pack",
+  "category": "pets / dog car travel",
+  "product": "Dog car door covers, set of 2 (scratch protection for the inside door panels)",
+  "what_it_solves": "Claw scratches and nose smudges on the inside door panels and window switches when dogs stand or lean on the doors.",
+  "sell_price": 29.99,
+  "sell_price_source": "Proposed add-on price. Proven with sales: Amazon 'Dog Car Door Protector 2-Pack' $25.99 with 1,000+ bought in past month (B0DHBZ2P9M, 793 ratings) and a larger version $27.99 with 500+ (VERIFIED via DataForSEO 2026-11-22). Listed higher without sales counts: PetsVet Supply Door Guard (2-Pack) $39.99, compare-at $79.98; 4Knines Car Door Covers - Set of 2 $44.99 and 'stay in place' $49.99 to $59.99 (VERIFIED feed reads).",
+  "amazon": {
+   "typical_price": 19.99,
+   "bought_past_month_top_listings": 0,
+   "listings_counted": 0,
+   "top_listing_url": "https://www.amazon.com/dp/B0DHBZ2P9M",
+   "checked": "2026-11-22. DataForSEO Amazon US, 3 keywords, titles with 'door protector/cover/guard', barriers and edge trims removed. 23 badged listings sum 3,750 a month (floors), median $19.99; none priced $40+, so the $40+ fields are 0."
+  },
+  "dtc_competitors": [
+   {
+    "store": "PetsVet Supply",
+    "url": "https://petsvetsupply.com/products/door-guard-2-pack",
+    "price": 39.99,
+    "traction_evidence": "Feed price $39.99, compare-at $79.98 (VERIFIED). Runs Meta ads incl. a creator partnership ad on the first 'dog car seat cover' screen. No sales count.",
+    "is_whale": false
+   },
+   {
+    "store": "4Knines",
+    "url": "https://4knines.com/products/car-door-covers-for-cars-trucks-and-suvs-two-door-guards-one-for-each-side",
+    "price": 44.99,
+    "traction_evidence": "Feed price $44.99 (VERIFIED). No sales count read.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "No ad check for door covers specifically. Category ads: see waterproof-dog-hammock-seat-cover.",
+  "supply": [
+   {
+    "source": "AliExpress US stock search 'car door protector for dogs' and 'car door scratch protector pet'",
+    "url": "https://www.aliexpress.us/w/wholesale-car-door-protector-for-dogs.html?SearchText=car%20door%20protector%20for%20dogs&shipFromCountry=US",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: three US-filter searches on 2026-11-22 returned seat covers, pet doors and door edge trims, no dog door covers."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": null,
+  "best_us_landed_label": "UNKNOWN: no US-stock dog door cover found today",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not read",
+  "weight_lb": 0.9,
+  "demo_score_1to5": 3,
+  "creator_fit_1to5": 3,
+  "creator_fit_reason": "Close-up of claws on the door panel, then the cover: quick and clear, but a small-ticket add-on.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Already planned inside the Barkfare extender kit at launch (CLAUDE.md); sell separately later and as a hammock-kit add-on. Do not call it 'free' in ads until it has sold separately at that price (FTC).",
+  "whale_note": "No whale on Amazon (best seller 1,000+ a month, 793 ratings). DTC prices of $40 to $60 have no visible sales.",
+  "ip_safety_flags": "The repo found 4Knines US 12,409,763 (door guards) and Ruff Liners US 12,221,024 (window inserts). A cover that hooks into the window channel or attaches to the seat cover may read on these; source only a plain design after a claim check (not legal advice). Weight 14.4 oz is the Amazon listing weight of B0DHBZ2P9M (VERIFIED via DataForSEO).",
+  "season_note": "'car door protector for dogs' 720 Google searches a month, 590 in Dec 2025, 1,000 in Oct 2026 (ESTIMATED).",
+  "risks": "No US-stock source found; patent risk on the hook design; low price.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "backseat-dog-car-bed",
+  "category": "pets / dog car travel",
+  "product": "Padded back-seat dog car bed with bolsters and a washable cover (sits on the seat or on top of a back-seat extender)",
+  "what_it_solves": "Older or anxious dogs ride more calmly on a padded, bordered bed; on top of the hard-bottom extender it turns the platform into a bed.",
+  "sell_price": 59.49,
+  "sell_price_source": "Ruff Liners Dog Bed for Car Back Seat at $59.49 on Amazon with 300+ bought in past month (B0FGYV1R2R, 188 ratings) and the XL at $67.99 with 200+ (VERIFIED via DataForSEO 2026-11-22). Listed higher: Team K9 Plush Backseat Dog Bed (Fits the Hard Bottom Seat Cover) $79.99 to $89.99, compare-at $160; Ruff Liners Travel Dog Bed for Car $69.99 to $79.99 (VERIFIED feed reads).",
+  "amazon": {
+   "typical_price": 38.25,
+   "bought_past_month_top_listings": 3450,
+   "listings_counted": 15,
+   "top_listing_url": "https://www.amazon.com/dp/B0FGYV1R2R",
+   "checked": "2026-11-22. DataForSEO Amazon US, 6 keyword files (dog car bed back seat, car seat for large and medium dogs, dog car harness, dog seat belt, ruff liners), titles with bed, cushion or large-dog car seat; small-dog boosters, console seats and extenders removed. 31 badged listings sum 7,150 a month (floors), median $38.25. 3,450 over 15 listings at $40+ (mixed: includes PETSFIT elevated boosters at $49.97 with 1,000+ and 600+); 450 over 3 at $60+. Pure back-seat bed mats: $31.44 with 1,000+, $45.99 with 400+, $19.99 with 400+."
+  },
+  "dtc_competitors": [
+   {
+    "store": "Team K9",
+    "url": "https://teamk9.com/products/backseat-dog-bed",
+    "price": 79.99,
+    "traction_evidence": "Feed price $79.99 to $89.99, compare-at $160 (VERIFIED). No sales count.",
+    "is_whale": false
+   },
+   {
+    "store": "Ruff Liners",
+    "url": "https://ruffliners.com/products/backseat-dog-bed",
+    "price": 69.99,
+    "traction_evidence": "Feed price $69.99 to $79.99 (VERIFIED). Amazon version 300+ a month at $59.49 (VERIFIED).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Not checked separately. Team K9 and Ruff Liners advertise in the seat-cover category on Meta (see waterproof-dog-hammock-seat-cover).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: large dog car seat booster for back seat, 89x57x35 cm, washable",
+    "url": "https://www.aliexpress.us/item/3256813361006703.html",
+    "unit_cost": 48.09,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count. Closest large-dog match found; a booster with walls, not a flat full-width topper."
+   },
+   {
+    "source": "AliExpress US stock: BingoPaw dog car seat bed with raised bolsters, S/M/L",
+    "url": "https://www.aliexpress.us/item/3256813410629967.html",
+    "unit_cost": 21.97,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count. The card price is probably the smallest size; the large-size price is UNKNOWN."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": 48.09,
+  "best_us_landed_label": "VERIFIED as displayed for the closest large-dog match (no sales on the card). A full-width bed sized to the extender was not found in US stock today: UNKNOWN. The $21.97 BingoPaw card is a size-unknown lower bound, not used.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not read",
+  "weight_lb": 4.25,
+  "demo_score_1to5": 3,
+  "creator_fit_1to5": 3,
+  "creator_fit_reason": "Old dog curls up and sleeps on the road trip: warm, shareable, but slow to show in 3 seconds.",
+  "tiktok_shop_evidence": "Web search found one TikTok Shop listing, Voyager Harness 'Dog Car Seat' (a booster with a washable slipcover) at $39.99 showing 5 sold, shop total 10.7K sold (search snippet read 2026-11-22, ESTIMATED; not opened). No back-seat bed sold counts found.",
+  "bundle_idea": "Extender plus bed topper as the $189 bundle already proposed in research/offers-2026-11-18; Team K9 and Ruff Liners both sell a bed 'that fits the hard bottom seat cover', which proves the pairing.",
+  "whale_note": "Ruff Liners and Team K9 sell the bed as an accessory to their own extenders; generic bed mats sell at $20 to $46.",
+  "ip_safety_flags": "PETSFIT advertises a 'Patented Safety System' on its elevated seat; avoid its tether and frame design. Weight 1.93 kg (4.25 lb) is the Amazon listing weight of the Ruff Liners bed B0FGYV1R2R (VERIFIED via DataForSEO); our unit UNKNOWN.",
+  "season_note": "'dog car bed' 6,600 Google searches a month on average, 8,100 in Oct 2026; 'dog bed for car back seat' 590 (ESTIMATED). Steady.",
+  "risks": "No US-stock source sized to the extender; the closest match costs most of the proven price. Bulky to ship. Fit to our extender must be checked against the sample.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "custom-pet-portrait-canvas",
+  "category": "pets / dog-owner gift (print on demand)",
+  "product": "Custom AI-styled dog portrait from the customer's photo, printed on a 12x18 inch canvas by a US print-on-demand partner (Barkfare angle: 'co-pilot' road-trip scenes)",
+  "what_it_solves": "A personal Christmas, birthday or memorial gift for a dog owner, made from their own dog's photo.",
+  "sell_price": 62.0,
+  "sell_price_source": "Crown & Paw 'Custom Gallery Quality Pet Portrait', Canvas / Unframed / 12x18 at $62.00, compare-at $72.00 (https://crownandpaw.com/products/custom-ai-pet-portrait, public product feed, VERIFIED read 2026-11-22). Traction is brand-level, not per size: 'crown and paw' about 2,900 Google searches a month, 9,900 in Dec 2025 (DataForSEO Google Ads, ESTIMATED).",
+  "amazon": {
+   "typical_price": 14.99,
+   "bought_past_month_top_listings": 0,
+   "listings_counted": 0,
+   "top_listing_url": "https://www.amazon.com/dp/B07MZXZQF5",
+   "checked": "2026-11-22. DataForSEO Amazon US 'custom dog portrait': 19 badged listings sum 3,150 a month (floors), median $14.99, none at $40+. Amazon is not where this sells at $60."
+  },
+  "dtc_competitors": [
+   {
+    "store": "Crown & Paw",
+    "url": "https://crownandpaw.com/products/custom-ai-pet-portrait",
+    "price": 62.0,
+    "traction_evidence": "250+ products in the feed, portraits $39.95 to $149.95 (VERIFIED). Brand searches 9,900 in Dec 2025 against 1,900 in Oct 2026 (ESTIMATED). Review counts not read.",
+    "is_whale": true
+   },
+   {
+    "store": "Etsy portrait sellers",
+    "url": "https://www.etsy.com/shop/AndreasDigitalShop",
+    "price": null,
+    "traction_evidence": "Search snippet: 'Sales 4,633 On Etsy since 2022' for one shop and 460 for another (ESTIMATED, pages not opened).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library 'custom pet portrait' (Playwright, US, active, 2026-11-22): about 3,000 keyword results; first screen spread over many small advertisers (Callie Gifts 4, Frame & Tail 3, Wander Prints 3, Turn Me Royal, Portrapet, Macorner and others). Crowded (VERIFIED read).",
+  "supply": [
+   {
+    "source": "Printful canvas 12x18 (US print on demand)",
+    "url": "https://api.printful.com/products/3",
+    "unit_cost": 24.99,
+    "shipping_cost_to_us_customer": 10.39,
+    "ships_from": "US",
+    "delivery_days": "Production 'takes 2 to 5 business days' (printful.com/shipping) plus carrier time UNKNOWN",
+    "label": "Unit cost VERIFIED (Printful public catalog API read 2026-11-22). Shipping ESTIMATED: printful.com/shipping lists canvas 'Medium (e.g., 10x20 to 32x32)' at $10.39 first item to the USA; 12x18 is assumed to fall in that band."
+   }
+  ],
+  "best_us_landed_cost": 35.38,
+  "best_us_landed_label": "ESTIMATED: Printful 12x18 canvas $24.99 (VERIFIED) plus $10.39 assumed medium-canvas US shipping. Excludes AI image cost and any frame.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not applicable (US print on demand)",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "Gift-reveal reactions and 'my dog as a painting' transformations are a proven organic format; creators can film it with their own dog.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Canvas plus digital file; a 'road-trip co-pilot' style ties it to Barkfare. Dhruv can build the photo-to-art pipeline (software edge).",
+  "whale_note": "Crown & Paw dominates search and runs a deep catalog; thousands of Etsy and Meta sellers compete.",
+  "ip_safety_flags": "Do not copy Crown & Paw scene templates or names; avoid magazine-cover parodies (Vogue, Forbes style names are trademark risk). Customer uploads own photo. Label AI art where platforms require. Previously parked as pet-portrait-bundle (data/candidates.csv, 2026-11-13).",
+  "season_note": "Strong December spike: 'custom pet portrait' 5,400 a month on average, 12,100 in Dec 2025, 3,600 in Oct 2026 (ESTIMATED). Christmas cutoff is early because production takes 2 to 5 business days.",
+  "risks": "Fails the one-third cost test at the same size. 'Does not look like my dog' refunds and reprints. Crowded ads. Off the dog-travel promise unless styled as a co-pilot portrait. January drop.",
+  "checked": "2026-11-22"
+ },
+ {
+  "id": "folding-dog-car-ramp",
+  "category": "pets / dog car travel",
+  "product": "Folding aluminum dog ramp for cars, SUVs and trucks (about 63 to 71 inches)",
+  "what_it_solves": "Senior, injured or short-legged large dogs cannot jump into an SUV or truck, and owners hurt their backs lifting them.",
+  "sell_price": 75.98,
+  "sell_price_source": "Amazon generic 'Dog Ramp for Car 63 x 17' at $75.98 with 3,000+ bought in past month (B0CG2VNXWG, 2,200 ratings) and PetSafe Happy Ride Folding Dog Ramp $59.99 with 3,000+ (B0016HNU12, 15,100 ratings) (VERIFIED via DataForSEO 2026-11-22).",
+  "amazon": {
+   "typical_price": 84.74,
+   "bought_past_month_top_listings": 17100,
+   "listings_counted": 60,
+   "top_listing_url": "https://www.amazon.com/dp/B0CG2VNXWG",
+   "checked": "2026-11-22. DataForSEO Amazon US 'dog ramp for suv', titles with ramp, stairs or steps. 62 badged listings sum 17,800 a month (floors), median $84.74. 17,100 over 60 listings at $40+; 11,850 over 48 at $60+."
+  },
+  "dtc_competitors": [
+   {
+    "store": "PetSafe (Amazon listing; DTC store not read)",
+    "url": "https://www.amazon.com/dp/B0016HNU12",
+    "price": 59.99,
+    "traction_evidence": "3,000+ bought in past month, 15,100 ratings (VERIFIED via DataForSEO).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Not checked today (Meta Ad Library flaky; Foreplay 402).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: foldable aluminum dog ramp for cars, SUVs and trucks, 250 lb",
+    "url": "https://www.aliexpress.us/item/3256813458827238.html",
+    "unit_cost": 54.19,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count."
+   },
+   {
+    "source": "AliExpress US stock: portable folding dog ramp 71x20 inch, 300 lb",
+    "url": "https://www.aliexpress.us/item/3256813125393309.html",
+    "unit_cost": 56.29,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with shipFromCountry=US; item page not opened (captcha on 2026-11-21), so shipping fee and delivery come from the card tags; a marketplace listing price, not a supplier quote). No sold count."
+   },
+   {
+    "source": "CJdropshipping US warehouse",
+    "url": "https://cjdropshipping.com",
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not retried today; CJ redirected to human verification on 2026-11-21 (research/fast-test-2026-11-21/candidates_home.md)"
+   }
+  ],
+  "best_us_landed_cost": 54.19,
+  "best_us_landed_label": "VERIFIED as displayed (AliExpress US card, free shipping, no promo tag, no sales shown).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not read",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "An old dog walking up into the SUV on its own is an emotional, instantly clear clip.",
+  "tiktok_shop_evidence": "UNKNOWN: two web searches found no TikTok Shop listing with a sold count for this product (2026-11-22).",
+  "bundle_idea": "Ramp plus extender for owners of senior large dogs; ramp plus cargo liner for SUV owners.",
+  "whale_note": "PetSafe holds 3,000+ a month at $59.99 with 15,100 ratings; many generics sell 500 to 3,000 a month at $60 to $110.",
+  "ip_safety_flags": "No patent check run today. Load-bearing product: a ramp that slips or folds under a dog is a safety and liability risk; needs a sample test. Weight UNKNOWN (heavy; the Nov 21 pets file noted 'works only on FBA' and 'heavy').",
+  "season_note": "Strong and rising: 'dog ramp for car' 8,100 Google searches a month on average, 9,900 in Dec 2025 and 12,100 in Oct 2026 (ESTIMATED).",
+  "risks": "US-stock cost is most of the proven price, so it fails the one-third test. Heavy and bulky; damage and return shipping are costly. Safety liability.",
+  "checked": "2026-11-22"
+ }
+]

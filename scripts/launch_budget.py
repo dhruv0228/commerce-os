@@ -41,6 +41,7 @@ def main():
     lanes_out = []
     grand = {"spend": 0.0, "float": 0.0, "reserve": 0.0}
     gated = 0.0
+    ungated_spend = 0.0
     for lane in inp["lanes"]:
         t = {"spend": 0.0, "float": 0.0, "reserve": 0.0}
         lane_gated = 0.0
@@ -50,6 +51,8 @@ def main():
             grand[it["kind"]] += amt
             if it.get("only_if"):
                 lane_gated += amt
+            elif it["kind"] == "spend":
+                ungated_spend += amt
             by_line.setdefault(it["budget_line"], 0.0)
             by_line[it["budget_line"]] += amt
         gated += lane_gated
@@ -66,6 +69,7 @@ def main():
         "unallocated": total - planned_total,
         "spend": grand["spend"], "float": grand["float"], "reserve": grand["reserve"],
         "gated_amount": gated,
+        "ungated_spend": ungated_spend,
         "most_at_risk_if_nothing_sells": grand["spend"],
         "lanes": lanes_out,
         "budget_lines": line_rows,
@@ -80,7 +84,7 @@ def main():
     md = ["# Where the $1,800 goes (scripts/launch_budget.py)", "",
           f"Allocated {m(planned_total)} of {m(total)}; unallocated {m(total - planned_total)}.",
           f"Spend (gone once used) {m(grand['spend'])}; supplier float (comes back at payout) {m(grand['float'])}; reserve {m(grand['reserve'])}.",
-          f"Spent only if a gate passes: {m(gated)}.", "",
+          f"Spent only if a gate passes: {m(gated)}. Spent before any gate: {m(ungated_spend)}.", "",
           "| Lane | Window | Spend | Float | Reserve | Total | Of which gated |", "|---|---|---|---|---|---|---|"]
     for l in lanes_out:
         md.append(f"| {l['name']} | {l['window']} | {m(l['spend'])} | {m(l['float'])} | {m(l['reserve'])} | {m(l['total'])} | {m(l['gated_amount'])} |")

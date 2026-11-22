@@ -7,6 +7,7 @@ The reel's rule asks for a ratio of 3. The house cushion rule equals a first-ord
 |---|---|---|---|---|---|---|---|
 | Barkfare extender on Amazon (FBA), bulk stock | $56.31 | no reorders modelled | $13.10 (Amazon pay-per-click, from channels.py) | 4.30 | same as first order | $18.77 | $0.00 |
 | Barkfare $189 bundle, bulk stock in a US warehouse | $85.88 | no reorders modelled | $39.23 (Meta, pets benchmark) | 2.19 | same as first order | $28.63 | $31.81 |
+| Barkfare extender, cheaper US listing seen Nov 22 (lead) | $81.43 | no reorders modelled | $39.23 (Meta, pets benchmark) | 2.08 | same as first order | $27.14 | $36.26 |
 | Barkfare extender, bulk stock in a US warehouse | $72.76 | no reorders modelled | $39.23 (Meta, pets benchmark) | 1.85 | same as first order | $24.25 | $44.93 |
 | Dog portrait blanket and canvas at $149, print-on-demand | $59.18 | no reorders modelled | $39.23 (Meta, pets benchmark) | 1.51 | same as first order | $19.73 | $58.51 |
 | Own-brand skincare 3-step set, US maker ships | $25.56 | $38.34 to $56.23 | $40.44 (Meta, beauty benchmark) | 0.63 | 0.95 to 1.39 | $18.74 | $65.09 |
@@ -20,6 +21,6 @@ The reel's rule asks for a ratio of 3. The house cushion rule equals a first-ord
 | Affiliate: promote another brand for a commission | $3.75 | $3.75 to $3.75 | $40.44 (Meta, beauty benchmark) | 0.09 | 0.09 to 0.09 | $1.25 | $117.57 |
 
 Options that reach 3 to 1 in their best case: ext_fba.
-Options that pass the house rule on the first order: ext_fba, bulk_sea_bundle, bulk_sea, pod_149.
+Options that pass the house rule on the first order: ext_fba, bulk_sea_bundle, barkfare-extender-cheaper-listing, bulk_sea, pod_149.
 
 Benchmarks ESTIMATED (Triple Whale medians, established brands). Costs behind each row are ESTIMATED or ASSUMED in their own files. Reorder counts are ASSUMED. Nothing here is measured from our own store.

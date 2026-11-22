@@ -94,6 +94,15 @@ def main():
             rows.append(row(r["id"], r["id"].replace("-", " "), "Fast-test options", u["pre_ad_contribution"], u["benchmark_cpa"],
                             f"Meta, {r['benchmark_used']} benchmark", "research/fast-test-2026-11-21/ranked.json"))
 
+    # The cheaper extender listing found on Nov 22 (a lead), if the launch-plan ranking exists.
+    lp = ROOT / "research/launch-plan-2026-11-22/ranked.json"
+    if lp.exists():
+        for r in json.loads(lp.read_text())["rows"]:
+            if r["id"] == "barkfare-extender-cheaper-listing" and r.get("us"):
+                u = r["us"]
+                rows.append(row(r["id"], "Barkfare extender, cheaper US listing seen Nov 22 (lead)", "Barkfare (one-time purchase)", u["pre_ad_contribution"],
+                                u["benchmark_cpa"], "Meta, pets benchmark", "research/launch-plan-2026-11-22/ranked.json",
+                                note="A $47.31 US-stock card price, not yet checked against the hero spec."))
     rows.sort(key=lambda x: -x["ratio_best_case"])
     summary = {
         "rule": RULE, "house_rule_first_order_ratio": HOUSE,

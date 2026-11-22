@@ -75,7 +75,8 @@
       "barkfare": "pets",
       "barkfare-addons": "pets",
       "holiday-gifts": "all",
-      "high-margin": "all"
+      "high-margin": "all",
+      "barkfare-hero": "pets"
     },
     "file_keywords": {
       "auto-outdoor": [
@@ -334,7 +335,8 @@
       "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
       "music-boxing-machine": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
       "barkfare-extender-us-stock": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
-      "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon."
+      "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon.",
+      "barkfare-extender-cheaper-listing": "A lead, not a supplier: a $47.31 US-stock card with no sales count, seen Nov 22. Check size, board rigidity and weight rating before relying on it."
     }
   },
   "proven_listing_cost_usd": {

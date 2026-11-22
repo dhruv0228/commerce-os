@@ -1,0 +1,1075 @@
+{
+ "found": [
+  {
+   "key": "creator-economics",
+   "summary": "Creator content is cheap to buy as ad material, but there is no evidence yet that it wins customers more cheaply than Meta ads for a $149 pet kit. Fixed-price UGC videos cost $89 to $259 each (soona, Billo, Insense; VERIFIED), with minimums: a $1,000 Billo pack, or an Insense subscription plus fees. Each creator needs a real kit shipped to them. Paid posts by small dog creators run about $50 to $225 (ESTIMATED; Collabstr hides rates). Views vary hugely for creators of similar size. The click rate from an organic post to a store is UNKNOWN, and that input decides the comparison. Gifting post rates are about 20 to 40% (ESTIMATED). The best measured channel is TikTok Shop affiliate video: a median selling video earned $122 GMV per 1,000 views in pet, at 13.1% commission and a 6% referral fee. But 86.8% of selling videos were also paid ads, and pet units average $36.94. TikTok's US rules were confirmed today: own the inventory, no international third-party suppliers, dispatch within 2 business days. Partnership and Spark ads show modest cost-per-purchase gains (5 to 19% on Meta; ESTIMATED). Pet had the worst video-ad ROAS of 14 categories in Billo's data. Creators work best for products under $50 with an instant on-camera result sold on TikTok Shop. For the kit, use creators as the source of ad creative.",
+   "key_facts": [
+    {
+     "claim": "Billo UGC videos start at $99 for a 15-second video; a prepaid pack of at least $1,000 is required; the price excludes the product and shipping it to the creator.",
+     "label": "VERIFIED",
+     "source": "https://billo.app/pricing/ (read 2026-11-22)"
+    },
+    {
+     "claim": "soona (which bought Trend.io) prices UGC at $89 to $259 per video with an unlimited worldwide license; content arrives within 7 days after the creator receives the shipped product.",
+     "label": "VERIFIED",
+     "source": "https://www.trend.io/pricing (read 2026-11-22)"
+    },
+    {
+     "claim": "Insense: subscription from $400 to $650 per month, a 7% to 20% marketplace fee on creator pay, UGC from $100 per video, sponsored posts from $125 for nano creators; includes Meta partnership ads connections.",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing (read 2026-11-22)"
+    },
+    {
+     "claim": "Collabstr lists 3,851 dog creators but hides all rates behind sign-up. Its displayed average views range from 1k to 2.2M among the top 20, including accounts under 25k followers.",
+     "label": "ESTIMATED",
+     "source": "https://collabstr.com/top-influencers/dog (Playwright, 2026-11-22; metrics computed by Collabstr)"
+    },
+    {
+     "claim": "TikTok Shop referral fee is 6% for Pet Supplies, Home and Automotive, charged on customer payment plus platform discount minus tax, including customer-paid shipping (page updated 10/08/2026). Third parties report 8%.",
+     "label": "VERIFIED",
+     "source": "https://seller-us.tiktok.com/university/essay?knowledge_id=5988482086864682"
+    },
+    {
+     "claim": "TikTok Shop US: sellers must keep ownership of inventory, US-based sellers cannot use international third-party suppliers, dispatch within 2 business days and deliver within 6 (updated 09/09/2026). This confirms the earlier repo note.",
+     "label": "VERIFIED",
+     "source": "https://seller-us.tiktok.com/university/essay?knowledge_id=6179821974439723"
+    },
+    {
+     "claim": "TikTok Shop free samples go only to creators with TikTok Shop sales in the last 120 days. The seller approves each request, and the creator must post within 14 days of receiving the product (updated 11/20/2026).",
+     "label": "VERIFIED",
+     "source": "https://seller-us.tiktok.com/university/essay?knowledge_id=5764641632306946"
+    },
+    {
+     "claim": "Across 12,881 US TikTok Shop selling videos (Oct 2026), the median sold 3.64 units per 1,000 views. Pet Supplies made $122 GMV per 1,000 views, $36.94 per unit, at 13.1% average commission. Zero-sales videos were excluded, and 86.8% of selling videos were paid-boosted.",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks (vendor, read 2026-11-22)"
+    },
+    {
+     "claim": "Billo's study of 80,069 Meta video ads (H2 2025, about $105M spend): Pet Supplies ROAS 1.66 against a 2.41 average; pet finished last of 14 categories on both attention and sales.",
+     "label": "ESTIMATED",
+     "source": "https://s3.amazonaws.com/media.mediapost.com/uploads/BILLO_Benchmarking_2026_05.pdf (vendor press release, May 29, 2026)"
+    },
+    {
+     "claim": "Meta claims partnership ads cut cost per acquisition about 19% (2021 to 2022 tests) and cost per incremental purchase 45% (20 EMEA lift studies, 92% confidence). Agentio found only 5% lower CPA versus licensed UGC, with 19% higher CPM.",
+     "label": "ESTIMATED",
+     "source": "https://ppc.land/meta-says-partnership-ads-cut-incremental-purchase-costs-45-in-emea-tests/ ; https://www.netinfluencer.com/meta-partnership-ads-outperform-licensed-ugc-across-130m-usd-in-ad-spend-report-finds/"
+    },
+    {
+     "claim": "TikTok claims Spark Ads get 134% higher completion and 157% higher 6-second view-through than in-feed ads. It also claims 69% higher conversion and 37% lower CPA 'than ever before', credited to a landing page change.",
+     "label": "VERIFIED",
+     "source": "https://ads.tiktok.com/business/en/blog/spark-ads-101-make-tiktoks-into-ads (TikTok's own claim)"
+    },
+    {
+     "claim": "In Traackr's survey, 61% of marketers said fewer than half of gifted influencers posted (305 marketers, Feb 2023). A vendor puts gifted post rates at 20% to 40%.",
+     "label": "ESTIMATED",
+     "source": "https://www.netinfluencer.com/traackr-product-seeding-report-2023/ ; https://skeepers.io/us/blog/product-seeding/"
+    },
+    {
+     "claim": "Shopify Collabs charges a 2.9% processing fee on each automatic commission payment, billed to the merchant. Third parties say Collabs is listed for the Shopify, Advanced and Plus plans, not Basic.",
+     "label": "VERIFIED",
+     "source": "https://help.shopify.com/en/manual/promoting-marketing/collabs/merchants/payments (fee VERIFIED; plan list ESTIMATED via search)"
+    },
+    {
+     "claim": "Content Rewards clipping campaigns: median $1.00 per 1,000 views (710 campaigns, Nov 16, 2026), 10% platform fee, $1,000 campaign minimum. Campaigns under $2,000 often drew no clips. No physical-product examples were found.",
+     "label": "ESTIMATED",
+     "source": "https://contentrewards.com/articles/clipping-campaign-pricing-models (operator self-reported)"
+    },
+    {
+     "claim": "FTC: disclose free product, payment or commission; put the disclosure in the video itself; '#ad' or 'Paid post by [brand]' works; 'Gifted' alone or '#ambassador' does not. 'You can't talk about your experience with a product if you haven't tried it.'",
+     "label": "VERIFIED",
+     "source": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking"
+    },
+    {
+     "claim": "YouTube search for 'dog back seat extender': most review videos have 13 to about 42,600 views; Ruff Liners' brand video has 237,489.",
+     "label": "VERIFIED",
+     "source": "DataForSEO YouTube organic SERP, 2026-11-22"
+    }
+   ],
+   "unknowns": [
+    "Link click rate from an organic creator post (story, bio or comment link) to a store; no credible public benchmark found",
+    "Conversion rate of creator-referred traffic on a new Shopify store",
+    "Actual current Collabstr prices for named dog creators (hidden behind sign-up; Cloudflare blocked the calculator and report)",
+    "Fiverr, Backstage and GoAffPro prices (Fiverr blocked by bot check; others not checked)",
+    "Billo usage rights, raw footage and turnaround terms (not on its pricing page)",
+    "Whether Shopify Collabs is available on the Shopify Basic plan",
+    "TikTok Shop referral fee: 6% on TikTok's page versus 8% from third parties",
+    "Whether an owned, imported kit shipped from Dhruv's home meets TikTok Shop's ban on international third-party suppliers",
+    "Who pays shipping on TikTok Shop free samples (TikTok's page does not say)",
+    "Gifting post rate for a high-value ($149) kit in the pet niche",
+    "Whether clipping or per-view campaigns sell physical products, and at what cost per customer",
+    "Landed cost and shipping of one seed kit (needs a supplier quote)",
+    "A small pet brand case study with creator cost, posts, views and customers all disclosed"
+   ],
+   "notes_file": "/home/user/commerce-os/research/launch-plan-2026-11-22/01_creator_economics.md",
+   "deals": [
+    {
+     "deal_type": "ugc_video_for_your_ads",
+     "where": "Billo (all niches)",
+     "what_you_get": "15-second UGC video, basic editing, creator fee and platform fees included; extra hooks, captions and longer cuts cost more; product and shipping not included",
+     "price_low_usd": 99,
+     "price_high_usd": null,
+     "price_unit": "per video (from); prepaid pack of $1,000 minimum",
+     "audience_size": "n/a (content only)",
+     "label": "VERIFIED",
+     "source": "https://billo.app/pricing/"
+    },
+    {
+     "deal_type": "ugc_video_for_your_ads",
+     "where": "soona UGC, formerly Trend.io (all niches; pet listed)",
+     "what_you_get": "UGC video with an unlimited worldwide license; delivered within 7 days of the creator receiving the product; brand ships the product",
+     "price_low_usd": 89,
+     "price_high_usd": 259,
+     "price_unit": "per video",
+     "audience_size": "n/a",
+     "label": "VERIFIED",
+     "source": "https://www.trend.io/pricing"
+    },
+    {
+     "deal_type": "ugc_video_for_your_ads",
+     "where": "Insense (all niches)",
+     "what_you_get": "UGC video with a perpetual digital license (page conflicts on copyright); up to 3 revisions; plus a $400 to $650 monthly subscription and a 7% to 20% fee on creator pay",
+     "price_low_usd": 100,
+     "price_high_usd": null,
+     "price_unit": "per video creator fee (from), excluding subscription",
+     "audience_size": "n/a",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing"
+    },
+    {
+     "deal_type": "ugc_video_for_your_ads",
+     "where": "Market rate guides (all niches)",
+     "what_you_get": "Standard UGC video; extra hook or CTA variations $50 to $100 each",
+     "price_low_usd": 150,
+     "price_high_usd": 500,
+     "price_unit": "per video",
+     "audience_size": "n/a",
+     "label": "ESTIMATED",
+     "source": "https://influee.co/blog/ugc-price ; https://joinbrands.com/blog/ugc-creator-rates/ (search summary 2026-11-22)"
+    },
+    {
+     "deal_type": "paid_post_on_creator_account",
+     "where": "Collabstr, dog creators on TikTok",
+     "what_you_get": "One TikTok video on the creator's account (listings such as Nash the Berner $50, Coconut the Yorkiepoo $75, Mochi $150)",
+     "price_low_usd": 50,
+     "price_high_usd": 150,
+     "price_unit": "per post",
+     "audience_size": "Mochi about 29.2k to 31.3k followers, 179k average views per Collabstr",
+     "label": "ESTIMATED",
+     "source": "Search summary of https://collabstr.com/top-influencers/dog (rates hidden on the live page 2026-11-22)"
+    },
+    {
+     "deal_type": "paid_post_on_creator_account",
+     "where": "Collabstr, Pets and Animals categories",
+     "what_you_get": "Sponsored post, category average",
+     "price_low_usd": 160,
+     "price_high_usd": 225,
+     "price_unit": "per post (average)",
+     "audience_size": "Not stated",
+     "label": "ESTIMATED",
+     "source": "Search summaries of https://collabstr.com/influencer-price-calculator/pets and /animals-&-pets (pages blocked)"
+    },
+    {
+     "deal_type": "paid_post_on_creator_account",
+     "where": "Collabstr, all niches, TikTok",
+     "what_you_get": "Average TikTok collaboration, listed versus what brands paid (2025 data)",
+     "price_low_usd": 182,
+     "price_high_usd": 186,
+     "price_unit": "per post (average)",
+     "audience_size": "Not stated",
+     "label": "ESTIMATED",
+     "source": "Search summary of https://collabstr.com/blog/influencer-costs-2025"
+    },
+    {
+     "deal_type": "paid_post_on_creator_account",
+     "where": "Insense, nano creators",
+     "what_you_get": "Sponsored post on the creator's account, plus the Insense subscription and fee",
+     "price_low_usd": 125,
+     "price_high_usd": null,
+     "price_unit": "per post (from)",
+     "audience_size": "Nano (under about 10k followers)",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing"
+    },
+    {
+     "deal_type": "gifting_or_seeding",
+     "where": "All niches (vendor and survey data)",
+     "what_you_get": "Free product only; 20% to 40% of gifted creators post; 61% of marketers say fewer than half post. Cost is the unit at landed cost plus shipping (UNKNOWN for the kit)",
+     "price_low_usd": null,
+     "price_high_usd": null,
+     "price_unit": "per seed unit (landed cost plus shipping)",
+     "audience_size": "Any",
+     "label": "ESTIMATED",
+     "source": "https://skeepers.io/us/blog/product-seeding/ ; https://www.netinfluencer.com/traackr-product-seeding-report-2023/"
+    },
+    {
+     "deal_type": "affiliate_commission",
+     "where": "Own store via Shopify Collabs or UpPromote",
+     "what_you_get": "Commission on tracked sales. Collabs adds a 2.9% fee on each commission payment. UpPromote is $0 to $199.99 a month plus a 0% to 2% performance fee. Commission range reflects the TikTok Shop cluster; Shopify's example uses 10%",
+     "price_low_usd": 10,
+     "price_high_usd": 25,
+     "price_unit": "percent of sale",
+     "audience_size": "Any",
+     "label": "ESTIMATED",
+     "source": "https://help.shopify.com/en/manual/promoting-marketing/collabs/merchants/payments ; https://uppromote.com/pricing/ ; https://www.hamstergarage.com/article/tiktok-shop-affiliate-commission-rates-fees-payouts"
+    },
+    {
+     "deal_type": "tiktok_shop_affiliate",
+     "where": "TikTok Shop US, Pet Supplies",
+     "what_you_get": "Creator commission on in-app sales (13.1% pet average) plus TikTok's 6% referral fee (VERIFIED). Free samples go only to creators with sales in the last 120 days, who must post within 14 days",
+     "price_low_usd": 13.1,
+     "price_high_usd": 13.1,
+     "price_unit": "percent of sale (commission), plus 6% referral fee",
+     "audience_size": "Median selling video 2,039 views",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks ; https://seller-us.tiktok.com/university/essay?knowledge_id=5988482086864682"
+    },
+    {
+     "deal_type": "partnership_or_spark_ad",
+     "where": "Meta partnership ads or TikTok Spark Ads, all niches",
+     "what_you_get": "Right to run ads from the creator's handle (whitelisting) for 30 days, priced as a share of the creator's base rate; ad spend extra",
+     "price_low_usd": 20,
+     "price_high_usd": 30,
+     "price_unit": "percent of creator base rate per 30 days",
+     "audience_size": "Any",
+     "label": "ESTIMATED",
+     "source": "https://www.lumanu.com/blog/how-influencers-charge-whitelisting-usage-rights ; https://influencermarketinghub.com/whitelisting-vs-full-buyout/ (search summary)"
+    },
+    {
+     "deal_type": "partnership_or_spark_ad",
+     "where": "Insense add-on",
+     "what_you_get": "5 extra Meta partnership ads connections beyond the plan allowance",
+     "price_low_usd": 125,
+     "price_high_usd": 125,
+     "price_unit": "per month per 5 connections",
+     "audience_size": "n/a",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing"
+    },
+    {
+     "deal_type": "faceless_or_clipper_page",
+     "where": "Content Rewards clipping marketplace (Whop payouts); no physical-product examples found",
+     "what_you_get": "Paid views on clips posted by clippers. Campaigns fill at $0.80 to $2.00 per 1,000 views; 10% platform fee; $1,000 campaign minimum",
+     "price_low_usd": 0.8,
+     "price_high_usd": 2,
+     "price_unit": "per 1,000 views",
+     "audience_size": "Varies per clipper",
+     "label": "ESTIMATED",
+     "source": "https://contentrewards.com/articles/clipping-campaign-pricing-models"
+    }
+   ],
+   "scenario_inputs": [
+    {
+     "name": "meta_cost_per_purchase_pets",
+     "low": 39.23,
+     "high": 39.23,
+     "unit": "USD",
+     "label": "ESTIMATED",
+     "source": "Triple Whale via research/fast-test-2026-11-21/04_reality_and_benchmarks.md (repo marked VERIFIED on vendor page Nov 21)"
+    },
+    {
+     "name": "new_store_multiplier",
+     "low": 1.3,
+     "high": 1.3,
+     "unit": "x",
+     "label": "ASSUMED",
+     "source": "CLAUDE.md section 4"
+    },
+    {
+     "name": "meta_click_to_purchase_pets",
+     "low": 1.6,
+     "high": 1.6,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "Triple Whale via 04_reality_and_benchmarks.md"
+    },
+    {
+     "name": "ugc_video_cost",
+     "low": 89,
+     "high": 259,
+     "unit": "USD per video",
+     "label": "VERIFIED",
+     "source": "https://www.trend.io/pricing ; https://billo.app/pricing/ ; https://insense.pro/pricing"
+    },
+    {
+     "name": "ugc_platform_minimum_prepay",
+     "low": 1000,
+     "high": 1000,
+     "unit": "USD",
+     "label": "VERIFIED",
+     "source": "https://billo.app/pricing/"
+    },
+    {
+     "name": "insense_subscription",
+     "low": 400,
+     "high": 650,
+     "unit": "USD per month",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing"
+    },
+    {
+     "name": "insense_fee_on_creator_pay",
+     "low": 7,
+     "high": 20,
+     "unit": "percent",
+     "label": "VERIFIED",
+     "source": "https://insense.pro/pricing"
+    },
+    {
+     "name": "pet_creator_paid_post_fee",
+     "low": 50,
+     "high": 225,
+     "unit": "USD per post",
+     "label": "ESTIMATED",
+     "source": "Collabstr search summaries (dog listings and pets calculator), 2026-11-22"
+    },
+    {
+     "name": "views_per_video_under_5k_followers",
+     "low": 350,
+     "high": 2429,
+     "unit": "views",
+     "label": "ESTIMATED",
+     "source": "Socialinsider via https://www.hubfluence.io/blog/tiktok-engagement-rate-benchmarks ; Merca20"
+    },
+    {
+     "name": "views_per_100_followers_under_5k",
+     "low": 50,
+     "high": 50,
+     "unit": "views",
+     "label": "ESTIMATED",
+     "source": "RivalIQ (older brand-account study), search summary"
+    },
+    {
+     "name": "tiktok_shop_selling_video_views_p25_p75",
+     "low": 920,
+     "high": 6552,
+     "unit": "views",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks"
+    },
+    {
+     "name": "tiktok_shop_units_per_1000_views_median_selling_videos",
+     "low": 3.64,
+     "high": 3.64,
+     "unit": "units",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks (zero-sales videos excluded)"
+    },
+    {
+     "name": "tiktok_shop_pet_gmv_per_1000_views",
+     "low": 122,
+     "high": 122,
+     "unit": "USD",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks"
+    },
+    {
+     "name": "tiktok_shop_referral_fee",
+     "low": 6,
+     "high": 8,
+     "unit": "percent",
+     "label": "VERIFIED",
+     "source": "6% VERIFIED https://seller-us.tiktok.com/university/essay?knowledge_id=5988482086864682 ; 8% ESTIMATED third party in data/channel_params.json"
+    },
+    {
+     "name": "tiktok_shop_pet_affiliate_commission",
+     "low": 13.1,
+     "high": 13.1,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks"
+    },
+    {
+     "name": "tiktok_shop_affiliate_commission_cluster",
+     "low": 10,
+     "high": 25,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "https://www.hamstergarage.com/article/tiktok-shop-affiliate-commission-rates-fees-payouts"
+    },
+    {
+     "name": "tiktok_shop_share_selling_videos_ad_boosted",
+     "low": 86.8,
+     "high": 86.8,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "https://www.hubfluence.io/blog/tiktok-shop-benchmarks"
+    },
+    {
+     "name": "gifting_post_rate",
+     "low": 20,
+     "high": 40,
+     "unit": "percent of creators gifted",
+     "label": "ESTIMATED",
+     "source": "https://skeepers.io/us/blog/product-seeding/ (vendor)"
+    },
+    {
+     "name": "seeding_usable_content_rate",
+     "low": 5,
+     "high": 10,
+     "unit": "percent of samples sent",
+     "label": "ESTIMATED",
+     "source": "https://www.dropified.com/blog/tiktok-shop-sample-seeding-strategy-how-many-units-to-send-and-which-creators-to-target/ (vendor)"
+    },
+    {
+     "name": "shopify_collabs_fee",
+     "low": 2.9,
+     "high": 2.9,
+     "unit": "percent of commission paid",
+     "label": "VERIFIED",
+     "source": "https://help.shopify.com/en/manual/promoting-marketing/collabs/merchants/payments"
+    },
+    {
+     "name": "uppromote_performance_fee",
+     "low": 0,
+     "high": 2,
+     "unit": "percent of tracked referral sales",
+     "label": "VERIFIED",
+     "source": "https://uppromote.com/pricing/"
+    },
+    {
+     "name": "partnership_ads_cpa_change_vs_brand_ads",
+     "low": -19,
+     "high": -5,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "Meta 2021-22 tests via https://ppc.land/meta-says-partnership-ads-cut-incremental-purchase-costs-45-in-emea-tests/ ; Agentio via netinfluencer.com"
+    },
+    {
+     "name": "partnership_ads_cpm_change_vs_licensed_ugc",
+     "low": 19,
+     "high": 19,
+     "unit": "percent",
+     "label": "ESTIMATED",
+     "source": "Agentio via https://www.netinfluencer.com/meta-partnership-ads-outperform-licensed-ugc-across-130m-usd-in-ad-spend-report-finds/"
+    },
+    {
+     "name": "spark_ads_cpa_change",
+     "low": -37,
+     "high": -37,
+     "unit": "percent",
+     "label": "VERIFIED",
+     "source": "TikTok's own claim, baseline unclear: https://ads.tiktok.com/business/en/blog/spark-ads-101-make-tiktoks-into-ads"
+    },
+    {
+     "name": "whitelisting_fee",
+     "low": 20,
+     "high": 30,
+     "unit": "percent of creator base rate per 30 days",
+     "label": "ESTIMATED",
+     "source": "https://www.lumanu.com/blog/how-influencers-charge-whitelisting-usage-rights (rate guides disagree)"
+    },
+    {
+     "name": "clipping_rate_per_1000_views",
+     "low": 0.8,
+     "high": 2,
+     "unit": "USD",
+     "label": "ESTIMATED",
+     "source": "https://contentrewards.com/articles/clipping-campaign-pricing-models"
+    },
+    {
+     "name": "clipping_platform_fee",
+     "low": 8,
+     "high": 10,
+     "unit": "percent of payouts",
+     "label": "ESTIMATED",
+     "source": "https://contentrewards.com/articles/clipping-campaign-pricing-models"
+    },
+    {
+     "name": "clipping_campaign_minimum",
+     "low": 1000,
+     "high": 1000,
+     "unit": "USD",
+     "label": "ESTIMATED",
+     "source": "https://contentrewards.com/articles/clipping-campaign-pricing-models"
+    },
+    {
+     "name": "pet_video_ad_roas_meta",
+     "low": 1.66,
+     "high": 1.66,
+     "unit": "ratio (category average 2.41)",
+     "label": "ESTIMATED",
+     "source": "https://s3.amazonaws.com/media.mediapost.com/uploads/BILLO_Benchmarking_2026_05.pdf"
+    },
+    {
+     "name": "organic_creator_post_link_click_rate",
+     "low": null,
+     "high": null,
+     "unit": "percent of views",
+     "label": "UNKNOWN",
+     "source": "Two searches found no credible benchmark (2026-11-22)"
+    },
+    {
+     "name": "creator_traffic_store_conversion_rate",
+     "low": null,
+     "high": null,
+     "unit": "percent",
+     "label": "UNKNOWN",
+     "source": "No benchmark found; proxy is Meta Pets 1.60%"
+    },
+    {
+     "name": "seed_kit_landed_cost_plus_shipping",
+     "low": null,
+     "high": null,
+     "unit": "USD per kit",
+     "label": "UNKNOWN",
+     "source": "Needs supplier quote (data/economics_inputs.csv)"
+    }
+   ],
+   "product_traits_for_creators": [
+    "Low unit price works best: TikTok Shop selling videos median GMV per unit is $33.58 and Pet $36.94 (Hubfluence, ESTIMATED). A $149 kit sits far above where creator commerce sales cluster.",
+    "A strong demo can carry a higher price: Household Appliances at a $101 average listed price had the highest GMV per 1,000 views, $198 (Hubfluence, ESTIMATED). Price alone is not fatal if the result is visible on camera.",
+    "Attention is not sales: Health and Beauty had the top hook rate (28.34%) but ranked 10th of 14 on ROAS (Billo, ESTIMATED). Pick products where the hook shows the benefit, not just novelty.",
+    "Pet is the weakest video-ad category: Pet Supplies ROAS 1.66 against 2.41 average, last on attention and sales (Billo, 80,069 Meta video ads, ESTIMATED).",
+    "Giftable and seasonal products peak in the gift window: Toys ROAS 1.46 in July against 2.90 in December (Billo, ESTIMATED).",
+    "An instant visible result spreads organically: Houndsy's founder demo got over 15M TikTok views and $160k on Kickstarter with no paid ads (founder-reported, ESTIMATED).",
+    "The product's natural user should already be on the creator's camera (their dog, car, desk). Collabstr lists 3,851 dog creators, mostly with US audiences (VERIFIED count). Car-plus-dog travel creators are a smaller subset.",
+    "Crowded review categories dilute new creator posts: dog back seat extender reviews on YouTube mostly get 13 to about 42,600 views, while the established brand Ruff Liners has 237,489 (DataForSEO, VERIFIED).",
+    "Results are concentrated, so a few creators matter: the top 10% of TikTok Shop selling videos made 54.3% of GMV (Hubfluence, ESTIMATED).",
+    "Most 'organic' creator sales are paid-boosted: 86.8% of TikTok Shop selling videos were flagged as ads (Hubfluence, ESTIMATED). Budget for amplification.",
+    "Expensive items make gifting costly: fewer than half of gifted creators post for 61% of marketers (Traackr, ESTIMATED), so each non-post loses a full kit.",
+    "Products that need US stock and 2-day dispatch fit TikTok Shop; imported or supplier-shipped products may break its rules (TikTok Seller University, VERIFIED)."
+   ]
+  },
+  {
+   "key": "low-cost-tactics",
+   "summary": "No low-cost tactic can produce a Black Friday sale. The store does not exist yet, and CLAUDE.md says no product page or ad goes live until Dhruv approves a physical sample. The 5 days before Black Friday are for free setup: an email or waitlist tool (Shopify Messaging and the Klaviyo free plan cost $0 at our size), a Google Merchant Center account, and reading community rules. Cyber Week can work only if the express batch arrives and is approved. The best Christmas channels are buyer-intent ones. Google free listings are $0 but take 3 to 5 business days to review. Google Search bids for our exact product terms average $1.50 to $1.98 a click, and searches are small, about 590 a month. An Amazon FBM listing shipped from home is the other option. Organic faceless video is cheap, but the Buffer data only shows that posting more raises the odds of a breakout post. It does not show more sales, and the footage has to come from the real sample. Reddit, Facebook groups and Pinterest are slow, and their evidence is anecdotal. Gift guides mostly closed months ago. Referral programs and post-purchase upsells need customers first. Etsy does not allow resold mass-produced items. No independent data shows a gift-with-purchase beats percent-off for a new store, and the house rule bars calling the door guards free.",
+   "key_facts": [
+    {
+     "claim": "House rule: a physical sample must be reviewed by Dhruv before any product page or ad goes live; nothing has been bought under the fast test.",
+     "label": "VERIFIED",
+     "source": "/home/user/commerce-os/CLAUDE.md sections 0 and 2"
+    },
+    {
+     "claim": "Google free listings can show at no cost on Search, Shopping, Maps and YouTube; reviews take up to 3 to 5 business days for Shopping ads and free listings.",
+     "label": "VERIFIED",
+     "source": "https://support.google.com/merchants/answer/9199328 and https://support.google.com/merchants/answer/160491 (read 2026-11-22)"
+    },
+    {
+     "claim": "US Keyword Planner: 'dog back seat extender' about 590 searches a month, average CPC $1.98, bid range $0.56 to $2.50; 'dog christmas gifts' 5,400 searches, CPC $2.63.",
+     "label": "ESTIMATED",
+     "source": "DataForSEO google_ads/search_volume/live, 2026-11-22"
+    },
+    {
+     "claim": "US Google Shopping CPC for pet supplies or gift terms in holiday 2026 was not found; WordStream 2026 lists Animals and Pets Search CPC at $4.06.",
+     "label": "UNKNOWN",
+     "source": "WordStream 2026 via search summary (page 403); Channable data is EU-only"
+    },
+    {
+     "claim": "Buffer, 11.4M TikTok posts: median views per post stay near 500 at every weekly posting frequency; 90th percentile rises from 3,722 (1 a week) to 14,401 (11+).",
+     "label": "VERIFIED",
+     "source": "https://buffer.com/resources/how-often-should-you-post-on-tiktok/ (Oct 8, 2025, read 2026-11-22)"
+    },
+    {
+     "claim": "Meta policy: promotions on Pages, groups and Events must not require or incentivize participants to share, repost or tag others, and need a release and non-endorsement statement.",
+     "label": "VERIFIED",
+     "source": "https://www.facebook.com/policies_center/pages_groups_events/ (rendered 2026-11-22)"
+    },
+    {
+     "claim": "Reddit Rule 2: participate authentically where you have a personal interest and do not spam. The 9:1 self-promotion ratio is a blog-reported norm, not rule text.",
+     "label": "VERIFIED",
+     "source": "https://redditinc.com/policies/reddit-rules; ratio ESTIMATED from redship.io, gleam.io"
+    },
+    {
+     "claim": "Shopify Messaging: first 10,000 emails each month free, then $1 per 1,000. Klaviyo free plan: 250 profiles, 500 emails a month, $5 of mobile messages.",
+     "label": "VERIFIED",
+     "source": "https://apps.shopify.com/shopify-messaging and https://www.klaviyo.com/pricing (2026-11-22)"
+    },
+    {
+     "claim": "Signup form benchmarks: Klaviyo general submit rate 3%, Omnisend 2025 popup average 2.1%; Klaviyo average welcome flow revenue per recipient $2.65.",
+     "label": "ESTIMATED",
+     "source": "klaviyo.com/blog/sign-up-form-best-practices; omnisend.com/blog/email-popup-statistics (via search 2026-11-22)"
+    },
+    {
+     "claim": "Chen et al. 2012 (Journal of Marketing) found a bonus pack outsold an economically equal price discount in a retail field test; this involved extra quantity of the same item, not a separate gift.",
+     "label": "ESTIMATED",
+     "source": "https://experts.umn.edu/en/publications/when-more-is-less-the-impact-of-base-value-neglect-on-consumer-pr/ (abstract only)"
+    },
+    {
+     "claim": "Amazon selling plans: Individual $0.99 per item sold, Professional $39.99 a month; pet referral fee reported at about 15%.",
+     "label": "VERIFIED",
+     "source": "https://sell.amazon.com/pricing (plans); referral fee ESTIMATED from novadata.io, ecomcalctools.com"
+    },
+    {
+     "claim": "Etsy help says reselling mass-produced items is not allowed, except sourced craft supplies and vintage, so the kit does not fit Etsy.",
+     "label": "ESTIMATED",
+     "source": "help.etsy.com via search snippets; etsy.com/legal/creativity returned 403"
+    },
+    {
+     "claim": "Post-purchase one-click upsell acceptance is reported at about 4.7% on average (ReConvert 2023) up to 16.2% (Zipify merchants); all vendor data.",
+     "label": "ESTIMATED",
+     "source": "growthsuite.net, zipify.com (via search 2026-11-22)"
+    },
+    {
+     "claim": "Holiday gift guide lead times: print June to July, national online August to mid-September; only December last-minute guides remain.",
+     "label": "ESTIMATED",
+     "source": "https://www.5wpr.com/new/holiday-gift-guide-outreach-strategies-2026-pr-playbook-and-checklist/"
+    },
+    {
+     "claim": "Florida requires registration and a trust account or bond for game promotions whose total announced prizes exceed $5,000.",
+     "label": "ESTIMATED",
+     "source": "FDACS Game Promotion Filing Packet; older 849.094 text (current statute not read)"
+    }
+   ],
+   "unknowns": [
+    "US Google Shopping CPC for pet supplies and gift terms, holiday 2026",
+    "Conversion rate of a new Barkfare product page from any channel",
+    "Organic short-video views-to-sales rate for a new faceless store; any YouTube Shorts data",
+    "Exact self-promotion rules of r/dogs and similar subreddits and dog Facebook groups (login needed); Reddit spam policy text (Cloudflare block)",
+    "Shopify Messaging US SMS price per message and SMS consent requirements",
+    "Whether Shopify Basic supports post-purchase upsell pages without a paid app; app prices",
+    "Amazon new-seller verification time and Brand Registry eligibility for new-brand incentives; Amazon's own pet fee row",
+    "eBay pet category rate and new-seller limits; Walmart approval time from Walmart itself",
+    "Whether gift guides drive sales for a new brand; HARO and Qwoted status",
+    "Results of local partnerships; Florida rules for donate-per-sale offers",
+    "Current US amount of the Google Ads new-advertiser credit",
+    "Shopify gift cards on the Basic plan",
+    "Pinterest Shopify app cost and catalog approval time",
+    "Whether the express 5-kit batch can arrive and be approved before Cyber Week",
+    "Whether Dhruv counts a waitlist page without product photos as a product page under the sample rule"
+   ],
+   "notes_file": "/home/user/commerce-os/research/launch-plan-2026-11-22/02_low_cost_tactics.md",
+   "tactics": [
+    {
+     "name": "Organic short video, faceless (TikTok, Reels, Shorts)",
+     "how_it_works": "Post short clips of the real kit in a car, filmed by phone or a paid UGC creator, narrated by voiceover or Dhruv's AI twin. Link to the store in the bio.",
+     "cash_cost": "$0 platform; UGC creator fees UNKNOWN",
+     "time_per_week": "4 to 8 hours (ASSUMED)",
+     "days_to_first_result": "7 to 30+ days (ASSUMED); no sample footage until the kit arrives",
+     "evidence_for_a_new_store": "Weak. Buffer (11.4M posts): median views per post stay near 500 at every posting frequency; only breakout odds rise. No data linking views to sales for a new store. Instagram Trial Reels reportedly need 1,000 followers.",
+     "fits_black_friday_or_christmas": "Not for Black Friday. Possible for Christmas only if a post breaks out after the sample is approved.",
+     "label": "VERIFIED",
+     "source": "https://buffer.com/resources/how-often-should-you-post-on-tiktok/ (views data); costs and times ASSUMED"
+    },
+    {
+     "name": "Reddit and Facebook groups",
+     "how_it_works": "Answer real dog car-travel questions as a person, disclose the Barkfare link, and post links only where a community allows it.",
+     "cash_cost": "$0",
+     "time_per_week": "2 to 4 hours (ASSUMED)",
+     "days_to_first_result": "1 to 14 days (ASSUMED)",
+     "evidence_for_a_new_store": "Weak, anecdotal only. Reddit Rule 2 bans spam; the 9:1 ratio is a blog-reported norm. Meta bans share or tag to enter promotions in groups. Subreddit rules could not be read without login.",
+     "fits_black_friday_or_christmas": "Low. Better for learning objections than for holiday sales.",
+     "label": "VERIFIED",
+     "source": "https://redditinc.com/policies/reddit-rules; https://www.facebook.com/policies_center/pages_groups_events/"
+    },
+    {
+     "name": "Pinterest organic pins and catalog",
+     "how_it_works": "Pin real-sample photos and videos to road-trip-with-dog boards, and connect the Shopify catalog for product pins.",
+     "cash_cost": "$0 (app cost UNKNOWN)",
+     "time_per_week": "1 to 3 hours (ASSUMED)",
+     "days_to_first_result": "Weeks to months (forum and blog anecdotes)",
+     "evidence_for_a_new_store": "Weak. Anecdotes give 3 weeks to 6 months to first traffic. Pinterest holiday search figures are self-reported.",
+     "fits_black_friday_or_christmas": "No. Too slow for 2026; long-term only.",
+     "label": "ESTIMATED",
+     "source": "techtactician.com; blackhatworld.com threads; newsroom.pinterest.com (via search 2026-11-22)"
+    },
+    {
+     "name": "Google free product listings",
+     "how_it_works": "Connect Shopify to Google Merchant Center so products can show free on the Shopping tab, Search, Images and YouTube to people already searching.",
+     "cash_cost": "$0",
+     "time_per_week": "2 to 4 hours setup, then under 1 hour (ASSUMED)",
+     "days_to_first_result": "Review up to 3 to 5 business days, then UNKNOWN",
+     "evidence_for_a_new_store": "Matches buyer intent, but no data on clicks or sales for a new store. Google says showing is not guaranteed.",
+     "fits_black_friday_or_christmas": "Christmas window only, once the product page is live after sample approval.",
+     "label": "VERIFIED",
+     "source": "https://support.google.com/merchants/answer/9199328; https://support.google.com/merchants/answer/160491"
+    },
+    {
+     "name": "Google Shopping and Search ads",
+     "how_it_works": "Pay per click on exact product and gift searches, using the same Merchant Center feed, with a small daily cap.",
+     "cash_cost": "Budget we set. Keyword Planner average CPC $1.50 to $2.71 on our terms; US Shopping CPC UNKNOWN",
+     "time_per_week": "2 to 3 hours (ASSUMED)",
+     "days_to_first_result": "After the 3 to 5 business day review",
+     "evidence_for_a_new_store": "Click prices are known roughly. Conversion rate is UNKNOWN. Exact-product search volume is small (about 590 a month). No US pet Shopping CPC found.",
+     "fits_black_friday_or_christmas": "Christmas window, Dec 1 to about Dec 14 for US stock",
+     "label": "ESTIMATED",
+     "source": "DataForSEO Google Ads search_volume, 2026-11-22; WordStream 2026 via search"
+    },
+    {
+     "name": "Email and SMS capture with welcome offer",
+     "how_it_works": "A pop-up or waitlist page trades early access or a welcome perk for an email or phone number, followed by an automated welcome series.",
+     "cash_cost": "$0 at our scale (Shopify Messaging 10,000 emails a month free; Klaviyo free plan); US SMS price UNKNOWN",
+     "time_per_week": "3 to 5 hours setup, then 1 hour (ASSUMED)",
+     "days_to_first_result": "Same day as traffic arrives",
+     "evidence_for_a_new_store": "Benchmarks come from established stores: form submit rate 2.1% to 3%, welcome flow revenue $2.65 per recipient. It converts existing traffic and creates none.",
+     "fits_black_friday_or_christmas": "Good. Build the list before the sample arrives and email it at launch, if Dhruv approves a waitlist page.",
+     "label": "VERIFIED",
+     "source": "https://apps.shopify.com/shopify-messaging; https://www.klaviyo.com/pricing; benchmarks ESTIMATED from Klaviyo and Omnisend blogs"
+    },
+    {
+     "name": "Gift guides and PR pitches",
+     "how_it_works": "Pitch editors and bloggers who publish dog-lover gift lists or road-trip-with-dog lists, and send a sample kit on request.",
+     "cash_cost": "$0 to send; sample kit cost UNKNOWN",
+     "time_per_week": "3 to 6 hours (ASSUMED)",
+     "days_to_first_result": "Weeks; most 2026 guides closed between July and September",
+     "evidence_for_a_new_store": "Weak. Lead-time data comes from PR agencies. No data found on sales from guides for a new brand.",
+     "fits_black_friday_or_christmas": "Late for 2026; December last-minute online guides only. Plan for 2027.",
+     "label": "ESTIMATED",
+     "source": "https://www.5wpr.com/new/holiday-gift-guide-outreach-strategies-2026-pr-playbook-and-checklist/"
+    },
+    {
+     "name": "Local partnerships (trainers, groomers, rescues, dog-friendly businesses)",
+     "how_it_works": "A Florida trainer, groomer or dog-friendly business shows the kit or shares a code, for a commission or a donation per sale.",
+     "cash_cost": "One display kit or a commission per sale (ASSUMED)",
+     "time_per_week": "2 to 4 hours (ASSUMED)",
+     "days_to_first_result": "7 to 21 days (ASSUMED)",
+     "evidence_for_a_new_store": "None found. Florida charity tie-in rules UNKNOWN.",
+     "fits_black_friday_or_christmas": "Small and local; better from January",
+     "label": "UNKNOWN",
+     "source": "No source found; searched indirectly, no data returned"
+    },
+    {
+     "name": "Giveaways and contests",
+     "how_it_works": "Give away one kit for an email entry or comment, with written official rules, to build a list and collect content.",
+     "cash_cost": "One kit as prize (cost UNKNOWN until supplier quote)",
+     "time_per_week": "2 to 4 hours (ASSUMED)",
+     "days_to_first_result": "7 to 14 days (ASSUMED)",
+     "evidence_for_a_new_store": "Weak. No data on whether entrants buy. Meta bans share or tag to enter. Instagram requires a release and a non-endorsement statement. Florida rules apply only above $5,000 in prizes.",
+     "fits_black_friday_or_christmas": "Possible as a pre-Christmas list builder",
+     "label": "VERIFIED",
+     "source": "https://help.instagram.com/179379842258600; https://www.facebook.com/policies_center/pages_groups_events/; TikTok and Florida ESTIMATED"
+    },
+    {
+     "name": "Bundles and kit tiers",
+     "how_it_works": "Sell the hero kit in tiers (kit, kit plus door guards, kit plus travel add-ons) so gift buyers pick a complete set.",
+     "cash_cost": "$0 (Shopify Bundles app listed as Free)",
+     "time_per_week": "1 to 2 hours setup (ASSUMED)",
+     "days_to_first_result": "Same day as traffic",
+     "evidence_for_a_new_store": "No data found on the effect of tiers on conversion or AOV for a new store. The house rule already requires a kit.",
+     "fits_black_friday_or_christmas": "Good: a gift-ready kit",
+     "label": "VERIFIED",
+     "source": "https://apps.shopify.com/shopify-bundles; CLAUDE.md section 0"
+    },
+    {
+     "name": "Gift-with-purchase versus percent-off (BFCM offer)",
+     "how_it_works": "Choose the holiday offer mechanic: an included bonus item, dollar-off or percent-off. Compare contribution per order in the script.",
+     "cash_cost": "Gift cost or discount amount",
+     "time_per_week": "1 hour (ASSUMED)",
+     "days_to_first_result": "Same day as traffic",
+     "evidence_for_a_new_store": "Weak. One academic field test favors same-item bonus packs over equal discounts. Vendor gift data is self-selected. Door guards cannot be called free until they have sold separately.",
+     "fits_black_friday_or_christmas": "Yes, it is the offer design for BFCM and Christmas",
+     "label": "ESTIMATED",
+     "source": "experts.umn.edu Chen et al. 2012 abstract; tyviso.com; CLAUDE.md free rule"
+    },
+    {
+     "name": "Post-purchase upsell",
+     "how_it_works": "After payment, offer a one-click add-on such as door guards or a seat-belt tether, with no need to re-enter card details.",
+     "cash_cost": "App cost UNKNOWN, or Dhruv builds it",
+     "time_per_week": "2 to 6 hours to build (ASSUMED)",
+     "days_to_first_result": "Same day as orders",
+     "evidence_for_a_new_store": "Vendor data only: about 4.7% average acceptance (ReConvert 2023, second-hand) up to 16.2% (Zipify). Needs an add-on product live.",
+     "fits_black_friday_or_christmas": "Only once an add-on exists",
+     "label": "ESTIMATED",
+     "source": "growthsuite.net; zipify.com (via search 2026-11-22)"
+    },
+    {
+     "name": "Referral program",
+     "how_it_works": "Give customers a link and reward both sides when a friend buys.",
+     "cash_cost": "Reward per referral (ASSUMED)",
+     "time_per_week": "1 to 2 hours setup (ASSUMED)",
+     "days_to_first_result": "Weeks after the first customers",
+     "evidence_for_a_new_store": "Weak. About 2% to 3% of customers refer (blog figures). ReferralCandy data covers established stores only. Too small to matter at 10 customers.",
+     "fits_black_friday_or_christmas": "No; add after the first happy customers",
+     "label": "ESTIMATED",
+     "source": "referralcandy.com benchmarks; shopify.com/blog/referral-marketing-statistics; rivo.io"
+    },
+    {
+     "name": "Marketplaces (Amazon, Etsy, eBay, Walmart)",
+     "how_it_works": "List the kit where dog car buyers already search. Amazon FBM can ship from Dhruv's home batch.",
+     "cash_cost": "Amazon $0.99 per item or $39.99 a month, plus about 15% referral fee; eBay about 13.6% plus $0.40 per order",
+     "time_per_week": "3 to 6 hours setup (ASSUMED)",
+     "days_to_first_result": "Amazon verification time UNKNOWN; Walmart reported at 1 to 4 weeks",
+     "evidence_for_a_new_store": "Medium for Amazon because buyers already search there, but a new listing starts with zero reviews. Etsy bans resold mass-produced items. eBay builds no brand. Walmart is too slow.",
+     "fits_black_friday_or_christmas": "Amazon FBM possible for Christmas if stock is at home and verification is quick",
+     "label": "VERIFIED",
+     "source": "https://sell.amazon.com/pricing (plans); fees, Etsy and Walmart ESTIMATED via search"
+    }
+   ]
+  },
+  {
+   "key": "reel-people-and-video",
+   "summary": "I found the reel Dhruv saw. It is instagram.com/reel/Df0pApmqi9s from @masondoesecom: 65 seconds, posted about Nov 16 to 17, captioned \"This is insane.\" Its frames match his screenshots.\n\nNo YouTube channel called \"Luca Maratti\" and no \"$50 million (Full Playbook)\" video turned up on YouTube, on Google or in the Wayback Machine. The reel says the video was deleted, which I can neither confirm nor rule out.\n\nNo news story, buyer release or public profile backs a $50M sale or $10M ARR. Many small accounts post the same story, but the details change: age 18 or 22; $48.3M, $49.6M or $50M; 22 or 26 days. Several of these posts carry #amboras or #amboraspartner.\n\nThe reel's proof is footage of the Amboras app on a store whose URL reads \"nutrafolk-demo.myshopify.com\". It claims a conversion rate of 2.7% against 1.1% on Shopify, the same figures seen in other creators' reels. It shows no sample size and no dates.\n\nThe caption has no ad or partner disclosure. Whether Instagram shows a paid-partnership label in the app is UNKNOWN. The script matches other Amboras creator posts, which fits a paid template but does not prove this account was paid. The reel should be read as advertising, not as evidence.",
+   "key_facts": [
+    {
+     "claim": "The reel is instagram.com/reel/Df0pApmqi9s by @masondoesecom, captioned \"This is insane. #ecom #shopify #ecomconversionrate\". It is 65 seconds long. Its frames match Dhruv's screenshots.",
+     "label": "VERIFIED",
+     "source": "https://www.instagram.com/reel/Df0pApmqi9s/embed/captioned/"
+    },
+    {
+     "claim": "The @masondoesecom profile embed shows the display name Mason Higgs, 199 followers and 66 posts.",
+     "label": "VERIFIED",
+     "source": "https://www.instagram.com/masondoesecom/embed/"
+    },
+    {
+     "claim": "YouTube handles @LucaMaratti, @lucamaratti, @lucamaratti_ and @LucaMarattiEcom return HTTP 404. YouTube and Google searches found no Luca Maratti channel or matching video title.",
+     "label": "VERIFIED",
+     "source": "https://www.youtube.com/@LucaMaratti and DataForSEO YouTube and Google search, 2026-11-22"
+    },
+    {
+     "claim": "The Wayback Machine availability API has no snapshot of youtube.com/@LucaMaratti. The CDX API timed out, so the archive check is incomplete.",
+     "label": "VERIFIED",
+     "source": "https://archive.org/wayback/available?url=youtube.com/@LucaMaratti"
+    },
+    {
+     "claim": "No news article, acquirer release or public profile was found for a $50M or $49.6M ecommerce sale tied to this story.",
+     "label": "UNKNOWN",
+     "source": "Google via DataForSEO and WebSearch queries listed in the notes, 2026-11-22"
+    },
+    {
+     "claim": "The reel opens with a news-style card reading \"He's 18 and sold an e-commerce business for $49.6M\", byline Julia Burt, March 3, 2025. Two searches did not find that article.",
+     "label": "VERIFIED",
+     "source": "Frame at 0 s of the reel video; WebSearch 2026-11-22"
+    },
+    {
+     "claim": "Copies of the story on Facebook and Instagram give different ages (18 or 22), prices ($48.3M, $49.6M, $50M) and days (22 or 26). Several carry #amboras or #amboraspartner.",
+     "label": "ESTIMATED",
+     "source": "Google results via DataForSEO, e.g. https://www.facebook.com/61595107571186/videos/he-sold-it-for-how-much-ecom-ecomerce-dropshipping-amboras/2232744397589659/"
+    },
+    {
+     "claim": "The on-screen Amboras demo shows \"nutrafolk-demo.myshopify.com\", I\u00b7M\u00b78, AG1 and gr\u00fcns as competitors, \"I used the competitors' A/B tests\", and \"2.7% compared with 1.1% on Shopify\".",
+     "label": "VERIFIED",
+     "source": "Frames of the reel video, read at 540 px"
+    },
+    {
+     "claim": "The reel caption and its embed header show no #ad, #amboraspartner or paid-partnership text. Whether the label shows in the Instagram app is unknown.",
+     "label": "VERIFIED",
+     "source": "https://www.instagram.com/reel/Df0pApmqi9s/embed/captioned/"
+    },
+    {
+     "claim": "@landendoesecom (57 followers) uses the same \"doesecom\" handle pattern and posted \"$50M deal at 22?? How he did it #amboraspartner\".",
+     "label": "ESTIMATED",
+     "source": "Google snippet; profile counts from https://www.instagram.com/landendoesecom/embed/"
+    },
+    {
+     "claim": "@siteswithty (3,379 followers) posted a reel captioned \"I sold my ecom brand and here's what nobody tells you... Comment SOLD\" with #amboras.",
+     "label": "VERIFIED",
+     "source": "https://www.instagram.com/reel/Df0Y1heopsi/embed/captioned/"
+    },
+    {
+     "claim": "A #amboraspartner YouTube short follows the same template: a money hook, building a store with Amboras, then \"comment the word... I'll send you my full workflow\".",
+     "label": "VERIFIED",
+     "source": "https://www.youtube.com/shorts/5cOGLHzw-I4 (auto-captions via DataForSEO)"
+    },
+    {
+     "claim": "Amboras's own Amboras Academy channel posts titles such as \"I Cloned a $600M Brand in 9 Minutes (just copy me)\" and \"The Art of Cheating In Ecommerce\".",
+     "label": "VERIFIED",
+     "source": "https://www.youtube.com/results?search_query=amboras"
+    }
+   ],
+   "unknowns": [
+    "Whether a public Luca Maratti YouTube channel or the $50M playbook video ever existed, and its real views, date, length and transcript",
+    "Whether anyone using that name sold an ecommerce brand for about $50M or reached $10M ARR",
+    "Whether the Julia Burt March 3, 2025 article exists and who published it",
+    "Whether @masondoesecom was paid or had any material connection to Amboras, and whether the in-app reel shows Instagram's paid-partnership label",
+    "Whether the reel uses a second voice for the testimonial part (audio not transcribed; no speech-to-text tool)",
+    "How the Amboras demo's 1.1% and 2.7% conversion figures were measured, on what traffic and over what dates",
+    "Whether the Mason Higgs YouTube channel is the same person as @masondoesecom (name match only)",
+    "Contents of the other @masondoesecom posts (profile grid needs a login)"
+   ],
+   "notes_file": "/home/user/commerce-os/research/reel-check-2026-11-22/01_people_and_video.md"
+  },
+  {
+   "key": "ltv-rule-and-subscriptions",
+   "summary": "The 3 to 1 rule comes from David Skok's SaaS essay, which calls it only a guideline and also asks for CAC payback within 12 months. Strict sources (a16z, Drew Fallon) say LTV for this ratio must be profit per customer, not revenue. Real consumer brands often sit below 3. IM8 itself reports $1.44 of gross profit per $1 of acquisition spend, and an outside fund pays up to 70% of its ads. Amp's Shopify dataset has a median of 2.4x, and 52% of brands lose money on the first order. The slide formula is standard: Shopify prints it as margin-adjusted CLV. It still leaves out shipping, fees and refunds, and it needs repeat data a new store lacks. Pet repeat rates are about 31.5% over 12 months, mostly from consumables. No public data exists for durable pet travel gear. AG1, IM8 and Gr\u00fcns all use subscriptions, first-order discounts, welcome kits or gifts, and guarantees. Bundles, gifts with purchase (within 16 CFR 251), replacement parts and checkout add-ons carry over to Barkfare; a true subscription does not. The FTC click-to-cancel rule was vacated in July 2025. A new advance notice came in March 2026, and ROSCA still applies. Rival pet travel brands sell door guards, beds, covers, tethers, $5 to $15 replacement parts, warranties and shipping protection. The repo script shows only the Amazon FBA route reaches 3 to 1.",
+   "key_facts": [
+    {
+     "claim": "Skok: 'The best SaaS businesses have a LTV to CAC ratio that is higher than 3, sometimes as high as 7 or 8'; he calls these 'only guidelines' and treats CAC payback over 12 months as anemic.",
+     "label": "VERIFIED",
+     "source": "https://www.forentrepreneurs.com/saas-metrics-2/"
+    },
+    {
+     "claim": "a16z defines LTV as present value of future net profit per customer, warns revenue or gross-margin LTV overstates spend limits, and says paid CAC matters more than blended CAC.",
+     "label": "VERIFIED",
+     "source": "https://a16z.com/16-startup-metrics/ (Aug 21, 2015)"
+    },
+    {
+     "claim": "Shopify's blog gives 'Margin-adjusted CLV = Average order value x Purchase frequency x Average customer lifespan x Gross margin', the reel's slide formula. Its cohort tools need 24 months of data.",
+     "label": "VERIFIED",
+     "source": "https://www.shopify.com/au/blog/customer-lifetime-value (Oct 8, 2026)"
+    },
+    {
+     "claim": "IM8 says every $1 of customer acquisition has returned $1.44 in gross profit across mature cohorts; General Catalyst's fund finances up to 70% of its marketing spend.",
+     "label": "ESTIMATED",
+     "source": "Prenetics release July 14, 2026, https://finviz.com/news/368046/"
+    },
+    {
+     "claim": "Amp Shopify dataset: median CAC $54, median first-order profit $31, 52% of brands underwater after order one, median LTV:CAC 2.4x, 14.7% 90-day repurchase for new customers.",
+     "label": "ESTIMATED",
+     "source": "https://useamp.com/blog/2025-dtc-mega-report/"
+    },
+    {
+     "claim": "Pet 12-month repeat purchase rate 31.5%; home 20%; electronics 17%. Durable goods not covered.",
+     "label": "ESTIMATED",
+     "source": "StoreGrowers via Eightx, May 29, 2026, https://eightx.co/blog/average-ecommerce-repeat-purchase-rate-by-vertical-2026"
+    },
+    {
+     "claim": "Chewy fiscal 2025: net sales $12,601.5M, consumables $8,777.9M, hardgoods $1,436.3M, Autoship customer sales 83.3% of net sales, net sales per active customer $591.",
+     "label": "VERIFIED",
+     "source": "Chewy FY2025 10-K PDF, s23.q4cdn.com"
+    },
+    {
+     "claim": "IM8 Black Friday: Essentials Pro $59/mo (previously $112), buy 2 months get 1 free, free $123 Welcome Kit for new subscribers; Terms say cancel by emailing before the billing period ends.",
+     "label": "VERIFIED",
+     "source": "https://im8health.com/ and https://im8health.com/pages/terms-of-service"
+    },
+    {
+     "claim": "Gr\u00fcns: subscription $49.99 per 28 packs vs $66.65 one-time; 25% first-order discount tied to SMS sign-up; no gift listed; online cancel by 11:59 pm ET the day before renewal.",
+     "label": "VERIFIED",
+     "source": "https://gruns.co/ and https://gruns.co/policies/subscription-policy"
+    },
+    {
+     "claim": "AG1 US offer per Google snippets: from $79/month, free shipping, extra 25% off first subscription, Welcome Kit plus gifts on first subscription order only. The live page was blocked by a bot checkpoint.",
+     "label": "ESTIMATED",
+     "source": "DataForSEO Google SERP of drinkag1.com, 2026-11-22"
+    },
+    {
+     "claim": "Unilever announced it is acquiring Gr\u00fcns on April 9, 2026, amount undisclosed. Gr\u00fcns claimed a $300M annualized run rate in Oct 2025 and was reportedly valued at $500M in May 2025.",
+     "label": "ESTIMATED",
+     "source": "https://www.modernretail.co/operations/a-timeline-of-what-led-up-to-gruns-being-acquired-by-unilever/"
+    },
+    {
+     "claim": "The FTC click-to-cancel rule was vacated in July 2025. An advance notice of new rulemaking came in March 2026, with comments due April 13, 2026. ROSCA and about 30 state auto-renewal laws still apply.",
+     "label": "ESTIMATED",
+     "source": "https://www.jonesday.com/en/insights/2026/05/ftc-revives-clicktocancel-rule-new-risks-for-subscription-businesses"
+    },
+    {
+     "claim": "16 CFR 251.1: regular price means substantial sales in a 30-day period. Conditions go at the outset, not in a footnote. A 'free' offer runs no more than 6 of 12 months in an area, and three offers at most.",
+     "label": "VERIFIED",
+     "source": "https://www.law.cornell.edu/cfr/text/16/251.1"
+    },
+    {
+     "claim": "Pet travel rivals sell add-ons: RuffRover DoorGuard $39.95, Luxe bed $89.95, 5-year warranty $14.99, shipping protection $4.99; Ruff Liners replacement window inserts $15; 4Knines replacement straps $14.99.",
+     "label": "VERIFIED",
+     "source": "Public /products.json feeds of ruffrover.com, ruffliners.com, 4knines.com, 2026-11-22"
+    },
+    {
+     "claim": "Post-purchase one-click upsell take rate averages about 4.7% (ReConvert, 40,000+ merchants, 2023). Other guides say 3% to 8%; vendors claim 8% to 25%. Most figures are per offer view.",
+     "label": "ESTIMATED",
+     "source": "Secondary: https://www.launchtip.com/upsell-statistics, https://zipify.com/blog-post-purchase-upsells-shopify-2026/"
+    },
+    {
+     "claim": "The repo script finds only the Barkfare Amazon FBA route reaches 3 to 1. FBA, the bulk bundle, bulk stock and the $149 print-on-demand option pass the house rule on the first order.",
+     "label": "VERIFIED",
+     "source": "/home/user/commerce-os/research/reel-check-2026-11-22/ltv_cac.md"
+    }
+   ],
+   "unknowns": [
+    "Repeat purchase rate for durable pet travel gear (seat covers, extenders, tethers): no public benchmark found",
+    "AG1 live US offer page, welcome kit contents and cancel steps: blocked by a Vercel bot checkpoint (HTTP 429); I did not try to bypass it",
+    "Skok's own LTV basis (revenue vs gross margin) and the essay's exact publication date",
+    "Whether the FTC issued a proposed negative option rule after the March 2026 advance notice",
+    "How IM8's homepage 'up to 90-day' guarantee fits with its Terms (30-day, first purchase only); its separate Subscription Policy was not read",
+    "Whether each state's auto-renewal law requires online cancellation for online sign-ups (not checked today)",
+    "Kurgo's own catalog (no public product feed; collection URL returned 404)",
+    "AG1 2025 audited revenue and the year of the reported $2B+ sale talks",
+    "Which costs Amp's 'first-order profit' includes, and why its pet COGS share looks low"
+   ],
+   "notes_file": "/home/user/commerce-os/research/reel-check-2026-11-22/03_ltv_cac_and_subscriptions.md"
+  }
+ ],
+ "refute": {
+  "checks": [
+   {
+    "claim": "Billo UGC from $99 per 15-second video; $1,000 minimum pack; product and shipping excluded",
+    "verdict": "holds",
+    "evidence": "https://billo.app/pricing/ read today: 'Videos start at $99'; packs $1,000 (up to 10), $2,500+$300, $5,000+$700; 'doesn't cover your product or shipping it to the creator'. Usage rights and turnaround not on page."
+   },
+   {
+    "claim": "soona (ex Trend.io) UGC $89 to $259 per video, unlimited license, 7 days after product arrives",
+    "verdict": "holds",
+    "evidence": "trend.io/pricing 301s to soona.co/ugc ('trend-winddown'). Page: '$89/video to $259/video', 'unlimited, worldwide license', 'No annual commitments', brand ships product, content within 7 days of receipt."
+   },
+   {
+    "claim": "Insense costs $400 to $650 a month plus 7% to 20% fee; UGC from $100, posts from $125",
+    "verdict": "partly holds",
+    "evidence": "https://insense.pro/pricing: figures right, but $400 needs $4,800 a year upfront. Trial $650 auto-upgrades to Brand ($1,500 a quarter) unless cancelled 48h before end. Product seeding not on Trial. So the real minimum is $1,500."
+   },
+   {
+    "claim": "Collabstr dog creators: Nash $50 TikTok, Coconut $75, Mochi $150; pet posts $160 to $225",
+    "verdict": "cannot be checked",
+    "evidence": "Live page 403 today. Snippets show Coconut in Ottawa, Canada with 'Negotiate a Package'. Nash's $50 listing is Instagram, and the profile claims 1.5M followers. The cached title says 2,928 creators against 3,851 live, so the data is stale."
+   },
+   {
+    "claim": "TikTok Shop pet referral fee 6%, base includes customer-paid shipping",
+    "verdict": "holds",
+    "evidence": "seller-us.tiktok.com knowledge_id=5988482086864682, updated 10/08/2026. Pet Supplies and Automotive rows show 6%, and no 8% appears anywhere. The page title still says 'in 2024'."
+   },
+   {
+    "claim": "TikTok Shop US: keep inventory ownership, no international third-party suppliers, dispatch 2 and deliver 6 business days",
+    "verdict": "holds",
+    "evidence": "knowledge_id=6179821974439723, updated 09/09/2026, quotes all three rules verbatim. Still UNKNOWN: whether imported kits Dhruv owns and ships from home qualify. Not stated either way."
+   },
+   {
+    "claim": "TikTok free samples only to creators with sales in last 120 days; seller approves; post in 14 days",
+    "verdict": "partly holds",
+    "evidence": "knowledge_id=5764641632306946, updated 11/20/2026, confirms this but notes missed Refundable Samples: creator buys, posts in 14 days, refunded only if sales goal met by Day 54; 'Sellers usually require 1 to 3 orders'. Refund funder not stated."
+   },
+   {
+    "claim": "TikTok Shop pet: 13.1% commission, $122 GMV per 1,000 views, 86.8% of selling videos paid-boosted",
+    "verdict": "partly holds",
+    "evidence": "hubfluence.io (vendor, Nov 5, 2026) confirms the figures. Zero-sales videos are excluded, so they cannot predict a new post. The Pet line says '30 days', while the headline sample covers videos posted Oct 6 to 12."
+   },
+   {
+    "claim": "Partnership or Spark ads lower cost per purchase versus normal Meta ads by 5% to 19%",
+    "verdict": "does not hold",
+    "evidence": "ppc.land (Oct 11, 2026): Meta's 19% is from 15 tests in 2021-22, confidence level not stated. The 45% is cost per incremental purchase at 92% confidence. Agentio's 5% compares against licensed UGC, not brand ads. TikTok's 37% has no baseline. Nothing is pet-specific or new-store-specific."
+   },
+   {
+    "claim": "Billo: pet video ads ROAS 1.66 vs 2.41 average, last of 14",
+    "verdict": "holds",
+    "evidence": "Billo PDF (May 29, 2026), text extracted: 80,069 Meta video ads, Jul to Dec 2025, about $105M spend. 'Pet Supplies earned just $1.66'; pet 'finished last on both attention and sales'. Attribution method not stated. Vendor data."
+   },
+   {
+    "claim": "Google free listings $0, review up to 3 to 5 business days; Klaviyo free plan 250 profiles and 500 emails",
+    "verdict": "holds",
+    "evidence": "support.google.com/merchants/answer/160491: 'up to 3-5 business days for Shopping ads and free listings'. klaviyo.com/pricing: 250 profiles, 500 emails, $5 mobile messages; email support first 60 days only."
+   },
+   {
+    "claim": "Buffer: posting more raises breakout odds, not median views",
+    "verdict": "holds",
+    "evidence": "buffer.com (Oct 8, 2025): 11.4M posts. Median views 489, 506, 487, 459 across posting frequencies. 90th percentile 3,722 at 1 a week vs 14,401 at 11+. The page makes no sales or conversion claims."
+   },
+   {
+    "claim": "The $50M sale and Luca Maratti YouTube video have independent support",
+    "verdict": "does not hold",
+    "evidence": "WebSearch 'Luca Maratti' ecommerce: no result names him. DataForSEO YouTube search: 19 results, none match. Search for the $49.6M sale or a Julia Burt byline: nothing found. No independent support."
+   },
+   {
+    "claim": "The reel is a paid Amboras ad",
+    "verdict": "cannot be checked",
+    "evidence": "Instagram embed today: caption confirmed, no is_paid_partnership or sponsor field. Reel shows 302 views, 5 likes, 2 comments. Newest profile posts flag false, but that flag only tracks Instagram's branded-content tool. The script pattern fits an Amboras ad."
+   },
+   {
+    "claim": "LTV for the 3 to 1 rule: Skok guideline; a16z net-profit LTV; Shopify margin-adjusted CLV formula",
+    "verdict": "holds",
+    "evidence": "forentrepreneurs.com: 'higher than 3', 'only guidelines', payback over 12 months 'anemic'; LTV basis undefined. a16z (2015): net profit, gross-margin LTV is 'a common mistake'. Shopify (Oct 8, 2026): AOV x frequency x lifespan x gross margin, 'before acquisition costs'."
+   },
+   {
+    "claim": "IM8 BF offer: $59/mo (was $112), buy 2 get 1, free $123 Welcome Kit for new subscribers; $1.44 gross profit per $1 CAC",
+    "verdict": "partly holds",
+    "evidence": "im8health.com confirms the prices. The kit is 'Included with every 90-day plan during the sale', so not any subscription. The $1.44 is a company claim. A Nasdaq call summary gives 4.1x for a Q1 2025 cohort; a critic gives 0.72x. The finviz short URL now 404s."
+   },
+   {
+    "claim": "Gruns: $49.99 subscribed vs $66.65 one-time, 25% first order tied to SMS, no gift",
+    "verdict": "holds",
+    "evidence": "gruns.co confirms all of it. Its SMS footnote reads 'promotional SMS discount reserved for new customers only'. New: a 'Get 55% Off' label conflicts with about 25% off prices. The site also claims 'Less than 2%' use its 30-day guarantee (self-reported)."
+   },
+   {
+    "claim": "AG1: from $79/month, extra 25% off first subscription, Welcome Kit and gifts",
+    "verdict": "cannot be checked",
+    "evidence": "drinkag1.com returned HTTP 429 again today. Not bypassed. Only search snippets back it."
+   }
+  ],
+  "corrections": [
+   "Insense is not a $400 to $650 a month option. Product seeding is excluded from the $650 Trial, and the Trial auto-upgrades to the Brand plan at $1,500 a quarter. Treat $1,500 as its minimum and drop it from the $500 to $1,000 test.",
+   "Remove or mark stale the named Collabstr dog prices ($50 Nash, $75 Coconut, $150 Mochi). Coconut is listed in Ottawa, Canada. Nash's $50 is an Instagram listing on a profile claiming 1.5M followers. The snippets predate today's page. Set pet_creator_paid_post_fee to UNKNOWN.",
+   "Add TikTok Shop Refundable Samples. Creators buy the sample, post within 14 days, and are refunded only after a sales goal (usually 1 to 3 orders) by Day 54. The free-sample-only framing overstates the risk of losing a $149 kit per creator. Who funds the refund is UNKNOWN.",
+   "Split the 'partnership ads -5% to -19% CPA' input. The -19% is Meta's 2021-22 test with no stated confidence. The -5% is against licensed UGC, not brand ads. The -45% is cost per incremental purchase at 92% confidence. Use 0% as the base case and vendor figures only as upside.",
+   "Hubfluence per-view sales ($122 GMV per 1,000 views, 3.64 units per 1,000) cover selling videos only, and the Pet line uses a 30-day window. Do not use them to forecast a new creator post.",
+   "Add to the reel notes: the reel shows about 302 views, 5 likes and 2 comments in Instagram's embed data. A false paid-partnership flag would not prove the creator was unpaid.",
+   "IM8's free $123 Welcome Kit needs a 90-day plan during the sale, not any subscription.",
+   "When applying the 3 to 1 rule, compute LTV as net contribution per customer (a16z), not Shopify's gross-margin CLV. Add Skok's payback test (CAC recovered within 12 months; the best SaaS businesses recover it in 5 to 7).",
+   "The TikTok referral fee page shows 6% for every pet subcategory checked and no 8%. Keep 6% as VERIFIED and treat 8% as an unsourced third-party figure."
+  ],
+  "bottom_line": "I found no evidence that creator, partnership or Spark ads win customers more cheaply than normal Meta ads for a new pet store. Every claimed CPA gain comes from Meta, TikTok or a creator-ad vendor, with small or old samples, mixed baselines and nothing pet-specific. The only pet data (Billo) shows pet video ads returning least. The fixed UGC prices check out: soona $89 to $259 with no commitment, Billo's $1,000 pack. Insense really needs $1,500 a quarter. The pet-creator post prices cannot be checked. TikTok Shop's US rules are confirmed (6% pet fee, owned inventory, 2-day dispatch). Refundable Samples, which the notes missed, may cut seeding losses. The $50M story has no independent support, and the reel (about 302 views) is advertising. Use creators for ad creative filmed on the real sample, not as a cheaper customer channel. Notes: /home/user/commerce-os/research/launch-plan-2026-11-22/03_skeptic_customers.md"
+ }
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "barkfare-extender-cheaper-listing",
+  "category": "pets / dog travel",
+  "product": "Barkfare dog back-seat extender kit, priced on a cheaper US-stock listing seen Nov 22 (same kit idea as the Nov 21 row)",
+  "what_it_solves": "Dogs sliding into the footwell and fur and scratches on the back seat; a rigid platform turns the back seat into a flat, covered space.",
+  "sell_price": 149,
+  "sell_price_source": "Proposed price: the Barkfare kit offer (ASSUMED, reports/offer-plan-2026-11-18.html). Anchors: Ruff Liners $169.99 on Amazon and RuffRover $169.95 on its own site (reports/hero-deep-dive-2026-11-14.md)",
+  "amazon": {
+   "typical_price": 169.99,
+   "bought_past_month_top_listings": 5500,
+   "listings_counted": null,
+   "top_listing_url": null,
+   "checked": "2026-11-14"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Ruff Liners",
+    "url": null,
+    "price": 169.99,
+    "traction_evidence": "About 5,300 of the 5,500+ units a month sold above $130 on Amazon (reports/hero-deep-dive-2026-11-14.md, ESTIMATED)",
+    "is_whale": true
+   },
+   {
+    "store": "RuffRover",
+    "url": null,
+    "price": 169.95,
+    "traction_evidence": "3,700+ ratings on its own site and Meta ads running 400+ days (reports/hero-deep-dive-2026-11-14.md)",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "RuffRover Meta ads running 400+ days (reports/hero-deep-dive-2026-11-14.md).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 'Back Seat Extender for Dogs Hard Bottom ... Dog Travel Bed' (item 3256812978307212)",
+    "url": "https://www.aliexpress.us/item/3256812978307212.html",
+    "unit_cost": 47.31,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "card tag: 6-day delivery (not tested)",
+    "label": "ESTIMATED: search-card price read 2026-11-22 by the barkfare-addons scout; no promo tag, no sold count; size, board rigidity and weight rating UNKNOWN"
+   },
+   {
+    "source": "AliExpress US stock: BingoPaw large hard-bottom extender with pockets (item 3256812341106652)",
+    "url": "https://www.aliexpress.us/item/3256812341106652.html",
+    "unit_cost": 48.92,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "card tag: 6-day delivery (not tested)",
+    "label": "ESTIMATED: search-card price read 2026-11-22; one read showed 'Early bird deal, only 1 left'"
+   }
+  ],
+  "best_us_landed_cost": 54.01,
+  "best_us_landed_label": "ESTIMATED: $47.31 card price with free US shipping read 2026-11-22 (research/launch-plan-2026-11-22/candidates_barkfare-addons.md section 4), plus $6.70 of add-ons ASSUMED as on Nov 17. No sales count; must be checked against the hero spec before use.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not used: the own-brand lane imports a 5-kit batch instead (research/money-math-2026-11-19)",
+  "weight_lb": null,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Extender plus door guards as the kit; bed topper as the $189 bundle (research/offers-2026-11-18).",
+  "whale_note": "Ruff Liners leads the premium tier on Amazon. Volume below $80 is spread over many sellers (32,000+ hard-bottom units a month in total).",
+  "ip_safety_flags": "Patents: Ruff Liners US 12,221,024 and 4Knines US 12,409,763 look avoidable with plain door guards that do not attach to the extender or the window (quick screen, not legal advice; reports/hero-deep-dive-2026-11-14.md).",
+  "season_note": "Christmas plan approved Nov 18: fast lane plus a print-on-demand gift test (reports/decisions.md).",
+  "risks": "Listing has no sales count; size, rigidity and weight rating unknown until an item page or sample is read. Heavy, bulky item: returns are costly. Same patent notes as the Nov 21 row.",
+  "checked": "2026-11-22"
+ }
+]

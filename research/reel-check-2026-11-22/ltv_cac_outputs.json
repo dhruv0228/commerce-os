@@ -2,13 +2,14 @@
  "summary": {
   "rule": 3.0,
   "house_rule_first_order_ratio": 1.3333333333333333,
-  "rows": 13,
+  "rows": 14,
   "pass_3_to_1": [
    "ext_fba"
   ],
   "pass_house_rule": [
    "ext_fba",
    "bulk_sea_bundle",
+   "barkfare-extender-cheaper-listing",
    "bulk_sea",
    "pod_149"
   ],
@@ -56,6 +57,27 @@
    "ltv_needed_for_3_to_1": 117.69,
    "extra_ltv_needed": 31.810000000000002,
    "cac_needed_for_3_to_1": 28.626666666666665
+  },
+  {
+   "id": "barkfare-extender-cheaper-listing",
+   "name": "Barkfare extender, cheaper US listing seen Nov 22 (lead)",
+   "group": "Barkfare (one-time purchase)",
+   "source": "research/launch-plan-2026-11-22/ranked.json",
+   "note": "A $47.31 US-stock card price, not yet checked against the hero spec.",
+   "ltv_first_order": 81.42900000000002,
+   "ltv_12mo": null,
+   "ltv_12mo_strong": null,
+   "cac": 39.23,
+   "cac_note": "Meta, pets benchmark",
+   "ratio_first_order": 2.0756818761152185,
+   "ratio_12mo": null,
+   "ratio_12mo_strong": null,
+   "ratio_best_case": 2.0756818761152185,
+   "passes_house_rule_first_order": true,
+   "passes_3_to_1_best_case": false,
+   "ltv_needed_for_3_to_1": 117.69,
+   "extra_ltv_needed": 36.26099999999998,
+   "cac_needed_for_3_to_1": 27.143000000000004
   },
   {
    "id": "bulk_sea",

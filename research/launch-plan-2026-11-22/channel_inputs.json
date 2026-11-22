@@ -1,0 +1,14 @@
+{
+  "checked": "2026-11-22",
+  "note": "Inputs for scripts/channel_cac.py. Sources are in research/launch-plan-2026-11-22/01_creator_economics.md and 03_skeptic_customers.md.",
+  "affiliate_commission_pct": {"low": 0.10, "high": 0.25, "label": "ESTIMATED", "source": "Own-store affiliate commissions 10% to 25% (Shopify Collabs and UpPromote guides, 01_creator_economics.md)"},
+  "affiliate_app_fee_pct_of_sale": {"low": 0.0, "high": 0.02, "label": "VERIFIED", "source": "UpPromote performance fee 0% to 2% of tracked referral sales, https://uppromote.com/pricing/ (read 2026-11-22). Shopify Collabs adds 2.9% of the commission paid and may not be on the Basic plan (UNKNOWN)."},
+  "tiktok_shop_referral_fee_pct": {"low": 0.06, "high": 0.06, "label": "VERIFIED", "source": "TikTok Shop US referral fee 6% for Pet Supplies, Home and Automotive, https://seller-us.tiktok.com/university/essay?knowledge_id=5988482086864682 (updated 10/08/2026; skeptic found no 8% on the page)"},
+  "tiktok_shop_affiliate_commission_pct": {"low": 0.10, "high": 0.25, "label": "ESTIMATED", "source": "Common range 10% to 25% (hamstergarage.com); pet median 13.1% across selling videos (hubfluence.io, vendor, Nov 2026)"},
+  "store_conversion_rate": {"low": 0.016, "high": 0.016, "label": "ESTIMATED", "source": "No benchmark exists for creator-referred traffic (UNKNOWN). Proxy: Meta click-to-purchase for Pets 1.60%, Triple Whale via research/fast-test-2026-11-21/04_reality_and_benchmarks.md"},
+  "views_per_small_creator_post": {"low": 350, "high": 2429, "label": "ESTIMATED", "source": "Views per video for creators under about 5k followers (Socialinsider via hubfluence.io); Buffer's 11.4M-post study puts median views near 500 at every posting frequency"},
+  "paid_post_fee_usd": {"low": 50, "high": 225, "label": "ESTIMATED", "source": "Collabstr pet listings and averages from search snippets; the skeptic could not confirm today's prices (pages blocked), so treat as unverified. Insense nano sponsored posts start at $125 (VERIFIED) but need a $1,500 a quarter plan."},
+  "gifting_post_rate": {"low": 0.20, "high": 0.40, "label": "ESTIMATED", "source": "Share of gifted creators who post, 20% to 40% (skeepers.io, vendor); 61% of marketers say fewer than half post (Traackr survey, 2023)"},
+  "link_click_rate_scenarios": {"values": [0.005, 0.01, 0.02], "label": "ASSUMED", "source": "Share of a post's viewers who click through to the store. No credible public benchmark was found (01_creator_economics.md), so three scenarios are shown."},
+  "reference_meta_cac_usd": {"low": 39.23, "high": 39.23, "label": "ESTIMATED", "source": "Meta Pets benchmark cost per purchase, Triple Whale Nov 2025 to Oct 2026"}
+}
