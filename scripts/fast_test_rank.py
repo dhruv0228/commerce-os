@@ -125,6 +125,13 @@ def main():
         if isinstance(data, dict):
             data = data.get("candidates", [])
         for c in data:
+            # Corrections from a skeptic re-check override the scout's values (rank_inputs.json "corrections").
+            fix = inp.get("corrections", {}).get(c.get("id"))
+            if fix:
+                c = dict(c)
+                for k in ("best_us_landed_cost", "sell_price", "sell_price_source", "best_us_landed_label"):
+                    if k in fix:
+                        c[k] = fix[k]
             bkey = benchmark_key(c.get("category"), file_key, inp["category_rules"], bench)
             cpa = bench[bkey]
             price = c["sell_price"]

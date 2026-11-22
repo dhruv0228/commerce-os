@@ -1,23 +1,23 @@
 {
  "total_budget": 1800,
- "allocated": 1690.0,
- "unallocated": 110.0,
- "spend": 973.0,
+ "allocated": 1699.0,
+ "unallocated": 101.0,
+ "spend": 985.0,
  "float": 300.0,
- "reserve": 417.0,
- "gated_amount": 1157.0,
+ "reserve": 414.0,
+ "gated_amount": 1169.0,
  "ungated_spend": 16.0,
- "most_at_risk_if_nothing_sells": 973.0,
+ "most_at_risk_if_nothing_sells": 985.0,
  "lanes": [
   {
    "id": "bf",
    "name": "Black Friday learning lane",
    "window": "Nov 22 to Nov 30",
-   "spend": 235.0,
+   "spend": 247.0,
    "float": 100.0,
    "reserve": 0.0,
-   "total": 335.0,
-   "gated_amount": 219.0,
+   "total": 347.0,
+   "gated_amount": 231.0,
    "items": [
     {
      "what": "Shopify, first month",
@@ -37,21 +37,21 @@
     },
     {
      "what": "One hammock seat cover to your home (the sample)",
-     "amount": 25,
+     "amount": 28,
      "budget_line": "Samples and shipping",
      "kind": "spend",
      "only_if": "the logged-in check confirms the price and stock",
      "label": "ESTIMATED",
-     "source": "AliExpress US card $24.58 (candidates_barkfare-addons.json)"
+     "source": "non-promo US cards $21.75 to $27.60; higher end used (04_skeptic_products.md)"
     },
     {
      "what": "Three hammocks gifted to small dog creators who drive with their dogs",
-     "amount": 74,
+     "amount": 83,
      "budget_line": "Creative production",
      "kind": "spend",
      "only_if": "three creators say yes to the drafted message",
      "label": "ESTIMATED",
-     "source": "3 x $24.58 card price"
+     "source": "3 x $27.60 (04_skeptic_products.md)"
     },
     {
      "what": "Meta ads in Cyber Week, hard cap",
@@ -68,7 +68,7 @@
      "budget_line": "Supplier working capital",
      "kind": "float",
      "label": "ASSUMED",
-     "source": "about 4 orders x $24.58"
+     "source": "about 4 orders x $27.60"
     }
    ]
   },
@@ -123,7 +123,7 @@
    "items": [
     {
      "what": "5-kit own-brand batch, part paid from the samples line",
-     "amount": 171,
+     "amount": 168,
      "budget_line": "Samples and shipping",
      "kind": "spend",
      "only_if": "supplier quotes are back and you approve the order",
@@ -132,12 +132,12 @@
     },
     {
      "what": "5-kit batch, the rest",
-     "amount": 233,
+     "amount": 236,
      "budget_line": "Uncommitted contingency",
      "kind": "spend",
      "only_if": "you release contingency for it",
      "label": "ESTIMATED",
-     "source": "$403.80 minus $171"
+     "source": "$403.80 minus $168"
     },
     {
      "what": "Meta ads for the kit launch",
@@ -156,8 +156,8 @@
    "window": "the whole time",
    "spend": 0.0,
    "float": 0.0,
-   "reserve": 417.0,
-   "total": 417.0,
+   "reserve": 414.0,
+   "total": 414.0,
    "gated_amount": 0.0,
    "items": [
     {
@@ -170,11 +170,11 @@
     },
     {
      "what": "Contingency still held",
-     "amount": 167,
+     "amount": 164,
      "budget_line": "Uncommitted contingency",
      "kind": "reserve",
      "label": "ASSUMED",
-     "source": "$400 minus the $233 batch remainder"
+     "source": "$400 minus the $236 batch remainder"
     }
    ]
   }
@@ -195,7 +195,7 @@
   {
    "line": "Creative production",
    "planned": 100.0,
-   "allocated": 74.0,
+   "allocated": 83.0,
    "over_by": 0.0
   },
   {

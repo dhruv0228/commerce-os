@@ -180,39 +180,6 @@
    }
   },
   {
-   "id": "rolling-knife-sharpener-kit",
-   "group": "holiday-gifts",
-   "price": 69.0,
-   "landed": 13.07,
-   "pre_ad": 49.489,
-   "meta_benchmark": {
-    "cac": 48.61,
-    "profit": 0.8789999999999978
-   },
-   "meta_new_store": {
-    "cac": 63.193000000000005,
-    "profit": -13.704000000000008
-   },
-   "affiliate": {
-    "cac_best": 6.9,
-    "cac_worst": 18.630000000000003,
-    "profit_best": 42.589,
-    "profit_worst": 30.858999999999995
-   },
-   "tiktok_shop_affiliate": {
-    "cac_best": 11.040000000000001,
-    "cac_worst": 21.39,
-    "profit_best": 38.449,
-    "profit_worst": 28.098999999999997
-   },
-   "gifting": {
-    "cost_per_posting_creator_best": 32.675,
-    "cost_per_posting_creator_worst": 65.35,
-    "cac_best_mid_click_rate": 84.07523672293124,
-    "cac_worst_mid_click_rate": 1166.9642857142856
-   }
-  },
-  {
    "id": "mattress-vacuum-uv",
    "group": "home",
    "price": 99.99,
@@ -243,6 +210,39 @@
     "cost_per_posting_creator_worst": 174.14999999999998,
     "cac_best_mid_click_rate": 224.05053519967063,
     "cac_worst_mid_click_rate": 3109.821428571428
+   }
+  },
+  {
+   "id": "rolling-knife-sharpener-kit",
+   "group": "holiday-gifts",
+   "price": 69.0,
+   "landed": 15.15,
+   "pre_ad": 47.409,
+   "meta_benchmark": {
+    "cac": 48.61,
+    "profit": -1.2010000000000005
+   },
+   "meta_new_store": {
+    "cac": 63.193000000000005,
+    "profit": -15.784000000000006
+   },
+   "affiliate": {
+    "cac_best": 6.9,
+    "cac_worst": 18.630000000000003,
+    "profit_best": 40.509,
+    "profit_worst": 28.778999999999996
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 11.040000000000001,
+    "cac_worst": 21.39,
+    "profit_best": 36.369,
+    "profit_worst": 26.019
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 37.875,
+    "cost_per_posting_creator_worst": 75.75,
+    "cac_best_mid_click_rate": 97.45522848909016,
+    "cac_worst_mid_click_rate": 1352.6785714285713
    }
   },
   {
@@ -378,36 +378,36 @@
    }
   },
   {
-   "id": "suv-cargo-liner-dog",
-   "group": "barkfare-addons",
-   "price": 69.0,
-   "landed": 21.42,
-   "pre_ad": 41.138999999999996,
+   "id": "custom-pet-portrait-canvas-large",
+   "group": "high-margin",
+   "price": 99.95,
+   "landed": 41.9,
+   "pre_ad": 48.85445000000001,
    "meta_benchmark": {
     "cac": 39.23,
-    "profit": 1.908999999999999
+    "profit": 9.62445000000001
    },
    "meta_new_store": {
     "cac": 50.998999999999995,
-    "profit": -9.86
+    "profit": -2.144549999999988
    },
    "affiliate": {
-    "cac_best": 6.9,
-    "cac_worst": 18.630000000000003,
-    "profit_best": 34.239,
-    "profit_worst": 22.508999999999993
+    "cac_best": 9.995000000000001,
+    "cac_worst": 26.986500000000003,
+    "profit_best": 38.85945000000001,
+    "profit_worst": 21.867950000000004
    },
    "tiktok_shop_affiliate": {
-    "cac_best": 11.040000000000001,
-    "cac_worst": 21.39,
-    "profit_best": 30.098999999999997,
-    "profit_worst": 19.748999999999995
+    "cac_best": 15.992,
+    "cac_worst": 30.9845,
+    "profit_best": 32.86245000000001,
+    "profit_worst": 17.869950000000006
    },
    "gifting": {
-    "cost_per_posting_creator_best": 53.550000000000004,
-    "cost_per_posting_creator_worst": 107.10000000000001,
-    "cac_best_mid_click_rate": 137.78818443804036,
-    "cac_worst_mid_click_rate": 1912.5
+    "cost_per_posting_creator_best": 104.74999999999999,
+    "cost_per_posting_creator_worst": 209.49999999999997,
+    "cac_best_mid_click_rate": 269.5296418279127,
+    "cac_worst_mid_click_rate": 3741.071428571428
    }
   },
   {
@@ -444,69 +444,36 @@
    }
   },
   {
-   "id": "monitor-light-bar-desk-kit",
-   "group": "holiday-gifts",
-   "price": 44.99,
-   "landed": 8.85,
-   "pre_ad": 31.835890000000003,
+   "id": "metal-detector-kit",
+   "group": "high-margin",
+   "price": 104.49,
+   "landed": 48.39,
+   "pre_ad": 46.500389999999996,
    "meta_benchmark": {
-    "cac": 51.06,
-    "profit": -19.22411
+    "cac": 45.3,
+    "profit": 1.2003899999999987
    },
    "meta_new_store": {
-    "cac": 66.378,
-    "profit": -34.542109999999994
+    "cac": 58.89,
+    "profit": -12.389610000000005
    },
    "affiliate": {
-    "cac_best": 4.4990000000000006,
-    "cac_worst": 12.147300000000001,
-    "profit_best": 27.336890000000004,
-    "profit_worst": 19.68859
+    "cac_best": 10.449,
+    "cac_worst": 28.2123,
+    "profit_best": 36.05139,
+    "profit_worst": 18.288089999999997
    },
    "tiktok_shop_affiliate": {
-    "cac_best": 7.1984,
-    "cac_worst": 13.946900000000001,
-    "profit_best": 24.637490000000003,
-    "profit_worst": 17.88899
+    "cac_best": 16.7184,
+    "cac_worst": 32.3919,
+    "profit_best": 29.781989999999997,
+    "profit_worst": 14.108489999999996
    },
    "gifting": {
-    "cost_per_posting_creator_best": 22.124999999999996,
-    "cost_per_posting_creator_worst": 44.24999999999999,
-    "cac_best_mid_click_rate": 56.92929188966652,
-    "cac_worst_mid_click_rate": 790.1785714285713
-   }
-  },
-  {
-   "id": "waterproof-dog-hammock-seat-cover",
-   "group": "barkfare-addons",
-   "price": 69.0,
-   "landed": 24.58,
-   "pre_ad": 37.979,
-   "meta_benchmark": {
-    "cac": 39.23,
-    "profit": -1.2509999999999977
-   },
-   "meta_new_store": {
-    "cac": 50.998999999999995,
-    "profit": -13.019999999999996
-   },
-   "affiliate": {
-    "cac_best": 6.9,
-    "cac_worst": 18.630000000000003,
-    "profit_best": 31.079,
-    "profit_worst": 19.348999999999997
-   },
-   "tiktok_shop_affiliate": {
-    "cac_best": 11.040000000000001,
-    "cac_worst": 21.39,
-    "profit_best": 26.939,
-    "profit_worst": 16.589
-   },
-   "gifting": {
-    "cost_per_posting_creator_best": 61.449999999999996,
-    "cost_per_posting_creator_worst": 122.89999999999999,
-    "cac_best_mid_click_rate": 158.1154796212433,
-    "cac_worst_mid_click_rate": 2194.642857142857
+    "cost_per_posting_creator_best": 120.975,
+    "cost_per_posting_creator_worst": 241.95,
+    "cac_best_mid_click_rate": 311.2777892136682,
+    "cac_worst_mid_click_rate": 4320.535714285714
    }
   },
   {
@@ -576,6 +543,39 @@
    }
   },
   {
+   "id": "waterproof-dog-hammock-seat-cover",
+   "group": "barkfare-addons",
+   "price": 69.0,
+   "landed": 27.6,
+   "pre_ad": 34.958999999999996,
+   "meta_benchmark": {
+    "cac": 39.23,
+    "profit": -4.271000000000001
+   },
+   "meta_new_store": {
+    "cac": 50.998999999999995,
+    "profit": -16.04
+   },
+   "affiliate": {
+    "cac_best": 6.9,
+    "cac_worst": 18.630000000000003,
+    "profit_best": 28.058999999999997,
+    "profit_worst": 16.328999999999994
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 11.040000000000001,
+    "cac_worst": 21.39,
+    "profit_best": 23.918999999999997,
+    "profit_worst": 13.568999999999996
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 69.0,
+    "cost_per_posting_creator_worst": 138.0,
+    "cac_best_mid_click_rate": 177.5421984355702,
+    "cac_worst_mid_click_rate": 2464.285714285714
+   }
+  },
+  {
    "id": "lightweight-pet-stroller",
    "group": "pets",
    "price": 84.99,
@@ -642,36 +642,36 @@
    }
   },
   {
-   "id": "electric-salt-pepper-grinder-set",
-   "group": "holiday-gifts",
-   "price": 39.97,
-   "landed": 10.55,
-   "pre_ad": 25.56267,
+   "id": "carbon-fiber-pickleball-paddle-kit",
+   "group": "high-margin",
+   "price": 79.99,
+   "landed": 36.41,
+   "pre_ad": 36.16089,
    "meta_benchmark": {
-    "cac": 48.61,
-    "profit": -23.04733
+    "cac": 45.3,
+    "profit": -9.139109999999995
    },
    "meta_new_store": {
-    "cac": 63.193000000000005,
-    "profit": -37.63033
+    "cac": 58.89,
+    "profit": -22.72911
    },
    "affiliate": {
-    "cac_best": 3.997,
-    "cac_worst": 10.7919,
-    "profit_best": 21.56567,
-    "profit_worst": 14.77077
+    "cac_best": 7.999,
+    "cac_worst": 21.5973,
+    "profit_best": 28.161890000000003,
+    "profit_worst": 14.563590000000001
    },
    "tiktok_shop_affiliate": {
-    "cac_best": 6.3952,
-    "cac_worst": 12.390699999999999,
-    "profit_best": 19.16747,
-    "profit_worst": 13.171970000000002
+    "cac_best": 12.798399999999999,
+    "cac_worst": 24.796899999999997,
+    "profit_best": 23.36249,
+    "profit_worst": 11.363990000000005
    },
    "gifting": {
-    "cost_per_posting_creator_best": 26.375,
-    "cost_per_posting_creator_worst": 52.75,
-    "cac_best_mid_click_rate": 67.8648620831618,
-    "cac_worst_mid_click_rate": 941.9642857142857
+    "cost_per_posting_creator_best": 91.02499999999999,
+    "cost_per_posting_creator_worst": 182.04999999999998,
+    "cac_best_mid_click_rate": 234.21418279127212,
+    "cac_worst_mid_click_rate": 3250.892857142857
    }
   },
   {
@@ -705,6 +705,39 @@
     "cost_per_posting_creator_worst": 77.24999999999999,
     "cac_best_mid_click_rate": 99.3850349938246,
     "cac_worst_mid_click_rate": 1379.4642857142853
+   }
+  },
+  {
+   "id": "monitor-light-bar-desk-kit",
+   "group": "holiday-gifts",
+   "price": 33.96,
+   "landed": 8.85,
+   "pre_ad": 21.78756,
+   "meta_benchmark": {
+    "cac": 51.06,
+    "profit": -29.272440000000003
+   },
+   "meta_new_store": {
+    "cac": 66.378,
+    "profit": -44.59044
+   },
+   "affiliate": {
+    "cac_best": 3.3960000000000004,
+    "cac_worst": 9.1692,
+    "profit_best": 18.39156,
+    "profit_worst": 12.61836
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 5.4336,
+    "cac_worst": 10.5276,
+    "profit_best": 16.35396,
+    "profit_worst": 11.25996
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 22.124999999999996,
+    "cost_per_posting_creator_worst": 44.24999999999999,
+    "cac_best_mid_click_rate": 56.92929188966652,
+    "cac_worst_mid_click_rate": 790.1785714285713
    }
   },
   {
@@ -906,6 +939,39 @@
    }
   },
   {
+   "id": "pet-grooming-vacuum-kit",
+   "group": "high-margin",
+   "price": 75.99,
+   "landed": 39.43,
+   "pre_ad": 29.496889999999997,
+   "meta_benchmark": {
+    "cac": 39.23,
+    "profit": -9.73311
+   },
+   "meta_new_store": {
+    "cac": 50.998999999999995,
+    "profit": -21.50211
+   },
+   "affiliate": {
+    "cac_best": 7.599,
+    "cac_worst": 20.5173,
+    "profit_best": 21.897889999999997,
+    "profit_worst": 8.979589999999998
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 12.1584,
+    "cac_worst": 23.5569,
+    "profit_best": 17.338489999999997,
+    "profit_worst": 5.939989999999998
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 98.57499999999999,
+    "cost_per_posting_creator_worst": 197.14999999999998,
+    "cac_best_mid_click_rate": 253.640901605599,
+    "cac_worst_mid_click_rate": 3520.5357142857138
+   }
+  },
+  {
    "id": "music-boxing-machine",
    "group": "beauty-fitness",
    "price": 69.99,
@@ -936,6 +1002,39 @@
     "cost_per_posting_creator_worst": 186.45,
     "cac_best_mid_click_rate": 239.87494853849321,
     "cac_worst_mid_click_rate": 3329.4642857142853
+   }
+  },
+  {
+   "id": "car-starlight-headliner-kit",
+   "group": "high-margin",
+   "price": 75.65,
+   "landed": 41.09,
+   "pre_ad": 27.52715,
+   "meta_benchmark": {
+    "cac": 35.63,
+    "profit": -8.102850000000004
+   },
+   "meta_new_store": {
+    "cac": 46.319,
+    "profit": -18.791850000000004
+   },
+   "affiliate": {
+    "cac_best": 7.565000000000001,
+    "cac_worst": 20.425500000000003,
+    "profit_best": 19.962149999999998,
+    "profit_worst": 7.101649999999996
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 12.104000000000001,
+    "cac_worst": 23.451500000000003,
+    "profit_best": 15.423149999999998,
+    "profit_worst": 4.075649999999996
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 102.72500000000001,
+    "cost_per_posting_creator_worst": 205.45000000000002,
+    "cac_best_mid_click_rate": 264.3191642651297,
+    "cac_worst_mid_click_rate": 3668.7500000000005
    }
   },
   {
@@ -1269,6 +1368,39 @@
    }
   },
   {
+   "id": "rug-tufting-starter-kit",
+   "group": "high-margin",
+   "price": 93.99,
+   "landed": 70.48,
+   "pre_ad": 14.844889999999992,
+   "meta_benchmark": {
+    "cac": 39.73,
+    "profit": -24.885110000000005
+   },
+   "meta_new_store": {
+    "cac": 51.649,
+    "profit": -36.80411000000001
+   },
+   "affiliate": {
+    "cac_best": 9.399,
+    "cac_worst": 25.3773,
+    "profit_best": 5.445889999999993,
+    "profit_worst": -10.53241000000001
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 15.0384,
+    "cac_worst": 29.136899999999997,
+    "profit_best": -0.19351000000000695,
+    "profit_worst": -14.292010000000005
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 176.2,
+    "cost_per_posting_creator_worst": 352.4,
+    "cac_best_mid_click_rate": 453.37587484561544,
+    "cac_worst_mid_click_rate": 6292.857142857142
+   }
+  },
+  {
    "id": "foam-dog-stairs-for-bed",
    "group": "pets",
    "price": 69.99,
@@ -1299,6 +1431,39 @@
     "cost_per_posting_creator_worst": 281.95,
     "cac_best_mid_click_rate": 362.7392960065871,
     "cac_worst_mid_click_rate": 5034.821428571428
+   }
+  },
+  {
+   "id": "window-cleaning-robot",
+   "group": "high-margin",
+   "price": 119.99,
+   "landed": 101.44,
+   "pre_ad": 7.570889999999998,
+   "meta_benchmark": {
+    "cac": 48.61,
+    "profit": -41.03911
+   },
+   "meta_new_store": {
+    "cac": 63.193000000000005,
+    "profit": -55.622110000000006
+   },
+   "affiliate": {
+    "cac_best": 11.999,
+    "cac_worst": 32.3973,
+    "profit_best": -4.428110000000003,
+    "profit_worst": -24.826410000000003
+   },
+   "tiktok_shop_affiliate": {
+    "cac_best": 19.1984,
+    "cac_worst": 37.1969,
+    "profit_best": -11.627510000000001,
+    "profit_worst": -29.62601
+   },
+   "gifting": {
+    "cost_per_posting_creator_best": 253.6,
+    "cost_per_posting_creator_worst": 507.2,
+    "cac_best_mid_click_rate": 652.5319061342116,
+    "cac_worst_mid_click_rate": 9057.142857142857
    }
   },
   {

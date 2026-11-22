@@ -326,7 +326,8 @@
       "leg-air-compression-massager-heat": "Medical rule: an air-compression leg massager is an FDA Class II device when sold for circulation or pain. The scout flagged it as likely excluded.",
       "cordless-heated-hand-massager": "Medical rule: air-compression massagers sold for pain or circulation are FDA Class II devices; lithium battery and heat.",
       "shiatsu-foot-massager-machine": "Mains-powered heated appliance, certification UNKNOWN; listings lean on health claims we cannot use.",
-      "cordless-neck-shoulder-kneading-massager": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck."
+      "cordless-neck-shoulder-kneading-massager": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck.",
+      "dog-carrier-backpack-kit": "Patent risk: K9 Sport Sack is listed as owner of utility and design patents on head-out pet backpacks (snippets). Load-bearing straps need test data. Blocked until a patent check clears a design."
     },
     "caution": {
       "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
@@ -336,7 +337,12 @@
       "music-boxing-machine": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
       "barkfare-extender-us-stock": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
       "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon.",
-      "barkfare-extender-cheaper-listing": "A lead, not a supplier: a $47.31 US-stock card with no sales count, seen Nov 22. Check size, board rigidity and weight rating before relying on it."
+      "barkfare-extender-cheaper-listing": "A lead, not a supplier: a $47.31 US-stock card with no sales count, seen Nov 22. Check size, board rigidity and weight rating before relying on it.",
+      "waterproof-dog-hammock-seat-cover": "4Knines holds design patents on hammock and split seat covers (Google Patents snippets, not opened): pick a design that does not copy theirs. $69 is our proposed kit price; generics sell at $24 to $34.",
+      "rolling-knife-sharpener-kit": "The HORL patent family shows a litigation marker (snippet). Check US patents before buying. Not a Barkfare product.",
+      "monitor-light-bar-desk-kit": "Design patents exist for screen bar lamps; do not copy the BenQ ScreenBar shape; no eye-health claims.",
+      "custom-pet-portrait-canvas-large": "Never call AI art hand-illustrated; customers must own their photos; Christmas cut-off risk for made-to-order prints.",
+      "metal-detector-kit": "Sell to adults only (children's products are out of scope); lithium battery in a handheld tool; FCC papers needed; heavy box."
     }
   },
   "proven_listing_cost_usd": {
@@ -359,5 +365,37 @@
     "value": 0.15,
     "label": "ASSUMED",
     "source": "house choice: a product is worth a logged-in cost check if its listed cost is within 15% of the highest cost that passes the cushion rule"
+  },
+  "corrections": {
+    "_note": "Values corrected by the product skeptic; the scouts' files are left unchanged.",
+    "waterproof-dog-hammock-seat-cover": {
+      "best_us_landed_cost": 27.6,
+      "best_us_landed_label": "ESTIMATED: the $24.58 card now shows only a $16.58 new-shopper price; non-promo US cards run $21.75 (20 sold) to $27.60 (5 sold). The higher end is used. Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)",
+      "sell_price_source": "Proposed kit price. $79.99 is proven only for the 4Knines brand; generic hammocks sell with volume at $23.98 to $33.99 (Amazon). Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "suv-cargo-liner-dog": {
+      "best_us_landed_cost": null,
+      "best_us_landed_label": "UNKNOWN: the $21.42 card shows 0 sold and 'only 1 left', the backup card also 1 left. Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "rolling-knife-sharpener-kit": {
+      "best_us_landed_cost": 15.15,
+      "best_us_landed_label": "ESTIMATED: the $13.07 card shows 3 left and no free-shipping tag; the repeatable US cost is $15.15 (4 sold, free shipping). Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "electric-salt-pepper-grinder-set": {
+      "best_us_landed_cost": null,
+      "best_us_landed_label": "UNKNOWN: every US card shows about 1 unit left or a new-shopper price. Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "monitor-light-bar-desk-kit": {
+      "sell_price": 33.96,
+      "sell_price_source": "Quntis brand price on Amazon, 4,000+ a month (the proposed $44.99 is not proven; generic bars sell at $11.89 to $13.59). Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "custom-pet-portrait-canvas-large": {
+      "best_us_landed_cost": 41.9,
+      "best_us_landed_label": "ESTIMATED: Printful 16x24 canvas $31.11 (matches Crown & Paw's size) plus $10.79 shipping (not re-read). Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    },
+    "metal-detector-kit": {
+      "best_us_landed_cost": 48.39,
+      "best_us_landed_label": "ESTIMATED: non-promo sibling card $48.39 with 51 sold; spec match UNKNOWN. Source: research/launch-plan-2026-11-22/04_skeptic_products.md (re-check of the scouts' top picks, 2026-11-22)"
+    }
   }
 }

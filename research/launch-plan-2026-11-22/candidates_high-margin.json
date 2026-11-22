@@ -1,0 +1,736 @@
+[
+ {
+  "id": "dog-carrier-backpack-kit",
+  "category": "pets",
+  "product": "Ventilated dog carrier backpack kit for small dogs (up to about 20 lb): backpack carrier plus collapsible bowl, rain cover and poop-bag pouch",
+  "what_it_solves": "Small, young or older dogs that cannot finish a hike, a city walk or an airport transfer. The owner carries the dog hands-free on their back instead of in their arms. Same customer as the Barkfare back-seat kit (people who travel with their dog).",
+  "sell_price": 79.99,
+  "sell_price_source": "Kurgo G-Train Pet Carrier Backpack at $79.99 on Amazon, 200+ bought in past month, 1,341 ratings, #37 in Dog Carrier Backpacks (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B09KMJCSNP). Higher anchors: K9 Sport Sack Urban 3 at $99.95 (k9sportsack.com products.json, VERIFIED read 2026-11-22) and Maxine One at $125 on Amazon with 200+ bought in past month.",
+  "amazon": {
+   "typical_price": 99.95,
+   "bought_past_month_top_listings": 550,
+   "listings_counted": 13,
+   "top_listing_url": "https://www.amazon.com/dp/B0CLF5X6ZG",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "K9 Sport Sack",
+    "url": "https://k9sportsack.com/products/urban-3",
+    "price": 99.95,
+    "traction_evidence": "products.json lists Urban 3 $99.95, Kompanion $118.96 (compare-at $139.95), Sky Pack $149.95, Knavigate $199.95, Kolossus $259.95 (VERIFIED read 2026-11-22). Urban 3 product page text shows '55 Reviews' (VERIFIED read). Amazon: Air 2 $99.95 with 3,000 ratings; Trainer $47.96 with 50+ bought in past month and 1,400 ratings (VERIFIED via DataForSEO). Google: 'k9 sport sack' 4,400 searches a month on average (VERIFIED via DataForSEO Google Ads data).",
+    "is_whale": true
+   },
+   {
+    "store": "Kurgo (Radio Systems Corporation, the PetSafe parent)",
+    "url": "https://www.amazon.com/dp/B09KMJCSNP",
+    "price": 79.99,
+    "traction_evidence": "200+ bought in past month, 1,341 ratings, #26,862 in Pet Supplies (VERIFIED via DataForSEO). kurgo.com/products.json returned 404.",
+    "is_whale": true
+   },
+   {
+    "store": "Maxine One",
+    "url": "https://www.amazon.com/dp/B0CLF5X6ZG",
+    "price": 125.0,
+    "traction_evidence": "200+ bought in past month, 428 ratings on Amazon (VERIFIED via DataForSEO). Own site did not load (proxy 502).",
+    "is_whale": false
+   },
+   {
+    "store": "Ruffwear Hitch Hiker",
+    "url": "https://www.amazon.com/dp/B0DSLV6W6X",
+    "price": 99.99,
+    "traction_evidence": "50+ bought in past month, 124 ratings on Amazon (VERIFIED via DataForSEO).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library query 'dog carrier backpack' showed no result count in 3 tries in Playwright on 2026-11-22 (flaky page). Foreplay returned 'Insufficient credits'.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: breathable mesh pet carrier backpack for small dogs and cats",
+    "url": "https://www.aliexpress.us/item/3256813153502270.html",
+    "unit_cost": 25.99,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). no sold count on card."
+   },
+   {
+    "source": "AliExpress US stock: expandable mesh carrier backpack with padded straps",
+    "url": "https://www.aliexpress.us/item/3256812895116651.html",
+    "unit_cost": 24.79,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 6 sold."
+   },
+   {
+    "source": "AliExpress US stock: expandable hiking pet backpack carrier",
+    "url": "https://www.aliexpress.us/item/3256808333715161.html",
+    "unit_cost": 35.59,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). no sold count on card; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: legs-out front carrier backpack",
+    "url": "https://www.aliexpress.us/item/3256808315652940.html",
+    "unit_cost": 14.85,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). no sold count on card; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "Collapsible bowl, rain cover, poop-bag pouch (kit extras)",
+    "url": null,
+    "unit_cost": null,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "UNKNOWN",
+    "delivery_days": "UNKNOWN",
+    "label": "UNKNOWN: not searched in this pass; extras must ship in the same US parcel or the kit becomes two shipments."
+   }
+  ],
+  "best_us_landed_cost": 25.99,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22, $25.99 with 'Free shipping' and 'Fastest delivery in 6 days'; not a promo price; no sold count or reviews on the card, so quality is unproven). Backpack only; kit extras UNKNOWN. The style (mesh box backpack) is closer to Petsfit than to the Kurgo or K9 Sport Sack head-out design.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China-shipped listings not checked in this pass.",
+  "weight_lb": 4.4,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Carrier plus collapsible bowl, rain cover and poop-bag pouch at $79.99; pairs with the Barkfare back-seat kit (car to trail). Add-on later: a cooling mat insert.",
+  "whale_note": "K9 Sport Sack owns the head-out backpack idea and the search term; Kurgo is owned by a large pet company. Amazon unit volume sits with $10 to $50 generics (Pawaboo, Texsens, Petsfit, Pecute).",
+  "ip_safety_flags": "K9 Sport Sack is a trademark with a distinctive head-out look; no patent surfaced in one Google search on 2026-11-22 (not a clearance), so do not copy its shape, name or colors. Load-bearing product: a strap or buckle failure can drop a dog, so ask the supplier for load-test data. No battery, no heating.",
+  "season_note": "Steady all year: 'dog backpack carrier' 12,100 Google searches a month on average, 9,900 in Dec 2025 and 12,100 in Jul 2026 (VERIFIED via DataForSEO). Gift-able, but use peaks in spring and summer hiking.",
+  "risks": "The $25.99 card has no sold count and no reviews; quality, padding and ventilation are unproven until a sample arrives. Generic carriers sell on Amazon at $10 to $50 with thousands bought a month, so $79.99 must be earned with better design and video. Dog-size fit drives returns. Stock depth UNKNOWN.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "A dog riding on its owner's back on a trail or subway is a proven short-video format, and any small-dog creator can film it with their own dog.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "carbon-fiber-pickleball-paddle-kit",
+  "category": "outdoor-sport",
+  "product": "Raw carbon fiber (T700) 16 mm pickleball paddle kit: paddle, neoprene cover, 4 outdoor balls and an overgrip",
+  "what_it_solves": "Players moving up from a cheap fiberglass or wood paddle want the spin and control of a raw carbon face without paying $150 to $250 for a JOOLA or Selkirk paddle.",
+  "sell_price": 79.99,
+  "sell_price_source": "Vatic Pro Prism 16mm at $79.99 on Amazon, 1,000+ bought in past month, 1,714 ratings, #11 in Pickle-Ball Equipment (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0BYMGYVTR); vaticpro.com products.json lists Prism at $49.99 to $79.99, compare-at $99.99 (VERIFIED read 2026-11-22). JOJOLEMON carbon paddle at $75.99 with 600+ bought in past month (VERIFIED via DataForSEO).",
+  "amazon": {
+   "typical_price": 101.99,
+   "bought_past_month_top_listings": 4750,
+   "listings_counted": 21,
+   "top_listing_url": "https://www.amazon.com/dp/B0BYMGYVTR",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Vatic Pro",
+    "url": "https://vaticpro.com/products/prism",
+    "price": 79.99,
+    "traction_evidence": "Prism 1,000+ bought in past month on Amazon, 1,714 ratings; V-Sol Pro $89.99, V-Sol Tour $109.99 on its own store (VERIFIED read 2026-11-22).",
+    "is_whale": false
+   },
+   {
+    "store": "JOOLA",
+    "url": "https://www.amazon.com/dp/B0DQ5XXPML",
+    "price": 199.95,
+    "traction_evidence": "Pro IV raw carbon 1,000+ bought in past month (price not returned); Pro V $199.95 with 400+ bought in past month (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "YVmove",
+    "url": "https://www.amazon.com/dp/B0GGMJ7WB8",
+    "price": 109.99,
+    "traction_evidence": "800+ bought in past month, 690 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "Selkirk Sport",
+    "url": "https://www.amazon.com/dp/B0CVR3725T",
+    "price": 59.99,
+    "traction_evidence": "SLK Halo T700 raw carbon at $59.99 with 200+ bought in past month (VERIFIED via DataForSEO).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library query 'pickleball paddle' showed no result count in 3 tries on 2026-11-22. Foreplay out of credits.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: HONOLULU J2CR thermoformed carbon paddle (another brand)",
+    "url": "https://www.aliexpress.us/item/3256813298104294.html",
+    "unit_cost": 36.41,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 352 sold."
+   },
+   {
+    "source": "AliExpress US stock: HONOLULU J2CR carbon paddle, second listing (another brand)",
+    "url": "https://www.aliexpress.us/item/3256813203620662.html",
+    "unit_cost": 43.01,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 65 sold."
+   },
+   {
+    "source": "AliExpress US stock: GEN5 T700 16 mm carbon paddle (another brand)",
+    "url": "https://www.aliexpress.us/item/3256813216265650.html",
+    "unit_cost": 59.39,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 1 sold."
+   },
+   {
+    "source": "AliExpress US stock: KOOMADE 40-hole outdoor pickleballs, 8 or 16 pieces (kit extra)",
+    "url": "https://www.aliexpress.us/item/3256812845306484.html",
+    "unit_cost": 4.38,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 2K+ sold."
+   }
+  ],
+  "best_us_landed_cost": 36.41,
+  "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-22: $36.41, 'Free shipping', 'Fastest delivery in 6 days', 352 sold; 'New shoppers' promo, so the repeat price is UNKNOWN). It is a HONOLULU-branded paddle, not ours. The cheapest non-promo US-stock T700 card was $59.39 (1 sold).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: China listings and factory quotes not checked; a private-label paddle would need a factory order (MOQ UNKNOWN).",
+  "weight_lb": 0.5,
+  "demo_score_1to5": 3,
+  "bundle_idea": "Paddle plus cover, 4 outdoor balls and an overgrip at $79.99; a two-paddle couples set as the step-up; replacement grips and balls as the reorder.",
+  "whale_note": "Crowded: JOOLA and Selkirk lead, and value brands (Vatic Pro, YVmove, JOJOLEMON) already sell raw carbon at $60 to $110.",
+  "ip_safety_flags": "Tournament players need USA Pickleball approval for the exact model; the 'USAPA Approved' text on AliExpress cards cannot be checked from the card. US-stock cards carry other brands, and one card names its paddle 'Pro V', which echoes JOOLA's Perseus Pro V: avoid copycat listings. Paddle construction patents: UNKNOWN, not searched. No battery.",
+  "season_note": "'pickleball paddle' 301,000 Google searches a month on average; 246,000 in Dec 2025, 135,000 in Oct 2026 and 246,000 in Jul 2026 (VERIFIED via DataForSEO). Christmas gift spike.",
+  "risks": "Brand-led category where players read reviews and specs; a reseller of another brand's paddle builds no brand. Delamination and core breakdown drive returns. USA Pickleball approval UNKNOWN. Cost is near half the price on US stock.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Paddle reviews, spin tests and club-player content are common on YouTube and TikTok; affiliate codes are standard in this sport.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "custom-pet-portrait-canvas-large",
+  "category": "pets-pod",
+  "product": "Custom illustrated pet portrait printed on an 18x24 inch gallery canvas, printed and shipped in the US by Printful (24x36 step-up)",
+  "what_it_solves": "A personal gift for dog and cat owners that is big enough to hang as wall art; the large size is what people frame and show.",
+  "sell_price": 99.95,
+  "sell_price_source": "Crown & Paw custom pet canvas at $99.95 for 16x24 unframed and $159.95 for 24x36 unframed (compare-at $109.95 and $179.95; framed 16x24 $189.95), VERIFIED on https://www.crownandpaw.com/products/penelope-custom-pet-canvas-1.json read 2026-11-22. Our 18x24 is the closest Printful size to their 16x24.",
+  "amazon": {
+   "typical_price": null,
+   "bought_past_month_top_listings": null,
+   "listings_counted": 0,
+   "top_listing_url": null,
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Crown & Paw",
+    "url": "https://www.crownandpaw.com/products/penelope-custom-pet-canvas-1",
+    "price": 99.95,
+    "traction_evidence": "Size ladder $59.95 (8x10) to $259.95 (24x36 framed) read today. 'crown and paw' 2,900 Google searches a month on average and 9,900 in Dec 2025 (VERIFIED via DataForSEO Google Ads data). Review count not read (UNKNOWN).",
+    "is_whale": true
+   },
+   {
+    "store": "West & Willow",
+    "url": "https://www.westandwillow.com",
+    "price": null,
+    "traction_evidence": "products.json returned 133 products but none had 'canvas' in the title (VERIFIED read 2026-11-22); price UNKNOWN.",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library query 'custom pet portrait' showed no result count in 3 tries on 2026-11-22. Foreplay out of credits.",
+  "supply": [
+   {
+    "source": "Printful Canvas (in) 18x24, printed in the US",
+    "url": "https://www.printful.com/custom/wall-art/canvas-prints",
+    "unit_cost": 33.66,
+    "shipping_cost_to_us_customer": 10.79,
+    "ships_from": "US",
+    "delivery_days": "Printful states 2 to 5 business days to fulfill, plus transit (US transit days not read)",
+    "label": "VERIFIED (public price list: api.printful.com/products/3 variant 7 at $33.66, and printful.com/shipping medium-size canvas USA $10.39 plus the $0.40 US surcharge from Oct 15, 2026 to Jan 17, 2027, both read 2026-11-22). Base price, not a quote; art cost not included."
+   },
+   {
+    "source": "Printful Canvas (in) 24x36 (step-up size)",
+    "url": "https://www.printful.com/custom/wall-art/canvas-prints",
+    "unit_cost": 52.02,
+    "shipping_cost_to_us_customer": 10.79,
+    "ships_from": "US",
+    "delivery_days": "2 to 5 business days to fulfill, plus transit",
+    "label": "VERIFIED (same sources; 24x36 is in Printful's medium shipping group). Sells against Crown & Paw's $159.95 24x36 unframed."
+   },
+   {
+    "source": "Printful Canvas (in) 20x30",
+    "url": "https://www.printful.com/custom/wall-art/canvas-prints",
+    "unit_cost": 36.72,
+    "shipping_cost_to_us_customer": 10.79,
+    "ships_from": "US",
+    "delivery_days": "2 to 5 business days to fulfill, plus transit",
+    "label": "VERIFIED (same sources)."
+   },
+   {
+    "source": "AI portrait generation and retouch per order",
+    "url": null,
+    "unit_cost": 5.0,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "n/a",
+    "label": "ASSUMED ($2 generation plus $3 retouch allowance, as in research/fast-test-2026-11-21/pod_price_sweep_inputs.csv)."
+   }
+  ],
+  "best_us_landed_cost": 44.45,
+  "best_us_landed_label": "VERIFIED public prices (Printful 18x24 canvas $33.66 plus $10.79 US shipping with holiday surcharge, read 2026-11-22). Excludes the ASSUMED $5 art cost per order.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "Not applicable: printed in the US.",
+  "weight_lb": null,
+  "demo_score_1to5": 4,
+  "bundle_idea": "18x24 canvas at $99.95; 24x36 at $159.95; add a matching ornament or the digital file as an upsell; a memorial version for pets that have passed.",
+  "whale_note": "Crown & Paw is the category leader and owns the 'pet in a costume' look; Etsy has thousands of portrait sellers (not read today).",
+  "ip_safety_flags": "Do not copy Crown & Paw's costume templates, names or layouts. Get the customer's permission to use their photo in checkout terms. AI-made art must not be presented as hand-painted. Canvas on a wood frame, no glass, so not fragile in the CLAUDE.md sense.",
+  "season_note": "'custom pet portrait' 5,400 Google searches a month on average, 12,100 in Dec 2025, 3,600 in Oct 2026 (VERIFIED via DataForSEO). Christmas: art approval plus Printful's 2 to 5 business days plus transit means orders after about Dec 10 are at risk.",
+  "risks": "Overlaps the barkfare-addons candidate custom-pet-portrait-canvas (sell $62, landed $35.38): rank them as one product with a size ladder. Art approval loops cost time; personalized items cannot be resold, so remakes cost full price. Crown & Paw is a known name at the same price.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Unboxing a portrait of the creator's own dog is an easy, emotional video that pet creators make at home.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "metal-detector-kit",
+  "category": "outdoor-hobby",
+  "product": "Adult metal detector kit: waterproof-coil detector with LCD, handheld pinpointer, digging trowel, finds pouch and headphones",
+  "what_it_solves": "A beginner outdoor hobby with a treasure-hunt payoff (beach, park, yard); the kit answers 'what else do I need' in one box.",
+  "sell_price": 104.49,
+  "sell_price_source": "Gbnryg 'Professional Metal Detector for Adults' at $104.49 on Amazon, 1,000+ bought in past month, 1,663 ratings, #10 in Metal Detectors (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0D3C25SX8).",
+  "amazon": {
+   "typical_price": 127.49,
+   "bought_past_month_top_listings": 8500,
+   "listings_counted": 29,
+   "top_listing_url": "https://www.amazon.com/dp/B0D3C25SX8",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Bounty Hunter (First Texas)",
+    "url": "https://www.amazon.com/dp/B00005A3L1",
+    "price": 71.0,
+    "traction_evidence": "TK4 Tracker IV 1,000+ bought in past month, 14,800 ratings (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "Gbnryg (Amazon brand)",
+    "url": "https://www.amazon.com/dp/B0D3C25SX8",
+    "price": 104.49,
+    "traction_evidence": "1,000+ bought in past month, 1,663 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "Unbranded professional detectors",
+    "url": "https://www.amazon.com/dp/B0H33QCXM3",
+    "price": 181.99,
+    "traction_evidence": "$181.99 with 600+ bought in past month; another at $128.99 with 700+ (VERIFIED via DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "Garrett",
+    "url": "https://www.amazon.com/dp/B00TADH9HA",
+    "price": 109.99,
+    "traction_evidence": "Pro-Pointer AT pinpointer $109.99, 1,000+ bought in past month, 8,900 ratings (VERIFIED via DataForSEO).",
+    "is_whale": true
+   }
+  ],
+  "ad_evidence": "Not checked in the Meta Ad Library this pass (time). UNKNOWN.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: professional underground detector with LCD and waterproof coil",
+    "url": "https://www.aliexpress.us/item/3256811850573305.html",
+    "unit_cost": 48.45,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 116 sold."
+   },
+   {
+    "source": "AliExpress US stock: SucceBuy 10-inch detector (another brand)",
+    "url": "https://www.aliexpress.us/item/3256809336099689.html",
+    "unit_cost": 63.93,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 2,000+ sold."
+   },
+   {
+    "source": "AliExpress US stock: SunPow detector kit with pinpointer (another brand)",
+    "url": "https://www.aliexpress.us/item/3256812607426290.html",
+    "unit_cost": 61.68,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 95 sold."
+   },
+   {
+    "source": "AliExpress US stock: SunPow handheld pinpointer (kit extra)",
+    "url": "https://www.aliexpress.us/item/3256812735646010.html",
+    "unit_cost": 12.53,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 17 sold."
+   }
+  ],
+  "best_us_landed_cost": 48.45,
+  "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-22: $48.45, 'Free shipping', 116 sold; 'New shoppers' promo, so the repeat price is UNKNOWN; no delivery tag). Detector only; a pinpointer adds $12.53 (also a promo price).",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not checked.",
+  "weight_lb": 5.8,
+  "demo_score_1to5": 4,
+  "bundle_idea": "Detector plus pinpointer, trowel, finds pouch and headphones at $104.49; spare coil cover and a beach scoop as add-ons.",
+  "whale_note": "Legacy brands (Garrett, Bounty Hunter, Minelab) and many Amazon brands; no single whale at $60 to $180.",
+  "ip_safety_flags": "Many listings say 'for adults and kids': market to adults only (CLAUDE.md excludes children's products). Electronics: ask for FCC compliance. Some models carry a 4,000 mAh built-in battery (handheld, not worn). Avoid 'find gold' promises; detecting rules in parks vary.",
+  "season_note": "'metal detector' 90,500 Google searches a month on average, 110,000 in Dec 2025 and 110,000 in Oct 2026 (VERIFIED via DataForSEO). Strong Christmas gift.",
+  "risks": "Every US-stock card read is a new-shopper promo price. Depth and discrimination vary; disappointed beginners return. Long box (17 inches) and 5.8 lb. Cost sits near half the price.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "Metal-detecting finds are a large organic video genre with a built-in payoff moment, and beach or park creators film it without showing a face.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "pet-grooming-vacuum-kit",
+  "category": "pets",
+  "product": "Dog grooming vacuum kit (no dryer): low-noise vacuum with clipper, deshedding brush, nozzle and combs",
+  "what_it_solves": "Shedding hair all over the house and the mess of home haircuts; the clipper and brush pull hair straight into the vacuum.",
+  "sell_price": 75.99,
+  "sell_price_source": "oneisall 7-in-1 grooming vacuum at $75.99 on Amazon, 6,000+ bought in past month, 14,170 ratings, #2 in Dog Grooming Clippers (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0BHYZV3HY). Neakasa P1 Pro at $78.84 with 3,000+ bought in past month.",
+  "amazon": {
+   "typical_price": 66.47,
+   "bought_past_month_top_listings": 24500,
+   "listings_counted": 30,
+   "top_listing_url": "https://www.amazon.com/dp/B0BHYZV3HY",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "oneisall",
+    "url": "https://oneisall.com/products/oneisall-dog-grooming-vacuum-kit-lm5",
+    "price": 79.99,
+    "traction_evidence": "Own store LM5 kit $79.99, compare-at $89.99 (VERIFIED products.json 2026-11-22). Amazon 6,000+ bought in past month on one listing, 14,170 ratings (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "Neakasa",
+    "url": "https://neakasa.com/products/neakasa-p1-pro-pet-grooming-vacuum",
+    "price": 66.45,
+    "traction_evidence": "Own store P1 Pro $66.45 to $87.99 (compare-at $129.99), P2 Pro $76.49 to $109.99, S1 Pro $129.99 to $142.99 (VERIFIED products.json). Amazon P1 Pro 3,000+ bought in past month, 17,700 ratings (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "Buenkee",
+    "url": "https://www.amazon.com/dp/B0CQSYJ3CQ",
+    "price": 59.49,
+    "traction_evidence": "3,000+ bought in past month, 3,700 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Not checked in the Meta Ad Library this pass. A store teardown of oneisall exists in research/fast-test-2026-11-21/05_store_teardowns.md (not re-read).",
+  "supply": [
+   {
+    "source": "AliExpress US stock: JHK 2.5 L grooming vacuum kit with cordless clipper (another brand)",
+    "url": "https://www.aliexpress.us/item/3256812122395293.html",
+    "unit_cost": 39.43,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 488 sold."
+   },
+   {
+    "source": "AliExpress US stock: 7-in-1 400 W 13,000 Pa grooming vacuum kit",
+    "url": "https://www.aliexpress.us/item/3256813444227395.html",
+    "unit_cost": 56.09,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). no sold count on card."
+   },
+   {
+    "source": "AliExpress US stock: INSE P30 grooming vacuum, 4.5 L (another brand)",
+    "url": "https://www.aliexpress.us/item/3256810206034455.html",
+    "unit_cost": 65.17,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "Card tag: 'Fastest delivery in 6 days'",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 99 sold."
+   }
+  ],
+  "best_us_landed_cost": 39.43,
+  "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-22: $39.43, 'Free shipping', 'Fastest delivery in 6 days', 488 sold; 'New shoppers' promo, so the repeat price is UNKNOWN). The cheapest non-promo vacuum kit card was $56.09.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not checked.",
+  "weight_lb": 8.71,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Vacuum kit plus spare blade and deshedding brush; replacement filters and blades as the reorder item.",
+  "whale_note": "Two whales: oneisall and Neakasa hold most of the volume at $66 to $88 with 14,000 to 17,700 Amazon ratings each.",
+  "ip_safety_flags": "Mains-powered vacuum: ask for UL or ETL listing and FCC. The cordless clipper has a lithium battery (handheld, not worn). Exclude kits with a heated dryer (house rule). Clipper blades can nick skin: clear instructions. oneisall and Neakasa are trademarks; the generic shape is common.",
+  "season_note": "'dog grooming vacuum' 4,400 Google searches a month on average, 5,400 in Dec 2025 (VERIFIED via DataForSEO). Year-round, with spring shedding.",
+  "risks": "Cost near half the price on US stock; two strong brands at the same price on Prime. Heavy 8.7 lb box. Noise and suction complaints drive returns.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 4,
+  "creator_fit_reason": "Hair vanishing into the hose while the dog stays calm is a satisfying, face-free demo; groomer and shedding-breed creators already post it.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "car-starlight-headliner-kit",
+  "category": "car",
+  "product": "Fiber-optic starlight headliner kit (800 to 1,200 strands, twinkle and meteor, app and remote) with an install tool set",
+  "what_it_solves": "A luxury 'starry sky' car ceiling, the look of high-end cars, for under $100 in parts.",
+  "sell_price": 75.65,
+  "sell_price_source": "VASTFIRE 800-strand starlight headliner kit at $75.65 on Amazon, 500+ bought in past month, 104 ratings, #4 in Fiber Optic Lights (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0F62MTXN3). 1,000-strand 32 W kit at $115.59 with 600+ bought in past month.",
+  "amazon": {
+   "typical_price": 86.28,
+   "bought_past_month_top_listings": 4250,
+   "listings_counted": 43,
+   "top_listing_url": "https://www.amazon.com/dp/B0D9V9M64X",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "FCKLIGHTBARS.COM (Top Tier LED Lighting)",
+    "url": "https://fcklightbars.com",
+    "price": null,
+    "traction_evidence": "Running a Meta ad for its 'Starlight Headliner Kit' since Apr 29, 2025 (comparison video against an Amazon kit, lifetime warranty claim), read in the Meta Ad Library 2026-11-22. Price UNKNOWN: products.json returned 429 and the guessed product URL returned 404.",
+    "is_whale": false
+   },
+   {
+    "store": "AZIMOM (Amazon brand)",
+    "url": "https://www.amazon.com/dp/B0F9FJXCBH",
+    "price": 129.62,
+    "traction_evidence": "Dual-color 800-strand kit $129.62 with 100+ bought in past month (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "Meta Ad Library keyword search 'starlight headliner' (US, active): about 180 results on the second try, 2026-11-22; first ad from Top Tier LED Lighting (FCKLIGHTBARS.COM), started Apr 29, 2025. Keyword matches across advertisers, not ads for one product (VERIFIED read; flaky page). Foreplay out of credits.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: twinkle starlight kit, single or dual head, 500 to 1,200 strands (card price is the lowest variant; which variant is UNKNOWN)",
+    "url": "https://www.aliexpress.us/item/3256812867715038.html",
+    "unit_cost": 41.09,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 14 sold."
+   },
+   {
+    "source": "AliExpress US stock: 1,200-strand split kit with 200 meteor strands",
+    "url": "https://www.aliexpress.us/item/3256813311251462.html",
+    "unit_cost": 57.08,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 204 sold; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: 16 W RGBW kit, 500 or 1,000 strands",
+    "url": "https://www.aliexpress.us/item/3256812968312635.html",
+    "unit_cost": 31.53,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 11 sold."
+   },
+   {
+    "source": "AliExpress US stock: 32 W twinkle and meteor kit",
+    "url": "https://www.aliexpress.us/item/3256812978405950.html",
+    "unit_cost": 66.62,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 58 sold."
+   }
+  ],
+  "best_us_landed_cost": 41.09,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22: $41.09, 'Free shipping', 14 sold, not a promo; no delivery tag). The card spans 500 to 1,200 strands, so the $41.09 likely buys the smallest variant; the 800-strand price is UNKNOWN.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not checked.",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Light engine plus 800 strands, app remote, trim tool, hole template and fuse tap at $75.65 to $89; a no-drill 'split' version for renters and leased cars.",
+  "whale_note": "No whale: many Amazon brands at $50 to $160 with 50 to 600 bought a month each.",
+  "ip_safety_flags": "Install means drilling hundreds of holes in the headliner: permanent, and a leased car can be damaged. 12 V wiring into the fuse box can start a fire if done badly. Remote and Bluetooth need FCC. Never mention Rolls-Royce in ads (trademark).",
+  "season_note": "'starlight headliner' 14,800 Google searches a month on average, 18,100 in Oct 2026 and 14,800 in Dec 2025 (VERIFIED via DataForSEO). Year-round car-mod interest.",
+  "risks": "Hard DIY install; drilled headliners cannot be returned, which raises chargebacks; support load. Weight UNKNOWN (Amazon box 8.6 x 8.6 x 2.7 inches). US-stock cards have 1 to 204 sold each.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "The lights-off reveal of a starry car roof is a 3-second wow, and car-mod creators post installs without showing a face.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "window-cleaning-robot",
+  "category": "home",
+  "product": "Window cleaning robot with dual water spray, remote, safety tether and backup battery, plus spare pads and cleaning solution bottle",
+  "what_it_solves": "Cleaning large or hard-to-reach glass (sliding doors, tall windows, shower glass) without ladders or streaks.",
+  "sell_price": 119.99,
+  "sell_price_source": "Anminto automatic window cleaning robot at $119.99 on Amazon, 100+ bought in past month, 35 ratings (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0H8RJFPRG). Thin proof: WA9C Pro at $159.99 with 200+ bought in past month is the strongest generic listing.",
+  "amazon": {
+   "typical_price": 159.99,
+   "bought_past_month_top_listings": 1400,
+   "listings_counted": 32,
+   "top_listing_url": "https://www.amazon.com/dp/B0GJDQ59J1",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "ECOVACS (WINBOT)",
+    "url": "https://www.amazon.com/dp/B0GJDQ59J1",
+    "price": 521.0,
+    "traction_evidence": "WINBOT W3 Omni $521 with 300+ bought in past month; W2S Pro $399.99 with 100+ (VERIFIED via DataForSEO).",
+    "is_whale": true
+   },
+   {
+    "store": "WA9C (Amazon brand)",
+    "url": "https://www.amazon.com/dp/B0HBJBXJG9",
+    "price": 159.99,
+    "traction_evidence": "200+ bought in past month, 223 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "HUTT",
+    "url": "https://www.amazon.com/dp/B0HFZ61LZ3",
+    "price": 255.99,
+    "traction_evidence": "H10 100+ bought in past month, 702 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library query 'window cleaning robot' showed no result count in 3 tries on 2026-11-22.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: PuRuiKai window robot with 5 m safety rope (another brand)",
+    "url": "https://www.aliexpress.us/item/3256809485781964.html",
+    "unit_cost": 56.29,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 208 sold; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: PuRuiKai ultra-thin window robot (another brand)",
+    "url": "https://www.aliexpress.us/item/3256807804282206.html",
+    "unit_cost": 55.86,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 10,000+ sold; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: PuRuiKai 5,600 Pa window robot (another brand)",
+    "url": "https://www.aliexpress.us/item/3256806709470236.html",
+    "unit_cost": 87.99,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 17 sold; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: COTIAR W10 9,000 Pa window robot (another brand)",
+    "url": "https://www.aliexpress.us/item/3256813057299038.html",
+    "unit_cost": 101.44,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 3 sold."
+   }
+  ],
+  "best_us_landed_cost": 101.44,
+  "best_us_landed_label": "VERIFIED (AliExpress US search card read 2026-11-22: COTIAR W10 $101.44 with 'Free shipping', 3 sold, not a promo). This is the cheapest card with a known shipping fee. The PuRuiKai cards ($55.86 to $87.99, 17 to 10,000+ sold) show no shipping fee, so their landed cost is UNKNOWN; if they ship free, the best landed cost would be $56.29.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not checked.",
+  "weight_lb": null,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Robot plus 12 spare pads and a spray-bottle refill; pads and solution as the reorder item.",
+  "whale_note": "ECOVACS owns the premium end ($400+); the $100 to $160 band is many small Amazon brands with 100 to 200 bought a month each.",
+  "ip_safety_flags": "A robot falling from an upper-floor window can hurt someone below: insist on a tether and a backup battery (lithium, not worn) and clear instructions. Mains adapter: ask for UL or ETL and FCC. US-stock units are branded PuRuiKai or COTIAR, so blind shipping and own branding are UNKNOWN.",
+  "season_note": "'window cleaning robot' 14,800 Google searches a month on average, 18,100 in Dec 2025 and 18,100 in Jul 2026 (VERIFIED via DataForSEO). Spring cleaning is the other peak.",
+  "risks": "Thin sales proof at $100 to $160 (100 to 200 bought a month per listing). The cheap PuRuiKai units are older, lower-suction designs than the $119.99 Amazon units, so the spec match is weak. Streak and edge-detection complaints drive returns.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "A robot crawling up a dirty window and leaving a clean stripe is a classic satisfying clip that needs no face.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ },
+ {
+  "id": "rug-tufting-starter-kit",
+  "category": "hobby",
+  "product": "Rug tufting starter kit: 2-in-1 cut and loop tufting gun, carpet trimmer, primary cloth, yarn set and a tabletop frame",
+  "what_it_solves": "Making your own custom rug or wall hanging at home, a hobby made popular by tufting videos; the kit removes the hunt for the right gun, cloth and frame.",
+  "sell_price": 93.99,
+  "sell_price_source": "BESGEER rug tufting gun with carpet trimmer kit at $93.99 on Amazon, 200+ bought in past month, 880 ratings, #2 in Rug Punch Supplies (VERIFIED via DataForSEO 2026-11-22, https://www.amazon.com/dp/B0CNWVZMXV). Tuft the World sells its starter kit at $275 to $325 (tufttheworld.com products.json, VERIFIED read 2026-11-22).",
+  "amazon": {
+   "typical_price": 111.99,
+   "bought_past_month_top_listings": 750,
+   "listings_counted": 38,
+   "top_listing_url": "https://www.amazon.com/dp/B0CNWVZMXV",
+   "checked": "2026-11-22"
+  },
+  "dtc_competitors": [
+   {
+    "store": "Tuft the World",
+    "url": "https://tufttheworld.com/products/kit-with-frame-tufting-machine-and-cloth",
+    "price": 275.0,
+    "traction_evidence": "Starter kit $275 to $325 (compare-at $365), The Duo machine $199 to $260, AK5 $250, workshops $50 to $150 (VERIFIED products.json 2026-11-22). Review counts not read.",
+    "is_whale": false
+   },
+   {
+    "store": "BESGEER (Amazon brand)",
+    "url": "https://www.amazon.com/dp/B0CNWVZMXV",
+    "price": 93.99,
+    "traction_evidence": "200+ bought in past month, 880 ratings; kit with frame $279.99 (VERIFIED via DataForSEO).",
+    "is_whale": false
+   },
+   {
+    "store": "Vehipa (Amazon brand)",
+    "url": "https://www.amazon.com/dp/B0F1D52RMK",
+    "price": 93.49,
+    "traction_evidence": "100+ bought in past month, 702 ratings (VERIFIED via DataForSEO).",
+    "is_whale": false
+   }
+  ],
+  "ad_evidence": "UNKNOWN. Meta Ad Library query 'tufting gun' showed no result count in 3 tries on 2026-11-22.",
+  "supply": [
+   {
+    "source": "AliExpress US stock: 2-in-1 tufting gun starter kit with trimmer",
+    "url": "https://www.aliexpress.us/item/3256805679954833.html",
+    "unit_cost": 50.73,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). 27 sold; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN."
+   },
+   {
+    "source": "AliExpress US stock: Taskstar tufting gun starter kit with carpet trimmer (another brand)",
+    "url": "https://www.aliexpress.us/item/3256812724190593.html",
+    "unit_cost": 70.48,
+    "shipping_cost_to_us_customer": 0,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "ESTIMATED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; 'New shoppers' promo price, repeat price UNKNOWN; item page not opened). 21 sold."
+   },
+   {
+    "source": "AliExpress US stock: complete tufting kit with gun, trimmer and frame",
+    "url": "https://www.aliexpress.us/item/3256812239702973.html",
+    "unit_cost": 156.49,
+    "shipping_cost_to_us_customer": null,
+    "ships_from": "US",
+    "delivery_days": "UNKNOWN (no delivery tag on card)",
+    "label": "VERIFIED (AliExpress US search card read 2026-11-22 with the 'Ship from United States' filter; item page not opened; a marketplace listing price, not a supplier quote). no sold count on card; no 'Free shipping' tag on the card, so the shipping fee is UNKNOWN; 'Early bird deal, only few left' tag, stock doubtful."
+   }
+  ],
+  "best_us_landed_cost": 70.48,
+  "best_us_landed_label": "ESTIMATED (AliExpress US search card read 2026-11-22: Taskstar kit $70.48, 'Free shipping', 21 sold; 'New shoppers' promo, so the repeat price is UNKNOWN). A generic kit card shows $50.73 (27 sold) but no shipping fee, so its landed cost is UNKNOWN.",
+  "best_cn_landed_cost": null,
+  "best_cn_landed_label": "UNKNOWN: not checked.",
+  "weight_lb": 8.75,
+  "demo_score_1to5": 5,
+  "bundle_idea": "Gun plus trimmer, cloth, 20 yarn colors and a tabletop frame; yarn packs, cloth and glue as the reorder items; printable rug patterns as a free lead magnet.",
+  "whale_note": "No whale; Tuft the World is the niche brand with workshops and a premium kit.",
+  "ip_safety_flags": "Corded power tool with a fast needle: injury risk; ask for UL or ETL listing. Mains powered, no heating. Do not copy Tuft the World's kit names or content.",
+  "season_note": "'tufting gun' 8,100 Google searches a month on average, 12,100 in Dec 2025, 5,400 in Oct 2026 (VERIFIED via DataForSEO). Gift spike in December, craft season in winter.",
+  "risks": "Niche volume (50 to 200 bought a month per Amazon listing). Learning curve leads to 'too hard' returns. Cost on US stock is near three quarters of the Amazon price.",
+  "checked": "2026-11-22",
+  "creator_fit_1to5": 5,
+  "creator_fit_reason": "Tufting and the trim reveal are a known satisfying format with a large hobby creator base; hands-only filming, no face.",
+  "tiktok_shop_evidence": "UNKNOWN: TikTok Shop search pages (tiktok.com/shop/s/...) returned a 'Verify to continue' puzzle in Playwright on 2026-11-22, and Google results for shop.tiktok.com pages returned no sold counts."
+ }
+]

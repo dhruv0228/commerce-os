@@ -12,27 +12,154 @@
     "Uncommitted contingency": 400
   },
   "lanes": [
-    {"id": "bf", "name": "Black Friday learning lane", "window": "Nov 22 to Nov 30", "items": [
-      {"what": "Shopify, first month", "amount": 1, "budget_line": "Store and essential software", "kind": "spend", "label": "ESTIMATED", "source": "CLAUDE.md section 0 ($1 a month for 3 months; verify at signup)"},
-      {"what": "Domain name", "amount": 15, "budget_line": "Store and essential software", "kind": "spend", "label": "ASSUMED", "source": "typical .com first-year price"},
-      {"what": "One hammock seat cover to your home (the sample)", "amount": 25, "budget_line": "Samples and shipping", "kind": "spend", "only_if": "the logged-in check confirms the price and stock", "label": "ESTIMATED", "source": "AliExpress US card $24.58 (candidates_barkfare-addons.json)"},
-      {"what": "Three hammocks gifted to small dog creators who drive with their dogs", "amount": 74, "budget_line": "Creative production", "kind": "spend", "only_if": "three creators say yes to the drafted message", "label": "ESTIMATED", "source": "3 x $24.58 card price"},
-      {"what": "Meta ads in Cyber Week, hard cap", "amount": 120, "budget_line": "First advertising test", "kind": "spend", "only_if": "the pixel test order works", "label": "ASSUMED", "source": "house plan: about $24 a day for 5 days"},
-      {"what": "Supplier payments for hammock orders before Shopify pays out", "amount": 100, "budget_line": "Supplier working capital", "kind": "float", "label": "ASSUMED", "source": "about 4 orders x $24.58"}
-    ]},
-    {"id": "xm", "name": "Christmas lane", "window": "Dec 1 to Dec 12", "items": [
-      {"what": "One extender from the cheaper US listing (the sample)", "amount": 54, "budget_line": "Samples and shipping", "kind": "spend", "only_if": "the item page matches the hero spec (size, rigid board, weight rating)", "label": "ESTIMATED", "source": "$47.31 card price + $6.70 add-ons (candidates_barkfare-hero.json)"},
-      {"what": "Meta ads on whichever product passed its go price", "amount": 160, "budget_line": "First advertising test", "kind": "spend", "only_if": "a product passes its go price on the confirmed cost", "label": "ASSUMED", "source": "house plan; remainder of the $400 ad line after Black Friday and January"},
-      {"what": "Supplier payments for Christmas orders before payout", "amount": 200, "budget_line": "Supplier working capital", "kind": "float", "only_if": "ads run", "label": "ASSUMED", "source": "about 4 extender orders x $54"}
-    ]},
-    {"id": "lt", "name": "Long term: Barkfare own brand", "window": "Dec to Feb", "items": [
-      {"what": "5-kit own-brand batch, part paid from the samples line", "amount": 171, "budget_line": "Samples and shipping", "kind": "spend", "only_if": "supplier quotes are back and you approve the order", "label": "ESTIMATED", "source": "5 kits $403.80 (research/money-math-2026-11-19/outputs.json); samples line left after the two samples"},
-      {"what": "5-kit batch, the rest", "amount": 233, "budget_line": "Uncommitted contingency", "kind": "spend", "only_if": "you release contingency for it", "label": "ESTIMATED", "source": "$403.80 minus $171"},
-      {"what": "Meta ads for the kit launch", "amount": 120, "budget_line": "First advertising test", "kind": "spend", "only_if": "the 5 kits arrive and pass your inspection", "label": "ASSUMED", "source": "house plan"}
-    ]},
-    {"id": "res", "name": "Held back", "window": "the whole time", "items": [
-      {"what": "Refund and chargeback reserve", "amount": 250, "budget_line": "Refund and chargeback reserve", "kind": "reserve", "label": "ASSUMED", "source": "CLAUDE.md section 0"},
-      {"what": "Contingency still held", "amount": 167, "budget_line": "Uncommitted contingency", "kind": "reserve", "label": "ASSUMED", "source": "$400 minus the $233 batch remainder"}
-    ]}
+    {
+      "id": "bf",
+      "name": "Black Friday learning lane",
+      "window": "Nov 22 to Nov 30",
+      "items": [
+        {
+          "what": "Shopify, first month",
+          "amount": 1,
+          "budget_line": "Store and essential software",
+          "kind": "spend",
+          "label": "ESTIMATED",
+          "source": "CLAUDE.md section 0 ($1 a month for 3 months; verify at signup)"
+        },
+        {
+          "what": "Domain name",
+          "amount": 15,
+          "budget_line": "Store and essential software",
+          "kind": "spend",
+          "label": "ASSUMED",
+          "source": "typical .com first-year price"
+        },
+        {
+          "what": "One hammock seat cover to your home (the sample)",
+          "amount": 28,
+          "budget_line": "Samples and shipping",
+          "kind": "spend",
+          "only_if": "the logged-in check confirms the price and stock",
+          "label": "ESTIMATED",
+          "source": "non-promo US cards $21.75 to $27.60; higher end used (04_skeptic_products.md)"
+        },
+        {
+          "what": "Three hammocks gifted to small dog creators who drive with their dogs",
+          "amount": 83,
+          "budget_line": "Creative production",
+          "kind": "spend",
+          "only_if": "three creators say yes to the drafted message",
+          "label": "ESTIMATED",
+          "source": "3 x $27.60 (04_skeptic_products.md)"
+        },
+        {
+          "what": "Meta ads in Cyber Week, hard cap",
+          "amount": 120,
+          "budget_line": "First advertising test",
+          "kind": "spend",
+          "only_if": "the pixel test order works",
+          "label": "ASSUMED",
+          "source": "house plan: about $24 a day for 5 days"
+        },
+        {
+          "what": "Supplier payments for hammock orders before Shopify pays out",
+          "amount": 100,
+          "budget_line": "Supplier working capital",
+          "kind": "float",
+          "label": "ASSUMED",
+          "source": "about 4 orders x $27.60"
+        }
+      ]
+    },
+    {
+      "id": "xm",
+      "name": "Christmas lane",
+      "window": "Dec 1 to Dec 12",
+      "items": [
+        {
+          "what": "One extender from the cheaper US listing (the sample)",
+          "amount": 54,
+          "budget_line": "Samples and shipping",
+          "kind": "spend",
+          "only_if": "the item page matches the hero spec (size, rigid board, weight rating)",
+          "label": "ESTIMATED",
+          "source": "$47.31 card price + $6.70 add-ons (candidates_barkfare-hero.json)"
+        },
+        {
+          "what": "Meta ads on whichever product passed its go price",
+          "amount": 160,
+          "budget_line": "First advertising test",
+          "kind": "spend",
+          "only_if": "a product passes its go price on the confirmed cost",
+          "label": "ASSUMED",
+          "source": "house plan; remainder of the $400 ad line after Black Friday and January"
+        },
+        {
+          "what": "Supplier payments for Christmas orders before payout",
+          "amount": 200,
+          "budget_line": "Supplier working capital",
+          "kind": "float",
+          "only_if": "ads run",
+          "label": "ASSUMED",
+          "source": "about 4 extender orders x $54"
+        }
+      ]
+    },
+    {
+      "id": "lt",
+      "name": "Long term: Barkfare own brand",
+      "window": "Dec to Feb",
+      "items": [
+        {
+          "what": "5-kit own-brand batch, part paid from the samples line",
+          "amount": 168,
+          "budget_line": "Samples and shipping",
+          "kind": "spend",
+          "only_if": "supplier quotes are back and you approve the order",
+          "label": "ESTIMATED",
+          "source": "5 kits $403.80 (research/money-math-2026-11-19/outputs.json); samples line left after the two samples"
+        },
+        {
+          "what": "5-kit batch, the rest",
+          "amount": 236,
+          "budget_line": "Uncommitted contingency",
+          "kind": "spend",
+          "only_if": "you release contingency for it",
+          "label": "ESTIMATED",
+          "source": "$403.80 minus $168"
+        },
+        {
+          "what": "Meta ads for the kit launch",
+          "amount": 120,
+          "budget_line": "First advertising test",
+          "kind": "spend",
+          "only_if": "the 5 kits arrive and pass your inspection",
+          "label": "ASSUMED",
+          "source": "house plan"
+        }
+      ]
+    },
+    {
+      "id": "res",
+      "name": "Held back",
+      "window": "the whole time",
+      "items": [
+        {
+          "what": "Refund and chargeback reserve",
+          "amount": 250,
+          "budget_line": "Refund and chargeback reserve",
+          "kind": "reserve",
+          "label": "ASSUMED",
+          "source": "CLAUDE.md section 0"
+        },
+        {
+          "what": "Contingency still held",
+          "amount": 164,
+          "budget_line": "Uncommitted contingency",
+          "kind": "reserve",
+          "label": "ASSUMED",
+          "source": "$400 minus the $236 batch remainder"
+        }
+      ]
+    }
   ]
 }

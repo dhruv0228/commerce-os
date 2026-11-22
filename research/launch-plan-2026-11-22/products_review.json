@@ -1,0 +1,251 @@
+{
+ "scouts": [
+  {
+   "key": "barkfare-addons",
+   "summary": "I found 7 candidates. Three meet the rule that the US-stock cost is about a third of a price other sellers prove they get: the soft back-seat hammock, the SUV cargo liner and the front seat cover. All three are commodity soft goods. Prices of $70 to $110 are proven only for brands with reviews (4Knines, Ruff Liners, Team K9), and most Amazon volume sells at $20 to $46. The hammock is the best Black Friday learning product. It is light, easy to film, and creators already sell it for 4Knines and PetsVet Supply. The other items fit better as add-ons to the extender. Door covers have no US source, and the back-seat bed, custom portrait and car ramp fail the cost test. The biggest finding is about the hero itself: AliExpress US cards today showed hard-bottom extenders at $47.31 and $48.92 with free shipping and 6-day delivery tags. The Nov 21 ranking used $76.99, so this needs a supplier check. Nothing was bought, sent or logged into.",
+   "top3": [
+    {
+     "id": "waterproof-dog-hammock-seat-cover",
+     "why": "US stock $24.58 (473 sold) against a proposed $69 kit; 4Knines sells at $79.99 and Ruff Liners at $109.99 with Amazon volume. Creator ads exist in this category. The risk is that generics sell for $24 to $34.",
+     "sell_price": 69,
+     "us_landed_cost": 24.58,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256812679473069.html",
+      "https://4knines.com/products/dog-rear-seat-cover-with-hammock-regular",
+      "https://www.amazon.com/dp/B0DSK1Y9J6",
+      "https://www.amazon.com/dp/B00DQFZGZ0"
+     ]
+    },
+    {
+     "id": "suv-cargo-liner-dog",
+     "why": "US stock $21.42 against a proposed $69. 4Knines and Team K9 list it at $79.99, and Amazon XL liners at $90 to $96 sell 200+ a month. The cheap source has no sales, and Google search demand is tiny (320 a month).",
+     "sell_price": 69,
+     "us_landed_cost": 21.42,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256813379906952.html",
+      "https://4knines.com/products/cargo-liner-for-suvs-small",
+      "https://teamk9.com/products/waterproof-cargo-cover",
+      "https://www.amazon.com/dp/B0GG8TXTY6"
+     ]
+    },
+    {
+     "id": "front-bucket-seat-cover-dog",
+     "why": "US stock $15.45 against 4Knines at $44.99, which sells 200+ a month on Amazon with 1,800 ratings. It works only as an order-value add-on: weak creator hook, and the US source has 3 sales.",
+     "sell_price": 44.99,
+     "us_landed_cost": 15.45,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256812250169844.html",
+      "https://www.amazon.com/dp/B00KAFYNTE",
+      "https://4knines.com/products/bucket-seat-cover-for-dogs-and-pets-for-cars-trucks-and-suvs"
+     ]
+    }
+   ],
+   "files": [
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_barkfare-addons.json",
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_barkfare-addons.md"
+   ],
+   "blocked": [
+    "Foreplay MCP returned HTTP 402 (no credits), so there is no Foreplay ad data",
+    "Meta Ad Library came back empty for 'ruff liners' and 'cargo liner for dogs' (the page is flaky in Playwright)",
+    "AliExpress item pages were not opened (captcha on Nov 21), so costs are search-card prices and stock depth is unknown",
+    "CJdropshipping was not retried (human verification on Nov 21); Zendrop and Spocket need logins",
+    "TikTok Shop sold counts were not found by web search",
+    "kurgo.com has no products.json (404) and myfunnyfuzzy.com refused the connection",
+    "No US-stock source was found for dog door covers",
+    "No patent search was run today",
+    "Most product weights are unknown"
+   ]
+  },
+  {
+   "key": "holiday-gifts",
+   "summary": "I found 8 holiday-gift products and wrote them to the JSON and MD files. Two meet the one-third cost rule against a price other sellers already get. The rolling knife sharpener costs $13.07 from US stock. Generics sell on Amazon at $33.99 (6,000+ bought past month), a TikTok Shop listing shows 10,783 sold at $39, and small DTC stores (Hatori, NorthernKnife) sell at $79.95 to $99.90 with Meta ads running. The monitor light bar costs $8.85 from US stock against Quntis at $33.96 on Amazon and $41.99 to $43.99 on its own store. The salt and pepper grinder set passes on paper ($10.55 against $39.97), but every US card showed about 1 unit left. The smoker kit, car vacuum, pressure washer, meat thermometer and bird feeder fail: US cost is 46% to 115% of the proven price. All costs are AliExpress search-card prices, not supplier quotes. TikTok sold counts come from Google snippets. Nothing was bought or contacted. The top two can be bought as 10 to 20 units and shipped from home.",
+   "top3": [
+    {
+     "id": "rolling-knife-sharpener-kit",
+     "why": "US cost $13.07 is 19% of the proposed $69 kit and 34 to 38% of proven $34 to $39 prices. Strong creator demo, Meta advertisers active, light, no battery. Stock thin; patents not cleared.",
+     "sell_price": 69,
+     "us_landed_cost": 13.07,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256812688812619.html",
+      "https://www.amazon.com/dp/B0CRDK541R",
+      "https://hatoriknives.com/products/hatori-rolling-knife-sharpener",
+      "https://northernknife.com/products/rolling-knife-sharpener",
+      "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&q=rolling%20knife%20sharpener"
+     ]
+    },
+    {
+     "id": "monitor-light-bar-desk-kit",
+     "why": "US cost $8.85 is 20% of a proposed $44.99 kit and 26% of the Quntis Amazon price. Tech-worker gift with steady demand all year. TikTok sells it at $24 to $37, which caps price.",
+     "sell_price": 44.99,
+     "us_landed_cost": 8.85,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256812455029377.html",
+      "https://www.amazon.com/dp/B08DKQ3JG1",
+      "https://www.quntis.com/products/quntis-monitor-light-bar-im-40-cm-15-7-inch-black-rgb-dimmable-screenbar-usb-powered-eye-care-task-light-for-computer-monitor"
+     ]
+    },
+    {
+     "id": "electric-salt-pepper-grinder-set",
+     "why": "US cost $10.55 is 26% of ThermoMaven's $39.97 Amazon price (3,000+ a month). Strong December search peak. But US cards show about 1 unit in stock, so the cost is not repeatable today.",
+     "sell_price": 39.97,
+     "us_landed_cost": 10.55,
+     "key_source_urls": [
+      "https://www.aliexpress.us/item/3256813400886540.html",
+      "https://www.amazon.com/dp/B0D7Q7LNNY"
+     ]
+    }
+   ],
+   "files": [
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_holiday-gifts.json",
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_holiday-gifts.md",
+    "/tmp/claude-0/-home-user-commerce-os/c2389654-3ee7-5e31-ba87-8e168cf76207/scratchpad/gifts/build.py"
+   ],
+   "blocked": [
+    "AliExpress item pages not opened (captcha last session): shipping fees, variants and stock depth are search-card values only",
+    "TikTok Shop pages not opened: sold counts come from Google snippets via DataForSEO, and the exact shop.tiktok.com URLs were not resolved",
+    "Meta Ad Library returned 'No ads match' on 4 tries for 'monitor light bar' and 'electric salt and pepper grinder'; the meat thermometer and bird feeder were not checked",
+    "products.json returned 404 for mybirdbuddy.com, horl.com, ganiza.com and middletonmixology.com; connections failed for nelko.net, itutn.com, foghatcocktails.com, ganizausa.com and ganizashop.com",
+    "CJdropshipping, Zendrop and Spocket were not tried (verification wall or login required)",
+    "Patent checks were one or two web searches per product, not a clearance; USPS rules for shipping an empty butane torch are UNKNOWN"
+   ]
+  },
+  {
+   "key": "high-margin",
+   "summary": "I scanned 24 Amazon keywords through DataForSEO, 14 AliExpress US-stock searches, the public Printful catalog and shipping prices, 7 store products.json files and Google search volumes. That produced 8 candidates. Only one meets the one-third rule at a price another seller proves: a dog carrier backpack kit. A US-stock card shows $25.99 with free shipping, against Kurgo G-Train at $79.99 with 200+ bought in the past month, and it fits Barkfare. The large custom pet portrait canvas from Printful comes next: $44.45 landed for 18x24 against Crown and Paw's $99.95, and $62.81 for 24x36 against $159.95. It overlaps the barkfare-addons canvas and should be ranked with it as one product. Everything else costs half the proven price or more on US stock, the same problem as the 36. The metal detector, starlight headliner, window robot and tufting kit are here mainly because creators could sell them. Most costs are AliExpress first-order promo prices. TikTok Shop, Foreplay and most Meta Ad Library checks were blocked.",
+   "top3": [
+    {
+     "id": "dog-carrier-backpack-kit",
+     "why": "Only candidate at about one third: $25.99 US-stock card with free shipping against Kurgo $79.99 (200+ bought/mo). Fits the Barkfare customer, creator fit 5. The listing has no sold count or reviews, so a sample is needed.",
+     "sell_price": 79.99,
+     "us_landed_cost": 25.99,
+     "key_source_urls": [
+      "https://www.amazon.com/dp/B09KMJCSNP",
+      "https://k9sportsack.com/products/urban-3",
+      "https://www.aliexpress.us/item/3256813153502270.html"
+     ]
+    },
+    {
+     "id": "custom-pet-portrait-canvas-large",
+     "why": "Printed in the US by Printful: $33.66 plus $10.79 shipping against Crown & Paw's $99.95 (16x24), and the 24x36 size against $159.95. Merge with the barkfare-addons canvas.",
+     "sell_price": 99.95,
+     "us_landed_cost": 44.45,
+     "key_source_urls": [
+      "https://www.crownandpaw.com/products/penelope-custom-pet-canvas-1.json",
+      "https://api.printful.com/products/3",
+      "https://www.printful.com/shipping"
+     ]
+    },
+    {
+     "id": "metal-detector-kit",
+     "why": "Strong demand (90,500 searches/mo, 110,000 in Dec). Amazon listing at $104.49 with 1,000+ bought/mo. Creator fit 5. The $48.45 US cost is a first-order promo price, so cost is about half the price.",
+     "sell_price": 104.49,
+     "us_landed_cost": 48.45,
+     "key_source_urls": [
+      "https://www.amazon.com/dp/B0D3C25SX8",
+      "https://www.aliexpress.us/item/3256811850573305.html"
+     ]
+    }
+   ],
+   "files": [
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_high-margin.json",
+    "/home/user/commerce-os/research/launch-plan-2026-11-22/candidates_high-margin.md"
+   ],
+   "blocked": [
+    "TikTok Shop search pages: 'Verify to continue' puzzle; every tiktok_shop_evidence is UNKNOWN",
+    "Foreplay MCP: HTTP 402, 0 credits",
+    "Meta Ad Library: only 'starlight headliner' returned a count (about 180); 5 other queries showed no count after 3 tries",
+    "AliExpress item pages not opened; shipping fee UNKNOWN on cards without a 'Free shipping' tag",
+    "kurgo.com 404, canadapooch.com 429, maxineone.com proxy 502, fcklightbars.com 429/404",
+    "Printify prices not read (API needs a token, pages need JavaScript)",
+    "Etsy, CJdropshipping, Zendrop, Spocket not tried (known blocks or logins)",
+    "No patent clearance; one Google search for K9 Sport Sack patents returned only retail pages"
+   ]
+  }
+ ],
+ "refute": {
+  "checks": [
+   {
+    "id": "waterproof-dog-hammock-seat-cover",
+    "price_holds": "partly holds",
+    "cost_holds": "partly holds",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "4Knines LLC owns design patents titled 'Seat cover with floor hammock', 'Split bench seat cover' and USD1116542S1 'Split cover for a vehicle interior'. This comes from Google Patents snippets; the patents were not opened. US7677662B2 covers a hammock-style seat cover, status UNKNOWN. Ruff Liners holds US 12,221,024 on door flaps. Avoid split-bench or floor-hammock look-alikes.",
+    "corrected_values": "The $24.58 cost could not be reproduced. Card 3256812679473069 now shows only $16.58 as a 'New shoppers' price. Non-promo US cards: $21.75 (20 sold, 3256812347350787) to $27.60 (5 sold). Seat belts UNKNOWN. Generic price proven by sales: $23.98 to $33.99 (URPOWER, Amazon, 9,000+ and 1,000+).",
+    "evidence": "The $79.99 price holds only for 4Knines (Amazon B00DQFZGZ0, 300+ a month, 6,168 ratings, VERIFIED) and Ruff Liners ($109.99, 'As Seen on Shark Tank'). Mancro sells at $18.04 with 2,000+ a month. A TikTok snippet shows $24 and a Temu snippet $16.49 (ESTIMATED). Search demand is 12,100 a month for 'dog car seat cover' and 4,400 for 'dog hammock for car'."
+   },
+   {
+    "id": "suv-cargo-liner-dog",
+    "price_holds": "does not hold",
+    "cost_holds": "does not hold",
+    "demand_holds": "partly holds",
+    "rule_or_ip_problem": "A 4Knines design patent family includes 'Cover adaptable to foldable vehicle seats'. A design patent, USD703116S1 'Zippered vehicle rear bumper protector', also exists. Both come from snippets, ESTIMATED. Wrong-size SUV fits will cause returns.",
+    "corrected_values": "US cost UNKNOWN. Card 3256813379906952 shows $21.42, 0 sold, 'only 1 left' and no free-shipping tag. The $32.46 backup card also has 1 left. Generic price proven by sales: $27.99 to $45.89. The $90 to $96 price applies only to XL liners with foam or cushioned walls (200+ each).",
+    "evidence": "The top Amazon listing B0GG8TXTY6 is $45.89 (500+), not a $90 liner. B08LPJB9KK sells at $33.23 with 1,000+ a month and ALLANSING at $39.94 with 700+ (VERIFIED). 4Knines and Team K9 list $79.99 with no sales count. Google demand is 320 a month."
+   },
+   {
+    "id": "front-bucket-seat-cover-dog",
+    "price_holds": "partly holds",
+    "cost_holds": "holds",
+    "demand_holds": "partly holds",
+    "rule_or_ip_problem": "Falls in the same 4Knines seat-cover design patent family (snippets). Generic otherwise. No battery or heat.",
+    "corrected_values": "Generic price proven by sales: $11.04 to $23.79. $44.99 is the 4Knines brand price only. The $15.45 cost holds as displayed (3 sold, free shipping, 6 days).",
+    "evidence": "4Knines B00KAFYNTE is $44.99 with 1,890 ratings and ranks #108 in Automotive Seat Covers (VERIFIED). Its 200+ badge was not in my scan. Generic sellers: $13.59 (900+), $11.04 (500+), $23.79 with side flaps (700+), a 2-pack at $26.58 (1,000+). Our cost is above several generic retail prices. Search demand is 590 a month."
+   },
+   {
+    "id": "rolling-knife-sharpener-kit",
+    "price_holds": "partly holds",
+    "cost_holds": "partly holds",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "A Google Patents snippet shows the HORL family DE102016009482A1 (Otmar Horl) with a 'family litigation' marker. A patent, US12654275B2 'Magnetic sharpening jig', also exists; owner not read. One Amazon listing claims 'Original Patented'. Tumbler uses a TM mark. A US patent check is needed before buying stock.",
+    "corrected_values": "The $13.07 card shows only 3 left and no free-shipping tag, so its shipping fee is UNKNOWN. Repeatable US cost: $15.15 (3256812646672190, 4 sold, free shipping). Strop and gift box UNKNOWN. Generic price proven by sales: $15.99 to $33.99.",
+    "evidence": "AIERLIAN sells at $33.99 with 6,000+ a month (VERIFIED). Similar kits sell at $18.99 (300+), $15.99 (200+) and $29.99 (400+). TikTok snippets show $16.99 (388 sold) and $18.89 (322 sold). The '10,783 sold at $39' snippet was not reproduced. Hatori $79.95 VERIFIED; its reviews are a vendor figure. Search demand: 8,100 a month, 22,200 in Dec 2025."
+   },
+   {
+    "id": "monitor-light-bar-desk-kit",
+    "price_holds": "does not hold",
+    "cost_holds": "holds",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "Design patents exist for screen bar lamps: USD946803S1 'Screen bar lamp' and USD952236S1. Owners not read (snippets). Do not copy the BenQ ScreenBar shape. No eye-health claims.",
+    "corrected_values": "Proven prices: $33.96 for Quntis (brand, 4,000+ a month) and $11.89 to $13.59 for generic bars (1,000+ to 2,000+). The proposed $44.99 is not proven. The $8.85 cost holds (10 sold, free shipping, no promo tag); remote and length UNKNOWN.",
+    "evidence": "Quntis B08DKQ3JG1 is $33.96 with 13,978 ratings and ranks #1 in USB Reading Lamps (VERIFIED). Generic bars: B0GSPZ797T $13.59 with 2,000+, B0FW43JPNG $11.89 with 1,000+, RGB bar B0G4ZYSP7J $13.59 with 500+ (VERIFIED). Search demand: 6,600 a month, flat."
+   },
+   {
+    "id": "electric-salt-pepper-grinder-set",
+    "price_holds": "partly holds",
+    "cost_holds": "does not hold",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "A small lithium battery sits in a kitchen tool (not worn), which the rules allow. Food-contact papers are needed. Patent US11910959B2 'Electric grinder' exists; owner not read.",
+    "corrected_values": "US cost UNKNOWN. The $10.55 card has 0 sold and 'only 1 left'. The $9.75 card also has 1 left, and the $5.21 card is a new-shopper price. Generic price proven by sales: $16.14 to $21.65.",
+    "evidence": "ThermoMaven sells at $39.97 with 3,000+ a month and ranks #1 (VERIFIED). It is a brand. Generic sets outsell it: $18.98 (10,000+), $21.65 (10,000+), a gravity set at $16.14 (8,000+). The US AliExpress search mostly returns grain mills. Search demand: 40,500 in Dec 2025."
+   },
+   {
+    "id": "dog-carrier-backpack-kit",
+    "price_holds": "does not hold",
+    "cost_holds": "holds",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "Serious. Snippets list K9 Sport Sack LLC as owner of utility patents US10617096B2 (pet backpack with a head collar opening) and US12453333B2 (granted 2025-10-28), and design patents USD1013285S1 and USD876826S1. Head-out designs are risky. As a load-bearing product it also needs strap test data.",
+    "corrected_values": "Proven price for the costed mesh bubble-backpack type: $21.24 to $33.99 (Amazon). $79.99 is the Kurgo brand price only. The $25.99 cost holds as displayed (0 sold, free shipping, 6 days) but is above the retail price of the same type.",
+    "evidence": "Kurgo G-Train is $79.99 with 1,341 ratings and ranks #37 in its category (VERIFIED). Its 200+ badge was not re-verified. Texsens' bubble backpack sells at $21.79 with 2,000+ a month and an expandable mesh backpack at $33.99 with 900+ (VERIFIED). A TikTok snippet shows $16.99 with 421 sold. Search demand: 12,100 a month."
+   },
+   {
+    "id": "custom-pet-portrait-canvas-large",
+    "price_holds": "partly holds",
+    "cost_holds": "holds",
+    "demand_holds": "partly holds",
+    "rule_or_ip_problem": "Crown & Paw says its portraits are hand-illustrated. AI art must never be described that way. Do not copy their costume scenes. Customers must license their photos. Christmas cut-off risk.",
+    "corrected_values": "The 16x24 Printful 'Canvas (in)' variant 19303 costs $31.11 and matches Crown & Paw's size exactly; use it instead of 18x24 at $33.66. 24x36 is $52.02 (VERIFIED). Shipping of $10.79 was not re-read. Price proven outside Crown & Paw: $16.99 to $32.99 on Amazon.",
+    "evidence": "Crown & Paw's product data, read today: 16x24 unframed $99.95, 24x36 $159.95, no sales count (VERIFIED). Amazon pet portrait canvases sell at $19.97 (200+) and $32.99 (100+). Search demand for 'custom pet portrait': 5,400 a month on average, 12,100 in Dec 2025, 3,600 in Oct 2026."
+   },
+   {
+    "id": "metal-detector-kit",
+    "price_holds": "partly holds",
+    "cost_holds": "partly holds",
+    "demand_holds": "holds",
+    "rule_or_ip_problem": "Many listings say 'Adults & Kids', so we must sell to adults only (children's products are out of scope). The #1 Amazon detector is a kids' kit. The SUNPOW model has a 1,500 mAh lithium battery (handheld, not worn). FCC papers are needed. Long 5.8 lb box.",
+    "corrected_values": "The cited card now shows $46.69, still a new-shopper price. A non-promo sibling card (3256811951167885) shows $48.39 with 51 sold and free shipping; whether it matches the spec is UNKNOWN. Price proven by volume: $55.65 to $71. $104.49 comes from one seller.",
+    "evidence": "Gbnryg sells at $104.49 with 1,000+ a month (VERIFIED). Other adult detectors: GoGonova $56.98 (1,000+), $67.98 with LCD (800+), Bounty Hunter $71 (1,000+), SUNPOW $55.65 (500+), all VERIFIED. A Temu snippet shows $74.85. Search demand: 'metal detector' 90,500 a month, 'metal detector for adults' 260."
+   }
+  ],
+  "bottom_line": "None of the nine holds up fully. Each 'proven' price belongs to a brand (4Knines, Ruff Liners, Kurgo, Quntis, ThermoMaven, Crown & Paw, Gbnryg). Generic versions sell with volume at one third to one half of that, often near our US cost. Two US costs can't be repeated: the cargo liner and grinder cards show 1 left. The knife sharpener's $13.07 card shows only 3 left, so its repeatable cost is $15.15. K9 Sport Sack and 4Knines patents sit near the backpack and the seat covers. Strongest left: the rolling knife sharpener ($15.15 against $33.99 with 6,000+ a month and a December peak), pending a HORL patent check. Next is the pet canvas (cost confirmed; high price proven only by Crown & Paw). Notes: /home/user/commerce-os/research/launch-plan-2026-11-22/04_skeptic_products.md"
+ }
+}
