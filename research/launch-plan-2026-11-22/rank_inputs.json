@@ -1,0 +1,361 @@
+{
+  "checked": "2026-11-22",
+  "note": "Inputs for scripts/fast_test_rank.py when run on research/launch-plan-2026-11-22 with --include=research/fast-test-2026-11-21. Copied from the Nov 21 inputs; new scout groups added below.",
+  "meta_cpa_benchmark_usd": {
+    "_label": "ESTIMATED",
+    "_source": "Triple Whale Facebook ads benchmarks, median cost per purchase, Nov 2025 to Oct 2026, 41,000+ brands, read 2026-11-21 (04_reality_and_benchmarks.md, section 10). Established brands, not new stores.",
+    "pets": 39.23,
+    "home": 48.61,
+    "tech": 51.06,
+    "outdoor": 45.3,
+    "beauty": 40.44,
+    "auto": 35.63,
+    "all": 39.73
+  },
+  "new_store_multiplier": {
+    "value": 1.3,
+    "label": "ASSUMED",
+    "source": "CLAUDE.md section 4, tough scenario"
+  },
+  "refund_pct_us_stock": {
+    "value": 0.06,
+    "label": "ASSUMED",
+    "source": "house value in scripts/channels.py (refund_pct_dtc)"
+  },
+  "refund_pct_us_stock_high": {
+    "value": 0.1,
+    "label": "ASSUMED",
+    "source": "CLAUDE.md section 4 high scenario"
+  },
+  "refund_pct_china_shipped": {
+    "value": 0.1,
+    "label": "ASSUMED",
+    "source": "CLAUDE.md high scenario used as the base for 10 to 15 day delivery; real refund rate by shipping speed is UNKNOWN (04_reality_and_benchmarks.md)"
+  },
+  "cost_stress_multiplier": {
+    "value": 1.2,
+    "label": "ASSUMED",
+    "source": "supplier costs are marketplace search-card prices read during a Black Friday promotion; this checks the product still earns money if the real cost is 20% higher"
+  },
+  "setup_costs_usd": {
+    "shopify_first_month": {
+      "value": 1,
+      "label": "ESTIMATED",
+      "source": "Shopify $1/month for the first 3 months (CLAUDE.md section 0; verify at signup)"
+    },
+    "domain": {
+      "value": 15,
+      "label": "ASSUMED",
+      "source": "typical .com first-year price; verify at purchase"
+    },
+    "supplier_app": {
+      "value": 0,
+      "label": "ESTIMATED",
+      "source": "ordering by hand from a US-stock listing needs no app; Zendrop with 1 to 20 products is $29/month (03_fulfillment_and_money.md)"
+    }
+  },
+  "budgets_usd": [
+    500,
+    1000
+  ],
+  "week1_sales_goal_usd": 2000,
+  "learning_phase_purchases_per_week": {
+    "value": 50,
+    "label": "VERIFIED",
+    "source": "Meta Business Help Center, about 50 results per ad set per week (04_reality_and_benchmarks.md)"
+  },
+  "category_rules": {
+    "_note": "Which Meta benchmark each product uses. Each scout file has a default. In the two mixed files a keyword in the product's category picks the benchmark; if more than one matches, the more expensive one is used.",
+    "file_default": {
+      "pets": "pets",
+      "home": "home",
+      "auto-outdoor": "outdoor",
+      "tech-desk": "tech",
+      "beauty-fitness": "beauty",
+      "barkfare": "pets",
+      "barkfare-addons": "pets",
+      "holiday-gifts": "all",
+      "high-margin": "all"
+    },
+    "file_keywords": {
+      "auto-outdoor": [
+        [
+          "tech",
+          "tech"
+        ],
+        [
+          "car",
+          "auto"
+        ],
+        [
+          "truck",
+          "auto"
+        ],
+        [
+          "auto",
+          "auto"
+        ]
+      ],
+      "beauty-fitness": [
+        [
+          "fitness",
+          "outdoor"
+        ],
+        [
+          "sport",
+          "outdoor"
+        ],
+        [
+          "recovery",
+          "outdoor"
+        ],
+        [
+          "massage",
+          "outdoor"
+        ],
+        [
+          "gym",
+          "outdoor"
+        ]
+      ],
+      "holiday-gifts": [
+        [
+          "pet",
+          "pets"
+        ],
+        [
+          "dog",
+          "pets"
+        ],
+        [
+          "cat",
+          "pets"
+        ],
+        [
+          "kitchen",
+          "home"
+        ],
+        [
+          "home",
+          "home"
+        ],
+        [
+          "decor",
+          "home"
+        ],
+        [
+          "bath",
+          "home"
+        ],
+        [
+          "clean",
+          "home"
+        ],
+        [
+          "desk",
+          "tech"
+        ],
+        [
+          "tech",
+          "tech"
+        ],
+        [
+          "electronic",
+          "tech"
+        ],
+        [
+          "gadget",
+          "tech"
+        ],
+        [
+          "car",
+          "auto"
+        ],
+        [
+          "auto",
+          "auto"
+        ],
+        [
+          "outdoor",
+          "outdoor"
+        ],
+        [
+          "camp",
+          "outdoor"
+        ],
+        [
+          "sport",
+          "outdoor"
+        ],
+        [
+          "fitness",
+          "outdoor"
+        ],
+        [
+          "beauty",
+          "beauty"
+        ]
+      ],
+      "high-margin": [
+        [
+          "pet",
+          "pets"
+        ],
+        [
+          "dog",
+          "pets"
+        ],
+        [
+          "cat",
+          "pets"
+        ],
+        [
+          "kitchen",
+          "home"
+        ],
+        [
+          "home",
+          "home"
+        ],
+        [
+          "decor",
+          "home"
+        ],
+        [
+          "bath",
+          "home"
+        ],
+        [
+          "clean",
+          "home"
+        ],
+        [
+          "desk",
+          "tech"
+        ],
+        [
+          "tech",
+          "tech"
+        ],
+        [
+          "electronic",
+          "tech"
+        ],
+        [
+          "gadget",
+          "tech"
+        ],
+        [
+          "car",
+          "auto"
+        ],
+        [
+          "auto",
+          "auto"
+        ],
+        [
+          "outdoor",
+          "outdoor"
+        ],
+        [
+          "camp",
+          "outdoor"
+        ],
+        [
+          "sport",
+          "outdoor"
+        ],
+        [
+          "fitness",
+          "outdoor"
+        ],
+        [
+          "beauty",
+          "beauty"
+        ]
+      ]
+    }
+  },
+  "test_plan": {
+    "ad_budget_usd": {
+      "value": 350,
+      "label": "ASSUMED",
+      "source": "house plan: $50 a day for 7 days, inside Dhruv's $500 to $1,000 total; creators in 02_youtube_sweep.md test at $25 to $100 a day"
+    },
+    "days": 7,
+    "daily_ad_usd": 50
+  },
+  "claim_check": {
+    "revenue_target_usd": 100000,
+    "days_left_in_year": {
+      "value": 40,
+      "label": "VERIFIED",
+      "source": "Nov 21 to Dec 31, 2026"
+    },
+    "average_order_usd": {
+      "value": 74.62,
+      "label": "ESTIMATED",
+      "source": "Triple Whale median Meta AOV, all industries, Nov 2025 to Oct 2026 (04_reality_and_benchmarks.md)"
+    },
+    "creator_month": {
+      "label": "ESTIMATED",
+      "source": "Austin Rabin's self-reported September 2026 figures for Haven Golf, unaudited (01_video_decode.md section 4)",
+      "revenue": 125463.94,
+      "meta_spend": 68886.1,
+      "net_profit": 12596.51
+    },
+    "creator_year": {
+      "label": "ESTIMATED",
+      "source": "His self-reported April 2025 to April 2026 figures, unaudited (01_video_decode.md section 4)",
+      "revenue": 2849426.27,
+      "net_profit": 602441.64
+    }
+  },
+  "rule_review": {
+    "_label": "ASSUMED",
+    "_source": "Our reading of each product against CLAUDE.md section 2 (out of scope: significant safety risk, high return complexity) using the scouts' ip_safety_flags. Dhruv can overrule.",
+    "blocked": {
+      "jump-starter-air-compressor": "High-current lithium pack clamped to a car battery; certification UNKNOWN. The scout flagged it as a likely fail on safety.",
+      "dog-force-dryer": "Mains-powered heated appliance used on animals; electrical certification UNKNOWN; over 10 lb.",
+      "towel-warmer-bucket": "Mains-powered heating appliance; electrical certification UNKNOWN; over 9 lb.",
+      "cordless-heated-blanket": "Battery-heated textile; certification UNKNOWN; no US stock found.",
+      "heated-gloves-7v": "Blocked until battery certification is in hand: lithium packs and a heating element worn on the body, paperwork (UL, ETL or UN38.3) UNKNOWN. Its low cost is a listing with 3 sold.",
+      "heated-vest-powerbank-kit": "Blocked until battery certification is in hand: heating element worn on the body; two sellers and two parcels.",
+      "heated-socks-app": "Blocked until battery certification is in hand: lithium packs worn against the leg.",
+      "leg-air-compression-massager-heat": "Medical rule: an air-compression leg massager is an FDA Class II device when sold for circulation or pain. The scout flagged it as likely excluded.",
+      "cordless-heated-hand-massager": "Medical rule: air-compression massagers sold for pain or circulation are FDA Class II devices; lithium battery and heat.",
+      "shiatsu-foot-massager-machine": "Mains-powered heated appliance, certification UNKNOWN; listings lean on health claims we cannot use.",
+      "cordless-neck-shoulder-kneading-massager": "Blocked until battery certification is in hand: lithium battery and a heating element next to the neck."
+    },
+    "caution": {
+      "cordless-tire-inflator": "Lithium battery with a motor; certification UNKNOWN; two giant brands.",
+      "mattress-vacuum-uv": "UV light: no germ-killing or health claims allowed without proof.",
+      "japanese-style-knife-set": "The $26.49 cost is a 15-piece block set with 12 sold, not the gift set the $99 price is based on. Meta's ad rules on bladed items do not clearly allow kitchen knives. Never call it Japanese-made unless it is.",
+      "rechargeable-wall-sconce-pair": "Amazon sells sets of 2 at $45 to $57 with Prime, about half our price. The cost is one listing with 12 sold.",
+      "music-boxing-machine": "Design patents exist for this product type; which factory shapes they cover is UNKNOWN.",
+      "barkfare-extender-us-stock": "Your approved Nov 18 fast lane. The listing has 9 sales and an unknown store; the price is our own proposed kit price.",
+      "portable-carplay-screen-kit": "CarPlay and Android Auto are trademarks: 'works with' wording only, no logos. Similar screens sell for $45 to $77 on Amazon."
+    }
+  },
+  "proven_listing_cost_usd": {
+    "_label": "ESTIMATED",
+    "_source": "The battle skeptic's re-check of the three products that earn money on the cheapest listing: the cost of the better-proven or closer-matching US listing in candidates_*.json (battle.json, refute)",
+    "japanese-style-knife-set": {
+      "value": 33.39,
+      "note": "next US block set"
+    },
+    "rechargeable-wall-sconce-pair": {
+      "value": 47.15,
+      "note": "style closer to the Amazon best sellers ($45.91 to $52.89)"
+    },
+    "heated-gloves-7v": {
+      "value": 48.69,
+      "note": "the US listing with 110 sold"
+    }
+  },
+  "shortlist_rule": {
+    "value": 0.15,
+    "label": "ASSUMED",
+    "source": "house choice: a product is worth a logged-in cost check if its listed cost is within 15% of the highest cost that passes the cushion rule"
+  }
+}

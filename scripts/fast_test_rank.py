@@ -11,6 +11,7 @@ Card fees come from data/channel_params.json through scripts/channels.py.
 
 Usage:
     python3 scripts/fast_test_rank.py research/fast-test-2026-11-21
+    python3 scripts/fast_test_rank.py research/launch-plan-2026-11-22 --include=research/fast-test-2026-11-21
 """
 import glob
 import json
@@ -99,7 +100,10 @@ def week1(us, budget, setup_fixed, goal):
 
 
 def main():
-    folder = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "research/fast-test-2026-11-21")
+    args = [a for a in sys.argv[1:] if not a.startswith("--include=")]
+    folder = pathlib.Path(args[0] if args else "research/fast-test-2026-11-21")
+    # --include=<folder> adds the candidate files of another research folder (repeatable).
+    extra = [pathlib.Path(a.split("=", 1)[1]) for a in sys.argv[1:] if a.startswith("--include=")]
     inp = json.loads((folder / "rank_inputs.json").read_text())
     params = ch.load_params()
     pay_pct = ch.v(params["dtc_meta"]["payment_pct_combined_for_economics_py"])
@@ -112,7 +116,10 @@ def main():
     goal = inp["week1_sales_goal_usd"]
 
     rows = []
-    for path in sorted(glob.glob(str(folder / "candidates_*.json"))):
+    paths = sorted(glob.glob(str(folder / "candidates_*.json")))
+    for ex in extra:
+        paths += sorted(glob.glob(str(ex / "candidates_*.json")))
+    for path in paths:
         file_key = pathlib.Path(path).stem.replace("candidates_", "")
         data = json.loads(pathlib.Path(path).read_text())
         if isinstance(data, dict):
